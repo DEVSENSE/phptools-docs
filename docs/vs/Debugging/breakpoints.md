@@ -42,14 +42,6 @@ This opens the **Breakpoint Condition** dialog, in which you may configure a bre
 
 You can define types of exception that should break your program when they are thrown. See [Exceptions](exceptions) to find out more about this.
 
-## Not Supported Breakpoint Types
-
-These breakpoints are present in Visual Studio, but they are not currently supported; They are planned for next releases:
-
-- "When Hit" breakpoints (Tracepoints)
-- "Hit Count" breakpoints
-- Conditional breakpoints with "Has Changed" option ("Is True" does work as expected)
-
 ## Known Issues
 
 - If you have a single statement which is not enclosed in curly brackets inside control-flow statement (`if`, `for`, `while`, `else`) it will not break, but execution goes through this place as expected.
