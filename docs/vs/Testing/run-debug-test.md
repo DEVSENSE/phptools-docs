@@ -13,4 +13,3 @@ Version: 1.13 and higher
 In order to debug tests, ensure you have [PHP interpreter](/debug/installing-php) properly configured. Tests always run locally and require PHP and Xdebug to be properly configured.
 
 Choose tests to debug in the Test Explorer, right click and select `Debug Selected Tests`. This will initiate the PHP Debugger with the ability to stop on breakpoints, watch for variables and other debugger features.
-
