@@ -1,5 +1,5 @@
 /*
-Title: PHP Version Validation
+Title: Validación de la versión de PHP
 Description: Validation of used constructs against current PHP version.
 */
 
