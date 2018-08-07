@@ -1,5 +1,5 @@
 /*
-Title: Spell Checking
+Title: Revisión de escritura
 Description: Ensure that your source code, including strings and comments, is spelt correctly.
 */
 
