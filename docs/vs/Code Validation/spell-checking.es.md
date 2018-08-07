@@ -17,7 +17,7 @@ Para este propósito, recomendamos instalar VSSpellChecker, que puede ser descar
 
 ## Cambiar el diccionario
 
-  La extensión viene con diferentes diccionarios para los lenguajes más comunes. El diccionario se puede cambiar en `Herramientas | Spell Checker | Editar Configuración`, en la sección de **Diccionario Global** se elige el lenguaje preferido y luego ser hace clic en **Añadir**. Al presionar <kbd>Ctrl + S</kbd> se guarda la configuración. Puede ser necesario reabrir los archivos para que entre en efecto la nueva configuración.
+  La extensión viene con diferentes diccionarios para los lenguajes más comunes. El diccionario se puede cambiar en `Herramientas | Spell Checker | Editar Configuración`. En la sección de **Diccionario Global** se elige el lenguaje preferido y luego ser hace clic en **Añadir**. Al presionar <kbd>Ctrl + S</kbd> se guarda la configuración. Puede ser necesario reabrir los archivos para que entre en efecto la nueva configuración.
 
 ## Más información
 
