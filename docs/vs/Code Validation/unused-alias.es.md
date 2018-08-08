@@ -1,5 +1,5 @@
 /*
-Title: Declaraciones de _use_ innecesarias
+Title: Declaraciones de use innecesarias
 Description: Unnecessary use highlighting.
 */
 
