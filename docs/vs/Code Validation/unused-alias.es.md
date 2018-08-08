@@ -22,7 +22,7 @@ La siguiente imagen demuestra el resaltado de la declaración _use_ para funcion
 
 ![Special uses](imgs/custom-uses.png)
 
-Las declaraciones de _use_ en grupo son compatibles desde PHP 7.0 y también son compatibles con PHP Tools, así como con todas las otras características de PHP 7.0. 
+Las declaraciones de _use_ en grupo son compatibles desde PHP 7.0 y también son compatibles con PHP Tools, así como todas las otras características de PHP 7.0. 
 Todos los _use_ en grupo son monitorizados separadamente y aquellos que no son necesarios son resaltados.
 El grupo entero es reportado, pero solamente cuando todos sus _use_ no son necesarios.
 El siguiente ejemplo resalta la funcionalidad: `ClassB` no se utiliza en el código y como resultado se encuentra atenuado, porque se está utilizando la `ClassA`.
