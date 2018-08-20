@@ -11,7 +11,7 @@ The [Xdebug PHP extension](http://xdebug.org/) is required to allow PHP Tools to
 
 Choose the version depending on your PHP version, but always **32bit**. It is strongly recommended to use the **non-thread safe** (NTS) version on Windows.
 
-You can also use the tool provided by Xdebug developers: [Xdebug Wizard](http://xdebug.org/wizard.php) You can copy and paste your phpinfo output. It will give you the correct version to download.
+You can also use the tool provided by Xdebug developers: [Xdebug Wizard](http://xdebug.org/wizard.php). You can copy and paste your phpinfo output. It will give you the correct version to download.
 
 ## Copy Xdebug binary to your PHP Extensions Folder
 
