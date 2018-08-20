@@ -33,7 +33,7 @@ Puede darle condiciones a un punto de interrupción al hacer clic con el botón 
 
 Esto abrirá el cuadro de diálogo de condiciones para los puntos de interrupción en el que se pueden configurar los criterios de sus condiciones. Aquí puede elegir habilitar o deshabilitar una condición, proporcionar una expresión de predicado para la condición, y elegir si detener la ejecución cuando la condición `Es true` o `Cuando cambie`(por los momentos únicamente es compatible para `Es true`).
 
-Como se espera, habilitar una condición evita que un punto de interrupción detenga la ejecución cuando éste es alcanzado, a menos de que se cumplan los criterios de condición. Vea [Excepciones](exceptions) para saber más.
+Como se espera, habilitar una condición evita que un punto de interrupción detenga la ejecución cuando éste es alcanzado, a menos de que se cumplan los criterios de condición.
 
 
 ![Conditional Breakpoint dialog](imgs\conditional-breakpoint-dialog.png)
@@ -41,7 +41,7 @@ Como se espera, habilitar una condición evita que un punto de interrupción det
 
 ## Administrar excepciones
 
- Puede definir los tipos de excepciones en los que se debería interrumpir el programa cuando se producen. Vea el artículo sobre Excepciones para más información. 
+ Puede definir los tipos de excepciones en los que se debería interrumpir el programa cuando se producen. Vea el artículo sobre [Excepciones](exceptions) para más información. 
 
 ## Problemas conocidos
 
