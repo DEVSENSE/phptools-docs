@@ -23,7 +23,7 @@ Copy downloaded Xdebug binaries into the PHP extensions folder.
 
 Edit [PHP Configuration file](http://php.net/manual/en/configuration.file.php). Its name is usually `php.ini`, and it is located within your PHP runtime folder.
 
-Add the following lines at the end of your configuration file. Change the absolute path for xdebug so it corresponds to the correct path on your system.
+Add the following lines at the end of your configuration file. Change the absolute path for Xdebug so it corresponds to the correct path on your system.
 
 ```
 [XDEBUG]
