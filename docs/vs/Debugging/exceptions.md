@@ -19,7 +19,7 @@ You can choose to break on any exception immediately when thrown. These settings
 
 To configure an exception that does not appear in this list, click the `Add button` to add it. The name must match the full name of the exception precisely.
 
-The left-hand checkbox ("Thrown") for each exception controls whether the debugger always breaks when it is raised. You should check this box when you want to break more often for a particular exception.
+The right-hand checkbox ("Thrown") for each exception controls whether the debugger always breaks when it is raised. You should check this box when you want to break more often for a particular exception.
 
 ## Common issues
 
