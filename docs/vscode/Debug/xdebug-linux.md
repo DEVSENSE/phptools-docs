@@ -26,11 +26,11 @@ xdebug.remote_autostart = 1
     1. Open Visual Studio Code
     2. Open a simple PHP file, like:
 
-```
-<?php
-echo "hello world";
-?>
-```
+    ```
+    <?php
+    echo "hello world";
+    ?>
+    ```
 
     3. Add a breakpoint to a statement (*echo* in the example)
     4. Start a debug session using the configuration *Launch current script in Console*
