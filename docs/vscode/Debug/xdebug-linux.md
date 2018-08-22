@@ -11,14 +11,27 @@ There are other ways to a remote debugger, like cookies, query parameters or bro
 
 ## Step-by-step guide
 
-Install XDebug I highly recommend you make a simple test.php file, put a phpinfo(); statement in there, then copy the output and paste it into the XDebug installation wizard. It will analyze it and give you tailored installation instructions for your environment. In short: 
-On Windows: Download the appropiate precompiled DLL for your PHP version, architecture (64/32 Bit), thread safety (TS/NTS) and Visual Studio compiler version and place it in your PHP extension folder.
-On Linux: Either download the source code as a tarball or clone it with git, then compile it.
-Configure PHP to use XDebug by adding zend_extension=path/to/xdebug to your php.ini. The path of your php.ini is shown in your phpinfo() output under "Loaded Configuration File".
-Enable remote debugging in your php.ini:
+1. Install Xdebug (```apt-get install php-xdebug``` in Ubuntu).
+2. Configure PHP to use Xdebug by adding ```zend_extension=path/to/xdebug``` to your *xdebug.ini*. The config file can be found by running ```locate xdebug.ini``` (in Ubuntu with PHP 7.2 it is located in */etc/php/7.2/mods-available/xdebug.ini*). The line should already be there, just make sure it is.
+3. Enable remote debugging in *xdebug.ini* by adding the following code:
 
 ```
-[XDebug]
 xdebug.remote_enable = 1
 xdebug.remote_autostart = 1
 ```
+
+4. Restart webserver to reload the settings, if applicable.
+5. Verify the installation by checking the Xdebug section in phpinfo().
+6. Verify compatibility with PHP Tools:
+    1. Open Visual Studio Code
+    2. Open a simple PHP file, like:
+
+```
+<?php
+echo "hello world";
+?>
+```
+
+    3. Add a breakpoint to a statement (*echo* in the example)
+    4. Start a debug session using the configuration *Launch current script in Console*
+    5. The Xdebug is properly setup, if the breakpoint is hit
