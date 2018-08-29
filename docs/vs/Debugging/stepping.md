@@ -15,7 +15,7 @@ Once you have broken into the debugger, you can step through your code - executi
 
 ![Step commands](imgs\step-into.png)
 
-> **Note**: In the previous picture, **Step into** has broken at the first line with the statement, and not at `{`, as it is the usual behavior in Visual Studio. The reason is thath PHP does not generate any instruction there to break on.
+> **Note**: In the previous picture, **Step into** has broken at the first line with the statement, and not at `{`, as it is the usual behavior in Visual Studio. The reason is that PHP does not generate any instruction there to break on.
 
 **Step Over** will execute the next statement, but if it is a call to a function, then the entire function will be executed. This allows you to easily skip functions when you are not interested in debugging them. Check the **Debug**, **Step Over** menu to find the keyboard shortcut (typically <kbd>F10</kbd>).
 
