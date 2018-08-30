@@ -34,7 +34,7 @@ WAMP setup installs its own PHP configuration. To use WAMP installation with PHP
 
 Ensure that your first loaded page is syntax-error-free, and that there are not two functions with the same name. The debugger does not handle parse error on the entering script.
 
-### I get message in the output window: "There wasn't established any directory mapping. Debugging most likely won't work correctly."
+### I get this message in the output window: "There wasn't established any directory mapping. Debugging most likely won't work correctly."
 
 Make sure the file you are requesting as the first one is included in your project. Automatic mapping mechanism requires that a file is part of the project in order to map it correctly.
 
@@ -47,7 +47,7 @@ Turn off zend_optimizer.
 
 ### While using QuickWatch, Watch or Immediate window, debugging stops working
 
-There is a known issue with **Xdebug** causing debugging sessions to stop working for the current request. You have to be use `set_error_handler()` function to catch errors and to use QuickWatch, Watch or Immediate window to evaluate an expression throwing an error. This combination makes **Xdebug** unusable for the rest of the request.
+There is a known issue with **Xdebug** causing debugging sessions to stop working for the current request. You have to use `set_error_handler()` function to catch errors and to use QuickWatch, Watch or Immediate window to evaluate an expression throwing an error. This combination makes **Xdebug** unusable for the rest of the request.
 
 As a workaround, it is recommended not to call `set_error_handler()` in your code when debugging. 
 
