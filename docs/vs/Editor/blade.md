@@ -6,7 +6,7 @@ Description: Blade templates support.
 # Blade Support
 
 Blade templates are an integral part of the Laravel framework. PHP Tools natively supports the Blade templates since version 1.28 in Visual studio 2015 and newer.
-PHP Tools provides intellisense and navigation for Blade templates. The following sections provide detailed information on all the available features.
+PHP Tools provides Intellisense and navigation for Blade templates. The following sections provide detailed information on all the available features.
 The Blade support is fully built-in and its features do not require Blade or Laravel to be installed in the project.
 
 ## Syntax Highlighting
