@@ -51,7 +51,7 @@ PHP Tools provide tooltip support for the following constructs:
 
 <center><i>This image shows an example of a tooltip for built-in modifier <code>capitalize</code>, including its PHPDoc documentation.</i></center>
 
-## Intellisense Completion
+## IntelliSense Completion
 
 PHP Tools provides intellisense completion assistance that provides available functions, variables and keywords.
 The matching completion list is displayed either when the user starts typing a new word or when the completion is directly activated by the `Complete Word` command (<kdb>Ctrl+Space</kdb>).

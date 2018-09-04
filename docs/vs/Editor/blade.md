@@ -6,7 +6,7 @@ Description: Blade templates support.
 # Blade Support
 
 Blade templates are an integral part of the Laravel framework. PHP Tools natively supports the Blade templates since version 1.28 in Visual studio 2015 and newer.
-PHP Tools provides Intellisense and navigation for Blade templates. The following sections provide detailed information on all the available features.
+PHP Tools provides IntelliSense and navigation for Blade templates. The following sections provide detailed information on all the available features.
 The Blade support is fully built-in and its features do not require Blade or Laravel to be installed in the project.
 
 ## Syntax Highlighting
@@ -31,7 +31,7 @@ PHP Tools provide tooltip support for the following constructs:
 
 <center><i>This image shows an example of a tooltip for user-defined directive <code>datetime</code>, including its PHPDoc comment.</i></center>
 
-## Intellisense Completion
+## IntelliSense Completion
 
 PHP Tools provides intellisense completion assistance that provides available directives, functions and variables.
 The matching completion list is displayed either when the user starts typing a new word or when the completion is directly activated by the `Complete Word` command (<kdb>Ctrl+Space</kdb>).
