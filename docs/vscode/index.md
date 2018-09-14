@@ -3,18 +3,27 @@ Title: Getting Started
 Description: PHP Tools Code documentation home page.
 */
 
-# Getting Started with PHP Tools Code
+# Getting started
 
-Welcome to PHP Tools for Visual Studio Code. The following guide will help you with the basics, so you can quickly start working with PHP in Microsoft Visual Studio Code.
+Welcome to PHP Tools for Visual Studio Code. The extension turns your Visual Studio Code into a powerfull PHP code editor, debugger and tester.
 
-> **Note:** PHP Tools for Visual Studio Code is a Visual Studio Code extension.
+## Product activation
 
-## Getting to know the IDE
+The product is licensed to our active subscribers. See [the purchase page](https://www.devsense.com/purchase) for more information. After the successful installation, you'll be prompted for the license key, or an option to obtain a trial key upon entering your e-mail.
 
-The Visual Studio main window is divided into several areas - menu bar, status bar, editor area, side panel containing the Solution Explorer, and various toolbars. All the positions can be changed. The following image describes the default layout.
+After obtaining the license key, activate the product. Open the `Command Palette` from the `View` menu and search for command `PHP Tools: Activate extension`. Enter the license key into the pop-up window below and press `Enter`. Note: the activation process requires an Internet connection.
 
-When you launch Visual Studio, you are welcomed with the Start Page. This allows you to open recent projects or create new ones quickly.
+![Enter License Key](enter-license-key.png)
 
-When a project is opened, you can see the files that are a part of the project in the Solution Explorer. The Solution Explorer allows you to manage, search and open files, their properties and the project properties.
+## Configuring PHP
 
-The editor area contains opened files. It allows you to see and modify the content, and take advantage of advanced IntelliSense features, navigation features, syntax highlighting, live error detection and more.
+Vast majority of the extension's features work out of the box. The debugger and test explorer functionalities require, however, a working installation of [PHP](https://secure.php.net/) together with [Xdebug](https://xdebug.org/) extension.
+
+See [configuration](/vscode/configuration) for more information.
+
+## Related links
+
+- [Configuration](/vscode/configuration)
+- [Test explorer](/vscode/test-explorer)
+- [Debug](/vscode/debug)
+- [Editor](/vscode/editor)
