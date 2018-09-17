@@ -11,6 +11,10 @@ The entire workspace is continuously analyzed for potential issues and problems.
 
 See **[code validation](/code-validation/)** for the list of diagnostics and the methodology of provided problems.
 
+## Configuration
+
+There are no configuration options for the code validation functionality.
+
 ## Related links
 
 - [Code validation reference](/code-validation/)

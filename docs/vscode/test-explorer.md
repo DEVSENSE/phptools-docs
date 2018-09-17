@@ -5,11 +5,11 @@ Description:
 
 # Test Explorer
 
-## Test Explorer Window
+## Configuration
+
+## Test Explorer View
 
 ## Test Results
-
-## Configuration
 
 ## Debugging Tests
 
