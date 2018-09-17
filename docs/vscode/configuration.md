@@ -12,3 +12,7 @@ Description:
 ## License Activation
 
 ## Setting PHP
+
+## Relate links
+
+- [Xdebug configuration](debug/xdebug)

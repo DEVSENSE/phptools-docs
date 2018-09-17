@@ -3,5 +3,4 @@ Title: Xdebug
 Description: 
 */
 
-# Xdebug Configuration
-
+# Xdebug configuration
