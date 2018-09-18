@@ -5,9 +5,9 @@ Description: Blade templates support.
 
 # Blade Support
 
-Blade templates are an integral part of the Laravel framework. PHP Tools natively supports the Blade templates since version 1.28 in Visual studio 2015 and newer.
+Blade templates are an integral part of Laravel framework. PHP Tools natively supports Blade templates since version 1.28 in Visual Studio 2015 and newer.
 PHP Tools provides IntelliSense and navigation for Blade templates. The following sections provide detailed information on all the available features.
-The Blade support is fully built-in and its features do not require Blade or Laravel to be installed in the project.
+Blade support is fully built-in and its features do not require Blade or Laravel to be installed in the project.
 
 ## Syntax Highlighting
 
@@ -33,7 +33,7 @@ PHP Tools provide tooltip support for the following constructs:
 
 ## IntelliSense Completion
 
-PHP Tools provides intellisense completion assistance that provides available directives, functions and variables.
+PHP Tools provides Intellisense completion assistance that provides available directives, functions and variables.
 The matching completion list is displayed either when the user starts typing a new word or when the completion is directly activated by the `Complete Word` command (<kdb>Ctrl+Space</kdb>).
 The completion supports the following features:
 - Built-in directives.
@@ -59,7 +59,7 @@ The navigation supports the following features:
 ## User Extension Support
 
 PHP Tools supports all the user extensions allowed by the Blade engine.
-User extensions are supported through all the features, including intellisense and navigation.
+User extensions are supported through all the features, including Intellisense and navigation.
 PHP Tools supports the following features:
 - Blade component aliased using the `component` method (`Blade::component('components.alert', 'alert')`). 
 - User-defined directives (`Blade::directive('test', "test_function")`). 
@@ -76,4 +76,4 @@ Blade is available as part of the official package containing the Laravel framew
 
 ## Blade Limitations
 
-PHP Tools supports Blade integration with HTML in Visual studio 2015 and newer. Integration with Cascading Style Sheets (CSS), JavaScript and TypeScript is currently not supported.
+PHP Tools supports Blade integration with HTML in Visual Studio 2015 and newer. Integration with Cascading Style Sheets (CSS), JavaScript and TypeScript is currently not supported.
