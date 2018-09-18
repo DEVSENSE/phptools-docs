@@ -13,7 +13,7 @@ After the successful installation, you should be prompted to [activate](#license
 
 You can download the `.vsix` installation file from our [download section](https://www.devsense.com/download#vscode). The installation file has to be installed using the VSCode's `Command palette`, command `Extensions: Install from VSIX`.
 
-The program may perform an additional download of dependencies during the first start, after the installation. Please, be sure to have Internet connection. In case your computer cannot go online, do one of the following:
+The program may perform an additional download of dependencies during the first start, after the installation. Please, be sure to have an Internet connection. In case your computer cannot go online, do one of the following:
 
 - Install Microsoft .NET Core 2.x Runtime for your platform (More information on https://www.microsoft.com/net/download), or
 - Download the dependency manually. See VSCode's Output, panel 'PHP', for the log and the URL of the dependency. Extract the zip file into `/out/server` of the extension's installation directory.
@@ -42,7 +42,7 @@ Once you obtain the license key and you close the pop-up window above, you can a
 
 ![Enter License Key](imgs/enter-license-key.png)
 
-The activation requires Internet connection. The successful installation is confirmed with the following pop-up window:
+The activation requires an Internet connection. The successful installation is confirmed with the following pop-up window:
 
 ![Enter License Key](imgs/activation-succeeded-vscode.png)
 
