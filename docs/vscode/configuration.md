@@ -5,7 +5,18 @@ Description:
 
 ## Installation
 
+The extension is installed through the VSCode's main window. Please refer to [managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) for the detailed information.
 
+After the successful installation, you should be prompted to [activate](#license-activation) your copy of PHP Tools.
+
+### Offline installation
+
+You can download the `.vsix` installation file from our [download section](https://www.devsense.com/download#vscode). The installation file has to be installed using the VSCode's `Command palette`, the command `Extensions: Install from VSIX`.
+
+The program may perform an additional download of dependencies during the first start after the installation. Please be sure to have an Internet connection. In case the computer cannot go online do one of the following:
+
+- Install Microsoft .NET Core 2.x Runtime for your platform. More information on https://www.microsoft.com/net/download.
+- Or download the dependency manually. See VSCode's Output, panel 'PHP', for the log and the URL of the dependency. Extract the zip file into `/out/server` of the extension's installation directory.
 
 ## Configuration options
 
@@ -19,8 +30,26 @@ Setting | Values | Description
 
 ## License activation
 
+In case the extension is not activated, a popup window is shown during the extension startup. It gives following options:
+
+![Activate PHP Tools](imgs/activate-phptools-vscode.png)
+
+- `I have the license key` lets you to enter the license key and activate the extension.
+- `Get trial` sends you an e-mail with 14-day license key.
+- `More information` opens [this web page](https://www.devsense.com/purchase) with purchase and license information.
+
+Once you obtain the license key and you closed the popup window above, activate your copy of the extension using the VSCode's `Command palette`, the command `PHP Tools: Activate extension`. Enter your license key and confirm with `Enter`.
+
+![Enter License Key](imgs/enter-license-key.png)
+
+The activation requires an Internet connection and will reload your main VSCode window. The successful installation is confirmed with the following popup window:
+
+![Enter License Key](imgs/activation-succeeded-vscode.png)
+
 ## Setting PHP
 
 ## Relate links
 
 - [Xdebug configuration](debug/xdebug)
+- [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
+- [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings) *(visualstudio.com)*

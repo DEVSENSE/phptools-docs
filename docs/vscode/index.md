@@ -13,7 +13,7 @@ The product is licensed to our active subscribers. See [the purchase page](https
 
 After obtaining the license key, activate the product. Open the `Command Palette` from the `View` menu and search for command `PHP Tools: Activate extension`. Enter the license key into the pop-up window below and press `Enter`. Note: the activation process requires an Internet connection.
 
-![Enter License Key](enter-license-key.png)
+![Enter License Key](imgs/enter-license-key.png)
 
 ## Configuring PHP
 
