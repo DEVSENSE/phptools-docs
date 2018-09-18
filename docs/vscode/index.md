@@ -7,7 +7,7 @@ Description: PHP Tools Code documentation home page.
 
 Welcome to PHP Tools for Visual Studio Code. The extension turns your Visual Studio Code into a powerfull PHP code editor, debugger and tester.
 
-## Product activation
+## Product license
 
 The product is licensed to our active subscribers. See [the purchase page](https://www.devsense.com/purchase) for more information. After the successful installation, you'll be prompted for the license key, or an option to obtain a trial key upon entering your e-mail.
 
