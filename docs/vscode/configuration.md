@@ -25,7 +25,7 @@ The following settings are introduced by the extension. Navigate to [VSCode's Se
 Setting | Values | Description
 ---     | ---    | ---
 `php.executablePath` | Full path to the `php` program, or not set. | Specifies the full path to the `php` program that will be used within [test explorer](test-explorer) and [debugging](debug).
-`phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", or not set. | Specifies the language code of integrated documentation. If not set, the system's language defaults to English.
+`phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", or not set. | Specifies the language code of integrated documentation. If not set, the setting defaults to system's language.
 `phpTools.license` | Encoded license key. | The license obtained through the online activation process. The value is hashed so it does not expose any personal information. 
 
 ## License activation
