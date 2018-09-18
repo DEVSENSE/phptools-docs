@@ -24,7 +24,7 @@ Following settings are introduced by the extension. Navigate to [VSCode's Settin
 
 Setting | Values | Description
 ---     | ---    | ---
-`php.executablePath` | Full path to the `php` program, or not set. | Specifies the full path to the `php` program that will be used for [test explorer](test-explorer) and [debugging](debug).
+`php.executablePath` | Full path to the `php` program, or not set. | Specifies the full path to the `php` program that will be used within [test explorer](test-explorer) and [debugging](debug).
 `phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", or not set. | Specifies the language code of integrated documentation. If not set, the system's language is if available. Defaults to english.
 `phpTools.license` | Encoded license key. | The license obtained through the online activation process. The value is hashed so it does not expose any personal information. 
 
@@ -42,11 +42,25 @@ Once you obtain the license key and you closed the popup window above, activate 
 
 ![Enter License Key](imgs/enter-license-key.png)
 
-The activation requires an Internet connection and will reload your main VSCode window. The successful installation is confirmed with the following popup window:
+The activation requires an Internet connection. The successful installation is confirmed with the following popup window:
 
 ![Enter License Key](imgs/activation-succeeded-vscode.png)
 
-## Setting PHP
+## PHP requirements
+
+Testing and debugging features require the [PHP](https://secure.php.net/) program to be installed and configured. It is recommended to use PHP 7.0 or newer, however PHP 5.4 and newer are supported as well.
+
+**Running tests and built-in development server** requires `php` with extensions `dom`, `json`, `mbstring` and `xmlwriter`. Either install `php` globally, so the command `php` works across the system, or set `php.executablePath` setting within VSCode's Settings pointing to PHP executable.
+
+**Debugging locally** requires the [Xdebug](https://xdebug.org/) extension installed and enabled. See [Xdebug configuration](debug/xdebug) for more information.
+
+### Recommended
+
+- PHP 7.0 or newer
+- PHP extensions `dom`, `xsl`, `mbstring`
+- PHP extension `xdebug` with the following options in your `php.ini`:
+  - `xdebug.remote_enable = 1`
+  - `xdebug.remote_autostart = 1`
 
 ## Relate links
 
