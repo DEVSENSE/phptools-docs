@@ -22,23 +22,23 @@ Además, cuando el Editor PHP consigue un error sintáctico o un error lógico, 
 
 La siguiente lista describe todos los fragmentos de código que permiten esquematización:
 
-- Cuerpo de la clase
+- Cuerpo de clase
 - Contenido del espacio de nombres
 - Cuerpo de función
 - Funciones Lambda
 - Bloque de comentarios PHPDoc
 - Comentarios en líneas múltiples
 - Grupo de comentarios de líneas únicas
-- Etiqueras de script PHP que continene más de una línea de código
+- Etiquetas de script PHP que contienen más de una línea de código
 - Contenido PHP entre `#region`/`#endregion` o `//region`/`//endregion`
-- Bloques de código delimitados en `{ ... }` *(desde la versión 1.18)*
+- Bloques de código delimitados por `{ ... }` *(desde la versión 1.18)*
 - Contenido de `switch`, `case` y `default` *(desde la versión 1.18)*
 - Código delimitado por `for`, `foreach`, `if`, `else`, `elseif` *(desde la versión 1.18)*
 
-El comportamiento de la esquematización puede ser modificado en las opciones de lenguaje de PHP. Para desactivar la esquematización automática de un archivo abierto recientemente, o para cambiar las opciones de esquematización adicional, ingrese en `Herramientas | Opciones | Editor de texto | PHP | Advanzado`.
+El comportamiento de la esquematización puede ser modificado en las opciones de lenguaje de PHP. Para desactivar la esquematización automática de un archivo abierto recientemente, o para cambiar las opciones de esquematización adicional, ingrese en `Herramientas | Opciones | Editor de texto | PHP | Avanzado`.
 
 ## Esquematización de &#35;region
 
 ![Outlining of #region sections](imgs/phptools-regionoutline.png "Outlining of #region sections.")
 
-Los comentarios de una sola línea que comienzan con la palabra clave  `region` se tratan al comienzo de la región colapsable, y son emparejados con un comentario `endregion` al final. Las regiones pueden ser anidadas. Alternativamente, el usuario puede especificar el nombre de la región después de la palabra clave `region`.
+Los comentarios de una sola línea que comienzan con la palabra clave  `region` se tratan como el inicio de una región colapsable, y son emparejados con un comentario `endregion` al final. Las regiones pueden ser anidadas. Alternativamente, el usuario puede especificar el nombre de la región después de la palabra clave `region`.
