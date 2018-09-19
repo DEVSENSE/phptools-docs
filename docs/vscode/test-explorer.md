@@ -41,11 +41,11 @@ If the configuration file is missing and PHP Tools locate any files named \*test
 ### Tests
 
 The name, location, extension and settings of the tests are defined in the phpunit.xml configuration file. 
-The tests should be located in a sub-directory, not directly in the workspace root, because PHPUnit does not recognise them there.
+The tests should be located in a sub-directory, not directly in the workspace root, because PHPUnit does not recognize them there.
 
 ## Test Explorer View
 
-Test explorer view provides tools for manual and automatic test execution with visual representaion of the results.
+Test explorer view provides tools for manual and automatic test execution with visual representation of the results.
 The view is only visible if there are some tests or the phpunit.xml configuration file in the workspace.
 
 ![Test Explorer](imgs/test-explorer.gif)
@@ -65,7 +65,7 @@ The actual result of the PHPUnit execution is displayed in the **PHP (PHPUnit)**
 
 ## Debugging Tests
 
-Tests can be debugged with Xdebug usin the bug-like icon in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
+Tests can be debugged with Xdebug by clicking the bug-like icon in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
 
 ![Test Explorer](imgs/test-debug.gif)
 
