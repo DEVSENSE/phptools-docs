@@ -21,3 +21,4 @@ To determine issues with the Visual Studio configuration, additional information
 * `11.0` for Visual Studio 2012
 * `12.0` for Visual Studio 2013
 * `14.0` for Visual Studio 2015
+* `15.0` for Visual Studio 2017
