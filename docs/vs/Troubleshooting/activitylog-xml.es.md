@@ -3,7 +3,7 @@ Title: Registro  de Actividad
 Description: Getting Visual Studio Log file to solve technical issues.
 */
 
-# Registro de Actividad
+# ActivityLog.xml
 
 La información adicional puede ser útil para determinar problemas con la configuración de Visual Studio. 
 Para habilitar el registro, siga estos pasos:
@@ -22,3 +22,4 @@ Para habilitar el registro, siga estos pasos:
 * `11.0` para Visual Studio 2012
 * `12.0` para Visual Studio 2013
 * `14.0` para Visual Studio 2015
+* `15.0` para Visual Studio 2017
