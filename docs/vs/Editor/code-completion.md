@@ -20,7 +20,7 @@ The completion list is triggered automatically as the user types, or it can be f
 - after `use`, `extends`, `implements`, `global`, `instanceof`, `new`, `function`
 - after `@` within PHPDoc
 
-Once the list is triggered, the user's subsequent typing filters the list the to closest matches. The list can be closed by pressing the <kbd>Esc</kbd> key.
+Once the list is triggered, the user's subsequent typing filters the list to the closest matches. The list can be closed by pressing the <kbd>Esc</kbd> key.
 
 The completion list can be opened again with the keyboard shortcut <kbd>Ctrl+Space</kbd> or <kbd>Alt+Right Arrow</kbd>. If there is only a single unique suggestion, it is inserted into the text immediately without showing the completion list.
 
