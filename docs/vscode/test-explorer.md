@@ -13,7 +13,7 @@ Test explorer view enables visual execution and debugging of PHPUnit tests. The 
 
 It is necessary to configure the system, before the tests can be executed. The process requires PHP, the PHPUnit phar file and a configuration file. 
 
-> Internally, PHP Tools execute the tests by running the **php -d display_errors=on PHPUnit.phar --teamcity** in the workspace root directory. This command relies on the *phpunit.xml* to be present in the root. The configuration file must identify all the desired tests and provide all the setting to PHPUnit.
+> Internally, PHP Tools reolve the tests by executing **php -d display_errors=on PHPUnit.phar --teamcity** in the workspace root directory. This command relies on the *phpunit.xml* to be present in the root. The configuration file must identify all the desired tests and provide all the setting to PHPUnit.
 
 ### PHP
 
