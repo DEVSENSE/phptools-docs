@@ -61,6 +61,16 @@ Test results are displayed in the test explorer view as small icons next to each
 
 The actual result of the PHPUnit execution is displayed in the **PHP (PHPUnit)** output tab, while each test has its own output available by clicking on the test int the test explorer view.
 
+![Test Output](imgs/test-output.png)
+
 ## Debugging Tests
 
+Tests can be debugged with Xdebug usin the bug-like icon in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
+
+![Test Explorer](imgs/test-debug.gif)
+
 ## Continuous Testing
+
+Tests can be executed continuously by enabling autorun in the test explorer view. Once enabled, tests will be executed every time a tested file is saved after modification.
+
+![Test Autorun](imgs/test-autorun.png)
