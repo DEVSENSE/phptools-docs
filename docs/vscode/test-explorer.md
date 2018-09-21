@@ -64,7 +64,7 @@ The actual result of the PHPUnit execution is displayed in the **PHP (PHPUnit)**
 
 ## Debugging Tests
 
-Tests can be debugged with Xdebug by clicking the bug-like icon (![Debugging Icon](imgs/test-debuging.png)) in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
+Tests can be debugged with Xdebug by clicking the bug-like icon ![Debugging Icon](imgs/test-debuging.png) in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
 
 ![Test Explorer](imgs/test-debug.gif)
 
