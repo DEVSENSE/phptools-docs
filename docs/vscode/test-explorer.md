@@ -18,7 +18,6 @@ It is necessary to configure the system, before the tests can be executed. The p
 ### PHP
 
 Tests require working PHP runtime, which is either:
-
 1. The command specified by the *php.executablePath* value in user setting.
 2. *php* on the command line if the setting is not present.
 
@@ -65,7 +64,7 @@ The actual result of the PHPUnit execution is displayed in the **PHP (PHPUnit)**
 
 ## Debugging Tests
 
-Tests can be debugged with Xdebug by clicking the bug-like icon (![Debugging Icon](imgs/test-debugging.png)) in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
+Tests can be debugged with Xdebug by clicking the bug-like icon (![Debugging Icon](imgs/test-debuging.png)) in the test explorer view. Tests can be debugged one at a time, it is not possible to debug all tests at once. The debugging process is the same as [standard debugging](Debug).
 
 ![Test Explorer](imgs/test-debug.gif)
 
