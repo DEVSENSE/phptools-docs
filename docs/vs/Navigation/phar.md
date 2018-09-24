@@ -1,9 +1,9 @@
 /*
-Title: Phar Packages
-Description: Opening and Navigating Phar packages
+Title: PHAR Archives
+Description: Inspecting and navigating PHAR archives
 */
 
-# Phar Package
+# PHAR Archive
 
 PHP comes with a built-in support for Phar packages. This allows to bundle a complete PHP library or an application into a single `.phar` file. It not only simplifies the distribution but also keeps PHP projects clean and well organized.
 

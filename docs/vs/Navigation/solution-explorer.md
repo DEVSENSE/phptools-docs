@@ -35,7 +35,7 @@ The Solution Explorer allows for inspecting of PHAR archives (`.phar` files). Ex
 
 ![PHAR inspector](imgs/phar-inspector.gif)
 
-> The IntelliSense (code completion, tool tips and navigation features) provides declarations contained in PHAR archives as well.
+> See [PHAR Archives](phar) for more details.
 
 ## Composer Packages
 
