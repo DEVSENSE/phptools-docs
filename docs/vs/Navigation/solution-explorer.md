@@ -29,6 +29,14 @@ Files can be added to the project in several ways:
 
 Projects can be large, so the Solution Explorer helps filtering its content by partially typed name. The *Search Solution Explorer* input box is at the top of the window. The box can be focused by <kbd>Ctrl+;</kbd> by default. Typing text filters files immediately.
 
+## PHAR Archives
+
+The Solution Explorer allows for inspecting of PHAR archives (`.phar` files). Expanding the file node reveals the content of the PHAR archive including the stub file and content files. Single contained files can be opened but not edited.
+
+![PHAR inspector](imgs/phar-inspector.gif)
+
+> The IntelliSense (code completion, tool tips and navigation features) provides declarations contained in PHAR archives as well.
+
 ## Composer Packages
 
 Every PHP project contains a `References` node. The node lists used composer packages in a tree hierarchy. See [Composer](http://docs.devsense.com/project/composer) for more information.
