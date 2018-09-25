@@ -62,7 +62,7 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
   - `xdebug.remote_enable = 1`
   - `xdebug.remote_autostart = 1`
 
-## Relate links
+## Related links
 
 - [Xdebug configuration](debug/xdebug)
 - [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
