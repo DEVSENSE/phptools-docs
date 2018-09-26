@@ -50,7 +50,7 @@ La activación requiere estar conectado al Internet. La instalación exitosa se 
 
 Las funciones de las pruebas y de la depuración necesitan que el programa [PHP](https://secure.php.net/) esté instalado y configurado Es recomendable utilizar PHP 7.0 o más reciente; sin embargo, las versiones de PHP desde 5.4 en adelante también son compatibles.
 
-**R**Para ejecutar las pruebas y el servidor de desarrollo incorporado** se necesita `php` con las extensiones  `dom`, `json`, `mbstring` and `xmlwriter`. Para esto, debe instalarse `php` globalmente, para que el comando `php` trabaje por todo el sistema o establezca la configuración de, o establezca la configuración de `php.executablePath` en la configuración de VSCode apuntando al ejecutable de PHP.
+**Para ejecutar las pruebas y el servidor de desarrollo incorporado** se necesita `php` con las extensiones  `dom`, `json`, `mbstring` and `xmlwriter`. Para esto, debe instalarse `php` globalmente, para que el comando `php` trabaje por todo el sistema o establezca la configuración de, o establezca la configuración de `php.executablePath` en la configuración de VSCode apuntando al ejecutable de PHP.
 
 **La depuración local** necesita que la extensión [Xdebug](https://xdebug.org/) esté instalada y habilitada. Vea [Xdebug configuration](debug/xdebug) para más información.
 
