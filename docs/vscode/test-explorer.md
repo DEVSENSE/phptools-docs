@@ -55,7 +55,7 @@ Test results are displayed in the test explorer view as small icons next to each
 
 * ![Test success](imgs/test-success.png) - The test was executed without errors.
 * ![Test failure](imgs/test-failure.png) - The test was executed with errors; the error message is in the output tab.
-* ![Test skipped](imgs/test-skipped.png) - The test was executed and skipped ([PHPUnit configuration].(https://phpunit.de/manual/6.5/en/incomplete-and-skipped-tests.html))
+* ![Test skipped](imgs/test-skipped.png) - The test was executed and skipped (see [incomplete-and-skipped-tests](https://phpunit.de/manual/6.5/en/incomplete-and-skipped-tests.html)).
 * ![Test running](imgs/test-running.png) - Test is currently running (this is shown usually during debugging).
 
 The actual result of the PHPUnit execution is displayed in the **PHP (PHPUnit)** output tab, while each test has its own output available by clicking on the test in the Test Explorer View.
