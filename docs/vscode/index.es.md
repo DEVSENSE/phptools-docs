@@ -9,7 +9,7 @@ Bienvenido a PHP Tools for VSCode. Esta extensión convierte Visual Studio Code 
 
 ## Licencia del producto
 
-La licencia del producto se entrega a nuestros suscriptores activos . Vea [la página de compra](https://www.devsense.com/purchase) para más information. Después de la instalación exitosa del producto, se le pedirá la clave de la licencia, o verá la opción de obtener una clave de prueba temporal al ingresar su correo electrónico.
+La licencia del producto se entrega a nuestros suscriptores activos . Vea [la página de compra](https://www.devsense.com/purchase) para más información. Después de la instalación exitosa del producto, se le pedirá la clave de la licencia, o tendrá la opción de obtener una clave de prueba temporal al ingresar su correo electrónico.
 
 Después de que obtenga su clave de licencia, active el producto. Abra `Command Palette` desde el menú `View` y busque el comando `PHP Tools: Activate extension`. Introduzca su clave en la ventana emergente y presione `Enter`. Nota: el proceso de activación requiere estar conectado al Internet.
 
