@@ -5,7 +5,7 @@ Description: How to update PHP Tools for Visual Studio
 
 # Update Instructions
 
-To update the add-in, follow the [installation instructions](Installation/installation) or take the advantage of Visual Studio Extension Manager and its Updates functionality (in Visual Studio, navigate to `Tools | Extensions and Updates`, and click **Updates**).
+To update the add-in, follow the [installation instructions](https://docs.devsense.com/en/vs/installation) or take the advantage of Visual Studio Extension Manager and its Updates functionality (in Visual Studio, navigate to `Tools | Extensions and Updates`, and click **Updates**).
 
 ## Automatic update notification
 
