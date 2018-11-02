@@ -9,12 +9,31 @@ The entire workspace is continuously analyzed for potential issues and problems.
 
 ![Problems Window](imgs/problems-window.png)
 
-See **[code validation](/code-validation/)** for the list of diagnostics and the methodology of provided problems.
-
 ## Configuration
 
-There are no configuration options for the code validation functionality.
+### `php.problems.exclude`
+
+The setting allows to exclude problems found in specified files or entire directories from being shown in *Problems* panel. There are two possible values:
+
+```json
+'php.problems.exclude' : {
+    'path' : true,
+    'path' : [1111, 2222],
+}
+```
+
+- Boolean value `true` marks the files or directories matching given glob pattern `path` to be excluded in problems panel.
+- Array value `[]` may contain only specific problem codes to be excluded within files matching the glob pattern `path`.
+
+Any rules matching the same folder are merged, as depicted on the sample below. The sample disables all warnings in 'vendor' directory and disables additionaly one warning `PHP0406` in th entire project.
+
+```json
+'php.problems.exclude' : {
+    '/' : [406],
+    'vendor/' : true,
+}
+```
 
 ## Related links
 
-- [Code validation reference](/code-validation/)
+- [Configuration](configuration)

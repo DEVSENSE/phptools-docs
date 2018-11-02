@@ -1,6 +1,6 @@
 /*
 Title: Configuration
-Description: 
+Description: PHP Tools for VS Code configuration options.
 */
 
 ## Installation
@@ -25,8 +25,9 @@ The following settings are introduced by the extension. Navigate to [VSCode's Se
 Setting | Values | Description
 ---     | ---    | ---
 `php.executablePath` | Full path to the `php` program, or not set. | Specifies the full path to the `php` program that will be used within [test explorer](test-explorer) and [debugging](debug).
+`php.problems.exclude` | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems#configuration).
 `phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", or not set. | Specifies the language code of integrated documentation. If not set, the setting defaults to system's language.
-`phpTools.license` | Encoded license key. | The license obtained through the online activation process. The value is hashed so it does not expose any personal information. 
+`files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processes by the code analysis engine (code completion, navigation, problems).
 
 ## License activation
 
@@ -64,6 +65,7 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 
 ## Related links
 
+- [Problems configuration](problems#configuration)
 - [Xdebug configuration](debug/xdebug)
 - [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
 - [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings) *(visualstudio.com)*

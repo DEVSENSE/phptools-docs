@@ -9,8 +9,6 @@ Toda el área de trabajo es analizada continuamente para buscar potenciales inco
 
 ![Problems Window](imgs/problems-window.png)
 
-Vea **[Validación de código](/code-validation/)** para una lista de diagnósticos y metodología para los problemas provistos.
-
 ## Configuración
 
 No hay opciones de configuración para la función de Validación de código.
