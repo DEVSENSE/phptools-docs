@@ -1,6 +1,6 @@
 /*
 Title: Getting Started
-Description: PHP Tools Code documentation home page.
+Description: PHP Tools for VS Code documentation home page.
 */
 
 # Getting started
