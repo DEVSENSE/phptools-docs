@@ -26,6 +26,7 @@ Setting | Values | Description
 ---     | ---    | ---
 `php.executablePath` | Full path to the `php` program, or not set. | Specifies the full path to the `php` program that will be used within [test explorer](test-explorer) and [debugging](debug).
 `php.problems.exclude` | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems#configuration).
+`php.format.codeStyle` | "PHP Tools", "PSR-2" | Code formatting profile.
 `phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", or not set. | Specifies the language code of integrated documentation. If not set, the setting defaults to system's language.
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processes by the code analysis engine (code completion, navigation, problems).
 
