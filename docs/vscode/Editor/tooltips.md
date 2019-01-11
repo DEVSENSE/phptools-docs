@@ -13,7 +13,7 @@ All of the user's code is analysed in order to determine possible types and corr
 
 In case the symbol is annotated with a PHPDoc comment, it is shown as well at the bottom of the tooltip.
 
-## Base PHP library
+## Non-user symbols (PHP Manual)
 
 Tooltip shows the corresponding declaration and description, including a direct link to the PHP manual.
 
