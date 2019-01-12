@@ -17,7 +17,7 @@ There are other ways to a remote debugger, like cookies, query parameters or bro
 
 ```
 xdebug.remote_enable = 1
-xdebug.remote_autostart = 1
+xdebug.remote_autostart = 1 // or append `XDEBUG_SESSION_START=1` parameter to the URL of page you want to debug
 ```
 
 4. Restart webserver to reload the settings, if applicable.
