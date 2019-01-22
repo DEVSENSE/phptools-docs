@@ -5,7 +5,7 @@ Description: PHP code editor overview
 
 # Code Editor Overview
 
-PHP editor integration extends and adds the features to the `php` documents. It targets PHP development in general, with respect to well known PHP frameworks and projects of large sizes.
+PHP editor integration extends and adds the features to the `php` documents. It targets PHP development in general, with respect to well known PHP frameworks and large projects.
 
 The editor fetaures following:
 
