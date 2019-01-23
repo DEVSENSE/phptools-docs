@@ -20,11 +20,11 @@ Document formatting is available in two versions that differ in the way they str
 Feature | Behavior
 --- | ---
 Pretty print | Spaces are inserted after keywords, names and separators to make the code more readable
-Indentation | Code is indented based on the number of embeded blocks
+Indentation | Code is indented based on the number of embedded blocks
 Multi-line comments | Subsequent lines are offset to match the first asterisk character on the first line
 Statements | Every statement starts on a new line
-Anonymous functions | The body is indented from the begining of the line where the `function` keyword is defined
-Use construct | The use construct in anonymou functions is always on the same line as the `function` keyword
+Anonymous functions | The body is indented from the beginning of the line where the `function` keyword is defined
+Use construct | The use construct in anonymous functions is always on the same line as the `function` keyword
 Control flow | Close keywords of control flow constructs (`endif`, `endfor`, ...) always start on a new line
 Namespace | Empty line is inserted after a namespace declaration
 Use statement | Use declarations are not separated by empty lines, but an empty line is inserted after all the declarations
@@ -139,7 +139,6 @@ function foo()
 }
 ```
 
-
 ## PSR-2
 
 This formatting style is compliant with [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) standards .
@@ -180,4 +179,10 @@ function foo()
 
 # Configuration
 
-See [settings](../configuration) on how to change code formatting behavior.
+The formatting behavior is set in `settings.json`. All the relevant settings and their effects are summed in the following table.
+
+Setting | Effect
+--- | ---
+`editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise
+`editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
+`php.format.codeStyle` | Preferred formatting style described in previous sections, available values are `PHP Tools` and `PSR-2`
