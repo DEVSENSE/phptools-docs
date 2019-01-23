@@ -1,6 +1,6 @@
 /*
 Title: Code Formatting
-Description: 
+Description: Source code formatting
 */
 
 # Code Formatting
@@ -13,7 +13,17 @@ The editor provides document formatting feature for PHP documents. Right click t
 
 The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation and pretty prints spaces.
 
-# Formatting Styles
+# Configuration
+
+The formatting behavior is set in `settings.json`. All the relevant settings and their effects are summed in the following table.
+
+Setting | Effect
+--- | ---
+`editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise
+`editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
+`php.format.codeStyle` | Preferred code style described in previous sections, available values are `PHP Tools` and `PSR-2`
+
+# Code Styles
 
 Document formatting is available in two versions that differ in the way they structure the document: [PHP Tools](##PHP\ Tools), [PSR-2](##PSR-2). The styles are selected in [settings](#Configuration). The styles share most features, summed in the following table, while they differ in couple of details, explained in their own sections.
 
@@ -100,13 +110,13 @@ use ArrayObject;
 echo "hello world";
 ```
 
-## PHP Tools
+## Code Style: PHP Tools
 
-The default formatting style is compliant with the formatting in PHP Tools for Visual Studio. This style focuses on leaving the code visual structure as untouched as possible, while normalizing the whitespaces where possible.
+The default code style is compliant with the formatting in PHP Tools for Visual Studio. This style focuses on leaving the code visual structure as untouched as possible, while normalizing the whitespaces where possible.
 
 Feature | Behavior
 --- | ---
-Multi-line expressions | Subsequent lines maintain their indentation from the first line.
+Multi-line expressions | Subsequent lines maintain their indentation from the first line
 PHP blocks indentation | Contents of PHP blocks is indented from the open tag (`<?php` or `<?=`)
 Code blocks | Code blocks always start on a new line for both declarations and code
 
@@ -139,13 +149,13 @@ function foo()
 }
 ```
 
-## PSR-2
+## Code Style: PSR-2
 
 This formatting style is compliant with [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) standards .
 
 Feature | Behavior
 --- | ---
-Multi-line expressions | Subsequent lines are indented one level deeper than the initial line.
+Multi-line expressions | Subsequent lines are indented one level deeper than the initial line
 PHP blocks indentation | Contents of PHP blocks is indented from the beginning of the line, the open tag is not moved
 Code blocks | Body of a declarations starts on a new line, while control flow block starts on the same line as the construct
 
@@ -177,12 +187,6 @@ function foo()
 }
 ```
 
-# Configuration
+# HTML, JS and CSS Formatting
 
-The formatting behavior is set in `settings.json`. All the relevant settings and their effects are summed in the following table.
-
-Setting | Effect
---- | ---
-`editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise
-`editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
-`php.format.codeStyle` | Preferred formatting style described in previous sections, available values are `PHP Tools` and `PSR-2`
+PHP Tools support HTML, JS and CSS formatting in PHP files. The HTML fomatting process is provided by Visual Studio Code and PHP Tools integrate the functionality with PHP formatting.
