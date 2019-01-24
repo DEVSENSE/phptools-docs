@@ -5,7 +5,7 @@ Description:
 
 # Signature Helper
 
-The signature help window assists with filling in function parameters. It popups when user enters an opening parenthesis `(` or a comma `,` within a known function call.
+The signature help window assists with filling in function parameters. It popups when the user enters an opening parenthesis `(` or a comma `,` within a known function call.
 
 ![Signature help](../imgs/signature-help.gif)
 
@@ -23,4 +23,4 @@ The signature help is shown for constructors as well, after `new <class name>` c
 
 The help window lists all the parameters and highlights the one that is currently being edited (according to actual caret location). 
 
-Every parameter is denotated with its name and full description. Shown function header at the top of the help window depicts whether the parameter is mandatory or optional, and its default value.
+All the parameters are denotated with their names and potential default values, parameters with defined default values are optional. A full description is shown for the currently edited parameter.

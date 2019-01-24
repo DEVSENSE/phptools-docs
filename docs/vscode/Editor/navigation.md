@@ -5,7 +5,9 @@ Description: Code navigation
 
 # Navigation Overview
 
-PHP Tools provide three ways to efficiently navigate the PHP source code. All the approaches integrate with the existing Visual Studio Code user interface. The navigation may not be able to locate symbols in invalid PHP files, because syntax errors may change meaning of code.
+PHP Tools provide three ways to efficiently navigate the PHP source code. All the approaches integrate with the existing Visual Studio Code user interface. 
+
+>> The navigation may not be able to locate symbols in invalid PHP files, because syntax errors generally change the meaning of a code.
 
 ## Go To Definition
 

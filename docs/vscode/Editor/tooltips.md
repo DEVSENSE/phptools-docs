@@ -9,7 +9,9 @@ Mouse hovering over an expression or a declaration reveals an additional informa
 
 ## User symbols
 
-All of the user's code is analysed in order to determine possible types and corresponding symbol. The tooltip shows declaration of the symbol under the cursor, optionally with its actual value and type, or a combination of types.
+All of the user's code is analysed in order to determine possible types and corresponding symbols. The tooltip shows declaration of the symbol under the cursor, optionally with its actual value and type, or a combination of types.
+
+![Tooltip Help For ](../imgs/tooltip-help-en.png)
 
 In case the symbol is annotated with a PHPDoc comment, it is shown as well at the bottom of the tooltip.
 
@@ -23,4 +25,4 @@ The description is shown in the user's current language. This can be changed in 
 
 ## Keywords, PHPDoc keywords
 
-A description of the keyword is shown.
+A short description of the keyword is shown in a tooltip.
