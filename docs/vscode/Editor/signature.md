@@ -5,7 +5,7 @@ Description:
 
 # Signature Helper
 
-The signature help window assists with filling in function parameters. It popups when the user enters an opening parenthesis `(` or a comma `,` within a known function call.
+The signature help window assists with filling in function parameters. It pops up when the user enters an opening parenthesis `(` or a comma `,` within a known function call.
 
 ![Signature help](../imgs/signature-help.gif)
 
@@ -13,7 +13,7 @@ The help window shows function's header, its parameters and default values.
 
 ## Methods overloads
 
-In case there are more possible function overloads (since some of non-user PHP functions can be called with a different combination of parameters) the help window lists all the possible signatures. The help window shows number of possible overloads. Keys `up` and `down` change currently shown signature.
+In case there are more possible function overloads (since some of non-user PHP functions can be called with a different combination of parameters) the help window lists all the possible signatures. The help window shows a number of possible overloads. Keys `up` and `down` change the currently shown signature.
 
 ## Constructors
 
