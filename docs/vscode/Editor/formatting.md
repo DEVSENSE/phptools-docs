@@ -25,7 +25,7 @@ Setting | Effect
 
 # Code Styles
 
-Document formatting is available in two versions that differ in the way they structure the document: [PHP Tools](##PHP\ Tools), [PSR-2](##PSR-2). The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their own sections.
+Document formatting is available in two versions that differ in the way they structure the document: [PHP Tools](##PHP-Tools), [PSR-2](##PSR-2). The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their own sections.
 
 Feature | Behavior
 --- | ---
