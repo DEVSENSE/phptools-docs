@@ -5,7 +5,7 @@ Description: Tool tip help
 
 # Tooltips
 
-Mouse hovering over an expression or a declaration reveals an additional information. The information is formatted respecting PHP syntax. In case the expression resolution is ambiguous, the tool tip lists all the possible meanings.
+Mouse hovering over an expression or a declaration reveals additional information. The information is formatted respecting PHP syntax. In case the expression resolution is ambiguous, the tool tip lists all the possible meanings.
 
 ## User symbols
 
@@ -13,7 +13,7 @@ All of the user's code is analysed in order to determine possible types and corr
 
 ![Tooltip Help For ](../imgs/tooltip-help-en.png)
 
-In case the symbol is annotated with a PHPDoc comment, it is shown as well at the bottom of the tooltip.
+In case the symbol is annotated with a PHPDoc comment, it is shown at the bottom of the tooltip as well.
 
 ## Non-user symbols (PHP Manual)
 
