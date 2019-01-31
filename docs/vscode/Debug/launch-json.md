@@ -67,4 +67,4 @@ The following basic profile informs the debugger that it should try to connect t
 
 ## Debug Current Script
 
-Whenever there is no `launch.json` present, PHP Tools debugger launches the current script in the interactive shell mode with the console hidden.
+Whenever there is no `launch.json` present, PHP Tools' debugger launches the current script in the interactive shell mode with the console hidden.
