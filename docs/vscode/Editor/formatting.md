@@ -5,39 +5,39 @@ Description: Source code formatting
 
 # Code Formatting
 
-The editor provides document formatting feature for PHP documents. Right click the editor area and choose `Format Document`.
+The editor provides the document formatting feature for PHP documents. Right click the editor area and choose `Format Document`.
 
 ![PHP document format](../imgs/format-document.gif)
 
->> In order to format the document, there must be no syntax errors.
+>> In order to format the document, it must be syntax-error free.
 
-The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation and pretty prints spaces.
+The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation and pretty print spaces.
 
 # Configuration
 
-The formatting behavior is set in `settings.json`. All the relevant settings and their effects are summed in the following table.
+The formatting behavior is set in `settings.json`. All the relevant settings and their effects are summed up in the following table.
 
 Setting | Effect
 --- | ---
-`editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise
+`editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise.
 `editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
 `php.format.codeStyle` | Preferred code style described in previous sections, available values are `PHP Tools` and `PSR-2`
 
 # Code Styles
 
-Document formatting is available in two versions that differ in the way they structure the document: [PHP Tools](##PHP\ Tools), [PSR-2](##PSR-2). The styles are selected in [settings](#Configuration). The styles share most features, summed in the following table, while they differ in couple of details, explained in their own sections.
+Document formatting is available in two versions that differ in the way they structure the document: [PHP Tools](##PHP\ Tools), [PSR-2](##PSR-2). The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their own sections.
 
 Feature | Behavior
 --- | ---
-Pretty print | Spaces are inserted after keywords, names and separators to make the code more readable
-Indentation | Code is indented based on the number of embedded blocks
+Pretty print | Spaces are inserted after keywords, names and separators to make the code more readable.
+Indentation | Code is indented based on the number of embedded blocks.
 Multi-line comments | Subsequent lines are offset to match the first asterisk character on the first line
-Statements | Every statement starts on a new line
-Anonymous functions | The body is indented from the beginning of the line where the `function` keyword is defined
-Use construct | The use construct in anonymous functions is always on the same line as the `function` keyword
-Control flow | Close keywords of control flow constructs (`endif`, `endfor`, ...) always start on a new line
-Namespace | Empty line is inserted after a namespace declaration
-Use statement | Use declarations are not separated by empty lines, but an empty line is inserted after all the declarations
+Statements | Every statement starts on a new line.
+Anonymous functions | The body is indented from the beginning of the line where the `function` keyword is defined.
+Use construct | The use construct in anonymous functions is always on the same line as the `function` keyword.
+Control flow | Close keywords of control flow constructs (`endif`, `endfor`, ...) always start on a new line.
+Namespace | An empty line is inserted after a namespace declaration.
+Use statement | Use declarations are not separated by empty lines, but an empty line is inserted after all the declarations.
 
 ```php
 // Pretty print
@@ -116,9 +116,9 @@ The default code style is compliant with the formatting in PHP Tools for Visual 
 
 Feature | Behavior
 --- | ---
-Multi-line expressions | Subsequent lines maintain their indentation from the first line
-PHP blocks indentation | Contents of PHP blocks is indented from the open tag (`<?php` or `<?=`)
-Code blocks | Code blocks always start on a new line for both declarations and code
+Multi-line expressions |  Subsequent lines maintain their indentation from the first line.
+PHP blocks indentation |  Contents of PHP blocks is indented from the open tag (`<?php` or `<?=`).
+Code blocks |  Code blocks always start on a new line for both declarations and code.
 
 ```php
 // Multi-line expressions
@@ -156,7 +156,7 @@ This formatting style is compliant with [PSR-1](https://www.php-fig.org/psr/psr-
 Feature | Behavior
 --- | ---
 Multi-line expressions | Subsequent lines are indented one level deeper than the initial line
-PHP blocks indentation | Contents of PHP blocks is indented from the beginning of the line, the open tag is not moved
+PHP blocks indentation | Content of PHP blocks is indented from the beginning of the line, the open tag is not moved
 Code blocks | Body of a declarations starts on a new line, while control flow block starts on the same line as the construct
 
 ```php
@@ -189,4 +189,4 @@ function foo()
 
 # HTML, JS and CSS Formatting
 
-PHP Tools support HTML, JS and CSS formatting in PHP files. The HTML fomatting process is provided by Visual Studio Code and PHP Tools integrate the functionality with PHP formatting.
+PHP Tools support HTML, JS and CSS formatting in PHP files. The HTML fomatting process is provided by Visual Studio Code and PHP Tools integrates the functionality with PHP formatting.
