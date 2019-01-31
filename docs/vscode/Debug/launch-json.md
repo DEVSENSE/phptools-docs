@@ -17,6 +17,8 @@ Visual Studio Code stores debugging configuration in a `launch.json` file locate
 
 The following profile starts the PHP built-in web server. The server is started only if the `runtimeArgs` contains the parameter `-S` that defines the location and port of the server.
 
+Sample configuration:
+
 ```json
 {
     "name": "Launch Built-in server",
@@ -38,7 +40,7 @@ The following profile starts the PHP built-in web server. The server is started 
 
 ## Console Application
 
-The following profile instructs PHP Tools to start the PHP interactive shell with the current file as parameter. The shell is actually opened only if the `externalConsole` parameter is set to `true`; otherwise, the script is executed with the console hidden.
+This profile runs the PHP project as a console application, inside the VS Code's `Debug Console`. By default it starts a file currently opened in the editor.
 
 ```json
 {
@@ -47,10 +49,16 @@ The following profile instructs PHP Tools to start the PHP interactive shell wit
     "request": "launch",
     "program": "${file}",
     "cwd": "${fileDirname}",
-    "externalConsole": true,
+    "externalConsole": false,
     "port": 9000
 }
 ```
+
+Useful parameters that can be changed:
+
+- `program`: Specifies a file absolute or relative to workspace's directory. Value `${file}` means the file currently opened in the editor.
+- `externalConsole`: `true` to run the program in a separate command line window. Default is `false` to output the program in the VS Code's `Debug Console`.
+- `port`: is the Xdebug port number. This value has to match setting in     `php.ini`. Defaults to `9000`.
 
 ## Remote Application (Attach)
 
@@ -67,4 +75,4 @@ The following basic profile informs the debugger that it should try to connect t
 
 ## Debug Current Script
 
-Whenever there is no `launch.json` present, PHP Tools' debugger launches the current script in the interactive shell mode with the console hidden.
+Whenever there is no `launch.json` file present, PHP Tools' debugger launches the current PHP script in the VS Code's `Debug Console`.
