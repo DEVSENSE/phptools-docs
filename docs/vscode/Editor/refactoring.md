@@ -9,7 +9,7 @@ The refactoring is a set of features that allow for semantic-based code modifica
 
 Refactoring works best for well-documented code, with annotated types and type hints for function parameters and return type.
 
-> The refactoring is disabled (aborted) when there is a syntax error in the project. This is done to avoid corrupting the code.
+> The refactoring is disabled (aborted) when there is a syntax error in the project. This is done in order to avoid corrupting the code.
 
 ## Rename Symbol
 
@@ -17,4 +17,4 @@ Refactoring works best for well-documented code, with annotated types and type h
 
 ![PHP variable rename](../imgs/rename-variable.gif)
 
-Right click the name and choose `Rename Symbol`, or select a name and pres the `F2` key. Alter the name and confirm. If more than current document is affected by the change, documents are all opened in the Visual Studio Code window so the changes can be reviewed or reverted. Changes are not saved to disk.
+Right click the name and choose `Rename Symbol`, or select a name and press the `F2` key. Alter the name and confirm. If more than the current document is affected by the change, all documents are opened in the Visual Studio Code window so the changes can be reviewed or reverted. Changes are not saved to disk.
