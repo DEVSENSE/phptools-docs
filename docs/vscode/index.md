@@ -9,9 +9,10 @@ Welcome to PHP Tools for Visual Studio Code. This extension turns your Visual St
 
 ## Product license
 
-The product is licensed to our active subscribers. See [the purchase page](https://www.devsense.com/purchase) for more information. After the successful installation, you'll be prompted for the license key, or an option to obtain a trial key upon entering your e-mail.
+The product is licensed to our active subscribers. See [the purchase page](https://www.devsense.com/purchase) for more information. 
+After the successful installation, you'll be prompted to enter your license key, or an option to obtain a 14-day trial key upon entering your e-mail.
 
-After obtaining the license key, activate the product. Open the `Command Palette` from the `View` menu and search for the command `PHP Tools: Activate extension`. Enter the license key into the pop-up window below and press `Enter`. Note: the activation process requires an Internet connection.
+After obtaining the license key, you need to activate the product. Open the `Command Palette` from the `View` menu and search for the command `PHP Tools: Activate extension`. Enter the license key into the pop-up window below and press `Enter`. Note: the activation process requires an Internet connection.
 
 ![Enter License Key](imgs/enter-license-key.png)
 
