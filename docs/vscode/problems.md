@@ -5,7 +5,7 @@ Description: Problems and code validation
 
 # Problems and Code validation
 
-The entire workspace is continuously analyzed for potential issues and problems. They are all listed in the VSCode's Problems window where the user can filter and navigate to certain issue.
+The entire workspace is continuously analyzed for potential issues and problems. They are all listed in the VSCode's Problems window where the user can filter and navigate to certain issues.
 
 ![Problems Window](imgs/problems-window.png)
 
@@ -25,7 +25,7 @@ The setting allows to exclude problems found in specified files or entire direct
 - Boolean value `true` marks the files or directories matching given glob pattern `path` to be excluded in problems panel.
 - Array value `[]` may contain only specific problem codes to be excluded within files matching the glob pattern `path`.
 
-Any rules matching the same folder are merged, as depicted on the sample below. The sample disables all warnings in 'vendor' directory and disables additionaly one warning `PHP0406` in th entire project.
+Any rules matching the same folder are merged, as depicted on the sample below. The sample disables all warnings in 'vendor' directory and disables additionaly one warning `PHP0406` in the entire project.
 
 ```json
 'php.problems.exclude' : {
