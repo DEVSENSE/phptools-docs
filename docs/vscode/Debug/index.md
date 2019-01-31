@@ -5,7 +5,7 @@ Description:
 
 # Debug Overview
 
-Debug integration allows for debugging your local develoment server and remote server.
+The Debug integration allows debugging on your local development server and also on a remote server.
 
 Please refer to [Xdebug](https://xdebug.org/) for more details on debugging configurations. Xdebug is the backend of PHP Tools debugging integration.
 
@@ -18,7 +18,7 @@ Requirements:
 Checklist:
 
 - Ensure Xdebug is properly configured: run `php --version` and check the last line is `with Xdebug`.
-- Ensure `php.ini` states following directives:
+- Ensure `php.ini` states the following directives:
 
 ```
 xdebug.remote_enable = 1
@@ -27,22 +27,22 @@ xdebug.remote_autostart = 1 // or append `XDEBUG_SESSION_START=1` parameter to t
 
 ## Features
 
-Deugging features following:
+The debugging features are the following:
 
-- Stepping by line, step in, step out
-- Putting breakpoints, conditional breakpoints, break on hit count
-- Logging breakpoint hit into 'Debug console'
-- Breaking on exceptions, warnings and errors
-- Specifying non-user files (exceptions won't break debugging, stepping through)
-- Watch tool tips
-- Listing locals and superglobals
-- Editting variable or property value, handling long string values efficiently
-- Long arrays watch efficiently
-- Debug watch expands objects and arrays
-- Evaluating code in 'Debug console'
-- Debug launch profiles
-- Built-in web development server
-- Debugging of 'PHP Unit' test cases
+- Stepping by line, step in, step out.
+- Placing breakpoints, conditional breakpoints, break on hit count.
+- Logging breakpoint hit into 'Debug console'.
+- Breaking on exceptions, warnings and errors.
+- Specifying non-user files (exceptions won't break debugging, stepping through).
+- Watch tool tips.
+- Listing locals and superglobals.
+- Editting variable or property value, handling long string values efficiently.
+- Long arrays watch efficiently.
+- Debug watch expands objects and arrays.
+- Evaluating code in 'Debug console'.
+- Debug launch profiles.
+- Built-in web development server.
+- Debugging of 'PHP Unit' test cases.
 
 ## Troubleshooting
 
