@@ -26,11 +26,11 @@ The following profile starts the PHP built-in web server. The server is started 
         "-S",
         "localhost:8888",
         "-t",
-        "\\\\remotepc\\Shared\\Test"
+        "\\remotepc\Shared\Test"
     ],
     "pathMappings": {
-        "\\\\remotepc\\Shared\\Test\\": "${workspaceRoot}\\src",
-        "\\\\test": "C:\\Users\\usr\\Documents\\VSCode\\src\\"
+        "\\remotepc\Shared\Test\": "${workspaceRoot}\src",
+        "\\test": "C:\Users\usr\Documents\VSCode\src\"
     },
     "port": 9000
 }
@@ -38,7 +38,7 @@ The following profile starts the PHP built-in web server. The server is started 
 
 ## Console Application
 
-The following profile instructs PHP Tools to start the PHP interactive shell with the current file as parameter. The shell is actually opened only if the `externalConsole` parameter is set to `true`; otherwise, the script is executed with the console is hidden.
+The following profile instructs PHP Tools to start the PHP interactive shell with the current file as parameter. The shell is actually opened only if the `externalConsole` parameter is set to `true`; otherwise, the script is executed with the console hidden.
 
 ```json
 {
