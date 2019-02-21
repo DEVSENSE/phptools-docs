@@ -13,6 +13,10 @@ The editor provides the document formatting feature for PHP documents. Right cli
 
 The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation and pretty print spaces.
 
+### Format On Type
+
+Setting the option `editor.formatOnType` to `true` enables the editor to format code blocks and statements upon typing `;` and `}`. This feature performs selection formatting of the code preceeding the type delimiter. It indents the code and pretty-prints spaces.
+
 ## Configuration
 
 The formatting behavior is set in `settings.json`. All the relevant settings and their effects are summed up in the following table.
@@ -21,6 +25,7 @@ Setting | Effect
 --- | ---
 `editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise.
 `editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
+`editor.formatOnType` | Enables or disables automatic formatting of code block upon typing `;` or `}`.
 `php.format.codeStyle` | Preferred code style described in previous sections, available values are `PHP Tools`, `PSR-2`, or others described below.
 
 ## Code Styles
