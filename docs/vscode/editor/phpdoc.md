@@ -5,7 +5,7 @@ Description: Writing and generating PHPDoc comments
 
 ## PHPDoc Completion
 
-PHPDoc block is completed by typing '`/**`'.
+PHPDoc block is completed by typing '`/**`'. This features requires you to enable `Format On Type` VS Code setting (`"formatOnType": true`).
 
 ![PHPDoc generation](../imgs/phpdoc-generate.gif)
 

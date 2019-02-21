@@ -21,7 +21,7 @@ Setting | Effect
 --- | ---
 `editor.insertSpaces` | Spaces are used to indent code if `true`, tabs are used otherwise.
 `editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
-`php.format.codeStyle` | Preferred code style described in previous sections, available values are `PHP Tools` and `PSR-2`
+`php.format.codeStyle` | Preferred code style described in previous sections, available values are `PHP Tools`, `PSR-2`, or others described below.
 
 ## Code Styles
 
