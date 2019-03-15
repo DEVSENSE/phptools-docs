@@ -1,5 +1,5 @@
 ﻿/*
-Title: 6 factors to consider when choosing a PHP developing tool
+Title: 6 core factors to consider when choosing a PHP developing tool
 Description: 6 factors to consider when choosing a PHP developing tool
 Template: blog
 Author: DEVSENSE
@@ -7,13 +7,13 @@ Date: 2019/03/18
 Tags: PHP
 */
 
-# 6 factors to consider when choosing a PHP developing tool
+# 6 core factors to consider when choosing a PHP developing tool
 
 ![](img/adult-beard-business-845451.jpg)
 
 Choosing the right developing tool for PHP could be key to your software development. Just think about it- you will be investing a huge amount of time inside it. A useful IDE (integrated development environment) can help you speed up your PHP programming and be more productive. It means less typing and potentially learning something, if you’re new to programming.
 
-However, an IDE that is slow and or one that doesn’t handle the issues you need will kill your productivity. Anything that slows you down will quickly become a larger problem over time. That’s why developers should consider different factors when deciding which is the most convenient tool for their development. In this article, we list 6 factors to help you choose your development tool for PHP.
+However, an IDE that is slow and or one that doesn’t handle the issues you need will kill your productivity. Anything that slows you down will quickly become a larger problem over time. That’s why developers should consider different factors when deciding which is the most convenient tool for their development. In this article, we list 6 core factors to help you choose your development tool for PHP.
 
 ## 1) Features
 
