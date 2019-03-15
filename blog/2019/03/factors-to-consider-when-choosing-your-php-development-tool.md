@@ -23,13 +23,13 @@ One of the most important factors when deciding what’s the correct tool for PH
 
 ## 2) Speed
 
-![some text](img/marc-sendra-martorell-427335-unsplash.jpg)
+![](img/marc-sendra-martorell-427335-unsplash.jpg)
 
 Isn’t it frustrating when you type something and the software takes forever to respond? Well, now imagine this over and over, all day long, every day. Any time that you could have saved with the tool, now it’s gone because of a slow-responsive IDE. That’s why you need your IDE to be fast. It will not only increase your productivity, it will *really* save you time, and even consume less battery!
 
 ## 3) Easiness to use
 
-![some text](img/format-document.gif)
+![](img/format-document.gif)
 
 Any software has its own learning curve, to one degree or to another. However, complex tools require more effort and time to be used efficiently. And who wants to spend more time learning about the IDE, reading its documention, or asking for help, than actually working on it? So, easiness to use must be also taken into account when choosing your PHP developing tool. You should be able to know the capabilities and learn to use your IDE fast and efficiently. That involves becoming familiar with the key-shortcuts or the most commonly used commands. The easier that it is for you to know the capabilities, the faster you will start to improve your productivity.
 
