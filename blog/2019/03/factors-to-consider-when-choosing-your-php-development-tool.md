@@ -23,7 +23,7 @@ One of the most important factors when deciding what’s the correct tool for PH
 
 ## 2) Speed
 
-![](img/marc-sendra-martorell-427335-unsplash.jpg)
+![](img/marc-sendra-martorell-427335-unsplash.png)
 
 Isn’t it frustrating when you type something and the software takes forever to respond? Well, now imagine this over and over, all day long, every day. Any time that you could have saved with the tool, now it’s gone because of a slow-responsive IDE. That’s why you need your IDE to be fast. It will not only increase your productivity, it will *really* save you time, and even consume less battery!
 
