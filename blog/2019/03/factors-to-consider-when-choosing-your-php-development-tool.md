@@ -35,7 +35,7 @@ Any software has its own learning curve, to one degree or to another. However, c
 
 ## 4)	Compatibility with your environment
 
-![](img/Windows-Mac-Linux.png)
+![Windows macOS Linux](img/Windows-Mac-Linux.png)
 
 Make sure that the tool you choose works for your environment. Not all IDEs that work for Windows will for for macOS or for Linux. Basic stuff, but you’ll be amazed by the amount of people that forget to check this beforehand. 
 
