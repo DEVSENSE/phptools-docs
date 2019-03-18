@@ -53,7 +53,7 @@ This means just how well the IDE integrates other tools – the more tools you c
 ### Conclusion
 
 Selecting a developing tool for PHP can be a critical step for your project. These are just some of the most important factors that should be taken into account when evaluating the overall value of the tool. 
-Since there are plenty of options and a variety of different IDEs available, you should always try the ones you and see if they adapt to your specific needs
+Since there are plenty of options and a variety of different IDEs available, you should always try them you and see if they adapt to your specific needs.
 
 
 
