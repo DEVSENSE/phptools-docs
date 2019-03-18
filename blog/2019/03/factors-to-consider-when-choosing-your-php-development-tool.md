@@ -7,7 +7,6 @@ Date: 2019/03/18
 Tags: PHP
 */
 
-# 6 core factors to consider when choosing a PHP developing tool
 
 ![](img/adult-beard-business-845451.jpg)
 
