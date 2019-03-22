@@ -35,7 +35,7 @@ The .msi determines which IDEs are installed on your machine, and gives you the 
 
 ## b) Download from Devsense.com 
 
-![MSI Installer](imgs/download-page.png)
+![Download from Devsense](imgs/download-page.png)
 
 As well as Visual Studio's gallery, [Devsense's Download Page](https://www.devsense.com/download) contains the latest stable installer, the version archive and changelog.
 
