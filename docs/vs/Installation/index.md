@@ -37,7 +37,7 @@ The .msi determines which IDEs are installed on your machine, and gives you the 
 
 ![MSI Installer](imgs/download-page.png)
 
-As well as Visual Studio's gallery, [Devsense's Download Page]https://www.devsense.com/download contains the latest stable installer, the version archive and changelog.
+As well as Visual Studio's gallery, [Devsense Download Page]https://www.devsense.com/download contains the latest stable installer, the version archive and changelog.
 
 1) Download PHP Tools for Visual Studio
 
