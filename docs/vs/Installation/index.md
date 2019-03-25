@@ -21,9 +21,9 @@ There are several ways of installing PHP Tools for Visual Studio. The user can c
 
 The .msi from the [Microsoft Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5) contains the latest stable version. 
 
-1) Download PHP Tools for Visual Studio 
+1) Download PHP Tools for Visual Studio
 
-![Download](imgs/download-marketplace.png)
+![Download](imgs/download_marketplace.png)
 
 2) Run the setup package and follow the on-screen instructions
 
