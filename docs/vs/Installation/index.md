@@ -15,9 +15,7 @@ There are several ways of installing PHP Tools for Visual Studio. The user can c
 
 - After installation, access PHP Tools from within Visual Studio's IDE. The installation does not create any program groups, Start Menu items, or desktop shortcuts.
 
-
 ## a) Download from the Microsoft Visual Studio Gallery
-
 
 ![Visual Studio Gallery](imgs/installation-vsgallery.png)
 
@@ -25,7 +23,7 @@ The .msi from the [Microsoft Visual Studio Gallery](http://visualstudiogallery.m
 
 1) Download PHP Tools for Visual Studio 
 
-![Download](imgs/Download-from-Marketplace.png)
+![Download](imgs/download-marketplace.png)
 
 2) Run the setup package and follow the on-screen instructions
 
@@ -33,9 +31,7 @@ The .msi determines which IDEs are installed on your machine, and gives you the 
 
 ![MSI Installer](imgs/installation-msi.png)
 
-## b) Download from Devsense.com 
-
-![Download from Devsense](imgs/download-page.png)
+## b) Download from devsense.com
 
 As well as Visual Studio's gallery, [Devsense's Download Page](https://www.devsense.com/download) contains the latest stable installer, the version archive and changelog.
 
@@ -45,12 +41,9 @@ As well as Visual Studio's gallery, [Devsense's Download Page](https://www.devse
 
 2) Run the package and follow the instructions
 
-
-
 ## c) Visual Studio Extension Manager 
 
 ![Visual Studio Gallery](imgs/installation-extension-manager.png)
-
 
 To download directly from Visual Studio Extension Manager:
 
@@ -60,7 +53,6 @@ To download directly from Visual Studio Extension Manager:
 
 3) Click **Online Gallery** and search for **PHP Tools**. Visual Studio will show you the available products
 
-4) Download and install. 
-
+4) Download and install.
 
 > **Note**: you will have to close and restart Visual Studio to finish the installation.
