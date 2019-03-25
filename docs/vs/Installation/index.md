@@ -9,7 +9,7 @@ There are several ways of installing PHP Tools for Visual Studio. The user can c
 
 - Administrator access is always required. Since version 1.16, PHP Tools is directly installed for all users.
 
-- Microsoft Visual Studio must be previously installed on your system, in order to be able to install PHP Tools. All editions of Visual Studio are supported except the Express ones. Instead of the free Express edition, you can download the free [Visual Studio Community Edition](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
+- Microsoft Visual Studio must be previously installed on your system, in order to be able to install PHP Tools. All editions of Visual Studio are supported except the Express ones. You can download the free [Visual Studio Community Edition](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
 
 - To finish PHP Tools installation, close and restart Visual Studio.
 
