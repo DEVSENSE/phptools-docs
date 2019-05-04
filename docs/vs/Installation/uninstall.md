@@ -20,7 +20,3 @@ PHP Tools for Visual Studio is installed through the Windows Installer. Use **Pr
 ![Uninstall from Control Panel](imgs/phptools-uninstall.png)
 
 > Note: The extension is listed in Visual Studio in `Tools | Extension Manager` without the option to uninstall.
-
-## Uninstall previous versions
-
-PHP Tools for Visual Studio versions lower than 1.11 were standard Visual Studio extension (`.vsix`). Installing, updating and removing this extension is managed through Visual Studio Extension Manager (see below).
