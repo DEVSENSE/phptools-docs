@@ -18,11 +18,7 @@ More detailed steps follows:
 - **Administrator access**. Please ensure you can provide administrator access to your Hard Drive since the installation package copies files to system's *AppData*. For Visual Studio 2010 up to 2015, you'll be queried to allow access to system's *Program Files*.
 - **Microsoft Visual Studio**. Install [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/). Choose the **Community** edition as a **free** option. Supported editions are: *Comunity (free)*, *Professional*, *Enterprise* or higher.
 
-<center>
-
 ![Visual Studio Extensions](imgs/visualstudio-small.png)
-
-</center>
 
 ## Download and Offline installation
 
