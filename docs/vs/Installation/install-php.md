@@ -1,46 +1,63 @@
 /*
 Title: Installing PHP
-Description: How to install PHP
+Description: How to install PHP with PHP Tools for Visual Studio
 */
 
-# Installing PHP
-When running a PHP project locally, it is required to have PHP installed. In order to enable the debugging features, the **Xdebug** PHP extension has to be properly enabled.
+# Installing PHP with PHP Tools for Visual Studio
 
-## Automatic PHP installation
+PHP is required in order to run your PHP project locally. Additionally, in order to get the debugging functionality working, the PHP's `Xdebug` extension is required as well. There are several ways of getting the project ready to run.
 
-In case the user does not have PHP with **Xdebug** installed or configured properly, PHP Tools offer quick installation from **Microsoft Web Platform Installer**.
+## Choosing PHP Version
 
-Every time a user starts a project (by default <kbd>F5</kbd> or <kbd>Ctrl+F5</kbd>), PHP Tools automatically checks the configuration. In case of an issue, a quick configuration dialog box will appear (see below).
+Open or create a `PHP Project` and go to the project's `Properties`. Choose your desired PHP version as depicted below.
 
-![Install PHP from Web Platform installer](imgs/install-php-webpi.png)
+![Installing PHP Automatically](imgs/phpproject-properties-server.png)
 
-The first option lets the user install the latest PHP version from **Web Platform Installer** with **Xdebug** support automatically configured. The user may be asked for elevated rights. The process may require to install or update Web Platform Installer first.
+Save the properties and proceed to the automatic PHP installation either by running the project (<kbd>F5</kbd>) or by clicking onto the warning message `Issues found. Click for details and fix`.
 
-During the installation process, a command line may appear. Note that the process may take several minutes, depending on the user's network connection.
- 
- ![Install PHP from Web Platform installer](imgs/install-php-webpi-progress.png)
+<center>
 
-> **Remarks**:
-> Automatic PHP installation is not available on **Windows XP** platform.
-> User may be asked for elevated rights. In case of insufficient permissions, the process may fail.
-> The process requires access to `C:\Program Files\IIS Express\PHP\` folder and its content.
+![Installing PHP Automatically](imgs/resolving-issues.png)
 
-## Manual PHP Configuration
+</center>
 
-In case the user has configured PHP already, just open **Tools | Options | PHP Tools | Interpreter** to review and access its settings and issues.
+You'll be asked for Administrator rights and Microsoft's Web Platform Installer will proceed the installation of `PHP` already configured with the `Xdebug` extension enabling the debugging functionality.
 
- ![PHP Interpreter option](imgs/install-php-interpreter.png)
+## Existing PHP Installation
 
-The user should check whether the correct PHP installation is used, and whether the corresponding configuration file (`php.ini`) is correct. The PHP path option tells Visual Studio what PHP will be used as a default interpreter & runtime. A dialog box allows user to quickly access `php.ini` file and check & fix possible issues.
+You can set your already installed PHP to be used by Visual Studio. Go to menu `Tools | Options` and navigate to `PHP Tools / Interpreter` as depicted below.
 
-In case of a configuration issue, the user is notified with a yellow bar and a `View recommendations` button.
+![PHP Interpreter option](imgs/install-php-interpreter.png)
 
- ![Not optional configuration detected](imgs/install-php-options.png)
+In the dialog you can choose a custom directory with `php.exe` program and optionally fix any of its configuration issues.
 
- ![Issues dialog](imgs/install-php-options-issues.png)
+<center>
 
-> **Note**: location of `php.ini` is determined in several steps, according to PHP behavior. If the location is not correct, please check the following:
+![Issues dialog](imgs/install-php-options-issues.png)
+
+</center>
+
+> Note this option may not be able to configure `Xdebug` for you properly.
+
+Then, in order to use the specified PHP version by your actual PHP project, go to project properties and choose your configured PHP directory.
+
+> **Note**: PHp Tools will check and analyze the PHP configuration file `php.ini`. The location of `php.ini` is determined in several steps, according to the PHP behavior. If the location is not correct, please check the following:
 >
 > - The system environment variable `PHPRC` forces PHP to use `php.ini` in specified location. Removing this environment variable is recommended.
 > - PHP looks for `php.ini` in its directory. Ensure the `php.ini` file exists.
 > - PHP specifies several other locations, such as system registry. Follow [http://php.net/manual/en/configuration.file.php](http://php.net/manual/en/configuration.file.php) for more information.
+
+## Using a Remote PHP Server
+
+It is possible to run your projects on a remote machine or a virtualized environment such as a docker container.
+
+Setup your remote machine with your PHP and Xdebug configurations, go to the PHP project properties and choose the custom server as depicted below. Enter the remote machine URL and start your project.
+
+![Issues dialog](imgs/phpproject-properties-custom.png)
+
+> Note: make sure your PHP project gets deployed onto the remote machine upon starting the project, or the project directory is mapped to the remote machine's directory.
+
+## Related Links
+
+- [Configuring Xdebug](/debugging/configuring-xdebug)
+- [New Project from Existing Code](/project/from-existing-code)
