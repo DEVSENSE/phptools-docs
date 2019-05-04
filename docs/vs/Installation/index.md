@@ -37,7 +37,7 @@ The software's installation package can be downloaded manually from several loca
 
 ## Activation
 
-The product contains both full featured 30 day trial and the full product. Please see the [product activation](activation) for more details.
+The product contains both full featured 30 day trial and the full product. Please see the [product activation](/vs/installation/activation) for more details.
 
 ## Update
 
