@@ -15,7 +15,11 @@ Open or create a `PHP Project` and go to the project's `Properties`. Choose your
 
 Save the properties and proceed to the automatic PHP installation either by running the project (<kbd>F5</kbd>) or by clicking onto the warning message `Issues found. Click for details and fix`.
 
+<center markdown="1">
+
 ![Installing PHP Automatically](imgs/resolving-issues.png)
+
+</center>
 
 You'll be asked for Administrator rights and Microsoft's Web Platform Installer will proceed the installation of `PHP` already configured with the `Xdebug` extension enabling the debugging functionality.
 
@@ -27,7 +31,11 @@ You can set your already installed PHP to be used by Visual Studio. Go to menu `
 
 In the dialog you can choose a custom directory with `php.exe` program and optionally fix any of its configuration issues.
 
+<center markdown="1">
+
 ![Issues dialog](imgs/install-php-options-issues.png)
+
+</center>
 
 > Note this option may not be able to configure `Xdebug` for you properly.
 
