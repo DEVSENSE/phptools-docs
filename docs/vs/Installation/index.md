@@ -9,7 +9,7 @@ In case you have the Microsoft Visual Studio, you can jump directly to its **Man
 
 ![Visual Studio Extensions](imgs/install-from-vs.png)
 
-Once downloaded, you'll be prompted to close your Visual Studio. Package will be installed and your Visual Studio configured for the PHP development. After starting the Visual Studio next time, you can proceed to the [product activation](activation) and [get started](/vs/).
+Once downloaded, you'll be prompted to close your Visual Studio. Package will be installed and your Visual Studio configured for the PHP development. After starting the Visual Studio next time, you can proceed to the [product activation](/vs/installation/activation) and [get started](/vs/).
 
 More detailed steps follows:
 
