@@ -7,15 +7,15 @@ Description: How to install PHP with PHP Tools for Visual Studio
 
 PHP is required in order to run your PHP project locally. Besides, in order to get the debugging functionality working, the PHP's `Xdebug` extension is required as well. Both of them will be installed in one single step.
 
-There are several ways of getting the project ready to run. You can choose the way depending on your situation.
+There are several ways of getting the project ready to run. You can choose depending on the case:
 
-## New PHP Version
+##  Installing new PHP Version
 
-Open or create a `PHP Project` and go to the project's `Properties`. Choose your desired PHP version as depicted below.
+If you don't have PHP already installed, open or create a `PHP Project` and go to the project's `Properties`. Choose your desired PHP version as depicted below.
 
 ![Installing PHP Automatically](imgs/phpproject-properties-server.png)
 
-Save the properties and proceed to the automatic PHP installation either by running the project (<kbd>F5</kbd>) or by clicking onto the warning message `Issues found. Click for details and fix`.
+Save the properties and proceed to the automatic PHP installation either by running the project (<kbd>F5</kbd>) or by clicking on the warning message `Issues found. Click for details and fix`.
 
 
 <center markdown="1">
@@ -25,15 +25,16 @@ Save the properties and proceed to the automatic PHP installation either by runn
 </center>
 
 
-You'll be asked for Administrator rights. Microsoft's Web Platform Installer will proceed with the installation of `PHP` already configured with the `Xdebug` extension, which enables the debugging functionality.
+You'll be asked for administrator rights. Then, Microsoft's Web Platform Installer will proceed with the installation of `PHP` already configured with the `Xdebug` extension, which enables the debugging functionality.
 
 ## Existing PHP Installation
 
-You can set your already installed PHP to be used by Visual Studio. Go to menu `Tools | Options` and navigate to `PHP Tools / Interpreter` as depicted below.
+If you have PHP already installed, you can set it to be used by Visual Studio. Go to menu `Tools | Options` and navigate to `PHP Tools / Interpreter` as depicted below.
 
 ![PHP Interpreter option](imgs/install-php-interpreter.png)
 
-In the dialog you can choose a custom directory with `php.exe` program and optionally fix any of its configuration issues.
+In the dialog, you can choose a custom directory with `php.exe` program and optionally fix any of its configuration issues.
+
 
 <center markdown="1">
 
@@ -41,25 +42,28 @@ In the dialog you can choose a custom directory with `php.exe` program and optio
 
 </center>
 
-> Note this option may not be able to configure `Xdebug` for you properly.
+
+> **Note 1**: this option may not be able to configure `Xdebug` for you properly.
 
 Then, in order to use the specified PHP version by your actual PHP project, go to project properties and choose your configured PHP directory.
 
-> **Note**: PHp Tools will check and analyze the PHP configuration file `php.ini`. The location of `php.ini` is determined in several steps, according to the PHP behavior. If the location is not correct, please check the following:
+> **Note 2**: PHP Tools will check and analyze the PHP configuration file `php.ini`. The location of `php.ini` is determined in several steps, according to the PHP behavior. If the location is not correct, please check the following:
 >
-> - The system environment variable `PHPRC` forces PHP to use `php.ini` in specified location. Removing this environment variable is recommended.
+> - The system environment variable `PHPRC` forces PHP to use `php.ini` in a specified location. Removing this environment variable is recommended.
 > - PHP looks for `php.ini` in its directory. Ensure the `php.ini` file exists.
 > - PHP specifies several other locations, such as system registry. Follow [http://php.net/manual/en/configuration.file.php](http://php.net/manual/en/configuration.file.php) for more information.
 
 ## Using a Remote PHP Server
 
-It is possible to run your projects on a remote machine or a virtualized environment such as a docker container.
+It is possible to run your projects on a remote machine or a virtualized environment, such as a docker container.
 
 Setup your remote machine with your PHP and Xdebug configurations, go to the PHP project properties and choose the custom server as depicted below. Enter the remote machine URL and start your project.
+
 
 ![Issues dialog](imgs/phpproject-properties-custom.png)
 
 > Note: make sure your PHP project gets deployed onto the remote machine upon starting the project, or the project directory is mapped to the remote machine's directory.
+
 
 ## Related Links
 
