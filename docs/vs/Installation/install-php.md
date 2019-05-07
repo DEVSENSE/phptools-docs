@@ -5,11 +5,11 @@ Description: How to install PHP with PHP Tools for Visual Studio
 
 # Installing PHP with PHP Tools for Visual Studio
 
-PHP is required in order to run your PHP project locally. Besides, in order to get the debugging functionality working, the PHP's `Xdebug` extension is required as well. Both of them will be installed in one single step.
+PHP is required to run your PHP project locally. Besides, the PHP's `Xdebug` extension is required as well, in order to get the debugging functionality working. This docuemte will try to explain how to do both the easier way.
 
 There are several ways of getting the project ready to run. You can choose depending on the case:
 
-##  Installing new PHP Version
+##  a. Installing new PHP Version
 
 If you don't have PHP already installed, open or create a `PHP Project` and go to the project's `Properties`. Choose your desired PHP version as depicted below.
 
@@ -27,7 +27,7 @@ Save the properties and proceed to the automatic PHP installation either by runn
 
 You'll be asked for administrator rights. Then, Microsoft's Web Platform Installer will proceed with the installation of `PHP` already configured with the `Xdebug` extension, which enables the debugging functionality.
 
-## Existing PHP Installation
+## b. Existing PHP Installation
 
 If you have PHP already installed, you can set it to be used by Visual Studio. Go to menu `Tools | Options` and navigate to `PHP Tools / Interpreter` as depicted below.
 
@@ -53,7 +53,7 @@ Then, in order to use the specified PHP version by your actual PHP project, go t
 > - PHP looks for `php.ini` in its directory. Ensure the `php.ini` file exists.
 > - PHP specifies several other locations, such as system registry. Follow [http://php.net/manual/en/configuration.file.php](http://php.net/manual/en/configuration.file.php) for more information.
 
-## Using a Remote PHP Server
+## c. Using a Remote PHP Server
 
 It is possible to run your projects on a remote machine or a virtualized environment, such as a docker container.
 
@@ -62,7 +62,7 @@ Setup your remote machine with your PHP and Xdebug configurations, go to the PHP
 
 ![Issues dialog](imgs/phpproject-properties-custom.png)
 
-> Note: make sure your PHP project gets deployed onto the remote machine upon starting the project, or the project directory is mapped to the remote machine's directory.
+> **Note**: make sure your PHP project gets deployed onto the remote machine upon starting the project, or the project directory is mapped to the remote machine's directory.
 
 
 ## Related Links
