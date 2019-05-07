@@ -5,7 +5,6 @@ Description: How to install PHP Tools for Visual Studio
 
 ## Basic Installation
 
-****
 
 You will need to have *Microsoft Visual Studio* installed before installing PHP Tools. You can download the free Community version [here](https://visualstudio.microsoft.com/vs/community/) or use any other Visual Studio version, except for Express versions, which are not supported.
 
