@@ -21,7 +21,7 @@ Trial license can also be activated from the Visual Studio menu. Click **Help**,
 
 ## Obtain your License Key
 
-The license key can be purchased online from [Pricing&Buy page](http://www.devsense.com/products/php-tools/pricing). See [License Comparison](http://www.devsense.com/products/php-tools/pricing#license-comparison) for details about available pricing and licenses.
+The license key can be purchased online from [Pricing&Buy page](https://www.devsense.com/purchase). See [License Comparison](https://www.devsense.com/en/purchase#faq) for details about available pricing and licenses.
 
 > **Note**: The license key is sent by our authorized vendor **Avangate**. 
 
@@ -31,6 +31,8 @@ The license key can be purchased online from [Pricing&Buy page](http://www.devse
 
 ![Enter license key](imgs/activation-enter-key.png)
 
+In order to activate the product license with blocked Internet connection, please see [offline activation](offline-activation).
+
 ## Subscription Status
 
 To review the status of your maintenance subscription, go to `Help | PHP Tools for Visual Studio`.
@@ -38,3 +40,7 @@ To review the status of your maintenance subscription, go to `Help | PHP Tools f
 ![License status](imgs/license-about-window.png)
 
 This window gives you information about your license status, product version and an option to renew your subscription.
+
+## Related links
+
+- [Offline activation](offline-activation). How to activate the product license with blocked Internet connection.
