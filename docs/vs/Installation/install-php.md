@@ -5,9 +5,11 @@ Description: How to install PHP with PHP Tools for Visual Studio
 
 # Installing PHP with PHP Tools for Visual Studio
 
-PHP is required in order to run your PHP project locally. Additionally, in order to get the debugging functionality working, the PHP's `Xdebug` extension is required as well. There are several ways of getting the project ready to run.
+PHP is required in order to run your PHP project locally. Besides, in order to get the debugging functionality working, the PHP's `Xdebug` extension is required as well. Both of them will be installed in one single step.
 
-## Choosing PHP Version
+There are several ways of getting the project ready to run. You can choose the way depending on your situation.
+
+## New PHP Version
 
 Open or create a `PHP Project` and go to the project's `Properties`. Choose your desired PHP version as depicted below.
 
@@ -15,13 +17,15 @@ Open or create a `PHP Project` and go to the project's `Properties`. Choose your
 
 Save the properties and proceed to the automatic PHP installation either by running the project (<kbd>F5</kbd>) or by clicking onto the warning message `Issues found. Click for details and fix`.
 
+
 <center markdown="1">
 
 ![Installing PHP Automatically](imgs/resolving-issues.png)
 
 </center>
 
-You'll be asked for Administrator rights and Microsoft's Web Platform Installer will proceed the installation of `PHP` already configured with the `Xdebug` extension enabling the debugging functionality.
+
+You'll be asked for Administrator rights. Microsoft's Web Platform Installer will proceed with the installation of `PHP` already configured with the `Xdebug` extension, which enables the debugging functionality.
 
 ## Existing PHP Installation
 
