@@ -11,7 +11,7 @@ Go to Visual Studio's **Extension Manager** in `Tools | Extensions and Updates` 
 
 ![Uninstall from VS](imgs/extension-manager-uninstall.png)
 
-Any new installation, update or removal requires restarting Visual Studio. The user is notified about that, and it is recommended to perform installations or updates while other Visual Studio instances are closed.
+Any new installation, update or removal requires restarting Visual Studio. The user is notified about that, and it is recommended to perform installations or updates while all Visual Studio instances are closed.
 
 ## Visual Studio 2010 - 2015
 
