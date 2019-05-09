@@ -5,12 +5,12 @@ Description: Activate PHP Tools for Visual Studio Offline
 
 ## Offline Activation
 
-In case there is no Internet connection available or the Internet is blocked by company policies, PHP Tools activation can be processed in a web browser on another machine with a working Internet connection.
+In case there is no Internet connection available or the Internet has been blocked by company policies, PHP Tools activation can be processed in a web browser on another machine with a working Internet connection.
 
 ![Enter license key](imgs/activation-enter-key.png)
 
 
-To access offline activation, proceed to the normal product activation by entering your license key, as shown in the picture above. The activation dialog will popup a message saying it cannot reach the server and will **provide an alternate URL** that can be copied and opened in a web browser with working connection (see picture below).
+To access offline activation, proceed to the normal product activation by entering your license key, as shown on the picture above. The activation dialog will popup a message saying it cannot reach the server and it will **provide an alternate URL**. This URL can be copied and opened in a web browser with a working connection (see picture below).
 
 ![Get alternate URL](imgs/offline-activate1.png)
 
