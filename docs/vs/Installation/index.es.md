@@ -30,7 +30,7 @@ Para instalar PHP Tools para Visual Studio necesitará:
 
 </center>
 
-## Download
+## Descarga
 
 El paquete de descarga de PHP Tools puede ser descargado de:
 
@@ -49,7 +49,7 @@ Una vez que haya descagado PHP Tools:
 
 El paquete de instalación del software también puede ser utilizado para instalar PHP Tools en una máquina [sin conexión a internet](https://docs.devsense.com/en/vs/installation/offline-activation).
 
-## Activation
+## Activación
 
 El producto contiene una versión de prueba gratis por 30 días, con todas las características y funciones. Por favor, vea [activación del producto](/vs/installation/activation).
 
