@@ -6,14 +6,14 @@ Description: How to install PHP Tools for Visual Studio
 ## Instalación básica
 
 
-Antes de instalar PHP Tools, necesita tener instalado *Microsoft Visual Studio*. Puede descargar la versión [Community](https://visualstudio.microsoft.com/es/vs/community/) de Visual Studio que es **gratis**. PHP Tools es compatible con cualquier otra versión de Visual Studio, excepto las versiones express.
+Antes de instalar PHP Tools, necesita tener instalado *Microsoft Visual Studio*. Puede descargar la versión [Community](https://visualstudio.microsoft.com/es/vs/community/) de Visual Studio que es **gratis**. PHP Tools es compatible con todas las versiones de Visual Studio, excepto las versiones express.
 
 Si ya tiene instalado Visual Studio, puede ir directamente a **Administrar extensiones** y buscar **PHP Tools for Visual Studio**.
 
 
 ![Visual Studio Extensions](imgs/install-from-vs.png)
 
-Una vez que haya descargado el paquete, deberá cerrar Visual Studio. El software se instalará y Visual Studio será configurado para el desarrollo en PHP. Antes de abrir Visual Studio nuevamente, debe [activar el producto](https://docs.devsense.com/es/vs/installation) para poder [comenzar a utilizar PHP Tools](https://docs.devsense.com/es/vs.)
+Una vez que haya descargado el paquete, deberá cerrar Visual Studio. El software será instalado y Visual Studio será configurado para  desarrollo en PHP. Antes de abrir Visual Studio nuevamente, debe [activar el producto](https://docs.devsense.com/es/vs/installation) para poder [comenzar a utilizar PHP Tools](https://docs.devsense.com/es/vs.)
 
 Si necesita una explicación más detallada, por favor continúe leyendo.
 
@@ -22,7 +22,7 @@ Si necesita una explicación más detallada, por favor continúe leyendo.
 Para instalar PHP Tools para Visual Studio necesitará:
 
 - **Acceso en modo administrador**. Por favor asegúrese que tiene acceso como administrador a su disco duro, porque el paquete de instalación copia archivos en su sistema. Para Visual Studio 2010 hasta 2015, necesitará acceso a **Archivos de Programa**.
-- **Microsoft Visual Studio**. Instale Microsoft Visual Studio: la edición Comunity (https://visualstudio.microsoft.com/es/vs/community/) es gratuita, pero también puede instalar cualquiera de las otras ediciones de Visual Studio como *Profesional* o *Enterprice*. Las ediciones Express no con compatibles.
+- **Microsoft Visual Studio**. Instale Microsoft Visual Studio: la edición [Comunity](https://visualstudio.microsoft.com/es/vs/community/) es gratuita, pero también puede instalar cualquiera de las otras ediciones de Visual Studio como *Profesional* o *Enterprice*. Las ediciones Express no con compatibles.
 
 <center markdown="1">
 
@@ -34,8 +34,8 @@ Para instalar PHP Tools para Visual Studio necesitará:
 
 El paquete de descarga de PHP Tools puede ser descargado de:
 
-- [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term="php%20tools"&target=VS&vsVersion=)- -	Elija la edición de acuerdo a la versión de su Visual Studio.
-- [DEVSENSE.com](https://www.devsense.com/en/download#vs)- -	Descargue cualquier versión o cualquier actualización de PHP Tools for Visual Studio directamente desde nuestra página.
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term="php%20tools"&target=VS&vsVersion=)-	Elija la edición de acuerdo a la versión de su Visual Studio.
+- [DEVSENSE.com](https://www.devsense.com/en/download#vs)-	Descargue cualquier versión o cualquier actualización de PHP Tools for Visual Studio directamente desde nuestra página.
 
 
 #### Instrucciones:
@@ -51,7 +51,7 @@ El paquete de instalación del software también puede ser utilizado para instal
 
 ## Activation
 
-TEl producto contiene una versión de prueba gratis por 30 días, con todas las características y funciones. Por favor, vea [activación del producto](/vs/installation/activation).
+El producto contiene una versión de prueba gratis por 30 días, con todas las características y funciones. Por favor, vea [activación del producto](/vs/installation/activation).
 
 ## Actualizaciones
 
