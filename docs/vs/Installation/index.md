@@ -30,7 +30,7 @@ In order to install PHP Tools for Visual Studio, you'll need:
 
 </center>
 
-## Download
+## Download and installation
 
  PHP Tools' installation package can be downloaded from:
 
@@ -39,7 +39,7 @@ In order to install PHP Tools for Visual Studio, you'll need:
 - [DEVSENSE.com](https://www.devsense.com/en/download#vs)- you can download any version or any update of PHP Tools for Visual Studio directly from our website.
 
 
-#### Instructions:
+#### Instructions for installation:
 
 Once you have downloaded PHP Tools:
 
