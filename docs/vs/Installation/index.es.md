@@ -30,7 +30,7 @@ Para instalar PHP Tools para Visual Studio necesitará:
 
 </center>
 
-## Descarga
+## Descarga e instalación
 
 El paquete de descarga de PHP Tools puede ser descargado de:
 
