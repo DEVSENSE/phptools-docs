@@ -38,7 +38,7 @@ El paquete de descarga de PHP Tools puede ser descargado de:
 - [DEVSENSE.com](https://www.devsense.com/en/download#vs)-	Descargue cualquier versión o cualquier actualización de PHP Tools for Visual Studio directamente desde nuestra página.
 
 
-#### Instrucciones:
+#### Instrucciones para instalación:
 
 Una vez que haya descagado PHP Tools:
 
