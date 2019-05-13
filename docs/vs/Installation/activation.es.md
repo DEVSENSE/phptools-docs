@@ -36,7 +36,7 @@ Haga clic en `Ayuda | Activar PHP Tools for Visual Studio` para abrir el cuadro 
 
 ![Enter license key](imgs/activation-enter-key.png)
 
-> **Nota**: si tiene una conexión de Internet bloqueada por política de su compañía, también puede activar el producto sin conexión. Más en [activación sin conexión](offline-activation).
+> **Nota**: si tiene una conexión de Internet bloqueada por política de su compañía, también puede [activar el producto sin conexión](offline-activation).
 
 Para saber el estatus de su suscripción de mantenimiento y soporte, diríjase a `Ayuda | PHP Tools for Visual Studio`. [¿Qué es la suscripción de mantenimiento y soporte?](https://www.devsense.com/es/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
 
