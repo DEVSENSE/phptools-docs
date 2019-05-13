@@ -17,21 +17,22 @@ Como se explicó anteriormente, PHP Tools for Visual Studio viene con una evalua
 
 ![Begin trial](imgs/license-ask-trial.png)
 
-Este cuadro de diálogo aparecerá cada vez, a menos que la evaluación ya haya sido comenzada, el producto haya sido activado o el cuadro de diálogo haya sido desactivado en el menú de cerrar.
+Este cuadro de diálogo aparecerá siempre, a menos que la evaluación ya haya sido comenzada, el producto haya sido activado o el cuadro de diálogo haya sido desactivado en el menú de cerrar.
 
-Haga clic en **Comenzar evaluación** para comenzar la prueba gratis del producto por 30 días.
+Haga clic en **Comenzar evaluación** para iniciar la prueba gratis del producto por 30 días.
 
 > **Nota:** La evaluación también puede ser activada desde el menú de Visual Studio. Haga clic en **Ayuda** y luego en **Activar PHP Tools for Visual Studio** para abrir nuevamente el diálogo de activación.
 
 
 ## Obtenga su clave de licencia
 
-La clave de licencia puede ser adquirida en línea desde nuestra [página de compra](https://www.devsense.com/purchase). Para información detallada acerca de los tipos de licencia, modelo de licencia, compras, actualizaciones y renovación, por favor, vea nuestra sección de [Preguntas frecuentes (FAQ).](https://www.devsense.com/es/purchase#faq).
+La clave de licencia puede ser adquirida en línea desde nuestra [página de compra](https://www.devsense.com/purchase). Para información detallada acerca de los tipos de licencia, modelo de licencia, compras, actualizaciones y renovación, por favor, vea nuestra sección de [Preguntas frecuentes (FAQ)](https://www.devsense.com/es/purchase#faq).
 
 ## Ingrese su clave de licencia
 
 Una vez que haya adquirido su clave de licencia, puede activar su copia de PHP Tools for Visual Studio. El producto puede ser activado desde el menú de Visual Studio. 
-Haga clic en `Ayuda | Activar PHP Tools for Visual Studio` para abrir el cuadro de diálogo de activación. 
+Haga clic en `Ayuda | Activar PHP Tools for Visual Studio` para abrir el cuadro de diálogo de activación. Luego ingrese su licencia y haga clic en "Activar".
+
 
 ![Enter license key](imgs/activation-enter-key.png)
 
