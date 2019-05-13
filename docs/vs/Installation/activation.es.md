@@ -40,11 +40,11 @@ Ingrese su licencia y haga clic en "Activar".
 
 > **Nota**: si tiene una conexión de Internet bloqueada por política de su compañía, también puede [activar el producto sin conexión](offline-activation).
 
-Para saber el estatus de su suscripción de mantenimiento y soporte, diríjase a `Ayuda | PHP Tools for Visual Studio`. [¿Qué es la suscripción de mantenimiento y soporte?](https://www.devsense.com/es/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
+Para saber el estatus de su subscripción de mantenimiento y soporte, diríjase a `Ayuda | PHP Tools for Visual Studio`. [¿Qué es la subscripción de mantenimiento y soporte?](https://www.devsense.com/es/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
 
 ![License status](imgs/license-about-window.png)
 
-Esta ventana le ofrece información sobre el estado de su licencia, la versión del producto y la opción de renovar su suscripción.
+Esta ventana le ofrece información sobre el estado de su licencia, la versión del producto y la opción de renovar su subscripción.
 
 ## Artículos relacionados
 
