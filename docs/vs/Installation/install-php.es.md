@@ -31,7 +31,7 @@ Debe tener acceso en modo administrador. Microsoft's Web Platform Installer inst
 ## Instalación con PHP previamente en el sistema
 
 
-Si ya tiene instalado PHP, pero no se encuentra en la lista de las propiedades del proyecto (como se muestra en la primera imagen arriba), puede configurarlo para ser utilizado en Visual Studio. Haga clic en `Herramientas | Opciones` y navegue hasta `PHP Tools / Intérprete` como se muestra en la imagen más abajo.
+Si ya tiene instalado PHP, pero no se encuentra en la lista de las propiedades del proyecto (como se muestra en la primera imagen arriba), puede configurarlo para ser utilizado en Visual Studio. Haga clic en `Herramientas | Opciones` y navegue hasta `PHP Tools | Intérprete` como se muestra en la imagen más abajo.
 
 ![PHP Interpreter option](imgs/install-php-interpreter.png)
 
