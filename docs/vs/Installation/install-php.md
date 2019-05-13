@@ -29,7 +29,7 @@ You'll be asked for administrator rights. Then, Microsoft's Web Platform Install
 
 ## Existing PHP Installation
 
-If you have PHP already installed and not listed in the project properties dialog above, you can configure it to be used by Visual Studio. Go to menu `Tools | Options` and navigate to `PHP Tools / Interpreter` as depicted below.
+If you have PHP already installed, but it´s not listed in the project properties as shown dialog above, you can configure it to be used by Visual Studio. Go to menu `Tools | Options` and navigate to `PHP Tools / Interpreter` as depicted below.
 
 ![PHP Interpreter option](imgs/install-php-interpreter.png)
 
