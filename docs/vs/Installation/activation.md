@@ -27,7 +27,7 @@ The license key can be purchased online from our [Purchase page](https://www.dev
 
 ## Enter License Key
 
-Once you have a purchased license key, you can activate your copy of PHP Tools for Visual Studio. The product can be activated from the Visual Studio menu. Click **Help** | **Activate PHP Tools for Visual Studio** to open the activation dialog. 
+Once you have a purchased license key, you can activate your copy of PHP Tools for Visual Studio. The product can be activated from the Visual Studio menu. Click `Help | Activate PHP Tools for Visual Studio` to open the activation dialog. 
 
 ![Enter license key](imgs/activation-enter-key.png)
 
