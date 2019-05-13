@@ -19,7 +19,7 @@ This dialog box will appear every time, unless the trial has been started, the p
 
 Click **Begin Trial** to start a free 30-day evaluation.
 
-**Note:** The trial license can also be activated from the Visual Studio menu. Click **Help**, and then **Activate PHP Tools for Visual Studio** to re-open the activation dialog.
+> **Note:** The trial license can also be activated from the Visual Studio menu. Click **Help**, and then **Activate PHP Tools for Visual Studio** to re-open the activation dialog.
 
 ## Obtain your License Key
 
