@@ -31,7 +31,9 @@ La clave de licencia puede ser adquirida en línea desde nuestra [página de com
 ## Ingrese su clave de licencia
 
 Una vez que haya adquirido su clave de licencia, puede activar su copia de PHP Tools for Visual Studio. El producto puede ser activado desde el menú de Visual Studio. 
-Haga clic en `Ayuda | Activar PHP Tools for Visual Studio` para abrir el cuadro de diálogo de activación. Luego ingrese su licencia y haga clic en "Activar".
+Haga clic en `Ayuda | Activar PHP Tools for Visual Studio` para abrir el cuadro de diálogo de activación. 
+
+Ingrese su licencia y haga clic en "Activar".
 
 
 ![Enter license key](imgs/activation-enter-key.png)
