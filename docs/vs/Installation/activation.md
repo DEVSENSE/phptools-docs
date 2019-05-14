@@ -5,7 +5,7 @@ Description: Activate PHP Tools for Visual Studio
 
 # Product Activation
 
-Once you have [downloaded PHP Tools](https://www.devsense.com/en/download), [installed it](https://docs.devsense.com/en/vs/installation) and [installed PHP](https://docs.devsense.com/en/vs/installation), it's time to activate the product.
+Once you have [downloaded PHP Tools](https://www.devsense.com/en/download), [installed it](https://docs.devsense.com/en/vs/installation) and [installed PHP](https://docs.devsense.com/en/vs/installation/install-php), it's time to activate the product.
 
 PHP Tools for Visual Studio comes with a free trial to evaluate the software. You can enable the trial first to see whether PHP Tools suits you. The trial allows free access to all developing features for 30 days. When the trial ends, you can activate the software using a purchased license key.
 
