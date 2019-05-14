@@ -13,7 +13,7 @@ Si ya tiene instalado Visual Studio, puede ir directamente a **Administrar exten
 
 ![Visual Studio Extensions](imgs/install-from-vs.png)
 
-Una vez que haya descargado el paquete, deberá cerrar Visual Studio. El software será instalado y Visual Studio será configurado para  desarrollo en PHP. Antes de abrir Visual Studio nuevamente, debe [activar el producto](https://docs.devsense.com/es/vs/installation) para poder [comenzar a utilizar PHP Tools](https://docs.devsense.com/es/vs.)
+Una vez que haya descargado el paquete, deberá cerrar Visual Studio. El software será instalado y Visual Studio será configurado para  desarrollo en PHP. Antes de abrir Visual Studio nuevamente, debe [activar el producto](https://docs.devsense.com/es/vs/installation/activation) para poder [comenzar a utilizar PHP Tools](https://docs.devsense.com/es/vs.)
 
 Si necesita una explicación más detallada, por favor continúe leyendo.
 
