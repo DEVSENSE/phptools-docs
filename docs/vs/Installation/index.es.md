@@ -35,7 +35,7 @@ Para instalar PHP Tools para Visual Studio necesitará:
 El paquete de descarga de PHP Tools puede ser descargado de:
 
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term="php%20tools"&target=VS&vsVersion=)-	Elija la edición de acuerdo a la versión de su Visual Studio.
-- [DEVSENSE.com](https://www.devsense.com/en/download#vs)-	Descargue cualquier versión o cualquier actualización de PHP Tools for Visual Studio directamente desde nuestra página.
+- [DEVSENSE.com](https://www.devsense.com/es/download#vs)-	Descargue cualquier versión o cualquier actualización de PHP Tools for Visual Studio directamente desde nuestra página.
 
 
 #### Instrucciones para instalación:
@@ -47,12 +47,12 @@ Una vez que haya descagado PHP Tools:
 3. Siga las instrucciones en pantalla.
 4. Reinicie *Visual Studio*.
 
-El paquete de instalación del software también puede ser utilizado para instalar PHP Tools en una máquina [sin conexión a internet](https://docs.devsense.com/en/vs/installation/offline-activation).
+El paquete de instalación del software también puede ser utilizado para instalar PHP Tools en una máquina [sin conexión a internet](https://docs.devsense.com/es/vs/installation/offline-activation).
 
 ## Activación
 
-El producto contiene una versión de prueba gratis por 30 días, con todas las características y funciones. Por favor, vea [activación del producto](/vs/installation/activation).
+El producto contiene una versión de prueba gratis por 30 días, con todas las características y funciones. Por favor, vea [activación del producto](https://docs.devsense.com/es/vs/installation/activation).
 
 ## Actualizaciones
 
-Visual Studio busca actualizaciones para PHP Tools automáticamente y le notificará cuando haya alguna disponible. Por favor, ingrese a [actualizaciones](https://docs.devsense.com/en/vs/installation/updatet) para más información.
+Visual Studio busca actualizaciones para PHP Tools automáticamente y le notificará cuando haya alguna disponible. Por favor, ingrese a [actualizaciones](https://docs.devsense.com/es/vs/installation/updatet) para más información.
