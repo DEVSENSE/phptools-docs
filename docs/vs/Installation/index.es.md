@@ -19,7 +19,7 @@ Si necesita una explicación más detallada, por favor continúe leyendo.
 
 ## Requisitos
 
-Para instalar PHP Tools para Visual Studio necesitará:
+Para instalar PHP Tools for Visual Studio necesitará:
 
 - **Acceso en modo administrador**. Por favor asegúrese que tiene acceso como administrador a su disco duro, porque el paquete de instalación copia archivos en su sistema. Para Visual Studio 2010 hasta 2015, necesitará acceso a **Archivos de Programa**.
 - **Microsoft Visual Studio**. Instale Microsoft Visual Studio. La edición [Community](https://visualstudio.microsoft.com/es/vs/community/) es gratuita, pero también puede instalar cualquiera de las otras ediciones de Visual Studio como *Profesional* o *Enterprise*. Las ediciones Express no con compatibles.
