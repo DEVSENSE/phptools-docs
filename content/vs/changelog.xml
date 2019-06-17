@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.30.11233" date="20190617" tags="stable">
+	  <note>Updated PHP manual and translations.</note>
+	  <note>Validation of value passed to `define()`</note>
+	  <note>Validation of `define()` for PHP >= 7.3</note>
+	  <note>VS2019: highlighting inside Watch and Conditional Breakpoints.</note>
+  </release>
   <release version="1.30.11217" date="20190523" tags="preview">
-	  <note>Updated PHP manual for PHP 7.3, PHP 7.4.</note>
+    <note>Updated PHP manual for PHP 7.3, PHP 7.4.</note>
     <note>Updated PHP functions signature.</note>
-	</release>
+  </release>
   <release version="1.30.11199" date="20190510" tags="preview">
 	<note>Performance fixes for projects with composer packages</note>
 	<note category="IntelliSense">Disabled warning PHP0424 when passing an object in foreach</note>
