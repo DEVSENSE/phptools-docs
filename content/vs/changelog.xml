@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
   <release version="1.30.11999" date="20190623" tags="preview">
-	  <note>Mouse click to go to definition.</note>
+	  <note>VS2019: Mouse click to go to definition.</note>
   </release>
   <release version="1.30.11233" date="20190617" tags="stable">
 	  <note>Updated PHP manual and translations.</note>
