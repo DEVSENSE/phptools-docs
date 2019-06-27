@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.30.11261" date="20190627" tags="preview">
+  <release version="1.30.11262" date="20190627" tags="preview">
 	  <note>new diagnostics: unused variables, array constants (PHP5), unset cast</note>
 	  <note>improved analysis of lambda functions</note>
 	  <note>more details IntelliSense for lambda functions and its params</note>
