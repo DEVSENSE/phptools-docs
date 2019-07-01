@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.31.11274" date="20190701" tags="preview">
+	  <note>update explode() signature</note>
+	  <note>update microtime() signature</note>
+	  <note>Oxid framework support</note>
+	  <note>Catch variable analysis</note>
+  </release>
   <release version="1.30.11262" date="20190627" tags="preview">
 	  <note>new diagnostics: unused variables, array constants (PHP5), unset cast</note>
 	  <note>improved analysis of lambda functions</note>
