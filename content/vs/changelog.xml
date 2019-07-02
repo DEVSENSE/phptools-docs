@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.31.11274" date="20190701" tags="preview">
+  <release version="1.31.11274" date="20190701" tags="stable">
 	  <note>update explode() signature</note>
 	  <note>update microtime() signature</note>
 	  <note>Oxid framework support</note>
