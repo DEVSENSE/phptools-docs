@@ -11,7 +11,7 @@ For general information about debugging with Visual Studio, see [Debugging in Vi
 
 ## Requirements
 
- - Xdebug must be configured within your PHP installation in order to make the debugging function working. For more information, see [Configuring Xdebug](configuring-xdebug)
+ - Xdebug must be configured within your PHP installation in order to make the debugging function working. For more information, see [Configuring Xdebug](debugging/configuring-xdebug)
 
  - Xdebug extension must operate on the TCP port specified in the PHP Tools options page. And your firewall must be properly set up to allow communication through this port.
 
@@ -21,7 +21,7 @@ For general information about debugging with Visual Studio, see [Debugging in Vi
 
 Visual Debugger allows you to examine the code while it is running and includes features that help you debug applications, including the following:
 
-- **Breakpoints** - Breakpoints are places in the code where the debugger will stop the application, allow you to see the current data state of the application, and then step through each line of code. For more information, see [Breakpoints](breakpoints).
+- **Breakpoints** - Breakpoints are places in the code where the debugger will stop the application, allow you to see the current data state of the application, and then step through each line of code. For more information, see [Breakpoints](debugging/breakpoints).
 
 - **Stepping** - Once you have stopped at a breakpoint, you can run the code line by line (known as stepping through the code). Visual Debugger includes a number of features to help you step through your code, such as iterators that allow you to specify how many times to step through a loop before stopping again. For more information, see <PAVEOVER> Code Stepping Overview.
 
