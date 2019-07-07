@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.31.99999" date="20190714" tags="preview">
+	  <note>VS 2019: New project dialog lists "PHP" language.</note>
+  </release>
   <release version="1.31.11274" date="20190701" tags="stable">
 	  <note>update explode() signature</note>
 	  <note>update microtime() signature</note>
