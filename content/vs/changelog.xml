@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.31.11307" date="20190711" tags="preview">
+  <release version="1.31.11308" date="20190711" tags="preview">
 	  <note>VS 2019: New project dialog lists "PHP" language.</note>
 	  <note>offline activation dialog fix for long codes</note>
 	  <note>twig editor fixes</note>
