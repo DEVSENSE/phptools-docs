@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.32.99999" date="20190731" tags="preview">
+	  <note category="VS2019 - PHP 7.4">PHP 7.4 support</note>
+	  <note category="VS2019">arrow functions, typed properties, spread array, `??=` operator, underscores in numbers</note>
+	  <note category="VS2019">PHP 7.4 features reported when using PHP < 7.4</note>
+	  <note category="VS2019">PHP 7.4 features analysis, type analysis, problems analysis</note>
+  </release>
   <release version="1.31.11311" date="20190711" tags="preview">
 	  <note>VS 2019: New project dialog lists "PHP" language.</note>
 	  <note>offline activation dialog fix for long codes</note>
