@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11330" date="20190715" tags="preview">
+  <release version="1.32.11331" date="20190715" tags="preview">
 	  <note>performance improvements</note>
 	  <note>unpack operator type check</note>
 	  <note category="PHP 7.4">PHP 7.4 support</note>
