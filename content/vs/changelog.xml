@@ -8,7 +8,7 @@
 	  <note category="PHP 7.4">arrow functions, typed properties, spread array, `??=` operator, underscores in numbers</note>
 	  <note category="PHP 7.4">PHP 7.4 features reported when using PHP &lt; 7.4</note>
 	  <note category="PHP 7.4">PHP 7.4 features analysis, type analysis, problems analysis</note>
-	  <note category="PHP 7.4">Built-in PHP 7.4-alpha, automatic online installation</note>
+	  <note category="PHP 7.4">Built-in `PHP 7.4 alpha 3`, automatic online installation</note>
   </release>
   <release version="1.31.11311" date="20190711" tags="preview">
 	  <note>VS 2019: New project dialog lists "PHP" language.</note>
