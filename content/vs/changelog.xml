@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11351" date="20190717" tags="preview">
+  <release version="1.32.11358" date="20190718" tags="preview">
 	  <note>performance improvements</note>
 	  <note>unpack operator type check</note>
 	  <note>phpstorm meta container improvements (array access and type hierarchy)</note>
