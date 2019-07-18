@@ -4,6 +4,7 @@
 	  <note>performance improvements</note>
 	  <note>unpack operator type check</note>
 	  <note>phpstorm meta container improvements (array access and type hierarchy)</note>
+	  <note>Web Platform Installer provides log with failure details</note>
 	  <note category="PHP 7.4">PHP 7.4 support</note>
 	  <note category="PHP 7.4">arrow functions, typed properties, spread array, `??=` operator, underscores in numbers</note>
 	  <note category="PHP 7.4">PHP 7.4 features reported when using PHP &lt; 7.4</note>
