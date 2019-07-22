@@ -96,6 +96,8 @@ To configure DBGp proxy open `launch.json` and add this snippet to the launch co
 IDE key is setup automatically from the name of the user logged in. When debug session starts you can see it in the Debug Console:
 
 ```
-Registering with the DBGp proxy on 127.0.0.1:9002 with key Miloslav...
+Registering with the DBGp proxy on 127.0.0.1:9002 with key Arnold...
 Registration was successful!
 ```
+
+The ide key has to be present in the url when accessing the web server (e.g. http://webserver?XDEBUG_SESSION_START=Arnold). This way the proxy server knows which machine to connect back to with the debug session.
