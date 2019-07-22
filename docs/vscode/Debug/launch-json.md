@@ -84,11 +84,12 @@ To setup multi-user debugging you can follow [tutorial for Visual Studio version
 To configure DBGp proxy open `launch.json` and add this snippet to the launch configuration.
 
 ```json
-"dbgpProxy": {
-                "enable": true,
-                "host": "127.0.0.1",
-                "port": 9002
-            }
+"dbgpProxy":
+{
+  "enable": true,
+  "host": "127.0.0.1",
+  "port": 9002
+}
 ```
 - `enable` specifies whether PHP Tools will try to connect with DBGp server
 - `host` and `port` specifies the address of the DBGp proxy server
@@ -100,4 +101,4 @@ Registering with the DBGp proxy on 127.0.0.1:9002 with key Arnold...
 Registration was successful!
 ```
 
-The ide key has to be present in the url when accessing the web server (e.g. http://webserver?XDEBUG_SESSION_START=Arnold). This way the proxy server knows which machine to connect back to with the debug session.
+The ide key has to be present in the url when accessing the web server (e.g. http://example.org?XDEBUG_SESSION_START=Arnold). This way the proxy server knows which machine to connect back to with the debug session.
