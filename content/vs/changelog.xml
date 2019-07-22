@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.33.11369" date="20190725" tags="preview">
+	  <note>class aliasing handled by type analysis and IntelliSense</note>
+	  <note>updated IntelliSense glyphs (icons) for traits and aliased class name</note>
+  </release>
   <release version="1.32.11358" date="20190718" tags="stable">
 	  <note>performance improvements</note>
 	  <note>unpack operator type check</note>
