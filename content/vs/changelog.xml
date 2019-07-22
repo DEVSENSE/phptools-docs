@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11377" date="20190722" tags="preview">
+  <release version="1.32.11378" date="20190722" tags="preview">
 	  <note>Class aliasing handled by type analysis and IntelliSense</note>
 	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
 	  <note>Improved type analysis of function arguments passed by reference</note>
