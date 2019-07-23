@@ -76,3 +76,29 @@ The following basic profile informs the debugger that it should try to connect t
 ## Debug Current Script
 
 Whenever there is no `launch.json` file present, PHP Tools' debugger launches the current PHP script in the VS Code's `Debug Console`.
+
+## DBGp Proxy settings
+
+To setup multi-user debugging you can follow [tutorial for Visual Studio version](https://docs.devsense.com/vs/debugging/multi-user). The only difference is the settings in VS Code version is in `launch.json` file.
+
+To configure DBGp proxy open `launch.json` and add this snippet to the launch configuration.
+
+```json
+"dbgpProxy":
+{
+  "enable": true,
+  "host": "127.0.0.1",
+  "port": 9002
+}
+```
+- `enable` specifies whether PHP Tools will try to connect with DBGp server
+- `host` and `port` specifies the address of the DBGp proxy server
+
+IDE key is setup automatically from the name of the user logged in. When debug session starts you can see it in the Debug Console:
+
+```
+Registering with the DBGp proxy on 127.0.0.1:9002 with key Arnold...
+Registration was successful!
+```
+
+The ide key has to be present in the url when accessing the web server (e.g. http://example.org?XDEBUG_SESSION_START=Arnold). This way the proxy server knows which machine to connect back to with the debug session.

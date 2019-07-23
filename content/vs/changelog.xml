@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<changelog>
+  <release version="1.32.11378" date="20190722" tags="preview">
+	  <note>Class aliasing handled by type analysis and IntelliSense</note>
+	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
+	  <note>Improved type analysis of function arguments passed by reference</note>
+	  <note>Twig file templates statibility fixes</note>
+  </release>
+  <release version="1.32.11358" date="20190718" tags="stable">
+	  <note>performance improvements</note>
+	  <note>unpack operator type check</note>
+	  <note>phpstorm meta container improvements (array access and type hierarchy)</note>
+	  <note>Web Platform Installer provides log with failure details</note>
+	  <note category="PHP 7.4">PHP 7.4 support</note>
+	  <note category="PHP 7.4">arrow functions, typed properties, spread array, `??=` operator, underscores in numbers</note>
+	  <note category="PHP 7.4">PHP 7.4 features reported when using PHP &lt; 7.4</note>
+	  <note category="PHP 7.4">PHP 7.4 features analysis, type analysis, problems analysis</note>
+	  <note category="PHP 7.4">Built-in `PHP 7.4 alpha 3`, automatic online installation</note>
+  </release>
+  <release version="1.31.11311" date="20190711" tags="preview">
+	  <note>VS 2019: New project dialog lists "PHP" language.</note>
+	  <note>offline activation dialog fix for long codes</note>
+	  <note>twig editor fixes</note>
+	  <note category="IntelliSense">improved code analysis of numbers and conditions</note>
+	  <note category="IntelliSense">support for metadata from `.phpstorm.meta.php` file/folder</note>
+	  <note category="IntelliSense">less strict analysis of use of uninitialized variables</note>
+	  <note category="IntelliSense">analysis of duplicit function parameters</note>
+	  <note category="IntelliSense">analysis of magic methods</note>
+	  <note category="IntelliSense">completion after `use` gets fully qualified names</note>
+  </release>
+  <release version="1.31.11274" date="20190701" tags="stable">
+	  <note>update explode() signature</note>
+	  <note>update microtime() signature</note>
+	  <note>Oxid framework support</note>
+	  <note>Catch variable analysis</note>
+  </release>
+  <release version="1.30.11262" date="20190627" tags="preview">
+	  <note>new diagnostics: unused variables, array constants (PHP5), unset cast</note>
+	  <note>improved analysis of lambda functions</note>
+	  <note>more details IntelliSense for lambda functions and its params</note>
+	  <note>support for PHPDoc above lambda functions</note>
+	  <note>updated IntelliSense tool tip texts</note>
+	  <note>project load and general performance optimizations</note>
+	  <note>Composer self update fixes</note>
+	  <note>VS2019: Mouse click to go to definition.</note>
+  </release>
+  <release version="1.30.11233" date="20190617" tags="stable">
+	  <note>Updated PHP manual and translations.</note>
+	  <note>Validation of value passed to `define()`</note>
+	  <note>Validation of `define()` for PHP >= 7.3</note>
+	  <note>VS2019: highlighting inside Watch and Conditional Breakpoints.</note>
+  </release>
+  <release version="1.30.11217" date="20190523" tags="preview">
+    <note>Updated PHP manual for PHP 7.3, PHP 7.4.</note>
+    <note>Updated PHP functions signature.</note>
+  </release>
+  <release version="1.30.11199" date="20190510" tags="preview">
+	<note>Performance fixes for projects with composer packages</note>
+	<note category="IntelliSense">Disabled warning PHP0424 when passing an object in foreach</note>
+	<note category="IntelliSense">IntelliSense of use params within lambda function</note>
+	<note category="IntelliSense">Minor Intellisense fixes</note>
+	<note category="Twig">Twig editor fixes</note>
+	<note category="Debug">Automatic installation of PHP 7.3 with Xdebug</note>
+	<note category="Debug">Xdebug auto update to 2.7.2 for PHP 7.1, PHP 7.2</note>
+	<note category="Debug">Xdebug auto update to 2.6.1 for PHP 7.0</note>
+	<note category="VS2019">Reimplemented PHP Editor using new API</note>
+	<note category="VS2019">Browser selector enabled</note>
+	<note category="VS2019">Script debugging toggle enabled</note>
+  </release>
+  <release version="1.30.11154" date="20190301" tags="stable">
+    <note>PHPDoc improvements and fixes</note>
+	<note>Updated PHP manual</note>
+    <note>Debugger logs when proxy/VPN or other software interupts debug session</note>
+	<note>Other fixes</note>
+  </release>
+  <release version="1.30.11131" date="20190208" tags="preview">
+	<note category="VS2019">Experimental release for VS2019</note>
+	<note category="VS2019">Using new error list API - providing solution wide list of errors and issues</note>
+	<note category="VS2019">Asynchronous loading of packages</note>
+	<note category="VS2019">QuickInfo and code actions are asynchronous now</note>
+  </release>
+  <release version="1.30.11095" date="20190118" tags="stable">
+    <note>PHPDoc for local variables and globals.</note>
+	<note>Unknown function code suggestion to add `$this-&gt;` (will be more in future).</note>
+    <note>Editor exceptions fixes.</note>
+	<note>PHPUnit 7 support</note>
+	<note>Fix: Changes outside of VS causes Intellisense to forget some types</note>
+	<note category="Debug">Chrome JS Debugger supported (VS2017 and VS2019)</note>
+  </release>
+  <release version="1.29.11015" date="20181022" tags="stable">
+	<note>PHP up to 7.3 warnings: trailing commas, list ref assignment, instanceof with literal.</note>
+	<note>Code analysis improvements</note>
+	<note>Renaming of a name within 'use' statement</note>
+	<note>Renaming of a class within a namespace</note>
+	<note>Renaming of a file with a class asks for automatic refactoring</note>
+  </release>
+  <release version="1.29.10958" date="20180924" tags="stable">
+	<note category="Editor">Implement Interface/overrides respects base's return type.</note>
+	<note category="Editor">Options for implement Interface/overrides to not generate PHPDoc.</note>
+	<note category="Editor">Options for implement Interface/overrides to not generate TODO comment.</note>
+	<note category="Code Validation">is_callable() analysis.</note>
+	<note category="Code Validation">More PHPDoc suggestions.</note>
+	<note category="Fixes">Formatting code with syntax errors is not allowed.</note>
+	<note category="Fixes">Smarty syntax and colorization.</note>
+	<note category="PHAR Inspector">PHAR inspector supports gz compressed entries.</note>
+	<note category="PHAR Inspector">PHAR inspector reads files not included in the project.</note>
+	<note category="PHAR Inspector">PHAR inspector optimizations.</note>
+  </release>
+  <release version="1.29.10925" date="20180820" tags="stable">
+	<note category="Code Validation">__tostring() return type diagnostic.</note>
+	<note category="Code Validation">Unified diagnostic codes.</note>
+	<note category="Editor">Option to disable collapsing of comments by default.</note>
+	<note category="Editor">Drag&amp;drop does not corrupt code indentation.</note>
+	<note category="Editor">Twig editor fixes.</note>
+	<note category="Debug">The condition expression in conditional breakpoint is casted to bool implicitly.</note>
+	<note category="Debug">Inspecting expression avoids "cannot get property" error.</note>
+  </release>
+  <release version="1.29.10893" date="20180724" tags="stable">
+	<note>Blade templating integration fixes and improvements.</note>
+	<note>Twig templating handles extensions from referenced projects.</note>
+	<note>More UI localizations.</note>
+	<note>Possible deadlock fix, hanging during project load.</note>
+	<note category="IntelliSense">IntelliSense respects "include_path" option in project properties.</note>
+	<note category="IntelliSense">Description of properties from @var tag.</note>
+	<note category="Code Validation">Code validation warning for array to string conversion.</note>
+	<note category="Code Validation">Code validation improvements for 'setlocale'.</note>
+	<note category="Code Validation">Validation of using '$this' outside a valid context.</note>
+	<note category="Code Validation">Validation of throw argument which must be Exception or Throwable.</note>
+	<note category="Code Validation">Validation of type after implements keyword.</note>
+	<note category="Code Validation">__tostring, __construct, __destruct return types check.</note>
+	<note category="Debug">Editing long string values in debug.</note>
+  </release>
+  <release version="1.28.10848" date="20180528" tags="stable">
+	 <note>PHP 7.2 automatic installation.</note>
+	 <note>Xdebug updates for older PHP frameworks.</note>
+	 <note>Custom server form respects properties window size.</note>
+	 <note>Fix of freezing when opening certain SMB mapped projects.</note>
+	 <note category="Code Validation">password_hash not deprecated, just its parameter.</note>
+	 <note category="IntelliSense">STDIN,STDOUT,STDERR in IntelliSense of CLI projects.</note>
+     <note category="Blade (VS2015+)">Reimplemented Blade Template Engine support.</note>
+	 <note category="Twig (VS2015+)">Custom filter quick info enhanced.</note>
+	 <note category="Twig (VS2015+)">Twig parent() function enabled in design split view.</note>
+	 <note category="Twig (VS2015+)">Fix: extends keyword help.</note>
+	 <note category="Twig (VS2015+)">Twig extensions analyzed even in references.</note>
+	 <note category="VS2017">Fix: When pasting formating gets messed up.</note>
+	 <note category="VS2017">Fix: Browser selector works in VS 15.7.0 and later.</note>
+  </release>
+  <release version="1.27.10773" date="20180411" tags="stable">
+     <note>New project wizard when creating PHP Web Project.</note>
+	 <note>New project template for Simple CMS (based on PicoCMS).</note>
+     <note>Code Analysis CPU improvements.</note>
+     <note>@method with "static" supported.</note>
+	 <note category="Debug">Checking expressions validity before sending them to Xdebug</note>
+ 	 <note category="Editor">New snippets (#region, #todo, @phpdoc_tag).</note>
+	 <note category="Editor">F1 supported for phpdoc tags.</note>
+     <note category="Editor">Custom snippets showed in completion lists.</note>
+	 <note category="Editor">"echo" keyword occurances (F1, F12, semantic highlighting, do not allow refactoring).</note>
+	 <note category="Localization">Partial localization to major languages (de, es, fr, ja, pt-br, ro, ru, tr, zh).</note>
+	 <note category="Localization">PHP manual localized to major languages.</note>
+	 <note category="Smarty">Editor optimizations.</note>
+	 <note category="Smarty">Fix of multiline comments.</note>
+	 <note category="Twig">Editor optimizations.</note>
+	 <note category="Twig">Fix: Completion list showed twice when Ctrl+Space pressed.</note>
+	 <note category="Twig">Fix: Code preview did not show some generated code.</note>
+	 <note category="Code Validation">Report warnings for duplicate array key in array initializer.</note>
+	 <note category="Code Validation">void reported as invalid in @param, @var, @property.</note>
+	 <note category="Code Validation">Type name "\" is ignored by CFG, but reported.</note>
+  </release>
+  <release version="1.26.10606" date="20180306" tags="stable">
+     <note>Fix of Test Explorer when runing tests without phpunit.config.</note>
+	 <note>Warn a user when he saves a file about data loss if he's saving in the encoding which doesn't include needed characters</note>
+	 <note>Fix of Legacy Import from Existing Code option</note>
+	 <note>When copy/paste we do not display error message of malformated html document.</note>
+	 <note>Reading php.ini short_open_tag option and parse the code accordingly when PHP build-in server is used.</note>
+	 <note>vararg @param type hint treated as array type as well</note>
+	 <note category="Twig">Twig support optimizations and improvements.</note>
+	 <note category="Twig">Minor fix when non existing filter is used.</note>
+  </release>
+  <release version="1.26.10589" date="20180226" tags="stable">
+    <note>Reporting of PHP4 style constructs deprecation.</note>
+	<note>IntelliSense handles files changed outside IDE.</note>
+	<note>Refactoring of indirectly used constants.</note>
+	<note>Refactoring improvements and fixes.</note>
+	<note>Fix of VS startup freezing.</note>
+	<note>Fix for Visual Studio 2017 15.6.0 Preview 1.0 (and newer).</note>
+	<note>Fix of Test Explorer with custom non-standard phpunit config.</note>
+	<note>Fix of possible deadlock when used with Resharper.</note>
+	<note category="Twig">Twig split view UI improvements.</note>
+	<note category="Twig">Twig split view can be disabled in options.</note>
+    <note category="Twig">Twig design view (experimental).</note>
+	<note category="Twig">Twig design view macros and imports (experimental).</note>
+	<note category="Twig (VS2017)">Twig blocks work inside CSS blocks.</note>
+	<note category="Debug">Fix: Hovering on function arguments or initializers could alter execution of the program.</note>
+	<note category="Debug">Fix: Debugger didn't step after hiting a breakpoint set in the first statement of the program.</note>
+	<note category="Debug">Minor remote debugging improvements.</note>
+	<note category="Editor">Fix: HTML formatting eats whitespace when triming text elements.</note>
+	<note category="Editor">Support for structure guide lines in VS2017.</note>
+	<note category="Composer">Fixes Install New package dialog when number of results is greater than 750.</note>
+	<note category="Smarty (VS2015 and newer)">Optimizations and other enhancements.</note>
+    <note category="Smarty (VS2015 and newer)">Smarty blocks work inside CSS blocks.</note>
+  </release>
+  <release version="1.25.10474" date="20171214" tags="stable">
+	<note>PHP parser fixes.</note>
+    <note>Improved deprecations analysis.</note>
+	<note>Find references improvements.</note>
+	<note>Various stability enhancements.</note>
+	<note category="Testing">Fix of Test Explorer for custom phpunit config.</note>
+  </release>
+  <release version="1.25.10447" date="20171128" tags="stable">
+    <note>Underlining deprecated PHP constructs.</note>
+	<note>Updated IntelliSense database to latest PHP manual.</note>
+	<note>"object" type hint fix.</note>
+  </release>
+  <release version="1.25.10441" date="20171126" tags="stable">
+	<note>IntelliSense improvements for F1 and GoToDef, not showing duplicities.</note>
+	<note>Memory usage optimizations.</note>
+	<note>Experimental .phar file navigation and debug features.</note>
+	<note>Various UI enhancements on high DPI displays.</note>
+	<note>Refactoring fixes.</note>
+	<note>Crash fixes of PHP parser.</note>
+	<note>Crash fixes when running composer with IIS Express.</note>
+    <note category="Twig">Implemented Twig Editor for .twig files.</note>
+	<note category="Twig">Twig code colorization, mixture of HTML/JS/CSS/Twig supported.</note>
+	<note category="Twig">Highlighting of identifier under cursor and its occurances.</note>
+	<note category="Twig">Contextual IntelliSense, Code Completion, F1 Help and Go To Definition.</note>
+	<note category="Twig">Tool Tip Text for Twig constructs, variables and keywords.</note>
+	<note category="Twig">Code Outlining for Twig blocks, constructs and macros.</note>
+	<note category="Twig">Syntax checking with error underlining.</note>
+	<note category="Twig">Detection of Twig framework and eventual automatic installation into the project.</note>
+	<note category="Twig">Twig Split View, providing view on generated PHP code and mapping between generated PHP and Twig.</note>
+  </release>
+  <release version="1.24.10137" date="20170818" tags="stable">
+	<note>UTF detection improvements.</note>
+    <note category="Debug">Breakpoints displays hit counts.</note>
+	<note category="Debug">Hit Count breakpoints (equal | greater than or equal | is multiple of) supported.</note>
+	<note category="Debug">Conditional breakpoints support 'when changed' conditions.</note>
+	<note category="Debug">Supported break on first statement (F10, F11).</note>
+	<note category="Debug">"When Hit" breakpoints supported (Tracepoints).</note>
+	<note category="DBGp">Added support for DGBp proxy.</note>
+	<note category="Testing">PHPUnit 6.x supported.</note>
+	<note category="Testing">PHPUnit version detected from composer.json.</note>
+	<note category="Testing">Custom PHPUnit can be used.</note>
+	<note category="Testing">PHPUnit is bundled in case.</note>
+	<note category="Testing">Compatible PHPUnit engine choosen according to selected PHP runtime.</note>
+	<note category="VS2017">Experimental support for Visual Studio 2017</note>
+	<note category="VS2017">Fix: Unable to discover tests.</note>
+	<note category="VS2017">Fix: Smarty files didn't work in Update 3.</note>
+  </release>
+  <release version="1.23.9750" date="20170324" tags="stable">
+	<note>PHP 7.1 automatic installation.</note>
+	<note>Xdebug updated.</note>
+	<note>Startup speed improvements.</note>
+    <note>Updated PHP parser</note>
+	<note>Minor fixes</note>
+	<note>Respecting primitive types in PHP &lt; 7.0</note>
+	<note>Parsing files from disk respects system encoding and detects UTF</note>
+	<note category="Editor">Inserting snippet indenting fix when there are tabs.</note>
+	<note category="Editor">Nodes outside the current namespace are listed in the completition set as well together with warning icon.</note>
+	<note category="Refactoring">Autogenerate the use statement for selected class.</note>
+	<note category="Refactoring">Suggestions added for unknown types in PHPDoc.</note>	
+	<note category="Refactoring">Short name suggestions for types.</note>	
+	<note category="Refactoring">Unknown type handling added for trait uses, return types and catch variable types.</note>	
+    <note category="Smarty (VS2015 and newer)">Smarty has its dedicated editor.</note>
+	<note category="Smarty (VS2015 and newer)">Smarty delimiters can be modified in project properties.</note>
+	<note category="Smarty (VS2015 and newer)">Javascript and CSS integration.</note>
+	<note category="Smarty (VS2015 and newer)">Fixes of some edge cases.</note>
+	<note category="Smarty (VS2015 and newer)">Fixes a syntax error exception.</note>
+	<note category="Smarty (VS2015 and newer)">Installation suggestion for smarty composer package.</note>
+	<note category="Smarty (VS2015 and newer)">Include snippet added.</note>
+	<note category="Smarty (VS2015 and newer)">Break and continue keywords added.</note>
+	<note category="VS2017">Experimental support for Visual Studio 2017</note>
+	<note category="VS2017">Fix: failed to open PHP project</note>
+	<note category="VS2017">Removed Nuget support for PHP projects</note>
+  </release>
+  <release version="1.22.9523" date="20170123" tags="stable">
+	<note>Fix of Class View not being loaded.</note>
+	<note>Fix of toolbars and menus displayed when a Smarty file is opened.</note>
+	<note category="Smarty (VS2015 and newer)">More tolerant syntax checker.</note>
+	<note category="Smarty (VS2015 and newer)">New Keyword.</note>
+	<note category="Smarty (VS2015 and newer)">Fix of Smarty editor exception messages.</note>
+	<note category="VS2017">Experimental support for Visual Studio 2017 RC</note>
+  </release>
+  <release version="1.22.9478" date="20170117" tags="stable">
+  	<note category="Editor">PHP interfaces in integrated PHP manual updated.</note>
+	<note category="Editor">Light bulbs in VS 2015 and newer instead of legacy smart tags.</note>
+	<note category="Editor">Fix of Visual Studio freezes.</note>
+	<note category="Project">Crash fix for VS2017RC.</note>
+	<note category="Smarty (VS2015 and newer)">Smarty code colorization.</note>
+	<note category="Smarty (VS2015 and newer)">Smarty autocompetion of pair keywords (pressing Tab).</note>
+	<note category="Smarty (VS2015 and newer)">Smarty IntelliSense for keywords, multiword keywords, functions, modifiers and variables.</note>
+	<note category="Smarty (VS2015 and newer)">IntelliSense analyses PHP source code for user defined variables.</note>
+	<note category="Smarty (VS2015 and newer)">Basic Smarty syntactic error checking.</note>
+	<note category="Smarty (VS2015 and newer)">Smarty tooltips for functions and modifiers.</note>
+	<note category="Smarty (VS2015 and newer)">Support for Go To Definition (pressing F12) for smarty variables, functions and modifiers.</note>
+    <note category="Smarty (VS2015 and newer)">Smarty syntax verification and errors underlining.</note>
+	<note category="Composer">Improved new Composer package dialog (displays more relevant information).</note>
+	<note category="Composer">Dialog shows amount of package downloads and stars.</note>
+	<note category="Composer">Abandoned packages have warning note.</note>
+	<note category="Composer">License and publish date is shown.</note>
+	<note category="Composer">Faster packagist repository loading.</note>
+	<note category="VS2017">Experimental support for Visual Studio 2017 RC</note>
+  </release>
+  <release version="1.21.9350" date="20161208" tags="stable">
+	<note>PHP 7.1 syntax support.</note>
+	<note>Improved PHP 7.0 syntax support.</note>
+	<note>Parsing and tokenization fixes.</note>
+	<note>Rare OutOfMemoryException fix, less memory needed for value analysis.</note>
+	<note>Composer UI fixes.</note>
+	<note category="Editor">If possible, value of expression is displayed in tooltip.</note>
+	<note category="Editor">Code colorization of keywords fixes.</note>
+	<note category="Editor">Smart indent after a function fixes.</note>
+	<note category="IntelliSense">PHP 7 anonymous classes support improvements.</note>
+	<note category="Code Validation">PHP compatibility code validation.</note>
+	<note category="Code Validation">Duplicit switch cases validation.</note>
+	<note category="Code Validation">Unnecessary 'use' is dimmed in source code.</note>
+	<note category="Debug">Manual mapping fixes.</note>
+	<note category="VS2017">Experimental support for Visual Studio 2017 RC</note>
+  </release>
+  <release version="1.20.9101" date="20161012" tags="stable">
+    <note>PHP 5.5, 5.6, 7.0 syntax support.</note>
+	<note>PHP 7 return type hints.</note>
+	<note>High DPI support improved.</note>
+	<note>Editing in compare window supported.</note>
+	<note>Warnings about unsupported functions, classes, constants and constructs.</note>
+	<note>Warnings about duplicit case labels within switch.</note>
+	<note>Compatibility warnings for PHP 5.4, 5.5, 5.6, 7.0</note>
+	<note category="Editor">Signature help is colorized.</note>
+	<note category="Editor">Tooltip shows return type to the right of function header.</note>
+	<note category="Editor">IntelliSense localization in Japanese and Brazilian Portuguese.</note>
+	<note category="Editor">Formatting and editor fixes.</note>
+	<note category="Debug">Manual path mapping supported.</note>
+	<note category="Project">Updates to project system, stability and features fixes.</note>
+	<note category="Project">Open Command Prompt, Copy Full Path command added.</note>
+	<note category="Project">Added many web development relevant file templates (JSON, bower, grunt, gulp, angularjs, jsx).</note>
+	<note category="Project">Fix: Renaming file extension of php item template wasn't possible in the New File dialog.</note>
+	<note category="Project">Fix: Issues when making changes to the projects outside of VS.</note>
+  </release>
+  <release version="1.19.8876" date="20160718" tags="stable">
+	<note>Fix of an exception message during project load.</note>
+  </release>
+  <release version="1.19.8851" date="20160705" tags="stable">
+	<note>Updated integrated manual to latest.</note>
+	<note>Complete descriptions of builtin PHP symbols.</note>
+	<note>IntelliSense provides help for DOTNET, COM, mysqli* symbols.</note>
+	<note>Support for Project Home different than Project Directory.</note>
+	<note>Formatting of lambda functions.</note>
+	<note>Smart indent of lambda functions.</note>
+	<note>Fixes of internal exceptions.</note>
+	<note>Fixed "Bad Length" within the activation process.</note>	
+	<note>Automatic update of Xdebug and PHP 5 if possible.</note>	
+	<note>Automatic installation of PHP 7 if selected (syntax not fully supported yet).</note>
+  </release>
+  <release version="1.19.8776" date="20160428" tags="stable">
+	<note>Fixed Import Dialog crash when Project path is invalid.</note>
+	<note>(VS2013) Update in VS2013 notification fix.</note>
+	<note>(VS2015) EXPERIMENTAL - Mixed HTML/CSS/JS/PHP formatting.</note>
+	<note>(VS2015) Fixes for code formatting.</note>
+	<note>Improved smart indent when cursor is between { and }.</note>
+	<note>Improved IntelliSense when there are both @property PHPDoc and field declaration.</note>
+	<note>Error List shows syntax errors from files not included in a project as well.</note>
+	<note>Smart Tag for Implement Abstract Members implements interfaces and base types as well.</note>
+	<note>Fix of VS crash in Interpreters dialog.</note>
+  </release>
+  <release version="1.19.8736" date="20160329" tags="stable">
+	<note>Fixed VS crashes when using IIS without having IIS installed.</note>
+	<note>HTML formatting on paste fix.</note>
+	<note>Wordwrap can be enabled/disabled using Ctrl+E,W.</note>
+	<note>(VS2015) Laravel @foreach @endforeach.</note>
+	<note>IIS Express project uses configuration from existing binding if any.</note>
+	<note>Fix of interpreters dialog crashing VS in case of an unexpected php.exe version string.</note>
+  </release>
+  <release version="1.19.8685" date="20160229" tags="stable">
+	<note>Running tests within a project in a solution folder fix.</note>
+	<note>Composer handles plugin API correctly.</note>
+	<note>Find All References looks into whole project.</note>
+	<note>"switch" snippet updated.</note>
+	<note>Workaround for crash issue with SassyStudio.</note>
+  </release>
+  <release version="1.19.8647" date="20160219" tags="stable">
+	<note>General improvements and fixes.</note>
+	<note>HighDPI UI improvements.</note>
+	<note>Code Definition Window.</note>
+	<note>Web Platform Installer utilization improvements.</note>
+	<note>Memory usage optimization.</note>
+	<note category="Server">Per-project PHP version setting.</note>
+	<note category="Server">IIS Express server improvements and fixes</note>
+	<note category="Server">IIS Express with support for SSL site.</note>
+	<note category="Server">IIS Express works even if there isn't IIS.</note>
+	<note category="Server">Improved server configuration validation.</note>
+	<note category="Server">Option to automatically download and install selected PHP version.</note>
+	<note category="Server">PHPRC environment variable set correctly.</note>
+	<note category="Server">Option to set Web Root other than project directory.</note>
+	<note category="Composer">Performance optimizations.</note>
+	<note category="Editor">Split Window fixes.</note>
+	<note category="Editor">HTML+PHP selection format fixes.</note>
+	<note category="Editor">(VS2010 - VS1013) Fix of code formatting when there is CSS or JS.</note>
+	<note category="Editor">Class item template with a namespace.</note>
+	<note category="Phalanger">Switching between PHP and Phalanger seamlessly (requires Phalanger Tools).</note>
+  </release>
+  <release version="1.18.8503" date="20160115" tags="stable">
+    <note category="Publish">TLS 1.2 enhancements.</note>
+	<note category="Publish">Enhanced interactive authentication support.</note>
+    <note category="Publish">Support X509 certificate host key algorithm in SFTP</note>
+  </release>
+  <release version="1.18.8473" date="20160105" tags="stable">
+	<note category="Editor">Fix of crash when smart tag action resulted in exception.</note>
+	<note category="Activation">Fix of activation issue when firewall doesn't allow us to reach license server.</note>
+  </release>
+  <release version="1.18.8451" date="20151223" tags="stable">
+	<note category="Editor">comment/uncomment fixes.</note>
+	<note category="Editor">comment/uncomment at begining of line works.</note>
+	<note category="Editor">comment/uncomment of selection with HTML/PHP handled properly.</note>	
+	<note category="Editor">(VS2015) Split window fixes.</note>	
+	<note category="Editor">(VS2015) Fix of corrupted HTML when pasting code or formatting selection.</note>
+	<note category="Editor">formatting selection (e.g. on paste) fix.</note>
+	<note category="PHP">Fix of Visual Studio crash when php.exe version is in an unexpected format.</note>
+	<note category="Activation">Fix of activation issue when current user account was not configured to allow delegation.</note>
+  </release>
+  <release version="1.18.8331" date="20151029" tags="stable">
+	<note category="Editor">(VS2015) fix of crash when Microsoft ASP.NET and Web Tools 2015 (Beta8) is installed.</note>
+	<note category="Editor">Automatic format after semicolon closing a colon block (endif; endswitch; endfor; endforeach; endwhile;).</note>
+	<note category="Editor">Outlining of colon blocks.</note>
+	<note category="Editor">Outlining of try/catch/finally blocks.</note>
+    <note category="Editor">Colorization of true/false/null as keywords (blue).</note>
+	<note category="Editor">Fix of IntelliSense not containing symbols from composer packages.</note>
+	<note category="Publish">Update of file transfer protocol library.</note>
+  </release>
+  <release version="1.18.8281" date="20151015" tags="stable">
+	<note category="Setup">Fix of loading the extension into Visual Studio.</note>
+	<note category="Editor">Major editor performance improvement for large files.</note>
+    <note category="Editor">(VS2015) Overlapping JavaScript/CSS with PHP code colorizes now.</note>
+	<note category="Editor">Fix of error underlining location.</note>
+	<note category="Composer">Fix of crash in case of circular dependency in unused packages.</note>
+	<note category="Extensibility">Introducing Devsense.PHP.Nodes.dll.</note>
+  </release>
+  <release version="1.18.8215" date="20151002" tags="stable">
+    <note>From Existing Code project template.</note>
+	<note>(VS2015) Fix of Text Explorer - listing and running tests works in VS RC without admin.</note>
+	<note category="IntelliSense">PHPDoc above local variable works even without @var.</note>
+	<note category="IntelliSense">@ignore PHPDoc tag above a local variable avoids reporting it as unused.</note>
+	<note category="Editor">(VS2015) Fix of lost PHP code colorization after HTML code edit.</note>
+	<note category="Editor">Fix of tool tips during debugging.</note>
+	<note category="Editor">Fix of HTML formatter.</note>
+	<note category="Editor">Fix of code analysis crash of huge complex functions.</note>
+	<note category="Editor">(VS2015) Laravel blade templating experimental support.</note>
+	<note category="Debug">(VS2015) Fix of Autos Window.</note>
+  </release>
+  <release version="1.18.8182" date="20150925" tags="stable">
+	<note category="IntelliSense">Correct completion of aliases and use of aliased namespaces.</note>
+	<note category="IntelliSense">IntelliSense inside PHPDoc for type hints and PHPDoc tags.</note>
+	<note category="IntelliSense">Code completion after "new" looks at function signature to preselect class name.</note>
+	<note category="IntelliSense">F1 onto user-defined function/class/constant looks into @link PHPDoc and opens it if any.</note>
+	<note category="IntelliSense">Fix of IntelliSense update for files out of PHP project.</note>
+	<note category="Refactoring">When renaming a file from Solution Explorer, user is prompted to refactor name of contained class.</note>
+	<note category="Editor">Option to outline code blocks (if, switch, case, for, foreach).</note>
+	<note category="Editor">Navigate To (Ctrl+,) looks into referenced packages as well.</note>
+	<note category="Editor">PHPDoc tags colorization and completion fixes.</note>
+	<note category="Editor">Fix of Go To Brace (Ctrl+]).</note>
+	<note category="Editor">Editor fixes.</note>
+	<note category="Editor">Option to reformat line of code after moved using Alt+Up/Down (VS2013 and later).</note>
+	<note category="Editor">Editor performance improvements.</note>
+	<note category="Editor">'elseif' in IntelliSense and snippet.</note>
+	<note category="Editor">'Operator' color is customizable.</note>
+	<note category="Editor">Major editor engine change.</note>
+	<note category="Editor">Fix of brace completion within strings and comments.</note>
+	<note category="Editor">Fix of signature helper bolding wrong parameter after comma.</note>
+	<note category="Editor">Fix of smart indentation after mixture of HTML and PHP.</note>
+	<note category="Heredoc">Colorization of HEREDOC and NOWDOC with XML or HTML code.</note>
+	<note category="Heredoc">Outlining of HEREDOC and NOWDOC content.</note>
+	<note category="Heredoc">Background color for HEREDOC and NOWDOC content.</note>
+	<note category="HTML Editor">Visual Studio 2015 HTML Editor.</note>
+	<note category="HTML Editor">Fixes (VS2015 only) - outlining, items in context menu.</note>
+	<note category="Miscellaneous">Fixes for importing/upgrading wizard.</note>
+	<note category="Miscellaneous">Visual Studio 2010 fixes - Options Dialog crash, Smart Indent.</note>
+  </release>
+  <release version="1.17.8075" date="20150814" tags="stable">
+	<note>Fix of Options Dialog when php.ini contains an invalid path.</note>
+	<note>Fix of PHP Web Project for Microsoft Platforms couldn't be published</note>
+	<note category="Editor">Fix of parser when file contains 'else:' construct.</note>
+	<note category="Editor">Fix of lost outlining while editing code.</note>
+	<note category="Editor">Fix of snippets completion.</note>
+	<note category="Editor">Fix of editor internal exceptions.</note>
+	<note category="Testing">phpunit.xml.dist in Core or Tests directories set as test configuration automatically.</note>
+  </release>
+  <release version="1.17.8026" date="20150721" tags="hotfix">
+	<note category="Editor">Stability fix.</note>
+	<note category="Editor">Document format fix.</note>
+	<note category="Editor">Smart Indent fix after "\something;".</note>
+	<note category="Testing">Test Explorer fix Visual Studio 2015.</note>
+  </release>
+  <release version="1.17.8005" date="20150709">
+    <note category="Editor">Optimizations.</note>
+	<note category="Editor">Fix of syntax errors below DOC comments.</note>
+	<note category="Editor">Go to brace (Ctrl+]) scrolls window to new cursor position.</note>
+    <note category="Editor">Smart indent fixes within PHPDoc.</note>
+	<note category="Editor">Smart indent fixes after do{}while();.</note>
+	<note category="Code Validation">Assignment to the same variable warnings fix.</note>
+	<note category="Debug">Fix when path contains Unicode characters.</note>
+	<note category="Debug">Fix of watching some expressions containing space.</note>
+	<note category="Debug">Fix of debugger freeze when editing values.</note>
+	<note category="Debug">Datatips work even if the code contains syntax errors.</note>
+  </release>
+  <release version="1.16.7958" date="20150629">
+    <note>Tooltip colors in dark theme fixes.</note>  
+	<note>Formatting options for semicolon and right brace handled.</note>  
+	<note>IntelliSense after $somevar:: fix.</note>
+	<note>Block indentation supported.</note>
+	<note>Smart new line in PHPDoc disabled in Block indent.</note>
+  </release>
+  <release version="1.16.7912" date="20150615">
+    <note category="Project">Installing PHP 5.6 instead of 5.4 from WebPlatformInstaller if there is no PHP yet.</note>
+    <note category="Publish">FTP/SFTP library updated.</note>	
+	<note category="Publish">Project publish not allowed during debug, fixes issues with Visual Studio not responding.</note>
+	<note category="IntelliSense">Missing description of a method is taken from parent declaration.</note>
+	<note category="IntelliSense">Magic properties shown even if real declaration is not visible.</note>
+	<note category="IntelliSense">Optimizations.</note>
+	<note category="IntelliSense">New implementation of code completion.</note>
+	<note category="IntelliSense">New implementation of function signature help.</note>
+	<note category="IntelliSense">Code completion pre-selects most recent item.</note>
+	<note category="IntelliSense">Code completion improvements after backslash, new, global and function.</note>
+	<note category="IntelliSense">Code completion has WPF tool tips (formatted and coloured).</note>
+	<note category="IntelliSense">Code completion works better with namespaces.</note>
+	<note category="IntelliSense">Code completion shows only next part of a namespaced name. Backslash commits and shows the next part.</note>	
+	<note category="IntelliSense">After typing "$" and deleting the "$", completion is dismissed.</note>
+	<note category="IntelliSense">Editor exception fixes.</note>
+	<note category="IntelliSense">Minor IntelliSense fixes.</note>
+    <note category="IntelliSense">Option for enabling/disabling preselection of most recently used member.</note>
+	<note category="IntelliSense">Better IntelliSense after "use".</note>
+	<note category="IntelliSense">Fixes of code completion when cursor is between two non-string tokens.</note>
+	<note category="IntelliSense">Fixes for special function names (echo, empty, isset, __construct, ...).</note>
+	<note category="IntelliSense">Fix of newly declared variables missing from code completion.</note>
+	<note category="IntelliSense">Symbol icon in tooltips.</note>
+	<note category="Editor">Refactoring | Rename in context menu (HTML Editor must be disabled).</note>
+	<note category="Editor">Drag&amp;Droping files from Windows Explorer opens them.</note>	
+ 	<note category="Editor">Go To Brace with extending selection (Ctrl+Shift+]).</note>
+	<note category="Editor">Shift+F12 looks into referenced projects as well.</note>
+	<note category="Editor">Shift+F12 highlights "new" of corresponding "__construct".</note>
+    <note category="Editor">Tooltip during debugging fixes.</note>
+	<note category="Editor">Name of class or interface is coloured.</note>
+	<note category="Editor">Code completion fixes between a word and variable name.</note>
+	<note category="Editor">(VS2013+) Matching ' and " is not autocompleted inside strings and comments.</note>
+	<note category="Editor">New Smart Indent engine (major change).</note>
+	<note category="Editor">Fixes.</note>
+	<note category="Editor">Snippets are formatted after insertion.</note>
+	<note category="Editor">Fix of cases where VS shows error dialog after deleting portion of code.</note>
+	<note category="PHPDoc">When generating PHPDoc (after typing /**), selection is placed over 'summary' text.</note>
+	<note category="PHPDoc">Syntax in PHPDoc comments is highlighted (type names, variable names, tags, delimiters).</note>
+	<note category="PHPDoc">Colours of PHPDoc syntax in Tools | Options | Fonts and Colors, PHP Doc ...</note>
+	<note category="Code Validation">Closure is callable.</note>
+	<note category="Code Validation">compact() function handled.</note>
+	<note category="Code Validation">Fix of duplicitous warning messages.</note>
+	<note category="Code Validation">Fix of duplicitous error messages.</note>
+	<note category="Code Validation">Fix of foreach variable warnings, Iterator objects allowed, strings not.</note>
+    <note category="Refactoring | BETA">After changing an identifier name, smart tag (Ctrl+.) with rename action is displayed.</note>
+	<note category="Refactoring | BETA">Smart tag for rename allows to show preview.</note>
+	<note category="Refactoring | BETA">Variables, labels, types, interfaces, functions, methods, fields, constants, class constants.</note>
+	<note category="Refactoring | BETA">Rename dialog (Ctrl+R,R).</note>
+	<note category="Refactoring | BETA">Fix of cases where renamed identifier is a part of string or with prefixed namespaces.</note>	
+    <note category="Testing">Other test errors (syntax error, unknown class etc.) handled.</note>
+	<note category="Testing">Other PHPUnit output noted in Output window.</note>
+	<note category="Debug">Variable '$user' can be watched.</note>
+	<note category="Setup">The extension is installed for all users.</note>
+	<note category="Composer">Composer integration fixes.</note>
+	<note category="Composer">Replace property in composer.json handled.</note>
+  </release>
+  <release version="1.15.7750" date="20150321">
+	<note>Improvements of automatic directory mapping during remote debugging .</note>
+	<note>Fix of MsBuild targets files.</note>
+  </release>
+  <release version="1.15.7746" date="20150318">
+    <note>Faster installation. Fixes for 32bit Windows.</note>
+	<note>__TRAIT__ constant added, parser, IntelliSense.</note>
+	<note>Composer package properties fixes.</note>
+	<note>Fix of line endings when formatting and inserting new line.</note>
+	<note>Fix of IntelliSense when there are two classes with the same full name.</note>
+  </release>
+  <release version="1.15.7721" date="20150306">
+    <note>Visual Studio 2015 CTP5, CTP6 supported.</note>
+	<note>MSBuild capabilities improvements.</note>
+    <note>Microsoft Web PHP Project template (which allows azure publish and web deploy).</note>
+    <note>Fixes.</note>
+    
+	<note category="Editor">Ctrl+M,L supported when using advanced HTML Editor.</note>
+    <note category="Editor">Collapsed /** summary */ contains first line of the description.</note>
+    <note category="Editor">IntelliSense improvements based on code analysis.</note>
+    <note category="Editor">Fix of navigation bar when advanced HTML Editor is enabled.</note>
+	<note category="Editor">Fix of navigation bar when advanced HTML Editor is disabled.</note>
+    <note category="Editor">Source code validation and analysis.</note>
+    <note category="Editor">Type in tooltips is shortened according to current namespace.</note>
+    <note category="Editor">Tooltip text is wrapped.</note>
+    <note category="Editor">Fix for tooltips when debugging from array chains and foreach variables.</note>
+    <note category="Editor">Function header text contains '&amp;' for references.</note>
+    <note category="Editor">Fixes.</note>
+    <note category="Editor">Fix of HTML highlighting when support for HTML Editor is enabled.</note>
+    <note category="Editor">Memory leak fix.</note>
+    <note category="Editor">Task list, Error List with too many items processed on background.</note>
+    <note category="Editor">Optimizations.</note>
+    <note category="Editor">Find All References (Shift+F12).</note>
+    <note category="Editor">Contextual highlighting of references.</note>
+    <note category="Editor">Correct F1 Help URL for $_COOKIE and $_ENV.</note>
+    <note category="Editor">IntelliSense analyses @var PHPDoc tag above class when accessing object as array.</note>
+    <note category="Editor">Errors underlining, outlining, smart tags fixes.</note>
+    <note category="Editor">Known type of functions/variables/constants in tool tips.</note>
+
+    <note category="Code Validation">Type analysis running on background.</note>
+    <note category="Code Validation">Error detection based on type analysis.</note>
+	<note category="Code Validation">/** @var T $x */ in local scope forces type of local variable.</note>
+    <note category="Code Validation">Detection of unused variables and uninitialized variables.</note>
+	<note category="Code Validation">Detection of undefined classes.</note>
+	<note category="Code Validation">Detection of type mismatch.</note>
+	<note category="Code Validation">Detection of unreachable code.</note>
+	<note category="Code Validation">Detection of unused or undefined labels.</note>
+	<note category="Code Validation">Detection of common typos and common runtime errors.</note>
+	
+    <note category="Composer">Composer packages handled by Solution Explorer, Code Analysis and IntelliSense.</note>
+    <note category="Composer">Direct actions to Install new, update or install missing.</note>
+    <note category="Composer">Packages from composer.json are shown in Project References in tree hierarchy.</note>
+    <note category="Composer">Missing packages downloaded automatically on project load.</note>
+    <note category="Composer">Packages are included in IntelliSense.</note>
+	
+    <note category="Test Explorer">Bundled PHPUnit updated to version 4.5.</note>
+	<note category="Test Explorer">Running selected tests with @dataProvider fix.</note>
+	<note category="Test Explorer">Faster tests discovery.</note>
+	<note category="Test Explorer">'*phpunit*.xml.dist' and '*phpunit*.xml' allowed as PHPUnit configuration file names.</note>
+  </release>
+  <release version="1.14.5747" date="20141127">
+    <note>Fix of crash, when extension_dir directive in php.ini contains invalid characters.</note>
+    <note>Fix of F12 when window is scrolled few lines up.</note>
+  </release>
+  <release version="1.14.5606" date="20141016">
+    <note>$argv and $argc in IntelliSense.</note>
+    <note>Fix for Tab settings when indenting and unindenting (Tab, Shift+Tab).</note>
+    <note>When changing File Extension/Editor options, IntelliSense cache is reloaded immediatelly.</note>
+    <note>Memory usage optimization.</note>
+    <note>Project system improvements.</note>
+    <note>IntelliSense performs more tasks on background.</note>
+    <note>S/FTP faster target directory check.</note>
+    <note>IntelliSense cursor position fixes.</note>
+    <note>IntelliSense fix for self, parent, static when inside a namespace.</note>
+    <note>When navigating from Navigation Bar into a collapsed region, region is expanded.</note>
+  </release>
+  <release version="1.14.5548" date="20140919">
+    <note>Fix of code formatting within try/catch block.</note>
+    <note>Fix of crash when there is a file missing on disk.</note>
+    <note>Fix of Tool Tip crash when first letter of an identifier is mouseovered.</note>
+    <note>Fix of IntelliSense exception.</note>
+    <note>Fix of old HTML support IntelliSense.</note>
+    <note>Fix of Error List and Task List; only errors of opened files or files within a PHP project are listed, only tasks of a file within a PHP project are listed</note>
+  </release>
+  <release version="1.14.5536" date="20140914">
+    <note>Include and Exclude performance improvements.</note>
+    <note>Error List performance improvements.</note>
+    <note>Navigation Bar performance improvements.</note>
+    <note>Fix of crash when .NET Performance and Diagnostics is launched with PHP Project.</note>
+    <note>Fix of crash when debugging is stopped.</note>
+    <note>IntelliSense engine runs max for few seconds.</note>
+    <note>Fixed IntelliSense when cursor is at the end of file.</note>
+    <note>Fixed IntelliSense for functions and constants.</note>
+    <note>Fixed IntelliSense when PHPDoc type names have to be translated using current naming context.</note>
+    <note>Fixed IntelliSense over identifiers which name should be translated using current naming context.</note>
+  </release>
+  <release version="1.14.5514" date="20140908">
+    <note>IntelliSense object members.</note>
+    <note>Opening documents fix.</note>
+    <note>Starting web project fix.</note>
+    <note>Items in navigation bar are sorted alphabetically.</note>
+    <note>Conditionally declared functions and classes are visible in IntelliSense.</note>
+  </release>
+  <release version="1.14.5495" date="20140830">
+    <note>Feedback form in Help | PHP Tools Feedback.</note>
+    <note>Feedback form when app crashes from PHP Tools.</note>
+    <note category="Debug">Fix of debugging when path contains '#' character.</note>
+    <note category="Debug">Debug path mapping considers project references and SubPath property.</note>
+    <note category="Project">Support for NuGet.</note>
+    <note category="Testing">Test Configuration Editor.</note>
+    <note category="Testing">Support for custom PHPUnit configuration file.</note>
+    <note category="Testing">Organizing tests by a test suite defined in a configuration file.</note>
+    <note category="Testing">Support for bootstrapper and other PHPUnit options.</note>
+    <note category="Testing">Faster test discovery.</note>
+    <note category="Testing">By default, only files suffixed with Test.php are probed.</note>
+    <note category="Testing">Test class must have 'Test' suffix.</note>
+  </release>
+  <release version="1.14.5458" date="20140822">
+    <note category="Editor">Peek to definition.</note>
+    <note category="Editor">Quick Info syntax colored.</note>
+    <note category="Editor">More information in IntelliSense.</note>
+    <note category="Editor">Redesigned IntelliSense.</note>
+    <note category="Editor">Over "new" expression, F1 and F12 jumps to the constructor of class.</note>
+    <note category="Editor">Code collapsing of lambda functions.</note>
+    <note category="Project">Project-wide Error List.</note>
+    <note category="Editor">Fix of crash when there is "func() = expr;" code.</note>
+    <note category="Editor">Fix when there is a method called "assert".</note>
+    <note category="Editor">Fix when using declare().</note>
+    <note>High DPI UI support.</note>
+    <note>Support for JS debugging in PHP main file.</note>
+    <note>Fixes.</note>
+  </release>
+  <release version="1.13.5416" date="20140722">
+    <note>Brace completion of ' disabled when typing in comments.</note>
+    <note>Fix of smart indentation causing editor to freeze.</note>
+  </release>
+  <release version="1.13.5386" date="20140709">
+    <note category="Publish">Publish fixes.</note>
+    <note category="Publish">Publish of selected files and folders added.</note>
+    <note category="Publish">Improved publish performance.</note>
+    <note category="Editor">Full automatic brace completion.</note>
+    <note category="Editor">Comment selection fix when the selection ends on beginning of a line.</note>
+    <note category="Editor">Changing options updates editor of already opened files properly.</note>
+    <note category="Test Adapter">Stack trace fixes.</note>
+    <note category="Test Adapter">ReflectionException fix.</note>
+    <note category="Test Adapter">Incomplete test fix.</note>
+    <note category="Test Adapter">Support for risky tests.</note>
+    <note>Task List from code comments fixes.</note>
+  </release>
+  <release version="1.13.5282" date="20140608">
+    <note>Extended code analysis for classes, interfaces and member methods.</note>
+    <note>Task List updated with TODOs from code comments (customizable in Options|Tools|Environment|Task List) and from PHPDoc/@todo.</note>
+    <note>Smart Tags implementation for implement Interface, Implement Abstract Members and Override Members.</note>
+    <note>Project From Existing Code excludes .svn and .hg directories.</note>
+    <note>Project From Existing Code excludes hidden directories and its content.</note>
+    <note>Project From Existing Code allows to specify list of wildcards for ignored file names.</note>
+    <note>Faster project opening.</note>
+    <note>Project system improvements.</note>
+    <note>Smaller package.</note>
+    <note>Less memory requirements.</note>
+    <note>.NET 4.5 required.</note>
+    <note>@link PHPDoc keyword.</note>
+    <note>Fixed use of navigation bar immediately after opening a file.</note>
+    <note>Find Symbol Results fixes.</note>
+    <note>FTP/SFTP publish is handeling profiles with server names with explicit port number but without scheme.</note>
+  </release>
+  <release version="1.12.5211" date="20140512">
+    <note>Fix of PHP Editor when Navigation Bar is hidden.</note>
+    <note>Setup configures file association with .php and .phpproj properly.</note>
+  </release>
+  <release version="1.12.5187" date="20140429">
+    <note>Project From Existing Code creates correct msbuild file in case of special characters in file names.</note>
+    <note>IntelliSense exception fix in case of license is not activated.</note>
+    <note>Microsoft.VisualStudio.Web.Application support for .php extension.</note>
+    <note>Web Projects uses "Set As Start Page" command instead of ".. Start File".</note>
+    <note>Setup fixes for VS2010.</note>
+    <note>Setup fixes when there is an older version installed.</note>
+    <note>VS2012 Options page mishmashed characters fix.</note>
+    <note>PHP build-in server hostname option is used properly in opened browser.</note>
+  </release>
+  <release version="1.12.5174" date="20140418">
+    <note>Console PHP Project template.</note>
+    <note>Fix of CSS files colorization when opening them by double-click from Solution Explorer in Visual Studio 2010.</note>
+    <note>Fix for Split Window when using mixed HTML/PHP Editor.</note>
+    <note>Fix for IIS Express PHP registration when starting debug of PHP project.</note>
+    <note>Fix for internal detection of installed VS packages and languages in case of non-standard VS config registry root.</note>
+  </release>
+  <release version="1.12.5112" date="20140401">
+    <note category="Test Adapter">Test Explorer integration, PHPUnit included.</note>
+    <note category="Test Adapter">PHPUnit classes available in IntelliSense.</note>
+    <note>Files from [metadata] includes private/protected keywords properly.</note>
+    <note>Check for conflict with PHP Language Support extension.</note>
+    <note category="Phalanger">Compatibility with Phalanger Tools 1.12+.</note>
+  </release>
+  <release version="1.11.5062" date="20140310">
+    <note category="MSI installer">Fix when there is running Visual Studio during install.</note>
+  </release>
+  <release version="1.11.5051" date="20140307">
+    <note>Debug Quick Watch fixes (inside return and array use)</note>
+    <note>IntelliSense shows types of properties and constants of builtin PHP types.</note>
+    <note>Project properties scroll bars fix.</note>
+    <note>Project properties on first load marked as dirty.</note>
+    <note>Visual Studio 2010 without 'Visual Web Developer' feature does not allow HTML Editor.</note>
+    <note category="MSI installer">Fixed issues with updating or uninstalling the extension.</note>
+    <note category="MSI installer">Fixed issues with missing project and item templates.</note>
+    <note category="MSI installer">Allowed downgrade to an older version.</note>
+    <note category="Debug">Improved php.ini check.</note>
+    <note category="Debug">Fixing php.ini under non-Administrator account or with UAC enabled.</note>
+    <note category="Debug">"xdebug.remote_host" option validated properly.</note>
+    <note category="Debug">Opening php.ini from Interpreters dialog allows edit with UAC.</note>
+    <note category="Debug">Debug launch with debug issues fix.</note>
+    <note category="Debug">Silverlight debugging without IE shows readable error message.</note>
+  </release>
+  <release version="1.10.4967" date="20140214">
+    <note>"Browse With" support, user is able to choose browser used to debug</note>
+    <note>Fixed processing of files under long paths (under directories > 255 chars)</note>
+    <note>Opening documents from last solution session fix (Visual Studio 2013)</note>
+    <note>Debugger improvements</note>
+    <note>Silverlight debugging (requires Internet Explorer)</note>
+    <note>"Start without debugging" runs correct browser application</note>
+    <note>Fix for Web Essentials and certain commands (like Create CSS bundle)</note>
+    <note>Brace Completion option available (VS 2013)</note>
+  </release>
+  <release version="1.9.4910" date="20140119">
+    <note>IntelliSense after static::.</note>
+    <note>IntelliSense of parameters with type hint inside a namespace fix.</note>
+    <note>Fix of PHPDoc parser; use of @method without parameters fix.</note>
+    <note>Icons in Visual Studio 2013 Navigate To window.</note>
+    <note>Option to remove UTF8 BOM of PHP files.</note>
+    <note>Option to specify hostname for built-in PHP server.</note>
+    <note>"Show All Files" switch is available on VS Shell Integrated as well.</note>
+    <note>Stopping debug session properly closes server.</note>
+    <note>Debugging works if IE has been uninstalled from the system.</note>
+    <note>Show Line Numbers and Word Wrap options work in new PHP/HTML/JS/CSS editor.</note>
+    <note>Compatibility fixes for ReSharper - PHP editor, false warnings, snippets, formatting etc.</note>
+  </release>
+  <release version="1.9.4839" date="20131201">
+    <note>Fix for included/excluded files appearing in IntelliSense.</note>
+    <note>Fix for indentation of generated PHPDoc.</note>
+    <note>Fix for IntelliSense completion in PHPDoc.</note>
+    <note>Generated PHPDoc has "mixed" types by default and contains @throws if there is "throw new" statement.</note>
+  </release>
+  <release version="1.9.4832" date="20131128">
+    <note>Compatibility fixes when Phalanger is installed.</note>
+    <note>Compatibility check for VS 2010 *without* SP1.</note>
+    <note>Fix of parser failing for lines with certain length.</note>
+    <note>Fix of error reporting during package initialization.</note>
+    <note>Fix of IntelliSense initialization for multiple projects in solution.</note>
+    <note category="Source Control">Added support for syntax highlighting in diff window.</note>
+    <note category="Project System">Performance improvements of Drag&amp;Drop operation, and adding items into project in general.</note>
+    <note category="Project System">Created .phpproj.user file us backward compatible with previous version of Visual Studio.</note>
+  </release>
+  <release version="1.9.4815" date="20131120">
+    <note category="Project System">Fix of adding items with semi-colon in its name.</note>
+    <note category="Project System">Fix of flickering and collapsing when deleting items.</note>
+    <note category="Project System">Fix of correct item selected after deletion.</note>
+    <note category="Project System">Fix of IDE inresponsibility.</note>
+  </release>
+  <release version="1.9.4792" date="20131113">
+    <note>Improved project system</note>
+    <note>Fix of nested file nodes (e.g. .coffee files and Web Essentials)</note>
+    <note>Support for Xdebug using IPv6 address</note>
+    <note>Fix of Collapse To Def command</note>
+    <note>Fix of wrong snippets path not updated by Visual Studio</note>
+    <note>Fix of Tool Tips / Quick Watch when debugging</note>
+    <note>Fix of outlining being continuously collapsed when typing</note>
+    <note>Fix of debugging when a Web App Project is in solution</note>
+    <note>Fix of debug keeping listening on port</note>
+    <note>Publish takes also dependent file nodes (e.g. generated from .coffee)</note>
+    <note>Fix of code snippets not being available</note>
+    <note>Explorer icons associated also under non-administrator account</note>
+  </release>
+  <release version="1.9.4736" date="20131028">
+    <note>Removed Start Page</note>
+    <note>Visual Studio manages file associations with .phpproj and .php</note>
+    <note>Support for Visual Studio 2013</note>
+    <note>Inserting snippets with reformat fix</note>
+    <note category="Project System">Improved project system</note>
+    <note category="Project System">Improved source control support</note>
+    <note>Updated icons for VS2013 and VS2013</note>
+    <note category="Project System">Bolding of startup file on PHP project</note>
+    <note>About box with additional package information</note>
+    <note href="http://www.devsense.com/doc/phptools/editor/html-editor">Experimental HTML/JS/CSS support (enable in TOOLS|OPTIONS|PHP Tools)</note>
+    <note category="Project System">Improved project loading</note>
+    <note category="Project System">Asynchronous project loading</note>
+  </release>
+  <release version="1.8.4704" date="20131019">
+    <note>SFTP publish allows empty private key</note>
+    <note>Expired subscription does not cause notification to appear every VS startup</note>
+    <note>Fix of conflicting PhpNetCore.dll when Phalanger is installed</note>
+    <note>Fix of debugger keeping socket opened after VS is closed</note>
+  </release>
+  <release version="1.8.4608" date="20130917">
+    <note>Memory usage optimizations</note>
+    <note>.coffee and .less item templates added (if supported by VS)</note>
+    <note category="Debug">Xdebug configuration checks improvements</note>
+    <note>PHP 5.5 syntax supported</note>
+    <note category="IntelliSense" href="http://php.net/manual/en/language.generators.overview.php">Support for generators added into IntelliSense</note>
+    <note category="Debug">Debugger/Watch allows complex expressions</note>
+    <note category="Debug">Debugger handles evaluation with side effect</note>
+    <note category="Debug">Debugger hexadecimal view support</note>
+    <note category="Debug">During debugging on IIS Express, verbose messages are printed to VS Output</note>
+    <note category="Debug">If IIS Express fails to start, user is notified and debug session won't start</note>
+    <note category="IntelliSense">F1 Help provided for more PHP keywords</note>
+    <note>php.ini configuration issue checker improvements</note>
+    <note>Code commenting improvements for mixed tabs/spaces on commented lines</note>
+    <note href="http://www.devsense.com/doc/phptools/editor/php-manual">Improved metadata generation for native PHP functions and classes (F12 on builtin PHP stuff)</note>
+    <note category="IntelliSense">updated integrated documentation (Sep 3rd 2013)</note>
+    <note>Publish dialog fix; saves data when enter is pressed</note>
+    <note>Allowing to use some 3rd party extensions getting color information improperly</note>
+    <note>File System publisher doesn't propage readonly and hidden attributes</note>
+    <note>SFTP publisher supports private key</note>
+    <note>Navigating to php files via Find Results fix</note>
+    <note category="IntelliSense">Some optional parameters of PHPManual functions shown properly as optional</note>
+    <note category="IntelliSense">Initial value of PHPManual function parameters shown in tool tips</note>
+  </release>
+  <release version="1.8.4504" date="20130822">
+    <note category="Debug">Autos window during debugging</note>
+    <note category="Debug">Remote debugging through SSH tunnel allowed</note>
+    <note>Asking for trial at Visual Studio startup can be disabled now</note>
+    <note>Option to disable keyword reference highlighting under the cursor</note>
+    <note>Option to disable PHPDoc generating for /**</note>
+  </release>
+  <release version="1.8.4473" date="20130808">
+    <note>start page shows subscription expiration</note>
+    <note>project system fixes for dragging and removing</note>
+    <note>version date is checked against subscription expiration</note>
+    <note>start page shows changelog</note>
+    <note>requires to try professional features</note>
+    <note>license is valid for any Visual Studio version until subscription is valid</note>
+  </release>
+  <release version="1.8.4452" date="20130716">
+    <note>occurences of the identifier under the caret is highlighted across the whole file</note>
+    <note>Publishable property fix, listing files to publish fix</note>
+    <note>HTML IntelliSense (code completion, including smart closing tag)</note>
+    <note>HTML element pair highlighting</note>
+    <note>HTML automatic closing element inserted on &gt;</note>
+    <note>HTML commenting/uncommenting selection (applicable only if HTML xor PHP are selected)</note>
+    <note>formatting HTML document</note>
+    <note>improvements in HTML colorizer, more "non-standard" HTML code allowed</note>
+    <note>improved performance and stability of colorizer</note>
+    <note>creating new PHP project automatically opens 'index.php'</note>
+    <note>fixed IntelliSense of DOMNodeList</note>
+    <note>foreach of DOMNodeList, DirectoryIterator, ArrayIterator</note>
+    <note>foreach of classes derived from Iterator with function current()</note>
+    <note>PHP project publish bug fixes</note>
+  </release>
+  <release version="1.7.4340" date="20130603">
+    <note>Automatic installation of PHP with Xdebug from Web Platform Installer</note>
+    <note>IntelliSense enhancements</note>
+    <note>no code completion after "var" keyword</note>
+    <note>private static and non-static functions and properties only shown in its class context</note>
+    <note>overriding of builtin PHP functions shows valid type hints</note>
+    <note>update of builtin PHP manual to April 2013 version</note>
+    <note>PDO:: constants in IntelliSense</note>
+    <note>PDO methods have proper return type and -&gt; after them works</note>
+    <note>F1 works for built-in PHP classes and their members</note>
+    <note>fix of smart indent after "(new X)-&gt;xxx;" statement</note>
+    <note>Class Search allows searching for class members too</note>
+    <note>Object Browser shows additional PHPDoc information</note>
+    <note>Debugger improvements</note>
+    <note>Debugger allows to select what kind of errors are handled</note>
+    <note>Fatal, Parse, Unknown errors breaks debug</note>
+    <note>fix when running VS as Guest; fixes startup crash and activating trial crash</note>
+    <note>fix when running project after configuration error; new configuration takes an effect</note>
+  </release>
+  <release version="1.6.4251" date="20130425">
+    <note>remote debugging fix</note>
+  </release>
+  <release version="1.6.4231" date="20130414">
+    <note>PHP Debugger improvements</note>
+    <note>strings longer than 1024 handled, can be previewed and edited</note>
+    <note>arrays and objects with more than 32 elements handled, can be viewed and edited</note>
+    <note>modified values/objects in immediate window are updated in debug view</note>
+    <note>fix of automatic port selection</note>
+    <note>project located in disk root starts up properly</note>
+    <note>fix of startup url, forward slashes instead of backward</note>
+    <note>formatting fix of return expression</note>
+    <note>devsense.com web site is not opened after installation</note>
+    <note>F12 and F1 when cursor is just before the word</note>
+    <note>project properties can be saved even if no PHP interpreter is configured</note>
+    <note>fix when VS is being closed with built-in PHP web server running</note>
+    <note>fix of project properties port number input text box</note>
+  </release>
+  <release version="1.6.4187" date="20130331">
+    <note>PHP class item template</note>
+    <note>fix of scrolling the document to the cursor position on enter after long lines</note>
+    <note>fix of formatting on code using heredoc</note>
+    <note>start page is displayed after an update and disable checkbox is more visible</note>
+    <note>start page contains more information about features</note>
+  </release>
+  <release version="1.6.4160" date="20130323">
+    <note>Navigate To support (Ctrl + ,)</note>
+    <note>PHP 5.4 traits syntax</note>
+    <note>PHP 5.4 function array dereference syntax</note>
+    <note>PHP 5.4 function call on object instantioation</note>
+    <note>IntelliSense of new PHP 5.4 constructs</note>
+    <note>IntelliSense hides private members out of its class</note>
+    <note>IntelliSense after use/extends/implements/new improved, traits handled</note>
+    <note>proper icons of interfaces in IntelliSense lists</note>
+    <note>fix of adding handlers into IIS configuration</note>
+    <note>JavaSript debugger (JScript) support (implies use of IE)</note>
+    <note>selection of debuggers (PHP and/or JavaScript) in project properties</note>
+    <note>improved PHPDoc, handles @property-write, @property-read and more @method syntaxes</note>
+    <note>PHP debugger improvements</note>
+    <note>IntelliSense improvements</note>
+    <note>Project Publish "Skip missing files check" option</note>
+    <note>Project system improvements when using source control binding</note>
+    <note>overriding of functions fix; autocompletes type hints and parameters default value</note>
+    <note>control variable from catch() block in IntelliSense</note>
+    <note>php item templates do not have BOM</note>
+  </release>
+  <release version="1.6.4064" date="20130303">
+    <note>minor fix when VS freezes on first opened php file</note>
+    <note>PHPDoc @param without variable name handled</note>
+    <note>feedback button crash fix</note>
+    <note>publishing issue fix with new files</note>
+    <note>debugging path mapping fixes</note>
+    <note>formatter handles class field initializers</note>
+    <note>singleline PHPDoc not collapsible</note>
+    <note>class search shows classes, global functions, constants</note>
+    <note>tooltip stability issue fix</note>
+    <note>closing file crash while IntelliSense is active fix</note>
+    <note>renaming files under source control fix</note>
+  </release>
+  <release version="1.6.4040" date="20130222">
+    <note>Minor fix of IntelliSense and Class View within solutions with more than one PHP project loaded</note>
+  </release>
+  <release version="1.6.4039" date="20130221">
+    <note>Project Publish</note>
+    <note>Manual Publish command</note>
+    <note>Publish profiles management</note>
+    <note>Publish Wizard, connection validation</note>
+    <note>File System, FTP, FTPS, SFTP protocols</note>
+    <note>Automatic publish before Run</note>
+    <note>Fast incremental Publish</note>
+    <note>Remote Debugging / Custom server</note>
+    <note>Automatic directory mapping</note>
+    <note>Publish before run</note>
+    <note>PHP Built-in server Routing Script option</note>
+    <note>Class View, Class search</note>
+    <note>structured by namespaces</note>
+    <note>Object Browser</note>
+    <note>IntelliSense improvements:</note>
+    <note>Asynchronous IntelliSense (Completor, Word Completion, ToolTip, MethodTip) immediate editor response</note>
+    <note>IntelliSense of array items, foreach enumeration</note>
+    <note>array type hint in PHPDoc supported (e.g. ObjType[])</note>
+    <note>Global constants defined thru define() with PHPDoc</note>
+    <note>Global variables defined thru PHPDoc (using @global tag)</note>
+    <note>Other IntelliSense engine improvements</note>
+    <note>IntelliSense engine optimizations</note>
+    <note>fast editor response when matching/highlighting braces</note>
+    <note>Description of more PHP keywords and built-in functions</note>
+    <note>'Go To Declaration' (F12) in case of variables and properties does not show implicit declarations</note>
+    <note>'Go To Declaration' (F12) of declarations from @method or @property jumps to corresponding PHPDoc tag</note>
+    <note>options for disabling code collapsing by default, collapsing of PHPDoc blocks or #region/#endregion</note>
+    <note>option for IntelliSense variable preselection when $ is typed</note>
+    <note>collapsing of &lt;?php ?&gt; code blocks</note>
+    <note>collapsing of group of line comments, allowing to have whitelines between them</note>
+    <note>VS 2012 light/dark project icons</note>
+    <note>.php file is opened in an existing instance of Visual Studio when opening from Windows Explorer</note>
+    <note>VS 2012 faster response in large projects</note>
+    <note>Start Page with News re-enabled only after major update</note>
+    <note>project system fixes, improvements</note>
+    <note>fixed Method Info for multilined function calls</note>
+    <note>fixed performance issue of huge PHP projects when whole VS was laggy</note>
+  </release>
+  <release version="1.5.3865" date="20130108">
+    <note>new PHP Variable color</note>
+    <note>better support for VS2012 dark theme</note>
+    <note>VS 2012 preview tab supported</note>
+    <note>fixed reseting of HTML colors on VS 2012</note>
+    <note>fixed IntelliSense replacement span, e.g. right before a string</note>
+    <note>fixed syntax error of class constant set to a string containing $</note>
+  </release>
+  <release version="1.5.3802" date="20121217">
+    <note>fixed debugging when user stopped debug manually before debug session ended</note>
+    <note>fixed debugging of projects located in paths containing Unicode characters</note>
+    <note>fixed 'project from existing code' wizard messages</note>
+    <note>fixed entering new line with 'virtual space' option and with caret after the line end</note>
+    <note>fixed IntelliSense deduction of abstract methods but with PHPDoc information</note>
+    <note>support for improved method call syntax $classname::$methodname()</note>
+    <note>support for improved array syntax [1,2,3, 'key' => $value]</note>
+  </release>
+  <release version="1.5.3767" date="20121127">
+    <note>PHP code formatting fixes</note>
+    <note>project system fixes</note>
+    <note>more IntelliSense within FTP site and FileSystem site</note>
+  </release>
+  <release version="1.5.3746" date="20121127">
+    <note>Windows 8 Debugger Systray fix</note>
+    <note>fix of crashing when RedGate Reflector is installed</note>
+    <note>IntelliSense optimizations</note>
+    <note>IntelliSense of namespaces fixes</note>
+    <note>beta of arrays IntelliSense, foreach</note>
+    <note>version in Start Page</note>
+    <note>IIS Express debugging fix when default URL is used</note>
+    <note>PHP Project system improvements</note>
+    <note>Drag&amp;Drop and Ctrl+C/X/V within same project</note>
+    <note>solution explorer refresh button</note>
+    <note>missing files marked with exclamation mark in solution explorer</note>
+    <note>VS12 additional colors fix</note>
+    <note>debugging of certain servers (PHP 5.4, IIS Express) allowed without Administrator rights</note>
+    <note>debugger catch Exceptions</note>
+    <note>PHP Exceptions listed in Debug -> Exceptions</note>
+    <note>HTML highlighting uses VS settings, Spellchecker addon compatibility fix</note>
+  </release>
+  <release version="1.5.3650" date="20121030">
+    <note>PHP code debugging (XDebug support)</note>
+    <note>Immediate Window during debugging</note>
+    <note>Debug Quick Watch and Tooltips with actual value</note>
+    <note>Editting values during debugging</note>
+    <note>PHP projects</note>
+    <note>@property and @method PHPDoc tags</note>
+    <note>package fix on Windows XP</note>
+    <note>performance fix of Visual Studio Web Site</note>
+    <note>IntelliSense fixes</note>
+    <note>Comment/Uncomment selection fix</note>
+    <note>Project From Existing Code... (File -> New)</note>
+    <note>Custom file extensions available free</note>
+    <note>Built-in PHP 5.4 server support</note>
+    <note>IIS Express server support</note>
+    <note>PHP configuration issues manager</note>
+    <note>Automatic one-time file association</note>
+  </release>
+  <release version="1.1.3415" date="20120901">
+    <note>formatting fixes</note>
+    <note>duplicities in navigation bar fixes</note>
+    <note>automatic generaton of PHPDoc when /** is typed above declaration</note>
+    <note>minor IntelliSense fix when new function is being typed</note>
+  </release>
+  <release version="1.1.3385" date="20120822">
+    <note>IntelliSense shows static functions after object operator</note>
+    <note>IntelliSense fixes</note>
+    <note>Smart Indent and Reformatter fixes</note>
+  </release>
+  <release version="1.1.3330" date="20120812">
+    <note>typing variable name fix</note>
+    <note>smart indent fixes</note>
+    <note>more keywords in IntelliSense</note>
+    <note>right brace inside string fix (smart indent, highlighting, brace matching)</note>
+    <note>IntelliSense during Method Info fix</note>
+    <note>Go to Brace supported (Ctrl+])</note>
+  </release>
+  <release version="1.1.3267" date="20120801">
+    <note>outlining bug fix</note>
+  </release>
+  <release version="1.1.3266" date="20120801">
+    <note>smart indentation improvements</note>
+    <note>namespace formating fixes</note>
+    <note>Code completer improvements</note>
+  </release>
+  <release version="1.1.3248" date="20120728">
+    <note>F1 Help</note>
+    <note>#region/#endregion outlining</note>
+    <note>all PhpDoc tags</note>
+    <note>improved PHPDoc parser</note>
+    <note>smart indentation</note>
+    <note>smart outdentation of '{', 'case', 'default'</note>
+    <note>formatting options</note>
+    <note>automatic PHP document formatting</note>
+    <note>automatic code block reformat after '}', ':' or ';'</note>
+    <note>formatting of code selection</note>
+    <note>Whole PHP Manual integrated</note>
+    <note>fixes of namespaces handling</note>
+    <note>fixed namespaced names code completion</note>
+    <note>namespace blocks collapsing</note>
+    <note>Mac New Lines (CR) supported</note>
+    <note>Files in Solution Explorer handled properly</note>
+  </release>
+  <release version="1.0.3045" date="20120618">
+    <note>tooltip handling fix</note>
+  </release>
+  <release version="1.0.3039" date="20120615">
+    <note>code snippets, code surrounding, expansion browser</note>
+    <note>PHPDoc highlighting</note>
+    <note>added missing keywords in code sense</note>
+    <note>updated integrated documentation (PDO, Zip)</note>
+    <note>automatic $ when inserting static class field</note>
+    <note>comment/uncomment lines refinement</note>
+  </release>
+  <release version="1.0.2940" date="20120523">
+    <note>Automatic .php file association</note>
+  </release>
+  <release version="1.0.2930" date="20120520">
+    <note>IntelliSense improvements &amp; fixes</note>
+    <note>PHPDoc of class fields in ToolTip</note>
+  </release>
+  <release version="1.0.2896" date="20120511">
+    <note>PHP documentation updated</note>
+    <note>optimizations, improved IntelliSense for functions with PHPDoc</note>
+    <note>Caching progress in status bar</note>
+    <note>Custom file extensions supported</note>
+  </release>
+  <release version="1.0.2848" date="20120502">
+    <note>fix when changing outside Visual Studio</note>
+    <note>__DIR__ constant added</note>
+    <note>improvements when coding in namespace</note>
+  </release>
+  <release version="1.0.2842" date="20120501">
+    <note>code sense fixes</note>
+    <note>code sense of 'new' improvements</note>
+    <note>more PHP documentation</note>
+    <note>"Find Symbol Results" window shows full line of code if possible</note>
+    <note>'Go to definition' centers view</note>
+    <note>generated metadata file contains PHP documentation if available</note>
+    <note>welcome dialog showed, fix</note>
+    <note>lambda functions support if available</note>
+  </release>
+  <release version="1.0.2818" date="20120425">
+    <note>'global' keyword handled, type inference enhancements</note>
+    <note>code sense improvements and fixes</note>
+    <note>'Show All Files'/'Include'/'Exclude' commands in solution explorer</note>
+    <note>'Open folder in Windows Explorer' in colution explorer</note>
+    <note>package metadata updated</note>
+    <note>package Welcome dialog, licensing, trial, buy</note>
+    <note>PHP documentation for class library symbols</note>
+    <note>performance improvements</note>
+  </release>
+  <release version="1.0.2667" date="20120330">
+    <note>collapse to definition</note>
+    <note>brace matching</note>
+    <note>web root based on solution explorer</note>
+    <note>go to definition of class library symbol shows generated metadata file</note>
+    <note>HTML scanner allows single quoted attributes</note>
+    <note>"Find symbol results" window</note>
+    <note>Fonts&amp;Colors setting fix when improperly loaded by VS</note>
+    <note>$ before a variable name autocompleted properly on VS11</note>
+    <note>Navigation bar fixes</note>
+  </release>
+  <release version="1.0.2567" date="20120312">
+    <note>performance improvements</note>
+    <note>VS11 support added</note>
+    <note>HTML colors changed</note>
+    <note>bug fixes</note>
+  </release>
+  <release version="1.0.2529" date="20120305" tags="first release">
+    <note>Initial release.</note>
+  </release>
+</changelog>

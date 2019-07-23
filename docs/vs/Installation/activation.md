@@ -5,36 +5,44 @@ Description: Activate PHP Tools for Visual Studio
 
 # Product Activation
 
-PHP Tools add-in comes with a trial software. You can enable the trial first to see whether PHP Tools suits you. Enabling the trial or activating the software using a purchased license key gives you the full developers features.
+Once you have [downloaded PHP Tools](https://www.devsense.com/en/download), [installed it](https://docs.devsense.com/en/vs/installation) and [installed PHP](https://docs.devsense.com/en/vs/installation/install-php), it's time to activate the product.
 
-## Activate trial
+PHP Tools for Visual Studio comes with a free trial to evaluate the software. You can enable the trial first to see whether PHP Tools suits you. The trial allows free access to all developing features for 30 days. When the trial ends, you can activate the software using a purchased license key.
 
-You can start with the free 30-day trial and evaluate the software. The trial can be started whenever you want, until then only the set of basic features will work. PHP Tools add-in asks to start the trial when Visual Studio starts (see below). 
+## Activate Trial
+
+As explained before, PHP Tools for Visual Studio comes with a free, 30-day trial. This trial can be started anytime, but until then, only a set of basic features will work. PHP Tools will ask to start the trial every time Visual Studio starts (see picture below). 
 
 ![Begin trial](imgs/license-ask-trial.png)
 
+This dialog box will appear every time, unless the trial has been started, the product has been activated, or the dialog box has been disabled in its Close menu. 
+
 Click **Begin Trial** to start a free 30-day evaluation.
 
-A dialog box appears with each new instance of Visual Studio, unless the trial has been started, the product is activated, or the dialog can be disabled in its Close menu. 
+> **Note:** The trial can also be activated from the Visual Studio menu. Click **Help**, and then **Activate PHP Tools for Visual Studio** to re-open the activation dialog.
 
-Trial license can also be activated from the Visual Studio menu. Click **Help**, and then **Activate PHP Tools for Visual Studio** to reopen the activation dialog.
+## Obtain your License Key
 
-## Obtain your license key
+The license key can be purchased online from our [Purchase page](https://www.devsense.com/purchase). For detailed information about licence types, licensing model, purchase, upgrades and renewal, see our [FAQ section](https://www.devsense.com/en/purchase#faq).
 
-The license key can be purchased online from [Pricing&Buy page](http://www.devsense.com/products/php-tools/pricing). See [License Comparison](http://www.devsense.com/products/php-tools/pricing#license-comparison) for details about available pricing and licenses.
+## Enter License Key
 
-> **Note**: The license key is sent by our authorized vendor **Avangate**. 
+Once you have a purchased license key, you can activate your copy of PHP Tools for Visual Studio. The product can be activated from the Visual Studio menu. Click `Help | Activate PHP Tools for Visual Studio` to open the activation dialog. 
 
-## Enter license Key
 
-> With a purchased license key, you may activate your copy of **PHP Tools for Visual Studio**. The product can be activated from the Visual Studio menu. Click **Help** | **Activate PHP Tools for Visual Studio** to open the activation dialog. 
+Then, paste your license key and click "Activate".
+
 
 ![Enter license key](imgs/activation-enter-key.png)
 
-## Subscription status
+> **Note**: If you have a blocked Internet connection, you can also activate the product. More on [offline activation](offline-activation).
 
-To review the status of your maintenance subscription, go to `Help | PHP Tools for Visual Studio`.
+To review the status of your maintenance and support subscription, go to `Help | PHP Tools for Visual Studio`. [What's the maintenance and support subscription?](https://www.devsense.com/en/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
 
 ![License status](imgs/license-about-window.png)
 
-This window gives you information about your license status, product version and an option to renew your subscription.
+This window gives you information about your license status, product version and the option to renew your subscription.
+
+## Related links
+
+- [Offline activation](offline-activation): How to activate the product license with a blocked Internet connection.
