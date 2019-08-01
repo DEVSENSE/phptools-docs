@@ -23,12 +23,10 @@ Both versions are displayed the same way and both are available when a light bul
 PHP Tools provides refactoring suggestions whenever the system can help restructure a code.
 Currently supported suggestions are:
 
-- Rename identifier.
-  - Whenever an identifier name is changed, PHP Tools offers to change all the references to that identifier (variable uses, function call, etc.).
-- Implement interface.
-  - When a class implements an interface but not all the required methods are defined, PHP Tools offers to create empty implementation of the remaining methods.
-- Implement abstract methods.
-  - Similar to the interface implementation but for base class with abstract methods.
+- Rename identifier: Whenever an identifier name is changed, PHP Tools offers to change all the references to that identifier (variable uses, function call, etc.).
+- Implement interface: When a class implements an interface but not all the required methods are defined, PHP Tools offers to create empty implementation of the remaining methods.
+- Implement abstract methods: Similar to the interface implementation but for base class with abstract methods.
+- Add missing `$this->` before an unknown function call that is the current class function.
 
 ### Unknown Types
 

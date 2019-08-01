@@ -16,7 +16,7 @@
 	  <note>Web Platform Installer provides log with failure details</note>
 	  <note category="PHP 7.4">PHP 7.4 support</note>
 	  <note category="PHP 7.4">arrow functions, typed properties, spread array, `??=` operator, underscores in numbers</note>
-	  <note category="PHP 7.4">PHP 7.4 features reported when using PHP &lt; 7.4</note>
+	  <note category="PHP 7.4">PHP 7.4 features reported when using an older PHP</note>
 	  <note category="PHP 7.4">PHP 7.4 features analysis, type analysis, problems analysis</note>
 	  <note category="PHP 7.4">Built-in `PHP 7.4 alpha 3`, automatic online installation</note>
   </release>
