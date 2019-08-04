@@ -1,0 +1,22 @@
+Today, we are proud to announce the release of an early access version of PHP Tools for Visual Studio 2017. For the third consecutive major release of Visual Studio, DEVSENSE was selected as **Visual Studio Sim-ship partner**.
+
+Formally known as Visual Studio "15", the next version of Visual Studio has finally reached RC status as Visual Studio 2017 RC - now with the official support for PHP language.   
+
+![Visual Studio Partner](img/vs_partner_logo.png)
+
+## PHP Tools for Visual Studio 2017
+
+PHP Tools is the extension you need for PHP development within Microsoft Visual Studio. In addition to a colorful editor experience, it provides productivity features like code validation, advanced code navigation, IntelliSense, integrated visual debugging, refactoring or unit test support. PHP Tools enables the development of PHP code in the industry standard environment while respecting the user conventions. 
+
+![VS2017](img/work-in-vs2017.gif)
+
+In Visual Studio 2017, Microsoft introduces [new Visual Studio Installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/), which provides a more lightweight and faster installation process. This is the reason why most extensions for Visual Studio will be shipped in separate packages. PHP Tools are not an exception.
+
+<a class="btn btn-success btn-lg has-tag-preview" href="https://www.devsense.com/download" title="Download PHP Tools for Visual Studio 2017"><icon class="fa fa-download"></icon> Visual Studio 2017</a>
+
+It goes without saying that as soon as VS2017 RTM is out, we will be shipping a version of PHP Tools for Visual Studio that supports it, plus many other exciting news are coming, so make sure to follow us on [Facebook](https://www.facebook.com/ph4vs) or [twitter](https://twitter.com/DevsenseCorp).
+
+### Feedback
+
+Please keep in mind that PHP Tools for Visual Studio 2017 is in the preview version, so issues are to be expected here and there. [Let us know](http://support.devsense.com) if you run into any of them.
+![Image description](https://blog.devsense.com/bl-content/uploads/pages/0305fad58a14633149b5169997036556/phptoolsnewversionblog.jpg)
