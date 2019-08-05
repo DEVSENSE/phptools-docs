@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
   <release version="1.32.11408" date="20190805" tags="preview">
-	  <note>Files in Soltion Explorer can be expanded.</note>
+	  <note>Files in Solution Explorer can be expanded.</note>
   </release>
   <release version="1.32.11400" date="20190731" tags="stable">
 	  <note>Class aliasing handled by type analysis and IntelliSense</note>
