@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11410" date="20190805" tags="preview">
+  <release version="1.32.11410" date="20190806" tags="preview">
 	  <note>Files in Solution Explorer can be expanded.</note>
   	  <note>Class aliasing handled by type analysis and IntelliSense</note>
 	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
