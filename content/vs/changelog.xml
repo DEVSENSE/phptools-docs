@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11408" date="20190805" tags="preview">
+  <release version="1.32.11410" date="20190805" tags="preview">
 	  <note>Files in Solution Explorer can be expanded.</note>
-  </release>
-  <release version="1.32.11400" date="20190731" tags="stable">
-	  <note>Class aliasing handled by type analysis and IntelliSense</note>
+  	  <note>Class aliasing handled by type analysis and IntelliSense</note>
 	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
 	  <note>Improved type analysis of function arguments passed by reference</note>
 	  <note>Twig file templates statibility fixes</note>
