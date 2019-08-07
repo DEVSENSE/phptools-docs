@@ -1,1 +1,4 @@
 .listing
+bl-content/databases/users.php
+bl-content/databases/syslog.php
+bl-content/databases/security.php
