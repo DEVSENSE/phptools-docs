@@ -118,13 +118,13 @@ It adds Dockerfile and docker-compose.yml syntax highlighting, IntelliSense, err
 
 For a basic introduction to PHP running on Docker, let's create one really simple container.
 
-	1) First, create a folder named "PHP Hello Docker".
+1. First, create a folder named "PHP Hello Docker".
 
-	2) Open this folder in Visual Studio Code and create a file named "hello.php".
+2. Open this folder in Visual Studio Code and create a file named "hello.php".
 
 ![hello.php](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/hello.png)
 
-	3) Next, create a file called "Dockerfile" (without any extension) and write this code into the file.
+3. Next, create a file called "Dockerfile" (without any extension) and write this code into the file.
 
 ![Dockerfile](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/Dockerfile.png)
 
@@ -134,7 +134,7 @@ This is a very basic Dockerfile. Dockerfiles describe how to build your Docker i
 
 After specifying the base image, just copy everything in project folder to /usr/src/hellodockerapp inside new docker image and set a workdir there. This is equivalent of making "cd folder" inside cmd, so you don't have to specify paths in later commands. And last command calls PHP with "./hello.php" as parameter.
 
-	4) Build a new Docker image from Dockerfile. With Docker extension, you can do this, just by right clicking on Dockerfile and clicking "Build Image".
+4. Build a new Docker image from Dockerfile. With Docker extension, you can do this, just by right clicking on Dockerfile and clicking "Build Image".
 
 ![Build Image](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/builddockerfile.png)
 
@@ -146,11 +146,11 @@ After clicking "Enter", a call will be made to build our new docker image from D
 
 ![Docker Build](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/dockerbuild.png)
 
-	5) Now, you should be able to see our newly created docker image inside Docker explorer.
+5. Now, you should be able to see our newly created docker image inside Docker explorer.
 
 ![phphellodocker image](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/phphellodocker.png)
 
-	6) To run it, right click on "Images" inside the Docker explorer and select "Run Interactive". If you would click "Run", the container will be created and run as well, but you would not see the output of echo in the terminal.
+6. To run it, right click on "Images" inside the Docker explorer and select "Run Interactive". If you would click "Run", the container will be created and run as well, but you would not see the output of echo in the terminal.
 
 ![Run Interactive](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/runinteractive.png)
 

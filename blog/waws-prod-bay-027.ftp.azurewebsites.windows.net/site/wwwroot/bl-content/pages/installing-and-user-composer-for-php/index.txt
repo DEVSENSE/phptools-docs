@@ -1,0 +1,147 @@
+## Requirements
+
+* PHP (PHP 7 is used for this example)
+* IDE such as Visual Studio or Visual Studio Code with PHP Tools
+
+At the core of every programmer is someone who is lazy.  This isn't a bad thing - if you recall the Heinlein short story "The Tale of the Man Who Was Too Lazy to Fail", it involved a man who really didn't want to work.  So, he looks over how things are done to make them easier on himself rather than doing it the same laborious method as his counterparts.
+
+This is the heart and soul of every good programmer. We want the computer to do the work for us.  We *could* manually count how many times the word "spam" appears in a document.  Or we can make a function that does that for us.  The history of great programmers is that of someone saying "Yeah, I'd rather not do that myself, I'll just make it easier."
+
+The Composer framework lets you install components rather than inventing everything from scratch.  Not only does it help with installing "packages" (pre-created libraries and components), but they also resolve any dependencies.
+
+For example, suppose that we want to send emails.  Sure, we could:
+
+* Create our own PHP based connection to a SMTP process, figure out the proper commands on how to format our mail message, handle authentication and encryption
+* Install an email sending package like Swiftmailer!  First, we download it manually.  Oh - but it also requires email-validator to run.  And polyfill.  And if there's an upgraded version in the future, then we'll have to make sure we don't install the wrong dependencies because then that might break what we have.
+* Or we use Composer, specify that we want to install Swiftmailer, and it will download and install the correct dependencies for us.
+
+I'm lazy.  Let's go with the last option.
+
+Installing and using Composer isn't that difficult.  There's three phases:
+
+1. Install Composer.
+2. Install the desired packages.
+3. Use the Composer packages in your code.
+
+We'll be using Swiftmailer as our example, but check out all of the packages available from sites like [Packagist](https://packagist.org/).  There's ones for handling your log files, for handling files, handling messages - odds are, there's somebody out there who had a problem, solved it, and then published their package for other lazy people to use.
+
+## Installing Composer
+
+> If you have PHP Tools installed, you don't need to install Composer, because [PHP Tools will do it for you](https://docs.devsense.com/en/vs/project/composer?fbclid=IwAR36GLWdcMwp5L1sKLsj4trdTv7NFu1-9JTnPeOICbMrMPbMfUA7M5ZUobI).
+
+Installing Composer can be done from the command line.  For users of Linux or OS X who have already installed PHP, it can all be done from the command line:
+
+```bash
+curl -sS https://getcomposer.org/installer | php
+cp composer.phar /usr/local/bin/composer
+```
+
+Assuming that /usr/local/bin is part of the PATH, this lets `composer` to be run from the command line.
+
+## Installing Composer Packages
+
+### The Composer.json file
+
+So we've installed Composer.  So now what?  Now - we can install a package into our PHP project.  Suppose we have a fairly simple project - just a few files:
+
+```
+├── composer.json
+└── index.php
+```
+
+We want to be able to send emails out through Swiftmailer, so we'll add it that to our `composer.json` file.  `composer.json` tells Composer what packages to install, and then go finds the dependencies the package needs to run.  Just like this:
+
+```
+{
+    "require": {
+        "swiftmailer/swiftmailer": "6.2.*"
+    }
+}
+```
+
+Let's break down what's going on here:
+
+1. We list the bundle to be installed in the required section.
+1. The number after is the version.  As of this article, the current version of swiftmailer is 6.2.1.  By using the `*` symbol, we can use every version of 6.2 - as long as it doesn't go past the 6.2 era.
+
+### Installing Composer Bundles
+
+Now that our `composer.json` file is set, we can install our composer bundle.  If we go to the root of our project, we just use the following command:
+
+```bash
+composer install
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 7 installs, 0 updates, 0 removals
+  - Installing symfony/polyfill-php72 (v1.11.0): Downloading (100%)
+  - Installing symfony/polyfill-mbstring (v1.11.0): Downloading (100%)         - Installing symfony/polyfill-intl-idn (v1.11.0): Downloading (100%)         - Installing symfony/polyfill-iconv (v1.11.0): Downloading (100%)
+  - Installing doctrine/lexer (1.0.2): Downloading (100%)
+  - Installing egulias/email-validator (2.1.10): Downloading (100%)
+  - Installing swiftmailer/swiftmailer (v6.2.1): Downloading (100%)
+swiftmailer/swiftmailer suggests installing true/punycode (Needed to support internationalized email addresses, if ext-intl is not installed)
+Writing lock file
+Generating autoload files
+```
+
+Now when we look at our project, here's what we see:
+
+```bash
+├── composer.json
+├── composer.lock
+├── index.php
+└── vendor
+    ├── Icon\r
+    ├── autoload.php
+... (a whole bunch of stuff here)
+    └── symfony
+... (even more stuff here)
+
+110 directories, 592 files
+```
+
+We just went from 2 files to 110 directories and 592 files.  From one little command.  So what happened?  Composer happened.  It installed all of the things swiftmailer needs to work.  So now that it's all installed, let's use it.
+
+## Using Composer Packages
+
+Now that our Composer package has been installed, let's use it!  Let's head back to our project file and edit index.php.  We can load up all of the packages with one require command:
+
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
+
+This example is specifically for Swiftmailer, but most packages will follow the same process:
+
+1. Declare a variable of the class you're using.
+1. Feed it the parameters it needs.
+1. Use it.
+
+So in the case of Swiftmailer, we have:
+
+```php
+require_once `vendor/autoload.php`;
+
+// Start with a transport - set the SMTP parameters
+$mytransport = (new Swift_SmtpTransport('localhost', 25))
+  ->setUsername('username')
+  ->setPassword('password')
+;
+
+// swiftmailer uses the transport to send the message
+$mymailer = new Swift_Mailer($mytransport);
+
+// Create a message
+$message = (new Swift_Message('What a message!'))
+  ->setFrom(['myemail@test.com' => 'Javier Bananahammock'])
+  ->setTo(['daryl@test.org', 'otherbrotherdaryl@test.com' => 'My brothers Daryl'])
+  ->setBody('Hey guys - it\'s Larry! Let\'s do a BBQ!')
+  ;
+
+// Send the message
+$result = $mailer->send($message);
+
+///do some tests with the results to make sure it worked
+```
+
+Since we're using PHP Tools, we'll be able to get a peek at the Swift_Message class by mousing over it when we need to.  
+
+For more information, go check out the [Swiftmail](https://swiftmailer.symfony.com) page.  But - now you have an idea of how to use Composer to save you time and energy.  Don't spend your time rebuilding everything that you need. A good developer is a lazy one, because they know how to use existing systems and do it right the first time.

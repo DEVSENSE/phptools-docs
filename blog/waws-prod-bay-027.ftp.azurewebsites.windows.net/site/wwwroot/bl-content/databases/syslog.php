@@ -1,2 +1,83 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
-[{"date":"2019-08-02 09:55:21","dictionaryKey":"content-edited","notes":"How to set up a PHP web server environment - Step by step","idExecution":"5d4440c94fe76","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:55:11","dictionaryKey":"content-edited","notes":"How to set up a PHP web server environment - Step by step","idExecution":"5d4440bd9e792","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:55:10","dictionaryKey":"content-deleted","notes":"autosave-autosave-a35a1154651a0128d762c5a928871498","idExecution":"5d4440bd9e792","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:54:46","dictionaryKey":"new-content-created","notes":"How to set up a PHP web server environment - Step by step[Autosave]","idExecution":"5d4440a5778b5","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:52:41","dictionaryKey":"content-edited","notes":"How to set up a PHP web server environment - Step by step","idExecution":"5d444028718c1","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:52:41","dictionaryKey":"content-deleted","notes":"autosave-autosave-a35a1154651a0128d762c5a928871498","idExecution":"5d444028718c1","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:52:03","dictionaryKey":"new-content-created","notes":"How to set up a PHP web server environment - Step by step[Autosave]","idExecution":"5d44400262f2b","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:50:00","dictionaryKey":"content-edited","notes":"How to set up a PHP web server environment - Step by step","idExecution":"5d443f879f418","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:50:00","dictionaryKey":"content-deleted","notes":"autosave-autosave-a35a1154651a0128d762c5a928871498","idExecution":"5d443f879f418","method":"POST","username":"fernanda"},{"date":"2019-08-02 09:47:25","dictionaryKey":"new-content-created","notes":"How to set up a PHP web server environment - Step by step[Autosave]","idExecution":"5d443eec9ae9e","method":"POST","username":"fernanda"}]
+[
+    {
+        "date": "2019-08-07 07:41:01",
+        "dictionaryKey": "content-edited",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows",
+        "idExecution": "5d4ab8cd44b4c",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:40:06",
+        "dictionaryKey": "content-edited",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows",
+        "idExecution": "5d4ab895afec0",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:40:06",
+        "dictionaryKey": "content-deleted",
+        "notes": "autosave-7611dd62483c08ccc79ca702f454b525",
+        "idExecution": "5d4ab895afec0",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:38:37",
+        "dictionaryKey": "new-content-created",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows[Autosave]",
+        "idExecution": "5d4ab83c7a24d",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:36:35",
+        "dictionaryKey": "content-edited",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows",
+        "idExecution": "5d4ab7c1e6c8f",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:36:34",
+        "dictionaryKey": "content-deleted",
+        "notes": "autosave-7611dd62483c08ccc79ca702f454b525",
+        "idExecution": "5d4ab7c1e6c8f",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:34:40",
+        "dictionaryKey": "content-edited",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows[Autosave]",
+        "idExecution": "5d4ab75063153",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:32:41",
+        "dictionaryKey": "content-edited",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows[Autosave]",
+        "idExecution": "5d4ab6d8420c6",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:30:40",
+        "dictionaryKey": "new-content-created",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows[Autosave]",
+        "idExecution": "5d4ab6603bb82",
+        "method": "POST",
+        "username": "fernanda"
+    },
+    {
+        "date": "2019-08-07 07:28:38",
+        "dictionaryKey": "content-edited",
+        "notes": "How to install PHP Tools for Visual Studio Code on Windows",
+        "idExecution": "5d4ab5e5c53e7",
+        "method": "POST",
+        "username": "fernanda"
+    }
+]

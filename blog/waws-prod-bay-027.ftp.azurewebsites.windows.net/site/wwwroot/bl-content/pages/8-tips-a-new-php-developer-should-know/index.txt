@@ -27,7 +27,7 @@ Choosing the right IDE is not a simple task because a lot needs to be considered
 
 [Composer](https://getcomposer.org/doc/00-intro.md) is a tool for managing the libraries you need on your project. It will simplify the inclusion, installation and update of third-party code or projects for you. Everything will be already configured, so, you don’t have to include any files, just call them and PHP will take care of the rest.
 
-You can try this tutorial to [Install and Use Composer for PHP]()
+PHP Tools installs Composer for you, but, if you don´t have PHP Tools yet, another option is shown in this tutorial to [Install and Use Composer for PHP](https://blog.devsense.com/installing-and-user-composer-for-php)
 
 
 
@@ -48,7 +48,7 @@ The truth is that commenting your code is essential. Comments should describe th
 
 ![Image description](https://blog.devsense.com/bl-content/uploads/pages/dfae3b7d3c6fcc4b72e06d27923e16a4/format-document.gif)
 
-Nobody likes to read a code that doesn’t have structure, it’s intertwined and very difficult to follow, the dreadful “spaghetti code”. There’s also “lasagna code”- the one that has way too many layers, for example, a lot of small classes. Or we can find “ravioli code”, structured as small packages; or even “macaroni code”, with a mixture of different computer languages. All of these code structures (or lack of) are difficult to understand, difficult to edit, tedious, and sometimes impossible to debug and maintain (You can read more about programming pasta [here](https://www.docsity.com/en/news/programming-2/programming-pasta-spaghetti-lasagna-ravioli-macaroni-code/))
+Nobody likes to read a code that doesn’t have structure, it’s intertwined and very difficult to follow- the dreadful “spaghetti code”. There’s also “lasagna code”- the one that has way too many layers, for example, a lot of small classes. Or we can find “ravioli code”, structured as small packages; or even “macaroni code”, with a mixture of different computer languages. All of these code structures (or lack of) are difficult to understand, difficult to edit, tedious, and sometimes impossible to debug and maintain (You can read more about programming pasta [here](https://www.docsity.com/en/news/programming-2/programming-pasta-spaghetti-lasagna-ravioli-macaroni-code/))
 
 So, unless you’re aiming to produce a [new esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language#Examples) the ideal structure of you code should be one that is easy to read and understand by a human. Use whitespace and format your code, group lines into logical pieces, and in general, write cleaner code. Check [these tips](https://techindustan.com/ways-to-write-a-cleaner-code-become-a-better-programmer/).
 
