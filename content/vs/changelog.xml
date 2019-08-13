@@ -5,7 +5,7 @@
   	  <note>Class aliasing handled by type analysis and IntelliSense</note>
 	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
 	  <note>Improved type analysis of function arguments passed by reference</note>
-	  <note>Twig file templates statibility fixes</note>
+	  <note>Twig file templates stability fixes</note>
 	  <note>More statibility fixes</note>
 	  <note>Files in `vendor` folder are editable</note>	  
 	  <note>Default location for PublishProfiles changed to `.vs` subfolder</note>	  
