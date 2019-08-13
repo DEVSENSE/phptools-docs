@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11417" date="20190810" tags="preview">
+  <release version="1.32.11417" date="20190813" tags="preview">
 	  <note>Files in Solution Explorer can be expanded.</note>
   	  <note>Class aliasing handled by type analysis and IntelliSense</note>
 	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
@@ -9,6 +9,7 @@
 	  <note>More statibility fixes</note>
 	  <note>Files in `vendor` folder are editable</note>	  
 	  <note>Default location for PublishProfiles changed to `.vs` subfolder</note>	  
+	  <note>Installer updated to PHP 7.4 Beta 2</note>	  
   </release>
   <release version="1.32.11358" date="20190718" tags="stable">
 	  <note>performance improvements</note>
