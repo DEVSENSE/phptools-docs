@@ -1,7 +1,8 @@
 ## Requirements
 
 * PHP (PHP 7 is used for this example)
-* IDE such as Visual Studio or Visual Studio Code with PHP Tools
+* Visual Studio IDE (2019 is used in the examples below)
+* PHP Tools ([free 30-day trial](https://www.devsense.com/en/download))
 
 At the core of every programmer is someone who is lazy.  This isn't a bad thing - if you recall the Heinlein short story "The Tale of the Man Who Was Too Lazy to Fail", it involved a man who really didn't want to work.  So, he looks over how things are done to make them easier on himself rather than doing it the same laborious method as his counterparts.
 
@@ -27,79 +28,63 @@ We'll be using Swiftmailer as our example, but check out all of the packages ava
 
 ## Installing Composer
 
-> If you have PHP Tools installed, you don't need to install Composer, because [PHP Tools will do it for you](https://docs.devsense.com/en/vs/project/composer?fbclid=IwAR36GLWdcMwp5L1sKLsj4trdTv7NFu1-9JTnPeOICbMrMPbMfUA7M5ZUobI).
+Installing Composer into your project is made really easy when you're using Visual Studio with PHP Tools.  The instructions are at [https://docs.devsense.com/en/vs/project/composer](https://docs.devsense.com/en/vs/project/composer), but we'll show them in action.
 
-Installing Composer can be done from the command line.  For users of Linux or OS X who have already installed PHP, it can all be done from the command line:
+First, create a project in Visual Studio and make sure it's a PHP project:
 
-```bash
-curl -sS https://getcomposer.org/installer | php
-cp composer.phar /usr/local/bin/composer
-```
+1. Start Visual Studio.
+2. Select `File`, then `Project`.
+3. Specify the project as `PHP Web Project`.
+4. Give it a name and location.  For this sample, we're just going to go with an empty web site.
 
-Assuming that /usr/local/bin is part of the PATH, this lets `composer` to be run from the command line.
+Now we can install our Composer packages.  
 
-## Installing Composer Packages
+1. Right click on References, and select "Install New Composer Package".
+2. Type in the package to install.  We're going to use Swiftmailer, so our example has that.
+3. And Install!
 
-### The Composer.json file
+## Understanding Composer
 
-So we've installed Composer.  So now what?  Now - we can install a package into our PHP project.  Suppose we have a fairly simple project - just a few files:
+So we've installed Composer.  That's all well and good, but what is actually going on?
 
-```
-├── composer.json
-└── index.php
-```
+PHP Tools is kind enough to show in our References section the packages installed.  And if you look in the project - there's a file there called `composer.json`.  If we opened it up, we'll see how Composer knows what to install:
 
-We want to be able to send emails out through Swiftmailer, so we'll add it that to our `composer.json` file.  `composer.json` tells Composer what packages to install, and then go finds the dependencies the package needs to run.  Just like this:
-
-```
+```json
 {
     "require": {
-        "swiftmailer/swiftmailer": "6.2.*"
+        "swiftmailer/swiftmailer": "^6.2"
     }
 }
 ```
 
-Let's break down what's going on here:
+So - this is telling Composer "Hey, we need swiftmailer, and we want version 6.2".  Now, take a look at the References directory:
 
-1. We list the bundle to be installed in the required section.
-1. The number after is the version.  As of this article, the current version of swiftmailer is 6.2.1.  By using the `*` symbol, we can use every version of 6.2 - as long as it doesn't go past the 6.2 era.
+![Composer References](https://blog.devsense.com/bl-content/uploads/pages/d0fd274e84bcafb6810bdbc6cfaef380/composerReferences.png)
 
-### Installing Composer Bundles
+So if we only specified Swiftmailer, what's with all of these other directories?  Turns out, this is part of the power of Composer is when it installs a package, it automatically determines the different dependancies that the package needs to run.  Swiftmailer needs polyfill and email-validator and other pieces, so Composer grabs them for us.
 
-Now that our `composer.json` file is set, we can install our composer bundle.  If we go to the root of our project, we just use the following command:
+The version can also be tweaked.  If you select "swiftmailer/swiftmailer" from the References section, the Properties window will show all sorts of things - like the Version:
 
-```bash
-composer install
-Loading composer repositories with package information
-Updating dependencies (including require-dev)
-Package operations: 7 installs, 0 updates, 0 removals
-  - Installing symfony/polyfill-php72 (v1.11.0): Downloading (100%)
-  - Installing symfony/polyfill-mbstring (v1.11.0): Downloading (100%)         - Installing symfony/polyfill-intl-idn (v1.11.0): Downloading (100%)         - Installing symfony/polyfill-iconv (v1.11.0): Downloading (100%)
-  - Installing doctrine/lexer (1.0.2): Downloading (100%)
-  - Installing egulias/email-validator (2.1.10): Downloading (100%)
-  - Installing swiftmailer/swiftmailer (v6.2.1): Downloading (100%)
-swiftmailer/swiftmailer suggests installing true/punycode (Needed to support internationalized email addresses, if ext-intl is not installed)
-Writing lock file
-Generating autoload files
+![Swiftmailer Version](https://blog.devsense.com/bl-content/uploads/pages/d0fd274e84bcafb6810bdbc6cfaef380/swiftmailerVersion.png)
+
+There's a chance you work in an organization that specifies what versions of packages and dependencies to use.  Perhaps it's to enforce security standards so only approved versions are allowed.  If we examine the [Swiftmailer package archive](https://docs.devsense.com/en/vs/project/composer), we can see the previous versions.  Here, the `^6.2` means "install everything from version 6.2 and up."
+
+So let's change it - maybe our organization only allows version `6.1.3`.  Update the composer.json package to have that specific version like so:
+
+```json
+{
+    "require": {
+        "swiftmailer/swiftmailer": "6.1.3"
+    }
+}
 ```
 
-Now when we look at our project, here's what we see:
+Then right click on References and select `Update Composer Packages`:
 
-```bash
-├── composer.json
-├── composer.lock
-├── index.php
-└── vendor
-    ├── Icon\r
-    ├── autoload.php
-... (a whole bunch of stuff here)
-    └── symfony
-... (even more stuff here)
+And there we are!  Downgraded, and you'll notice the dependencies have been updated as well.  PHP Tools keeps it all under control.  If you want to go back to the latest version, just update the `composer.json` file and update again.
 
-110 directories, 592 files
-```
+There are additional ways of managing your Composer packages through PHP Tools and Visual Studio, so be sure to check the [the PHP Tools documentation page](https://docs.devsense.com/en/vs/project/composer) for all of the details.
 
-We just went from 2 files to 110 directories and 592 files.  From one little command.  So what happened?  Composer happened.  It installed all of the things swiftmailer needs to work.  So now that it's all installed, let's use it.
 
 ## Using Composer Packages
 
@@ -112,8 +97,8 @@ require __DIR__ . '/vendor/autoload.php';
 This example is specifically for Swiftmailer, but most packages will follow the same process:
 
 1. Declare a variable of the class you're using.
-1. Feed it the parameters it needs.
-1. Use it.
+2. Feed it the parameters it needs.
+3. Use it.
 
 So in the case of Swiftmailer, we have:
 
@@ -145,3 +130,6 @@ $result = $mailer->send($message);
 Since we're using PHP Tools, we'll be able to get a peek at the Swift_Message class by mousing over it when we need to.  
 
 For more information, go check out the [Swiftmail](https://swiftmailer.symfony.com) page.  But - now you have an idea of how to use Composer to save you time and energy.  Don't spend your time rebuilding everything that you need. A good developer is a lazy one, because they know how to use existing systems and do it right the first time.
+
+
+
