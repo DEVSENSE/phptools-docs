@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11422" date="20190813" tags="preview">
+  <release version="1.32.11427" date="20190814" tags="preview">
 	  <note>Files in Solution Explorer can be expanded.</note>
   	  <note>Class aliasing handled by type analysis and IntelliSense</note>
 	  <note>Updated IntelliSense glyphs (icons) for traits and aliased class name</note>
 	  <note>Improved type analysis of function arguments passed by reference</note>
 	  <note>Twig file templates stability fixes</note>
 	  <note>More statibility fixes</note>
+	  <note>Completion after "use" gets full type names and namespaces.</note>
+	  <note>Outlining does not get lost when typing.</note>
 	  <note>Files in `vendor` folder are editable</note>	  
 	  <note>Default location for PublishProfiles changed to `.vs` subfolder</note>	  
 	  <note>Installer updated to PHP 7.4 Beta 2</note>	  
