@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11473" date="20190902" tags="preview">
+  <release version="1.32.11473" date="20190903" tags="preview">
 	  <note>Expanding files in solution explorer - added support for user-mapped PHP file types.</note>
 	  <note>Installer updated to PHP 7.4 Beta 4, Xdebug updates.</note>
 	  <note>Stability fixes.</note>
