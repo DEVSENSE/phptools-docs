@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11473" date="20190903" tags="preview">
+  <release version="1.32.11482" date="20190907" tags="stable">
 	  <note>Expanding files in solution explorer - added support for user-mapped PHP file types.</note>
 	  <note>Installer updated to PHP 7.4 Beta 4, Xdebug updates.</note>
 	  <note>Stability fixes.</note>
 	  <note>Twig Editor fixes.</note>
+	  <note>FTP publish does not stop on response 550.</note>
+	  <note>Performance improvements.</note>
   </release>
   <release version="1.32.11427" date="20190814" tags="stable">
 	  <note>Files in Solution Explorer can be expanded.</note>
