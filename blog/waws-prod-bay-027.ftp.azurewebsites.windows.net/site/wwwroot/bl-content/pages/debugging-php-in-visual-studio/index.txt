@@ -1,6 +1,6 @@
 ## Overview
 
-Finding the one mistake in your code can be the most frustrating thing in the world. And PHP Tools is great at finding syntax errors, like when there's an extra comma or a variable is referencing an incorrect type.
+Finding the one mistake in your code can be the most frustrating thing in the world. And PHP Tools is great at finding syntax errors, like when there's an extra comma or a variable is referencing an incorrect type ([Download a free, fully-functional version for 30 days](https://www.devsense.com/en/download)).
 
 Then, there are the times when the syntax is perfect, PHP Tools isn't returning any errors, but things just aren't working the way you think they should. 
 
@@ -105,9 +105,12 @@ And your forehead too.
 
 ## Related articles
 
+[Debugging PHP in VS Code](https://blog.devsense.com/debugging-in-visual-studio-code)
+
 [Using PHPDoc with PHP-and actually making it work](https://blog.devsense.com/using-phpdoc-with-php7-and-make-it-work)
 
 [6 core factors to consider when choosing your PHP developing tool](https://blog.devsense.com/2019/factors-to-consider-when-choosing-your-php-development-tool)
+
 
 
 

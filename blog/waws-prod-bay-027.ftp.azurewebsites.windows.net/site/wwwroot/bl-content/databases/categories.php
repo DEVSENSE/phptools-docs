@@ -58,6 +58,7 @@
         "template": "",
         "description": "",
         "list": [
+            "debugging-in-visual-studio-code",
             "debugging-php-in-visual-studio",
             "installing-and-user-composer-for-php",
             "debugging-php-on-docker-with-visual-studio-code",

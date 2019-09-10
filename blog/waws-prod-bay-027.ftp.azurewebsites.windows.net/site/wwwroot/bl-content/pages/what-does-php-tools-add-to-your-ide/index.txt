@@ -131,6 +131,7 @@ This also carried into other areas.  In our example above, we added commentary t
 
 ![Mouse Over Defined Function](https://blog.devsense.com/bl-content/uploads/pages/a8be75c7e2d1a1a824dc1673878de544/PHPDocumentorDisplay.png)
 
+
 ## Task List
 
 Ever been working away within a project, and think “I need to remember to do that later.”  Then when later comes - you totally forgot.
@@ -163,6 +164,12 @@ This only scratches the surface of how PHP Tools can enhance your PHP developmen
 [6 core factors to consider when choosing a PHP developing tool](https://blog.devsense.com/2019/03/factors-to-consider-when-choosing-your-php-development-tool)
 
 [How to install PHP Tools for VS Code on Windows](https://blog.devsense.com/2019/03/how-to-install-phptools-for-vscode-on-windows)
+
+
+
+
+
+
 
 
 
