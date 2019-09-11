@@ -389,9 +389,9 @@
         "tags": [],
         "type": "published",
         "date": "2019-05-17 08:44:34",
-        "dateModified": "2019-08-02 03:16:00",
+        "dateModified": "2019-09-10 08:13:44",
         "position": 4,
-        "coverImage": "infographic.jpg",
+        "coverImage": "infographic2.jpg",
         "category": "",
         "md5file": "1c5feee078edf94ef80e95b3c7159695",
         "uuid": "0761379bb0f6dff2af3a5a5c15cb04b1",
@@ -506,7 +506,7 @@
         "noarchive": false,
         "custom": []
     },
-    "2019\/03\/how-to-install-xdebug-for-phptools-for-vscode-on-mac": {
+    "2019\/how-to-install-xdebug-for-phptools-for-vscode-on-mac": {
         "title": "How to install Xdebug for PHP Tools for Visual Studio Code on Mac OS",
         "description": "How to install Xdebug for PHP Tools for Visual Studio Code on Mac OS",
         "username": "admin",
@@ -515,11 +515,11 @@
         },
         "type": "published",
         "date": "2019-03-10 00:00:00",
-        "dateModified": "2019-04-05 03:56:21",
+        "dateModified": "2019-09-10 08:43:32",
         "position": 1,
         "coverImage": "xdebug2.jpg",
         "category": "tutorial",
-        "md5file": "5d4c79dea12c3cec59739ca84c7824d8",
+        "md5file": "5a6a9d9f247e7aa7bfa5ff04d1d8c652",
         "uuid": "55e673126cef7db22fa8aa7ffd0b3d1d",
         "allowComments": true,
         "template": "",
@@ -616,7 +616,7 @@
         "noarchive": false,
         "custom": []
     },
-    "2019\/01\/php-interview-questions-2019": {
+    "2019\/php-interview-questions-2019": {
         "title": "Top PHP Interview Questions in 2019",
         "description": "Top PHP Interview Questions in 2019",
         "username": "admin",
@@ -625,7 +625,7 @@
         },
         "type": "published",
         "date": "2019-01-31 00:00:00",
-        "dateModified": "2019-04-05 04:13:48",
+        "dateModified": "2019-09-10 08:19:57",
         "position": 1,
         "coverImage": "interview2.jpg",
         "category": "general",
@@ -638,7 +638,7 @@
         "noarchive": false,
         "custom": []
     },
-    "2019\/01\/why-php": {
+    "2019\/why-php": {
         "title": "12 Reasons You Should Learn PHP in 2019",
         "description": "12 Reasons You Should Learn PHP in 2019",
         "username": "admin",
@@ -647,7 +647,7 @@
         },
         "type": "published",
         "date": "2019-01-24 00:00:00",
-        "dateModified": "2019-06-28 08:28:34",
+        "dateModified": "2019-09-10 08:23:54",
         "position": 1,
         "coverImage": "12reasons2.jpg",
         "category": "general",
