@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "phar-archives-in-visual-studio-code": {
+        "title": "Phar archives in VS Code",
+        "description": "This new feature of PHP tools allows you to look at the source code in Phar archives",
+        "username": "fernanda",
+        "tags": [],
+        "type": "published",
+        "date": "2019-09-11 04:04:08",
+        "dateModified": "2019-09-11 04:08:09",
+        "position": 0,
+        "coverImage": "phararchivesinvscode.jpg",
+        "category": "annoucement",
+        "md5file": "2c46e483c505d69a1c1f0279c52c5158",
+        "uuid": "autosave-e91a4c26b316215118513749dbe205dd",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "debugging-in-visual-studio-code": {
         "title": "Debugging PHP in Visual Studio Code",
         "description": "How to debug your PHP code in VS Code",

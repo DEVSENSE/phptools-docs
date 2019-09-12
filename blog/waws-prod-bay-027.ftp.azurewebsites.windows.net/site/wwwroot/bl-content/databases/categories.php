@@ -5,6 +5,7 @@
         "template": "",
         "description": "",
         "list": [
+            "phar-archives-in-visual-studio-code",
             "new-features-available"
         ]
     },
