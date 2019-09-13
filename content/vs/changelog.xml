@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11508" date="20190913" tags="preview">
+  <release version="1.32.11511" date="20190913" tags="preview">
 	  <note>PHP Editor fixes on Visual Studio 2019</note>
 	  <note>Editing JS fixes on Visual Studio 2017 and earlier</note>
 	  <note>New project from existing code does not forces PHP 7.1</note>
