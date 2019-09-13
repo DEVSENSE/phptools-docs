@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.32.111508" date="20190913" tags="preview">
+	  <note>PHP Editor fixes on Visual Studio 2019</note>
+	  <note>Editing JS fixes on Visual Studio 2017 and earlier</note>
+	  <note>New project from existing code does not forces PHP 7.1</note>
+	  <note>Circular dependency in traits crash fix</note>
+	  <note>Overall performance improvements</note>
+	  <note>Overall rare crashes fixes</note>
+	  <note>Diagnostic when instantiating a trait.</note>
+	  <note>New internal composer integration (VS 2019)</note>
+	  <note>Missing composer packages shows infobar instead of dialog (VS 2019)</note>
+  </release>
   <release version="1.32.11482" date="20190907" tags="stable">
 	  <note>Expanding files in solution explorer - added support for user-mapped PHP file types.</note>
 	  <note>Installer updated to PHP 7.4 Beta 4, Xdebug updates.</note>
