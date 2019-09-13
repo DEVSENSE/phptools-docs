@@ -5,6 +5,7 @@
         "template": "",
         "description": "",
         "list": [
+            "php74-support-for-vs-and-vs-code",
             "phar-archives-in-visual-studio-code",
             "new-features-available"
         ]

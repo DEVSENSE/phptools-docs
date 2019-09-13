@@ -6,9 +6,9 @@ PHP Tools includes support for the new PHP 7.4, including:
 * Editor support for all PHP 7.4 syntax such as:
   * Arrow Functions
   * PHP 7.4 Array support updates:
-    * Spread arrays
-    * Array returns
-    * PHPDoc updates including array commenting
+			- Spread arrays
+			- Array returns
+			- PHPDoc updates including array commenting
 * Intellisense updates that include Serialization support
 * Notifying users on depreciated functions
 
@@ -21,7 +21,9 @@ PHP Tools supports installing PHP 7.4 right from within Visual Studio.  From wit
 3. Save the settings.
 4. Select `Debug -> Run` or select `F5` and PHP Tools detects if PHP 7.4 and Xdebug for PHP 7.4 is installed.  If not, it prompts the user to install it.
 
-![Install PHP 7.4 with PHP Tools](images/installPhp74.gif)
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/h9MXcHUjgPc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 
 ## Intellisense Updates
 
@@ -46,14 +48,15 @@ echo "<p>Number to be squared: $squarethis.</p>";
 echo "<p>Squared number: ." $squared($squarethis).".</p>";
 ```
 
-![Typed functions and variables](images/arrowFunctionSimpleVisualStudio.gif)
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/ng7yE0Zbpcw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 
 ### Typed Properties
 
-PHP, like other scripted languages, has supported the ability to have variables who's data type (integer, string, etc) was derived based on the context.  So setting a variable from `$i = 5;` and then `$i = "5Bob";` are equally valid.
+PHP, like other scripted languages, has supported the ability to have variables which its data type (integer, string, etc) was derived based on the context.  So setting a variable from `$i = 5;` and then `$i = "5Bob";` are equally valid.
 
-PHP 7.4 allows more control with scalar types and return values, allowing user to specify exactly what kind of data they are receiving and sending back.  PHP Tools is able to parse this syntax, and even return errors when detected.  For example:
+PHP 7.4 allows more control with scalar types and return values, allowing the user to specify exactly what kind of data they are receiving and sending back.  PHP Tools is able to parse this syntax, and even return errors when detected.  For example:
 
 ```php
 $squarethis = 9;
@@ -68,13 +71,16 @@ function SquareValue(int $newNumber) : int
 echo "<p>Using SquareValue function: " . SquareValue($squarebad) . ".</p>";
 ```
 
-![Typed functions and variables](images/typeFunctionVisualStudio.gif)
+
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/YNXvwecPN_U?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 
 ### Arrays
 
 #### Array Functions and Array Commenting
 
-PHP Tools ability to resolved typed properties for variables and functions extends to arrays as well, and will issue warnings when arrays are expected and a different typed value is submitted:
+PHP Tools ability to resolve typed properties for variables and functions extends to arrays as well, and will issue warnings when arrays are expected and a different typed value is submitted:
 
 ```php
 /**
@@ -109,7 +115,7 @@ function PrintArrayofValues(array $list)
 PrintArrayofValues(ReturnArrayofValues(10));
 ```
 
-![Array Typed Functions](images/ArrayFunctionsVStudio)
+![Array Typed Functions](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/ArrayFunctionsVStudio.gif)
 
 #### Spread Arrays
 
@@ -145,15 +151,24 @@ With PHP 7.4, the new standard for serialization is based on two new magic funct
 
 With PHP Tools, developers are provided with helpful information processing these new magic functions.  For example:
 
-![Serialize function](images/serialize.gif)
 
-![Unserialize function](images/unserialize.gif)
+![Serialize function](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/serialize.gif)
+
+
+
+![Unserialize function](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/unserialize.gif)
+
+
 
 ### Depreciated Function Reporting
 
 PHP 7.4 has [depreciated a number of functions](https://wiki.php.net/rfc/deprecations_php_7_4).  Rather than guess what functions have been depreciated, PHP Tools lets you know which are still valid, and which need to go from your code:.  Items that have been tagged with `@depreciated` will have an error display in the IDE, and will show that status on on a mouse-over:
 
-![Depreciated Code](images/depreciated_VisualStudio.gif)
+![Depreciated Code](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/depreciated_VisualStudio.gif)
+
+
+
+---
 
 
 # PHP Tools for VS Code
@@ -164,9 +179,9 @@ PHP Tools includes support for the new PHP 7.4, including:
 * Editor support for all PHP 7.4 syntax such as:
   * Arrow Functions
   * PHP 7.4 Array support updates:
-    * Spread arrays
-    * Array returns
-    * PHPDoc updates including array commenting
+    - Spread arrays
+    - Array returns
+    - PHPDoc updates including array commenting
 * Intellisense updates that include Serialization support
 * Notifying users on depreciated functions
 
@@ -193,11 +208,13 @@ echo "<p>Number to be squared: $squarethis.</p>";
 echo "<p>Squared number: ." $squared($squarethis).".</p>";
 ```
 
-![Anonymous Functions](images/anonymousFunctionSimple.gif)
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/z5DbLZz_RqM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 
 ### Typed Properties
 
-PHP, like other scripted languages, has supported the ability to have variables who's data type (integer, string, etc) was derived based on the context.  So setting a variable from `$i = 5;` and then `$i = "5Bob";` are equally valid.
+PHP, like other scripted languages, has supported the ability to have variables which its data type (integer, string, etc) was derived based on the context.  So setting a variable from `$i = 5;` and then `$i = "5Bob";` are equally valid.
 
 PHP 7.4 allows more control with scalar types and return values, allowing user to specify exactly what kind of data they are receiving and sending back.  PHP Tools is able to parse this syntax, and even return errors when detected.  For example:
 
@@ -214,7 +231,8 @@ function SquareValue(int $newNumber) : int
 echo "<p>Using SquareValue function: " . SquareValue($squarebad) . ".</p>";
 ```
 
-![Typed functions and variables](images/typedFunctionDemo.gif)
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/I_DTYKoIiik?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 
 
@@ -257,7 +275,11 @@ function PrintArrayofValues(array $list)
 PrintArrayofValues(ReturnArrayofValues(10));
 ```
 
-![Array Typed Functions](images/ArrayFunctionsVCode.gif)
+
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/ZbkfsnVoQig?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
 
 #### Spread Arrays
 
@@ -293,13 +315,17 @@ With PHP 7.4, the new standard for serialization is based on two new magic funct
 
 With PHP Tools, developers are provided with helpful information processing these new magic functions.  For example:
 
-![Serialize function](images/serialize.gif)
 
-![Unserialize function](images/unserialize.gif)
+
+![Serialize function](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/serialize.gif)
+
+
+
+![Unserialize function](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/unserialize.gif)
+
 
 ### Depreciated Function Reporting
 
 PHP 7.4 has [depreciated a number of functions](https://wiki.php.net/rfc/deprecations_php_7_4).  Rather than guess what functions have been depreciated, PHP Tools lets you know which are still valid, and which need to go from your code:.  Items that have been tagged with `@depreciated` will have an error display in the IDE, and will show that status on on a mouse-over:
 
-![Depreciated Code](images/depreciated_VCode.gif)
-
+![Depreciated Code](https://blog.devsense.com/bl-content/uploads/pages/autosave-18ea25b2ab07b99f79ac2a63d9044683/depreciated_VCode.gif)
