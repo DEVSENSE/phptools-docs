@@ -5,7 +5,8 @@
         "template": "",
         "description": "",
         "list": [
-            "php74-support-for-vs-and-vs-code",
+            "php-7.4-support-for-vs-code",
+            "php74-support-for-vs",
             "phar-archives-in-visual-studio-code",
             "new-features-available"
         ]
@@ -69,6 +70,7 @@
             "creating-a-php-api-for-logging-messages-calls",
             "php-and-nginx-on-docker",
             "php-for-beginners-part-1-variables-functions-classes",
+            "how-to-set-up-php-web-server",
             "tracepoint-logpoint",
             "introduction-to-php-on-docker-with-visual-studio-code",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
