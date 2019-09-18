@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "autosave-9438c288b4f2462ee95fc6412379ebf7": {
+        "title": "PHP 7.4 support for VS Code",
+        "description": "",
+        "username": "jakub",
+        "tags": [],
+        "type": "autosave",
+        "date": "2019-09-17 09:52:12",
+        "dateModified": "2019-09-17 09:52:41",
+        "position": 0,
+        "coverImage": "",
+        "category": "",
+        "md5file": "a464ab3a0fac13e5066e4ff453de806d",
+        "uuid": "autosave-9438c288b4f2462ee95fc6412379ebf7",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "php-7.4-support-for-vs-code": {
         "title": "PHP 7.4 support for VS Code",
         "description": "Support for PHP 7.4 and more",
@@ -365,7 +385,7 @@
         "tags": [],
         "type": "published",
         "date": "2019-06-06 09:39:48",
-        "dateModified": "2019-06-10 09:30:02",
+        "dateModified": "2019-09-17 07:12:17",
         "position": 7,
         "coverImage": "phpwebservermethods.jpg",
         "category": "",
