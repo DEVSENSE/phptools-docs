@@ -1,33 +1,13 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
-    "autosave-9438c288b4f2462ee95fc6412379ebf7": {
-        "title": "PHP 7.4 support for VS Code",
-        "description": "",
-        "username": "jakub",
-        "tags": [],
-        "type": "autosave",
-        "date": "2019-09-17 09:52:12",
-        "dateModified": "2019-09-17 09:52:41",
-        "position": 0,
-        "coverImage": "",
-        "category": "",
-        "md5file": "a464ab3a0fac13e5066e4ff453de806d",
-        "uuid": "autosave-9438c288b4f2462ee95fc6412379ebf7",
-        "allowComments": true,
-        "template": "",
-        "noindex": false,
-        "nofollow": false,
-        "noarchive": false,
-        "custom": []
-    },
-    "php-7.4-support-for-vs-code": {
+    "2019\/php-7.4-support-for-vs-code": {
         "title": "PHP 7.4 support for VS Code",
         "description": "Support for PHP 7.4 and more",
         "username": "JohnHummel",
         "tags": [],
         "type": "published",
         "date": "2019-09-16 02:52:02",
-        "dateModified": "2019-09-16 04:46:08",
+        "dateModified": "2019-09-20 08:32:02",
         "position": 21,
         "coverImage": "PHP_Tools_for_VS.jpg",
         "category": "annoucement",
@@ -60,18 +40,18 @@
         "noarchive": false,
         "custom": []
     },
-    "phar-archives-in-visual-studio-code": {
+    "2019\/phar-archives-in-visual-studio-code": {
         "title": "Phar archives in VS Code",
         "description": "This new feature of PHP tools allows you to look at the source code in Phar archives",
         "username": "fernanda",
         "tags": [],
         "type": "published",
         "date": "2019-09-11 04:04:08",
-        "dateModified": "2019-09-11 04:08:09",
+        "dateModified": "2019-09-20 08:33:39",
         "position": 0,
         "coverImage": "phararchivesinvscode.jpg",
         "category": "annoucement",
-        "md5file": "2c46e483c505d69a1c1f0279c52c5158",
+        "md5file": "aab77a18683c692afa40bdb9dad475b9",
         "uuid": "autosave-e91a4c26b316215118513749dbe205dd",
         "allowComments": true,
         "template": "",
@@ -80,14 +60,14 @@
         "noarchive": false,
         "custom": []
     },
-    "debugging-in-visual-studio-code": {
+    "2019\/debugging-in-visual-studio-code": {
         "title": "Debugging PHP in Visual Studio Code",
         "description": "How to debug your PHP code in VS Code",
         "username": "JohnHummel",
         "tags": [],
         "type": "published",
         "date": "2019-09-09 06:04:57",
-        "dateModified": "2019-09-09 08:47:35",
+        "dateModified": "2019-09-20 08:34:59",
         "position": 20,
         "coverImage": "DebugginginVSCodecoverimage.jpg",
         "category": "tutorial",
@@ -100,14 +80,14 @@
         "noarchive": false,
         "custom": []
     },
-    "debugging-php-in-visual-studio": {
+    "2019\/debugging-php-in-visual-studio": {
         "title": "Debugging PHP in Visual Studio",
         "description": "Get started with some basic debugging",
         "username": "JohnHummel",
         "tags": [],
         "type": "published",
         "date": "2019-08-27 03:41:37",
-        "dateModified": "2019-09-09 06:28:48",
+        "dateModified": "2019-09-20 08:36:09",
         "position": 19,
         "coverImage": "DebuggingPHPinVS.jpg",
         "category": "tutorial",
@@ -120,14 +100,14 @@
         "noarchive": false,
         "custom": []
     },
-    "installing-and-user-composer-for-php": {
+    "2019\/installing-and-user-composer-for-php": {
         "title": "Installing and using Composer for PHP",
         "description": "Download and install all the dependencies you need",
         "username": "JohnHummel",
         "tags": [],
         "type": "published",
         "date": "2019-08-05 09:25:32",
-        "dateModified": "2019-08-13 06:53:15",
+        "dateModified": "2019-09-20 08:25:28",
         "position": 18,
         "coverImage": "phpandcomposer.jpg",
         "category": "tutorial",
@@ -140,14 +120,14 @@
         "noarchive": false,
         "custom": []
     },
-    "july-summary": {
+    "2019\/july-summary": {
         "title": "July Summary",
         "description": "Check the most important articles for June on our blog.",
         "username": "fernanda",
         "tags": [],
         "type": "published",
         "date": "2019-08-01 07:00:20",
-        "dateModified": "2019-08-02 09:31:35",
+        "dateModified": "2019-09-20 08:28:23",
         "position": 16,
         "coverImage": "1561381723_tmp_blog_summary.jpg",
         "category": "general",
@@ -160,7 +140,7 @@
         "noarchive": false,
         "custom": []
     },
-    "debugging-php-on-docker-with-visual-studio-code": {
+    "2019\/debugging-php-on-docker-with-visual-studio-code": {
         "title": "Debugging PHP on Docker with VS Code",
         "description": "Learn how to debug PHP running on Docker with Visual Studio Code.",
         "username": "maros",
@@ -173,7 +153,7 @@
         },
         "type": "published",
         "date": "2019-07-29 07:29:32",
-        "dateModified": "2019-08-02 09:27:55",
+        "dateModified": "2019-09-20 09:30:49",
         "position": 15,
         "coverImage": "docker3.png",
         "category": "tutorial",
@@ -385,11 +365,11 @@
         "tags": [],
         "type": "published",
         "date": "2019-06-06 09:39:48",
-        "dateModified": "2019-09-17 07:12:17",
+        "dateModified": "2019-09-18 03:51:55",
         "position": 7,
         "coverImage": "phpwebservermethods.jpg",
         "category": "",
-        "md5file": "0de0d4442230966b28ab38d5ad0a4990",
+        "md5file": "7ee59b4f20db7ecb7ab5f8fe08587e1d",
         "uuid": "80deb05b08a8c7ae41dfbce2e97d9972",
         "allowComments": true,
         "template": "",
@@ -1429,7 +1409,7 @@
         },
         "type": "published",
         "date": "2013-11-05 00:00:00",
-        "dateModified": "2019-08-01 08:59:29",
+        "dateModified": "2019-09-20 08:29:15",
         "position": 1,
         "coverImage": "press_release2.jpg",
         "category": "general",

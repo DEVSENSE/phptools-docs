@@ -5,9 +5,9 @@
         "template": "",
         "description": "",
         "list": [
-            "php-7.4-support-for-vs-code",
+            "2019\/php-7.4-support-for-vs-code",
             "php74-support-for-vs",
-            "phar-archives-in-visual-studio-code",
+            "2019\/phar-archives-in-visual-studio-code",
             "new-features-available"
         ]
     },
@@ -16,7 +16,7 @@
         "description": "",
         "template": "",
         "list": [
-            "july-summary",
+            "2019\/july-summary",
             "8-tips-a-new-php-developer-should-know",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
             "2019\/how-to-install-laravel-for-visual-studio-code",
@@ -61,10 +61,10 @@
         "template": "",
         "description": "",
         "list": [
-            "debugging-in-visual-studio-code",
-            "debugging-php-in-visual-studio",
-            "installing-and-user-composer-for-php",
-            "debugging-php-on-docker-with-visual-studio-code",
+            "2019\/debugging-in-visual-studio-code",
+            "2019\/debugging-php-in-visual-studio",
+            "2019\/installing-and-user-composer-for-php",
+            "2019\/debugging-php-on-docker-with-visual-studio-code",
             "using-phpdoc-with-php7-and-make-it-work",
             "php-basics-forms-get-and-post",
             "creating-a-php-api-for-logging-messages-calls",

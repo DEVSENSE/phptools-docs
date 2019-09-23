@@ -57,13 +57,13 @@
     "debugging": {
         "name": "debugging",
         "list": [
-            "debugging-php-on-docker-with-visual-studio-code"
+            "2019\/debugging-php-on-docker-with-visual-studio-code"
         ]
     },
     "docker": {
         "name": "docker",
         "list": [
-            "debugging-php-on-docker-with-visual-studio-code",
+            "2019\/debugging-php-on-docker-with-visual-studio-code",
             "php-and-nginx-on-docker",
             "introduction-to-php-on-docker-with-visual-studio-code"
         ]
@@ -175,7 +175,7 @@
     "php": {
         "name": "php",
         "list": [
-            "debugging-php-on-docker-with-visual-studio-code",
+            "2019\/debugging-php-on-docker-with-visual-studio-code",
             "php-and-nginx-on-docker",
             "tracepoint-logpoint",
             "introduction-to-php-on-docker-with-visual-studio-code",
@@ -371,7 +371,7 @@
     "vscode": {
         "name": "vscode",
         "list": [
-            "debugging-php-on-docker-with-visual-studio-code",
+            "2019\/debugging-php-on-docker-with-visual-studio-code",
             "php-and-nginx-on-docker",
             "introduction-to-php-on-docker-with-visual-studio-code"
         ]
@@ -385,7 +385,7 @@
     "xdebug": {
         "name": "xdebug",
         "list": [
-            "debugging-php-on-docker-with-visual-studio-code",
+            "2019\/debugging-php-on-docker-with-visual-studio-code",
             "2018\/04\/wsl",
             "2015\/10\/debugging-multiple-projects"
         ]
