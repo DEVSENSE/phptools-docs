@@ -5,6 +5,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2019\/php-tools-updates-october-2019",
             "2019\/php-7.4-support-for-vs-code",
             "php74-support-for-vs",
             "2019\/phar-archives-in-visual-studio-code",

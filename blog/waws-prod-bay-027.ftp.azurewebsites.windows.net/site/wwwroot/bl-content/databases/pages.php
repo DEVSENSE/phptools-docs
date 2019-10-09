@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2019\/php-tools-updates-october-2019": {
+        "title": "PHP Tools updates (October 2019)",
+        "description": "This recent release brings new enhancements and features for developing in PHP in Visual Studio or Visual Studio Code",
+        "username": "fernanda",
+        "tags": [],
+        "type": "published",
+        "date": "2019-10-08 08:41:35",
+        "dateModified": "2019-10-08 08:42:00",
+        "position": 22,
+        "coverImage": "PHP_Tools_for_VS.jpg",
+        "category": "annoucement",
+        "md5file": "75cf37605b65baa400ca8b531453c539",
+        "uuid": "c9581545dd59e1c376594c19f186862b",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2019\/php-7.4-support-for-vs-code": {
         "title": "PHP 7.4 support for VS Code",
         "description": "Support for PHP 7.4 and more",
