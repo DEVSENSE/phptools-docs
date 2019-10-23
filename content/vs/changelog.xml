@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11604" date="20191018" tags="stable">
-	  <note>Updated PHP manual (VS2019)</note>
-	  <note>Improved publish-on-save (VS2019)</note>
+  <release version="1.32.11608" date="20191023" tags="stable">
+	  <note>Updated PHP manual</note>
+	  <note>Improved publish-on-save</note>
   </release>
   <release version="1.32.11595" date="20191014" tags="preview">
 	  <note>Publish can run automatically on changed files.</note>
