@@ -40,7 +40,7 @@
     "debug": {
         "name": "debug",
         "list": [
-            "tracepoint-logpoint",
+            "2019\/php-tracepoint-logpoint",
             "2017\/08\/phptools-1.24",
             "2017\/07\/advanced-debug",
             "2015\/10\/debugging-multiple-projects"
@@ -54,24 +54,10 @@
             "2016\/10\/phptools-1.20"
         ]
     },
-    "debugging": {
-        "name": "debugging",
-        "list": [
-            "2019\/debugging-php-on-docker-with-visual-studio-code"
-        ]
-    },
     "docker": {
         "name": "docker",
         "list": [
-            "2019\/debugging-php-on-docker-with-visual-studio-code",
-            "php-and-nginx-on-docker",
             "introduction-to-php-on-docker-with-visual-studio-code"
-        ]
-    },
-    "docker-compose": {
-        "name": "docker compose",
-        "list": [
-            "php-and-nginx-on-docker"
         ]
     },
     "dreamspark": {
@@ -102,13 +88,13 @@
     "logging": {
         "name": "logging",
         "list": [
-            "tracepoint-logpoint"
+            "2019\/php-tracepoint-logpoint"
         ]
     },
     "logpoint": {
         "name": "logpoint",
         "list": [
-            "tracepoint-logpoint"
+            "2019\/php-tracepoint-logpoint"
         ]
     },
     "news": {
@@ -142,12 +128,6 @@
             "2014\/07\/newsletter-phptools-1-13"
         ]
     },
-    "nginx": {
-        "name": "nginx",
-        "list": [
-            "php-and-nginx-on-docker"
-        ]
-    },
     "nuget": {
         "name": "nuget",
         "list": [
@@ -175,9 +155,7 @@
     "php": {
         "name": "php",
         "list": [
-            "2019\/debugging-php-on-docker-with-visual-studio-code",
-            "php-and-nginx-on-docker",
-            "tracepoint-logpoint",
+            "2019\/php-tracepoint-logpoint",
             "introduction-to-php-on-docker-with-visual-studio-code",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
@@ -302,7 +280,7 @@
     "tracepoint": {
         "name": "tracepoint",
         "list": [
-            "tracepoint-logpoint"
+            "2019\/php-tracepoint-logpoint"
         ]
     },
     "twig": {
@@ -371,8 +349,6 @@
     "vscode": {
         "name": "vscode",
         "list": [
-            "2019\/debugging-php-on-docker-with-visual-studio-code",
-            "php-and-nginx-on-docker",
             "introduction-to-php-on-docker-with-visual-studio-code"
         ]
     },
@@ -383,9 +359,8 @@
         ]
     },
     "xdebug": {
-        "name": "xdebug",
+        "name": "Xdebug",
         "list": [
-            "2019\/debugging-php-on-docker-with-visual-studio-code",
             "2018\/04\/wsl",
             "2015\/10\/debugging-multiple-projects"
         ]

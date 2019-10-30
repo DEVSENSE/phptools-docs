@@ -6,10 +6,10 @@
         "description": "",
         "list": [
             "2019\/php-tools-updates-october-2019",
-            "2019\/php-7.4-support-for-vs-code",
-            "php74-support-for-vs",
+            "2019\/php-7.4-vs-code",
+            "2019\/php74-visual-studio",
             "2019\/phar-archives-in-visual-studio-code",
-            "new-features-available"
+            "2019\/phptools-updates-july"
         ]
     },
     "general": {
@@ -17,7 +17,6 @@
         "description": "",
         "template": "",
         "list": [
-            "2019\/july-summary",
             "8-tips-a-new-php-developer-should-know",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
             "2019\/how-to-install-laravel-for-visual-studio-code",
@@ -65,14 +64,12 @@
             "2019\/debugging-in-visual-studio-code",
             "2019\/debugging-php-in-visual-studio",
             "2019\/installing-and-user-composer-for-php",
-            "2019\/debugging-php-on-docker-with-visual-studio-code",
-            "using-phpdoc-with-php7-and-make-it-work",
-            "php-basics-forms-get-and-post",
-            "creating-a-php-api-for-logging-messages-calls",
-            "php-and-nginx-on-docker",
-            "php-for-beginners-part-1-variables-functions-classes",
-            "how-to-set-up-php-web-server",
-            "tracepoint-logpoint",
+            "2019\/phpdoc-php7",
+            "2019\/php-forms-get-and-post",
+            "2019\/creating-a-php-api-for-logging-messages-calls",
+            "2019\/php-for-beginners-part-1-variables-functions-classes",
+            "2019\/how-to-setup-php-web-server",
+            "2019\/php-tracepoint-logpoint",
             "introduction-to-php-on-docker-with-visual-studio-code",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
             "2019\/how-to-install-xdebug-for-phptools-for-vscode-on-mac"
