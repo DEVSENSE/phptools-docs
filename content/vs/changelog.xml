@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11631" date="20191111" tags="stable">
+  <release version="1.32.11632" date="20191112" tags="stable">
 	  <note>Updated PHP manual</note>
+	  <note>Improved IntelliSense in traits, after `use`, in PHPDoc</note>
 	  <note>Improved publish-on-save</note>
 	  <note>Update to issues with publish-on-save</note>
   </release>
