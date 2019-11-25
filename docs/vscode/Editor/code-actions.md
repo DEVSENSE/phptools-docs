@@ -61,5 +61,5 @@ If applicable, a code action suggesting to add `$this->` is provided. This fixes
 
 ## See also
 
-- [Refactoring](refactoring.md)
-- [PHPDoc Completion](phpdoc.md)
+- [Refactoring](refactoring)
+- [PHPDoc Completion](phpdoc)
