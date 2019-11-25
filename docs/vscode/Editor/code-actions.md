@@ -15,7 +15,7 @@ Certain errors have also `Quick Fix` available. This provides the same list of c
 
 ![Quick Fix in VS Code](../imgs/quick-fixes.png)
 
-### Implementing Getters and Setters
+### Getters and Setters
 
 Generating getters and/or setters for private and protected properties can be done using the following code action. This will add function `get` and `set` for the selected property at the end of current class.
 
@@ -29,7 +29,7 @@ The code action supports adding getter only, setter only, or both. In case more 
 
 ![Add getters/setters for more properties](../imgs/getter-setter-more-properties.gif)
 
-### Implementing missing abstract functions
+### Missing abstract functions
 
 Error `PHP2414` indicates that the non-abstract class has some functions missing. The quick fix or code action automatically implements the missing abstract functions, including all the available documentation and type information. The generated code is inserted at the end of the class.
 
