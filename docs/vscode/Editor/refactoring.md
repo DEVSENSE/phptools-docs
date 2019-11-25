@@ -21,5 +21,5 @@ Right click the name and choose `Rename Symbol`, or select a name and press the 
 
 ## See also
 
-- [Code Actions](code-actions.md)
-- [PHPDoc Completion](phpdoc.md)
+- [Code Actions](code-actions)
+- [PHPDoc Completion](phpdoc)
