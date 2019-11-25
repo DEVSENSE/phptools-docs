@@ -3,6 +3,8 @@ Title: Code Actions
 Description: Using PHP code actions
 */
 
+## Code Actions
+
 The editor is provided with so-called **Code Actions** - Quick Fixes and refactorings for the text currently under the caret. The available code action is annotated with a light bulb next to the text.
 
 ![Light Bulb in VS Code](../imgs/light-bulb.png)
@@ -13,7 +15,7 @@ Certain errors have also `Quick Fix` available. This provides the same list of c
 
 ![Quick Fix in VS Code](../imgs/quick-fixes.png)
 
-## Implementing Getters and Setters
+### Implementing Getters and Setters
 
 Generating getters and/or setters for private and protected properties can be done using the following code action. This will add function `get` and `set` for the selected property at the end of current class.
 
@@ -27,7 +29,7 @@ The code action supports adding getter only, setter only, or both. In case more 
 
 ![Add getters/setters for more properties](../imgs/getter-setter-more-properties.gif)
 
-## Implementing missing abstract functions
+### Implementing missing abstract functions
 
 Error `PHP2414` indicates that the non-abstract class has some functions missing. The quick fix or code action automatically implements the missing abstract functions, including all the available documentation and type information. The generated code is inserted at the end of the class.
 
@@ -37,7 +39,7 @@ The code action resolves the complete class hierarchy, taking into accound inter
 
 ![Implement missing functions](../imgs/impl-missing-abstracts.gif)
 
-## Resolve missing namespace
+### Resolve missing namespace
 
 Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code actions with all available fixes is provided.
 
@@ -45,13 +47,13 @@ Error `PHP0413` indicates that the type does not exist in the current namespace 
 
 The code action allows you to add `use` declaration or fully qualify the name in-place. Code actions include all the possible names that are found within the current workspace.
 
-## Fix typo in PHPDoc keyword
+### Fix typo in PHPDoc keyword
 
 Error `PHP6503` suggests that there is a typo in the PHPDoc keyword and offers a quick fix.
 
 ![Fix common typos in PHPDoc](../imgs/phpdoc-typo-fix.png)
 
-## Add missing `$this->`
+### Add missing `$this->`
 
 If applicable, a code action suggesting to add `$this->` is provided. This fixes a common issue when an instance function is called without specyfying the `$this` object.
 
