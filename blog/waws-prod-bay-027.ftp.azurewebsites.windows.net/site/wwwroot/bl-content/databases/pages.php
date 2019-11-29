@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2019\/what-i-like-about-php-tools-and-black-friday-2019": {
+        "title": "What I like about PHP Tools and Black Friday 2019",
+        "description": "",
+        "username": "miloslav",
+        "tags": [],
+        "type": "published",
+        "date": "2019-11-28 10:01:15",
+        "dateModified": "2019-11-28 11:04:18",
+        "position": 23,
+        "coverImage": "black.png",
+        "category": "",
+        "md5file": "27bd7ad59eb9875892dd186d087d2295",
+        "uuid": "a4700e4b35cc4613a4091eb894cf8601",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2019\/phptools-update-june": {
         "title": "June Summary",
         "description": "Check the most important articles for June on our blog",
