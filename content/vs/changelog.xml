@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.32.11655" date="20191209" tags="preview">
+	  <note>Improved "finally" control flow analysis</note>
+	  <note>PHP 7.4 (final) can be installed automatically</note>
+	  <note>Smart indent of lambda functions</note>
+	  <note>Generated PHPDoc with possible "@throws"</note>
+	  <note>Updates to twig & freezing issues for publish-on-save</note>
+  </release>
   <release version="1.32.11632" date="20191112" tags="stable">
 	  <note>Updated PHP manual</note>
 	  <note>Improved IntelliSense in traits, after `use`, in PHPDoc</note>
