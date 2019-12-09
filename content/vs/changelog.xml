@@ -5,7 +5,7 @@
 	  <note>PHP 7.4 (final) can be installed automatically</note>
 	  <note>Smart indent of lambda functions</note>
 	  <note>Generated PHPDoc with possible "@throws"</note>
-	  <note>Updates to twig & freezing issues for publish-on-save</note>
+	  <note>Updates to twig &amp; freezing issues for publish-on-save</note>
   </release>
   <release version="1.32.11632" date="20191112" tags="stable">
 	  <note>Updated PHP manual</note>
