@@ -5,7 +5,7 @@ Description: Troubleshoot most common issues with debugging PHP code in Visual S
 
 # Troubleshooting
 
-This list shows common issues with the debugger and their solutions, so you can solve problems quickly. In case you could not find an answer here, please feel free to ask on our [Support forum](http://support.devsense.com).
+This list shows common issues with the debugger and their solutions, so you can solve problems quickly. In case you could not find an answer here, please feel free to ask on our [Support forum](https://community.devsense.com).
 
 ## Checklist
 
