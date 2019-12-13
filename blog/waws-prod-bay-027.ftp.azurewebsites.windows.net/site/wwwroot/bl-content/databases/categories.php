@@ -70,7 +70,6 @@
             "2019\/php-for-beginners-part-1-variables-functions-classes",
             "2019\/how-to-setup-php-web-server",
             "2019\/php-tracepoint-logpoint",
-            "introduction-to-php-on-docker-with-visual-studio-code",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
             "2019\/how-to-install-xdebug-for-phptools-for-vscode-on-mac"
         ]

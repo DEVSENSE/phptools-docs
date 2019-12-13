@@ -54,12 +54,6 @@
             "2016\/10\/phptools-1.20"
         ]
     },
-    "docker": {
-        "name": "docker",
-        "list": [
-            "introduction-to-php-on-docker-with-visual-studio-code"
-        ]
-    },
     "dreamspark": {
         "name": "DreamSpark",
         "list": [
@@ -156,7 +150,6 @@
         "name": "php",
         "list": [
             "2019\/php-tracepoint-logpoint",
-            "introduction-to-php-on-docker-with-visual-studio-code",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
             "2019\/how-to-install-xdebug-for-phptools-for-vscode-on-mac",
@@ -344,12 +337,6 @@
             "2017\/04\/phptools-1.23",
             "2017\/01\/phptools-1.22",
             "2016\/12\/phptools-1.21"
-        ]
-    },
-    "vscode": {
-        "name": "vscode",
-        "list": [
-            "introduction-to-php-on-docker-with-visual-studio-code"
         ]
     },
     "wsl": {

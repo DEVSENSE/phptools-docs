@@ -1,5 +1,29 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2019\/introduction-to-php-on-docker-with-visual-studio-code": {
+        "title": "Introduction to PHP on Docker with Visual Studio Code",
+        "description": "Learn the basics of Docker with PHP inside Visual Studio Code.",
+        "username": "maros",
+        "tags": {
+            "docker": "docker",
+            "php": "php",
+            "vscode": "vscode"
+        },
+        "type": "draft",
+        "date": "2019-12-12 12:51:05",
+        "dateModified": "2019-12-12 12:51:05",
+        "position": 6,
+        "coverImage": "Docker1.png",
+        "category": "tutorial",
+        "md5file": "8820253441e0f5fc1fdb6d2d128f3d0d",
+        "uuid": "da4deb52623d0022d9d298abca2bf85e",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2019\/what-i-like-about-php-tools-and-black-friday-2019": {
         "title": "What I like about PHP Tools and Black Friday 2019",
         "description": "",
@@ -411,30 +435,6 @@
         "category": "",
         "md5file": "7ee59b4f20db7ecb7ab5f8fe08587e1d",
         "uuid": "80deb05b08a8c7ae41dfbce2e97d9972",
-        "allowComments": true,
-        "template": "",
-        "noindex": false,
-        "nofollow": false,
-        "noarchive": false,
-        "custom": []
-    },
-    "introduction-to-php-on-docker-with-visual-studio-code": {
-        "title": "Introduction to PHP on Docker with Visual Studio Code",
-        "description": "Learn the basics of Docker with PHP inside Visual Studio Code.",
-        "username": "maros",
-        "tags": {
-            "docker": "docker",
-            "php": "php",
-            "vscode": "vscode"
-        },
-        "type": "published",
-        "date": "2019-06-06 03:56:36",
-        "dateModified": "2019-08-06 08:36:32",
-        "position": 6,
-        "coverImage": "Docker1.png",
-        "category": "tutorial",
-        "md5file": "8820253441e0f5fc1fdb6d2d128f3d0d",
-        "uuid": "da4deb52623d0022d9d298abca2bf85e",
         "allowComments": true,
         "template": "",
         "noindex": false,
