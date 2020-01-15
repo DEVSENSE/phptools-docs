@@ -66,3 +66,11 @@ xdebug.remote_autostart = 1
 ```
 
 to `php.ini` file in the **Xdebug** configuration section which will force it to start on every request.
+
+### The debug session started, but breakpoints do not break
+
+One of the most common reasons is that Xdebug port is being used by 3rd party application (e.g. HP tools). You can either change Xdebug port or close the application.
+
+Since version 1.32.11685 you will be able to see what process is holding the port directly in Visual Studio.
+
+![Port in use](imgs/portinuse.png)
