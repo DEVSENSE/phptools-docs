@@ -4,6 +4,8 @@
 	  <note>Twig editor stability updates</note>
 	  <note>Internally complies with Twig 3.x</note>
 	  <note>VS stability updates</note>
+	  <note>Debugger checks for the port availability</note>
+	  <note>WebPI update to Xdebug and PHP 7.4 release</note>
   </release>
   <release version="1.32.11656" date="20191209" tags="preview">
 	  <note>Improved "finally" control flow analysis</note>
