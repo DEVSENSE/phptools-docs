@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<changelog>
+<changelog>11692
+  <release version="1.32.11692" date="20200123" tags="preview">
+	  <note>Twig editor stability updates</note>
+	  <note>Internally complies with Twig 3.x</note>
+	  <note>VS stability updates</note>
+  </release>
   <release version="1.32.11656" date="20191209" tags="preview">
 	  <note>Improved "finally" control flow analysis</note>
 	  <note>PHP 7.4 (final) can be installed automatically</note>
