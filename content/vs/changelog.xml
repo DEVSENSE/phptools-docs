@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<changelog>11692
+<changelog>
   <release version="1.32.11692" date="20200123" tags="preview">
 	  <note>Twig editor stability updates</note>
 	  <note>Internally complies with Twig 3.x</note>
