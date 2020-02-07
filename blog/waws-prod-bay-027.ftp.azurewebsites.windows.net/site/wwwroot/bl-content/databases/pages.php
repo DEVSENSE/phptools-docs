@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2020\/remote-debugging": {
+        "title": "Remote debugging",
+        "description": "",
+        "username": "miloslav",
+        "tags": [],
+        "type": "published",
+        "date": "2020-02-06 12:02:36",
+        "dateModified": "2020-02-06 14:16:54",
+        "position": 24,
+        "coverImage": "",
+        "category": "",
+        "md5file": "e754f0fe0457fd8c4ec30511dbd50be1",
+        "uuid": "575cf0bbb61a09eafee5e5aee8838f7f",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2019\/introduction-to-php-on-docker-with-visual-studio-code": {
         "title": "Introduction to PHP on Docker with Visual Studio Code",
         "description": "Learn the basics of Docker with PHP inside Visual Studio Code.",
