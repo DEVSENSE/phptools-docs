@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.32.11728" date="20200305" tags="preview">
+	  <note>PCRE syntax check (Visual Studio 2015 and newer)</note>
+	  <note>Composer statibility updates</note>
+	  <note>WebPI progress is shown in Visual Studio Output pane</note>
+	  <note>Support for Visual Studio Code Map during Debug</note>
+  </release>
   <release version="1.32.11706" date="20200205" tags="preview">
 	  <note>Twig editor stability updates</note>
 	  <note>Internally complies with Twig 3.x</note>
