@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.32.11731" date="20200305" tags="preview">
+  <release version="1.32.11732" date="20200305" tags="preview">
 	  <note>PCRE syntax check (Visual Studio 2015 and newer)</note>
 	  <note>Composer statibility updates</note>
 	  <note>WebPI progress is shown in Visual Studio Output pane</note>
