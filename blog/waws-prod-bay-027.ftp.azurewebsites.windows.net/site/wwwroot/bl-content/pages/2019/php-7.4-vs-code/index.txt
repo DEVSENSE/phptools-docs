@@ -161,7 +161,7 @@ PHP 7.4 has [depreciated a number of functions](https://wiki.php.net/rfc/depreca
 # Related Articles
 
 
-[PHP 7.4 support for Visual Studio](https://blog.devsense.com/php74-support-for-vs)
+[PHP 7.4 support for Visual Studio](https://blog.devsense.com/2019/php74-visual-studio)
 
 [Debugging PHP in VS Code](https://blog.devsense.com/debugging-in-visual-studio-code)
 
