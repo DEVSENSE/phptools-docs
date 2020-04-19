@@ -26,6 +26,9 @@ Ajuste | Valores | Descripción
 ---     | ---    | ---
 `php.executablePath` | Ruta de acceso completa al programa `php`, o no establecido. | Especifica la ruta de acceso al programa `php` que será utilizado con el [Explorador de Pruebas](test-explorer) y la [Depuración](debug).
 `phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", o no establecido. | Especifica el código de idioma de la documentación integrada. Si no se establece, la configuración predeterminada es el idioma del sistema.
+`php.problems.workspaceAnalysis` |  "true", "false" | 
+`php.format.codeStyle` | "PHP Tools", "PSR-2" | 
+`files.exclude` |   |  
 
 ## Activación de la licencia
 
