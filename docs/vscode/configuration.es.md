@@ -15,7 +15,7 @@ El archivo de instalación `.vsix` puede descargarse en nuestra [sección de des
 
 El programa podría realizar una descarga adicional de dependencias durante el primer inicio, después de la instalación. Por favor, asegúrese de tener conexión a internet. En el caso de que su computadora no se pueda conectar, intente uno de los siguientes:
 
-- Instale Microsoft .NET Core 2.x Runtime para su plataforma (más información en https://www.microsoft.com/net/download), o
+- Instale Microsoft .NET Core Runtime 3.x para su plataforma (más información en https://www.microsoft.com/net/download), o
 - Descargue la dependencia manualmente. Vea la salida de VSCode, panel 'PHP', para el registro y la URL de la dependencia. Extraiga el archivo zip `/out/server` del directorio de instalación de la extensión.
 
 ## Opciones de configuración
