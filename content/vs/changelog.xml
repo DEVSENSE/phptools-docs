@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11816" date="20200505" tags="preview">
+  <release version="1.40.11823" date="20200505" tags="preview">
     <note category="Editor">'use' marked as used if used in PHPDoc</note>
 	  <note category="Editor">Outlining of multi-lined arrays</note>
     <note category="Editor">PHPDoc type hints respect current namespace</note>
