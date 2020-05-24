@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11823" date="20200505" tags="preview">
+  <release version="1.40.11844" date="20200524" tags="preview">
     <note>New SSH, FTPS, SFTP protocols and encryptions.</note>
-	  <note>Updated certificates of installer and binaries</note>
+	<note>Updated certificates of installer and binaries</note>
     <note>Stability fixes</note>
-	  <note>Improved High-DPI support (VS 2019)</note>
+	<note>Improved High-DPI support (VS 2019)</note>
     <note category="Editor">'use' marked as used if used in PHPDoc</note>
-	  <note category="Editor">Outlining of multi-lined arrays</note>
+	<note category="Editor">Outlining of multi-lined arrays</note>
     <note category="Editor">PHPDoc type hints respect current namespace</note>
     <note category="Editor">Locals in arrow functions get annotated correctly</note>
+	<note category="Debug">Support for debugging PHAR files</note>
+	<note category="Debug">More robust CLI debugging issues handling</note>
+	<note category="Testing">Support for PHPUnit 9.0</note>
   </release>
   <release version="1.32.11768" date="20200325" tags="preview">
 	  <note>Improved High-DPI support (VS 2019)</note>
