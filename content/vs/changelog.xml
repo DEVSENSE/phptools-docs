@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.11854" date="20200527" tags="preview">
+  	<note category="Debug">Support for debugging PHAR files</note>
+	  <note category="Debug">More robust CLI debugging issues handling</note>
+	  <note category="Testing">Support for PHPUnit 9.0</note>
+  </release>
   <release version="1.40.11823" date="20200505" tags="preview">
     <note>New SSH, FTPS, SFTP protocols and encryptions.</note>
 	  <note>Updated certificates of installer and binaries</note>
