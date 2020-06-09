@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11864" date="20200609" tags="stable">
+  <release version="1.40.11866" date="20200609" tags="stable">
   	<note category="Editor">PHP 8.0 syntax support</note>
     <note category="Editor">PHP 8.0 attribuutes IntelliSense</note>
     <note category="Editor">PHP 8.0 constructor property type analysis</note>
