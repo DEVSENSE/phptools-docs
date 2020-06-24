@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11886" date="20200624" tags="stable">
+  <release version="1.40.11887" date="20200624" tags="stable">
+    <note>fixed activation on VS 2010-2013</note>
+    <note>Enhancements in TLS,SSH protocols</note>
+    <note>Composer engine was refactored, and ready for new project system</note>
   	<note category="Editor">PHP 8.0 syntax support</note>
     <note category="Editor">PHP 8.0 attributes IntelliSense</note>
     <note category="Editor">PHP 8.0 constructor property type analysis</note>
     <note category="Editor">PHP 8.0 analysis for unsupported syntax</note>
+    <note category="Editor">newline PCRE options handled</note>
     <note category="Testing">Support for PHPUnit 9.0</note>
     <note category="Debug">More exceptions in exception list to break on</note>
-    <note category="Composer">Refactored, ready for new project system</note>
-    <note category="Publish">Enhancements in TLS,SSH protocols</note>
-    <note category="PCRE">newline options processed</note>
   </release>
   <release version="1.40.11855" date="20200527" tags="stable">
   	<note category="Debug">Support for debugging PHAR files</note>
