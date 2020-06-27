@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11887" date="20200624" tags="stable">
+  <release version="1.40.11890" date="20200627" tags="stable">
     <note>fixed activation on VS 2010-2013</note>
     <note>Enhancements in TLS,SSH protocols</note>
     <note>Composer engine was refactored, and ready for new project system</note>
