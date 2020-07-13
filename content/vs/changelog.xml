@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11920" date="20200708" tags="stable">
+  <release version="1.40.11948" date="20200713" tags="stable">
     <note>Fixed Composer package search.</note>
     <note>Performance improvements.</note>
     <note category="Editor">Fixed PHP Editor initializing IntelliSense forever upon solution open.</note>
@@ -11,6 +11,10 @@
     <note category="Editor">Type analysis for `instanceof`.</note>
     <note category="Editor">Type analysis when returning `static`.</note>
     <note category="Editor">Fixes occasional nullref exception.</note>
+    <note category="Editor">Analysis of PHPDoc improvements.</note>
+    <note category="Editor">Twig editor exception fix.</note>
+    <note category="Editor">Implement abstract methods for traits respects type hints.</note>
+    <note category="Test Explorer">Test discovery fix.</note>
   </release>
   <release version="1.40.11890" date="20200627" tags="stable">
     <note>fixed activation on VS 2010-2013</note>
