@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11950" date="20200713" tags="stable">
+  <release version="1.40.11951" date="20200714" tags="stable">
     <note>Fixed Composer package search.</note>
     <note>Performance improvements.</note>
     <note category="Editor">Fixed PHP Editor initializing IntelliSense forever upon solution open.</note>
