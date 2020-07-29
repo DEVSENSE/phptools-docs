@@ -2,7 +2,7 @@
 <changelog>
   <release version="1.40.11969" date="20200728" tags="preview">
     <note category="Debug">Remote PHAR debugging support</note>
-    <note category="Publish">Improvments and fixes of TLS 1.2, TLS 1.3</note>
+    <note category="Publish">Improvements and fixes of TLS 1.2, TLS 1.3</note>
     <note category="Editor">Analysis enhancements</note>
   </release>
   <release version="1.40.11953" date="20200715" tags="stable">
