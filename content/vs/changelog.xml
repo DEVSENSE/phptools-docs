@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.11974" date="20200729" tags="preview">
+  <release version="1.40.11998" date="20200812" tags="preview">
+    <note>Expandable phar archives in Solution Explorer (fixes for latest formats)</note>
     <note category="Debug">Remote PHAR debugging support</note>
     <note category="Publish">Improvements and fixes of TLS 1.2, TLS 1.3</note>
     <note category="Editor">Analysis enhancements</note>
+    <note category="Editor">Fixes stability issues</note>
+    <note category="Editor">Lambda type analysis improvements</note>
+    <note category="Editor">"iterable" phpdoc type hint</note>
+    <note category="Editor">"smart action" to add "use" for unknown type in phpdoc</note>
+    <note category="Editor">Format respects EditorConfig file</note>
   </release>
   <release version="1.40.11953" date="20200715" tags="stable">
     <note>Fixed Composer package search.</note>
