@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12022" date="20200819" tags="preview">
+    <note>(VS 2019) Go To Implementation</note>
+    <note>Code completion aftwer "namespace" keyword</note>
+    <note>Analysis respects "void" in PHPDoc's @return</note>
+    <note>More PHPDoc type error suggestions</note>
+    <note>Analysis of parenthesis expressions fixes</note>
+    <note>Tooltips show correct namespace in some cases</note>
+  </release>
   <release version="1.40.12000" date="20200812" tags="preview">
     <note>Expandable phar archives in Solution Explorer (fixes for latest formats)</note>
     <note category="Debug">Remote PHAR debugging support</note>
