@@ -2,7 +2,7 @@
 <changelog>
   <release version="1.40.12022" date="20200819" tags="preview">
     <note>(VS 2019) Go To Implementation</note>
-    <note>Code completion aftwer "namespace" keyword</note>
+    <note>Code completion after "namespace" keyword</note>
     <note>Analysis respects "void" in PHPDoc's @return</note>
     <note>More PHPDoc type error suggestions</note>
     <note>Analysis of parenthesis expressions fixes</note>
