@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12056" date="20200909" tags="preview">
+    <note>Stability improvements.</note>
+    <note category="Editor">PHP 8.0 "match" syntax support (you need to have PHP 8.0 installed)</note>
+    <note category="Editor">PHP 8.0 "null-safe" operator syntax support</note>
+    <note category="Editor">Improved type analysis, and bug fixes</note>
+    <note category="Editor">Improved override resolution analysis</note>
+    <note category="Editor">"@dataProvider" PHPDoc keyword IntelliSense</note>
+    <note category="Editor">Updated PCRE syntax and error checking</note>
+    <note category="Editor">"PHP0437" error respects PHPDoc with "@var $this"</note>
+    <note category="VS 2019">(preview) New project system initial support</note>
+  </release>
   <release version="1.40.12022" date="20200819" tags="preview">
     <note>(VS 2019) Go To Implementation</note>
     <note>Code completion after "namespace" keyword</note>
