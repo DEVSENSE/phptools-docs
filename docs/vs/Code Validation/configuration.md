@@ -21,7 +21,7 @@ To configure a diagnostic, add section matching the file names applying to, by d
 
 ```
 [*.php]
-php_diagnostic.php6401 = false
+php_diagnostic_php6401 = false
 php_diagnostic = true
 ```
 
@@ -29,7 +29,7 @@ Add rules, according to your diagnostic error code.
 
 ## Rule format
 
-Rules are in format `php_diagnostic.php[ERROR_CODE] = [VALUE]` (lower cased). Possible values are:
+Rules are in format `php_diagnostic_php[ERROR_CODE] = [VALUE]` (lower cased). Possible values are:
 
 - `true`, `on`: the diagnostic will be listed with its default severity.
 - `false`, `silent`, `off`, `none`: the diagnostic won't be listed.
@@ -40,8 +40,8 @@ Rules are in format `php_diagnostic.php[ERROR_CODE] = [VALUE]` (lower cased). Po
 
 ```
 [*.php]
-php_diagnostic.php6401 = message
-php_diagnostic.php6402 = false
+php_diagnostic_php6401 = message
+php_diagnostic_php6402 = false
 ```
 
 For all the diagnostics with any error code, use rule in format `php_diagnostic = [VALUE]`.
@@ -51,6 +51,6 @@ For all the diagnostics with any error code, use rule in format `php_diagnostic 
 php_diagnostic = error
 ```
 
-> Note, rule with the error code (`php_diagnostic.php[ERROR_CODE]`) has a precedence over the rule without the error code (`php_diagnostic`). 
+> Note, rule with the error code (`php_diagnostic_php[ERROR_CODE]`) has a precedence over the rule without the error code (`php_diagnostic`). 
 
 > Code editor will always highlight fatal errors, even tho the error will be suppressed using `false`, `off`, `none`, or `silent` rule.
