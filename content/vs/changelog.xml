@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12082" date="20200918" tags="preview">
+  <release version="1.40.12083" date="20200918" tags="preview">
     <note>Stability improvements.</note>
     <note category="Editor">PHP 8.0 "match" syntax support (you need to have PHP 8.0 installed)</note>
     <note category="Editor">PHP 8.0 "null-safe" operator syntax support</note>
@@ -990,7 +990,7 @@
     <note>Updated icons for VS2013 and VS2013</note>
     <note category="Project System">Bolding of startup file on PHP project</note>
     <note>About box with additional package information</note>
-    <note href="http://www.devsense.com/doc/phptools/editor/html-editor">Experimental HTML/JS/CSS support (enable in TOOLS|OPTIONS|PHP Tools)</note>
+    <note >Experimental HTML/JS/CSS support (enable in TOOLS|OPTIONS|PHP Tools)</note>
     <note category="Project System">Improved project loading</note>
     <note category="Project System">Asynchronous project loading</note>
   </release>
@@ -1014,7 +1014,7 @@
     <note category="IntelliSense">F1 Help provided for more PHP keywords</note>
     <note>php.ini configuration issue checker improvements</note>
     <note>Code commenting improvements for mixed tabs/spaces on commented lines</note>
-    <note href="http://www.devsense.com/doc/phptools/editor/php-manual">Improved metadata generation for native PHP functions and classes (F12 on builtin PHP stuff)</note>
+    <note href="https://docs.devsense.com/en/vs/navigation/f12-gotodef#php-manual">Improved metadata generation for native PHP functions and classes (F12 on builtin PHP stuff)</note>
     <note category="IntelliSense">updated integrated documentation (Sep 3rd 2013)</note>
     <note>Publish dialog fix; saves data when enter is pressed</note>
     <note>Allowing to use some 3rd party extensions getting color information improperly</note>
