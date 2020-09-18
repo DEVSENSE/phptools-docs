@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12059" date="20200910" tags="preview">
+  <release version="1.40.12080" date="20200918" tags="preview">
     <note>Stability improvements.</note>
     <note category="Editor">PHP 8.0 "match" syntax support (you need to have PHP 8.0 installed)</note>
     <note category="Editor">PHP 8.0 "null-safe" operator syntax support</note>
@@ -9,7 +9,9 @@
     <note category="Editor">"@dataProvider" PHPDoc keyword IntelliSense</note>
     <note category="Editor">Updated PCRE syntax and error checking</note>
     <note category="Editor">"PHP0437" error respects PHPDoc with "@var $this"</note>
+    <note category="VS 2019" href="https://docs.devsense.com/en/vs/code%20validation/configuration">Diagnostic suppressions with ".editorconfig"</note>
     <note category="VS 2019">Laravel project template</note>
+    <note category="VS 2019">Test Explorer (test discovery) fixes</note>
     <note category="VS 2019">(preview) New project system initial support</note>
   </release>
   <release version="1.40.12022" date="20200819" tags="preview">
