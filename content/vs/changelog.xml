@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12080" date="20200918" tags="preview">
+  <release version="1.40.12082" date="20200918" tags="preview">
     <note>Stability improvements.</note>
     <note category="Editor">PHP 8.0 "match" syntax support (you need to have PHP 8.0 installed)</note>
     <note category="Editor">PHP 8.0 "null-safe" operator syntax support</note>
