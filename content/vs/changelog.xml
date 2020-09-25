@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12102" date="20200925" tags="stable">
+    <note>PHP 8 new attribute syntax '#[ ... ]'</note>
+    <note>PHP 8 new named arguments syntax (not in IntelliSense yet)</note>
+    <note>Diagnostic for names that can be simplified (PHP6601).</note>
+    <note>Diagnostic for unused parameters in constructors and private functions.</note>
+    <note>Stability fixes</note>
+  </release>
   <release version="1.40.12083" date="20200918" tags="stable">
     <note>Stability improvements.</note>
     <note category="Editor">PHP 8.0 "match" syntax support (you need to have PHP 8.0 installed)</note>
