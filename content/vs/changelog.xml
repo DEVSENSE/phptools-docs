@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12102" date="20200925" tags="stable">
+  <release version="1.40.12103" date="20200925" tags="stable">
     <note>PHP 8 new attribute syntax '#[ ... ]'</note>
     <note>PHP 8 new named arguments syntax (not in IntelliSense yet)</note>
     <note>Diagnostic for names that can be simplified (PHP6601).</note>
