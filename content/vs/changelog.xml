@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12109" date="20200930" tags="stable">
+  <release version="1.40.12110" date="20200930" tags="stable">
     <note Category="VS 2019">Stability fixes</note>
     <note Category="VS 2019">Project publish fix</note>
   </release>
