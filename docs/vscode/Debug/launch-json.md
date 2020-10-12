@@ -34,9 +34,17 @@ Sample configuration:
         "\\remotepc\Shared\Test\": "${workspaceRoot}\src",
         "\\test": "C:\Users\usr\Documents\VSCode\src\"
     },
-    "port": 9000
+    "port": 9000,
+    "serverReadyAction": {
+        "action": "openExternally"
+    }
 }
 ```
+
+Additonally, there are following settings:
+
+- **"port"** allows you to specify the Xdebug port number. This value is used set to configure the built-in server and the VSCode debugger togetherThe default is `9000`. It overwrites the setting `xdebug.remote_port` in your `php.ini`.
+- **serverReadyAction** can be set to automatically open browser once the debug starts. More at [code.visualstudio.com - serverReadyAction](https://code.visualstudio.com/docs/editor/debugging#_automatically-open-a-uri-when-debugging-a-server-program).
 
 ## Console Application
 
