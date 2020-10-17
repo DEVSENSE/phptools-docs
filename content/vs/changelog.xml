@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12167" date="20201017" tags="stable">
+    <note Category="General">New Project wizard improvements.</note>
+    <note Category="IntelliSense">Supports more PHPDoc array syntax conventions</note>
+    <note Category="IntelliSense">Improved analysis of functions returning `static`</note>
+    <note Category="IntelliSense">Improved analysis of `isset()`</note>
+    <note Category="VS 2019">Fixes possible VS freezing when there is a lot of errors in Error List</note>
+  </release>
   <release version="1.40.12110" date="20200930" tags="stable">
     <note Category="VS 2019">Stability fixes</note>
     <note Category="VS 2019">Project publish fix</note>
