@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12167" date="20201017" tags="stable">
+  <release version="1.40.12168" date="20201018" tags="stable">
     <note Category="General">New Project wizard improvements.</note>
     <note Category="IntelliSense">Supports more PHPDoc array syntax conventions</note>
     <note Category="IntelliSense">Improved analysis of functions returning `static`</note>
