@@ -6,8 +6,6 @@
     <note Category="IntelliSense">Improved analysis of functions returning `static`</note>
     <note Category="IntelliSense">Improved analysis of `isset()`</note>
     <note Category="VS 2019">Fixes possible VS freezing when there is a lot of errors in Error List</note>
-  </release>
-  <release version="1.40.12110" date="20200930" tags="stable">
     <note Category="VS 2019">Stability fixes</note>
     <note Category="VS 2019">Project publish fix</note>
   </release>
