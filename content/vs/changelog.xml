@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12304" date="20201119" tags="stable">
+  <release version="1.40.12307" date="20201120" tags="stable">
     <note category="IntelliSense">Updates Error List when `.editorconfig` changes.</note>
     <note category="IntelliSense">PHP 8 `mixed` type correctly handled in type analysis</note>
     <note category="IntelliSense">`PHP0418` for use of an undefined method</note>
