@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12325" date="20201121" tags="stable">
+  <release version="1.40.12329" date="20201121" tags="stable">
     <note category="IntelliSense">Updates Error List when `.editorconfig` changes.</note>
     <note category="IntelliSense">PHP 8 `mixed` type correctly handled in type analysis</note>
     <note category="IntelliSense">`PHP0418` for use of an undefined method</note>
     <note category="IntelliSense">`PHP0415` for use of an undefined constant</note>
     <note category="IntelliSense">Doctrine @Annotation, and annotation classes in PHPDoc IntellISense</note>
     <note category="IntelliSense">Updated PHP constants information</note>
+    <note category="IntelliSense">Updated PHP manual translations</note>
     <note category="IntelliSense">Performance improvements</note>
     <note category="Project">IIS Express configuration is kept in the local `applicationHost.config` is possible</note>
     <note category="Project">Internet Information Services (IIS) server support</note>
