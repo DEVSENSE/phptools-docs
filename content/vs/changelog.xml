@@ -5,7 +5,7 @@
     <note category="IntelliSense">PHP 8 `mixed` type correctly handled in type analysis</note>
     <note category="IntelliSense">`PHP0418` for use of an undefined method</note>
     <note category="IntelliSense">`PHP0415` for use of an undefined constant</note>
-    <note category="IntelliSense">Doctrine @Annotation, and annotation classes in PHPDoc IntellISense</note>
+    <note category="IntelliSense">Doctrine @Annotation, and annotation classes in PHPDoc IntelliSense</note>
     <note category="IntelliSense">Updated PHP constants information</note>
     <note category="IntelliSense">Updated PHP manual translations</note>
     <note category="IntelliSense">Performance improvements</note>
