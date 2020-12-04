@@ -14,7 +14,7 @@
     <note category="Debug">support for Xdebug 3.0 and PHP 8.0 debugging</note>
     <note category="Project">PHP 8.0 can be selected as the project language version</note>
     <note category="Project">PHP 8.0 + Xdebug 3.0 automatic installation</note>
-    <note category="Project">Laravel project ide helplers restored automatically</note>
+    <note category="Project">Laravel project ide helpers restored automatically</note>
     <note category="Project">IIS support improvements and fixes</note>
   </release>
   <release version="1.40.12331" date="20201121" tags="stable">
