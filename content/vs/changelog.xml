@@ -1,5 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12409" date="20201204" tags="stable">
+    <note category="IntelliSense">named arguments code completion (PHP 8)</note>
+    <note category="IntelliSense">named arguments hover information</note>
+    <note category="IntelliSense">functions annotated with `#[Deprecated]` attribute reported in diagnostics</note>
+    <note category="IntelliSense">diagnostics for matching or unknown named arguments (PHP 8)</note>
+    <note category="IntelliSense">diagnostics for `iterable` type hint</note>
+    <note category="IntelliSense">diagnostics for nullable types</note>
+    <note category="IntelliSense">diagnostics for union types (PHP 8)</note>
+    <note category="IntelliSense">`null` type name within unions (PHP 8)</note>
+    <note category="IntelliSense">improved `.phpstorm.metadata.php` annotations</note>
+    <note category="IntelliSense">shorter type names in tool tips</note>
+    <note category="Debug">support for Xdebug 3.0 and PHP 8.0 debugging</note>
+    <note category="Project">PHP 8.0 can be selected as the project language version</note>
+    <note category="Project">PHP 8.0 + Xdebug 3.0 automatic installation</note>
+    <note category="Project">Laravel project ide helplers restored automatically</note>
+    <note category="Project">IIS support improvements and fixes</note>
+  </release>
   <release version="1.40.12331" date="20201121" tags="stable">
     <note category="IntelliSense">Updates Error List when `.editorconfig` changes.</note>
     <note category="IntelliSense">PHP 8 `mixed` type correctly handled in type analysis</note>
