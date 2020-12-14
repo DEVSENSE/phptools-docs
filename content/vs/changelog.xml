@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12436" date="20201215" tags="stable">
+    <note>More code actions for invalid union types</note>
+    <note>More diagnostics for union types</note>
+    <note>Updated PCRE check</note>
+    <note>Updated displayed type names in tool-tips</note>
+    <note>stability fixes</note>
+    <note>test explorer discovery and execution fixes</note>
+    <note>IIS setup improvements</note>
+  </release>
   <release version="1.40.12409" date="20201204" tags="stable">
     <note category="IntelliSense">named arguments code completion (PHP 8)</note>
     <note category="IntelliSense">named arguments hover information</note>
