@@ -4,8 +4,6 @@
     <note>smart indent within `match` expression</note>
     <note>updated PHP manual</note>
     <note>fixes missing `die` in IntelliSense</note>
-  </release>
-  <release version="1.40.12436" date="20201215" tags="stable">
     <note>More code actions for invalid union types</note>
     <note>More diagnostics for union types</note>
     <note>Updated PCRE check</note>
