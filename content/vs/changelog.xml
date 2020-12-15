@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12447" date="20201216" tags="stable">
+    <note>smart indent within `match` expression</note>
+    <note>updated PHP manual</note>
+    <note>fixes missing `die` in IntelliSense</note>
+  </release>
   <release version="1.40.12436" date="20201215" tags="stable">
     <note>More code actions for invalid union types</note>
     <note>More diagnostics for union types</note>
