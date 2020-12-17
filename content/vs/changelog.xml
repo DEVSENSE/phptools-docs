@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12460" date="20201217" tags="stable">
+    <note>fixes type names in generated code and tool tips</note>
+    <note>fixes error during navigating into a PHAR file</note>
+    <note>fixes code analysis of class/interface declaration and overrides</note>
+    <note>fixes test explorer - running selected tests</note>
+    <note>fixes error when processing `composer.json`</note>
+  </release>
   <release version="1.40.12447" date="20201216" tags="stable">
     <note>smart indent within `match` expression</note>
     <note>updated PHP manual</note>
