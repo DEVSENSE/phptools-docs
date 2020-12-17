@@ -39,6 +39,8 @@ The PHP Web Project has built-in support for several development servers to simp
 
 - **PHP 5.4+ built-in web server** - a simple and fast web server used for web development. It can handle a single request at one time and has support for several document file types. There is more information at [PHP: Built-in web server](http://php.net/manual/en/features.commandline.webserver.php). The PHP Web Project utilizes the build-in web server, so the user can start debugging only by hitting the <kbd>F5</kbd> key.
 
+- **IIS** - PHP Tools will configure virtual directory, folder permissions, handler, fastcgi mapping, and it also checks for PHP configuration automatically.
+
 - **IIS Express** - PHP Tools allows the user to take advantage of IIS Express, which is a better option than **PHP build-in web server** as it can handle multiple requests at a time or you can take advantage of the **URL Rewriter Module**. PHP Tools will configure binding, virtual directory and it also checks for PHP configuration automatically.
 
 - **Custom Web Server**. In case you have another web server, the options above are not sufficient. If you need to debug the PHP code remotely on another machine, it is possible by just to entering the server's URL. 

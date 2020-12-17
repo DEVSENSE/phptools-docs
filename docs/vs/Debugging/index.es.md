@@ -39,6 +39,8 @@ El proyecto Web PHP incluye compatibilidad con varios servidores de desarrollo p
 
 - **PHP 5.4 + servidor web interno** - un servidor simple y rápido utilizado para desarrollo web. Puede manejar una sola solicitud en el momento y es compatible con diferentes tipos de archivos de documentos. Más información en [PHP: Servidor web interno](http://php.net/manual/es/features.commandline.webserver.php). El proyecto web PHP utiliza el servidor web interno, de manera que el usuario puede comenzar a depurar simplemente al presionar la tecla <kbd>F5</kbd>.
 
+- **IIS**
+
 - **IIS Express** - PHP Tools permite que el usuario tome ventaja de IIS Express, que es una mejor opción que el **servidor interno PHP**, ya que puede manejar múltiples solicitudes al mismo tiempo, y además, el usuario puede sacar provecho del **módulo URL Rewriter**. me or you can take advantage of the **URL Rewriter Module**.
 
 - **Servidor web personalizado**. En el caso de tener otro servidor web, las opciones nombradas anteriormente no son suficientes. Si necesita depurar su código PHP remotamente en otra máquina, es posible hacerlo solamente con escribir la dirección URL del servidor. 
