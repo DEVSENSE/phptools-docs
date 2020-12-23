@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.40.12475" date="20201223" tags="stable">
+  <release version="1.40.12483" date="20201223" tags="stable">
     <note>support for `@mixin` annotations</note>
     <note>fixes IntelliSense of type names in PHPDoc</note>
     <note>fixes `@method` tag with `$this` return type</note>
     <note>implements Find All References of methods specified in `@method` tag</note>
     <note>fixes debugging of PHPUnit Tests (VS 2019 16.8+)</note>
     <note>fixes crash during processing of `composer.json`</note>
+    <note>fixes editor exception when getting a tooltip right after opening a file</note>
+    <note>updates PCRE checks</note>
   </release>
   <release version="1.40.12460" date="20201217" tags="stable">
     <note>fixes type names in generated code and tool tips</note>
