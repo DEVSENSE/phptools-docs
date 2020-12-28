@@ -19,8 +19,12 @@ This list shows common issues with the debugger and their solutions, so you can 
 ![phpinfo() output sample](imgs/troubleshooting-phpinfo-xdebug.png)
 
 - Ensure `xdebug.remote_port` directive in `php.ini` is matching the settings in your Visual Studio (`Tools | Options | PHP Tools | Advanced`). 
-
+  
 ![Remote port directive](imgs/troubleshooting-remote-port.png)
+
+- If you have Xdebug 3, your configuration options are different
+  
+![Remote port directive for Xdebug 3](imgs/troubleshooting-xdebug3-port.png)
 
 - Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert web to the PHP project from menu](Project/from-existing-code).
 
@@ -63,6 +67,12 @@ The problem has to do with the fact that **Xdebug** is expecting a GET initializ
 
 ```
 xdebug.remote_autostart = 1
+```
+
+or for Xdebug 3:
+
+```
+xdebug.start_with_request=yes
 ```
 
 to `php.ini` file in the **Xdebug** configuration section which will force it to start on every request.
