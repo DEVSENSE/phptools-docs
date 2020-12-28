@@ -23,7 +23,9 @@ Copy downloaded Xdebug binaries into the PHP extensions folder.
 
 Edit [PHP Configuration file](http://php.net/manual/en/configuration.file.php). Its name is usually `php.ini`, and it is located within your PHP runtime folder.
 
-Add the following lines at the end of your configuration file. Change the absolute path for Xdebug so it corresponds to the correct path on your system.
+Add the following lines at the end of your configuration file depending on Xdebug version you have. Change the absolute path for Xdebug so it corresponds to the correct path on your system.
+
+### Xdebug 2
 
 ```
 [XDEBUG]
@@ -36,6 +38,16 @@ xdebug.remote_mode = req
 xdebug.idekey="php-vs"
 ```
 
+### Xdebug 3
+
+```
+[XDEBUG]
+zend_extension="C:\Program Files (x86)\PHP\v8.0\ext\php_xdebug.dll"
+xdebug.mode=debug
+xdebug.client_host = 127.0.0.1
+xdebug.client_port = 9003
+xdebug.start_with_request=trigger
+```
 
 > **Notice**:
 >
@@ -43,7 +55,7 @@ xdebug.idekey="php-vs"
 > - **Xdebug** is incompatible with the Zend Optimizer and Zend Studio Debugger extensions. These extensions should be commented out.
 > - PHP Tools for Visual Studio has a configuration check feature that can recommend and apply configuration changes depending on your system.
 
-`xdebug.remote_port` setting has to be the same as in PHP Tools options (in Visual Studio, `Tools | Options | PHP Tools | Advanced`). The default value is `9000` and it is usually enough just to leave it as it is.
+`xdebug.remote_port` setting has to be the same as in PHP Tools options (in Visual Studio, `Tools | Options | PHP Tools | Advanced`). The default value is `9000` (For Xdebug 3 it's `9003`) and it is usually enough just to leave it as it is.
 
 > **Note**: **nginx** server using **FastCGI** may block port `9000` by default. Change **Xdebug** port to `9001` both in `php.ini` and in Visual Studio settings. Note that restarting **nginx** will not reload `php.ini`! You will need to restart **PHP**, or your server.
 
