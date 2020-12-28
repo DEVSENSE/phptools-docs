@@ -22,6 +22,10 @@ Esta lista muestra los problemas más comunes con el depurador y sus soluciones 
 
 ![Remote port directive](imgs/troubleshooting-remote-port.png)
 
+- Si tenga Xdebug 3, tu configuracion es differente:
+  
+![Remote port directive para Xdebug 3](imgs/troubleshooting-xdebug3-port.png)
+
 - Asegúrese de que la directive **PHP Web Project**, en **ASP.NET Web Site**. Puede [Crear un proyecto a partir de archivos de código fuente existentes](https://docs.microsoft.com/es-es/previous-versions/visualstudio/visual-studio-2013/754c3hy7(v=vs.120)).
 
 ## Utilizar un servidor WAMP
@@ -63,6 +67,12 @@ El problema tiene que ver con que **Xdebug** está esperando una cadena de inici
 
 ```
 xdebug.remote_autostart = 1
+```
+
+O para Xdebug 3:
+
+```
+xdebug.start_with_request=yes
 ```
 
 al archivo `php.ini` en la sección de configuración de **Xdebug** lo que lo forzará a iniciar en cada solicitud.
