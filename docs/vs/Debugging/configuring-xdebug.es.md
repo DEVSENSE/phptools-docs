@@ -25,6 +25,8 @@ Edite el archivo [PHP Configuration file](http://php.net/manual/en/configuration
 
 Añada las siguientes líneas al final de su archivo de configuración. Cambie la ruta de acceso absoluta de Xdebug para que corresponda con la ruta correcta en su sistema.
 
+### Xdebug 2
+
 ```
 [XDEBUG]
 zend_extension = "C:\Program Files (x86)\php-5.4.8\ext\php_xdebug-2.2.1-5.4-vc9-nts.dll"
@@ -34,6 +36,17 @@ xdebug.remote_host = 127.0.0.1
 xdebug.remote_port = 9000
 xdebug.remote_mode = req
 xdebug.idekey="php-vs"
+```
+
+### Xdebug 3
+
+```
+[XDEBUG]
+zend_extension="C:\Program Files (x86)\PHP\v8.0\ext\php_xdebug.dll"
+xdebug.mode=debug
+xdebug.client_host = 127.0.0.1
+xdebug.client_port = 9003
+xdebug.start_with_request=trigger
 ```
 
 
