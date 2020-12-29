@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.40.12554" date="20201229" tags="preview">
+    <note>Intellisense improvements</note>
+    <note>Warnings consolidations</note>
+    <note>Memory optimizations</note>
+    <note>IIS/Express more HTTP requests methods added to php handlers</note>
+    <note>fixes debugging support for multiple php projects</note>
+    <note>fixes Simple CMS template in New Project wizard</note>
+  </release>
   <release version="1.40.12483" date="20201223" tags="stable">
     <note>support for `@mixin` annotations</note>
     <note>fixes IntelliSense of type names in PHPDoc</note>
