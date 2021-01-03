@@ -27,7 +27,7 @@ php_diagnostic = true
 
 Add rules, according to your diagnostic error code.
 
-## Rule format
+### Rule format
 
 Rules are in format `php_diagnostic_php[ERROR_CODE] = [VALUE]` (lower cased). Possible values are:
 
@@ -54,3 +54,19 @@ php_diagnostic = error
 > Note, rule with the error code (`php_diagnostic_php[ERROR_CODE]`) has a precedence over the rule without the error code (`php_diagnostic`). 
 
 > Code editor will always highlight fatal errors, even tho the error will be suppressed using `false`, `off`, `none`, or `silent` rule.
+
+## @suppress PHPDoc tag
+
+Problems can be suppressed for a specified function or a class only. Following PHPDoc tags allows to suppress warnings in the associated function block or class block: `@suppresswarnings`, `@suppress`, or `@suppresswarning`.
+
+```php
+<?php
+
+/**
+ * @suppress PHP6401
+ */
+function foo() {
+    // something with error 6401, won't be reported
+}
+```
+Suppressed error codes can be optionally separated by a comma or a space.

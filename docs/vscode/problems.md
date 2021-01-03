@@ -42,6 +42,23 @@ Any rules matching the same folder are merged, as depicted on the sample below. 
 }
 ```
 
+## @suppress PHPDoc tag
+
+Problems can be suppressed for a specified function or a class only. Following PHPDoc tags allows to suppress warnings in the associated function block or class block: `@suppresswarnings`, `@suppress`, or `@suppresswarning`.
+
+```php
+<?php
+
+/**
+ * @suppress PHP6401
+ */
+function foo() {
+    // something with error 6401, won't be reported
+}
+```
+
+Suppressed error codes can be optionally separated by a comma or a space.
+
 ## Related links
 
 - [Configuration](configuration)
