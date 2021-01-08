@@ -1,5 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.50.12628" date="202101" tags="stable">
+    <note category="Code Analysis">optimizations</note>
+    <note category="Code Analysis">respects @template annotation in PHPDoc</note>
+    <note category="Code Analysis">handles inline @var annotation</note>
+    <note category="Code Analysis">signature help for ambiguous constructors (new \ReflectionMethod)</note>
+    <note category="Code Analysis">PHPDoc array type with union elements annotation (array&lt;A\B\C&gt;)</note>
+    <note category="Code Analysis">PHPDoc allows for nullable type annotation (e.g. ?int)</note>
+    <note category="Code Analysis">improves code analysis, avoids some false positives</note>
+    <note category="Code Analysis">improves code flow analysis, isset(), is_resource(), and type inference</note>
+    <note category="Code Analysis">improves analysis for lambda function use variables</note>
+    <note category="Code Analysis">CLI specific constants and variables are allowed and code completed</note>
+    <note category="Code Analysis">updates .phpstorm.meta.php parser for type inference</note>
+    <note category="Code Analysis">does not respect PHP4-style ctor when using PHP 7.1+</note>
+    <note category="Code Analysis">fixes return check of generator functions</note>
+    <note category="Code Analysis">fixes check for __clone() magic method, can be private</note>
+    <note category="Code Analysis">fixes check for array access on \SplObjectStorage</note>
+    <note category="Code Analysis">fixes case and array key duplicity check for non-printable characters</note>
+    <note category="Editor">(VS2017, VS2019) Progress UI in lower left corner of VS.</note>
+    <note category="Editor">(VS2019) Improves type names shown in tool tips.</note>
+    <note category="Editor">performance optimizations</note>
+    <note category="Editor">"Go to Implementation" for traits</note>
+    <note category="Editor">fixes "Go to Implementation" in case of an anonymous class</note>
+  </release>
   <release version="1.40.12554" date="20201229" tags="preview">
     <note>Intellisense improvements</note>
     <note>Warnings consolidations</note>
