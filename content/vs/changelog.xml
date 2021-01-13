@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.50.12637" date="20210113" tags="preview">
+    <note>Disabled continuous analysis of entire project.</note>
+    <note>Stability fixes.</note>
+    <note>Test executor uses correct arguments.</note>
+  </release>
   <release version="1.50.12628" date="20210108" tags="stable">
     <note category="Code Analysis">optimizations</note>
     <note category="Code Analysis">respects @template annotation in PHPDoc</note>
