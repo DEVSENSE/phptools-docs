@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.12639" date="20210114" tags="preview">
-    <note>Disabled continuous analysis of entire project.</note>
+  <release version="1.50.12659" date="20210118" tags="preview">
+    <note>Better tooltip in case it can be either a class or function.</note>
+    <note>Optimizations.</note>
     <note>Stability fixes.</note>
     <note>Test executor uses correct arguments.</note>
   </release>
@@ -33,7 +34,7 @@
     <note>Warnings consolidations</note>
     <note>Memory optimizations</note>
     <note>IIS/Express more HTTP requests methods added to php handlers</note>
-    <note>fixes debugging support for multiple php projects</note>
+    <note>allows to debug multiple PHP projects</note>
     <note>fixes Simple CMS template in New Project wizard</note>
   </release>
   <release version="1.40.12483" date="20201223" tags="stable">
