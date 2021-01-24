@@ -15,7 +15,7 @@ You can download the `.vsix` installation file from our [download section](https
 
 The program may perform an additional download of dependencies during the first start, after the installation. Please, be sure to have an Internet connection. In case your computer cannot go online, do one of the following:
 
-- Install Microsoft .NET Core Runtime 3.0 or newer for your platform (More information on https://www.microsoft.com/net/download), or
+- Install Microsoft .NET 5.0, Runtime or Sdk, for your platform (More information on https://www.microsoft.com/net/download), or
 - Advanced: Download the dependency manually. See VSCode's Output, panel 'PHP', for the log and the URL of the dependency. Extract the zip file into `/out/server` of the extension's installation directory.
 
 ## Configuration options
