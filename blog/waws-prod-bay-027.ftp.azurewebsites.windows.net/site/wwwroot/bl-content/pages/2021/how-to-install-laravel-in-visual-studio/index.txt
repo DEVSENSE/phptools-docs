@@ -1,0 +1,6 @@
+In this blog post I would like to demonstrate how to install Laravel in Visual Studio. I will use new project wizard which we have in PHP Tools for Visual Studio. Laravel is first more complex framework we have there, but we are definitely going to add more of them. Just let us know which ones you'd like to prioritize.
+
+Our goal here was to make this experience as simple as possible. Laravel framework has certain requirements that you should install and configure first. But instead of going to google it and search for tutorial (like this one ;-) ) you should be able to create the Laravel project just with few clicks.
+
+## 1. Click Create a new project
+

@@ -3,14 +3,28 @@
     "annoucement": {
         "name": "annoucement",
         "list": [
+            "2020\/php-tools-september-2020",
             "2015\/09\/annoucement-phalanger-tools",
             "2015\/07\/php-innovation-award"
+        ]
+    },
+    "announcement": {
+        "name": "announcement",
+        "list": [
+            "2020\/updates-visual-studio-november-2020"
         ]
     },
     "apache": {
         "name": "Apache",
         "list": [
             "2018\/04\/wsl"
+        ]
+    },
+    "code": {
+        "name": "code",
+        "list": [
+            "2020\/php-8-visual-studio-code",
+            "2020\/php-tools-for-vs-code-november-2020"
         ]
     },
     "code-validation": {
@@ -66,9 +80,16 @@
             "2015\/09\/newsletter-phptools-1.18"
         ]
     },
+    "installation": {
+        "name": "installation",
+        "list": [
+            "2020\/installing-php-8-one-click"
+        ]
+    },
     "intellisense": {
         "name": "IntelliSense",
         "list": [
+            "2020\/php-8-editor-in-visual-studio",
             "2016\/12\/phptools-1.21",
             "2015\/10\/codesense-best-practices"
         ]
@@ -94,6 +115,7 @@
     "news": {
         "name": "news",
         "list": [
+            "2020\/updates-visual-studio-november-2020",
             "2018\/04\/phptools-1.27",
             "2018\/02\/phptools-1.26",
             "2017\/11\/phptools-1.25",
@@ -149,6 +171,11 @@
     "php": {
         "name": "php",
         "list": [
+            "2020\/php-8-visual-studio-code",
+            "2020\/installing-php-8-one-click",
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020",
+            "2020\/php-tools-september-2020",
             "2019\/php-tracepoint-logpoint",
             "2019\/how-to-install-phptools-for-vscode-on-windows",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
@@ -178,6 +205,13 @@
             "2016\/02\/newsletter-phptools-1.19"
         ]
     },
+    "php-8": {
+        "name": "php 8",
+        "list": [
+            "2020\/php-8-visual-studio-code",
+            "2020\/php-8-editor-in-visual-studio"
+        ]
+    },
     "php-tools": {
         "name": "php tools",
         "list": [
@@ -188,6 +222,12 @@
         "name": "PHP7",
         "list": [
             "2016\/10\/php7"
+        ]
+    },
+    "php8": {
+        "name": "php8",
+        "list": [
+            "2020\/installing-php-8-one-click"
         ]
     },
     "phpdoc": {
@@ -296,10 +336,39 @@
             "2016\/11\/unusedcode"
         ]
     },
+    "update": {
+        "name": "update",
+        "list": [
+            "2020\/php-tools-september-2020"
+        ]
+    },
+    "updates": {
+        "name": "updates",
+        "list": [
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020"
+        ]
+    },
+    "visual-studio": {
+        "name": "Visual Studio",
+        "list": [
+            "2020\/php-8-editor-in-visual-studio",
+            "2020\/installing-php-8-one-click",
+            "2020\/updates-visual-studio-november-2020",
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/php-tools-september-2020"
+        ]
+    },
     "visual-studio-2017": {
         "name": "Visual Studio 2017",
         "list": [
             "2016\/11\/vs2017"
+        ]
+    },
+    "visual-studio-code": {
+        "name": "visual studio code",
+        "list": [
+            "2020\/php-8-visual-studio-code"
         ]
     },
     "visualstudio": {
@@ -337,6 +406,19 @@
             "2017\/04\/phptools-1.23",
             "2017\/01\/phptools-1.22",
             "2016\/12\/phptools-1.21"
+        ]
+    },
+    "vsc": {
+        "name": "vsc",
+        "list": [
+            "2020\/php-8-visual-studio-code"
+        ]
+    },
+    "vscode": {
+        "name": "vscode",
+        "list": [
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020"
         ]
     },
     "wsl": {

@@ -5,6 +5,10 @@
         "template": "",
         "description": "",
         "list": [
+            "2020\/updates-visual-studio-november-2020",
+            "2020\/php-tools-for-vs-code-november-2020",
+            "2020\/phptools-vs-code-september-2020",
+            "2020\/php-tools-september-2020",
             "2019\/php-tools-updates-october-2019",
             "2019\/php-7.4-vs-code",
             "2019\/php74-visual-studio",
@@ -17,6 +21,8 @@
         "description": "",
         "template": "",
         "list": [
+            "2020\/php-8-visual-studio-code",
+            "2020\/php-8-editor-in-visual-studio",
             "8-tips-a-new-php-developer-should-know",
             "2019\/factors-to-consider-when-choosing-your-php-development-tool",
             "2019\/how-to-install-laravel-for-visual-studio-code",
@@ -61,6 +67,8 @@
         "template": "",
         "description": "",
         "list": [
+            "2020\/how-to-setup-iis-for-php-development",
+            "2020\/installing-php-8-one-click",
             "2019\/debugging-in-visual-studio-code",
             "2019\/debugging-php-in-visual-studio",
             "2019\/installing-and-user-composer-for-php",

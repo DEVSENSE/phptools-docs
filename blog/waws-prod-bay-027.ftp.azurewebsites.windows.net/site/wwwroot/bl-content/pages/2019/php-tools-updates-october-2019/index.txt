@@ -34,7 +34,7 @@ In addition to hundreds of various diagnostics, PHP Tools now checks that every 
 
 ## Rich tooltip experience
 
-This one goes for all Visual Studio 2019 users - tooltips are now clickable allowing you to jump directly to classes, traits and interfaces. Moreover; there are clickable @link annotations and links to the online documentation if available. This greatly enhances productivity letting you navigate through your code even more intuitively.
+This one goes for all Visual Studio 2019 users - tooltips are now clickable allowing you to jump directly to classes, traits and interfaces. Also, now there are clickable @link annotations and links to the online documentation if available. This greatly enhances productivity letting you navigate through your code even more intuitively.
 
 ![Image description](https://blog.devsense.com/bl-content/uploads/pages/c9581545dd59e1c376594c19f186862b/Richtooltipexperience.png)
 

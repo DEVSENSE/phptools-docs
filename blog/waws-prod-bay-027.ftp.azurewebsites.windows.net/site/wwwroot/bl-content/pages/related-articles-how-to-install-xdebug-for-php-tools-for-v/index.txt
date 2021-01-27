@@ -68,7 +68,7 @@ Developers who set up a MAMP as their development environment can develop, test 
 
 While Apache is one of the most popular web servers, nginx is web HTTP and proxy server that is very lightweight compared to the other platforms mentioned here, and can be used to serve PHP through a CGI interface.
 
-OK - that might have been a lot of complex stuff.  The point is - if you want to run PHP but don’t want to go through the entire process of dealing with Apache and the extensions, running an environment with nginx and PHP through (PHP-FPM)[https://php-fpm.org/] (FastCGI Process Manager) is a popular alternative.
+OK - that might have been a lot of complex stuff.  The point is - if you want to run PHP but don’t want to go through the entire process of dealing with Apache and the extensions, running an environment with nginx and PHP through [PHP-FPM](https://php-fpm.org/) (FastCGI Process Manager) is a popular alternative.
 
 ## IIS Windows Based
 
@@ -92,7 +92,7 @@ Package solutions put the entire system into one easy-to-maintain system.  Inste
 
 ![XAMPP](https://blog.devsense.com/bl-content/uploads/pages/80deb05b08a8c7ae41dfbce2e97d9972/xampp.png)
 
-(XAMPP)[https://www.apachefriends.org/index.html] sounds like one of the MP3 music players from the 1990’s - the kind with 50 different kinds of psychedelic visual effects, but it stands for Apache + MariaDB + PHP + Perl.  XAMPP is made to be a cross platform development environment for Windows, Mac and Linux, so you can install it from one command, and control it through the XAMPP Control Panel.  No more command line typing away - start and stop with just a click of the button!  Click and configure!  Live life away from the command line!
+[XAMPP](https://www.apachefriends.org/index.html) sounds like one of the MP3 music players from the 1990’s - the kind with 50 different kinds of psychedelic visual effects, but it stands for Apache + MariaDB + PHP + Perl.  XAMPP is made to be a cross platform development environment for Windows, Mac and Linux, so you can install it from one command, and control it through the XAMPP Control Panel.  No more command line typing away - start and stop with just a click of the button!  Click and configure!  Live life away from the command line!
 
 ![More Angry Mobs](https://blog.devsense.com/bl-content/uploads/pages/80deb05b08a8c7ae41dfbce2e97d9972/angrymob2.gif)
 
