@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "autosave-8ca49325977531b5f35d04576d77b183": {
+        "title": "How to install Laravel for Visual Studio Code[Autosave]",
+        "description": "",
+        "username": "miloslav",
+        "tags": [],
+        "type": "autosave",
+        "date": "2021-01-27 11:31:25",
+        "dateModified": "",
+        "position": 0,
+        "coverImage": "",
+        "category": "",
+        "md5file": "97871fb7ca7b9a6a0fb1965e3ba38a12",
+        "uuid": "autosave-8ca49325977531b5f35d04576d77b183",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "autosave-4fbe812e65d01cc03b62b36eeb7e7f10": {
         "title": "How to install Laravel in Visual Studio[Autosave]",
         "description": "",
