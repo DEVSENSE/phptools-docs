@@ -1,10 +1,8 @@
 In this blog post I would like to demonstrate how to install **Laravel** in Visual Studio. I will use new project wizard which we have in PHP Tools for Visual Studio. 
 
-The **Laravel** is first more complex framework we have added to the wizard, but we are definitely going to add more of them. Just let us know which ones you'd like to prioritize.
-
 Our goal here was to make this experience as simple as possible. The **Laravel** framework has certain requirements that you should install and configure first. But instead of googling the tutorial (like this one ;-) ). You should be able achive all of that just with few clicks directly in Visual Studio.
 
-# Creating Laravel Project
+## Creating Laravel Project
 
 ### 1. Click Create a new project
 
@@ -20,9 +18,9 @@ Our goal here was to make this experience as simple as possible. The **Laravel**
 
 ### 4. Select Laravel template
 
-I've changed which **PHP** will be used to **PHP 8.0**, which I don't yet have on my machine (Of course I do and you should too, but I just deleted it for this demo :-) ). I've checked **Common Project System** (VS 2019 only!), because it's so much better than previous project system we've used since VS2010, even in it's current experimental state.
+I've **PHP 8.0** for this project, which I don't yet have on my machine (Of course I do and you should too, but I just deleted it for this demo :-) ). I've checked **Common Project System** (VS 2019 only!), because it's much better than previous project system we've used since VS2010, even in it's current experimental state.
 
-![Laravel project](https://blog.devsense.com/bl-content/uploads/pages/4fbe812e65d01cc03b62b36eeb7e7f10/laravel-project.png)
+![Laravel project](https://blog.devsense.com/bl-content/uploads/pages/4fbe812e65d01cc03b62b36eeb7e7f10/laravel-project-template.png)
 
 ### 5. Wait
 
@@ -44,11 +42,11 @@ To verify if it's really installed, just press <kbr>F5</kbd>. You should see thi
 
 ![Initial Laravel page](https://blog.devsense.com/bl-content/uploads/pages/4fbe812e65d01cc03b62b36eeb7e7f10/debug.png)
 
-# Adding Laravel plugins
+## Adding Laravel plugins
 
 Once **Laravel** is installed, you may want to install one of many plugins. There are plugins that will provide you with great looking admin section, role based security, ecommerce features, etc. There is really a lot to choose from.
 
-You can install any of those plugins directly within Visual Studio. Right click on **Dependencies** node in the **Solution Explorer** and select Install new composer package...
+You can install any of those plugins directly within Visual Studio. Right click on **Dependencies** node in the **Solution Explorer** and select **Install new composer package...**
 
 ![Install new composer package](https://blog.devsense.com/bl-content/uploads/pages/4fbe812e65d01cc03b62b36eeb7e7f10/add-package.png)
 
@@ -62,4 +60,4 @@ You will know it's installed from the status bar or when Composer Output pane sh
 
 ## Conclusion
 
-We've tried to make this experience as straight forward as possible. Please let us know how it worked for you or what other framework we should add next.
+We've tried to make this experience as straight forward as possible. The **Laravel** is first complex framework template we have added to the new project wizard, but we are definitely going to add more of them. Please let us know how it worked for you or what other framework we should add next.
