@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.12659" date="20210118" tags="preview">
+  <release version="1.50.12752" date="20210203" tags="preview">
+    <note>Colorizing and analysing code in rename refactoring preview.</note>
+    <note>Colorizing code in peek window.</note>
+    <note>Code analysis respects subtypes, trait implementors, and mixins.</note>
+    <note>Improves type analysis of standard functions.</note>
+    <note>Improves type analysis and code analysis of user's code.</note>
+    <note>Avoids some falsely reported warnings.</note>
+    <note>Updated PCRE checks.</note>
+    <note>Improves rename refactoring for fuctions as strings.</note>
+    <note>Validating and automatically enabling PHP extensions in Laravel.</note>
+    <note>Updates Xdebug to 3.0.2. (3.0.0 has issues when unsetting breakpoints)</note>
     <note>Better tooltip in case it can be either a class or function.</note>
+    <note>Improves phpstorm metadata processing.</note>
     <note>Optimizations.</note>
     <note>Stability fixes.</note>
     <note>Test executor uses correct arguments.</note>
+    <note category="Debug">Fixes remote debugging with path mapping with spaces.</note>
   </release>
   <release version="1.50.12628" date="20210108" tags="stable">
     <note category="Code Analysis">optimizations</note>
