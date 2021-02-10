@@ -3,7 +3,7 @@
   <release version="1.50.12791" date="20210210" tags="preview">
     <note>Fixes new project creation.</note>
     <note>Asynchronous code completion popup.</note>
-    <note>(VS219) Improves editor responsiveness.</note>
+    <note>(VS2019) Improves editor responsiveness.</note>
     <note>Fixes exception during project analysis.</note>
     <note>Less warnings about suspicious type conversions between `string` and `number`.</note>
     <note>Improves analysis of WordPress code base.</note>
