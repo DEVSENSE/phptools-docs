@@ -8,6 +8,9 @@
     <note>DBGp Proxy support fixes for the server downloaded from the Xdebug home page</note>
     <note>fixes missing declarations in IntelliSense</note>
     <note>speedups project load</note>
+    <note>fixes falsely reported composer missing packages warning</note>
+    <note>fixes duplicate composer warning bar</note>
+    <note>fixes composer tree (performance and too many packages listed)</note>
   </release>
   <release version="1.50.12804" date="20210213" tags="preview">
     <note>Fixes list of required composer packages.</note>
