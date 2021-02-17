@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.50.12845" date="20210217" tags="preview">
+    <note>updated PHP manual with more PHP 8 declarations</note>
+    <note>avoided a few falsely reported problems</note>
+    <note>fixes type analysis for reserved keywords within PHPDoc `@return` tag</note>
+    <note>more details in tool-tips for built-in type keywords</note>
+    <note>DBGp Proxy support fixes for the server downloaded from the Xdebug home page</note>
+    <note>fixes missing declarations in IntelliSense</note>
+    <note>speedups project load</note>
+  </release>
   <release version="1.50.12804" date="20210213" tags="preview">
     <note>Fixes list of required composer packages.</note>
     <note>Twig editor fixes.</note>
