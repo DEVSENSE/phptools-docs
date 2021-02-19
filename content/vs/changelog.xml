@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.12845" date="20210217" tags="preview">
+  <release version="1.50.12845" date="20210217" tags="stable">
     <note>updated PHP manual with more PHP 8 declarations</note>
     <note>avoided a few falsely reported problems</note>
     <note>fixes type analysis for reserved keywords within PHPDoc `@return` tag</note>
