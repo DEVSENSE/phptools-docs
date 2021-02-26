@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.50.12923" date="20210226" tags="stable">
+    <note>(VS 2019) Fixes of Publish functionality.</note>
+    <note>Reverted asynchronous code completion.</note>
+    <note>Fixes `NullReferenceException` dialog when renaming files.</note>
+    <note>Fixes crash on opening a project.</note>
+    <note>Fixes crash when working with Drupal projects.</note>
+    <note>(VS 2019) Shows details about indexing PHP files in VS progress status (lower left corner).</note>
+    <note>Improves performance when having composer packages.</note>
+    <note>Improves project load times.</note>
+    <note>Overall performance improvements.</note>
+    <note>Logs details from WebPlatformInstaller process.</note>
+  </release>
   <release version="1.50.12866" date="20210218" tags="stable">
     <note>fixes possible stuck on project load</note>
     <note>fixes tests run</note>
