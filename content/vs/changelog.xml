@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.12923" date="20210226" tags="stable">
+  <release version="1.50.12929" date="20210226" tags="stable">
     <note>(VS 2019) Fixes of Publish functionality.</note>
     <note>Reverted asynchronous code completion.</note>
     <note>Fixes `NullReferenceException` dialog when renaming files.</note>
