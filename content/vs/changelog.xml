@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.12946" date="20210303" tags="preview">
+  <release version="1.50.12989" date="20210305" tags="preview">
     <note>Improves editor responsiveness.</note>
     <note>Fixes not disapearing signature help in anonymous functions.</note>
+    <note>Fixes error underlining when `.editorconfig` is applied.</note>
+    <note>Fixes debugger when using Xdebug 3.0.</note>
     <note>Smart indenting of `finally` block.</note>
     <note>Clickable URLs in tool tips.</note>
     <note>Composer integration fixes.</note>
