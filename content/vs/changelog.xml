@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.12991" date="20210305" tags="preview">
+  <release version="1.50.12995" date="20210305" tags="preview">
     <note>Improves editor responsiveness.</note>
     <note>Fixes not disapearing signature help in anonymous functions.</note>
     <note>Fixes error underlining when `.editorconfig` is applied.</note>
