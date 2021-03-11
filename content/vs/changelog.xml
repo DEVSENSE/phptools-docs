@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.13017" date="20210309" tags="preview">
+  <release version="1.50.13029" date="20210311" tags="preview">
     <note>(VS 2019) Option to choose whether to analyse user code and/or vendor folder(s). "User code" only by default.</note>
+    <note>Smart indenting of `finally` block.</note>
+    <note>Clickable URLs in tool tips.</note>
     <note>Improves editor responsiveness.</note>
     <note>Fixes not disapearing signature help in anonymous functions.</note>
     <note>Fixes error underlining when `.editorconfig` is applied.</note>
     <note>Fixes debugger when using Xdebug 3.0.</note>
-    <note>Smart indenting of `finally` block.</note>
-    <note>Clickable URLs in tool tips.</note>
+    <note>Stability fixes (fixes crash on malformed `.editorconfig`).</note>
     <note>Composer integration fixes.</note>
     <note>Composer window fixes.</note>
   </release>
