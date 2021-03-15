@@ -42,6 +42,7 @@
     "composer": {
         "name": "composer",
         "list": [
+            "2021\/php-tools-vs-march-2021",
             "2015\/03\/newsletter-phptools-1-15"
         ]
     },
@@ -171,6 +172,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-tools-vs-march-2021",
             "2020\/php-8-visual-studio-code",
             "2020\/installing-php-8-one-click",
             "2020\/php-tools-for-vs-code-november-2020",
@@ -227,6 +229,7 @@
     "php8": {
         "name": "php8",
         "list": [
+            "2021\/php-tools-vs-march-2021",
             "2020\/installing-php-8-one-click"
         ]
     },
@@ -339,6 +342,7 @@
     "update": {
         "name": "update",
         "list": [
+            "2021\/php-tools-vs-march-2021",
             "2020\/php-tools-september-2020"
         ]
     },
@@ -350,8 +354,9 @@
         ]
     },
     "visual-studio": {
-        "name": "Visual Studio",
+        "name": "visual studio",
         "list": [
+            "2021\/php-tools-vs-march-2021",
             "2020\/php-8-editor-in-visual-studio",
             "2020\/installing-php-8-one-click",
             "2020\/updates-visual-studio-november-2020",
@@ -428,8 +433,9 @@
         ]
     },
     "xdebug": {
-        "name": "Xdebug",
+        "name": "xdebug",
         "list": [
+            "2021\/php-tools-vs-march-2021",
             "2018\/04\/wsl",
             "2015\/10\/debugging-multiple-projects"
         ]

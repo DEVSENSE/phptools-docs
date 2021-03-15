@@ -1,5 +1,32 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-vs-march-2021": {
+        "title": "PHP Tools for Visual Studio (March 2021)",
+        "description": "Read the latest news about PHP Tools for Visual Studio. We're happy to show you the newest features, code analysis enhancements, version updates, and more.",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "update": "update",
+            "visual-studio": "visual studio",
+            "php8": "php8",
+            "composer": "composer",
+            "xdebug": "xdebug"
+        },
+        "type": "published",
+        "date": "2021-03-13 12:42:29",
+        "dateModified": "2021-03-14 09:05:00",
+        "position": 33,
+        "coverImage": "box_0.png",
+        "category": "annoucement",
+        "md5file": "24a55aca01f73a2271014892425db86a",
+        "uuid": "766dc8031b7a375bd8a9fe33df8d53cb",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/how-to-install-laravel-in-visual-studio": {
         "title": "How to install Laravel in Visual Studio",
         "description": "",
