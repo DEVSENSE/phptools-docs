@@ -1,3 +1,10 @@
+## 1.50.13045 (March 18, 2021) preview
+
+- fixes lag when opening code completion
+- improves tooltip perf. for variables
+- memory optimizations
+- fixes phpunit integration when phpunit is required in `composer.json`
+
 ## 1.50.13029 (March 11, 2021) preview
 
 - (VS 2019) Option to choose whether to analyse user code and/or vendor folder(s). "User code" only by default.

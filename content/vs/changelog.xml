@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
+  <release version="1.50.13045" date="20210318" tags="preview">
+    <note>fixes lag when opening code completion</note>
+    <note>improves tooltip perf. for variables</note>
+    <note>memory optimizations</note>
+    <note>fixes phpunit integration when phpunit is required in `composer.json`</note>
+  </release>
   <release version="1.50.13029" date="20210311" tags="preview">
     <note>(VS 2019) Option to choose whether to analyse user code and/or vendor folder(s). "User code" only by default.</note>
     <note>Smart indenting of `finally` block.</note>
