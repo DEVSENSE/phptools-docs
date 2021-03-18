@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <changelog>
-  <release version="1.50.13046" date="20210318" tags="preview">
+  <release version="1.50.13048" date="20210318" tags="preview">
     <note>fixes lag when opening code completion</note>
     <note>improves tooltip perf. for variables</note>
     <note>memory optimizations</note>

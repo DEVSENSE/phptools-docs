@@ -1,4 +1,4 @@
-## 1.50.13046 (March 18, 2021) preview
+## 1.50.13048 (March 18, 2021) preview
 
 - fixes lag when opening code completion
 - improves tooltip perf. for variables
