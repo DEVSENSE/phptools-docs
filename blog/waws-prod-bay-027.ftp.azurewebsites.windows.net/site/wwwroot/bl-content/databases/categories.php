@@ -5,6 +5,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2021\/php-tools-vs-code-march",
             "2021\/php-tools-vs-march-2021",
             "2020\/updates-visual-studio-november-2020",
             "2020\/php-tools-for-vs-code-november-2020",

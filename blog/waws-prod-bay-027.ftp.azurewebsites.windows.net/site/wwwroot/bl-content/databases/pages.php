@@ -1,5 +1,31 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-vs-code-march": {
+        "title": "PHP Tools in VS Code (March 2021)",
+        "description": "Read the latest updates for PHP Tools in Visual Studio Code. We have been working on improving the performance, fixing debugging support, and providing more editor features as well.",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "vscode": "vscode",
+            "code": "code",
+            "phpstorm": "phpstorm",
+            "refactoring": "refactoring"
+        },
+        "type": "published",
+        "date": "2021-03-20 10:18:21",
+        "dateModified": "2021-03-20 10:31:03",
+        "position": 34,
+        "coverImage": "phptools-vscode.png",
+        "category": "annoucement",
+        "md5file": "33cc02f2fd40bb81cf8a3acbc4f2239d",
+        "uuid": "b1e1ea83361c12a71236c624f2a00b0c",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-tools-vs-march-2021": {
         "title": "PHP Tools for Visual Studio (March 2021)",
         "description": "Read the latest news about PHP Tools for Visual Studio. We're happy to show you the newest features, code analysis enhancements, version updates, and more.",
@@ -14,11 +40,11 @@
         },
         "type": "published",
         "date": "2021-03-13 12:42:29",
-        "dateModified": "2021-03-14 09:05:00",
+        "dateModified": "2021-03-17 10:43:55",
         "position": 33,
         "coverImage": "box_0.png",
         "category": "annoucement",
-        "md5file": "24a55aca01f73a2271014892425db86a",
+        "md5file": "e4bcd2743ce2520eac2fd1d92b94c148",
         "uuid": "766dc8031b7a375bd8a9fe33df8d53cb",
         "allowComments": true,
         "template": "",
