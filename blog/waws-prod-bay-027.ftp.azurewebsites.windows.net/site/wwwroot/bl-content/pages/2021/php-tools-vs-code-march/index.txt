@@ -29,6 +29,6 @@ The other improvements include:
 
 ## Stability Fixes & Optimizations
  
-- **DBGp Proxy** now supports more protocols, including the binaries you can download from the xdebug.org website.
+- **DBGp Proxy** now supports more protocols, including the binaries you can download from the xdebug.org website. More about setting DBGp Proxy in your workspace see [docs.devsense.com/vscode/debug/launch-json](https://docs.devsense.com/en/vscode/debug/launch-json#dbgp-proxy-settings).
 - **The pretty-printing** feature has been improved to handle well various specific cases, such as grouping in "use" construct, or anonymous functions.
 - We are continuously working on **performance improvements**. Recent updates fix a lot of issues with the language server not being closed on macOS, or extensive consumption of CPU in the background. Thanks for all the great feedback we're getting!
