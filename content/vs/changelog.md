@@ -1,9 +1,11 @@
-## 1.50.13050 (March 18, 2021) preview
+## 1.50.13071 (March 24, 2021) preview
 
-- fixes lag when opening code completion
-- improves tooltip perf. for variables
-- memory optimizations
-- fixes phpunit integration when phpunit is required in `composer.json`
+- Fixes lag when opening code completion.
+- Shows PHP log in Output's `Debug` pane.
+- Improves code analysis in try/catch.
+- Improves tooltip perf. for variables.
+- Memory optimizations.
+- Fixes phpunit integration when phpunit is required in `composer.json`.
 
 ## 1.50.13029 (March 11, 2021) preview
 
