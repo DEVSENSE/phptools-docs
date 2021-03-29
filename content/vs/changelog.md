@@ -1,3 +1,16 @@
+## 1.51.13118 (March 29, 2021) preview
+
+- updated Pico CMS project template (2.1.4)
+- outputs more information during debug in output window
+- CPS project template updated
+- updated PHP parser
+
+### Test Explorer
+
+- lists all the phpunit configurations
+- test projects are correctly named
+- improved performance
+
 ## 1.50.13071 (March 24, 2021) preview
 
 - Fixes lag when opening code completion.
