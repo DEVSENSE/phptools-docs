@@ -5,7 +5,7 @@
 - CPS project template updated
 - updated PHP parser
 
-### Test Explorer
+**Test Explorer**
 
 - lists all the phpunit configurations
 - test projects are correctly named
