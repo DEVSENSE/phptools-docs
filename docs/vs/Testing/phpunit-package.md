@@ -10,8 +10,8 @@ PHP Tools come with bundled version of PHPUnit in case there is no user installa
 
 ## Custom PHPUnit
 
-PHP Tools will use users phpunit package in case it is configured in project' `composer.json` (as a composer package). In order to use custom phpunit see [Composer section](../project/composer), and ensure there is `phpunit/phpunit` composer package installed.
+PHP Tools will use users' PHPUnit package in case it is configured in project' `composer.json` (as a composer package). In order to use custom PHPUnit see [Composer section](../project/composer), and ensure there is `phpunit/phpunit` composer package installed.
 
 ## Bundled PHPUnit
 
-In case there is no `phpunit/phpunit` composer package, the Test Explorer will use bundled PHPUnit; a stable version of PHPUnit chosen accordingly to currently set PHP runtime version.
+In case there is no `phpunit/phpunit` composer package, the Test Explorer will use bundled PHPUnit; a stable version of PHPUnit chosen accordingly for the PHP version configured in the Project Properties.
