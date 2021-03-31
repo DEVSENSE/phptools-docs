@@ -43,6 +43,14 @@ Since version 1.16, PHPDoc content is also colorized. Its tags contained type na
 
 Since version 1.16, type names are highlighted. The color respects Display item `User Types - Classes`.
 
+## Highlighting braces
+
+Matching pair of braces are automatically highlighted as well. Upon moving the keyboard caret at the outer position next to any brace (`(`, `)`, `[`, `]`, `<`, `>`), it gets highlighted together with its matching brace.
+
+![PHP brace highlighting](imgs/highlight-braces.png)
+
+You can also jump between matching braces using the keyboard shortcut (by default `Ctrl`+`]`).
+
 ## Switching Themes
 
 When switching to a different color theme (e.g. Dark Theme), all built-in colors are switched as well to their default, respecting the new theme. Additional colors (prefixed with PHP) have to be changed manually to improve readability in the new theme.
