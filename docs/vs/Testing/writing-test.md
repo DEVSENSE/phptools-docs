@@ -8,7 +8,9 @@ Version: 1.13 and higher
 
 Test case is a PHP class containing test methods. See [phpunit.de/manual](http://phpunit.de/manual/current/en/writing-tests-for-phpunit.html) for more information about PHPUnit tests.
 
-**Test Explorer** (in the menu `Test / Test Explorer`) lists all the available tests suites by looking in `phpunit.xml` and `phpunit.xml.dist` configuration files in your projects.
+**Test Explorer** (in the menu `Test / Test Explorer`) lists all the available tests suites by looking in `phpunit.xml` and `phpunit.xml.dist` configuration files in opened projects.
+
+> **Note:** `phpunit.xml` nor `phpunit.xml.dist` files in `vendor/` subfolder are ignored.
 
 By default, the test file name must be placed within `tests` subdirectory, its name suffixed with `Test.php`, and the contained test class name suffixed with `Test`, extending the PHPUnit framework `TestCase` class. All the test methods should be either prefixed with `test` (lowercased) or having a PHPDoc tag `@test`.
 
