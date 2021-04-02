@@ -6,20 +6,28 @@ Version: 1.14 and higher
 
 # Test Configuration
 
-Custom configuration of test cases can be defined in a standard [PHPUnit Configuration file](http://phpunit.de/manual/current/en/appendixes.configuration.html). This allows to specify bootstrap script, timeouts, error handling and other PHPUnit framework options.
+Configuration of test cases is defined in a standard [PHPUnit Configuration file](http://phpunit.de/manual/current/en/appendixes.configuration.html). This allows to specify bootstrap script, timeouts, location of the test files, error handling and other PHPUnit framework options.
 
-## Choosing Configuration File
+See [writing a test case](writing-test) for more details.
 
-The Configuration file must be a valid XML file containing `<phpunit>` root element. To choose active test configuration, go to the Solution Explorer, right click onto a configuration file and choose 'Active PHPUnit Configuration'.
+## Configuration Files
 
-> **Note:** Active PHPUnit Configuration setting is stored per user (within Solution User Options (.suo) file).
+**Test Explorer** (in the menu `Test / Test Explorer`) lists all the available tests suites by looking in `phpunit.xml` and `phpunit.xml.dist` configuration files within all the opened projects.
 
-![PHPUnit configuration context menu](imgs/testconfig-menu.png "PHPUnit configuration context menu.")
+By default, there should be a single `phpunit.xml` file in the root of PHP project with the following text:
 
-If no configuration file is set, the test runner will try to find a configuration file in the root of your solution directory and then in the root of your projects.
+```xml
+<phpunit
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.3/phpunit.xsd"
+         backupGlobals="true"
+         backupStaticAttributes="false">
+  <testsuites>
+    <testsuite name="My Test Suite">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
+```
 
-## Editing Configuration File
-
-The second command in the menu is `Open in Configuration Editor`. This opens the configuration editor which allows to set various PHPUnit options. See PHPUnit documentation for more information.
-
-![PHPUnit configuration](imgs/phpunit-config-editor.png "PHPUnit configuration.")
+Customize the file according to the [PHPUnit documentation](http://phpunit.de/manual/current/en/appendixes.configuration.html).
