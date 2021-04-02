@@ -1,4 +1,4 @@
-## 1.51.13159 (April 2, 2021) preview
+## 1.51.13160 (April 2, 2021) preview
 
 - updated Pico CMS project template (2.1.4)
 - outputs more information during debug in output window
