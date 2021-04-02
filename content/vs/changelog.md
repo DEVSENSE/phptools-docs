@@ -1,15 +1,36 @@
-## 1.51.13121 (March 29, 2021) preview
+## 1.51.13159 (April 2, 2021) preview
 
 - updated Pico CMS project template (2.1.4)
 - outputs more information during debug in output window
+- reports use of deprecated or not available methods as warnings
 - CPS project template updated
 - updated PHP parser
+
+### x64
+
+- 64-bit PHP 8.0, 7.4, 7.3, and 7.2 available to be selected in project properties
+- 64-bit PHPs get installed automatically
+- corresponding Xdebug extension for 64-bit PHP gets installed automatically
+- if there is no PHP yet, the 64-bit version gets installed by default
+
+### Editor
+
+- code action for generating property setter, or getter, or both
+- code action for generating __construct method
+- code action for generating __construct from defined properties
+- correct URL in tooltip over PHPDoc tag
+
+### Debugger
+
+- shows stack frames of fatal errors
+- navigates to failed line in case of fatal error
 
 ### Test Explorer
 
 - lists all the phpunit configurations
 - test projects are correctly named
 - improved performance
+- fixes tests debugging when Xdebug port number is not `9000`
 
 ## 1.50.13071 (March 24, 2021) preview
 
