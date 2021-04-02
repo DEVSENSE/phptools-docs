@@ -92,15 +92,10 @@
 
 ### Composer
 
-- updated PHP manual with more PHP 8 declarations
-- avoided a few falsely reported problems
-- fixes type analysis for reserved keywords within PHPDoc `@return` tag
-- more details in tool-tips for built-in type keywords
-- DBGp Proxy support fixes for the server downloaded from the Xdebug home page
-- fixes missing declarations in IntelliSense
-- speedups project load
-- Twig editor fixes.
-- PHPDoc generated above local and global variables.
+- Fixes list of required composer packages.
+- fixes falsely reported composer missing packages warning
+- fixes duplicate composer warning bar
+- fixes composer tree (performance and too many packages listed)
 
 ## 1.50.12791 (February 10, 2021) preview
 
@@ -132,21 +127,7 @@
 
 ### Debug
 
-- Colorizing and analysing code in rename refactoring preview.
-- Colorizing code in peek window.
-- Code analysis respects subtypes, trait implementors, and mixins.
-- Improves type analysis of standard functions.
-- Improves type analysis and code analysis of user's code.
-- Avoids some falsely reported warnings.
-- Updated PCRE checks.
-- Improves rename refactoring for fuctions as strings.
-- Validating and automatically enabling PHP extensions in Laravel.
-- Updates Xdebug to 3.0.2. (3.0.0 has issues when unsetting breakpoints)
-- Better tooltip in case it can be either a class or function.
-- Improves phpstorm metadata processing.
-- Optimizations.
-- Stability fixes.
-- Test executor uses correct arguments.
+- Fixes remote debugging with path mapping with spaces.
 
 ## 1.50.12628 (January 8, 2021) stable
 
@@ -172,22 +153,11 @@
 
 ### Editor
 
-- optimizations
-- respects @template annotation in PHPDoc
-- handles inline @var annotation
-- signature help for ambiguous constructors (new \ReflectionMethod)
-- PHPDoc array type with union elements annotation (array<A\B\C>)
-- PHPDoc allows for nullable type annotation (e.g. ?int)
-- improves code analysis, avoids some false positives
-- improves code flow analysis, isset(), is_resource(), and type inference
-- improves analysis for lambda function use variables
-- CLI specific constants and variables are allowed and code completed
-- updates .phpstorm.meta.php parser for type inference
-- does not respect PHP4-style ctor when using PHP 7.1+
-- fixes return check of generator functions
-- fixes check for __clone() magic method, can be private
-- fixes check for array access on \SplObjectStorage
-- fixes case and array key duplicity check for non-printable characters
+- (VS2017, VS2019) Progress UI in lower left corner of VS.
+- (VS2019) Improves type names shown in tool tips.
+- performance optimizations
+- "Go to Implementation" for traits
+- fixes "Go to Implementation" in case of an anonymous class
 
 ## 1.40.12554 (December 29, 2020) preview
 
@@ -252,7 +222,10 @@
 
 ### Project
 
-- support for Xdebug 3.0 and PHP 8.0 debugging
+- PHP 8.0 can be selected as the project language version
+- PHP 8.0 + Xdebug 3.0 automatic installation
+- Laravel project ide helpers restored automatically
+- IIS support improvements and fixes
 
 ## 1.40.12331 (November 21, 2020) stable
 
@@ -276,9 +249,7 @@
 
 ### VS 2019
 
-- IIS Express configuration is kept in the local `applicationHost.config` is possible
-- Internet Information Services (IIS) server support
-- Automatic installation of PHP w/ Xdebug on IIS
+- Performance improved for larger projects with a lot of warnings
 
 ## 1.40.12223 (October 28, 2020) stable
 
@@ -303,9 +274,7 @@
 
 ### VS 2012
 
-- Fixes possible VS freezing when there is a lot of errors in Error List
-- Project publish fix
-- Colorize @method tag
+- Stability fixes
 
 ## 1.40.12103 (September 25, 2020) stable
 
@@ -331,13 +300,10 @@
 
 ### VS 2019
 
-- PHP 8.0 "match" syntax support (you need to have PHP 8.0 installed)
-- PHP 8.0 "null-safe" operator syntax support
-- Improved type analysis, and bug fixes
-- Improved override resolution analysis
-- "@dataProvider" PHPDoc keyword IntelliSense
-- Updated PCRE syntax and error checking
-- "PHP0437" error respects PHPDoc with "@var $this"
+- Diagnostic suppressions with ".editorconfig"
+- Laravel project template
+- Test Explorer (test discovery) fixes
+- (preview) New project system initial support
 
 ## 1.40.12022 (August 19, 2020) preview
 
@@ -362,7 +328,12 @@
 
 ### Editor
 
-- Improvements and fixes of TLS 1.2, TLS 1.3
+- Analysis enhancements
+- Fixes stability issues
+- Lambda type analysis improvements
+- "iterable" phpdoc type hint
+- "smart action" to add "use" for unknown type in phpdoc
+- Format respects EditorConfig file
 
 ## 1.40.11953 (July 15, 2020) stable
 
@@ -385,17 +356,7 @@
 
 ### Test Explorer
 
-- Fixed PHP Editor initializing IntelliSense forever upon solution open.
-- PHP 8.0 throw expression.
-- Deprecations in deprecated functions not reported.
-- Type analysis improvements for type juggling.
-- Type analysis improvements for PHPDoc @var hinted properties.
-- Type analysis for `instanceof`.
-- Type analysis when returning `static`.
-- Fixes occasional nullref exception.
-- Analysis of PHPDoc improvements.
-- Twig editor exception fix.
-- Implement abstract methods for traits respects type hints.
+- Test discovery fix.
 
 ## 1.40.11890 (June 27, 2020) stable
 
@@ -417,7 +378,7 @@
 
 ### Debug
 
-- Support for PHPUnit 9.0
+- More exceptions in exception list to break on
 
 ## 1.40.11855 (May 27, 2020) stable
 
@@ -429,8 +390,7 @@
 
 ### Testing
 
-- Support for debugging PHAR files
-- More robust CLI debugging issues handling
+- Support for PHPUnit 9.0
 
 ## 1.40.11823 (May 5, 2020) preview
 
@@ -441,10 +401,10 @@
 
 ### Editor
 
-- New SSH, FTPS, SFTP protocols and encryptions.
-- Updated certificates of installer and binaries
-- Stability fixes
-- Improved High-DPI support (VS 2019)
+- 'use' marked as used if used in PHPDoc
+- Outlining of multi-lined arrays
+- PHPDoc type hints respect current namespace
+- Locals in arrow functions get annotated correctly
 
 ## 1.32.11768 (March 25, 2020) preview
 
@@ -539,10 +499,11 @@
 
 ### PHP 7.4
 
-- performance improvements
-- unpack operator type check
-- phpstorm meta container improvements (array access and type hierarchy)
-- Web Platform Installer provides log with failure details
+- PHP 7.4 support
+- arrow functions, typed properties, spread array, `??=` operator, underscores in numbers
+- PHP 7.4 features reported when using an older PHP
+- PHP 7.4 features analysis, type analysis, problems analysis
+- Built-in `PHP 7.4 alpha 3`, automatic online installation
 
 ## 1.31.11311 (July 11, 2019) preview
 
@@ -552,9 +513,12 @@
 
 ### IntelliSense
 
-- VS 2019: New project dialog lists "PHP" language.
-- offline activation dialog fix for long codes
-- twig editor fixes
+- improved code analysis of numbers and conditions
+- support for metadata from `.phpstorm.meta.php` file/folder
+- less strict analysis of use of uninitialized variables
+- analysis of duplicit function parameters
+- analysis of magic methods
+- completion after `use` gets fully qualified names
 
 ## 1.31.11274 (July 1, 2019) stable
 
@@ -608,9 +572,9 @@
 
 ### VS2019
 
-- Automatic installation of PHP 7.3 with Xdebug
-- Xdebug auto update to 2.7.2 for PHP 7.1, PHP 7.2
-- Xdebug auto update to 2.6.1 for PHP 7.0
+- Reimplemented PHP Editor using new API
+- Browser selector enabled
+- Script debugging toggle enabled
 
 ## 1.30.11154 (March 1, 2019) stable
 
@@ -622,6 +586,13 @@
 ## 1.30.11131 (February 8, 2019) preview
 
 
+### VS2019
+
+- Experimental release for VS2019
+- Using new error list API - providing solution wide list of errors and issues
+- Asynchronous loading of packages
+- QuickInfo and code actions are asynchronous now
+
 ## 1.30.11095 (January 18, 2019) stable
 
 - PHPDoc for local variables and globals.
@@ -632,11 +603,7 @@
 
 ### Debug
 
-- PHPDoc for local variables and globals.
-- Unknown function code suggestion to add `$this->` (will be more in future).
-- Editor exceptions fixes.
-- PHPUnit 7 support
-- Fix: Changes outside of VS causes IntelliSense to forget some types
+- Chrome JS Debugger supported (VS2017 and VS2019)
 
 ## 1.29.11015 (October 22, 2018) stable
 
@@ -667,8 +634,9 @@
 
 ### PHAR Inspector
 
-- Formatting code with syntax errors is not allowed.
-- Smarty syntax and colorization.
+- PHAR inspector supports gz compressed entries.
+- PHAR inspector reads files not included in the project.
+- PHAR inspector optimizations.
 
 ## 1.29.10925 (August 20, 2018) stable
 
@@ -686,9 +654,8 @@
 
 ### Debug
 
-- Option to disable collapsing of comments by default.
-- Drag&drop does not corrupt code indentation.
-- Twig editor fixes.
+- The condition expression in conditional breakpoint is casted to bool implicitly.
+- Inspecting expression avoids "cannot get property" error.
 
 ## 1.29.10893 (July 24, 2018) stable
 
@@ -713,12 +680,7 @@
 
 ### Debug
 
-- Code validation warning for array to string conversion.
-- Code validation improvements for 'setlocale'.
-- Validation of using '$this' outside a valid context.
-- Validation of throw argument which must be Exception or Throwable.
-- Validation of type after implements keyword.
-- __tostring, __construct, __destruct return types check.
+- Editing long string values in debug.
 
 ## 1.28.10848 (May 28, 2018) stable
 
@@ -748,10 +710,8 @@
 
 ### VS2017
 
-- Custom filter quick info enhanced.
-- Twig parent() function enabled in design split view.
-- Fix: extends keyword help.
-- Twig extensions analyzed even in references.
+- Fix: When pasting formating gets messed up.
+- Fix: Browser selector works in VS 15.7.0 and later.
 
 ## 1.27.10773 (April 11, 2018) stable
 
@@ -789,9 +749,9 @@
 
 ### Code Validation
 
-- Editor optimizations.
-- Fix: Completion list showed twice when Ctrl+Space pressed.
-- Fix: Code preview did not show some generated code.
+- Report warnings for duplicate array key in array initializer.
+- void reported as invalid in @param, @var, @property.
+- Type name "\" is ignored by CFG, but reported.
 
 ## 1.26.10606 (March 6, 2018) stable
 
@@ -804,12 +764,8 @@
 
 ### Twig
 
-- Fix of Test Explorer when runing tests without phpunit.config.
-- Warn a user when he saves a file about data loss if he's saving in the encoding which doesn't include needed characters
-- Fix of Legacy Import from Existing Code option
-- When copy/paste we do not display error message of malformated html document.
-- Reading php.ini short_open_tag option and parse the code accordingly when PHP build-in server is used.
-- vararg @param type hint treated as array type as well
+- Twig support optimizations and improvements.
+- Minor fix when non existing filter is used.
 
 ## 1.26.10589 (February 26, 2018) stable
 
@@ -850,7 +806,8 @@
 
 ### Smarty (VS2015 and newer)
 
-- Fixes Install New package dialog when number of results is greater than 750.
+- Optimizations and other enhancements.
+- Smarty blocks work inside CSS blocks.
 
 ## 1.25.10474 (December 14, 2017) stable
 
@@ -861,10 +818,7 @@
 
 ### Testing
 
-- PHP parser fixes.
-- Improved deprecations analysis.
-- Find references improvements.
-- Various stability enhancements.
+- Fix of Test Explorer for custom phpunit config.
 
 ## 1.25.10447 (November 28, 2017) stable
 
@@ -884,13 +838,15 @@
 
 ### Twig
 
-- IntelliSense improvements for F1 and GoToDef, not showing duplicities.
-- Memory usage optimizations.
-- Experimental .phar file navigation and debug features.
-- Various UI enhancements on high DPI displays.
-- Refactoring fixes.
-- Crash fixes of PHP parser.
-- Crash fixes when running composer with IIS Express.
+- Implemented Twig Editor for .twig files.
+- Twig code colorization, mixture of HTML/JS/CSS/Twig supported.
+- Highlighting of identifier under cursor and its occurances.
+- Contextual IntelliSense, Code Completion, F1 Help and Go To Definition.
+- Tool Tip Text for Twig constructs, variables and keywords.
+- Code Outlining for Twig blocks, constructs and macros.
+- Syntax checking with error underlining.
+- Detection of Twig framework and eventual automatic installation into the project.
+- Twig Split View, providing view on generated PHP code and mapping between generated PHP and Twig.
 
 ## 1.24.10137 (August 18, 2017) stable
 
@@ -918,11 +874,9 @@
 
 ### VS2017
 
-- PHPUnit 6.x supported.
-- PHPUnit version detected from composer.json.
-- Custom PHPUnit can be used.
-- PHPUnit is bundled in case.
-- Compatible PHPUnit engine choosen according to selected PHP runtime.
+- Experimental support for Visual Studio 2017
+- Fix: Unable to discover tests.
+- Fix: Smarty files didn't work in Update 3.
 
 ## 1.23.9750 (March 24, 2017) stable
 
@@ -959,14 +913,9 @@
 
 ### VS2017
 
-- Smarty has its dedicated editor.
-- Smarty delimiters can be modified in project properties.
-- Javascript and CSS integration.
-- Fixes of some edge cases.
-- Fixes a syntax error exception.
-- Installation suggestion for smarty composer package.
-- Include snippet added.
-- Break and continue keywords added.
+- Experimental support for Visual Studio 2017
+- Fix: failed to open PHP project
+- Removed Nuget support for PHP projects
 
 ## 1.22.9523 (January 23, 2017) stable
 
@@ -981,9 +930,7 @@
 
 ### VS2017
 
-- More tolerant syntax checker.
-- New Keyword.
-- Fix of Smarty editor exception messages.
+- Experimental support for Visual Studio 2017 RC
 
 ## 1.22.9478 (January 17, 2017) stable
 
@@ -1019,11 +966,7 @@
 
 ### VS2017
 
-- Improved new Composer package dialog (displays more relevant information).
-- Dialog shows amount of package downloads and stars.
-- Abandoned packages have warning note.
-- License and publish date is shown.
-- Faster packagist repository loading.
+- Experimental support for Visual Studio 2017 RC
 
 ## 1.21.9350 (December 8, 2016) stable
 
@@ -1055,7 +998,7 @@
 
 ### VS2017
 
-- Manual mapping fixes.
+- Experimental support for Visual Studio 2017 RC
 
 ## 1.20.9101 (October 12, 2016) stable
 
@@ -1080,7 +1023,11 @@
 
 ### Project
 
-- Manual path mapping supported.
+- Updates to project system, stability and features fixes.
+- Open Command Prompt, Copy Full Path command added.
+- Added many web development relevant file templates (JSON, bower, grunt, gulp, angularjs, jsx).
+- Fix: Renaming file extension of php item template wasn't possible in the New File dialog.
+- Fix: Issues when making changes to the projects outside of VS.
 
 ## 1.19.8876 (July 18, 2016) stable
 
@@ -1160,13 +1107,16 @@
 
 ### Phalanger
 
-- Split Window fixes.
-- HTML+PHP selection format fixes.
-- (VS2010 - VS1013) Fix of code formatting when there is CSS or JS.
-- Class item template with a namespace.
+- Switching between PHP and Phalanger seamlessly (requires Phalanger Tools).
 
 ## 1.18.8503 (January 15, 2016) stable
 
+
+### Publish
+
+- TLS 1.2 enhancements.
+- Enhanced interactive authentication support.
+- Support X509 certificate host key algorithm in SFTP
 
 ## 1.18.8473 (January 5, 2016) stable
 
@@ -1177,7 +1127,7 @@
 
 ### Activation
 
-- Fix of crash when smart tag action resulted in exception.
+- Fix of activation issue when firewall doesn't allow us to reach license server.
 
 ## 1.18.8451 (December 23, 2015) stable
 
@@ -1197,7 +1147,7 @@
 
 ### Activation
 
-- Fix of Visual Studio crash when php.exe version is in an unexpected format.
+- Fix of activation issue when current user account was not configured to allow delegation.
 
 ## 1.18.8331 (October 29, 2015) stable
 
@@ -1213,12 +1163,7 @@
 
 ### Publish
 
-- (VS2015) fix of crash when Microsoft ASP.NET and Web Tools 2015 (Beta8) is installed.
-- Automatic format after semicolon closing a colon block (endif; endswitch; endfor; endforeach; endwhile;).
-- Outlining of colon blocks.
-- Outlining of try/catch/finally blocks.
-- Colorization of true/false/null as keywords (blue).
-- Fix of IntelliSense not containing symbols from composer packages.
+- Update of file transfer protocol library.
 
 ## 1.18.8281 (October 15, 2015) stable
 
@@ -1239,7 +1184,7 @@
 
 ### Extensibility
 
-- Fix of crash in case of circular dependency in unused packages.
+- Introducing Devsense.PHP.Nodes.dll.
 
 ## 1.18.8215 (October 2, 2015) stable
 
@@ -1261,11 +1206,7 @@
 
 ### Debug
 
-- (VS2015) Fix of lost PHP code colorization after HTML code edit.
-- Fix of tool tips during debugging.
-- Fix of HTML formatter.
-- Fix of code analysis crash of huge complex functions.
-- (VS2015) Laravel blade templating experimental support.
+- (VS2015) Fix of Autos Window.
 
 ## 1.18.8182 (September 25, 2015) stable
 
@@ -1311,8 +1252,8 @@
 
 ### Miscellaneous
 
-- Visual Studio 2015 HTML Editor.
-- Fixes (VS2015 only) - outlining, items in context menu.
+- Fixes for importing/upgrading wizard.
+- Visual Studio 2010 fixes - Options Dialog crash, Smart Indent.
 
 ## 1.17.8075 (August 14, 2015) stable
 
@@ -1328,10 +1269,7 @@
 
 ### Testing
 
-- Fix of parser when file contains 'else:' construct.
-- Fix of lost outlining while editing code.
-- Fix of snippets completion.
-- Fix of editor internal exceptions.
+- phpunit.xml.dist in Core or Tests directories set as test configuration automatically.
 
 ## 1.17.8026 (July 21, 2015) hotfix
 
@@ -1344,9 +1282,7 @@
 
 ### Testing
 
-- Stability fix.
-- Document format fix.
-- Smart Indent fix after "\something;".
+- Test Explorer fix Visual Studio 2015.
 
 ## 1.17.8005 (July 9, 2015) 
 
@@ -1365,7 +1301,10 @@
 
 ### Debug
 
-- Assignment to the same variable warnings fix.
+- Fix when path contains Unicode characters.
+- Fix of watching some expressions containing space.
+- Fix of debugger freeze when editing values.
+- Datatips work even if the code contains syntax errors.
 
 ## 1.16.7958 (June 29, 2015) 
 
@@ -1462,7 +1401,8 @@
 
 ### Composer
 
-- The extension is installed for all users.
+- Composer integration fixes.
+- Replace property in composer.json handled.
 
 ## 1.15.7750 (March 21, 2015) 
 
@@ -1530,11 +1470,10 @@
 
 ### Test Explorer
 
-- Composer packages handled by Solution Explorer, Code Analysis and IntelliSense.
-- Direct actions to Install new, update or install missing.
-- Packages from composer.json are shown in Project References in tree hierarchy.
-- Missing packages downloaded automatically on project load.
-- Packages are included in IntelliSense.
+- Bundled PHPUnit updated to version 4.5.
+- Running selected tests with @dataProvider fix.
+- Faster tests discovery.
+- '*phpunit*.xml.dist' and '*phpunit*.xml' allowed as PHPUnit configuration file names.
 
 ## 1.14.5747 (November 27, 2014) 
 
@@ -1600,7 +1539,13 @@
 
 ### Testing
 
-- Support for NuGet.
+- Test Configuration Editor.
+- Support for custom PHPUnit configuration file.
+- Organizing tests by a test suite defined in a configuration file.
+- Support for bootstrapper and other PHPUnit options.
+- Faster test discovery.
+- By default, only files suffixed with Test.php are probed.
+- Test class must have 'Test' suffix.
 
 ## 1.14.5458 (August 22, 2014) 
 
@@ -1706,11 +1651,14 @@
 
 ### Phalanger
 
-- Test Explorer integration, PHPUnit included.
-- PHPUnit classes available in IntelliSense.
+- Compatibility with Phalanger Tools 1.12+.
 
 ## 1.11.5062 (March 10, 2014) 
 
+
+### MSI installer
+
+- Fix when there is running Visual Studio during install.
 
 ## 1.11.5051 (March 7, 2014) 
 
@@ -1728,9 +1676,12 @@
 
 ### Debug
 
-- Fixed issues with updating or uninstalling the extension.
-- Fixed issues with missing project and item templates.
-- Allowed downgrade to an older version.
+- Improved php.ini check.
+- Fixing php.ini under non-Administrator account or with UAC enabled.
+- "xdebug.remote_host" option validated properly.
+- Opening php.ini from Interpreters dialog allows edit with UAC.
+- Debug launch with debug issues fix.
+- Silverlight debugging without IE shows readable error message.
 
 ## 1.10.4967 (February 14, 2014) 
 
@@ -1778,10 +1729,18 @@
 
 ### Project System
 
-- Added support for syntax highlighting in diff window.
+- Performance improvements of Drag&Drop operation, and adding items into project in general.
+- Created .phpproj.user file us backward compatible with previous version of Visual Studio.
 
 ## 1.9.4815 (November 20, 2013) 
 
+
+### Project System
+
+- Fix of adding items with semi-colon in its name.
+- Fix of flickering and collapsing when deleting items.
+- Fix of correct item selected after deletion.
+- Fix of IDE inresponsibility.
 
 ## 1.9.4792 (November 13, 2013) 
 
@@ -1810,13 +1769,11 @@
 
 ### Project System
 
-- Removed Start Page
-- Visual Studio manages file associations with .phpproj and .php
-- Support for Visual Studio 2013
-- Inserting snippets with reformat fix
-- Updated icons for VS2013 and VS2013
-- About box with additional package information
-- Experimental HTML/JS/CSS support (enable in TOOLS|OPTIONS|PHP Tools)
+- Improved project system
+- Improved source control support
+- Bolding of startup file on PHP project
+- Improved project loading
+- Asynchronous project loading
 
 ## 1.8.4704 (October 19, 2013) 
 
@@ -1850,12 +1807,11 @@
 
 ### IntelliSense
 
-- Xdebug configuration checks improvements
-- Debugger/Watch allows complex expressions
-- Debugger handles evaluation with side effect
-- Debugger hexadecimal view support
-- During debugging on IIS Express, verbose messages are printed to VS Output
-- If IIS Express fails to start, user is notified and debug session won't start
+- Support for generators added into IntelliSense
+- F1 Help provided for more PHP keywords
+- updated integrated documentation (Sep 3rd 2013)
+- Some optional parameters of PHPManual functions shown properly as optional
+- Initial value of PHPManual function parameters shown in tool tips
 
 ## 1.8.4504 (August 22, 2013) 
 
