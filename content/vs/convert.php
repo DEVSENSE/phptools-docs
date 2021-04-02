@@ -23,8 +23,7 @@ foreach ($xml->release as $r)
         if (empty($category))
             $category = "";
 
-        $list = &$bycategory[$category];
-        $list[] = $n;
+        $bycategory[$category][] = $n;
     }
 
     foreach ($bycategory as $category => $list) {
