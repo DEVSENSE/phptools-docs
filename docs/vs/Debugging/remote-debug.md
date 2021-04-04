@@ -17,7 +17,10 @@ Under the `Server` drop down list, choose the `Custom` option. And fill in the f
 
 - **Server URL:** is the full public URL where the remote server hosts the PHP application.
 - **Xdebug port:** matches the configured Xdebug port number (aka "remote port" or "client port"). Xdebug (the debugging extension installed on the remote server) will contact Visual Studio on this port number. See [configuring Xdebug](configuring-xdebug) for more details.
-- **Path Mapping** is _optional_ set of directories mapping paths on the remote computer to the corresponding paths on the local computer. This allows convenient debugging of the remote code locally. If it's not set, it will be determined automatically.
+- **Path Mapping** is _optional_ set of directory mapping paths on the remote computer (absolute directory path - right column) to the corresponding path on the local computer (relatively to the project root - left column). This allows convenient debugging of the remote code even in case the project structure is more complex and the local directory structure does not match exactly the remote directory structure.
+
+    If the mapping is not set, the debugger will infer the simple mapping automatically based on the first script that is hit by the debugger.
+
 - **DBGp Proxy** is standard proxy configuration allowing more developers debugging the same remote project. Configure the values according your proxy. See [multi-user debugging](multi-user) for more details. Note, the DBGp Proxy key gets generated automatically based on user's name or their computer' name.
 
 ## Starting the debug
