@@ -1,3 +1,12 @@
+## 1.51.13195 (April 7, 2021) preview
+
+- Test Explorer works with **Open Folder** feature (VS 2019)
+- improved remote debug mapping UI (in Project Properties)
+  - local path suggestions
+  - path validation
+- updated PHP 8 validation, checks the extension `php_gd.dll` instead of `php_gd2.dll`
+- reports use of curly brackets as error in PHP `>= 8.0`
+
 ## 1.51.13160 (April 2, 2021) preview
 
 - updated Pico CMS project template (2.1.4)
