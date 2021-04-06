@@ -1,4 +1,4 @@
-## 1.51.13195 (April 7, 2021) preview
+## 1.51.13196 (April 7, 2021) preview
 
 - Test Explorer works with **Open Folder** feature (VS 2019)
 - improved remote debug mapping UI (in Project Properties)
