@@ -5,7 +5,7 @@
   - local path suggestions
   - path validation
 - updated PHP 8 validation, checks the extension `php_gd.dll` instead of `php_gd2.dll`
-- reports use of curly brackets as error in PHP `>= 8.0`
+- reports use of curly braces as error in PHP `>= 8.0`
 
 ## 1.51.13160 (April 2, 2021) preview
 
