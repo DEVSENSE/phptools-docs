@@ -15,20 +15,21 @@ The following image shows the suggestions displayed for an unknown type.
 
 ## Available Suggestions
 
-PHP Tools provides suggestions for refactoring and for unknown types. 
-Both versions are displayed the same way and both are available when a light bulb is shown on the left margin.
+PHP Tools provides suggestions for refactoring, code generation, and for fixing common issues such as an unknown type. The available code suggestion is displayed on the left margin of the text editor.
 
 ### Refactoring
 
-PHP Tools provides refactoring suggestions whenever the system can help restructure a code.
-Currently supported suggestions are:
+PHP Tools provides refactoring suggestions whenever the system can help restructure a code. Currently supported suggestions are:
 
-- Rename identifier: Whenever an identifier name is changed, PHP Tools offers to change all the references to that identifier (variable uses, function call, etc.).
-- Implement interface: When a class implements an interface but not all the required methods are defined, PHP Tools offers to create empty implementation of the remaining methods.
-- Implement abstract methods: Similar to the interface implementation but for base class with abstract methods.
-- Add missing `$this->` before an unknown function call that is the current class function.
+- **Rename identifier**: Whenever an identifier name is changed, PHP Tools offers to change all the references to that identifier (variable uses, function call, etc.). There is an option to *Rename* and to *Rename with Preview*.
+- **Implement interface**: When a class implements an interface, PHP Tools offers to create empty implementation of the interface methods.
+- **Implement abstract methods**: Similar to the interface implementation but for base class with abstract methods.
+- Add missing **`$this->`** before an unknown function call that is actually a current class's method.
+- **Generate constructor**: allows to create a *__construct()* method, either empty or with stub initializing all the class's properties.
+- **Sort Uses**: sorts the `use` statements alphabetically. The sort respects comments on the same line, and comments before the `use` statement.
+- **Getter/Setter**: quickly creates a getter method, a setter method, or both for selected class property. The method gets annotated with property type and description.
 
-### Unknown Types
+### Code fixes
 
 PHP Tools provides suggestions for unknown types that are not properly referenced in the code but are defined in the project.
 These suggestions help correctly reference a type that is defined but is used without a use declaration or proper qualification.
