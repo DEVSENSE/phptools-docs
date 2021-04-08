@@ -1,4 +1,4 @@
-## 1.51.13207 (April 8, 2021) preview
+## 1.51.13208 (April 8, 2021) preview
 
 - Test Explorer works with **Open Folder** feature (VS 2019)
 - code action to **Sort Uses**
