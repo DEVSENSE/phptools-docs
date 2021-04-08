@@ -5,11 +5,9 @@ Description: Code suggestions.
 
 # Suggestions
 
-The suggestions feature provides users with tips and constructs that improve code structure, readability or efficiency.
-PHP Tools provide the suggestions in situations, where the code is suspected to be invalid or where refactoring options are available.
-The suggestions are provided as `Light Bulb Suggestions`, in the Visual Studio 2015 and newer, or as `Smart Tags`, in older supported versions of the Visual Studio. 
-Suggestions are available when a light bulb icon is shown on the left margin next to the selected line (or when an arrow is next to the caret in the case of Smart Tags).
-The following image shows the suggestions displayed for an unknown type.
+The suggestions feature provides users with tips and constructs that improve code structure, readability or efficiency. PHP Tools provide the suggestions in situations, where the code is suspected to be invalid or where refactoring options are available.
+
+The suggestions are provided as `Light Bulb Suggestions`, in the Visual Studio 2015 and newer, or as `Smart Tags`, in older supported versions of the Visual Studio. Suggestions are available when a light bulb icon is shown on the left margin next to the selected line (or when an arrow is next to the caret in the case of Smart Tags). The following image shows the suggestions displayed for an unknown type.
 
 ![Displayed suggestions](imgs/suggestions.png)
 
