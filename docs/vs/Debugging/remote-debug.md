@@ -23,6 +23,9 @@ Under the `Server` drop down list, choose the `Custom` option. And fill in the f
 
 - **DBGp Proxy** is standard proxy configuration allowing more developers debugging the same remote project. Configure the values according your proxy. See [multi-user debugging](multi-user) for more details. Note, the DBGp Proxy key gets generated automatically based on user's name or their computer' name.
 
+    The proxy configuration can be validated right on the Project Properties tab using the `Verify` button, as depicted below:
+    ![DBGpProxy Verification](imgs/dbgp-proxy-verify.gif)
+
 ## Starting the debug
 
 Once the project is configured to debug using custom server, initiate the debugging in a standard way - either press `F5` or go to `Debug / Run`. The server URL gets opened in the browser.
