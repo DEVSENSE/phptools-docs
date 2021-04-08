@@ -1,11 +1,15 @@
-## 1.51.13198 (April 7, 2021) preview
+## 1.51.13207 (April 8, 2021) preview
 
 - Test Explorer works with **Open Folder** feature (VS 2019)
+- code action to **Sort Uses**
 - improved remote debug mapping UI (in Project Properties)
   - local path suggestions
   - path validation
+- improved DBGpProxy UI (in Project Properties)
+  - validation and connection verification
 - updated PHP 8 validation, checks the extension `php_gd.dll` instead of `php_gd2.dll`
 - reports use of curly braces as error in PHP `>= 8.0`
+- fixes crashing the app on rare cases with legacy project types
 
 ## 1.51.13160 (April 2, 2021) preview
 
