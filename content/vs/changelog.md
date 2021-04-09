@@ -1,7 +1,8 @@
-## 1.51.13217 (April 8, 2021) preview
+## 1.51.13226 (April 9, 2021) preview
 
 - Test Explorer works with **Open Folder** feature (VS 2019)
-- code action to **Sort Uses**
+- code action **Sort Uses** (PSR-12)
+- code action **Remove and Sort Uses**
 - improved remote debug mapping UI (in Project Properties)
   - local path suggestions
   - path validation
