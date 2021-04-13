@@ -56,6 +56,7 @@
     "debug": {
         "name": "debug",
         "list": [
+            "2021\/php-tools-visual-studio-april-2021",
             "2019\/php-tracepoint-logpoint",
             "2017\/08\/phptools-1.24",
             "2017\/07\/advanced-debug",
@@ -173,6 +174,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-code-march",
             "2021\/php-tools-vs-march-2021",
             "2020\/php-8-visual-studio-code",
@@ -247,6 +249,12 @@
         "name": "phpstorm",
         "list": [
             "2021\/php-tools-vs-code-march"
+        ]
+    },
+    "phptools": {
+        "name": "phptools",
+        "list": [
+            "2021\/php-tools-visual-studio-april-2021"
         ]
     },
     "phpunit": {
@@ -365,6 +373,7 @@
     "visual-studio": {
         "name": "visual studio",
         "list": [
+            "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-march-2021",
             "2020\/php-8-editor-in-visual-studio",
             "2020\/installing-php-8-one-click",
@@ -440,6 +449,12 @@
         "name": "WSL",
         "list": [
             "2018\/04\/wsl"
+        ]
+    },
+    "x64": {
+        "name": "x64",
+        "list": [
+            "2021\/php-tools-visual-studio-april-2021"
         ]
     },
     "xdebug": {
