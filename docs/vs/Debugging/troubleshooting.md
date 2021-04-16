@@ -29,7 +29,7 @@ xdebug.remote_port = 9000
 xdebug.remote_mode = req
 ```
 
-![Remote port](imgs/troubleshooting-phpinfo-xdebug.png)
+![Remote port](imgs/options-xdebug-port.png)
 
 
 - If you have Xdebug 3, your configuration options are different
