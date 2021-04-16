@@ -20,11 +20,24 @@ This list shows common issues with the debugger and their solutions, so you can 
 
 - Ensure `xdebug.remote_port` directive in `php.ini` is matching the settings in your Visual Studio (`Tools | Options | PHP Tools | Advanced`). 
   
-![Remote port directive](imgs/troubleshooting-remote-port.png)
+```
+zend_extension="C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
+xdebug.remote_enable = on
+xdebug.remote_handler = dbgp
+xdebug.remote_host = 127.0.0.1
+xdebug.remote_port = 9000
+xdebug.remote_mode = req
+```
 
 - If you have Xdebug 3, your configuration options are different
   
-![Remote port directive for Xdebug 3](imgs/troubleshooting-xdebug3-port.png)
+```
+zend_extension="C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
+xdebug.mode=debug
+xdebug.client_host = 127.0.0.1
+xdebug.client_port = 9003
+xdebug.start_with_request=trigger
+```
 
 - Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert web to the PHP project from menu](Project/from-existing-code).
 
