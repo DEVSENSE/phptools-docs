@@ -36,7 +36,7 @@ zend_extension="C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
 xdebug.mode=debug
 xdebug.client_host = 127.0.0.1
 xdebug.client_port = 9003
-xdebug.start_with_request=trigger
+xdebug.start_with_request = trigger
 ```
 
 - Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert web to the PHP project from menu](Project/from-existing-code).
