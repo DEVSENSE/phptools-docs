@@ -21,7 +21,7 @@ Esta lista muestra los problemas más comunes con el depurador y sus soluciones 
 - Asegúrese de que  `xdebug.remote_port` en `php.ini` es igual a los ajustes de su Visual Studio (`Herramientas | Opciones | PHP Tools | Avanzado`). 
 
 ```
-zend_extension="C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
+zend_extension = "C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
 xdebug.remote_enable = on
 xdebug.remote_handler = dbgp
 xdebug.remote_host = 127.0.0.1
@@ -34,8 +34,8 @@ xdebug.remote_mode = req
 - Si tenga Xdebug 3, tu configuracion es differente:
   
 ```
-zend_extension="C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
-xdebug.mode=debug
+zend_extension = "C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
+xdebug.mode = debug
 xdebug.client_host = 127.0.0.1
 xdebug.client_port = 9003
 xdebug.start_with_request = trigger
