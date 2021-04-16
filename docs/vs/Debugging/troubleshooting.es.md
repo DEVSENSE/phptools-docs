@@ -20,11 +20,26 @@ Esta lista muestra los problemas más comunes con el depurador y sus soluciones 
 
 - Asegúrese de que  `xdebug.remote_port` en `php.ini` es igual a los ajustes de su Visual Studio (`Herramientas | Opciones | PHP Tools | Avanzado`). 
 
-![Remote port directive](imgs/troubleshooting-remote-port.png)
+```
+zend_extension="C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
+xdebug.remote_enable = on
+xdebug.remote_handler = dbgp
+xdebug.remote_host = 127.0.0.1
+xdebug.remote_port = 9000
+xdebug.remote_mode = req
+```
+
+![Remote port](imgs/options-xdebug-port.png)
 
 - Si tenga Xdebug 3, tu configuracion es differente:
   
-![Remote port directive para Xdebug 3](imgs/troubleshooting-xdebug3-port.png)
+```
+zend_extension="C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
+xdebug.mode=debug
+xdebug.client_host = 127.0.0.1
+xdebug.client_port = 9003
+xdebug.start_with_request = trigger
+```
 
 - Asegúrese de que la directive **PHP Web Project**, en **ASP.NET Web Site**. Puede [Crear un proyecto a partir de archivos de código fuente existentes](https://docs.microsoft.com/es-es/previous-versions/visualstudio/visual-studio-2013/754c3hy7(v=vs.120)).
 
