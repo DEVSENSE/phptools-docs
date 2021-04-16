@@ -20,8 +20,8 @@ This list shows common issues with the debugger and their solutions, so you can 
 
 - Ensure `xdebug.remote_port` directive in `php.ini` is matching the settings in your Visual Studio (`Tools | Options | PHP Tools | Advanced`). 
   
-```
-zend_extension="C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
+```ini
+zend_extension = "C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
 xdebug.remote_enable = on
 xdebug.remote_handler = dbgp
 xdebug.remote_host = 127.0.0.1
@@ -34,9 +34,9 @@ xdebug.remote_mode = req
 
 - If you have Xdebug 3, your configuration options are different
   
-```
-zend_extension="C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
-xdebug.mode=debug
+```ini
+zend_extension = "C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
+xdebug.mode = debug
 xdebug.client_host = 127.0.0.1
 xdebug.client_port = 9003
 xdebug.start_with_request = trigger
@@ -81,13 +81,13 @@ Check your `php.ini` for `xdebug.default_enable directive` and make sure it is s
 
 The problem has to do with the fact that **Xdebug** is expecting a GET initialization string to be supplied in the URL request. The solution to this problem would be to instruct Xdebug to start the debug session by opening your project in your browser with `?XDEBUG_SESSION_START=1` query string or add 
 
-```
+```ini
 xdebug.remote_autostart = 1
 ```
 
 or for Xdebug 3:
 
-```
+```ini
 xdebug.start_with_request=yes
 ```
 
