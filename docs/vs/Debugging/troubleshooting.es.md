@@ -20,7 +20,7 @@ Esta lista muestra los problemas más comunes con el depurador y sus soluciones 
 
 - Asegúrese de que  `xdebug.remote_port` en `php.ini` es igual a los ajustes de su Visual Studio (`Herramientas | Opciones | PHP Tools | Avanzado`). 
 
-```
+```ini
 zend_extension = "C:\Program Files\IIS Express\PHP\v7.0\ext\php_xdebug.dll"
 xdebug.remote_enable = on
 xdebug.remote_handler = dbgp
@@ -33,7 +33,7 @@ xdebug.remote_mode = req
 
 - Si tenga Xdebug 3, tu configuracion es differente:
   
-```
+```ini
 zend_extension = "C:\Program Files\IIS Express\PHP\v7.4\ext\php_xdebug.dll"
 xdebug.mode = debug
 xdebug.client_host = 127.0.0.1
@@ -80,13 +80,13 @@ Verifique su `php.ini` para `xdebug.default_enable directive` y asegúrese de qu
 
 El problema tiene que ver con que **Xdebug** está esperando una cadena de inicialización GET que sea suministrada en la solicitud URL. La solución de este problema puede ser instruir a Xdebug a comenzar la sesión de depuración al abrir el proyecto en su navegador con la cadena de consulta `?XDEBUG_SESSION_START=1` o añadir: 
 
-```
+```ini
 xdebug.remote_autostart = 1
 ```
 
 O para Xdebug 3:
 
-```
+```ini
 xdebug.start_with_request=yes
 ```
 
