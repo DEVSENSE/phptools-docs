@@ -51,5 +51,5 @@ Licenses are assigned to individual users and computers upon first activation. I
 
 ## Related Links
 
-- [Offline activation](offline-activation): How to activate the product license with a blocked Internet connection.
+- [Offline Activation](offline-activation): How to activate the product license with a blocked Internet connection.
 - [Licenses FAQ](https://www.devsense.com/en/purchase#faq): More information about licenses and purchases.
