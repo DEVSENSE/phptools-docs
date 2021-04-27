@@ -15,17 +15,26 @@ Existing subscriptions and license keys can be managed at our [dashboard](https:
 
     Don't forget to click **[Send verification code]** button after filling up the e-mail address.
 
+    ---
     ![Create new account first](imgs/create-account.png)
+
+    ---
 
 2. The dashboard lists license keys associated with your account. In case there are no keys yet, add it to your account using the **[Associate License Key]** button.
 
+    ---
     ![Dashboard](imgs/dashboard.png)
+
+    ---
 
 ## Subscriptions
 
 The dashboard provides information about active and past subscriptions. It lists the subscriptions, shows the expiration dates, lets you to renew it, or to manage users actively using your subscription.
 
+---
 ![Subscriptions](imgs/subscriptions.png)
+
+---
 
 ## Manage Users
 
@@ -36,13 +45,19 @@ Under the **Subscriptions** page, each subscription lets you to **Manage Users**
 - **Disable** button frees the taken seat, and deactivates the user.
 - **Block** disallows user to activate the product.
 
+---
 ![Manage Users](imgs/seats.png)
+
+---
 
 ## Purchase more seats
 
 The **Manage Users** page above allows to quickly increase the subscription seats count. Whenever there are more active users than the license was purchased for, the number can be increased at this page.
 
+---
 ![Buy more seats](imgs/buy-seats.png)
+
+---
 
 The number represents **the total number** of seats after the purchase. Extending the number of seats also renews the subscription. The price is calculated as new seats price after the quantity discount, plus the renewal price accordingly to the expiration date.
 
