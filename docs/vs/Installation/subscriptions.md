@@ -48,4 +48,4 @@ The number represents **the total number** of seats after the purchase. Extendin
 
 ---
 
-For more information about subscriptions and licensing, please see the frequently asked questions](https://www.devsense.com/purchase#faq).
+For more information about subscriptions and licensing, please see the [frequently asked questions](https://www.devsense.com/purchase#faq).
