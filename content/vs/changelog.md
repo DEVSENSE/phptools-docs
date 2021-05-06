@@ -26,6 +26,8 @@
 - Composer dependencies tree fixes and improvements
 - (VS 2017, VS 2019) fixes Folder Project handling
 - general optimizations and fixes
+- HEREDOC parsing fixes
+- named parameters fixes for built-in functions with unusual parameter names
 
 ## 1.51.13247 (April 9, 2021) stable
 
