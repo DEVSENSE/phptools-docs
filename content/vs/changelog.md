@@ -1,3 +1,32 @@
+## 1.51.13399 (May 6, 2021) stable
+
+### Regex Designer (VS 2019)
+
+- Regular expression inside `preg_***` function or HEREDOC is colorized and highlighted
+- Regular expression provides brace matching
+- Quick action `Regex Designer` on regex opens *Regex Tool Window*
+- *Regex Tool Window* panel with regex analysis, sync with code
+- *Regex Tool Window* shows defined groups
+- *Regex Tool Window* allows to test agains a test subject, shows detailed matches
+
+### PHP 8.1 (dev)
+
+- **development** version of PHP 8.1 can be installed automatically
+
+### Other
+
+- (VS 2017) Test Explorer support `Open Folder` projects
+- Updated Xdebug and PHP releases.
+- updated publish protocols to the latest
+
+### Fixes and Improvements
+
+- code action for getter/setter annotates type hints correctly
+- correct project name in Text Explorer
+- Composer dependencies tree fixes and improvements
+- (VS 2017, VS 2019) fixes Folder Project handling
+- general optimizations and fixes
+
 ## 1.51.13247 (April 9, 2021) stable
 
 - Test Explorer works with **Open Folder** feature (VS 2019)
