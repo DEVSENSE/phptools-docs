@@ -1,4 +1,4 @@
-## 1.52.13352 (May 7, 2021) stable
+## 1.52.13353 (May 7, 2021) stable
 
 ### Regex Designer (VS 2019)
 
