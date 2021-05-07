@@ -1,5 +1,49 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "autosave-219e7add6bff02ba39bd6f263c33b567": {
+        "title": "PHP Regex Editor",
+        "description": "",
+        "username": "jakub",
+        "tags": [],
+        "type": "autosave",
+        "date": "2021-05-06 17:02:30",
+        "dateModified": "",
+        "position": 0,
+        "coverImage": "",
+        "category": "",
+        "md5file": "4aa536dc6d8258462e12538a68227ce2",
+        "uuid": "autosave-219e7add6bff02ba39bd6f263c33b567",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
+    "2021\/php-regex-editor": {
+        "title": "PHP Regex Editor",
+        "description": "Perl Compatible Regular Expressions (PCRE) are integral part of most PHP applications. Therefore it's important to make developing with them easy and transparent.  PHP Tools for Visual Studio 2019 introduces several neat features making the editing and testing such expressions a fluent experience.",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "pcre": "pcre",
+            "regex": "regex"
+        },
+        "type": "draft",
+        "date": "2021-05-06 17:02:09",
+        "dateModified": "2021-05-06 17:02:09",
+        "position": 37,
+        "coverImage": "",
+        "category": "general",
+        "md5file": "0de8e8b96321f7597bab6190fae08dce",
+        "uuid": "219e7add6bff02ba39bd6f263c33b567",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/managing-multiple-php-versions-on-windows-with-visual-studio": {
         "title": "Managing multiple PHP versions on Windows with Visual Studio",
         "description": "",
