@@ -1,6 +1,6 @@
 ## 1.52.13353 (May 7, 2021) stable
 
-### Regex Designer (VS 2019)
+### [Regex Editor (VS 2019)](https://docs.devsense.com/vs/editor/regex)
 
 - Regular expression inside `preg_***` function or HEREDOC is colorized and highlighted
 - Regular expression provides brace matching
@@ -8,6 +8,7 @@
 - *Regex Tool Window* panel with regex analysis, sync with code
 - *Regex Tool Window* shows defined groups
 - *Regex Tool Window* allows to test agains a test subject, shows detailed matches
+- *More information at the [documentation](https://docs.devsense.com/vs/editor/regex)*
 
 ### PHP 8.1 (dev)
 
