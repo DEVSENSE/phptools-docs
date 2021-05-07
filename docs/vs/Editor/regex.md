@@ -4,7 +4,9 @@ Description: Highlighting and editing regular expression (PCRE)
 Version: 1.52 and higher
 */
 
->> Reguires Visual Studio 2019 or higher
+# Regular Expressions
+
+> Reguires Visual Studio 2019 or higher
 
 Perl Compatible Regular Expressions (PCRE) are integral part of most PHP applications. PHP Tools for Visual Studio 2019 introduces features making the editing and testing regular expressions easier. The features are the following:
 
