@@ -153,6 +153,12 @@
             "2014\/09\/newsletter-phptools-1-14"
         ]
     },
+    "pcre": {
+        "name": "pcre",
+        "list": [
+            "2021\/php-regex-editor"
+        ]
+    },
     "phalanger": {
         "name": "phalanger",
         "list": [
@@ -174,6 +180,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-regex-editor",
             "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-code-march",
             "2021\/php-tools-vs-march-2021",
@@ -280,6 +287,12 @@
         "list": [
             "2021\/php-tools-vs-code-march",
             "2015\/06\/newsletter-phptools-1-16"
+        ]
+    },
+    "regex": {
+        "name": "regex",
+        "list": [
+            "2021\/php-regex-editor"
         ]
     },
     "release": {
