@@ -1,4 +1,4 @@
-## 1.52.13353 (May 7, 2021) stable
+## 1.52.13357 (May 10, 2021) stable
 
 ### [Regex Editor (VS 2019)](https://docs.devsense.com/vs/editor/regex)
 
