@@ -1,3 +1,8 @@
+## 1.52.13380 (May 15, 2021) preview
+
+- PHP 8.1: enum, oct notation, `never` type
+- completion: static functions listed after `$this->` as well
+
 ## 1.52.13357 (May 10, 2021) stable
 
 ### [Regex Editor (VS 2019)](https://docs.devsense.com/vs/editor/regex)
