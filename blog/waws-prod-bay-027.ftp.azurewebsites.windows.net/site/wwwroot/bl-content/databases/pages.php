@@ -1,5 +1,32 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-for-visual-studio-april-2021": {
+        "title": "PHP Tools for Visual Studio (April 2021)",
+        "description": "News about new features in PHP 8.1 and PHP Tools for Visual Studio - RegEx, PHP 8.1 enumerations, PHP 8.1 installation, etc.",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "visual-studio": "visual studio",
+            "new": "new",
+            "php-8.1": "php 8.1",
+            "regex": "regex",
+            "pcre": "pcre"
+        },
+        "type": "published",
+        "date": "2021-05-16 09:17:35",
+        "dateModified": "2021-05-16 09:23:21",
+        "position": 38,
+        "coverImage": "phptools-vs.png",
+        "category": "annoucement",
+        "md5file": "4120fd3564bf72e37c51159b0f7c4093",
+        "uuid": "0f917be6eaeddb1854ddf224d9a789c3",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-regex-editor": {
         "title": "PHP RegEx Editor",
         "description": "PHP Tools for Visual Studio 2019 introduces several neat features making editing and testing regular expressions a fluent experience.",

@@ -1,55 +1,37 @@
-## Code Actions
+Read the news about new features in PHP 8.1 and PHP Tools for Visual Studio - RegEx, PHP 8.1 enumerations, PHP 8.1 installation, etc.
 
-The PHP editor got a few more code actions available in the form of a light bulb or a smart tag in older versions of Visual Studio. Use the context menu or a shortcut `ctrl+,` to open and apply an available action.
+## PHP 8.1 (dev)
 
-- **Sort Uses** reorganizes `use` statements according to `PSR-12` specifications. Statements are ordered alphabetically according to the used identifier. Uses of `function` and `const` declarations are grouped, and separated with a blank line. Note, that trailing comments and preceding comments are moved together with the corresponding `use` statement.
+It is now possible to try the development version of PHP, the PHP 8.1. Go to the project properties, and choose PHP 8.1, as depicted on the screenshot below.
 
-![php sort uses](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/vs-sort-uses.gif)
+![Image description](https://blog.devsense.com/bl-content/uploads/pages/0f917be6eaeddb1854ddf224d9a789c3/php8.1-dev-install.png)
 
-- **Remove and Sort Uses** is the same as Sort Uses. Additionally it removes any unused declarations. 
+Upon running the project for the first time, **PHP 8.1-dev** will be automatically installed or updated. You'll have the opportunity to debug and try your project on the latest build of PHP 8.1 on Windows. If you're keen to try the latest new features such as: enumerations, the new octal number notation, the new `never` return type, go ahead.
 
-- **Property setter, or getter, or both** generates a function to get and/or set the property value, known as getter and setter. The function gets annotated with the property documentary comment as well. By default, the setter returns the reference to the containing class, so they can be chain-called as well.
+## PHP 8.1 Editor Support
 
-![php getter setter](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/vs-getter-setter.gif)
+The new PHP's features are also supported by the editor. Upon choosing PHP 8.1 in the project properties, the editor will provide IntelliSense, syntax support and error checking for the new features as well.
 
-- **Generate construct** generates a default `__construct()` method, with empty body.
+![Image description](https://blog.devsense.com/bl-content/uploads/pages/0f917be6eaeddb1854ddf224d9a789c3/php81-case.png)
 
-![php construct](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/vs-generate-construct.gif)
+For the new `enum` with `case`s, you're getting tooltips, code completion, corresponding icons in navigation bar, search, all over the IntelliSense, and `enum` snippet.
 
-- **Generate construct from defined properties** is used to generate `__construct()` method that initializes all the class properties. Every property in the order as defined creates a constructor parameter which initializes the corresponding property.
+![Image description](https://blog.devsense.com/bl-content/uploads/pages/0f917be6eaeddb1854ddf224d9a789c3/php81-oct.png)
 
-## x64
+The new octal number notation is useful as well. Note, that when switching back to PHP 8.0 or lower, the editor will underline and report all the new constructs as not yet supported. This means, the user will get notified whenever they'll use an unsupported feature on an older PHP.
 
-PHP Tools manage and install PHP for you, if necessary. Now it is possible to choose the 64bit version of the PHP in *Project Properties* (selected by default).
+The new features are also analyzed for potential issues. 
 
-![php 8 visual studio](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/vs-php8.png)
+![Image description](https://blog.devsense.com/bl-content/uploads/pages/0f917be6eaeddb1854ddf224d9a789c3/php81-errors.png)
 
-The selected PHP will get automatically downloaded and installed upon running the project. The automatic installation handles the necessary debugging extension `Xdebug`, configures it, or installs an update if necessary.
+## RegEx Support (VS 2019)
 
-## Debug
+The editor now provides **colorization** of Perl Compatible Regular Expressions (PCRE), **error underlining**, and a neat **RegEx Tool Window**, which shows matched groups, allows to test the expression on a test subject, and underlines errors in the RegEx itself.
 
-There are a lot new improvements in the PHP debugging experience. Now it **handles fatal errors in the code better**, showing the corresponding stack trace and navigating to the affected line of code in the editor. During the debug session, user will also get more information in the Visual Studio's `Output` pane. This should help with diagnosing and fixing issues with the debugging itself.
+![Image description](https://blog.devsense.com/bl-content/uploads/pages/0f917be6eaeddb1854ddf224d9a789c3/vs-regex-brace-match.gif)
 
-For remote debugging functionality ([see *Custom Server* setting](https://docs.devsense.com/en/vs/debugging/remote-debug)), *Project Properties* now provides more validations and help. The **Path Mapping** validates user's setting and provides completion when typing local paths.
+Checkout the separate blog post for more information at https://blog.devsense.com/2021/php-regex-editor or the documentation page at https://docs.devsense.com/en/vs/editor/regex .
 
-![DBGp Proxy Setting](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/dbgp-validate.gif)
+## Fixes and improvements
 
-DBGp Proxy setting was also improved. It validates and checks the entered connection setting, with an option to verify the connection setting live.
-
-## Diagnostics
-
-There are a few more diagnostics reported live in your code. With the spread of the PHP version 8, there are more projects that stopped working. One of the causes is the use **curly braces as array indexers**. PHP editor now reports the use of curly braces as an array indexer, in case the language level is set to 8.0 or higher (in the future).
-
-![php curly brace error](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/vs-curly-brace-err.png)
-
-A lot of new functions got added to PHP 8, and a lot of functions have been deprecated. PHP editor now **reports use of deprecated or not available methods** as warnings.
-
-## Test Explorer
-
-The Test Explorer has been updated as well. Now it scans the entire solution and lists all the PHPUnit configurations (except for test configuration in `vendor` folder). All the available tests get sorted and organized by available groups.
-
-![php test explorer](https://blog.devsense.com/bl-content/uploads/pages/4f7d8353ad691740f936035b3337a5d9/vs-test-explorer.png)
-
-The feature allows to run and debug the tests, it remembers the previous tests results and displays them visually, including the test log, test output, and test duration. 
-
-Since the April's update, this feature also works with the new `Open Folder` feature in Visual Studio 2019, so users don't have to create a project for their PHP application.
+For minor fixes and improvements, please see our [changelog](https://www.devsense.com/download). 

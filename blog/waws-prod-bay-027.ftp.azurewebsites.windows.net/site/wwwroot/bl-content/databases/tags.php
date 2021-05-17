@@ -115,6 +115,12 @@
             "2019\/php-tracepoint-logpoint"
         ]
     },
+    "new": {
+        "name": "new",
+        "list": [
+            "2021\/php-tools-for-visual-studio-april-2021"
+        ]
+    },
     "news": {
         "name": "news",
         "list": [
@@ -156,6 +162,7 @@
     "pcre": {
         "name": "pcre",
         "list": [
+            "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-regex-editor"
         ]
     },
@@ -180,6 +187,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-regex-editor",
             "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-code-march",
@@ -223,6 +231,12 @@
         "list": [
             "2020\/php-8-visual-studio-code",
             "2020\/php-8-editor-in-visual-studio"
+        ]
+    },
+    "php-8.1": {
+        "name": "php 8.1",
+        "list": [
+            "2021\/php-tools-for-visual-studio-april-2021"
         ]
     },
     "php-tools": {
@@ -292,6 +306,7 @@
     "regex": {
         "name": "regex",
         "list": [
+            "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-regex-editor"
         ]
     },
@@ -386,6 +401,7 @@
     "visual-studio": {
         "name": "visual studio",
         "list": [
+            "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-march-2021",
             "2020\/php-8-editor-in-visual-studio",
