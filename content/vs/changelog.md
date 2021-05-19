@@ -2,6 +2,7 @@
 
 - PHP 8.1: enum, oct notation, `never` type
 - completion: static functions listed after `$this->` as well
+- fixes
 
 ## 1.52.13357 (May 10, 2021) stable
 
