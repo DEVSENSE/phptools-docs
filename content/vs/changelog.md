@@ -1,6 +1,16 @@
+## 1.52.13403 (May 25, 2021)
+
+- fixes invalid path in Test Explorer
+- fixes errors in case of invalid paths in project system
+- fixes debug being terminated in exception handling
+- `eval()` has tooltip
+
 ## 1.52.13380 (May 15, 2021) preview
 
-- PHP 8.1: enum, oct notation, `never` type
+- **PHP 8.1**
+  - new enum syntax, icons in navigation, IntelliSense, tooltips
+  - octal number notation
+  - `never` return type, highlighting, analysis and checks
 - completion: static functions listed after `$this->` as well
 - fixes
 
