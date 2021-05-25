@@ -25,6 +25,7 @@
         "description": "",
         "template": "",
         "list": [
+            "2021\/php-vs-code-may-2021",
             "2021\/php-regex-editor",
             "2020\/php-8-visual-studio-code",
             "2020\/php-8-editor-in-visual-studio",

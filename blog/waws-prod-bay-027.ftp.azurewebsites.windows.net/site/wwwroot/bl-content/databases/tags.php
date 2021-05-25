@@ -187,6 +187,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-regex-editor",
             "2021\/php-tools-visual-studio-april-2021",
@@ -236,6 +237,7 @@
     "php-8.1": {
         "name": "php 8.1",
         "list": [
+            "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021"
         ]
     },
@@ -275,12 +277,14 @@
     "phptools": {
         "name": "phptools",
         "list": [
+            "2021\/php-vs-code-may-2021",
             "2021\/php-tools-visual-studio-april-2021"
         ]
     },
     "phpunit": {
-        "name": "PHPUnit",
+        "name": "phpunit",
         "list": [
+            "2021\/php-vs-code-may-2021",
             "2017\/06\/unit-testing"
         ]
     },
@@ -352,9 +356,22 @@
             "2017\/04\/phptools-1.23"
         ]
     },
-    "tests": {
-        "name": "Tests",
+    "test": {
+        "name": "test",
         "list": [
+            "2021\/php-vs-code-may-2021"
+        ]
+    },
+    "testing": {
+        "name": "testing",
+        "list": [
+            "2021\/php-vs-code-may-2021"
+        ]
+    },
+    "tests": {
+        "name": "tests",
+        "list": [
+            "2021\/php-vs-code-may-2021",
             "2017\/06\/unit-testing"
         ]
     },
@@ -469,6 +486,7 @@
     "vscode": {
         "name": "vscode",
         "list": [
+            "2021\/php-vs-code-may-2021",
             "2021\/php-tools-vs-code-march",
             "2020\/php-tools-for-vs-code-november-2020",
             "2020\/phptools-vs-code-september-2020"

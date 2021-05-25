@@ -1,7 +1,36 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-vs-code-may-2021": {
+        "title": "PHP Tools for VS Code (May 2021)",
+        "description": "Visual Studio Code is getting more features for PHP development!",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "phptools": "phptools",
+            "php-8.1": "php 8.1",
+            "vscode": "vscode",
+            "phpunit": "phpunit",
+            "test": "test",
+            "testing": "testing",
+            "tests": "tests"
+        },
+        "type": "published",
+        "date": "2021-05-24 09:41:03",
+        "dateModified": "2021-05-24 09:41:32",
+        "position": 39,
+        "coverImage": "vsc-logo-may2021.png",
+        "category": "general",
+        "md5file": "f53bf9d5be656bf2ee581f621928214e",
+        "uuid": "73642a69e2445b47e3b30357cbd69936",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-tools-for-visual-studio-april-2021": {
-        "title": "PHP Tools for Visual Studio (April 2021)",
+        "title": "PHP Tools for Visual Studio (May 2021)",
         "description": "News about new features in PHP 8.1 and PHP Tools for Visual Studio - RegEx, PHP 8.1 enumerations, PHP 8.1 installation, etc.",
         "username": "jakub",
         "tags": {
@@ -14,7 +43,7 @@
         },
         "type": "published",
         "date": "2021-05-16 09:17:35",
-        "dateModified": "2021-05-16 09:23:21",
+        "dateModified": "2021-05-24 07:02:06",
         "position": 38,
         "coverImage": "phptools-vs.png",
         "category": "annoucement",
