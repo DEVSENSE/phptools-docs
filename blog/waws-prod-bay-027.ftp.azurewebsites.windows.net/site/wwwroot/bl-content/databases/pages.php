@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "autosave-da4deb52623d0022d9d298abca2bf85e": {
+        "title": "Introduction to PHP on Docker with Visual Studio Code",
+        "description": "",
+        "username": "jakub",
+        "tags": [],
+        "type": "autosave",
+        "date": "2021-05-26 16:00:07",
+        "dateModified": "",
+        "position": 0,
+        "coverImage": "",
+        "category": "",
+        "md5file": "b4956e0bc451c3f295cb14a9064a1938",
+        "uuid": "autosave-da4deb52623d0022d9d298abca2bf85e",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-vs-code-may-2021": {
         "title": "PHP Tools for VS Code (May 2021)",
         "description": "Visual Studio Code is getting more features for PHP development!",
