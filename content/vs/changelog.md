@@ -1,3 +1,15 @@
+## 1.52.13420 (May 28, 2021)
+
+- `short-open-tag` directive read from *php.ini* when using built-in PHP
+- added project property `<ShortOpenTag>true</ShortOpenTag>` to force enable short open tags
+- optimizes background tasks
+
+### Visual Studio 2019 fixes
+
+- reflects VS 16.10 API updates
+- fixes PHP Editor with custom file extension
+- Common Project System (CPS) option enabled in *New|Project|PHP Web Project*
+
 ## 1.52.13403 (May 25, 2021)
 
 - fixes invalid path in Test Explorer
