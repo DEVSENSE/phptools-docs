@@ -1,5 +1,33 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/laravel-wsl-vscode": {
+        "title": "Laravel on WSL and VS Code",
+        "description": "Installing WSL, PHP, Xdebug, Composer, Laravel, and running and debugging the project on VSCode.",
+        "username": "jakub",
+        "tags": {
+            "laravel": "laravel",
+            "php": "php",
+            "xdebug": "xdebug",
+            "wsl": "wsl",
+            "vscode": "vscode",
+            "code": "code",
+            "composer": "composer"
+        },
+        "type": "published",
+        "date": "2021-05-31 11:12:31",
+        "dateModified": "2021-05-31 15:55:50",
+        "position": 40,
+        "coverImage": "laravel-wsl-vscode.png",
+        "category": "tutorial",
+        "md5file": "078fbb1bdae7fa60fa0e27e567ac3420",
+        "uuid": "0ca64064fa4d75058a63f34843dfaca1",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "autosave-da4deb52623d0022d9d298abca2bf85e": {
         "title": "Introduction to PHP on Docker with Visual Studio Code",
         "description": "",
@@ -36,7 +64,7 @@
         },
         "type": "published",
         "date": "2021-05-24 09:41:03",
-        "dateModified": "2021-05-24 09:41:32",
+        "dateModified": "2021-05-31 15:45:49",
         "position": 39,
         "coverImage": "vsc-logo-may2021.png",
         "category": "general",

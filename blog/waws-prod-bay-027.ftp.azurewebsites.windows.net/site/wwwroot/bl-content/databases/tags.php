@@ -23,6 +23,7 @@
     "code": {
         "name": "code",
         "list": [
+            "2021\/laravel-wsl-vscode",
             "2021\/php-tools-vs-code-march",
             "2020\/php-8-visual-studio-code",
             "2020\/php-tools-for-vs-code-november-2020"
@@ -43,6 +44,7 @@
     "composer": {
         "name": "composer",
         "list": [
+            "2021\/laravel-wsl-vscode",
             "2021\/php-tools-vs-march-2021",
             "2015\/03\/newsletter-phptools-1-15"
         ]
@@ -95,6 +97,12 @@
             "2020\/php-8-editor-in-visual-studio",
             "2016\/12\/phptools-1.21",
             "2015\/10\/codesense-best-practices"
+        ]
+    },
+    "laravel": {
+        "name": "laravel",
+        "list": [
+            "2021\/laravel-wsl-vscode"
         ]
     },
     "localization": {
@@ -187,6 +195,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/laravel-wsl-vscode",
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-regex-editor",
@@ -486,6 +495,7 @@
     "vscode": {
         "name": "vscode",
         "list": [
+            "2021\/laravel-wsl-vscode",
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-vs-code-march",
             "2020\/php-tools-for-vs-code-november-2020",
@@ -493,8 +503,9 @@
         ]
     },
     "wsl": {
-        "name": "WSL",
+        "name": "wsl",
         "list": [
+            "2021\/laravel-wsl-vscode",
             "2018\/04\/wsl"
         ]
     },
@@ -507,6 +518,7 @@
     "xdebug": {
         "name": "xdebug",
         "list": [
+            "2021\/laravel-wsl-vscode",
             "2021\/php-tools-vs-march-2021",
             "2018\/04\/wsl",
             "2015\/10\/debugging-multiple-projects"
