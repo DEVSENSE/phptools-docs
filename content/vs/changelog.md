@@ -1,4 +1,4 @@
-## 1.52.13421 (May 28, 2021)
+## 1.52.13428 (June 1, 2021)
 
 - `short-open-tag` directive read from *php.ini* when using built-in PHP
 - added project property `<ShortOpenTag>true</ShortOpenTag>` to force enable short open tags
@@ -9,6 +9,7 @@
 - reflects VS 16.10 API updates
 - fixes PHP Editor with custom file extension
 - Common Project System (CPS) option enabled in *New|Project|PHP Web Project*
+- fixes cursor color in Regex Tool Window in Dark Theme
 
 ## 1.52.13403 (May 25, 2021)
 
