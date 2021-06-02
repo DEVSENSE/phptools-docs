@@ -102,7 +102,8 @@
     "laravel": {
         "name": "laravel",
         "list": [
-            "2021\/laravel-wsl-vscode"
+            "2021\/laravel-wsl-vscode",
+            "2021\/how-to-install-laravel-in-visual-studio"
         ]
     },
     "localization": {
@@ -199,9 +200,11 @@
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/php-regex-editor",
+            "2021\/managing-multiple-php-versions-on-windows-with-visual-studio",
             "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-code-march",
             "2021\/php-tools-vs-march-2021",
+            "2021\/how-to-install-laravel-in-visual-studio",
             "2020\/php-8-visual-studio-code",
             "2020\/installing-php-8-one-click",
             "2020\/php-tools-for-vs-code-november-2020",
@@ -301,6 +304,12 @@
         "name": "Press Release",
         "list": [
             "2013\/11\/pressrelease-php-vs2013-md"
+        ]
+    },
+    "project": {
+        "name": "project",
+        "list": [
+            "2021\/managing-multiple-php-versions-on-windows-with-visual-studio"
         ]
     },
     "projectsystem": {
@@ -428,8 +437,10 @@
         "name": "visual studio",
         "list": [
             "2021\/php-tools-for-visual-studio-april-2021",
+            "2021\/managing-multiple-php-versions-on-windows-with-visual-studio",
             "2021\/php-tools-visual-studio-april-2021",
             "2021\/php-tools-vs-march-2021",
+            "2021\/how-to-install-laravel-in-visual-studio",
             "2020\/php-8-editor-in-visual-studio",
             "2020\/installing-php-8-one-click",
             "2020\/updates-visual-studio-november-2020",

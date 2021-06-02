@@ -130,12 +130,16 @@
     },
     "2021\/managing-multiple-php-versions-on-windows-with-visual-studio": {
         "title": "Managing multiple PHP versions on Windows with Visual Studio",
-        "description": "",
+        "description": "Switching PHP versions within the project in Visual Studio.",
         "username": "miloslav",
-        "tags": [],
+        "tags": {
+            "php": "php",
+            "visual-studio": "visual studio",
+            "project": "project"
+        },
         "type": "published",
         "date": "2021-04-12 13:05:50",
-        "dateModified": "2021-04-13 09:34:32",
+        "dateModified": "2021-06-01 10:28:41",
         "position": 36,
         "coverImage": "install-php.png",
         "category": "",
@@ -249,12 +253,16 @@
     },
     "2021\/how-to-install-laravel-in-visual-studio": {
         "title": "How to install Laravel in Visual Studio",
-        "description": "",
+        "description": "Creating a new Laravel project in Visual Studio.",
         "username": "miloslav",
-        "tags": [],
+        "tags": {
+            "laravel": "laravel",
+            "php": "php",
+            "visual-studio": "visual studio"
+        },
         "type": "published",
         "date": "2021-01-28 05:39:57",
-        "dateModified": "2021-01-28 11:38:35",
+        "dateModified": "2021-06-01 10:27:17",
         "position": 32,
         "coverImage": "231px-Laravel.svg.png",
         "category": "",
