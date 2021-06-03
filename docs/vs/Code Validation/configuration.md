@@ -15,17 +15,17 @@ Code diagnostics are highlighted in the code editor and in the Visual Studio's *
 
 ## .editorconfig
 
-In order to configure diagnostics, edit or create `.editorconfig` file within your project directory. The file can be nested in a sub-directory. For more information, see [docs.microsoft.com](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
+In order to configure diagnostics, edit or create `.editorconfig` file within the project directory. The file can be nested in a sub-directory. For more information, see [docs.microsoft.com](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options).
 
 To configure a diagnostic, add section matching the file names applying to, by default it would be `[*.php]`.
 
-```
+```ini
 [*.php]
 php_diagnostic_php6401 = false
 php_diagnostic = true
 ```
 
-Add rules, according to your diagnostic error code.
+Add rules, according to the diagnostic error code.
 
 ### Rule format
 
@@ -38,7 +38,7 @@ Rules are in format `php_diagnostic_php[ERROR_CODE] = [VALUE]` (lower cased). Po
 - `warning`: the diagnostic will be listed as a warning.
 - `message`, `suggestion`: the diagnostic will be listed as a message.
 
-```
+```ini
 [*.php]
 php_diagnostic_php6401 = message
 php_diagnostic_php6402 = false
@@ -46,7 +46,7 @@ php_diagnostic_php6402 = false
 
 For all the diagnostics with any error code, use rule in format `php_diagnostic = [VALUE]`.
 
-```
+```ini
 [*Test.php]
 php_diagnostic = error
 ```
