@@ -13,9 +13,9 @@
             "code": "code",
             "composer": "composer"
         },
-        "type": "published",
+        "type": "sticky",
         "date": "2021-05-31 11:12:31",
-        "dateModified": "2021-05-31 15:55:50",
+        "dateModified": "2021-06-02 08:16:01",
         "position": 40,
         "coverImage": "laravel-wsl-vscode.png",
         "category": "tutorial",
