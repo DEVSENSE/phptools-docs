@@ -1,8 +1,12 @@
-## 1.52.13428 (June 1, 2021)
+## 1.52.13437 (June 3, 2021)
 
 - `short-open-tag` directive read from *php.ini* when using built-in PHP
 - added project property `<ShortOpenTag>true</ShortOpenTag>` to force enable short open tags
 - optimizes background tasks
+- Debug fixes for globals in Watch window
+- Regex editor fixes for double-quoted strings
+- Updated PHP builds
+- Updated networking protocols
 
 ### Visual Studio 2019 fixes
 
