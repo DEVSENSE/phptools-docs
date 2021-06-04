@@ -17,7 +17,7 @@ Visual Studio Code stores debugging configuration in a `launch.json` file locate
 
 The following profile starts the PHP built-in web server. The server is started only if the `runtimeArgs` contains the parameter `-S` that defines the location and port of the server.
 
-Sample configuration:
+**Sample configuration:**
 
 ```json
 {
@@ -109,4 +109,29 @@ Registering with the DBGp proxy on 127.0.0.1:9002 with key Arnold...
 Registration was successful!
 ```
 
-The ide key has to be present in the url when accessing the web server (e.g. http://example.org?XDEBUG_SESSION_START=Arnold). This way the proxy server knows which machine to connect back to with the debug session.
+The ide key has to be present in the url when accessing the web server (e.g. `http://example.org?XDEBUG_SESSION_START=Arnold`). This way the proxy server knows which machine to connect back to with the debug session.
+
+## PHP Version
+
+The launch configuration option `"phpVersion"` allows to choose which PHP will be used to initiate the debug.
+
+It is possible to define more launch configurations, each with a different PHP version. While the workspace assumes one PHP version at a time [see php.version setting](https://docs.devsense.com/vscode/editor/php-version-select), launch configuration can specify its own PHP to be used for built-in web server and a console application.
+
+**Example:**
+
+```json
+{
+    "name": "Launch Built-in Server with PHP 8",
+    "type": "php",
+    "request": "launch",
+    "runtimeArgs": [
+        "-S",
+        "localhost:8888",
+        "-t",
+        "."
+    ],
+    "phpVersion": "8.0"
+}
+```
+
+> Note: In this example, it is assumed that the PHP 8.0 is installed on the local machine.
