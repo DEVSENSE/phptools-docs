@@ -53,13 +53,17 @@ php_diagnostic = error
 
 Problems can be disabled in VSCode's `settings.json` file.
 
-### `php.problems.workspaceAnalysis`
+### `php.problems.scope`
 
-By default, PHP Tools scans continuously the entire workspace for possible issues and problems. In case this is not desired, set the setting `php.problems.workspaceAnalysis` to `false`. This will cause the VSCode to only watch and analyse the opened PHP documents, and documents that contains some related declarations.
+By default, PHP Tools scans continuously the entire workspace for possible issues and problems, excluding the `vendor` folder. This behavior can be changed to either analyse everything (option `"all"`), only user files excluding the vendor (option `"user"`), or nothing (option `"none"`).
+
+**Example:**
 
 ```json
-"php.problems.workspaceAnalysis" : false
+"php.problems.scope" : "none"
 ```
+
+Although, in case the file is opened in editor for editing, it gets analysed always.
 
 ### `php.problems.exclude`
 
