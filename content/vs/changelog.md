@@ -1,4 +1,4 @@
-## 1.52.13437 (June 3, 2021)
+## 1.52.13439 (June 4, 2021)
 
 - `short-open-tag` directive read from *php.ini* when using built-in PHP
 - added project property `<ShortOpenTag>true</ShortOpenTag>` to force enable short open tags
