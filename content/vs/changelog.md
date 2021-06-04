@@ -4,7 +4,6 @@
 - added project property `<ShortOpenTag>true</ShortOpenTag>` to force enable short open tags
 - optimizes background tasks
 - Debug fixes for globals in Watch window
-- Regex editor fixes for double-quoted strings
 - Updated PHP builds
 - Updated networking protocols
 
@@ -14,6 +13,7 @@
 - fixes PHP Editor with custom file extension
 - Common Project System (CPS) option enabled in *New|Project|PHP Web Project*
 - fixes cursor color in Regex Tool Window in Dark Theme
+- Regex editor fixes for double-quoted strings
 
 ## 1.52.13403 (May 25, 2021)
 
