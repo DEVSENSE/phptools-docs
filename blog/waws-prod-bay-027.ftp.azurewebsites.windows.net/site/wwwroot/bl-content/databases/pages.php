@@ -1,5 +1,33 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-vs-code-1-4": {
+        "title": "PHP Tools for Code, Version 1.4",
+        "description": "Announcing release version 1.4 of PHP Tools for Visual Studio Code!",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "vscode": "vscode",
+            "code": "code",
+            "visual-studio": "visual studio",
+            "php8": "php8",
+            "php8.1": "php8.1",
+            "release": "release"
+        },
+        "type": "sticky",
+        "date": "2021-06-07 06:09:51",
+        "dateModified": "2021-06-07 07:14:24",
+        "position": 41,
+        "coverImage": "phptools-vscode-1-4.png",
+        "category": "annoucement",
+        "md5file": "acdce9bd4939b6f8f70446c549d90249",
+        "uuid": "9fea236dce6d43e16f5a841bb9ad7c96",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/laravel-wsl-vscode": {
         "title": "Laravel on WSL and VS Code",
         "description": "Installing WSL, PHP, Xdebug, Composer, Laravel, and running and debugging the project on VSCode.",

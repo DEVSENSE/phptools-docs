@@ -23,6 +23,7 @@
     "code": {
         "name": "code",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
             "2021\/php-tools-vs-code-march",
             "2020\/php-8-visual-studio-code",
@@ -196,6 +197,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021",
@@ -268,8 +270,15 @@
     "php8": {
         "name": "php8",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2021\/php-tools-vs-march-2021",
             "2020\/installing-php-8-one-click"
+        ]
+    },
+    "php8.1": {
+        "name": "php8.1",
+        "list": [
+            "2021\/php-tools-vs-code-1-4"
         ]
     },
     "phpdoc": {
@@ -335,6 +344,7 @@
     "release": {
         "name": "release",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2018\/04\/phptools-1.27",
             "2018\/02\/phptools-1.26",
             "2017\/11\/phptools-1.25",
@@ -436,6 +446,7 @@
     "visual-studio": {
         "name": "visual studio",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/managing-multiple-php-versions-on-windows-with-visual-studio",
             "2021\/php-tools-visual-studio-april-2021",
@@ -506,6 +517,7 @@
     "vscode": {
         "name": "vscode",
         "list": [
+            "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-vs-code-march",
