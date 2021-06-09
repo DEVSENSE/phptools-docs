@@ -1,5 +1,25 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "autosave-71ccb426c9fa769e1dacef9ba3750b3a": {
+        "title": "Configuring PHP Tools for Visual Studio and XAMPP server[Autosave]",
+        "description": "",
+        "username": "miloslav",
+        "tags": [],
+        "type": "autosave",
+        "date": "2021-06-08 09:18:12",
+        "dateModified": "2021-06-08 09:48:12",
+        "position": 0,
+        "coverImage": "",
+        "category": "",
+        "md5file": "fa131a37c094fc0edcf7590079465cd7",
+        "uuid": "autosave-71ccb426c9fa769e1dacef9ba3750b3a",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-tools-vs-code-1-4": {
         "title": "PHP Tools for Code, Version 1.4",
         "description": "Announcing release version 1.4 of PHP Tools for Visual Studio Code!",

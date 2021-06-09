@@ -1,0 +1,8 @@
+- Get XAMPP 
+- Install the XAMPP
+- Install Xdebug
+	- xdebug 3 vs 2 configuration
+- Configure PHP Tools project
+- 
+- Mysql visual studio
+	
