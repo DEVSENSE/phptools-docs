@@ -1,0 +1,41 @@
+XAMPP is a cross-platform Apache HTTP server distribution containing MariaDB (fork of MySQL) database, PHP, and Perl. The word "XAMPP" is an acronym. There is no official explaning of if, but we can safely assume that "X" stands for "cross", meaning "cross-platform", A would be Apache, M is MariaDB. While first P would be short for PHP and second P for Pearl or reversed?
+
+## Getting the XAMPP installer
+
+From the Apache friends website, download the package that matches your platform. For this tutorial we are going to use Windows and PHP 8.0.
+
+https://www.apachefriends.org/download.html
+
+## Installing the XAMPP
+
+
+If you have UAC enabled enabled XAMPP installer will recommend you not to install it into the Program Files folder.
+
+Select the components in which you are insterested in. Usually it's sufficient to install only Apache, MySQL and PHP. But feel free to install whatever you are planning to use.
+
+
+
+## Install Xdebug
+
+By default XAMPP doesn't provide PHP with Xdebug extension. To find out which version to download, run phpinfo().
+
+https://xdebug.org/download
+
+Get Xdebug according to PHP version, Architecture(32 bit or 64 bit) and Thread safety (TS).
+
+```ini
+[XDebug]
+zend_extension = "c:\xampp\php\ext\php_xdebug.dll"
+xdebug.mode=debug
+xdebug.client_host = 127.0.0.1
+xdebug.client_port = 9003
+xdebug.start_with_request=trigger
+```
+
+RESTART Apache
+
+- xdebug 3 vs 2 configuration
+- Configure PHP Tools project
+- 
+- Mysql visual studio
+	
