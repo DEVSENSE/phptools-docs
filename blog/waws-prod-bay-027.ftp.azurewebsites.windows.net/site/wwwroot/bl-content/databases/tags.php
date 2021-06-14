@@ -197,6 +197,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
             "2021\/php-vs-code-may-2021",
@@ -446,6 +447,7 @@
     "visual-studio": {
         "name": "visual studio",
         "list": [
+            "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
             "2021\/php-tools-for-visual-studio-april-2021",
             "2021\/managing-multiple-php-versions-on-windows-with-visual-studio",
@@ -517,6 +519,7 @@
     "vscode": {
         "name": "vscode",
         "list": [
+            "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
             "2021\/php-vs-code-may-2021",
@@ -538,9 +541,16 @@
             "2021\/php-tools-visual-studio-april-2021"
         ]
     },
+    "xampp": {
+        "name": "xampp",
+        "list": [
+            "2021\/configuring-xampp"
+        ]
+    },
     "xdebug": {
         "name": "xdebug",
         "list": [
+            "2021\/configuring-xampp",
             "2021\/laravel-wsl-vscode",
             "2021\/php-tools-vs-march-2021",
             "2018\/04\/wsl",

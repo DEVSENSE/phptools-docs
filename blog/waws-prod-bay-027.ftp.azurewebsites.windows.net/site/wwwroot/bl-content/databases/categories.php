@@ -74,6 +74,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2021\/configuring-xampp",
             "2021\/laravel-wsl-vscode",
             "2020\/how-to-setup-iis-for-php-development",
             "2020\/installing-php-8-one-click",
