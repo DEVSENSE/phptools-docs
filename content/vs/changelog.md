@@ -1,4 +1,4 @@
-## 1.52.13471 (June 15, 2021)
+## 1.52.13475 (June 15, 2021)
 
 - PHP diagnostics:
   - restrict `$GLOBALS` use in PHP 8.1
@@ -6,7 +6,7 @@
 - Common Project System provides `Ctrl+F5` functionality
 - PHP installed as a prt of XAMPP can be used by projects
 - integrated composer gets updated to version 2
-- Tools / Options / PHP Tools UI layout cleanups
+- *Tools/Options/PHP Tools* UI layout cleanups
 - fixes editor highlighting occurences
 - updated PHP 5.4 installer
 - fixed VS2010 - VS2015 support (some configurations have a missing DLL)
