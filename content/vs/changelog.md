@@ -1,4 +1,4 @@
-## 1.52.13476 (June 15, 2021) preview
+## 1.52.13482 (June 17, 2021) preview
 
 - PHP diagnostics:
   - restrict `$GLOBALS` use in PHP 8.1
@@ -9,7 +9,12 @@
 - *Tools/Options/PHP Tools* UI layout cleanups
 - fixes editor highlighting occurences
 - updated PHP 5.4 installer
+
+### Legacy VS Support
+
+- fixed smart tags and corresponding VS crashes in VS 2010 - 2015
 - fixed VS2010 - VS2015 support (some configurations have a missing DLL)
+- re-enabled smart tag actions in VS2015
 
 ## 1.52.13439 (June 4, 2021)
 
