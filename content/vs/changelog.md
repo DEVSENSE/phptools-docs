@@ -1,4 +1,4 @@
-## 1.52.13483 (June 17, 2021) preview
+## 1.52.13483 (June 17, 2021)
 
 - PHP diagnostics:
   - restrict `$GLOBALS` use in PHP 8.1
