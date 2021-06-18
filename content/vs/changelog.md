@@ -1,14 +1,16 @@
 ## 1.52.13483 (June 17, 2021)
 
-- PHP diagnostics:
-  - restrict `$GLOBALS` use in PHP 8.1
-  - use of `[]` in read expression
 - Common Project System provides `Ctrl+F5` functionality
-- PHP installed as a prt of XAMPP can be used by projects
+- PHP installed as a part of XAMPP can be used by projects
 - integrated composer gets updated to version 2
 - *Tools/Options/PHP Tools* UI layout cleanups
 - fixes editor highlighting occurences
 - updated PHP 5.4 installer
+
+### PHP diagnostics
+
+  - restrict `$GLOBALS` use in PHP 8.1
+  - use of `[]` in read expression
 
 ### Legacy VS Support
 
