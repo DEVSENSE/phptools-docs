@@ -39,7 +39,7 @@ The code action resolves the complete class hierarchy, taking into accound inter
 
 ![Implement missing functions](../imgs/impl-missing-abstracts.gif)
 
-### Resolve missing namespace
+### Import Name
 
 Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code actions with all available fixes is provided.
 
