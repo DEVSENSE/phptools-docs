@@ -1,3 +1,14 @@
+## 1.52.13554 (June 23, 2021) preview
+
+- new **auto-import** on code completion
+  - configurable in **Tools / Options** - **Text Editor / PHP / IntelliSense**
+  - automatically adds `use` alias or inserts fully qualified name
+- (VS 2019) fixes slow startup time and notification by Visual Studio
+- fixes incorrectly underlined errors in PHP Editor
+- more undocumented *.phpstorm.meta* notation supported (e.g. `&` as a type separator)
+- notification InfoBar about expired license
+- optimizations
+
 ## 1.52.13483 (June 17, 2021)
 
 - Common Project System provides `Ctrl+F5` functionality
