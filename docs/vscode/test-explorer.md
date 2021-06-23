@@ -19,7 +19,7 @@ Tests are resolved quickly by parsing the `phpunit.xml` or `phpunit.xml.dist` fi
 
 ### PHP
 
-Running the tests relies on the confiugured PHP executable. See [editor/php-version-select](Selecting PHP Executable) for more details.
+Running the tests relies on the configured PHP executable. See [editor/php-version-select](Selecting PHP Executable) for more details.
 
 By default, the workspace is configured to use the global `php` command.
 
