@@ -1,9 +1,11 @@
-## 1.52.13554 (June 23, 2021) preview
+## 1.52.13575 (June 25, 2021) preview
 
 - new **auto-import** on code completion
   - configurable in **Tools / Options** - **Text Editor / PHP / IntelliSense**
   - automatically adds `use` alias or inserts fully qualified name
-- (VS 2019) fixes slow startup time and notification by Visual Studio
+- completion filtering with letters
+- completion inserts fully qualified name if there would be a conflict with existing alias
+- fixes slow startup time and notification by Visual Studio
 - fixes incorrectly underlined errors in PHP Editor
 - more undocumented *.phpstorm.meta* notation supported (e.g. `&` as a type separator)
 - notification InfoBar about expired license
