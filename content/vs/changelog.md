@@ -5,6 +5,7 @@
   - automatically adds `use` alias or inserts fully qualified name
 - completion filtering with letters
 - completion inserts fully qualified name if there would be a conflict with existing alias
+- (VS 2019) completion shows full namespace for symbols that will be imported
 - fixes slow startup time and notification by Visual Studio
 - fixes incorrectly underlined errors in PHP Editor
 - more undocumented *.phpstorm.meta* notation supported (e.g. `&` as a type separator)
