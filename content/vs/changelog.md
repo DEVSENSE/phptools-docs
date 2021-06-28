@@ -1,4 +1,4 @@
-## 1.52.13606 (June 27, 2021) preview
+## 1.52.13613 (June 28, 2021) preview
 
 - new **auto-import** on code completion
   - configurable in **Tools / Options** - **Text Editor / PHP / IntelliSense**
