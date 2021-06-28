@@ -53,7 +53,7 @@ If such inaccessible type is used in a code, the editor provides additional sugg
 
 ![Suggestions for type](imgs/suggesting-use.png)
 
-#### Improving Completion
+### Improving Completion
 
 Code completion is heavily based on type analysis and user's behavior. To improve code completion after `->`, make sure the editor can resolve type of the expression before. You can check the type of variables at a specific place by hovering the mouse over it and checking its tooltip. If the type is not resolved by the editor correctly, or displays only `mixed` or `object`, additional PHPDoc comments may be provided to improve the completion.
 
@@ -78,3 +78,7 @@ Once the completion list is opened, there are specific characters that commit th
 The completion list remembers recently committed items in a specific context. By learning from these recent usages of the completion list, next time the completion is triggered, the best matching recently used item is pre-selected.
 
 The feature can be disabled in menu `Tools | Options | Text Editor | PHP | IntelliSense`.
+
+## Related links
+
+- [Auto-Import](auto-import)
