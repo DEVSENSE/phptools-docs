@@ -1,3 +1,14 @@
+## 1.55.13832 (July 10, 2021) preview
+
+- new **New Project Wizards**
+- new integration into `File / New / Project From Existing Code` (UI)
+- fixes the new project creation
+- allows few more features without activation/registration
+- publish functionality added to the new CPS project type
+- debugger fixes and improvements
+- improved extension startup
+- statility fixes
+
 ## 1.52.13623 (June 28, 2021) stable
 
 - new **auto-import** on code completion
