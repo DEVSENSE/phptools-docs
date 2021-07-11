@@ -11,7 +11,7 @@
 - improved extension startup
 - removed unused PHPUnit menu commands
 - fixed menu icons on VS 2019
-- statility fixes
+- stability fixes
 
 ## 1.52.13623 (June 28, 2021) stable
 
