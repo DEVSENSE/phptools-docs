@@ -1,16 +1,28 @@
 ## 1.55.13858 (July 11, 2021) preview
 
-- new **New Project Wizards**
-- new integration into `File / New / Project From Existing Code` (UI)
-- fixes the new project creation
-- new context menu command `Add / New / New PHP Script`
-- enables few more features without activation
-- publish functionality added to the new CPS project type
-- integrated composer updates
+### New Features
+
+- new **New Web Project** Wizard
+- new **From Existing Code** Wizard
+- new integration into `File / New / Project From Existing Code`
+- added context menu command `Add / New / New PHP Script`
+- since Visual Studio 2019: Common Project System (CPS) used by default
+- **Publish** functionality added to the new CPS project type
+
+### Improvements
+
+- the new project wizard verifies and updates configurations
 - debugger fixes and improvements
+- integrated composer updates
+- enabled a few more features without activation
+- performance improvements
+
+### Fixes
+
 - improved extension startup
-- removed unused PHPUnit menu commands
+- removed forgotten and unused PHPUnit menu commands
 - fixed menu icons on VS 2019
+- debugger stability fixes
 - stability fixes
 
 ## 1.52.13623 (June 28, 2021) stable
