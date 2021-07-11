@@ -1,12 +1,15 @@
-## 1.55.13832 (July 10, 2021) preview
+## 1.55.13844 (July 11, 2021) preview
 
 - new **New Project Wizards**
 - new integration into `File / New / Project From Existing Code` (UI)
 - fixes the new project creation
-- allows few more features without activation/registration
+- enables few more features without activation
 - publish functionality added to the new CPS project type
+- integrated composer updates
 - debugger fixes and improvements
 - improved extension startup
+- removed unused PHPUnit menu commands
+- fixed menu icons on VS 2019
 - statility fixes
 
 ## 1.52.13623 (June 28, 2021) stable
