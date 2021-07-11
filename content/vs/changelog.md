@@ -3,6 +3,7 @@
 - new **New Project Wizards**
 - new integration into `File / New / Project From Existing Code` (UI)
 - fixes the new project creation
+- new context menu command `Add / New / New PHP Script`
 - enables few more features without activation
 - publish functionality added to the new CPS project type
 - integrated composer updates
