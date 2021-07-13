@@ -176,6 +176,12 @@
             "2021\/php-regex-editor"
         ]
     },
+    "performance": {
+        "name": "Performance",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021"
+        ]
+    },
     "phalanger": {
         "name": "phalanger",
         "list": [
@@ -195,8 +201,9 @@
         ]
     },
     "php": {
-        "name": "php",
+        "name": "PHP",
         "list": [
+            "2021\/php-tools-for-vs-july-2021",
             "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
@@ -250,8 +257,9 @@
         ]
     },
     "php-8.1": {
-        "name": "php 8.1",
+        "name": "PHP 8.1",
         "list": [
+            "2021\/php-tools-for-vs-july-2021",
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021"
         ]
@@ -320,6 +328,12 @@
         "name": "project",
         "list": [
             "2021\/managing-multiple-php-versions-on-windows-with-visual-studio"
+        ]
+    },
+    "project-system": {
+        "name": "Project System",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021"
         ]
     },
     "projectsystem": {
@@ -445,8 +459,9 @@
         ]
     },
     "visual-studio": {
-        "name": "visual studio",
+        "name": "Visual Studio",
         "list": [
+            "2021\/php-tools-for-vs-july-2021",
             "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
             "2021\/php-tools-for-visual-studio-april-2021",
@@ -465,6 +480,12 @@
         "name": "Visual Studio 2017",
         "list": [
             "2016\/11\/vs2017"
+        ]
+    },
+    "visual-studio-2019": {
+        "name": "Visual Studio 2019",
+        "list": [
+            "2021\/php-tools-for-vs-july-2021"
         ]
     },
     "visual-studio-code": {
