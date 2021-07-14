@@ -1,3 +1,5 @@
+## 1.55.13900 (July 14, 2021) stable
+
 ## 1.55.13858 (July 11, 2021) preview
 
 ### New Features
@@ -5,6 +7,7 @@
 - new **New Web Project** Wizard
 - new **From Existing Code** Wizard
 - new integration into `File / New / Project From Existing Code`
+- `Project From Existing Code` allows to create project from remote source
 - added context menu command `Add / New / New PHP Script`
 - since Visual Studio 2019: Common Project System (CPS) used by default
 - **Publish** functionality added to the new CPS project type
@@ -12,6 +15,9 @@
 ### Improvements
 
 - the new project wizard verifies and updates configurations
+- code completion sorts the variables by its name, so they are next to other items with the same name
+- code completion preselection prefers variables and local symbols
+- publish/download tries to reconnect automatically when connection is lost
 - debugger fixes and improvements
 - integrated composer updates
 - enabled a few more features without activation
