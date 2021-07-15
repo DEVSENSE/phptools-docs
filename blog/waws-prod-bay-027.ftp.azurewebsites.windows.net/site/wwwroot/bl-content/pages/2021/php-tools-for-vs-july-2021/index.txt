@@ -2,31 +2,31 @@ We are happy to announce **PHP Tools for Visual Studio v1.55**. This release con
 
 ## Performance and New Project System
 
-We have improved performance of the project system across all the supported Visual Studios (even the 2010 one).
+We have improved the performance of the project system across all the supported Visual Studios (even the 2010 one).
 
-For the Visual Studio 2019 (and in the future, the 2022 either) the projects are based on the new Common Project System (CPS) API. This provides even better performance, great extensibility, and what's most important - the project file itself is ultimately small.
+For Visual Studio 2019 (and in the future, 2022 either) the projects are based on the new Common Project System (CPS) API. This provides even better performance, great extensibility, and what's most important - the project file itself is ultimately small.
 
-Another noteworthy benefit is that project file won’t get modified when adding or removing files. This is great benefit when you’re working with a source control (Tfs, Git, etc.) 
+Another noteworthy benefit is that project files won’t get modified when adding or removing files. This is a great benefit when you’re working with source control (Tfs, Git, etc.)
 
 **The performance**
 
-Opening the project which involves both restoring the previously opened editors and indexing of the whole folder takes seconds now. See the screen recording below.
+Opening the project which involves both restoring the previously opened editors and indexing the whole folder takes seconds now. See the screen recording below.
 
 ![Load of Laravel Project](https://blog.devsense.com/bl-content/uploads/pages/167e4d2857a0fe40d1d15ee786df36e9/vs-load-laravel-cps.gif)
 
-In here we're opening a newly created Laravel project (~7900 files in the project, 6926 PHP files being indexed). Then the Visual Studio opens editor with `index.php` with all its features, and we are **ready to work within 5 seconds**.
+Here we're opening a newly created Laravel project (~7900 files in the project, 6926 PHP files being indexed). Then the Visual Studio opens editor with `index.php` with all its features, and we are **ready to work within 5 seconds**.
 
-Projects might have 10k, 30k, or more files, without any noticeable problems. Internal optimizations specifically recognize the `vendor` folder and skips some unnecessary processing in there. For the future support for Visual Studio 2022 which runs as 64-bit process, there won't be any limitations to the project size at all.
+Projects might have 10k, 30k, or more files, without any noticeable problems. Internal optimizations specifically recognize the `vendor` folder and skip some unnecessary processing in there. For the future support for Visual Studio 2022 which runs as a 64-bit process, there won't be any limitations to the project size at all.
 
-The new CPS project file is a standard Visual Studio and standard MSBuild project file. It's fully extensible, and might work on CI platforms on a command line, without the need of installing Visual Studio itself to run your build and other MSBuild targets (will be described in our documentation).
+The new CPS project file is a standard Visual Studio and standard MSBuild project file. It's fully extensible and might work on CI platforms on a command line, without the need of installing Visual Studio itself to run your build and other MSBuild targets (will be described in our documentation).
 
 ## New Project Wizards
 
-For the current update we have prepared **New Project Wizard** redesign and updates. It safely prepares the project to just work; 
+For the current update we have prepared a **New Project Wizard** redesign and updates. It safely prepares the project to just work; 
 
 ![Laravel Project Creation](https://blog.devsense.com/bl-content/uploads/pages/167e4d2857a0fe40d1d15ee786df36e9/vs-new-project-laravel.gif)
 
-Within the wizard steps, developer selects one of the prepared **project templates**. In the sample above we go for Laravel. Then we choose a **PHP version**. The version selector provides known PHP installations, existing local PHP installations, and custom PHP executables specified in `Tools | Options`, under `PHP Tools > Executables` dialog.
+Within the wizard steps, the developer selects one of the prepared **project templates**. In the sample above we go for Laravel. Then we choose a **PHP version**. The version selector provides known PHP installations, existing local PHP installations, and custom PHP executables specified in `Tools | Options`, under `PHP Tools > Executables` dialog.
 
 Upon creating the specified project, the wizard performs the following steps:
 
@@ -55,7 +55,7 @@ The wizard quickly creates and opens the PHP Web Project in an existing location
 
 The whole completion experience has been refreshed and provides more possibilities than before. The UI now signalizes auto-importing will happen, which is another new feature.
 
-The code completion window marks items which are not in the current naming context, but will be added upon completion. It shows a little exclamation mark and a grayed out fully qualified name of the symbol. For **Auto-Importing** options and features, please see the documentation at [docs.devsense.com/en/vs/editor/auto-import](https://docs.devsense.com/en/vs/editor/auto-import). In short, it automatically imports the name into the current namespace context, or it fully qualifies the name if necessary.
+The code completion window marks items which are not in the current naming context, but will be added upon completion. It shows a little exclamation mark and a grayed-out fully qualified name of the symbol. For **Auto-Importing** options and features, please see the documentation at [docs.devsense.com/en/vs/editor/auto-import](https://docs.devsense.com/en/vs/editor/auto-import). In short, it automatically imports the name into the current namespace context, or it fully qualifies the name if necessary.
 
 ![completion-autoimport-filtering](https://blog.devsense.com/bl-content/uploads/pages/167e4d2857a0fe40d1d15ee786df36e9/vs-new-completion-autoimport-filter.gif)
 
