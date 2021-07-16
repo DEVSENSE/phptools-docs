@@ -20,9 +20,16 @@
             "2018\/04\/wsl"
         ]
     },
-    "code": {
-        "name": "code",
+    "auto-import": {
+        "name": "Auto-Import",
         "list": [
+            "2021\/php-tools-vs-code-auto-import"
+        ]
+    },
+    "code": {
+        "name": "Code",
+        "list": [
+            "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",
             "2021\/php-tools-vs-code-march",
@@ -203,6 +210,7 @@
     "php": {
         "name": "PHP",
         "list": [
+            "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
             "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
@@ -461,6 +469,7 @@
     "visual-studio": {
         "name": "Visual Studio",
         "list": [
+            "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
             "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
@@ -538,8 +547,9 @@
         ]
     },
     "vscode": {
-        "name": "vscode",
+        "name": "VSCode",
         "list": [
+            "2021\/php-tools-vs-code-auto-import",
             "2021\/configuring-xampp",
             "2021\/php-tools-vs-code-1-4",
             "2021\/laravel-wsl-vscode",

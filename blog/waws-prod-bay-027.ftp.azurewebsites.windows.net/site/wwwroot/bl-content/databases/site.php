@@ -1,9 +1,9 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
     "title": "Blog",
-    "slogan": "Welcome to Devsense's blog",
+    "slogan": "Welcome to Devsense' PHP Tools",
     "description": "News, announcements and tutorials for the PHP Tools Community.",
-    "footer": "Copyright \u00a9 2020",
+    "footer": "Copyright \u00a9 2021",
     "itemsPerPage": 8,
     "language": "en",
     "locale": "en, en_US, en_AU, en_CA, en_GB, en_IE, en_NZ",
