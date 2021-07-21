@@ -1,3 +1,18 @@
+## 1.55.14004 (July 21, 2021) preview
+
+- new WordPress project template
+- **Visual Studio 2022 PREVIEW support**
+
+### Editor
+
+- editor brace matching color respects user's settings
+- context aware keywords in code completion
+
+### UI
+
+- new Project Fixes Wizard
+- automatic project fix asks for elevated rights just once
+
 ## 1.55.13902 (July 14, 2021) stable
 
 ### New Features
