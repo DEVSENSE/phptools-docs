@@ -1,7 +1,8 @@
 ## 1.55.14004 (July 21, 2021) preview
 
 - new WordPress project template
-- **Visual Studio 2022 PREVIEW support**
+- **Visual Studio 2022 PREVIEW support** (requires ASP.NET Web Development)
+- fixes occasional missing project properties content
 
 ### Editor
 
