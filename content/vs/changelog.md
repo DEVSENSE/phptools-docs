@@ -1,4 +1,4 @@
-## 1.55.14004 (July 21, 2021) preview
+## 1.55.14008 (July 21, 2021) preview
 
 - new WordPress project template
 - **Visual Studio 2022 PREVIEW support** (requires ASP.NET Web Development)
