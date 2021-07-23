@@ -1,5 +1,28 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/visual-studio-2022-preview": {
+        "title": "Visual Studio 2022 (preview)",
+        "description": "Announcing general support for the new Visual Studio 2022.",
+        "username": "jakub",
+        "tags": {
+            "visual-studio-2022": "Visual Studio 2022",
+            "64-bit": "64-Bit"
+        },
+        "type": "published",
+        "date": "2021-07-22 08:54:18",
+        "dateModified": "2021-07-22 09:29:33",
+        "position": 44,
+        "coverImage": "VisualStudio-pre-150.png",
+        "category": "annoucement",
+        "md5file": "5c7c4389c434b21f3286e053929fa096",
+        "uuid": "de094cc3540288b0761855a45e4be7bf",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "autosave-0bf8f022b347a3bb25d33e1c65778656": {
         "title": "PHP Tools for VS Code (July 2021)",
         "description": "",

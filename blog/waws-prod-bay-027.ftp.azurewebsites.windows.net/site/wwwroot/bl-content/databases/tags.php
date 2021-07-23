@@ -1,5 +1,11 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "64-bit": {
+        "name": "64-Bit",
+        "list": [
+            "2021\/visual-studio-2022-preview"
+        ]
+    },
     "annoucement": {
         "name": "annoucement",
         "list": [
@@ -495,6 +501,12 @@
         "name": "Visual Studio 2019",
         "list": [
             "2021\/php-tools-for-vs-july-2021"
+        ]
+    },
+    "visual-studio-2022": {
+        "name": "Visual Studio 2022",
+        "list": [
+            "2021\/visual-studio-2022-preview"
         ]
     },
     "visual-studio-code": {

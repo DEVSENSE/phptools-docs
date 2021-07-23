@@ -5,6 +5,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2021\/visual-studio-2022-preview",
             "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
             "2021\/php-tools-vs-code-1-4",
