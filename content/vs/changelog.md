@@ -1,9 +1,11 @@
-## 1.55.14016 (July 22, 2021) preview
+## 1.55.14024 (July 23, 2021) preview
 
 - new **WordPress project template**
 - new **Project Fixes Wizard**
-- fixes occasional missing project properties content
 - automatic project fix asks for elevated rights just once
+- fixes occasional missing project properties content
+- fixes crash when opening certain UNC paths
+- fixes crash when there is no PHP and it's a fresh new installation
 
 ### Visual Studio 2022 PREVIEW 2 support
 
