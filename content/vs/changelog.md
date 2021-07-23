@@ -1,4 +1,4 @@
-## 1.55.14024 (July 23, 2021) preview
+## 1.55.14026 (July 23, 2021) preview
 
 - new **WordPress project template**
 - new **Project Fixes Wizard**
