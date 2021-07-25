@@ -4,7 +4,6 @@
 - new **Project from Composer** project template
 - new **Project Fixes Wizard**
 - automatic project fix asks for elevated rights just once
-- highlighting of contextual keywords (`break`, `continue`, `return`, `yield`)
 - fixes occasional missing project properties content
 - fixes crash when opening certain UNC paths
 - fixes crash when there is no PHP and it's a fresh new installation
@@ -20,6 +19,7 @@
 
 - editor brace matching color respects user settings
 - context aware keywords in code completion
+- highlighting of contextual keywords (`break`, `continue`, `return`, `yield`)
 
 ## 1.55.13902 (July 14, 2021) stable
 
