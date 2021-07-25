@@ -11,7 +11,6 @@
 - fixes occasional UI freezes on VS project load
 - stability fixes (Drupal)
 
-
 ### Visual Studio 2022 PREVIEW 2 support
 
 - Requires *Visual Studio 2022 Preview 2*
