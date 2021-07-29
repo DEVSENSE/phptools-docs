@@ -1,4 +1,4 @@
-## 1.55.14068 (July 26, 2021) preview
+## 1.55.14068 (July 26, 2021) stable
 
 - new **Project from Composer** project template
 - new **Project from Remote** project template
