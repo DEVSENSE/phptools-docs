@@ -5,9 +5,9 @@ Description: PHP project configuration options
 
 # Project Configuration
 
-PHP project represents a single PHP application, a website or a package. Code editor, code validation and debugger will treat the code in the project according to its configuration.
+PHP project represents a single PHP website or a PHP console application. The project has configurable properties, specifying its required PHP version, startup options, additional include paths, and more.
 
-Most of the configuration is inherited from actual PHP runtime on the machine and its related `php.ini` configuration file. It means the most important is to choose the right PHP executable to be ued by the project.
+Most of the properties are obtained from a corresponding `php.ini` which is already a part of PHP installation. It means the most important is to choose the right PHP executable to be used by the project.
 
 Following is the list of configurable options:
 
