@@ -1,3 +1,19 @@
+## 1.55.14146 (August 2, 2021) preview
+
+### New `Remote Explorer` Window
+
+- preview of local changes
+- remote host explorer
+- opening and browsing files on remote host
+- comparing local changes with server
+- downloading subfolders/files into a local folder
+- undoing local changes
+
+### Fixes
+
+- icons in tooltips respects Visual Studio theme
+- fix of legacy Microsoft Publish process
+
 ## 1.55.14068 (July 26, 2021) stable
 
 - new **Project from Composer** project template
