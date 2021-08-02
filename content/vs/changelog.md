@@ -1,4 +1,4 @@
-## 1.55.14146 (August 2, 2021) preview
+## 1.55.14148 (August 2, 2021) preview
 
 ### New `Remote Explorer` Window
 
@@ -11,7 +11,7 @@
 
 ### Fixes
 
-- icons in tooltips respects Visual Studio theme
+- icons in tooltips respect the Visual Studio theme
 - fix of legacy Microsoft Publish process
 - highlighting and refactoring of symbols within `<?= ?>` tags
 
