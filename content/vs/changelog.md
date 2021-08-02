@@ -13,6 +13,7 @@
 
 - icons in tooltips respects Visual Studio theme
 - fix of legacy Microsoft Publish process
+- highlighting and refactoring of symbols within `<?= ?>` tags
 
 ## 1.55.14068 (July 26, 2021) stable
 
