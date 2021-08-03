@@ -5,7 +5,17 @@ Description: Create PHP Project from Existing Code
 
 # New Project from Existing Code
 
-If you already have a folder with existing PHP code files, it is easy to create a new PHP Web Project in this folder containing all files. Go to `File | New | Project From Existing Code...` (if available).
+If there is already a folder with existing PHP code files, a new Visual Studio project can be created right from there.
+
+## Project From Existing Code "Project Template"
+
+In `File` / `New` / `Project`, choose the `From Existing PHP code` project template. The wizard will guie you through the process of creating the project in the specified location.
+
+![Visual Studio New PHP Project From Existing Code](imgs/from-existing-code-template.png)
+
+## Project From Existing Code Menu
+
+Open `File | New | Project From Existing Code...` (if available).
 
 ![Command in Visual Studio menu](imgs/from-existing-code-menu.png)
 
