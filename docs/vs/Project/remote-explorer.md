@@ -20,7 +20,7 @@ Version 1.56 introduces **Remote Explorer** tool window which provides the follo
 
 ## Opening the Tool Window
 
-To open the Remote Exlorer, either
+To open the Remote Explorer, either
 
 - Go to menu `View` / `Other Windows` / `Remote Explorer`.
 - Right click on a PHP Project in Solution Explorer, and choose `Publish`. The project **must not** be a *Microsoft Publish* project.
@@ -43,7 +43,7 @@ The drop down also allows to manage profiles for a specified project, to create 
 
 ## Getting Files from Remote
 
-- **Pull** - downloads al the files from remote host to the project directory.
+- **Pull** - downloads all the files from remote host to the project directory.
 - **Restore** - option in the context menu, upon right clicking on a file or a folder inside `Local Changes` or `Excluded` sections. Local modifications will be overwritten with files from the remote host.
 - **Pull to Project** - option in the context menu in the `Remote Browser` section. This allows to download only selected file or folder to the project, respecting the relative file locations.
 - **Pull to ...** - this option in the context menu in the `Remote Browser` asks for a folder on the local computer, and downloads the files there.
@@ -68,9 +68,9 @@ The `Compare with Remote Version` context menu checks the differences between th
 
 ### Include, Exclude
 
-Local changes can be excluded from the `Local changes` tree with the `Exclude` context menu command, or the `Exclude All` button. Excluded items won't be uploaded upon initiating the `Upload Changes` command.
+Local changes can be excluded from the `Local changes` list with the `Exclude` menu command, or the `Exclude All` button. Excluded items won't be uploaded upon initiating the `Upload Changes` command.
 
-Excluded items can be included back in the `Excluded` part of the Remote Explorer.
+Excluded items can be included back into the `Local changes` list of the Remote Explorer.
 
 ![include to local changes](imgs/remote-explorer-include.png)
 
