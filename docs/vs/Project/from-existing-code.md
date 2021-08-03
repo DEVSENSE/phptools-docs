@@ -30,3 +30,9 @@ This will display the following wizard. Choose a name for your new project, the 
 Click **Finish**, Visual Studio will create a new project (`.phpproj`) in the folder you specified, containing all the files within this folder.
 
 In case your folder contains `composer.json` file and you are missing the required packages defined in the file, the following dialog will appear, asking for your permission to download the package into your project.
+
+## Related links
+
+- [New Project](new-project) - creating a new PHP project, either empty or from a template.
+- [New Project from Composer Package](new-project-composer) - creating a new PHP project from a composer package.
+- [New Project from Remote location](new-project-remote) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.
