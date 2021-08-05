@@ -1,20 +1,6 @@
 ## 1.56.14213 (August 5, 2021) preview
 
-- **Remote Explorer** fixes and improvements
-- fixes Difference Viewer on VS 2022
-- Activation Window UI fix for Windows 11
-- fixes occasional freeze/deadlock
-
-### Editor
-
-- `PHP - Variable` themed color
-- `class name` themed color
-- `PHP - Label` new color (gets bold)
-- Peek Window fix for files that are not yet opened
-
-## 1.55.14148 (August 2, 2021) preview
-
-### New `Remote Explorer` Window
+### [`Remote Explorer`](https://docs.devsense.com/vs/project/remote-explorer) Window
 
 - preview of local changes
 - remote host explorer
@@ -23,11 +9,21 @@
 - downloading subfolders/files into a local folder
 - undoing local changes
 
+### Editor
+
+- `PHP - Variable` themed color
+- `class name` themed color
+- `PHP - Label` new color (gets bold)
+- Peek Window fix for files that are not yet opened
+
 ### Fixes
 
 - icons in tooltips respect the Visual Studio theme
 - fix of legacy Microsoft Publish process
+- fixes Difference Viewer on VS 2022
 - highlighting and refactoring of symbols within `<?= ?>` tags
+- fixes occasional freeze/deadlock
+- Activation Window UI fix for Windows 11
 
 ## 1.55.14068 (July 26, 2021) stable
 
