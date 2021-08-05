@@ -1,3 +1,17 @@
+## 1.56.14211 (August 5, 2021) preview
+
+- **Remote Explorer** fixes and improvements
+- fixes Difference Viewer on VS 2022
+- Activation Window UI fix for Windows 11
+- fixes occasional freeze/deadlock
+
+### Editor
+
+- `PHP - Variable` themed color
+- `class name` themed color
+- `PHP - Label` new color (gets bold)
+- Peek Window fix for files that are not yet opened
+
 ## 1.55.14148 (August 2, 2021) preview
 
 ### New `Remote Explorer` Window
