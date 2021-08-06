@@ -13,35 +13,60 @@ Moreover, when PHP Editor finds a syntax error or a logical error, the correspon
 
 ## Settings
 
-PHP Tools editor respects custom color settings from Visual Studio. These settings can be configured in `Tools | Options | Environment | Fonts and Colors` (see below).
+PHP Editor respects standard Visual Studio colors, and defines additional PHP colors. The colors are themed, and thus work well on the both Dark and Light themes.
 
-The editor uses most of built-in colors. It lets the user take advantage of the PHP Editor with existing custom settings and themes easily. The following Display items are introduced by PHP Tools in addition to built-in Visual Studio colors:
+Modify the default Fonts and Colors in the menu `Tools` | `Options`, section `Environment` > `Fonts and Colors`.
 
-- PHP - Encapsulated Variable
+**Used Standard Colors:**
+
+- text
+- identifier
+- comment
+- keyword
+- operator
+- number
+- string
+- string - escape character
+- user types - classes
+
+**PHP Colors**
+
 - PHP - Variable
-- PHP Doc - Variable
+- PHP - Label
+- PHP - Encapsulated Variable
 - PHP Doc - Delimiter
+- PHP Doc - Variable
 - PHP Doc - Tag
 
-Built-in Visual studio colors used by PHP Editor are the following:
+**Regex Syntax Colors** (Visual Studio 2019 and newer)
 
-- Comment
-- Identifier
-- Keyword
-- Number
-- Operator
-- String
-- Text
+- Regex - Alternation
+- Regex - Anchor
+- Regex - Comment
+- Regex - Grouping
+- Regex - Character Class
+- Regex - Other Escape
+- Regex - Quantifier
+- Regex - Self Escaped Character
+- Regex - Text
+
+**Used HTML Colors**
+
 - HTML Server-Side Script
-- User Types - Classes
+- HTML Element Name
+- HTML Attribute Value
+- HTML Attribute Name
+- HTML Comment
+- HTML Operator
+- HTML Tag Delimiter
 
 ## PHPDoc Highlighting
 
-Since version 1.16, PHPDoc content is also colorized. Its tags contained type names and variable names are colored according to the settings above.
+PHPDoc content (within `/** */` comments) is also colorized. Its tags contained type names and variable names are colored according to the settings above.
 
 ## Type Names and Highlighting
 
-Since version 1.16, type names are highlighted. The color respects Display item `User Types - Classes`.
+Type names are highlighted with the color respecting the color name `User Types - Classes`.
 
 ## Highlighting braces
 
@@ -51,6 +76,25 @@ Matching pair of braces are automatically highlighted as well. Upon moving the k
 
 You can also jump between matching braces using the keyboard shortcut (by default `Ctrl`+`]`).
 
+In the Visual Studio 2019 and newer, matching parenthesis within PCRE are also highlighted.
+
+### Short Open Tags '&lt;? ?&gt;'
+
+The editor respects the `short_open_tag` directive in the corresponding `php.ini` file. By default, it enables them for PHP &lt; 7.0. Otherwise the short open tags are treated as XML tag and their content is not colorized as PHP code.
+
+To override the default behavior and enable the short open tags, edit the Visual Studio project file (`.phpproj` file), and add the following XML fragment:
+
+```xml
+<PropertyGroup>
+  <LanguageFeatures>ShortOpenTags</LanguageFeatures>    
+</PropertyGroup>
+```
+
+Reload the project if necessary.
+
+> Note, short open tags were disabled by default since PHP 7.0.
+
 ## Switching Themes
 
-When switching to a different color theme (e.g. Dark Theme), all built-in colors are switched as well to their default, respecting the new theme. Additional colors (prefixed with PHP) have to be changed manually to improve readability in the new theme.
+When switching to a different color theme (e.g. Dark Theme), all built-in colors are switched as well to their default, respecting the new theme. PHP colors respect the Dark and Light themes.
+
