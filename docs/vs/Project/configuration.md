@@ -49,14 +49,16 @@ When running or debugging the project, it is possible the change it's root folde
 
 ## Short Open Tags
 
-The code editor and code analysis treats short open tags (`<?`) depending on the configuration. By default it is enabled when `Language Level` is `5.x.x`, disabled for `7.0.0` and above.
+The code editor and code analysis treats short open tags (`<?`) depending on the configuration. By default it is enabled when `Language Level` is `5.x`, and disabled for `7.0` and above.
 
-The setting can be changed in corresponding `php.ini` by setting the `short_open_tag` directive.
+When using the "Built-in Web Server", the correct configuration respects the directive `short_open_tag` in the corresponding `php.ini` configuration file.
 
-Another way of setting the short open tags for the project is by editting the project file itself (`.phpproj` file), and adding/altering following within the root XML node:
+The short open tag configuration can be forced by editting the PHP project file itself (`.phpproj` file). The following XML fragement has to be added/altered within the root XML node of the project `.phpproj` file:
 
 ```xml
 <PropertyGroup>
   <LanguageFeatures>ShortOpenTags</LanguageFeatures>    
 </PropertyGroup>
 ```
+
+Reload the project within Visual Studio after modifying the project file.
