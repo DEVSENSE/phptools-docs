@@ -9,8 +9,6 @@ PHP Editor allows you to collapse the content of functions, classes, namespaces 
 
 ![PHP code outlining](imgs/phptools-outlining.png "PHP code outlining.")
 
-Moreover, when PHP Editor finds a syntax error or a logical error, the corresponding expression is underlined with a red wave and the error detail is listed in Visual Studio Error List tool window.
-
 ## Default Shortcuts
 
 - <kbd>Ctrl+M, O</kbd> - Collapse all blocks to definitions.
@@ -36,6 +34,10 @@ The following list describes all the code fragments supporting outlining:
 - Code enclosed within `for`, `foreach`, `if`, `else`, `elseif` *(since version 1.18)*
 
 Outlining behavior can be modified in PHP language options. To disable automatic outlining of a newly opened file, or to change additional outlining options, go to `Tools | Options | Text Editor | PHP | Advanced`.
+
+## Outlining Code Blocks
+
+> Outlining code blocks has to be enabled in `Tools` | `Options`, under `Text Editor` > `PHP` > `Advanced`.
 
 ## &#35;region Outlining
 
