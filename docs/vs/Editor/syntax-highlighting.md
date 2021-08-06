@@ -60,6 +60,28 @@ Modify the default Fonts and Colors in the menu `Tools` | `Options`, section `En
 - HTML Operator
 - HTML Tag Delimiter
 
+### Short Open Tags
+
+```php
+<? // <-- short open tag, usually not enabled
+
+?>
+```
+
+The editor respects the `short_open_tag` directive in the corresponding `php.ini` file. By default, it enables them for PHP &lt; 7.0. Otherwise the short open tags are treated as XML tag and their content is not colorized as PHP code.
+
+To override the default behavior and enable the short open tags, edit the Visual Studio project file (`.phpproj` file), and add the following XML fragment:
+
+```xml
+<PropertyGroup>
+  <LanguageFeatures>ShortOpenTags</LanguageFeatures>    
+</PropertyGroup>
+```
+
+Reload the project if necessary.
+
+> Note, short open tags were disabled by default since PHP 7.0.
+
 ## PHPDoc Highlighting
 
 PHPDoc content (within `/** */` comments) is also colorized. Its tags contained type names and variable names are colored according to the settings above.
@@ -77,22 +99,6 @@ Matching pair of braces are automatically highlighted as well. Upon moving the k
 You can also jump between matching braces using the keyboard shortcut (by default `Ctrl`+`]`).
 
 In the Visual Studio 2019 and newer, matching parenthesis within PCRE are also highlighted.
-
-### Short Open Tags '&lt;? ?&gt;'
-
-The editor respects the `short_open_tag` directive in the corresponding `php.ini` file. By default, it enables them for PHP &lt; 7.0. Otherwise the short open tags are treated as XML tag and their content is not colorized as PHP code.
-
-To override the default behavior and enable the short open tags, edit the Visual Studio project file (`.phpproj` file), and add the following XML fragment:
-
-```xml
-<PropertyGroup>
-  <LanguageFeatures>ShortOpenTags</LanguageFeatures>    
-</PropertyGroup>
-```
-
-Reload the project if necessary.
-
-> Note, short open tags were disabled by default since PHP 7.0.
 
 ## Switching Themes
 
