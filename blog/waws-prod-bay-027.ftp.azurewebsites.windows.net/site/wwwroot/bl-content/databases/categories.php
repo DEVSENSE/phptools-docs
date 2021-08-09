@@ -77,6 +77,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2021\/new-project-wizards-visualstudio",
             "2021\/configuring-xampp",
             "2021\/laravel-wsl-vscode",
             "2020\/how-to-setup-iis-for-php-development",
