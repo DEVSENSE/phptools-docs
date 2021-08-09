@@ -1,13 +1,5 @@
 ## 1.56.14279 (August 9, 2021) preview
 
-- Remote Explorer allows to upload files with Drag&Drop from Windows Explorer
-- improves code completion hinting
-- fixes falsely reported missing composer packages
-- fixes PHP Error Log Output
-- fixes use of IIS and IIS Express
-
-## 1.56.14221 (August 5, 2021) preview
-
 ### [`Remote Explorer`](https://docs.devsense.com/vs/project/remote-explorer) Window
 
 - preview of local changes
@@ -16,6 +8,7 @@
 - comparing local changes with server
 - downloading subfolders/files into a local folder
 - undoing local changes
+- upload files with Drag&Drop from Windows Explorer to Remote Browser
 
 ### Editor
 
@@ -23,6 +16,7 @@
 - `class name` themed color
 - `PHP - Label` new color (gets bold)
 - Peek Window fix for files that are not yet opened
+- improves code completion hinting
 
 ### Fixes
 
@@ -32,6 +26,9 @@
 - highlighting and refactoring of symbols within `<?= ?>` tags
 - fixes occasional freeze/deadlock
 - Activation Window UI fix for Windows 11
+- fixes falsely reported missing composer packages
+- fixes PHP Error Log Output
+- fixes use of IIS and IIS Express
 
 ## 1.55.14068 (July 26, 2021) stable
 
