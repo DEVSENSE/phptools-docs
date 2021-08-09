@@ -1,6 +1,7 @@
-## 1.56.14268 (August 9, 2021) preview
+## 1.56.14271 (August 9, 2021) preview
 
 - Remote Explorer allows to upload files with Drag&Drop from Windows Explorer
+- improves code completion hinting
 - fixes falsely reported missing composer packages
 - fixes PHP Error Log Output
 - fixes use of IIS and IIS Express
