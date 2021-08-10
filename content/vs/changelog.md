@@ -1,4 +1,4 @@
-## 1.56.14279 (August 9, 2021) preview
+## 1.56.14286 (August 10, 2021) preview
 
 ### [`Remote Explorer`](https://docs.devsense.com/vs/project/remote-explorer) Window
 
@@ -18,6 +18,11 @@
 - Peek Window fix for files that are not yet opened
 - improves code completion hinting
 
+### Debugger
+
+- allows to disable exception breakpoints during a debugging session
+- provides more exceptions information
+
 ### Fixes
 
 - icons in tooltips respect the Visual Studio theme
@@ -29,6 +34,7 @@
 - fixes falsely reported missing composer packages
 - fixes PHP Error Log Output
 - fixes use of IIS and IIS Express
+- fixes use of IIS Express on Visual Studio 2010, 2012, 2013
 
 ## 1.55.14068 (July 26, 2021) stable
 
