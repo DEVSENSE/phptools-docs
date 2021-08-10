@@ -147,6 +147,7 @@
     "news": {
         "name": "news",
         "list": [
+            "2021\/php-tools-for-vs-remote-explorer",
             "2020\/updates-visual-studio-november-2020",
             "2018\/04\/phptools-1.27",
             "2018\/02\/phptools-1.26",
@@ -214,8 +215,9 @@
         ]
     },
     "php": {
-        "name": "PHP",
+        "name": "php",
         "list": [
+            "2021\/php-tools-for-vs-remote-explorer",
             "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
             "2021\/configuring-xampp",
@@ -385,6 +387,12 @@
             "2016\/02\/newsletter-phptools-1.19"
         ]
     },
+    "remote-explorer": {
+        "name": "remote explorer",
+        "list": [
+            "2021\/php-tools-for-vs-remote-explorer"
+        ]
+    },
     "smarty": {
         "name": "Smarty",
         "list": [
@@ -473,8 +481,9 @@
         ]
     },
     "visual-studio": {
-        "name": "Visual Studio",
+        "name": "visual studio",
         "list": [
+            "2021\/php-tools-for-vs-remote-explorer",
             "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
             "2021\/configuring-xampp",

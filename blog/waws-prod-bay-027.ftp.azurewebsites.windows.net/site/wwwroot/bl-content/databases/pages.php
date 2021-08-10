@@ -1,5 +1,30 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-for-vs-remote-explorer": {
+        "title": "PHP Tools for Visual Studio (August 2021)",
+        "description": "Introducing updates for August 2021!",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "visual-studio": "visual studio",
+            "remote-explorer": "remote explorer",
+            "news": "news"
+        },
+        "type": "published",
+        "date": "2021-08-09 11:10:10",
+        "dateModified": "2021-08-09 11:22:07",
+        "position": 46,
+        "coverImage": "",
+        "category": "annoucement",
+        "md5file": "887a1d4b67edb8c954edbfe8227673a3",
+        "uuid": "e8d47447c369f6964773ca127a9dc65f",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/new-project-wizards-visualstudio": {
         "title": "New Project Wizards",
         "description": "Creating project from Composer package, Remote host, new WordPress site, or from an existing code.",
