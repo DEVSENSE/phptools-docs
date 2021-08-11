@@ -1,11 +1,5 @@
 ## 1.56.14300 (August 11, 2021) preview
 
-- debugger exception breakpoint filtering
-- Visual Studio 2010; Remote Explorer file icons
-- Visual Studio 2010-2013; fixes IIS Express sites
-
-## 1.56.14286 (August 10, 2021) preview
-
 ### [`Remote Explorer`](https://docs.devsense.com/vs/project/remote-explorer) Window
 
 - preview of local changes
@@ -28,6 +22,7 @@
 
 - allows to disable exception breakpoints during a debugging session
 - provides more exceptions information
+- exception breakpoint filtering
 
 ### Fixes
 
