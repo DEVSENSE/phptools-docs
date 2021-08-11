@@ -15,7 +15,7 @@ In `File` / `New` / `Project`, choose the `From Existing PHP code` project templ
 
 ## Project From Existing Code Menu
 
-Open `File | New | Project From Existing Code...` (if available).
+Open `File` | `New` | `Project From Existing Code...` *(if available)*.
 
 ![Command in Visual Studio menu](imgs/from-existing-code-menu.png)
 
