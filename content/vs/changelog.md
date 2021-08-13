@@ -1,3 +1,9 @@
+## 1.56.14314 (August 13, 2021) preview
+
+- updated PHP manual
+- fixes IntelliSense updates when folders are changed externally
+- fixes rare UI freezes on project load
+
 ## 1.56.14305 (August 12, 2021) stable
 
 ### [`Remote Explorer`](https://docs.devsense.com/vs/project/remote-explorer) Window
