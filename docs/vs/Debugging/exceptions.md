@@ -21,7 +21,7 @@ In the **Exception Settings** window you can also find **Error**, **Warning**, *
 
 Then when you are debugging PHP program, Visual Studio will break when the exception is thrown in the same way as if breakpoint was present at the location.
 
-![Exception handler](exception-thrown.png)
+![Exception handler](imgs/exception-thrown.png)
 
 The exception handler dialog will present you the information about the exception, such as type of the exception and message. You can [inspect the program](inspecting-data), evaluate expressions, check the call stack, etc.
 
@@ -35,11 +35,11 @@ In most situation it’s not necessary to explicitly add the exception to the li
 
 If you want to proactively add(or delete) the exception, in the **Exception Settings** window select **PHP Exceptions** category and click Add button(or delete button).
 
-![Add and delete button in the Exception Settings window](exception-add-button.png)
+![Add and delete button in the Exception Settings window](imgs/exception-add-button.png)
 
 Fill the fully qualified exception name(including namespaces). Make sure the name is correct, the debugger doesn’t check if you’ve spelled the exception type correctly.
 
-![Adding the custom exception](exception-adding.png)
+![Adding the custom exception](imgs/exception-adding.png)
 
 ## Unhandled exceptions and fatal errors
 
