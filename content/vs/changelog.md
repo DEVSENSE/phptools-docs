@@ -1,6 +1,6 @@
 ## 1.56.14333 (August 16, 2021) preview
 
-- **remote explorer** shows deleted items aslightly dimmed
+- **remote explorer** shows deleted items slightly dimmed
 - updated PHP manual
 - integrated PHP manual with fixed deprecations info and fixed nullable parameter types
 - internal optimizations
