@@ -1,4 +1,4 @@
-## 1.56.14343 (August 17, 2021) preview
+## 1.56.14344 (August 17, 2021) preview
 
 - **remote explorer** shows deleted items slightly dimmed
 - updated PHP manual
@@ -6,6 +6,7 @@
 - internal optimizations
 - fixes IntelliSense updates when folders are changed externally
 - fixes rare UI freezes on project load
+- outputs more information in debug output
 
 ## 1.56.14305 (August 12, 2021) stable
 
