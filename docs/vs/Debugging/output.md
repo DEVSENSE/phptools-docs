@@ -26,10 +26,17 @@ error_log("test"); // this message will be sent to the PHP Error Log
 
 > Note: The error log file is located at path specified with `error_log` PHP INI directive.
 
+## PHP Web Server Log
+
+The output of the web server process (IIS Express or PHP Build-in server) can be find in **PHP Web Server** output pane. This log lists information about server and requests.
+
+![degug session log](imgs/output-server.png)
+
 ## Debugger Log
 
-The debug session is logged in the *Output Window*, the tab *Debug*. This panel lists the debugging events, requests, and handled errors and exceptions.
+The debug session is logged in the *Output Window*, the tab *Debug*. This panel lists the debugging events, handled errors and exceptions.
 
 ![degug session log](imgs/output-debug.png)
 
 > Use this panel to ensure the debugging is configured properly, and there are no unexpected issues with the Visual Studio debugging.
+
