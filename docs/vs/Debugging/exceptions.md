@@ -1,5 +1,5 @@
 /*
-Title: Break on Exceptions or errors
+Title: Exceptions or errors
 Description: Break on exceptions or errors when they are thrown
 */
 
