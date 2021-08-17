@@ -1,12 +1,27 @@
-## 1.56.14344 (August 16, 2021) preview
+## 1.56.14359 (August 17, 2021) preview
 
-- **remote explorer** shows deleted items slightly dimmed
+### Editor
+
 - updated PHP manual
+- **PHP 8.1** read-only properties, new closure syntax, new in init, and corresponding checks
 - integrated PHP manual with fixed deprecations info and fixed nullable parameter types
+- code formatting deals with rare constructs in `switch`-`case`-`elseif` blocks
+
+### Debug
+
+- more output logging during IIS Express start
+- outputs more information in debug output ([see docs](https://docs.devsense.com/vs/debugging/output))
+
+### Remote Explorer
+
+- deleted items are slightly dimmed
+
+### Fixes
+
 - internal optimizations
 - fixes IntelliSense updates when folders are changed externally
 - fixes rare UI freezes on project load
-- outputs more information in debug output
+- fixes rare freeze on VS load
 
 ## 1.56.14305 (August 12, 2021) stable
 
