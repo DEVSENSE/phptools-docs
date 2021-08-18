@@ -1,5 +1,31 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/compound-launch-vs-code-php": {
+        "title": "Compound Launch and Debug in VS Code",
+        "description": "Starting and debugging two or more PHP servers at once, in VS Code and PHP Tools.",
+        "username": "jakub",
+        "tags": {
+            "php": "php",
+            "built-in": "built-in",
+            "debug": "debug",
+            "server": "server",
+            "compound-launch": "compound launch"
+        },
+        "type": "draft",
+        "date": "2021-08-17 13:54:43",
+        "dateModified": "2021-08-17 13:54:43",
+        "position": 47,
+        "coverImage": "",
+        "category": "tutorial",
+        "md5file": "a92a903503999fa49cffbf46bb0ba539",
+        "uuid": "be035ca92c6457d1c8a74ff090db283b",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-tools-for-vs-remote-explorer": {
         "title": "PHP Tools for Visual Studio (August 2021)",
         "description": "Introducing updates for August 2021!",
