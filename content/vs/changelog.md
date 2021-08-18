@@ -1,4 +1,4 @@
-## 1.56.14359 (August 17, 2021) preview
+## 1.56.14362 (August 18, 2021) preview
 
 ### Editor
 
@@ -6,6 +6,7 @@
 - **PHP 8.1** read-only properties, new closure syntax, new in init, and corresponding checks
 - integrated PHP manual with fixed deprecations info and fixed nullable parameter types
 - code formatting deals with rare constructs in `switch`-`case`-`elseif` blocks
+- HTML format fixes
 
 ### Debug
 
