@@ -1,5 +1,7 @@
 ## 1.56.14377 (August 19, 2021) preview
 
+> **Visual Studio 2019** requires update 16.10 or newer.
+
 ### Editor
 
 - updated PHP manual
