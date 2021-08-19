@@ -78,6 +78,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2021\/compound-launch-vs-code-php",
             "2021\/new-project-wizards-visualstudio",
             "2021\/configuring-xampp",
             "2021\/laravel-wsl-vscode",

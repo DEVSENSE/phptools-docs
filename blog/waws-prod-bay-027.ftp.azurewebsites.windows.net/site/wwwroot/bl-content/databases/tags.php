@@ -32,6 +32,12 @@
             "2021\/php-tools-vs-code-auto-import"
         ]
     },
+    "built-in": {
+        "name": "built-in",
+        "list": [
+            "2021\/compound-launch-vs-code-php"
+        ]
+    },
     "code": {
         "name": "Code",
         "list": [
@@ -63,6 +69,12 @@
             "2015\/03\/newsletter-phptools-1-15"
         ]
     },
+    "compound-launch": {
+        "name": "compound launch",
+        "list": [
+            "2021\/compound-launch-vs-code-php"
+        ]
+    },
     "dbgp": {
         "name": "DBGp",
         "list": [
@@ -72,6 +84,7 @@
     "debug": {
         "name": "debug",
         "list": [
+            "2021\/compound-launch-vs-code-php",
             "2021\/php-tools-visual-studio-april-2021",
             "2019\/php-tracepoint-logpoint",
             "2017\/08\/phptools-1.24",
@@ -217,6 +230,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/compound-launch-vs-code-php",
             "2021\/php-tools-for-vs-remote-explorer",
             "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
@@ -391,6 +405,12 @@
         "name": "remote explorer",
         "list": [
             "2021\/php-tools-for-vs-remote-explorer"
+        ]
+    },
+    "server": {
+        "name": "server",
+        "list": [
+            "2021\/compound-launch-vs-code-php"
         ]
     },
     "smarty": {
