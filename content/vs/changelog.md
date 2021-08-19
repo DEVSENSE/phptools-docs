@@ -1,4 +1,4 @@
-## 1.56.14362 (August 18, 2021) preview
+## 1.56.14376 (August 19, 2021) preview
 
 ### Editor
 
@@ -23,6 +23,7 @@
 - fixes IntelliSense updates when folders are changed externally
 - fixes rare UI freezes on project load
 - fixes rare freeze on VS load
+- fixes debug launch in case VS is not authorized to access php.ini
 
 ## 1.56.14305 (August 12, 2021) stable
 
