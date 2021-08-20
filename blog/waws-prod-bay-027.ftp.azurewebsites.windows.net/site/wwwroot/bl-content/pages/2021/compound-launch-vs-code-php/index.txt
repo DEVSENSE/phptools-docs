@@ -12,13 +12,13 @@ But what if we'd like to not configure the web server, simplify things a bit, an
 
 ## `launch.json`
 
-VS Code is well equipped for launching two or more launch configurations at once. But does it work with PHP and it's debugging extension?
+VS Code is well equipped for launching two or more launch configurations at once. But does it work with PHP and its debugging extension?
 
 Open a folder or a workspace with our two applications in VS Code first:
 
 ![VS Code Workspace](https://blog.devsense.com/bl-content/uploads/pages/be035ca92c6457d1c8a74ff090db283b/vscode-public-and-api.png)
 
-We either already have `.vscode/launch,json` file, or we have to create a default one for PHP.
+We either already have `.vscode/launch.json` file, or we have to create a default one for PHP.
 
 ![create launch.json for PHP](https://blog.devsense.com/bl-content/uploads/pages/be035ca92c6457d1c8a74ff090db283b/vscode-create-launchjson.png)
 
