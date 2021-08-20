@@ -1,4 +1,4 @@
-## 1.56.14377 (August 19, 2021) preview
+## 1.56.14385 (August 20, 2021) preview
 
 > **Visual Studio 2019** requires update 16.10 or newer.
 
@@ -26,6 +26,8 @@
 - fixes rare UI freezes on project load
 - fixes rare freeze on VS load
 - fixes debug launch in case VS is not authorized to access php.ini
+- updated networking libraries
+- updated WebPI feed with fixes to PHP 5.4
 
 ## 1.56.14305 (August 12, 2021) stable
 
