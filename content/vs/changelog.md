@@ -1,4 +1,4 @@
-## 1.56.14385 (August 20, 2021) preview
+## 1.56.14385 (August 20, 2021) stable
 
 > **Visual Studio 2019** requires update 16.10 or newer.
 
