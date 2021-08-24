@@ -135,3 +135,7 @@ It is possible to define more launch configurations, each with a different PHP v
 ```
 
 > Note: In this example, it is assumed that the PHP 8.0 is installed on the local machine.
+
+## Related Links
+
+- [Compound Launch and Debug](https://blog.devsense.com/2021/compound-launch-vs-code-php) - Start and debug more built-in servers at once.
