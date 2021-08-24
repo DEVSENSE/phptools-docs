@@ -1,0 +1,71 @@
+In PHP there are two ways how unexpected state of the program are handled. First one is the traditional procedural approach - **errors**, which also includes notices and warnings. 
+
+Second approach are **exceptions**, which is a modern way how to handle unexpected program states in object oriented programming.
+
+As of PHP 7, errors are mostly reported by throwing an exception as well. They did that by creating `Error` class which implements the `Throwable` interface and can be caught. Which is same as `Exception` class.
+
+This means that you can handle both errors and exceptions by catching `Throwable` class. But it also means that if your code relies on using [set_exception_handler()](https://www.php.net/manual/en/function.set-error-handler.php) it might not work anymore, since the error doesn’t have to go through this handler. In older PHP versions exception handler was called each time an error has happened, but now only small subset of errors remain to be handed in this way. For this reason, we will talk about the exceptions in the rest of the article.
+
+## What happens when exception occurs?
+
+When exception is thrown, the execution of the program is halted and call stack is unwind until appropriate `catch` clause is found. The catch needs to match with the exception type or its predecessor type. 
+
+Here is the example:
+
+```php
+<?php
+
+Class CookieLover
+{
+    var $cookiesilike = array("Chocolate Chip","Snickerdoodle","Peanut Butter");
+
+    function giveMeCookie($cookie)
+    {
+        if (!in_array($cookie, $this->cookiesilike))
+        {
+            throw new Exception("I don't like this cookie");
+        }
+
+        echo "Thanks";
+    }
+}
+
+$factory = new CookieLover();
+$factory->giveMeCookie("Oatmeal");
+
+```
+
+The exception is thrown when `giveMeCookie` method is called with a an argument that is not present in `cookiesilike` array.
+
+![Exception is thrown](https://blog.devsense.com/bl-content/uploads/pages/69ecd1b5d7f902798be128cd46ac2c53/exception-thrown.png)
+
+## Handling the exception
+
+In above sample, there wasn’t any try/catch statement which would handle the exception. The call stack gets unwind all the way to the PHP Runtime and exception becomes **unhandled**, which will terminate the program.
+
+If exception is thrown within `try/catch` clause, which includes inner methods, the program will not terminate and execution will continue in catch clause, where you can handle the exception. 
+
+![Handled exception](https://blog.devsense.com/bl-content/uploads/pages/69ecd1b5d7f902798be128cd46ac2c53/exception-obj.png)
+
+>	**Note:** As of PHP 8, `try/catch` is an expression, not just a statement. That means you don’t need to place it on separate line and it can be part of more complex expression.
+
+## Break on exception
+
+If Visual Studio breaks when exception is thrown depends on the **Exception Settings** which you can find at `Debug | Windows | Exception Settings` .
+
+![Exception Settings](https://docs.devsense.com/content_docs/vs/debugging/imgs/exceptions-settings.png)
+
+You can check whole **PHP Exceptions** category and the debugger will break on each thrown exception. 
+
+> **Tip:** When you are experiencing some unexpected behavior it’s useful to have whole PHP Exceptions category turned on. It’s likely there might be some exception you are not aware of.
+
+![Exception handler](https://blog.devsense.com/bl-content/uploads/pages/69ecd1b5d7f902798be128cd46ac2c53/exception-handler.png)
+
+When debugger breaks when exception is throw you can [inspect the program](https://docs.devsense.com/en/vs/debugging/inspecting-data) in the same fashion as when debugger is broken on the breakpoint. The difference is you are now presented with the exception handler dialog which shows you information about the exception and some options you can do with it:
+
+1.	**Copy-details** copies Exception Type, Message and call stack to the clipboard
+2.	You can uncheck **Break when this exception type is thrown** and the debugger will not break the next time this type of exception is thrown. 
+3.	Opens Exception Settings dialog
+
+Visual Studio will always break on unhanded exceptions. But since this happens when whole call stack is unwind you will not be able to inspect the program in similar way as when the exception is first thrown. When that happens, go to **Exception Settings** and make sure this exception type is checked. So the next time you will have chance to explore why that happened.
+
