@@ -7,6 +7,8 @@ Description: Troubleshoot most common issues with debugging PHP code in Visual S
 
 This list shows common issues with the debugger and their solutions, so you can solve problems quickly. In case you could not find an answer here, please feel free to ask on our [Support forum](https://community.devsense.com).
 
+> **Note** This guide is mainly useful if you are configuring PHP yourself. Many of the following issues are automatically validated by **PHP Tools for Visual Studio**
+
 ## Checklist
 
 - Run the following script:
@@ -14,7 +16,9 @@ This list shows common issues with the debugger and their solutions, so you can 
 <?php phpinfo(); ?>
  ``` 
  
- Check whether **Xdebug** extension is loaded. The correct output is depicted bellow.
+- Check whether **Xdebug** extension is loaded as `zend_extension`. If it's loaded as a regular extension, you would see a warning **XDEBUG NOT LOADED AS ZEND EXTENSION** in the `phpinfo()` output. In that case open your `php.ini` and change `extension=PATH_TO_XDEBUG\xdebug.dll` to `zend_extension=PATH_TO_XDEBUG\xdebug.dll`. 
+
+ The correct output is depicted bellow:
 
 ![phpinfo() output sample](imgs/troubleshooting-phpinfo-xdebug.png)
 
@@ -46,7 +50,7 @@ xdebug.start_with_request = trigger
 
 ## Using WAMP Server
 
-WAMP setup installs its own PHP configuration. To use WAMP installation with PHP Tools, set up Custom Server in your project properties and ensure php.ini corresponding to your WAMP server is configured properly. PHP Tools does not check for php.ini in WAMP installation.
+WAMP setup installs its own PHP configuration. To use WAMP installation with PHP Tools, set up Custom Server in your project properties and ensure `php.ini` corresponding to your WAMP server is configured properly. PHP Tools does not check `php.ini` in WAMP installation.
 
 ## Most Common Issues
 
@@ -100,3 +104,17 @@ One of the most common reasons is that Xdebug port is being used by 3rd party ap
 Since version 1.32.11685 you will be able to see what process is holding the port directly in Visual Studio.
 
 ![Port in use](imgs/portinuse.png)
+
+## Collecting Xdebug logs
+
+When determining the issue related to debugging it's useful to collect logs directly from **Xdebug**
+
+Open `php.ini` file in the **Xdebug** configuration section and add 
+
+ - Xdebug 2:
+ `xdebug.remote_log="path_to_log/xdebug.log"`
+
+ - Xdebug 3:
+ `xdebug.log="path_to_log/xdebug.log"`
+
+When the log is no longer necessary, turn it off. It slows the debugger and it might grow significantly over time.
