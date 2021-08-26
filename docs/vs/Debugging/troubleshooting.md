@@ -22,6 +22,8 @@ This list shows common issues with the debugger and their solutions, so you can 
 
 ![phpinfo() output sample](imgs/troubleshooting-phpinfo-xdebug.png)
 
+ > **Note:** Loading Xdebug as a regular extension will result in anomalous behaviour. `phpinfo` will show that Xdebug is enabled (there might be warning which can be missed, or in older versions warning is absent). Xdebug log would show that it's connecting and communicating correctly with IDE, but instead of breaking, the script runs and then debugging stops.
+
 - Ensure `xdebug.remote_port` directive in `php.ini` is matching the settings in your Visual Studio (`Tools | Options | PHP Tools | Advanced`). 
   
 ```ini
@@ -79,7 +81,7 @@ More at [xdebug.org/docs/faq](http://xdebug.org/docs/faq).
 
 ### "Stepping through code works, but PHP exceptions are not thrown in Visual Studio"
 
-Check your `php.ini` for `xdebug.default_enable directive` and make sure it is set to 1 (this is a default value).
+Check your `php.ini` for `xdebug.default_enable` directive and make sure it is set to `1` (this is a default value).
 
 ### "Debugger won't work when 'Don't open a page. Wait for a request from an external application' is set in the project settings."
 
@@ -101,7 +103,7 @@ to `php.ini` file in the **Xdebug** configuration section which will force it to
 
 One of the most common reasons is that Xdebug port is being used by 3rd party application (e.g. HP tools). You can either change Xdebug port or close the application.
 
-Since version 1.32.11685 you will be able to see what process is holding the port directly in Visual Studio.
+Since version `1.32.11685` you will be able to see what process is holding the port directly in Visual Studio.
 
 ![Port in use](imgs/portinuse.png)
 
@@ -116,5 +118,14 @@ Open `php.ini` file in the **Xdebug** configuration section and add
 
  - Xdebug 3:
  `xdebug.log="path_to_log/xdebug.log"`
+
+The log file contains all the comunication of Xdebug with IDE.
+
+```
+[1222] Log opened at 2021-08-23 15:55:55.265278
+[1222] [Step Debug] INFO: Connecting to configured address/port: 192.168.0.103:9003.
+[1222] [Step Debug] INFO: Connected to debugging client: 192.168.0.103:9003 (through xdebug.client_host/xdebug.client_port). :-)
+[1222] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/phpinfo.php" language="PHP" xdebug:language_version="7.2.24-0ubuntu0.18.04.8" protocol_version="1.0" appid="1222" idekey="D69FE4EA"><engine version="3.0.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+```
 
 When the log is no longer necessary, turn it off. It slows the debugger and it might grow significantly over time.
