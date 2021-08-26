@@ -11,7 +11,41 @@ PHP Tools reports all the issues located in the code, even when multiple errors 
 
 All these errors can be fixed by switching to a newer version of PHP. If that is not possible, it is necessary to refrain from using the new features or the application will crash.
 
-PHP Tools reports the following issues. Every version of PHP is accompanied by an example showing selected features available in the version as they are reported when using older versions.
+The following sections list some PHP features that are checked against the PHP version selected in the project properties.
+
+## PHP 8.1
+- new octal number syntax
+- read-only properties
+- `final const`
+- new in initializers
+- new callable syntax
+
+## PHP 8.0
+- `?->` nullsafe operator
+- `match`
+- non-capturing `catch`
+- attributes
+- named arguments
+- union types in type hints
+- `::class` on objects
+- `static` return type
+- trailing commas in parameter list
+- `throw` expression
+
+## PHP 7.4
+- arrow function
+- array spread
+- `??=` operator
+- typed properties
+- numeric values with '_' separators
+
+## PHP 7.3
+- trailing commas
+- `instanceof` with literals
+- `list()` with references
+
+## PHP 7.2
+- `(unset)` cast is deprecated
 
 ## PHP 7.1
 - Nullable types. A type declared as nullable using the '?' character, for example `function foo(?int $x) {}`.
