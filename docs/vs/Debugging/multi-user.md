@@ -87,9 +87,13 @@ xdebug.remote_port = 9000
 
 2. Select the server tab and enable the command `Use DBGp proxy`.
 
-3. Fill the host and port where the proxy is listening. In the screenshot bellow, the host is configured to point to the proxy located on the same machine. In most cases, this will point out to a remote server. You can click on **Verify** button to check if you are able to reach DBGp server.
+3. Fill the host and port where the proxy is listening. In the screenshot bellow, the host is configured to point to the proxy located on the same machine. In most cases, this will point out to a remote server. 
 
 ![Setting of DBGp proxy in PHP Tools](imgs/dbgp_vs.png)
+
+You can click on **Verify** button to check if you are able to reach DBGp server.
+
+![Setting of DBGp proxy in PHP Tools](imgs/dbgp_verification.png)
 
 4.) Start the debug session by pressing <kbd>F5</kbd>
 
@@ -100,13 +104,13 @@ PHP Tools will try to connect to the DBGp proxy and register itself to receive t
 > executing the request and sending the debug session to the correct machine. PHP Tools selects the IDE key 
 > automatically.
 
-![Connecting to DBGp proxy](imgs/connecting.png)
+![Connecting to DBGp proxy](imgs/dbgp-connecting.png)
 
 On the DBGp proxy output you can see the sucessful connection from the developer.
 
 ![Debug session established](imgs/proxy_connect.png)
 
-In Visual Studio, the debug session has been activated and breakpoint was hit.
+In Visual Studio, the debug session has been initiated and breakpoint was hit.
 
 ![Debug session established](imgs/breakpoint_hit.png)
 
