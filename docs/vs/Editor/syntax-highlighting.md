@@ -15,6 +15,8 @@ Moreover, when PHP Editor finds a syntax error or a logical error, the correspon
 
 PHP Editor respects standard Visual Studio colors, and defines additional PHP colors. The colors are themed, and thus work well on the both Dark and Light themes.
 
+![color names](imgs/php-highlighting-colors.png)
+
 Modify the default Fonts and Colors in the menu `Tools` | `Options`, section `Environment` > `Fonts and Colors`.
 
 **Used Standard Colors:**
