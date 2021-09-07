@@ -9,8 +9,10 @@
 
 ### Debug
 
+- fixes remote debugging when mapping was needed
 - fixes removing and adding breakpoints during debug session
 - function breakpoints (`Debug`/`Windows`/`Breakpoints` - **New Function Breakpoint**)
+- conditional breakpoints are checked for validity
 - DBGpProxy timeout
 - bug fixes
 
