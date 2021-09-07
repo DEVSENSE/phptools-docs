@@ -6,6 +6,7 @@
 - editor colorizes escaped characters in string literals
 - twig fixes
 - remote profile UI fixes
+- publish on save fixes
 
 ### Debug
 
