@@ -1,3 +1,19 @@
+## 1.56.15000 (September 7, 2021) preview
+
+- tooltips with more details
+- tooltips provides description of the function return value
+- updated PHP manual localization
+- editor colorizes escaped characters in string literals
+- twig fixes
+- remote profile UI fixes
+
+### Debug
+
+- fixes removing and adding breakpoints during debug session
+- function breakpoints (`Debug`/`Windows`/`Breakpoints` - **New Function Breakpoint**)
+- DBGpProxy timeout
+- bug fixes
+
 ## 1.56.14385 (August 20, 2021) stable
 
 > **Visual Studio 2019** requires update 16.10 or newer.
