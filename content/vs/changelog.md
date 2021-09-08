@@ -1,11 +1,13 @@
-## 1.56.14494 (September 7, 2021) preview
+## 1.56.14505 (September 7, 2021) preview
 
 - tooltips with more details
 - tooltips provides description of the function return value
 - updated PHP manual localization
 - editor colorizes escaped characters in string literals
 - twig fixes
+- fixes use of `readonly` keyword in PHP &lt;= 8.0
 - remote profile UI fixes
+- fixes remote explorer' **Open** and **Compare** feature
 - publish on save fixes
 
 ### Debug
