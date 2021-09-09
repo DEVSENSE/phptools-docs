@@ -37,6 +37,26 @@ This opens the **Breakpoint Condition** dialog, in which you may configure a bre
 
 ![Conditional Breakpoint dialog](imgs\conditional-breakpoint-dialog.png)
 
+## Function breakpoints
+
+You can break execution when a function is called. This is useful when you know function or method name, but you don't know the location (or you do know and you just don't want search for it). The other use case would be if there are multiple methods or function with the same name (e.g. same function in different namespaces or method implemeneted on multiple classes) and you would like to break on all of them.
+
+- To place a function breakpoint, go to `Debug | New Breakpoint | Function Breakpoint`, or press <kbd>Ctrl + K</kbd>, followed by <kbd>B</kbd>.
+Or if you have **Breakpoints pane** opened, click **New** and select **Function Breakpoint**
+
+- When in the **New Function Breakpoint** dialog, enter the function name.
+  
+  ![New Function Breakpoint dialog](imgs\function-breakpoint.png)
+
+  You can either write:
+   - simple function name (e.g. foo) and let the breakpoint to bind on all possible cases.
+
+    ![Multiple bound breakpoints](imgs\function-breakpoints-pane.png)
+
+   - or you can be specific and enter fully qualified function name (e.g. \A\B::foo)
+
+- Make sure **PHP** is select in the language drop down
+- Hit <kbd>ENTER</kbd>
 
 ## Break on Exception
 
