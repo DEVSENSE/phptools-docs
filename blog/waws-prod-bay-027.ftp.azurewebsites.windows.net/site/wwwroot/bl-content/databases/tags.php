@@ -112,6 +112,12 @@
             "2015\/09\/newsletter-phptools-1.18"
         ]
     },
+    "ide": {
+        "name": "IDE",
+        "list": [
+            "2021\/php-tooltips-visual-studio"
+        ]
+    },
     "installation": {
         "name": "installation",
         "list": [
@@ -149,6 +155,12 @@
         "name": "logpoint",
         "list": [
             "2019\/php-tracepoint-logpoint"
+        ]
+    },
+    "manual": {
+        "name": "manual",
+        "list": [
+            "2021\/php-tooltips-visual-studio"
         ]
     },
     "new": {
@@ -230,6 +242,7 @@
     "php": {
         "name": "php",
         "list": [
+            "2021\/php-tooltips-visual-studio",
             "2021\/compound-launch-vs-code-php",
             "2021\/php-tools-for-vs-remote-explorer",
             "2021\/php-tools-vs-code-auto-import",
@@ -441,6 +454,12 @@
             "2017\/04\/phptools-1.23"
         ]
     },
+    "summary": {
+        "name": "summary",
+        "list": [
+            "2021\/php-tooltips-visual-studio"
+        ]
+    },
     "test": {
         "name": "test",
         "list": [
@@ -458,6 +477,12 @@
         "list": [
             "2021\/php-vs-code-may-2021",
             "2017\/06\/unit-testing"
+        ]
+    },
+    "tooltip": {
+        "name": "tooltip",
+        "list": [
+            "2021\/php-tooltips-visual-studio"
         ]
     },
     "tracepoint": {
@@ -545,8 +570,9 @@
         ]
     },
     "visualstudio": {
-        "name": "VisualStudio",
+        "name": "visualstudio",
         "list": [
+            "2021\/php-tooltips-visual-studio",
             "2016\/12\/phptools-1.21",
             "2016\/12\/codevalidation",
             "2016\/11\/unusedcode",

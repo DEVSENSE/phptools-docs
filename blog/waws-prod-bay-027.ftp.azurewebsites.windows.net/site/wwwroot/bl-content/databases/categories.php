@@ -30,6 +30,7 @@
         "description": "",
         "template": "",
         "list": [
+            "2021\/php-tooltips-visual-studio",
             "2021\/php-vs-code-may-2021",
             "2021\/php-regex-editor",
             "2020\/php-8-visual-studio-code",
