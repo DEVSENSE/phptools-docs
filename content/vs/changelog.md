@@ -1,4 +1,4 @@
-## 1.56.14505 (September 7, 2021) preview
+## 1.56.14513 (September 10, 2021) preview
 
 - tooltips with more details
 - tooltips provides description of the function return value
@@ -9,6 +9,7 @@
 - remote profile UI fixes
 - fixes remote explorer' **Open** and **Compare** feature
 - publish on save fixes
+- fixes VS crash when project folder contains restricted files
 
 ### Debug
 
