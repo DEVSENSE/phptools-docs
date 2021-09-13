@@ -1,3 +1,11 @@
+## 1.56.14540 (September 14, 2021) preview
+
+- remote browser allows to delete remote file or folder
+- publish on save fixes
+- fixes possible deadlock on solution unload
+- new command-line project template (Common Project System)
+- faster project run
+
 ## 1.56.14513 (September 10, 2021) preview
 
 - tooltips with more details
