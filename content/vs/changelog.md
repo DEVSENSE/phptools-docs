@@ -7,13 +7,6 @@
 - tooltips provides description of the function return value
 - updated PHP manual localization
 
-- twig fixes
-- publish on save fixes
-- fixes use of `readonly` keyword in PHP &lt;= 8.0
-- fixes remote explorer' **Open** and **Compare** feature
-- fixes VS crash when project folder contains restricted files
-- fixes possible deadlock on solution unload
-
 ## Remote Explorer
 
 - remote browser allows to delete remote file or folder
@@ -27,6 +20,15 @@
 - conditional breakpoints are checked for validity
 - DBGpProxy timeout
 - bug fixes
+
+## Fixes
+
+- twig fixes
+- publish on save fixes
+- fixes use of `readonly` keyword in PHP &lt;= 8.0
+- fixes remote explorer' **Open** and **Compare** feature
+- fixes VS crash when project folder contains restricted files
+- fixes possible deadlock on solution unload
 
 ## 1.56.14385 (August 20, 2021) stable
 
