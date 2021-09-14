@@ -1,23 +1,23 @@
 ## 1.56.14540 (September 14, 2021) preview
 
-- remote browser allows to delete remote file or folder
-- publish on save fixes
-- fixes possible deadlock on solution unload
+- editor colorizes escaped characters in string literals
 - new command-line project template (Common Project System)
 - faster project run
-
-## 1.56.14513 (September 10, 2021) preview
-
 - tooltips with more details
 - tooltips provides description of the function return value
 - updated PHP manual localization
-- editor colorizes escaped characters in string literals
+
 - twig fixes
-- fixes use of `readonly` keyword in PHP &lt;= 8.0
-- remote profile UI fixes
-- fixes remote explorer' **Open** and **Compare** feature
 - publish on save fixes
+- fixes use of `readonly` keyword in PHP &lt;= 8.0
+- fixes remote explorer' **Open** and **Compare** feature
 - fixes VS crash when project folder contains restricted files
+- fixes possible deadlock on solution unload
+
+## Remote Explorer
+
+- remote browser allows to delete remote file or folder
+- remote profile UI fixes
 
 ### Debug
 
