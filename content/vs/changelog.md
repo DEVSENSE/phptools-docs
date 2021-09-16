@@ -1,5 +1,9 @@
 ## 1.56.14540 (September 14, 2021) stable
 
+> **Visual Studio 2019: 16.10+** required.
+
+> **Visual Studio 2022: Preview 3** required.
+
 - editor colorizes escaped characters in string literals
 - new command-line project template (Common Project System)
 - faster project run
@@ -32,7 +36,7 @@
 
 ## 1.56.14385 (August 20, 2021) stable
 
-> **Visual Studio 2019** requires update 16.10 or newer.
+> **Visual Studio 2019: 16.10+** required.
 
 ### Editor
 
