@@ -1,4 +1,4 @@
-## 1.56.14540 (September 14, 2021) preview
+## 1.56.14540 (September 14, 2021) stable
 
 - editor colorizes escaped characters in string literals
 - new command-line project template (Common Project System)
