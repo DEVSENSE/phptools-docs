@@ -5,7 +5,7 @@ Description: Overview of PHP breakpoints in Visual Studio
 
 # Breakpoints
 
-As shown in the image, below, **Breakpoints** are lines of code where the debugger should break (pause executing) and allow you to [investigate the program's state](). They can be set by clicking in the margin of the code editor, or by right-clicking on a line of code and selecting **Breakpoint**, **Insert Breakpoint**, or simply by pressing <kbd>F9</kbd> (This is a typical shortcut; check the **Debug**, **Toggle breakpoint** in the settings menu).
+As shown in the image, below, **Breakpoints** are lines of code where the debugger should break (pause executing) and allow you to [investigate the program's state](inspecting-data). They can be set by clicking in the margin of the code editor, or by right-clicking on a line of code and selecting **Breakpoint**, **Insert Breakpoint**, or simply by pressing <kbd>F9</kbd> (This is a typical shortcut; check the **Debug**, **Toggle breakpoint** in the settings menu).
 
 ![Breakpoint](imgs\breakpoint.png)
 
