@@ -1,5 +1,31 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-visual-studio-september-2021": {
+        "title": "PHP Tools for Visual Studio (September 2021)",
+        "description": "Read news about the latest update of PHP Tools for Visual Studio.",
+        "username": "jakub",
+        "tags": {
+            "news": "News",
+            "php-tools": "PHP Tools",
+            "visual-studio": "Visual Studio",
+            "php": "PHP",
+            "php-8.1": "PHP 8.1"
+        },
+        "type": "published",
+        "date": "2021-09-16 04:40:20",
+        "dateModified": "2021-09-16 05:08:04",
+        "position": 51,
+        "coverImage": "phptools-v1-56.png",
+        "category": "annoucement",
+        "md5file": "62816991d2906b1e294c6ac3b06e8308",
+        "uuid": "1c006098f98714a58b17b5218ccc4ff9",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/debugging-php-by-multiple-users-through-xdebug-proxy": {
         "title": "Debugging PHP by multiple users through Xdebug proxy",
         "description": "",

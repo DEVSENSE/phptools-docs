@@ -170,8 +170,9 @@
         ]
     },
     "news": {
-        "name": "news",
+        "name": "News",
         "list": [
+            "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tools-for-vs-remote-explorer",
             "2020\/updates-visual-studio-november-2020",
             "2018\/04\/phptools-1.27",
@@ -240,8 +241,9 @@
         ]
     },
     "php": {
-        "name": "php",
+        "name": "PHP",
         "list": [
+            "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tooltips-visual-studio",
             "2021\/compound-launch-vs-code-php",
             "2021\/php-tools-for-vs-remote-explorer",
@@ -302,14 +304,16 @@
     "php-8.1": {
         "name": "PHP 8.1",
         "list": [
+            "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tools-for-vs-july-2021",
             "2021\/php-vs-code-may-2021",
             "2021\/php-tools-for-visual-studio-april-2021"
         ]
     },
     "php-tools": {
-        "name": "php tools",
+        "name": "PHP Tools",
         "list": [
+            "2021\/php-tools-visual-studio-september-2021",
             "2015\/07\/php-innovation-award"
         ]
     },
@@ -526,8 +530,9 @@
         ]
     },
     "visual-studio": {
-        "name": "visual studio",
+        "name": "Visual Studio",
         "list": [
+            "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tools-for-vs-remote-explorer",
             "2021\/php-tools-vs-code-auto-import",
             "2021\/php-tools-for-vs-july-2021",
