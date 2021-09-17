@@ -9,7 +9,7 @@ If there is already a folder with existing PHP code files, a new Visual Studio p
 
 ## Project From Existing Code "Project Template"
 
-In `File` / `New` / `Project`, choose the `From Existing PHP code` project template. The wizard will guide you through the process of creating the project in the specified location.
+In `File` / `New` / `Project`, choose the `PHP Project from Existing code` project template. The wizard will guide you through the process of creating the project in the specified location.
 
 ![Visual Studio New PHP Project From Existing Code](imgs/from-existing-code-template.png)
 
