@@ -1,3 +1,18 @@
+## 1.56.14599 (September 17, 2021) preview
+
+> **Visual Studio 2019: 16.10+** required.
+
+> **Visual Studio 2022: Preview 4** required.
+
+## Debug
+
+- adding function breakpoint enhancements
+  - filtering by subdirectory *(use syntax `subdir!typename::methodname`)*
+  - navigates to function breakpoint
+  - searches fuctions by partial class name
+  - resolves trait methods
+  - shows bound state
+
 ## 1.56.14540 (September 14, 2021) stable
 
 > **Visual Studio 2019: 16.10+** required.
