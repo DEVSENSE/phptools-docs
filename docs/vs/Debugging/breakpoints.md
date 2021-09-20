@@ -1,23 +1,23 @@
 /*
 Title: Breakpoints
-Description: Overview of PHP breakpoints in Visual Studio 
+Description: Overview of PHP breakpoints in Visual Studio
 */
 
 # Breakpoints
 
-As shown in the image, below, **Breakpoints** are lines of code where the debugger should break (pause executing) and allow you to [investigate the program's state](inspecting-data). They can be set by clicking in the margin of the code editor, or by right-clicking on a line of code and selecting **Breakpoint**, **Insert Breakpoint**, or simply by pressing <kbd>F9</kbd> (This is a typical shortcut; check the **Debug**, **Toggle breakpoint** in the settings menu).
+**Breakpoints** are essential tool for debugging your applications. You set the breakpoints whenever you want to pause the execution. When paused you can [investigate the program's state](inspecting-data) - check the values of variables or look at the call stack.
+
+## Set breakpoint on line in source code
+
+You can set the breakpoint on any line of [executable code](#executable-code) by clicking in the margin of the code editor, or by right-clicking on a line of code and selecting **Breakpoint**, **Insert Breakpoint**, or simply by pressing <kbd>F9</kbd> (This is a typical shortcut; check the **Debug**, **Toggle breakpoint** in the settings menu).
 
 ![Breakpoint](imgs\breakpoint.png)
 
-PHP Tools also supports advanced Visual Studio breakpoints such as [conditional breakpoints](#conditional-breakpoints).
+When you debug, the debugger will pause the execution before the line with the breakpoint is executed.
 
-You can see all the breakpoints you have in your project in the **Breakpoints pane** ( `Debug | Windows | Breakpoints` )
+### Executable code
 
-![Breakpoints pane](imgs\breakpoints-pane.png)
-
-## PHP Specific Behavior
-
-In most of the cases, PHP **Breakpoints** behaves as a Visual Studio developer would expect. However, there are cases specific to PHP language:
+The breakpoint will only work when placed on a location associated with actual PHP executable code.
 
 - **Breakpoints** placed at class and global function header breaks when the program execution is introducing them in the current execution state, e.g. when `include "file.php"` is called, all the definitions from `file.php` are introduced in this moment.
 
@@ -25,17 +25,49 @@ In most of the cases, PHP **Breakpoints** behaves as a Visual Studio developer w
 
 - **Breakpoints** placed at `{` will never break. Place them to the next statement instead.
 
-## Conditional Breakpoints
+## Breakpoint conditions
 
-You can make a breakpoint conditional by right clicking on the breakpoint (in the editor left margin or in the breakpoint window) and choosing **Condition...**.
+You can control when breakpoint stops the execution of the program by setting conditions.
+
+**To set a breakpoint condition**:
+
+- right click on the breakpoint symbol (in the editor left margin or in the **Breakpoint** window) and select **Condition...**  (or press <kbd>Alt + F9</kbd>, <kbd>C</kbd>), which will open **Breakpoint Settings** window.
 
 ![Breakpoint context menu](imgs\breakpoints-menu.png)
 
-This opens the **Breakpoint Condition** dialog, in which you may configure a breakpoint's condition criteria. Here you may choose to enable or disable the condition, provide a predicate expression for the condition, and choose whether to break when the condition is true or has changed (only `is true` is currently supported).
+ - To set breakpoint condition, in the first drop down menu select `Conditional Expression`.
 
- As expected, enabling a condition keeps a breakpoint from breaking when "hit", unless the condition criteria are met.
+ - In the second drop down menu, choose `Is true` to break when the expression is satisfied, or `When changed` to break when the value of the expression has changed.
+ 
+ ![Conditional Breakpoint dialog](imgs\breakpoint-condition.png)
 
-![Conditional Breakpoint dialog](imgs\conditional-breakpoint-dialog.png)
+ > **Note:** When the breakpoint with `When changed` condition is first evaluated, the debugger doesn't consider it to be a change, so it doesn't break.
+
+### Set hit count condition
+
+When you want a breakpoint to break after it has been hit certain amount of times, you can choose `Hit Count` in the **Breakpoint Settings** and specify number of iterations.
+
+![Tracepoint](imgs\hitcount.png)
+
+This is feature is useful when you are noticing certain loop to misbehave after certain number of iterations. Rather than stepping through the loop by repeatedly pressing <kbd>F5</kbd>, use `Hit count`.
+
+## Tracepoints (Breakpoint Actions)
+
+Tracepoint is a breakpoint that prints a message to **Output pane - Debug** when hit, but it doesn't break the execution of the program.
+
+**To set a tracepoint:**
+
+ - In **Breakpoint Settings** window check **Actions** and provide a log message that outputs. 
+ 
+ - The log message can contain variables. Place them between `{` and `}`.
+
+![Tracepoint](imgs\tracepoint.png)
+
+Sample of the output is depicted bellow:
+
+![Tracepoint message in Output Pane](imgs\tracepoint-result.png)
+
+You can find the sample use-case [here](https://blog.devsense.com/2017/07/advanced-debug#heading-5)
 
 ## Function breakpoints
 
@@ -61,3 +93,13 @@ Or if you have **Breakpoints pane** opened, click **New** and select **Function 
 ## Break on Exception
 
 You can define types of exception that should break your program when they are thrown. See [Exceptions](exceptions) to find out more about this.
+
+## Managing breakpoints
+
+To see all the breakpoints in your solution, open **Breakpoints** window from `Debug | Windows | Breakpoints` or press <kbd>Ctrl+ Alt + B</kbd>.
+
+From this window you can enable/disable or delete breakpoints, search and sort them. You can change breakpoint settings directly from this dialog.
+
+![Breakpoints pane](imgs\breakpoints-pane.png)
+
+> **Tip:** You can see how many times the breakpoint was hit in the `Hit Count` column.
