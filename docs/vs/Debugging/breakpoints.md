@@ -57,17 +57,30 @@ Tracepoint is a breakpoint that prints a message to **Output pane - Debug** when
 
 **To set a tracepoint:**
 
- - In **Breakpoint Settings** window check **Actions** and provide a log message that outputs. 
- 
- - The log message can contain variables. Place them between `{` and `}`.
+In **Breakpoint Settings** window check **Actions** and provide a log message. The log message can contain variables (placed between `{` and `}`), including predefined special variables listed bellow:
 
-![Tracepoint](imgs\tracepoint.png)
+| Keyword | What is Displayed |
+| ----------- | ----------- |
+| $ADDRESS | Current instruction |
+| $CALLER | Calling function name |
+| $FUNCTION | Current function name |
+| $PID | Process ID |
+| $PNAME | Process name |
+| $TID | Thread ID |
+| $TNAME | Thread name |
+| $TICK | Tick count (from Windows GetTickCount) |
+
+ ![Tracepoint](imgs\tracepoint.png)
 
 Sample of the output is depicted bellow:
 
 ![Tracepoint message in Output Pane](imgs\tracepoint-result.png)
 
 You can find the sample use-case [here](https://blog.devsense.com/2017/07/advanced-debug#heading-5)
+
+In the log message, you can also specify predefined special variables:
+
+
 
 ## Function breakpoints
 
