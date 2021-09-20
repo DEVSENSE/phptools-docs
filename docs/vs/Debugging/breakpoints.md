@@ -78,10 +78,6 @@ Sample of the output is depicted bellow:
 
 You can find the sample use-case [here](https://blog.devsense.com/2017/07/advanced-debug#heading-5)
 
-In the log message, you can also specify predefined special variables:
-
-
-
 ## Function breakpoints
 
 You can break execution when a function is called. This is useful when you know function or method name, but you don't know the location (or you do know and you just don't want search for it). The other use case would be if there are multiple methods or function with the same name (e.g. same function in different namespaces or method implemeneted on multiple classes) and you would like to break on all of them.
