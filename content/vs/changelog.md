@@ -4,6 +4,16 @@
 
 > **Visual Studio 2022: Preview 4** required.
 
+## Editor
+
+- navigable PHPDoc `@see` annotation
+- code completion after `@see` keyword
+- memory optimization
+- fixes false positive warning for `[]` operator
+- improved type analysis
+- type inference of `array_pad()`, `array_fill()`, `array_flip()`
+- stability fixes for project containing large chained expressions
+
 ## Debug
 
 - adding function breakpoint enhancements
@@ -12,6 +22,12 @@
   - searches fuctions by partial class name
   - resolves trait methods
   - shows bound state
+- updated bundled **PHP 8.0**, **PHP 8.1**
+
+## Remote Explorer
+
+- faster switching profiles
+- fixes publish after switching profiles
 
 ## 1.56.14540 (September 14, 2021) stable
 
