@@ -19,7 +19,7 @@ When you debug, the debugger will pause the execution before the line with the b
 
 The breakpoint will only work when placed on a location associated with actual PHP executable code.
 
-When breakpoint is placed on the location without PHP executable code, **breakpoint resolution** mechanism is used to move the breakpoints to line where they can break - if it's within 5 lines. This feature is supported since Xdebug version `2.8` and higher.
+When breakpoint is placed on the location without PHP executable code, **breakpoint resolution** mechanism is used to move the breakpoints to line where they can break (it has to be within 5 lines). This feature is supported since Xdebug version `2.8` and higher.
 
 ## Breakpoint conditions
 
