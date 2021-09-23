@@ -15,15 +15,11 @@ You can set the breakpoint on any line of [executable code](#executable-code) by
 
 When you debug, the debugger will pause the execution before the line with the breakpoint is executed.
 
-### Executable code
+### Executable code and breakpoint resolution
 
 The breakpoint will only work when placed on a location associated with actual PHP executable code.
 
-- **Breakpoints** placed at class and global function header breaks when the program execution is introducing them in the current execution state, e.g. when `include "file.php"` is called, all the definitions from `file.php` are introduced in this moment.
-
-- **Breakpoints** placed at the method header will not break.
-
-- **Breakpoints** placed at `{` will never break. Place them to the next statement instead.
+When breakpoint is placed on the location without PHP executable code, **breakpoint resolution** mechanism is used to move the breakpoints to line where they can break - if it's within 5 lines. This feature is supported since Xdebug version `2.8` and higher.
 
 ## Breakpoint conditions
 
