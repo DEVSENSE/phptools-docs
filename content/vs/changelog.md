@@ -1,3 +1,16 @@
+## 1.56.14699 (September 28, 2021) preview
+
+## VS 2019, 2022
+
+- structure guidelines
+
+## Editor
+
+- improvements to infered type analysis
+- highlighting of `case` within `switch`
+- stability fixes for project containing large chained expressions
+- stability fixes for blade editor
+
 ## 1.56.14601 (September 22, 2021) preview
 
 > **Visual Studio 2019: 16.10+** required.
