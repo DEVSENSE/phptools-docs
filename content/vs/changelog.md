@@ -1,4 +1,8 @@
-## 1.56.14699 (September 28, 2021) preview
+## 1.56.14629 (September 30, 2021) preview
+
+- fixes remote upload when target folder does not exist yet
+- fixes opening 3rd party HTML non-PHP documents
+- optimizations
 
 ## VS 2019, 2022
 
@@ -10,6 +14,7 @@
 - highlighting of `case` within `switch`
 - stability fixes for project containing large chained expressions
 - stability fixes for blade editor
+- infered type analysis from `@global` tag above function
 
 ## 1.56.14601 (September 22, 2021) preview
 
