@@ -1,22 +1,10 @@
+## 1.56.14646 (October 3, 2021) preview
+
+- highlights occurrences of global variables in `@global` PHPDoc tag
+- fixes clickable links in tooltips
+- stability fixes
+
 ## 1.56.14629 (September 30, 2021) preview
-
-- fixes remote upload when target folder does not exist yet
-- fixes opening 3rd party HTML non-PHP documents
-- optimizations
-
-## VS 2019, 2022
-
-- structure guidelines
-
-## Editor
-
-- improvements to infered type analysis
-- highlighting of `case` within `switch`
-- stability fixes for project containing large chained expressions
-- stability fixes for blade editor
-- infered type analysis from `@global` tag above function
-
-## 1.56.14601 (September 22, 2021) preview
 
 > **Visual Studio 2019: 16.10+** required.
 
@@ -24,13 +12,17 @@
 
 ## Editor
 
+- *(Visual Studio 2019, 2022)* **structure guidelines**
+- improvements to infered type analysis
+- highlighting of `case` within `switch`
+- stability fixes for project containing large chained expressions
+- stability fixes for blade editor
+- infered type analysis from `@global` tag above function
 - navigable PHPDoc `@see` annotation
 - code completion after `@see` keyword
-- memory optimization
 - fixes false positive warning for `[]` operator
 - improved type analysis
 - type inference of `array_pad()`, `array_fill()`, `array_flip()`
-- stability fixes for project containing large chained expressions
 
 ## Debug
 
@@ -46,6 +38,14 @@
 
 - faster switching profiles
 - fixes publish after switching profiles
+- fixes remote upload when target folder does not exist yet
+
+## Other Fixes
+
+- stability fixes for project containing large chained expressions
+- fixes opening 3rd party HTML non-PHP documents
+- memory optimization
+- optimizations
 
 ## 1.56.14540 (September 14, 2021) stable
 
