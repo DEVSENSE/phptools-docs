@@ -1,11 +1,5 @@
 ## 1.56.14646 (October 3, 2021) preview
 
-- highlights occurrences of global variables in `@global` PHPDoc tag
-- fixes clickable links in tooltips
-- stability fixes
-
-## 1.56.14629 (September 30, 2021) preview
-
 > **Visual Studio 2019: 16.10+** required.
 
 > **Visual Studio 2022: Preview 4** required.
@@ -14,7 +8,8 @@
 
 - *(Visual Studio 2019, 2022)* **structure guidelines**
 - improvements to infered type analysis
-- highlighting of `case` within `switch`
+- highlights `case` within `switch`
+- highlights occurrences of global variables in `@global` PHPDoc tag
 - stability fixes for project containing large chained expressions
 - stability fixes for blade editor
 - infered type analysis from `@global` tag above function
@@ -44,6 +39,7 @@
 
 - stability fixes for project containing large chained expressions
 - fixes opening 3rd party HTML non-PHP documents
+- fixes clickable links in tooltips
 - memory optimization
 - optimizations
 
