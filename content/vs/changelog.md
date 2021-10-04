@@ -1,6 +1,6 @@
 ## 1.56.14646 (October 3, 2021) preview
 
-> Release Notes at: https://blog.devsense.com/2021/php-tools-visual-studio-october-2021
+> Release Notes at: [blog.devsense.com](https://blog.devsense.com/2021/php-tools-visual-studio-october-2021)
 
 > **Visual Studio 2019: 16.10+** required.
 
