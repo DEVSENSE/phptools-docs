@@ -1,4 +1,4 @@
-## 1.56.14646 (October 3, 2021) preview
+## 1.56.14646 (October 3, 2021) stable
 
 > Release Notes at: [blog.devsense.com](https://blog.devsense.com/2021/php-tools-visual-studio-october-2021)
 
