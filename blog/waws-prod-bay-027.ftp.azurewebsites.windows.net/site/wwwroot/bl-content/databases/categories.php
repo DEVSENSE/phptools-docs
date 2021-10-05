@@ -5,6 +5,7 @@
         "template": "",
         "description": "",
         "list": [
+            "2021\/php-tools-visual-studio-october-2021",
             "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tools-for-vs-remote-explorer",
             "2021\/visual-studio-2022-preview",

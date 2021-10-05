@@ -1,5 +1,30 @@
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
 {
+    "2021\/php-tools-visual-studio-october-2021": {
+        "title": "PHP Tools for Visual Studio (October 2021)",
+        "description": "Let's take a look on the new updates in PHP Tools and Visual Studio.",
+        "username": "jakub",
+        "tags": {
+            "php": "PHP",
+            "editor": "editor",
+            "visual-studio": "Visual Studio",
+            "visual-studio-2022": "Visual Studio 2022"
+        },
+        "type": "published",
+        "date": "2021-10-04 10:30:17",
+        "dateModified": "2021-10-04 10:33:00",
+        "position": 52,
+        "coverImage": "phptools-v1-56-oct.png",
+        "category": "annoucement",
+        "md5file": "a880ec27c690403c3b07b92e401093eb",
+        "uuid": "4c59137140304a3685ba5aac5bc5106a",
+        "allowComments": true,
+        "template": "",
+        "noindex": false,
+        "nofollow": false,
+        "noarchive": false,
+        "custom": []
+    },
     "2021\/php-tools-visual-studio-september-2021": {
         "title": "PHP Tools for Visual Studio (September 2021)",
         "description": "Read news about the latest update of PHP Tools for Visual Studio.",

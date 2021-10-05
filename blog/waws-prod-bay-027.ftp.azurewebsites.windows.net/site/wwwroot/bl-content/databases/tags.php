@@ -106,6 +106,12 @@
             "2016\/06\/dreamspark"
         ]
     },
+    "editor": {
+        "name": "editor",
+        "list": [
+            "2021\/php-tools-visual-studio-october-2021"
+        ]
+    },
     "html": {
         "name": "html",
         "list": [
@@ -243,6 +249,7 @@
     "php": {
         "name": "PHP",
         "list": [
+            "2021\/php-tools-visual-studio-october-2021",
             "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tooltips-visual-studio",
             "2021\/compound-launch-vs-code-php",
@@ -532,6 +539,7 @@
     "visual-studio": {
         "name": "Visual Studio",
         "list": [
+            "2021\/php-tools-visual-studio-october-2021",
             "2021\/php-tools-visual-studio-september-2021",
             "2021\/php-tools-for-vs-remote-explorer",
             "2021\/php-tools-vs-code-auto-import",
@@ -565,6 +573,7 @@
     "visual-studio-2022": {
         "name": "Visual Studio 2022",
         "list": [
+            "2021\/php-tools-visual-studio-october-2021",
             "2021\/visual-studio-2022-preview"
         ]
     },
