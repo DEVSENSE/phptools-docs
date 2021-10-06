@@ -5,6 +5,7 @@ $content = file_get_contents('changelog.md');
 $res = preg_split('/(##\s+[0-9].*)/', $content, -1, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE);
 
 $releases = [];
+$builds = [];
 $major = '';
 foreach ($res as $element) 
 {
@@ -17,12 +18,15 @@ foreach ($res as $element)
         $major = "v$nums[0].$nums[1]";
 
         $releases[$major] ??= ['date' => $date, 'versions' => '', 'text' => ''];
+        $builds[] = ['version' => $version, 'date' => $date, 'tags' => $tag];
     }
     else {
         $releases[$major]['versions'] .= $version . ',';
         $releases[$major]['text'] .= "# v$version\n> Date: $rawdate\n\n" . trim($element) . "\n\n";
     }
 }
+
+file_put_contents("releases.json", json_encode($builds));
 
 foreach ($releases as $v => $r) {
 
