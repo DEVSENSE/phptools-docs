@@ -22,7 +22,7 @@ foreach ($res as $element)
     }
     else {
         $releases[$major]['versions'] .= $version . ',';
-        $releases[$major]['text'] .= "# v$version\n> Date: $rawdate\n\n" . trim($element) . "\n\n";
+        $releases[$major]['text'] .= "## v$version\n*Date: $rawdate*\n\n" . trim($element) . "\n\n";
     }
 }
 
