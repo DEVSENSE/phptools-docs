@@ -17,7 +17,7 @@ foreach ($res as $element)
         $nums = preg_split('/\./', $version);
         $major = "v$nums[0].$nums[1]";
 
-        $releases[$major] ??= ['date' => $date, 'versions' => '', 'text' => ''];
+        $releases[$major] ??= ['date' => $date, 'versions' => '', 'text' => '', 'title' => date("F o", strtotime($rawdate))];
         $builds[] = ['version' => $version, 'date' => $date, 'tags' => $tag];
     }
     else {
@@ -30,9 +30,10 @@ file_put_contents("releases.json", json_encode($builds));
 
 foreach ($releases as $v => $r) {
 
-    file_put_contents("releasenotes/$v.md", <<<FILE
+    $fname = str_replace('.', '-', $v);
+    file_put_contents("releasenotes/$fname.md", <<<FILE
 /*
-Title: PHP Tools $v Release Notes
+Title: $r[title] ($v)
 Tags: release notes,visual studio
 Versions: $r[versions]
 Date: $r[date]
