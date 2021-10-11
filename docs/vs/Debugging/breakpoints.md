@@ -81,19 +81,31 @@ You can break execution when a function is called. This is useful when you know 
 - To place a function breakpoint, go to `Debug | New Breakpoint | Function Breakpoint`, or press <kbd>Ctrl + K</kbd>, followed by <kbd>B</kbd>.
 Or if you have **Breakpoints pane** opened, click **New** and select **Function Breakpoint**
 
-- When in the **New Function Breakpoint** dialog, enter the function name.
+- When in the **New Function Breakpoint** dialog, enter the function or method name.
   
-  ![New Function Breakpoint dialog](imgs\function-breakpoint.png)
-
-  You can either write:
-   - simple function name (e.g. foo) and let the breakpoint to bind on all possible cases.
-
-    ![Multiple bound breakpoints](imgs\function-breakpoints-pane.png)
-
-   - or you can be specific and enter fully qualified function name (e.g. \A\B::foo)
+  ![New Function Breakpoint dialog](imgs\vs-php-function-breakpoint.gif)
 
 - Make sure **PHP** is select in the language drop down
 - Hit <kbd>ENTER</kbd>
+
+If the function or method is in the project the breakpoint will bind.
+
+When providing function name, you can be more specific. The syntax for the function breakpoint is `<directory_string>!<type_name>::<function_name>()`, where `type_name` and `function_name` can be fully qualified or the namespace part can be omitted.
+
+These syntaxes are possible:
+- `function_or_method_name`
+- `function_or_method_name()`
+- `fully\qualified\function_name`
+- `::method_name`
+- `type_name::method_name`
+- `fully\qualified\type_name::method_name`
+- `directory_string!function_or_method_name`
+- `directory_string!type_name::method_name`
+
+Names that are not fully qualified will be searched for within available namespaces, so you can type the name without the namespace. 
+ 
+> **Tip:** Restrict the breakpoints only to functions defined in files that have the specified `directory_string!` as a part of their path.
+
 
 ## Break on Exception
 
