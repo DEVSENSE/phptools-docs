@@ -7,6 +7,8 @@ When you are on different network than the server with a PHP application that yo
 
 One option would be to install DBGp server on the network with the development server, but your administrator might rather watch cat videos than do this. Another solution is to use SSH tunnel (or port forwarding).
 
+![SSH Tunnel](imgs/ssh-tunnel.png)
+
 ## Open SSH Tunnel
 
 For this solution to work, there is an obvious requirement. The server has to have SSH server running and you must be able to login to it with SSH client. If you are running Windows 10 you should have `ssh` command and if not, you can [install it](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). If you are, however, running older Windows you'll need to install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
