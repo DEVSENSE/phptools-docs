@@ -30,7 +30,7 @@ All the available options are:
 
 ## Import from Code Action
 
-In case there is a missing import, a quick code actions is provided with available options.
+In case there is a missing import, a quick code actions is provided with available options. To open the *quick fix*, use either a shortcut (default `Ctrl`+`.`) or click onto a lightbulb icon. If there is a selection of code, all the quick fixes within the selection are shown.
 
 ![Resolve missing namespace](../imgs/missing-namespace-fix.png)
 
