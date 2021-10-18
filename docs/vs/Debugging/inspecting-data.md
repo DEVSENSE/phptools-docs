@@ -70,3 +70,27 @@ The Immediate window (`Debug | Windows | Immediate`) evaluates entered expressio
 > **Note**: Changing the current frame in the [Call Stack window](callstack) will only affect simple variable inspections; expressions evaluation will not work.
 
 ![Immediate window](imgs\immediate-window.png)
+
+## Track objects with Object IDs
+
+When you want to track an object during its life, you can create **Object ID** for it. The Object ID allows you to observe the object even when it's out of scope. The object is displayed in the **Locals** window, but you can also add it to the **Watch** window. Here you can see the tracked object even when it's out of scope:
+
+![Tracked object in Watch Window](imgs\object-id.png)
+
+Object IDs use weak references internally - they don't prevent the garbage collector to dispose the object. That is the reason why is this feature supported only in PHP 7.4 and higher.
+
+### Create Object ID
+
+To create the Object ID, find the object you want to track and right click on it. Then choose `Make Object ID` command.
+
+![Make object id](imgs\make-object-id.png)
+
+When you've created Object ID, you should see a dolar sign (`$`) and number (Object ID index) next to the object's value.
+
+### Delete Object ID
+
+When you are done tracking the object we recommend to delete the Object ID - it slows down the debugger. Right click on the object and click on `Delete Object ID`.
+
+![Delete object id](imgs\delete-object-id.png)
+
+If you will not delete the Object ID manually it will die at the end of the PHP request.
