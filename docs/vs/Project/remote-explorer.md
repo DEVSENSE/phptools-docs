@@ -82,6 +82,21 @@ Files in the list can be opened, which downloads them locally and opens them in 
 
 ![remote browser](imgs/remote-explorer-remote.png)
 
+## Automatic Upload
+
+The option `Auto` popups a context menu with several triggers (i.e. events). Choosing from the menu makes the pending files being automatically uploaded.
+
+![auto publish](imgs/remote-explorer-auto.gif)
+
+Options are the following:
+
+- `Off`: disabled automatic upload.
+- `Project Opened`, etc.: enables automatic upload using the current remote profile upon selected trigger.
+- ad `After Build`: triggers upload before running the project.
+- ad `File Saved`: triggers upload of a file saved within Visual Studio.
+- ad `File Changed`: triggers upload of all pending changes whenever a file in project is modified (inside or outside the Visual Studio).
+- `Manage Project Events`: opens the window with more details events configuration. This allows for example to specify file filters for `File Changed` triggers.
+
 ## Related links
 
 - [New Project](new-project) - creating a new PHP project, either empty or from a template.
