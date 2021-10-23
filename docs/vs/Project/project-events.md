@@ -40,9 +40,12 @@ Current working directory (cwd) is set to the project root directory.
 
 Optionally, the script can use variables in the format `${name}` which will be replaced with the corresponding value.
 
-- `${ProjectDir}`: full directory path of the project, ending with `\`.
-- `${ProjectName}`: the project name.
-- `${PhpExe}`: full path to `php.exe` selected in project properties. In case the project is set to `Custom` server, the varibale is not defined.
+| Variable | Value |
+| --- | --- |
+| `${ProjectDir}`| full directory path of the project, ending with `\`. |
+| `${ProjectName}` |  the project name. |
+| `${ProjectUrl}` | the Web Project URL |
+| `${PhpExe}` | full path to `php.exe` selected in project properties. In case the project is set to `Custom` server, the varibale is not defined. |
 
 ## Related Links
 
