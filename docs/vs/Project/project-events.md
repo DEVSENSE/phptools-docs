@@ -16,7 +16,7 @@ The following triggers are available to choose from:
 - `After Publish` gets called after the publish.
 - `After Clean` is triggered by Project / Clean command.
 - `Files Changed` happens when a file is modified both inside or outside Visual Studio.
-- `File Saved` is cased by saving a file inside Visual Studio.
+- `File Saved` is triggered by saving a file inside Visual Studio.
 
 Creating or editing events looks like the following dialog. The sample below shows the action `Custom Command` triggered upon `Files Changed` event:
 
