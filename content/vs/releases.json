@@ -1,1 +1,766 @@
-[{"version":"1.56.14646","date":"2021-10-03","tags":"stable"},{"version":"1.56.14540","date":"2021-09-14","tags":"stable"},{"version":"1.56.14385","date":"2021-08-20","tags":"stable"},{"version":"1.56.14305","date":"2021-08-12","tags":"stable"},{"version":"1.55.14068","date":"2021-07-26","tags":"stable"},{"version":"1.55.13902","date":"2021-07-14","tags":"stable"},{"version":"1.52.13623","date":"2021-06-28","tags":"stable"},{"version":"1.52.13483","date":"2021-06-17","tags":"stable"},{"version":"1.52.13439","date":"2021-06-04","tags":"stable"},{"version":"1.52.13403","date":"2021-05-25","tags":"stable"},{"version":"1.52.13380","date":"2021-05-15","tags":"preview"},{"version":"1.52.13357","date":"2021-05-10","tags":"stable"},{"version":"1.51.13247","date":"2021-04-09","tags":"stable"},{"version":"1.51.13160","date":"2021-04-02","tags":"preview"},{"version":"1.50.13071","date":"2021-03-24","tags":"preview"},{"version":"1.50.13029","date":"2021-03-11","tags":"preview"},{"version":"1.50.12929","date":"2021-02-26","tags":"stable"},{"version":"1.50.12866","date":"2021-02-18","tags":"stable"},{"version":"1.50.12845","date":"2021-02-17","tags":"preview"},{"version":"1.50.12791","date":"2021-02-10","tags":"preview"},{"version":"1.50.12752","date":"2021-02-03","tags":"preview"},{"version":"1.50.12628","date":"2021-01-08","tags":"stable"},{"version":"1.40.12554","date":"2020-12-29","tags":"preview"},{"version":"1.40.12483","date":"2020-12-23","tags":"stable"},{"version":"1.40.12460","date":"2020-12-17","tags":"stable"},{"version":"1.40.12447","date":"2020-12-16","tags":"stable"},{"version":"1.40.12409","date":"2020-12-04","tags":"stable"},{"version":"1.40.12331","date":"2020-11-21","tags":"stable"},{"version":"1.40.12223","date":"2020-10-28","tags":"stable"},{"version":"1.40.12103","date":"2020-09-25","tags":"stable"},{"version":"1.40.12083","date":"2020-09-18","tags":"stable"},{"version":"1.40.12022","date":"2020-08-19","tags":"preview"},{"version":"1.40.12000","date":"2020-08-12","tags":"preview"},{"version":"1.40.11953","date":"2020-07-15","tags":"stable"},{"version":"1.40.11890","date":"2020-06-27","tags":"stable"},{"version":"1.40.11855","date":"2020-05-27","tags":"stable"},{"version":"1.40.11823","date":"2020-05-05","tags":"preview"},{"version":"1.32.11768","date":"2020-03-25","tags":"preview"},{"version":"1.32.11732","date":"2020-03-05","tags":"preview"},{"version":"1.32.11706","date":"2020-02-05","tags":"preview"},{"version":"1.32.11656","date":"2019-12-09","tags":"preview"},{"version":"1.32.11632","date":"2019-11-12","tags":"stable"},{"version":"1.32.11595","date":"2019-10-14","tags":"preview"},{"version":"1.32.11522","date":"2019-09-23","tags":"stable"},{"version":"1.32.11482","date":"2019-09-07","tags":"stable"},{"version":"1.32.11427","date":"2019-08-14","tags":"stable"},{"version":"1.32.11358","date":"2019-07-18","tags":"stable"},{"version":"1.31.11311","date":"2019-07-11","tags":"preview"},{"version":"1.31.11274","date":"2019-07-01","tags":"stable"},{"version":"1.30.11262","date":"2019-06-27","tags":"preview"},{"version":"1.30.11233","date":"2019-06-17","tags":"stable"},{"version":"1.30.11217","date":"2019-05-23","tags":"preview"},{"version":"1.30.11199","date":"2019-05-10","tags":"preview"},{"version":"1.30.11154","date":"2019-03-01","tags":"stable"},{"version":"1.30.11131","date":"2019-02-08","tags":"preview"},{"version":"1.30.11095","date":"2019-01-18","tags":"stable"},{"version":"1.29.11015","date":"2018-10-22","tags":"stable"},{"version":"1.29.10958","date":"2018-09-24","tags":"stable"},{"version":"1.29.10925","date":"2018-08-20","tags":"stable"},{"version":"1.29.10893","date":"2018-07-24","tags":"stable"},{"version":"1.28.10848","date":"2018-05-28","tags":"stable"},{"version":"1.27.10773","date":"2018-04-11","tags":"stable"},{"version":"1.26.10606","date":"2018-03-06","tags":"stable"},{"version":"1.26.10589","date":"2018-02-26","tags":"stable"},{"version":"1.25.10474","date":"2017-12-14","tags":"stable"},{"version":"1.25.10447","date":"2017-11-28","tags":"stable"},{"version":"1.25.10441","date":"2017-11-26","tags":"stable"},{"version":"1.24.10137","date":"2017-08-18","tags":"stable"},{"version":"1.23.9750","date":"2017-03-24","tags":"stable"},{"version":"1.22.9523","date":"2017-01-23","tags":"stable"},{"version":"1.22.9478","date":"2017-01-17","tags":"stable"},{"version":"1.21.9350","date":"2016-12-08","tags":"stable"},{"version":"1.20.9101","date":"2016-10-12","tags":"stable"},{"version":"1.19.8876","date":"2016-07-18","tags":"stable"},{"version":"1.19.8851","date":"2016-07-05","tags":"stable"},{"version":"1.19.8776","date":"2016-04-28","tags":"stable"},{"version":"1.19.8736","date":"2016-03-29","tags":"stable"},{"version":"1.19.8685","date":"2016-02-29","tags":"stable"},{"version":"1.19.8647","date":"2016-02-19","tags":"stable"},{"version":"1.18.8503","date":"2016-01-15","tags":"stable"},{"version":"1.18.8473","date":"2016-01-05","tags":"stable"},{"version":"1.18.8451","date":"2015-12-23","tags":"stable"},{"version":"1.18.8331","date":"2015-10-29","tags":"stable"},{"version":"1.18.8281","date":"2015-10-15","tags":"stable"},{"version":"1.18.8215","date":"2015-10-02","tags":"stable"},{"version":"1.18.8182","date":"2015-09-25","tags":"stable"},{"version":"1.17.8075","date":"2015-08-14","tags":"stable"},{"version":"1.17.8026","date":"2015-07-21","tags":"hotfix"},{"version":"1.17.8005","date":"2015-07-09","tags":"stable"},{"version":"1.16.7958","date":"2015-06-29","tags":"stable"},{"version":"1.16.7912","date":"2015-06-15","tags":"stable"},{"version":"1.15.7750","date":"2015-03-21","tags":"stable"},{"version":"1.15.7746","date":"2015-03-18","tags":"stable"},{"version":"1.15.7721","date":"2015-03-06","tags":"stable"},{"version":"1.14.5747","date":"2014-11-27","tags":"stable"},{"version":"1.14.5606","date":"2014-10-16","tags":"stable"},{"version":"1.14.5548","date":"2014-09-19","tags":"stable"},{"version":"1.14.5536","date":"2014-09-14","tags":"stable"},{"version":"1.14.5514","date":"2014-09-08","tags":"stable"},{"version":"1.14.5495","date":"2014-08-30","tags":"stable"},{"version":"1.14.5458","date":"2014-08-22","tags":"stable"},{"version":"1.13.5416","date":"2014-07-22","tags":"stable"},{"version":"1.13.5386","date":"2014-07-09","tags":"stable"},{"version":"1.13.5282","date":"2014-06-08","tags":"stable"},{"version":"1.12.5211","date":"2014-05-12","tags":"stable"},{"version":"1.12.5187","date":"2014-04-29","tags":"stable"},{"version":"1.12.5174","date":"2014-04-18","tags":"stable"},{"version":"1.12.5112","date":"2014-04-01","tags":"stable"},{"version":"1.11.5062","date":"2014-03-10","tags":"stable"},{"version":"1.11.5051","date":"2014-03-07","tags":"stable"},{"version":"1.10.4967","date":"2014-02-14","tags":"stable"},{"version":"1.9.4910","date":"2014-01-19","tags":"stable"},{"version":"1.9.4839","date":"2013-12-01","tags":"stable"},{"version":"1.9.4832","date":"2013-11-28","tags":"stable"},{"version":"1.9.4815","date":"2013-11-20","tags":"stable"},{"version":"1.9.4792","date":"2013-11-13","tags":"stable"},{"version":"1.9.4736","date":"2013-10-28","tags":"stable"},{"version":"1.8.4704","date":"2013-10-19","tags":"stable"},{"version":"1.8.4608","date":"2013-09-17","tags":"stable"},{"version":"1.8.4504","date":"2013-08-22","tags":"stable"},{"version":"1.8.4473","date":"2013-08-08","tags":"stable"},{"version":"1.8.4452","date":"2013-07-16","tags":"stable"},{"version":"1.7.4340","date":"2013-06-03","tags":"stable"},{"version":"1.6.4251","date":"2013-04-25","tags":"stable"},{"version":"1.6.4231","date":"2013-04-14","tags":"stable"},{"version":"1.6.4187","date":"2013-03-31","tags":"stable"},{"version":"1.6.4160","date":"2013-03-23","tags":"stable"},{"version":"1.6.4064","date":"2013-03-03","tags":"stable"},{"version":"1.6.4040","date":"2013-02-22","tags":"stable"},{"version":"1.6.4039","date":"2013-02-21","tags":"stable"},{"version":"1.5.3865","date":"2013-01-08","tags":"stable"},{"version":"1.5.3802","date":"2012-12-17","tags":"stable"},{"version":"1.5.3767","date":"2012-11-27","tags":"stable"},{"version":"1.5.3746","date":"2012-11-27","tags":"stable"},{"version":"1.5.3650","date":"2012-10-30","tags":"stable"},{"version":"1.1.3415","date":"2012-09-01","tags":"stable"},{"version":"1.1.3385","date":"2012-08-22","tags":"stable"},{"version":"1.1.3330","date":"2012-08-12","tags":"stable"},{"version":"1.1.3267","date":"2012-08-01","tags":"stable"},{"version":"1.1.3266","date":"2012-08-01","tags":"stable"},{"version":"1.1.3248","date":"2012-07-28","tags":"stable"},{"version":"1.0.3045","date":"2012-06-18","tags":"stable"},{"version":"1.0.3039","date":"2012-06-15","tags":"stable"},{"version":"1.0.2940","date":"2012-05-23","tags":"stable"},{"version":"1.0.2930","date":"2012-05-20","tags":"stable"},{"version":"1.0.2896","date":"2012-05-11","tags":"stable"},{"version":"1.0.2848","date":"2012-05-02","tags":"stable"},{"version":"1.0.2842","date":"2012-05-01","tags":"stable"},{"version":"1.0.2818","date":"2012-04-25","tags":"stable"},{"version":"1.0.2667","date":"2012-03-30","tags":"stable"},{"version":"1.0.2567","date":"2012-03-12","tags":"stable"},{"version":"1.0.2529","date":"2012-03-05","tags":"first"}]
+[
+    {
+        "version": "1.57.14805",
+        "date": "2021-10-22"
+    },
+    {
+        "version": "1.56.14646",
+        "date": "2021-10-03",
+        "tags": "stable"
+    },
+    {
+        "version": "1.56.14540",
+        "date": "2021-09-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.56.14385",
+        "date": "2021-08-20",
+        "tags": "stable"
+    },
+    {
+        "version": "1.56.14305",
+        "date": "2021-08-12",
+        "tags": "stable"
+    },
+    {
+        "version": "1.55.14068",
+        "date": "2021-07-26",
+        "tags": "stable"
+    },
+    {
+        "version": "1.55.13902",
+        "date": "2021-07-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.52.13623",
+        "date": "2021-06-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.52.13483",
+        "date": "2021-06-17",
+        "tags": "stable"
+    },
+    {
+        "version": "1.52.13439",
+        "date": "2021-06-04",
+        "tags": "stable"
+    },
+    {
+        "version": "1.52.13403",
+        "date": "2021-05-25",
+        "tags": "stable"
+    },
+    {
+        "version": "1.52.13380",
+        "date": "2021-05-15",
+        "tags": "preview"
+    },
+    {
+        "version": "1.52.13357",
+        "date": "2021-05-10",
+        "tags": "stable"
+    },
+    {
+        "version": "1.51.13247",
+        "date": "2021-04-09",
+        "tags": "stable"
+    },
+    {
+        "version": "1.51.13160",
+        "date": "2021-04-02",
+        "tags": "preview"
+    },
+    {
+        "version": "1.50.13071",
+        "date": "2021-03-24",
+        "tags": "preview"
+    },
+    {
+        "version": "1.50.13029",
+        "date": "2021-03-11",
+        "tags": "preview"
+    },
+    {
+        "version": "1.50.12929",
+        "date": "2021-02-26",
+        "tags": "stable"
+    },
+    {
+        "version": "1.50.12866",
+        "date": "2021-02-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.50.12845",
+        "date": "2021-02-17",
+        "tags": "preview"
+    },
+    {
+        "version": "1.50.12791",
+        "date": "2021-02-10",
+        "tags": "preview"
+    },
+    {
+        "version": "1.50.12752",
+        "date": "2021-02-03",
+        "tags": "preview"
+    },
+    {
+        "version": "1.50.12628",
+        "date": "2021-01-08",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12554",
+        "date": "2020-12-29",
+        "tags": "preview"
+    },
+    {
+        "version": "1.40.12483",
+        "date": "2020-12-23",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12460",
+        "date": "2020-12-17",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12447",
+        "date": "2020-12-16",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12409",
+        "date": "2020-12-04",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12331",
+        "date": "2020-11-21",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12223",
+        "date": "2020-10-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12103",
+        "date": "2020-09-25",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12083",
+        "date": "2020-09-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.12022",
+        "date": "2020-08-19",
+        "tags": "preview"
+    },
+    {
+        "version": "1.40.12000",
+        "date": "2020-08-12",
+        "tags": "preview"
+    },
+    {
+        "version": "1.40.11953",
+        "date": "2020-07-15",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.11890",
+        "date": "2020-06-27",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.11855",
+        "date": "2020-05-27",
+        "tags": "stable"
+    },
+    {
+        "version": "1.40.11823",
+        "date": "2020-05-05",
+        "tags": "preview"
+    },
+    {
+        "version": "1.32.11768",
+        "date": "2020-03-25",
+        "tags": "preview"
+    },
+    {
+        "version": "1.32.11732",
+        "date": "2020-03-05",
+        "tags": "preview"
+    },
+    {
+        "version": "1.32.11706",
+        "date": "2020-02-05",
+        "tags": "preview"
+    },
+    {
+        "version": "1.32.11656",
+        "date": "2019-12-09",
+        "tags": "preview"
+    },
+    {
+        "version": "1.32.11632",
+        "date": "2019-11-12",
+        "tags": "stable"
+    },
+    {
+        "version": "1.32.11595",
+        "date": "2019-10-14",
+        "tags": "preview"
+    },
+    {
+        "version": "1.32.11522",
+        "date": "2019-09-23",
+        "tags": "stable"
+    },
+    {
+        "version": "1.32.11482",
+        "date": "2019-09-07",
+        "tags": "stable"
+    },
+    {
+        "version": "1.32.11427",
+        "date": "2019-08-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.32.11358",
+        "date": "2019-07-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.31.11311",
+        "date": "2019-07-11",
+        "tags": "preview"
+    },
+    {
+        "version": "1.31.11274",
+        "date": "2019-07-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.30.11262",
+        "date": "2019-06-27",
+        "tags": "preview"
+    },
+    {
+        "version": "1.30.11233",
+        "date": "2019-06-17",
+        "tags": "stable"
+    },
+    {
+        "version": "1.30.11217",
+        "date": "2019-05-23",
+        "tags": "preview"
+    },
+    {
+        "version": "1.30.11199",
+        "date": "2019-05-10",
+        "tags": "preview"
+    },
+    {
+        "version": "1.30.11154",
+        "date": "2019-03-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.30.11131",
+        "date": "2019-02-08",
+        "tags": "preview"
+    },
+    {
+        "version": "1.30.11095",
+        "date": "2019-01-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.29.11015",
+        "date": "2018-10-22",
+        "tags": "stable"
+    },
+    {
+        "version": "1.29.10958",
+        "date": "2018-09-24",
+        "tags": "stable"
+    },
+    {
+        "version": "1.29.10925",
+        "date": "2018-08-20",
+        "tags": "stable"
+    },
+    {
+        "version": "1.29.10893",
+        "date": "2018-07-24",
+        "tags": "stable"
+    },
+    {
+        "version": "1.28.10848",
+        "date": "2018-05-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.27.10773",
+        "date": "2018-04-11",
+        "tags": "stable"
+    },
+    {
+        "version": "1.26.10606",
+        "date": "2018-03-06",
+        "tags": "stable"
+    },
+    {
+        "version": "1.26.10589",
+        "date": "2018-02-26",
+        "tags": "stable"
+    },
+    {
+        "version": "1.25.10474",
+        "date": "2017-12-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.25.10447",
+        "date": "2017-11-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.25.10441",
+        "date": "2017-11-26",
+        "tags": "stable"
+    },
+    {
+        "version": "1.24.10137",
+        "date": "2017-08-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.23.9750",
+        "date": "2017-03-24",
+        "tags": "stable"
+    },
+    {
+        "version": "1.22.9523",
+        "date": "2017-01-23",
+        "tags": "stable"
+    },
+    {
+        "version": "1.22.9478",
+        "date": "2017-01-17",
+        "tags": "stable"
+    },
+    {
+        "version": "1.21.9350",
+        "date": "2016-12-08",
+        "tags": "stable"
+    },
+    {
+        "version": "1.20.9101",
+        "date": "2016-10-12",
+        "tags": "stable"
+    },
+    {
+        "version": "1.19.8876",
+        "date": "2016-07-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.19.8851",
+        "date": "2016-07-05",
+        "tags": "stable"
+    },
+    {
+        "version": "1.19.8776",
+        "date": "2016-04-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.19.8736",
+        "date": "2016-03-29",
+        "tags": "stable"
+    },
+    {
+        "version": "1.19.8685",
+        "date": "2016-02-29",
+        "tags": "stable"
+    },
+    {
+        "version": "1.19.8647",
+        "date": "2016-02-19",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8503",
+        "date": "2016-01-15",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8473",
+        "date": "2016-01-05",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8451",
+        "date": "2015-12-23",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8331",
+        "date": "2015-10-29",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8281",
+        "date": "2015-10-15",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8215",
+        "date": "2015-10-02",
+        "tags": "stable"
+    },
+    {
+        "version": "1.18.8182",
+        "date": "2015-09-25",
+        "tags": "stable"
+    },
+    {
+        "version": "1.17.8075",
+        "date": "2015-08-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.17.8026",
+        "date": "2015-07-21",
+        "tags": "hotfix"
+    },
+    {
+        "version": "1.17.8005",
+        "date": "2015-07-09",
+        "tags": "stable"
+    },
+    {
+        "version": "1.16.7958",
+        "date": "2015-06-29",
+        "tags": "stable"
+    },
+    {
+        "version": "1.16.7912",
+        "date": "2015-06-15",
+        "tags": "stable"
+    },
+    {
+        "version": "1.15.7750",
+        "date": "2015-03-21",
+        "tags": "stable"
+    },
+    {
+        "version": "1.15.7746",
+        "date": "2015-03-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.15.7721",
+        "date": "2015-03-06",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5747",
+        "date": "2014-11-27",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5606",
+        "date": "2014-10-16",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5548",
+        "date": "2014-09-19",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5536",
+        "date": "2014-09-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5514",
+        "date": "2014-09-08",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5495",
+        "date": "2014-08-30",
+        "tags": "stable"
+    },
+    {
+        "version": "1.14.5458",
+        "date": "2014-08-22",
+        "tags": "stable"
+    },
+    {
+        "version": "1.13.5416",
+        "date": "2014-07-22",
+        "tags": "stable"
+    },
+    {
+        "version": "1.13.5386",
+        "date": "2014-07-09",
+        "tags": "stable"
+    },
+    {
+        "version": "1.13.5282",
+        "date": "2014-06-08",
+        "tags": "stable"
+    },
+    {
+        "version": "1.12.5211",
+        "date": "2014-05-12",
+        "tags": "stable"
+    },
+    {
+        "version": "1.12.5187",
+        "date": "2014-04-29",
+        "tags": "stable"
+    },
+    {
+        "version": "1.12.5174",
+        "date": "2014-04-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.12.5112",
+        "date": "2014-04-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.11.5062",
+        "date": "2014-03-10",
+        "tags": "stable"
+    },
+    {
+        "version": "1.11.5051",
+        "date": "2014-03-07",
+        "tags": "stable"
+    },
+    {
+        "version": "1.10.4967",
+        "date": "2014-02-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.9.4910",
+        "date": "2014-01-19",
+        "tags": "stable"
+    },
+    {
+        "version": "1.9.4839",
+        "date": "2013-12-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.9.4832",
+        "date": "2013-11-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.9.4815",
+        "date": "2013-11-20",
+        "tags": "stable"
+    },
+    {
+        "version": "1.9.4792",
+        "date": "2013-11-13",
+        "tags": "stable"
+    },
+    {
+        "version": "1.9.4736",
+        "date": "2013-10-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.8.4704",
+        "date": "2013-10-19",
+        "tags": "stable"
+    },
+    {
+        "version": "1.8.4608",
+        "date": "2013-09-17",
+        "tags": "stable"
+    },
+    {
+        "version": "1.8.4504",
+        "date": "2013-08-22",
+        "tags": "stable"
+    },
+    {
+        "version": "1.8.4473",
+        "date": "2013-08-08",
+        "tags": "stable"
+    },
+    {
+        "version": "1.8.4452",
+        "date": "2013-07-16",
+        "tags": "stable"
+    },
+    {
+        "version": "1.7.4340",
+        "date": "2013-06-03",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4251",
+        "date": "2013-04-25",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4231",
+        "date": "2013-04-14",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4187",
+        "date": "2013-03-31",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4160",
+        "date": "2013-03-23",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4064",
+        "date": "2013-03-03",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4040",
+        "date": "2013-02-22",
+        "tags": "stable"
+    },
+    {
+        "version": "1.6.4039",
+        "date": "2013-02-21",
+        "tags": "stable"
+    },
+    {
+        "version": "1.5.3865",
+        "date": "2013-01-08",
+        "tags": "stable"
+    },
+    {
+        "version": "1.5.3802",
+        "date": "2012-12-17",
+        "tags": "stable"
+    },
+    {
+        "version": "1.5.3767",
+        "date": "2012-11-27",
+        "tags": "stable"
+    },
+    {
+        "version": "1.5.3746",
+        "date": "2012-11-27",
+        "tags": "stable"
+    },
+    {
+        "version": "1.5.3650",
+        "date": "2012-10-30",
+        "tags": "stable"
+    },
+    {
+        "version": "1.1.3415",
+        "date": "2012-09-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.1.3385",
+        "date": "2012-08-22",
+        "tags": "stable"
+    },
+    {
+        "version": "1.1.3330",
+        "date": "2012-08-12",
+        "tags": "stable"
+    },
+    {
+        "version": "1.1.3267",
+        "date": "2012-08-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.1.3266",
+        "date": "2012-08-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.1.3248",
+        "date": "2012-07-28",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.3045",
+        "date": "2012-06-18",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.3039",
+        "date": "2012-06-15",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2940",
+        "date": "2012-05-23",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2930",
+        "date": "2012-05-20",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2896",
+        "date": "2012-05-11",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2848",
+        "date": "2012-05-02",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2842",
+        "date": "2012-05-01",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2818",
+        "date": "2012-04-25",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2667",
+        "date": "2012-03-30",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2567",
+        "date": "2012-03-12",
+        "tags": "stable"
+    },
+    {
+        "version": "1.0.2529",
+        "date": "2012-03-05",
+        "tags": "first"
+    }
+]
