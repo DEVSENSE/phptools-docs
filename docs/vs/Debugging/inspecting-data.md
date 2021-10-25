@@ -73,7 +73,7 @@ The Immediate window (`Debug | Windows | Immediate`) evaluates entered expressio
 
 ## Track objects with Object IDs
 
-When you want to track an object during its life, you can create **Object ID** for it. The Object ID allows you to observe the object even when it's out of scope. The object is displayed in the **Locals** window, but you can also add it to the **Watch** window. Here you can see the tracked object even when it's out of scope:
+When you want to track an object during its life, you can create **Object ID** for it. The Object ID allows you to observe the object even when it's out of scope. The object is displayed in the **Locals** window, but you can also add it to the **Watch** window as a part of an expression. Here you can see the tracked object even when it's out of scope:
 
 ![Tracked object in Watch Window](imgs\object-id.png)
 
