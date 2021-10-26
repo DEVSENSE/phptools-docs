@@ -45,7 +45,7 @@ Optionally, the script can use variables in the format `${name}` which will be r
 | `${ProjectDir}`| full directory path of the project, ending with `\`. |
 | `${ProjectName}` |  the project name. |
 | `${ProjectUrl}` | the Web Project URL |
-| `${PhpExe}` | full path to `php.exe` selected in project properties. In case the project is set to `Custom` server, the varibale is not defined. |
+| `${PhpExe}` | full path to `php.exe` selected in project properties. In case the project is set to `Custom` server, the variable is not defined. |
 
 ## Related Links
 
