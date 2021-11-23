@@ -25,6 +25,12 @@ Files can be added to the project in several ways:
 - Use `Show All Files`. Click on files or folders you would like to add to the project and choose `Include In Project`.
 - Drag and drop files and folders from Windows Explorer.
 
+### Expanding File Structure
+
+Files containing functions and class declarations can be expanded directly in the Solution Explorer. Using the arrow, expand the file to see the high level declarations. Classes (and traits, interfaces, and enums) can be further expanded. Double-clicking navigates the editor directly to the declaration.
+
+![expand php file in solution explorer](imgs/expand-php-file.gif)
+
 ### Filtering View
 
 Projects can be large, so the Solution Explorer helps filtering its content by partially typed name. The *Search Solution Explorer* input box is at the top of the window. The box can be focused by <kbd>Ctrl+;</kbd> by default. Typing text filters files immediately.
