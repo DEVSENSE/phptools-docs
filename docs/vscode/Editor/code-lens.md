@@ -15,7 +15,7 @@ Every PHP declaration is decorated with `references` code lens. *References* pro
 
 Additionally, interfaces and classes are decorated with `implementations` code lens providing list of all the types that extend or implement this type.
 
-![PHP references and implemenetations](../imgs/codelens-references-impls.png)
+![PHP references and implementations](../imgs/codelens-references-impls.png)
 
 ### Trait Uses
 
