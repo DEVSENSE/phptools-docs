@@ -66,6 +66,29 @@ Registration was successful!
 
 Note, the DBGp proxy **IDE key** is set automatically to the current user **user-name**. It is also logged in the output above. When accessing the web, this IDE key has to be used in the URL(e.g. `http://example.org?XDEBUG_SESSION_START=Arnold`). This way the proxy server knows which machine to connect back to with the debug session.
 
+### Ignored Paths
+
+To ignore custom paths (like `**/vendor/**`) from being **stepped into** and breaking on **exceptions**, specify `"exclude" : ["**/vendor/**"]` launch setting.
+
+Debugger won't step into and won't break on handled exceptions within files matching specified glob patterns.
+
+Example with the `"exclude"` configuration:
+
+```json
+{
+    /* listening for Xdebug connection: */
+    "name": "Listen for Xdebug",
+    "type": "php",
+    "request": "launch",
+    "port": 9003,
+
+    /* ignore files in 'vendor' folder from being stepped into and exceptions */
+    "exclude": [
+        "**/vendor/**"
+    ]
+}
+```
+
 ### Built-In PHP Server
 
 The following profile starts the PHP built-in web server. The server is started only if the `runtimeArgs` contains the parameter `-S` that defines the location and port of the server.
