@@ -35,6 +35,7 @@ Setting | Values | Description
 `php.problems.workspaceAnalysis` | "true", "false" | Allows to disable the full workspace analysis. Recommended for larger projects.
 `phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh". | Specifies the language code of integrated documentation. If not set, the setting defaults to system's language.
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processed by the code analysis engine (code completion, navigation, problems).
+`debug.inlineValues` | `true`, `false` | Enables or disables showing values relevant to the currently debugged statement.
 
 ## License activation
 

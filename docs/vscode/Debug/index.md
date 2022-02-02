@@ -113,6 +113,14 @@ The debugging features are the following:
 - Built-in web development server.
 - Debugging of 'PHP Unit' test cases.
 
+### Debug Adornments
+
+When stepping through the code, editor will display values of variables and expressions corresponding to the current statement. Values are also shown for the enclosing scopes such as loop control variables, switch expression, and function parameters.
+
+This feature can be enabled or disabled using VS Code Setting `"debug.inlineValues"`.
+
+![PHP debug inlines](img/debug-php-inlines.png)
+
 ### Start Debug and Stop on Entry
 
 Open **command palette** and run `Start Debugging and Stop on Entry` (aka *Step Into*). The command launches debugging and breaks on the first statement. 
