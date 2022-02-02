@@ -146,9 +146,11 @@ These are steps that should help to diagnose and solve common problems with debu
   ?XDEBUG_SESSION_START=1
   ```
   For example: `http://localhost/?XDEBUG_SESSION_START=1`
+- In case the VS Code is behind a proxy, see https://code.visualstudio.com/docs/setup/network for additional settings.
 
 ## See Also
 
 - [Xdebug.org](https://xdebug.org/)
 - [Installing Xdebug on Mac](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)
 - [Launch Configurations](launch-json)
+- [VS Code Network Settings (Proxy)](https://code.visualstudio.com/docs/setup/network)
