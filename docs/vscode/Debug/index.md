@@ -18,7 +18,7 @@ In order to debug a PHP program, you need PHP (either installed locally or on yo
 
 ### Local PHP Installation
 
-In case there is more PHP installations on the system, see [choosing PHP Version](../php-version) and select the right one.
+In case there are more PHP installations on the system, see [choosing PHP Version](../php-version) and select the right one.
 
 To verify your PHP and Xdebug are installed correctly:
 
@@ -63,7 +63,7 @@ xdebug.remote_mode = req
 
 ### Server PHP Installation
 
-> This applies to the situation, when PHP is not running on your local system but it's on a **Cloud**, **Web Host**, **Docker**, **Xampp**, etc.
+> This applies to the situation when PHP is not running on your local system but it's on a **Cloud**, **Web Host**, **Docker**, **Xampp**, etc.
 
 In case `php` itself is not running on your local system, consult the installation of PHP+Xdebug with the specific server host.
 
@@ -77,7 +77,7 @@ Launch debugging in Visual Studio Code to either run the program and debug, or t
 
 > The file `.vscode/launch.json` is a configuration file within your VS Code Folder or Workspace.
 
-1. **Open Folder** or **Open Workspace** in VS Code. This allows to create `launch.json` file with more detailed debug launch configurations.
+1. **Open Folder** or **Open Workspace** in VS Code. This allows for specifying more detailed debug launch configurations.
 2. Navigate to `Run and Debug` view, and click `create a launch.json` or the configuration gear:
     ![VSCode debug configurations gear](img/config.png)
 3. See [launch.json](launch-json) for the initialization and description of the PHP launch profiles.
@@ -115,7 +115,7 @@ The debugging features are the following:
 
 ### Debug Adornments
 
-When stepping through the code, editor will display values of variables and expressions corresponding to the current statement. Values are also shown for the enclosing scopes such as loop control variables, switch expression, and function parameters.
+When stepping through the code, the editor will display values of variables and expressions corresponding to the current statement. Values are also shown for the enclosing scopes such as loop control variables, switch expression, and function parameters.
 
 This feature can be enabled or disabled using VS Code Setting `"debug.inlineValues"`.
 
