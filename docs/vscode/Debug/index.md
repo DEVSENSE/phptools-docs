@@ -40,7 +40,7 @@ Xdebug needs to be set in `php.ini` file that corresponds to your PHP installati
 - **On Windows** it is located next to your `php.exe`.
 - On **Linux/Mac**, there is usually a separate `xdebug.ini` file (usually something like `/etc/php/8.0/cli/xdebug.ini`).
 
-Edit the `.ini` file, and ensure there are the following directives (Note, it is different for Xdebug version `2` and version `3`):
+Edit the `.ini` file, and ensure there are the following directives (Note, the directives are different for Xdebug versions `2` and `3`):
 
 ```ini
 ; Xdebug 3
@@ -68,6 +68,31 @@ xdebug.remote_mode = req
 In case `php` itself is not running on your local system, consult the installation of PHP+Xdebug with the specific server host.
 
 You can then take advantage of [DBGP Proxy](debug-dbgp-proxy) to allow multiple users to debug the same site safely.
+
+## Launching Debug in VSCode
+
+Launch debugging in Visual Studio Code to either run the program and debug, or to listen for incoming Xdebug connections and debug. PHP debugging can be initiated in several ways, with or without VS Code Workspace, with or without the configured `launch.json`.
+
+### With `launch.json`
+
+> The file `.vscode/launch.json` is a configuration file within your VS Code Folder or Workspace.
+
+1. **Open Folder** or **Open Workspace** in VS Code. This allows to create `launch.json` file with more detailed debug launch configurations.
+2. Navigate to `Run and Debug` view, and click `create a launch.json` or the configuration gear:
+    ![VSCode debug configurations gear](img/config.png)
+3. See [launch.json](launch-json) for the initialization and description of the PHP launch profiles.
+
+### No `launch.json`, Just Debug
+
+Debugging can be started without any configuration. This is recommended if you just need to attach to an existing Web Server (with Xdebug configured) or to quickly run and debug a PHP script.
+
+1. **Open a .`php` file** in VS Code (`File / Open File`).
+2. Press **`F5`** or Open Command Palette (`F1`) and choose one of the following:
+    ![Debug Quick Pick](img/debug-config-pick.png)
+
+- `Listen for Xdebug` starts debugging and waits for an incoming Xdebug connection.
+- `Launch current script in console` runs and debugs the currently opened PHP document as a console PHP program.
+- `Launch built-in server` starts PHP development server within your opened folder, checks for the debugging capabilities, and starts listening for the Xdebug connections.
 
 ## Features
 
