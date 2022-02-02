@@ -1,9 +1,9 @@
 /*
-Title: PHP Debugging on Linux
+Title: Xdebug on Linux
 Description: Xdebug setup on Linux.
 */
 
-# Xdebug setup on Linux
+# Xdebug on Linux
 
 To debug php applications with PHP Tools for Visual Studio Code, it is necessary to install and enable Xdebug extension in PHP and set *remote_enable* and *remote_autostart* to true.
 
@@ -35,3 +35,8 @@ xdebug.remote_autostart = 1 // or append `XDEBUG_SESSION_START=1` parameter to t
     3. Add a breakpoint to a statement (*echo* in the example)
     4. Start a debug session using the configuration *Launch current script in Console*
     5. The Xdebug is properly setup, if the breakpoint is hit
+
+## See Also
+
+- [Debug Overview](.)
+- [Launch Configurations](launch-json)

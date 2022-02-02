@@ -1,5 +1,5 @@
 /*
-Title: Xdebug
+Title: Xdebug on Mac
 Description: 
 */
 

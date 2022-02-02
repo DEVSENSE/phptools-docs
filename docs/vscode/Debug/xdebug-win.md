@@ -1,6 +1,6 @@
 /*
-Title: Remote debug
-Description: Remote debugging
+Title: Xdebug on Windows
+Description:
 */
 
 # Xdebug on Windows
