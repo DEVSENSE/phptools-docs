@@ -5,42 +5,69 @@ Description:
 
 # Debug Overview
 
-PHP Tools for VS Code extends VS Code with PHP debugging capabilities which allows debugging on your local development server and also on a remote server. The debugging engine takes advantage of [Xdebug](https://xdebug.org/) PHP extension.
+![PHP Xdebug with VSCode Overview](img/vscode-xdebug.png)
 
-For general information about debugging in Visual Studio Code, such as inspecting variables, setting breakpoints, and other activities that aren't language-dependent, review [VS Code debugging](https://code.visualstudio.com/docs/editor/debugging).
+Debugging of PHP code in VS Code allows for inspecting a PHP program, inspecting actual variables, stack traces, exceptions, breaking and stepping through the code, debugging PHPUnit tests, and more.
 
-## Requirements:
+## Requirements
 
-- PHP 5.6 or newer with compatible Xdebug extension
+In order to debug a PHP program, you need PHP (either installed locally or on your server) together with [Xdebug](https://xdebug.org) extension.
 
-### Checklist:
+- PHP >= 5.6
+- Xdebug extension. Follow the steps on [Xdebug.org Install](https://xdebug.org/docs/install).
 
--	Xdebug must be configured within your PHP installation in order to make the debugging function working. 
-  -	If you have Windows, see Configuring Xdebug. 
-  -	For Mac you can take a look here https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac . 
-  -	For Linux consult manual specific for your linux distribution
-- Xdebug extension must operate on the TCP port specified in the [Launch Profiles]( vscode/debug/launch-json). And your firewall must be properly set up to allow communication through this port.
--	Ensure Xdebug is properly configured: run `php -–version` and check the last line of the output is `with Xdebug`.
--	Ensure php.ini states the following directives:
+### Local PHP Installation
+
+In case there is more PHP installations on the system, see [choosing PHP Version](../php-version) and select the right one.
+
+To verify your PHP and Xdebug are installed correctly:
+
+- Open a `.php` file in VS Code
+- Open the `OUTPUT` view, tab `PHP`.
+
+![PHP info](img/output-php-xdebug.png)
+
+If PHP with Xdebug is installed correctly, you will see
 
 ```
+Found PHP, version x.y.z, Xdebug: x.y.z.
+```
+
+### `php.ini` Configuration
+
+Xdebug needs to be set in `php.ini` file that corresponds to your PHP installation.
+
+- **On Windows** it is located next to your `php.exe`.
+- On **Linux/Mac**, there is usually a separate `xdebug.ini` file (usually something like `/etc/php/8.0/cli/xdebug.ini`).
+
+Edit the `.ini` file, and ensure there are the following directives (Note, it is different for Xdebug version `2` and version `3`):
+
+```ini
+; Xdebug 3
+zend_extension = "<path to the xdebug library>" ; "...\xdebug.dll" or ".../xdebug.so"
+xdebug.mode = debug
+xdebug.client_host = 127.0.0.1
+xdebug.client_port = 9003
+xdebug.start_with_request = trigger
+```
+
+```ini
+; Xdebug 2
+zend_extension = "<path to the xdebug library>" ; "...\xdebug.dll" or ".../xdebug.so"
 xdebug.remote_enable = 1
-xdebug.remote_autostart = 1 // or append `XDEBUG_SESSION_START=1` parameter to the URL of page you want to debug
+xdebug.remote_handler = dbgp
+xdebug.remote_host = 127.0.0.1
+xdebug.remote_port = 9000
+xdebug.remote_mode = req
 ```
 
-## Initial setup
+### Server PHP Installation
 
--	First select Debug View in the sidebar: 
- ![Debug icon](img/vscode-sidebar-debug.png)
- 
--	If you don’t have any configuration defined you will see “No Configuration” in the drop-down list. Click on the configuration icon with the red dot (the dot is not present if you have some configuration)
+> This applies to the situation, when PHP is not running on your local system but it's on a **Cloud**, **Web Host**, **Docker**, **Xampp**, etc.
 
-  ![No Configuration](img/config.png)
+In case `php` itself is not running on your local system, consult the installation of PHP+Xdebug with the specific server host.
 
-  A configuration menu will appear from the Command Palette, choose PHP (Xdebug).
- ![Select Environment](img/environment.png)
- 
-  This command will generate `launch.json` file in the `.vscode` folder with pre-defined configurations and opens the file in editor. The details of configuration properties are explained in section [Launch Profiles]( vscode/debug/launch-json)
+You can then take advantage of [DBGP Proxy](debug-dbgp-proxy) to allow multiple users to debug the same site safely.
 
 ## Features
 
@@ -63,6 +90,28 @@ The debugging features are the following:
 
 ## Troubleshooting
 
-## Related links
+These are steps that should help to diagnose and solve common problems with debugging PHP:
+
+- Runnig the following command should display **no warnings**, and an **Xdebug notice**:
+  ```
+  php --version
+  ```
+  ```
+  PHP 8.0.3 (cli) Copyright (c) The PHP Group
+  Zend Engine v4.0.3, Copyright (c) Zend Technologies
+      with Xdebug v3.0.4, Copyright (c) 2002-2021, by Derick Rethans
+  ```
+
+- The port number specified in Xdebug `.ini` configuration should be `9000` or `9003`, or it should match the `"port"` specified in the [Launch Profiles](vscode/debug/launch-json).
+- Firewall must be properly set up to allow communication through the Xdebug port.
+- Append the following query parameter when opening the debugged PHP Web Site:
+  ```
+  ?XDEBUG_SESSION_START=1
+  ```
+  For example: `http://localhost/?XDEBUG_SESSION_START=1`
+
+## See Also
 
 - [Xdebug.org](https://xdebug.org/)
+- [Installing Xdebug on Mac](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)
+- [Launch Configurations](launch-json)

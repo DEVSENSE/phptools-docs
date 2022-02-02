@@ -37,7 +37,6 @@ xdebug.remote_mode = req
 
 ![Remote port](imgs/options-xdebug-port.png)
 
-
 - If you have Xdebug 3, your configuration options are different
   
 ```ini
