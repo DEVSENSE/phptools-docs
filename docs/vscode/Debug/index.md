@@ -113,6 +113,10 @@ The debugging features are the following:
 - Built-in web development server.
 - Debugging of 'PHP Unit' test cases.
 
+### Start Debug and Stop on Entry
+
+Open **command palette** and run `Start Debugging and Stop on Entry` (aka *Step Into*). The command launches debugging and breaks on the first statement. 
+
 ## Troubleshooting
 
 These are steps that should help to diagnose and solve common problems with debugging PHP:
