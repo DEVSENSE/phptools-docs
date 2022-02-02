@@ -67,7 +67,7 @@ xdebug.remote_mode = req
 
 In case `php` itself is not running on your local system, consult the installation of PHP+Xdebug with the specific server host.
 
-You can then take advantage of [DBGP Proxy](debug-dbgp-proxy) to allow multiple users to debug the same site safely.
+You can then take advantage of [DBGP Proxy](debug/debug-dbgp-proxy) to allow multiple users to debug the same site safely.
 
 ## Launching Debug in VSCode
 
@@ -139,7 +139,7 @@ These are steps that should help to diagnose and solve common problems with debu
       with Xdebug v3.0.4, Copyright (c) 2002-2021, by Derick Rethans
   ```
 
-- The port number specified in Xdebug `.ini` configuration should be `9000` or `9003`, or it should match the `"port"` specified in the [Launch Profiles](vscode/debug/launch-json).
+- The port number specified in Xdebug `.ini` configuration should be `9000` or `9003`, or it should match the `"port"` specified in the [Launch Profiles](debug/launch-json).
 - Firewall must be properly set up to allow communication through the Xdebug port.
 - Append the following query parameter when opening the debugged PHP Web Site:
   ```
