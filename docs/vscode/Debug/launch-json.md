@@ -89,6 +89,16 @@ Example with the `"exclude"` configuration:
 }
 ```
 
+**Excluding everything except**
+
+To ignore everything except a specified path, use the negation prefix `!`, e.g.:
+```json
+    "exclude": [
+      "!**/app/**",
+      "!**/vendor/mypackage/**",
+    ]
+````
+
 ### Built-In PHP Server
 
 The following profile starts the PHP built-in web server. The server is started only if the `runtimeArgs` contains the parameter `-S` that defines the location and port of the server.
