@@ -149,8 +149,7 @@ This profile runs the PHP project as a console application, inside the VS Code's
     "request": "launch",
     "program": "${file}",
     "cwd": "${fileDirname}",
-    "externalConsole": false,
-    "port": 9003
+    "externalConsole": false
 }
 ```
 
