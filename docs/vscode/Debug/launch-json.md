@@ -22,11 +22,19 @@ The following profile initiates debugging of an already running PHP application.
     "name": "Listen for Xdebug",
     "type": "php",
     "request": "launch",
-    "port": 9003
+    "port": 9003,
+
+    "pathMappings": {
+        "\\remotepc\Shared\Test\": "${workspaceRoot}\src",
+        "\\test": "C:\Users\usr\Documents\VSCode\src"
+    }
 }
 ```
 
 Press `F5` or `Run and Debug` to start listening for Xdebug connections.
+
+- `port` is the incoming Xdebug port number. It can be a single number (e.g. `9003`), or an array of numbers (e.g. `[9003, 9000]`), or it can be removed so the debugger will use the port specified in `"php.debug.port"` setting.
+- `pathMappings` is used for remote debugging. This setting maps server paths to local paths, so the debugger will match breakpoints on the local machine with the server paths.
 
 ### DBGp Proxy settings
 
@@ -118,10 +126,6 @@ The following profile starts the PHP built-in web server. The server is started 
         "-t",
         "\\remotepc\Shared\Test"
     ],
-    "pathMappings": {
-        "\\remotepc\Shared\Test\": "${workspaceRoot}\src",
-        "\\test": "C:\Users\usr\Documents\VSCode\src\"
-    },
     "port": 9000,
     "serverReadyAction": {
         "action": "openExternally"
