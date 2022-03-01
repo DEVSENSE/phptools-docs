@@ -47,13 +47,15 @@ The launch configuration for `Listen for Xdebug` together with `dbgpProxy` confi
     {
         "enable": true,
         "host": "127.0.0.1",
-        "port": 9002
+        "port": 9002,
+        "ideKey": "MyVSCode"
     }
 }
 ```
 
 - `enable` turns on or off connection to *DBGp Proxy* server.
 - `host` and `port` specify the address of the *DBGp Proxy* server
+- `ideKey` is used to register the debug session within the DBGpProxy. If not set, the current user name is used instead.
 
 Upon running the project (`F5` or `Run and Debug` command), the following text gets logged in the Debug Console:
 
