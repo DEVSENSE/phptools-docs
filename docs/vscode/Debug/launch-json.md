@@ -66,7 +66,7 @@ Registration was successful!
 
 **DBGp Proxy IDE key**
 
-Note, the DBGp proxy **IDE key** is set automatically to the current user **user-name**. It is also logged in the output above. When accessing the web, this IDE key has to be used in the URL(e.g. `http://example.org?XDEBUG_SESSION_START=Arnold`). This way the proxy server knows which machine to connect back to with the debug session.
+Note, if not specified, the DBGp proxy **IDE key** is set automatically to the current user **user name**. It is also logged in the VSCode's Output Window. When accessing the web, this IDE key has to be used in the URL(e.g. `http://example.org?XDEBUG_SESSION_START=MyVSCode`), or `xdebug.idekey` directive, or `DBGP_IDEKEY` environment variable (see [xdebug.org/docs/step_debug#idekey](https://xdebug.org/docs/step_debug#idekey) for more details). This way the proxy server knows which machine to connect back to with the debug session.
 
 ### Ignored Paths
 
