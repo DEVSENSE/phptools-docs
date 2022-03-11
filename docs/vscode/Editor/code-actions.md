@@ -41,11 +41,19 @@ The code action resolves the complete class hierarchy, taking into accound inter
 
 ### Import Name
 
-Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code actions with all available fixes is provided.
+Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code action with all available fixes is provided.
 
 ![Resolve missing namespace](../imgs/missing-namespace-fix.png)
 
-The code action allows you to add `use` declaration or fully qualify the name in-place. Code actions include all the possible names that are found within the current workspace.
+The code action allows you to add `use` declaration or fully qualify the name in place. Code actions include all the possible names that are found within the current workspace.
+
+### Unused `use` fix
+
+Any `use`, group of `use`, or a single alias that is not needed in the code is immediately dimmed.
+
+![remove unused `use`](../imgs/vscode-unnecessary-use.gif)
+
+Code action `Remove unnecessary 'use'` quickly cleanups the block of uses.
 
 ### Fix typo in PHPDoc keyword
 
@@ -55,7 +63,7 @@ Error `PHP6503` suggests that there is a typo in the PHPDoc keyword and offers a
 
 ### Add missing `$this->`
 
-If applicable, a code action suggesting to add `$this->` is provided. This fixes a common issue when an instance function is called without specyfying the `$this` object.
+If applicable, a code action suggesting to add `$this->` is provided. This fixes a common issue when an instance function is called without specifying the `$this` object.
 
 ![Fix missing $this->](../imgs/missing-this-fix.gif)
 
