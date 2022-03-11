@@ -9,7 +9,7 @@ The editor is provided with so-called **Code Actions** - Quick Fixes and refacto
 
 ![Light Bulb in VS Code](../imgs/light-bulb.png)
 
-Available code actions are listed by clicking on the light bulb or pressing associated keyboard shortcut (by default) <kbd>Ctrl+.</kbd>.
+Available code actions are listed by clicking on the light bulb or pressing an associated keyboard shortcut (by default) <kbd>Ctrl+.</kbd>.
 
 Certain errors have also `Quick Fix` available. This provides the same list of code actions that should resolve the issue.
 
@@ -17,11 +17,11 @@ Certain errors have also `Quick Fix` available. This provides the same list of c
 
 ### Getters and Setters
 
-Generating getters and/or setters for private and protected properties can be done using the following code action. This will add function `get` and `set` for the selected property at the end of current class.
+Generating getters and/or setters for private and protected properties can be done using the following code action. This will add the function `get` and `set` for the selected property at the end of the current class.
 
 ![Add getters and/or setters](../imgs/getter-setter-action.png)
 
-The inserted code contains all the available type annotations. In case the current version of PHP is `7` or higher, also the return type is added. For PHP `7.4` and higher, the property's type hint is taken into accound as well.
+The inserted code contains all the available type annotations. In case the current version of PHP is `7` or higher, also the return type is added. For PHP `7.4` and higher, the property's type hint is taken into account as well.
 
 ![Add getters and/or setters](../imgs/getter-setter-action.gif)
 
@@ -35,7 +35,7 @@ Error `PHP2414` indicates that the non-abstract class has some functions missing
 
 ![Class is missing implementation of abstract functions](../imgs/missing-abstracts-error.png)
 
-The code action resolves the complete class hierarchy, taking into accound interfaces and classes. Generated code contains PHPDoc annotations and base implementation of methods if applicable.
+The code action resolves the complete class hierarchy, taking into account interfaces and classes. Generated code contains PHPDoc annotations and base implementation of methods if applicable.
 
 ![Implement missing functions](../imgs/impl-missing-abstracts.gif)
 
