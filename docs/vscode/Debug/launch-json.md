@@ -35,6 +35,22 @@ Press `F5` or `Run and Debug` to start listening for Xdebug connections.
 
 - `port` is the incoming Xdebug port number. It can be a single number (e.g. `9003`), or an array of numbers (e.g. `[9003, 9000]`), or it can be removed so the debugger will use the port specified in `"php.debug.port"` setting.
 - `pathMappings` is used for remote debugging. This setting maps server paths to local paths, so the debugger will match breakpoints on the local machine with the server paths.
+- `hostname` allows to specify whether to listen on IPv4 (`0.0.0.0`) or IPv6 (`::`). By default, the debugger listens on IPv4 (`0.0.0.0`) and tries to listen on IPv6 (`::`) as well. On Linux systems, listening on both networks might not be allowed so the `hostname` should be specified explicitly.
+
+### Listen on IPv6 on Linux
+
+On Windows, debugger listens on both IPv4 and IPv6 at the same time. On Linux, the protocol should be specified explicitly. The following launch profile listens on IPv6, default ports (`9003`, `9000`):
+
+```json
+{
+    "name": "Listen on Xdebug (IPv6)",
+    "type": "php",
+    "request": "launch",
+    "hostname": "::"
+}
+```
+
+If `"hostname"` is not specified, the debugger listens on IPv4 by default.
 
 ### DBGp Proxy settings
 
