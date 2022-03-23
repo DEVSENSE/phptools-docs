@@ -80,7 +80,7 @@ Launch debugging in Visual Studio Code to either run the program and debug, or t
 1. **Open Folder** or **Open Workspace** in VS Code. This allows for specifying more detailed debug launch configurations.
 2. Navigate to `Run and Debug` view, and click `create a launch.json` or the configuration gear:
     ![VSCode debug configurations gear](img/config.png)
-3. See [launch.json](launch-json) for the initialization and description of the PHP launch profiles.
+3. See [launch.json](debug/launch-json) for the initialization and description of the PHP launch profiles.
 
 ### No `launch.json`, Just Debug
 
