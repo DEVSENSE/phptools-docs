@@ -27,3 +27,7 @@ PHP Tools are released in a Stable and Pre-Release version. By default, the stab
 ![php for vscode pre-release](../imgs/vscode-extension-prerelease.png)
 
 Navigate to the `Extensions` view, choose `PHP Tools`, and click `Install`. In case, there is a Pre-Release version available, `Install Pre-Release Version` will appear.
+
+## Related Links
+
+- [Pre-Release of PHP Tools (blog)](https://blog.devsense.com/2022/php-vscode-pre-release)
