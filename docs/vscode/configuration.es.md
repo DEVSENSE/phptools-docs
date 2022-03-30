@@ -3,34 +3,24 @@ Title: Configuración
 Description: 
 */
 
-## Instalación
-
-La extensión `"PHP Tools"` se instala a través de la ventana principal de VSCode. Por favor, si necesita información detallada, vea [managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery).
-
-Después de la instalación exitosa, se le pedirá [activar](#license-activation) PHP Tools.
-
-### Instalación sin conexión
-
-El archivo de instalación `.vsix` puede descargarse en nuestra [sección de descargas](https://www.devsense.com/download#vscode). Éste  archivo debe ser instalado utilizando `Command palette` de VSCode, comando `Extensions: Install from VSIX`.
-
 ## Opciones de configuración
 
 Los siguientes ajustes se introducen gracias a la extensión. Si necesita verlos o modificarlos, debe navegar hasta los [Ajustes de VSCode](https://code.visualstudio.com/docs/getstarted/settings).
 
 Ajuste | Valores | Descripción
 ---     | ---    | ---
-`php.version` | PHP version or a profile name defined in `php.executables` | Specifies the PHP version to be used by default by debugger, code analysis, and test explorer.
-`php.problems.workspaceAnalysis` |  "true", "false" | 
+`php.version` | Versión de PHP o un nombre de perfil definido en `php.executables` | Especifica la versión de PHP que utilizará de forma predeterminada el depurador, el análisis de código y el explorador de pruebas.
+`php.codeLens.enabled` | `true`/`false` | Habilita/deshabilita lentes de código en archivos PHP sobre funciones, tipos, propiedades y constantes.
+`php.debug.port` | número o matriz de números | Puerto Xdebug predeterminado. Este valor se usa cuando `port` no se especifica en `launch.json` la configuración o cuando se depura sin una carpeta abierta. El valor predeterminado es `[9003,9000]`.
+`php.executables` | Conjunto de nombres de perfil y ruta ejecutable de PHP correspondiente. | Nombres de perfil definidos que se pueden elegir en php.versionla configuración o desde el selector de versión de PHP.
 `php.executablePath` | Ruta de acceso completa al programa `php`, o no establecido. | Especifica la ruta de acceso al programa `php` que será utilizado con el [Explorador de Pruebas](test-explorer) y la [Depuración](debug).
+`php.format.codeStyle` | "PHP Tools", "PSR-2" | Perfil de formato de código.
+`php.format.autoimport` | "auto-import", "fqn", "none", "hide" | Configura cómo tratar la finalización de nombres fuera del espacio de nombres actual. Ver [auto-import](editor/auto-import).
+`php.problems.exclude` |  Mapa asociativo de rutas y si excluirlas de la verificación de problemas. | Especifica qué problemas se ocultarán en los directorios especificados. Es posible configurar `true` para ignorar todos los problemas o una serie de códigos de error. Muestra: `{'/vendor/**':true, '/tests/**':[6501,6555]}`.. Ver [configuración de problemas](problems#configuration). .
+`php.problems.workspaceAnalysis` |  "true", "false" | Permite deshabilitar el análisis del espacio de trabajo completo. Recomendado para proyectos más grandes.
 `phpTools.language` | "en", "de", "es", "fr", "ja", "pt", "ro", "ru", "tr", "zh", o no establecido. | Especifica el código de idioma de la documentación integrada. Si no se establece, la configuración predeterminada es el idioma del sistema.
-`php.codeLens.enabled` | `true`/`false` | Enables/disables code lenses in PHP files above functions, types, properties, and constants.
-`php.debug.port` | number or array of numbers | Default Xdebug port. This value is used when `port` is not specified in `launch.json` settings or when debugging without an opened folder. Defaults to `[9003,9000]`.
-`php.executables` | Set of profile names and corresponding PHP executable path. | Defined profile names that can be chosen in `php.version` setting, or from the PHP version picker.
-`php.format.codeStyle` | "PHP Tools", "PSR-2" | Code formatting profile.
-`php.format.autoimport` | "auto-import", "fqn", "none", "hide" | Configures how to treat completion of names outside the current namespace. See [auto-import](editor/auto-import).
-[`php.problems.exclude`](problems#configuration) | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems#configuration).
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processed by the code analysis engine (code completion, navigation, problems).
-`debug.inlineValues` | `true`, `false` | Enables or disables showing values relevant to the currently debugged statement.
+`debug.inlineValues` | `true`, `false` | Habilita o deshabilita la visualización de valores relevantes para la declaración actualmente depurada.
 
 ## Activación de la licencia
 
