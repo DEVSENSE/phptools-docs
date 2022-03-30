@@ -11,7 +11,7 @@ The PHP Tools extension offers [support](https://blog.devsense.com/2022/php-inte
 
 Navigate to `Extensions` view, and search for `"PHP Tools"`. Click `Install` to confirm.
 
-![installing php tools in vscode web](https://blog.devsense.com/bl-content/uploads/pages/9d26e9e377702d34f7091b7db1c63e51/vscode-web-install.png)
+![installing php tools in vscode web](../imgs/vscode-web-install.png)
 
 During the first run, the extension may take some time to load since it needs to be downloaded first. Watch the VSCode status bar at the bottom, where is a loading progress icon.
 
