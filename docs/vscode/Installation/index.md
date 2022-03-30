@@ -3,7 +3,6 @@ Title: Installation
 Description: Installing PHP Tools for Visual Studio Code.
 */
 
-
 ## Installation
 
 The extension is installed through the Visual Studio Code' `Extensions` window.
