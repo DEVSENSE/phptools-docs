@@ -5,18 +5,17 @@ Description: PHP Tools for VS Code configuration options.
 
 ## Installation
 
-The extension is installed through the VSCode's main window. Please refer to [managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) for detailed information.
+The extension is installed through the Visual Studio Code' `Extensions` window.
 
-After the successful installation, you should be prompted to [activate](#license-activation) your copy of PHP Tools.
+- Navigate to `Extensions` view (`View` / `Extensions`)
+- Search for `"PHP Tools"`
+- Install the extension, and eventually reload your VS Code window.
+
+After the successful installation, please [activate](#license-activation) your copy of PHP Tools.
 
 ### Offline installation
 
-You can download the `.vsix` installation file from our [download section](https://www.devsense.com/download#vscode). The installation file has to be installed using the VSCode's `Command palette`, command `Extensions: Install from VSIX`.
-
-The program may perform an additional download of dependencies during the first start, after the installation. Please, be sure to have an Internet connection. In case your computer cannot go online, do one of the following:
-
-- Install Microsoft .NET 5.0, Runtime or Sdk, for your platform (More information on https://www.microsoft.com/net/download), or
-- Advanced: Download the dependency manually. See VSCode's Output, panel 'PHP', for the log and the URL of the dependency. Extract the zip file into `/out/server` of the extension's installation directory.
+Download the `.vsix` installation file from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode). The installation file has to be installed using the Visual Studio Code' `Command palette`, using the command `Extensions: Install from VSIX`.
 
 ## Configuration options
 

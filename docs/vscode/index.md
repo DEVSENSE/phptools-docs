@@ -5,7 +5,7 @@ Description: PHP Tools for VS Code - Getting Started.
 
 # Getting Started
 
-Welcome to PHP Tools for Visual Studio Code. This extension turns your Visual Studio Code into a powerful PHP development environment, including code editor, debugger, builtin server, and PHPunit tester.
+Welcome to PHP Tools for Visual Studio Code. This extension turns your Visual Studio Code into a powerful PHP development environment, including code editor, debugger, built-in server, and PHPUnit tester.
 
 ## Product Activation
 
@@ -25,7 +25,7 @@ Open the `Command Palette` from the `View` menu and search for the command `PHP 
 
 ## Enable Debug
 
-Create a launch settings, so VS Code will run and debug the PHP. Navigate to **`Run and Debug`** view, and create a new `launch.json` file. If asked for the environment, select **`PHP (Xdebug)`**.
+Create launch settings, so VS Code will run and debug the PHP. Navigate to **`Run and Debug`** view, and create a new `launch.json` file. If asked for the environment, select **`PHP (Xdebug)`**.
 
 ![PHP debug launch.json](imgs/launch-json-button.png)
 
