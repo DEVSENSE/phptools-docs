@@ -27,6 +27,12 @@ The PHP code editor and code analysis can be configured as described on [configu
 
 The PHP language level configures the code problems analysis, code completion, and hints.
 
+### PHPDoc Generator
+
+PHPDoc is generated seamlessly. Type `/**` above a declaration to create the PHPDoc comment block.
+
+Note, it is necessary to enable the Format-On-Type feature in `File` / `Preferences` / `Settings` - where `editor.formatOnType` must be set to `true`.
+
 ## Limitations
 
 The limitations are described on the VS Code's documentation page: https://code.visualstudio.com/docs/editor/vscode-web#_limitations.
