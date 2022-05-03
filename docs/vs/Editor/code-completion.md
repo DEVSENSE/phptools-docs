@@ -79,6 +79,7 @@ The completion list remembers recently committed items in a specific context. By
 
 The feature can be disabled in menu `Tools | Options | Text Editor | PHP | IntelliSense`.
 
-## Related links
+## See Also
 
 - [Auto-Import](auto-import)
+- [PHPDoc Comments](phpdoc)
