@@ -135,6 +135,18 @@ There are several PHPDoc tag specific to class/interface declartion.
 - `@method` declares a method in case the class provides dynamic methods through magic `__call()` function. This information is used by the code completion to provide this additional method in the list.
 - `@property` similarly to `@method` allows to define a dynamic property.
 
+## Code Validation
+
+The PHPDoc is validated for valid type names, valid tag names, and common typos.
+
+![phpdoc typo suggestion](imgs/phpdoc-quickfix-typo.gif)
+
+For the quick fixes there are same rules as for the PHP code; invalid type names may get completed namespace. In case the type name is ambiguous or needs to get fully qualified, the `\` prefix may get inserted by the code completion or by the quick fix.
+
+## Formatting
+
+The PHPDoc comment block is formatted according to the statement below which it corresponds with. The block is formatted according to standards, indented.
+
 ## See Also
 
 - [Code Completion](code-completion)
