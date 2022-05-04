@@ -115,13 +115,17 @@ Notice, the editor will substitute `T` with `ArrayObject` and `U` with `string`.
 
 ### Psalm/PHPStan
 
-The 3rd party code linters like *Psalm* or *PHPStan* introduce extended PHPDoc type annotations. Those are supported by the PHP Tools Editor as well. Types can be specified in various forms including:
+The 3rd party code linters like *Psalm* or *PHPStan* introduce extended PHPDoc type annotations. Those are supported by the PHP Tools Editor as well.
+
+**Types** can be specified in various forms including:
 
 - `callable(mixed...):(Option<T>)`
 - `array<int, mixed>`
 - `array-key`
 - `non-empty-string`
 - `class-name`
+
+**PHPDoc tags** may be prefixed with `@psalm-` or `@phpstan-`. Such tags are handled as well.
 
 The editor respects those annotations but may not take the full advantage of them (yet).
 
