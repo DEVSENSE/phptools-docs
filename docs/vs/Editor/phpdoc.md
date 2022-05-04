@@ -6,7 +6,9 @@ Version: 1.64 and higher
 
 # PHP Documentary Comments (PHPDoc)
 
-PHPDoc is a standard way of documenting the PHP code. It is a well-known format of block comments prefixed with `/**` characters, and it is used to annotate functions, classes, properties, and also local variables. With PHPDoc it is possible to provide documentation, additional type information, and other information for the editor.
+PHPDoc is a standard way of documenting and annotating the PHP code. It is a well-known format of block comments prefixed with `/**` characters, and it is used to annotate functions, classes, properties, and also local variables. With PHPDoc it is possible to provide documentation, additional type information, and other information for the editor.
+
+## Example
 
 A regular PHPDoc comment looks like the following (in case of a function documentation):
 
@@ -21,19 +23,52 @@ function foo($a) { ... }
 
 In this case it would be placed right above the function declaration in the PHP code. The editor would provide a short description whenever it provides `foo` code completion, and it would treat the function as it accepts one argument of type array of integers, and returning a value of type integer.
 
-## Generating PHPDoc
+## Generate PHPDoc
 
-The PHP Editor will automatically generate corresponding PHPDoc stub upon typing `/**`. This works above functions, classes, interfaces, traits, properties, and constant declarations.
+The PHP Editor automatically generates corresponding PHPDoc stub upon typing `/**`. This works above functions, classes, interfaces, traits, properties, and constant declarations.
+
+Place caret above function, class, namespace, property, or constant declaration. Type `/**` and the corresponding PHPDoc block will be generated. The PHP Tools Editor also infers the types and possible exceptions being thrown by the function, so it gets annotated as well.
 
 ![generating phpdoc](imgs/phpdoc-generate.gif)
 
+The PHPDoc is inserted as a code snippet with placeholders. Missing information can be filled in. To jump between fields, press `TAB`.
+
+### Options
+
+This behavior can be turned off or on (it is *on* by default) in the Visual Studio's Options window (Tools / Options), in Text Editor / PHP / Advanced, the option `Generate PHPDoc comments for /**`.
+
+![php advanced options](imgs/php-options-phpdoc.png)
+
+### Completing PHPDoc Tags
+
+The PHP Tools Editor provides completion and snippets for PHPDoc tags as well. Place the caret inside PHPDoc block and either type `@` or press `Ctrl+Space`. 
+
+![auto-complete phpdoc tag](imgs/phpdoc-complete-tag.gif)
+
+Complete the tag with `TAB` to insert it as a full snippet, or just confirm the selection to insert the tag name.
+
 ## Documentation
 
-The text inside the PHPDoc is used as a documentation. It can be one or more lines of text.
+The text inside the PHPDoc is used for documentation purposes. It can be one or more lines of text. It will be available in quick tool tips, in signature help, or in code completion tool tips.
+
+![tooltip with summary from PHPDoc](imgs/php-tooltip-summary.png)
+
+> The quick tool tip above shows information from the corresponding PHPDoc comment.
+
+### Excluding from IntelliSense
+
+In some cases, the function represents a dummy declaration and is not supposed to be used by developers or being seen in IntelliSense at all. Use `@ignore` PHPDoc tag to annotate such function.
+
+```php
+/** @ignore */
+function a_dummy_function() { ... }
+```
+
+> Example of a function that won't be listed in IntelliSense.
 
 ## Type Annotations
 
-There are several so-called PHPDoc tags that may be used to annotate the function parameters, function return value, property type, constant type, or a variable type. The standard PHPDoc tags are the following:
+There are several PHPDoc tags that may be used to annotate the function parameters, function return value, property type, constant type, or a variable type. The standard PHPDoc tags are the following:
 
 - `@param`: specifies the parameter type and description in the form: `@param (type) ($name) (description)`.
 - `@return`: provides information about the return value in the form: `@return (type) (description)`.
@@ -55,7 +90,7 @@ The annotation can be placed on a single line as well:
     /** @var MyClass $x */
 ```
 
-Or the variable name can be omitted completely if it can be inferred from the statement below:
+Or the variable name can be omitted completely if it can be inferred from the statement below it:
 
 ```php
     /** @var MyClass */
@@ -92,13 +127,13 @@ The editor respects those annotations but may not take the full advantage of the
 
 ## Class Annotations
 
-- `@extends`
-- `@implements`
-- `@use`
+There are several PHPDoc tag specific to class/interface declartion.
 
-## Excluding from IntelliSense
-
-- `@ignore`
+- `@extends` allows to describe the base class name including its generic type arguments. Example: `@extends ArrayObject<int, MyUser>`
+- `@implements` allows to describe an implemented interface with its generic type arguments. Example: `@implements Iterable<int>`
+- `@use` is used above a trait use to describe its generic type arguments.
+- `@method` declares a method in case the class provides dynamic methods through magic `__call()` function. This information is used by the code completion to provide this additional method in the list.
+- `@property` similarly to `@method` allows to define a dynamic property.
 
 ## See Also
 
