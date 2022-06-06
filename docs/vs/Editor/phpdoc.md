@@ -123,7 +123,8 @@ The 3rd party code linters like *Psalm* or *PHPStan* introduce extended PHPDoc t
 - `array<int, mixed>`
 - `array-key`
 - `non-empty-string`
-- `class-name`
+- `class-string`
+- `class-string<T>`
 
 **PHPDoc tags** may be prefixed with `@psalm-` or `@phpstan-`. Such tags are handled as well.
 
@@ -138,6 +139,7 @@ There are several PHPDoc tag specific to class/interface declartion.
 - `@use` is used above a trait use to describe its generic type arguments.
 - `@method` declares a method in case the class provides dynamic methods through magic `__call()` function. This information is used by the code completion to provide this additional method in the list.
 - `@property` similarly to `@method` allows to define a dynamic property.
+- `@mixin` tells the editor to include members of another type (aka mixin) into this class.
 
 ## Code Validation
 

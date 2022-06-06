@@ -55,9 +55,11 @@ If such inaccessible type is used in a code, the editor provides additional sugg
 
 ### Improving Completion
 
-Code completion is heavily based on type analysis and user's behavior. To improve code completion after `->`, make sure the editor can resolve type of the expression before. You can check the type of variables at a specific place by hovering the mouse over it and checking its tooltip. If the type is not resolved by the editor correctly, or displays only `mixed` or `object`, additional PHPDoc comments may be provided to improve the completion.
+Code completion is heavily based on type analysis and cleannes of the code. To improve code completion after `->`, make sure the editor can resolve type of the expression before. You can check the type of variables at a specific place by hovering the mouse over it and checking its tooltip. If the type is not resolved by the editor correctly, or displays only `mixed` or `object`, additional [PHPDoc comments](phpdoc) may be provided to improve the completion.
 
-PHPDoc can be placed above functions to provide type hints for function parameters (using `@param` tag) and function return type (using `@return` tag). Additionally, you can write PHPDoc blocks right in the code specifying variable types (e.g. `/** @var MyClass $x */`).
+[PHPDoc](phpdoc) can be placed above functions to provide type hints for function parameters (using `@param` tag) and function return type (using `@return` tag). Additionally, you can write PHPDoc blocks right in the code specifying variable types (e.g. `/** @var MyClass $x */`).
+
+There are numerous of PHPDoc tags and specialized type notations. See [PHPDoc](phpdoc) for more details.
 
 ### Completing Array Keys
 
