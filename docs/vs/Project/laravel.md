@@ -50,6 +50,14 @@ By default, the project `vendor/` folder is excluded from the code analysis. Thi
 
 > The editor supports commonly used features for extending IDEs and Laravel projects in general, such as, `@mixin` PHPDoc tag, `@method` PHPDoc tag, and `@template` PHPDoc tag for annotating generic types, `.phpstorm.meta` file.
 
+## Debugging
+
+Ensure, the project web root is set correctly. Go to `Project` / `Properties`, the `Application` tab, and make sure the `Web Root` is set to `public`.
+
+Run the project with `Debug` / `Start Debugging` (`F5`) command. PHP Tools will start the development web server and initiate the debugging on a localhost address.
+
+In order to attach to a remote server, or a local web server, go to `Project` / `Properties`, the `Server` tab, and choose `Custom`.
+
 ## barryvdh/laravel-ide-helper
 
 There is a commonly used composer package `barryvdh/laravel-ide-helper` providing additional features for IDEs. Although it is not necessary since *PHP Tools* already deal with facades and services, the package contains some additional artisan commands and features. See the project repository for more information on how to use it at https://github.com/barryvdh/laravel-ide-helper.
