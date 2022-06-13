@@ -36,6 +36,12 @@ PHP Tools recognizes use of class names prefixed with `Facades\` name; such clas
 
 ![laravel real-time facade in use](imgs/rt-facade-completion.png)
 
+## Eloquent Scopes
+
+https://laravel.com/docs/9.x/eloquent#local-scopes
+
+> This feature is currently not supported out of the box. Use the ide-helper to workaround.
+
 ## Code Analysis
 
 The entire project is continuously analysed for errors with respect to Laravel documentary comments notation, and the use of latest PHP features.
