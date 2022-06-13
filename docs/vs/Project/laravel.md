@@ -6,7 +6,7 @@ Version: 1.66 and higher
 
 # Laravel
 
-*Laravel* is one of the most common PHP framework allowing developers to quickly built a small or a large scale web application. It's main benefit is the vast array of prebuilt features and extensive set of functions that are ready to be used.
+*Laravel* is one of the most common PHP frameworks allowing developers to quickly built a small or a large scale web application. Its main benefit is the vast array of prebuilt features and extensive set of functions that are ready to be used.
 
 ## New Project
 
