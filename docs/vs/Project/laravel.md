@@ -40,7 +40,7 @@ PHP Tools recognizes use of class names prefixed with `Facades\` name; such clas
 
 https://laravel.com/docs/9.x/eloquent#local-scopes
 
-> This feature is currently not supported out of the box. Use the ide-helper to workaround.
+> This feature is currently in a preview version.
 
 ## Code Analysis
 
