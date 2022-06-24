@@ -9,7 +9,6 @@ In case there is no Internet connection available or the Internet has been block
 
 ![Enter license key](imgs/activation-enter-key.png)
 
-
 To access offline activation, proceed to the normal product activation by entering your license key, as shown on the picture above. The activation dialog will popup a message saying it cannot reach the server and it will **provide an alternate URL**. This URL can be copied and opened in a web browser with a working connection (see picture below).
 
 ![Get alternate URL](imgs/offline-activate1.png)
@@ -17,8 +16,6 @@ To access offline activation, proceed to the normal product activation by enteri
 After opening the URL in the web browser, the page generates an offline key (*a long-base64-encoded text*) which can be copied and pasted back to the activation dialog, instead of the regular license key.
 
 ![Get offline key](imgs/offline-activate2.png)
-
-
 
 ![Enter offline key](imgs/offline-activate3.png)
 
