@@ -36,11 +36,13 @@ PHP Tools recognizes use of class names prefixed with `Facades\` name; such clas
 
 ![laravel real-time facade in use](imgs/rt-facade-completion.png)
 
-## Eloquent Scopes
+## Eloquent Local Scopes
 
-https://laravel.com/docs/9.x/eloquent#local-scopes
+The editor recognies [Eloquent's Local Scopes](https://laravel.com/docs/9.x/eloquent#local-scopes), i.e. functions prefixed with `scope` in the Eloquent Model. Those functions show up in the IntelliSense as they should be used.
 
-> This feature is currently in a preview version.
+![eloquent local scopes IntelliSense](imgs/vs-eloquent-local-scopes.png)
+
+The editor scans for the local scopes (the functions prefixed with `scope` on a class that implements `Illuminate\Database\Eloquent\Model` or on a trait that is used within a `Model` class); such functions are displayed in the IntelliSense and also recognized by the code analysis.
 
 ## Code Analysis
 
