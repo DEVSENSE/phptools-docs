@@ -81,13 +81,13 @@ xdebug.remote_host = 127.0.0.1
 xdebug.remote_port = 9000
 ```
 
-3.) Configure PHP Tools for Visual Studio to use DBGp proxy server
+### STEP 3 - Configure PHP Tools for Visual Studio to use DBGp proxy server
 
 1. Navigate to project properties (right click on project node in **Solution Explorer**, choose properties).
 
 2. Select the server tab and enable the command `Use DBGp proxy`.
 
-3. Fill the host and port where the proxy is listening. In the screenshot bellow, the host is configured to point to the proxy located on the same machine. In most cases, this will point out to a remote server. 
+3. Fill the host and port where the proxy is listening. In the screenshot bellow, the host is configured to point to the proxy located on the same machine. In most cases, this will point out to a remote server.
 
 ![Setting of DBGp proxy in PHP Tools](imgs/dbgp_vs.png)
 
@@ -95,12 +95,12 @@ You can click on **Verify** button to check if you are able to reach DBGp server
 
 ![Setting of DBGp proxy in PHP Tools](imgs/dbgp_verification.png)
 
-4.) Start the debug session by pressing <kbd>F5</kbd>
+4. Start the debug session by pressing <kbd>F5</kbd>
 
 PHP Tools will try to connect to the DBGp proxy and register itself to receive the debug sessions.
 
 > Note:
-> Typically, the IDE wants the developer to choose an IDE key. This is used by the proxy to identify which developer is 
+> Typically, the IDE wants the developer to choose an IDE key. This is used by the proxy to identify which developer is
 > executing the request and sending the debug session to the correct machine. PHP Tools selects the IDE key 
 > automatically.
 
