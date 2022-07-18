@@ -41,7 +41,7 @@ Usually more complex setup is required and the application will need multiple co
 
 ### Xdebug
 
-Xdebug configuration is almost identical to the usual setup. Please choose depending on the platform in your docker image:
+Xdebug configuration is almost identical to the usual setup. Please choose installation guide depending on the platform in your docker image:
  - [Xdebug on Linux](xdebug-linux)
  - [Xdebug on Windows](xdebug-win)
  - [Xdebug on Mac](xdebug-win)
