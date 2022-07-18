@@ -62,9 +62,9 @@ There are multiple ways how to install Xdebug on macOS:
        with Zend OPcache v8.0.17, Copyright (c), by Zend Technologies
    ```
 
-   If the output contains Xdebug - the pecl actually updated your `php.ini` then you are done. If not, continue with Step 5.
+   If the output contains Xdebug - the PECL actually updated your `php.ini` then you are done. If not, continue with Step 5.
 
-5. Locate `php.ini` and append xdebug configuration:
+5. Locate `php.ini` and append Xdebug configuration:
 
    Run the following command to find the location of `php.ini` file
    ```
