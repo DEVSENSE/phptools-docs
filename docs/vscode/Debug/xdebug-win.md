@@ -50,6 +50,8 @@ xdebug.start_with_request=trigger
 
 Alter the path to `php_xdebug.dll` according to your PHP installation and make sure it's an absolute path.
 
+Optionally you can switch `xdebug.start_with_request` to `yes` (in Xdebug 2 it was `xdebug.remote_autostart = 1`). This option will instruct Xdebug to contact IDE on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when URL has `XDEBUG_SESSION_START` query parameter, which might complicate scenarios like debugging AJAX requests.
+
 ## Verify the installation
 
 Verify the installation by running the following command:
