@@ -89,6 +89,8 @@ There are multiple ways how to install Xdebug on macOS:
    ```
 
    save and verify the installation again by running `php -v` command.
+
+6. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was xdebug.`remote_autostart = 1`). This option will activate the debugger on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when URL has  `XDEBUG_SESSION_START` query parameter, which might complicate scenarios like debugging AJAX requests.
 ## See Also
 
 - [Debug Overview](.)
