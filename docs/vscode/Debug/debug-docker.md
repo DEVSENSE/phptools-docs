@@ -7,7 +7,7 @@ Description:
 
 The Docker allows the developers to have separate environment for the project in the container - isolating it from local system. When you need to switch to different project, with different dependencies, tools or system, you can just switch to a different container.
 
-![Docker schema](https://blog.devsense.com/bl-content/uploads/pages/da4deb52623d0022d9d298abca2bf85e/docker.png)
+![Docker schema](img/docker.png)
 
 To find out more about Docker please follow the [Introduction to PHP on Docker with VS Code](https://blog.devsense.com/2019/introduction-to-php-on-docker-with-visual-studio-code)
 
