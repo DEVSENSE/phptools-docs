@@ -14,9 +14,10 @@ To find out more about Docker please follow the [Introduction to PHP on Docker w
 PHP Tools for VS Code can work with docker containers in two modes:
 
  - Running VS Code fully in the local environment
- - Running VS Code client locally, but server remotely. This is possible thanks to [Remote Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). This setup is the preferred one since you working completely in the container. 
-
+ - Running VS Code client locally, but server remotely. 
 ## Running VS Code locally
+
+![Schema](img/schema-wo-remote.png)
 
 This scenario is explained in great detail in the last part of the article series about PHP and docker, you can follow the article [here](https://blog.devsense.com/2019/debugging-php-on-docker-with-visual-studio-code).
 
@@ -63,8 +64,14 @@ Follows the example of the launch.json with configured path mapping:
 "/var/www/html": "${workspaceFolder}\\data"
 },
 ```
-The path mapping specifies that everything located in `/var/www/html` on docker container is mapped to `${workspaceFolder}\data` in our local system.
+The path mapping specifies that everything located in `/var/www/html` of the docker container is mapped to `${workspaceFolder}\data` in our local system.
 
 ## Running VS Code remotely
 
-> This section is not complete yet. We are preparing detailed tutorial on how to set it up.
+This approach will allow you to have a separate development environment isolated from your local one. When you will need to switch to a different project, with different dependencies, tools or system, you can just switch to a different container.
+
+This setup is the preferred one since you working completely in the container. 
+
+![Schema](img/schema.png)
+
+The scenario is explained in great detail in the tutorial [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker)
