@@ -37,7 +37,7 @@ Scan for additional .ini files in: (none)
 Additional .ini files parsed:      (none)
 ```
 
-Open the `php.ini` file and make sure following lines are present:
+Open the `php.ini` file and make sure the following lines are present:
 
 ```
 [XDEBUG]
@@ -60,7 +60,7 @@ Verify the installation by running the following command:
 php -v
 ```
 
-The output should indicate both PHP and Xdebug is installed:
+The output should indicate both PHP and Xdebug are installed:
 
 ```
 PHP 8.1.0 (cli) (built: Nov 23 2021 21:46:10) (NTS Visual C++ 2019 x64)
