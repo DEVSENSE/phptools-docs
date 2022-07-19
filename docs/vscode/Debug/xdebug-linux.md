@@ -42,12 +42,12 @@ To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary
 
    If the output contains Xdebug, you are done. If not, continue with the guide.
 
-3. Locate `php.ini` by runnin the following command:
+3. Locate `php.ini` by running the following command:
    ```
    php --ini
    ```
 
-   The output should look similar like this:
+   The output should look similar to this:
     ```
     Configuration File (php.ini) Path: /etc/php/8.1/cli
     Loaded Configuration File:         /etc/php/8.1/cli/php.ini
@@ -85,11 +85,11 @@ To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary
 
 4. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was xdebug.`remote_autostart = 1`). This option will activate the debugger on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when URL has  `XDEBUG_SESSION_START` query parameter. That might complicate scenarios like debugging AJAX requests.
 
-5. Restart webserver to reload the settings, if applicable.
+5. Restart the webserver to reload the settings, if applicable.
 
 ## Things to try:
 
-You should have Xdebug configured by now, you can try simple scenario:
+You should have Xdebug configured by now, you can try a simple scenario:
 
 1. Open Visual Studio Code
 2. Open a simple PHP file, like:
@@ -100,7 +100,7 @@ You should have Xdebug configured by now, you can try simple scenario:
     ```
 
 3. Add a breakpoint by pressing <kbd>F9</kbd> to a statement (*echo* in the example)
-4. Start a debug session by pressing <kbd>F5</kbd> and select `Debug Current script in Console`
+4. Start a debug session by pressing <kbd>F5</kbd> and selecting `Debug Current script in Console`
 5. The breakpoint gets hit
 
 ## See Also
