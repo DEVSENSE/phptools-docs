@@ -5,7 +5,7 @@ Description:
 
 # Xdebug on Mac
 
-To debug php applications with PHP Tools for Visual Studio Code, it is necessary to install and enable Xdebug extension.
+To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary to install and enable Xdebug extension.
 
 There are multiple ways how to install Xdebug on macOS:
  - Compile it from the source code. We have prepared the detailed step-by-step tutorial how to do that. Please continue [here](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)
@@ -23,7 +23,7 @@ There are multiple ways how to install Xdebug on macOS:
 
 2. Install PHP through [Homebrew](https://formulae.brew.sh/formula/php). 
 
-    Following command will get you most recent PHP version:
+    Following command will get you the most recent PHP version:
     ```
     brew install php
     ```
@@ -62,7 +62,7 @@ There are multiple ways how to install Xdebug on macOS:
        with Zend OPcache v8.0.17, Copyright (c), by Zend Technologies
    ```
 
-   If the output contains Xdebug - the PECL actually updated your `php.ini` then you are done. If not, continue with Step 5.
+   If the output contains Xdebug - the PECL updated your `php.ini` then you are done. If not, continue with Step 5.
 
 5. Locate `php.ini` and append Xdebug configuration:
 
@@ -71,7 +71,7 @@ There are multiple ways how to install Xdebug on macOS:
    php --ini
    ```
 
-   The output should look similar like this:
+   The output should look similar to this:
    ```
    Configuration File (php.ini) Path: /opt/homebrew/etc/php/8.0
    Loaded Configuration File:         /opt/homebrew/etc/php/8.0/php.ini
@@ -81,7 +81,7 @@ There are multiple ways how to install Xdebug on macOS:
    /opt/homebrew/etc/php/8.0/conf.d/php-memory-limits.ini
    ```
 
-   Open `/opt/homebrew/etc/php/8.0/php.ini` file and append following lines(if not already present):
+   Open `/opt/homebrew/etc/php/8.0/php.ini` file and append the following lines(if not already present):
 
    ```
    zend_extension="xdebug.so"
@@ -90,7 +90,7 @@ There are multiple ways how to install Xdebug on macOS:
 
    save and verify the installation again by running `php -v` command.
 
-6. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was xdebug.`remote_autostart = 1`). This option will activate the debugger on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when URL has  `XDEBUG_SESSION_START` query parameter, which might complicate scenarios like debugging AJAX requests.
+6. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was xdebug.`remote_autostart = 1`). This option will activate the debugger on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when the URL has  `XDEBUG_SESSION_START` query parameter, which might complicate scenarios like debugging AJAX requests.
 ## See Also
 
 - [Debug Overview](.)
