@@ -5,6 +5,12 @@ Description:
 
 # DBGp Proxy
 
+The DBGp proxy is solution for the situation when there are multiple developers that need to debug the same application on a same machine. Each developer from the team connects to the proxy and when the debug session is initiated, Xdebug connects to the proxy which then sends the connection to the right IP address - correct developer.
+
+![DBGp proxy](../../vs/debugging/imgs/dbgp_proxy.png)
+
+## Installation
+
 To download and configure DBGp proxy server please follow the [STEP 1 - Download and install DBGp proxy](https://docs.devsense.com/en/vs/debugging/multi-user#step-1-download-and-install-dbgp-proxy) and [STEP 2 - Ensure Xdebug is installed and configured on the server](https://docs.devsense.com/en/vs/debugging/multi-user#step-2-ensure-xdebug-is-installed-and-configured-on-the-server) of the tutorial on [Multi-user debugging](https://docs.devsense.com/vs/debugging/multi-user)
 
 ## Configure VS Code to use DBGp proxy
