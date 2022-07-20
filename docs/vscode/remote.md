@@ -48,7 +48,7 @@ This scenario is a well-known approach to have a development system on a local m
     }
     ```
 
-    More information about `launch.json` is located [here](launch-json)
+    Follow [**`launch.json`**](debug/launch-json) for more information about the launch profiles and related configurations.
 
 3. Restart the remote server. 
 
@@ -73,3 +73,7 @@ For this to work you would need [Remote Development extension pack](https://aka.
     <a class="btn btn-primary" href="vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/DEVSENSE/vscode-remote-sample-php">Quick Start NOW!</a>
     </div>
 
+## Related links
+
+- [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker)
+- [Launch Profiles](debug/launch-json)
