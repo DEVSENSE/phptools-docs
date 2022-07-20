@@ -8,7 +8,7 @@ Description:
 To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary to install and enable Xdebug extension.
 
 There are multiple ways how to install Xdebug on macOS:
- - Compile it from the source code. We have prepared the detailed step-by-step tutorial how to do that. Please continue [here](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)
+ - Compile it from the source code. We have prepared a detailed step-by-step tutorial on how to do that. Please continue [here](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)
  - Use PECL and [Homebrew](https://formulae.brew.sh/formula/php). The rest of the document will explain this approach.
 
 ## Step-by-step guide
@@ -21,7 +21,7 @@ There are multiple ways how to install Xdebug on macOS:
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-2. Install PHP through [Homebrew](https://formulae.brew.sh/formula/php). 
+2. Install PHP through [Homebrew](https://formulae.brew.sh/formula/php).
 
     Following command will get you the most recent PHP version:
     ```
@@ -43,7 +43,7 @@ There are multiple ways how to install Xdebug on macOS:
       arch -arm64 sudo pecl install xdebug
       ```
 
-      or if PHP was compiled for x86_64 architecure, then run this command:
+      or if PHP was compiled for x86_64 architecture, then run this command:
       ```
       arch -x86_64 sudo pecl install xdebug
       ```
@@ -90,7 +90,7 @@ There are multiple ways how to install Xdebug on macOS:
 
    save and verify the installation again by running `php -v` command.
 
-6. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was xdebug.`remote_autostart = 1`). This option will activate the debugger on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when the URL has  `XDEBUG_SESSION_START` query parameter, which might complicate scenarios like debugging AJAX requests.
+6. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was `xdebug.remote_autostart=1`). This option will activate the debugger on each request. By default, Xdebug initiates the debug session only when it's instructed to, e.g. when the URL has  `XDEBUG_SESSION_START` query parameter, which might complicate scenarios like debugging AJAX requests.
 ## See Also
 
 - [Debug Overview](.)
