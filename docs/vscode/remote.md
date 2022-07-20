@@ -3,6 +3,8 @@ Title: Remote Development
 Description: Developing PHP remotely with VS Code
 */
 
+# Remote Development
+
 PHP Tools for VS Code can work with a remote system in two modes:
 
  - VS Code runs fully in the local environment communicating with PHP on a remote system
