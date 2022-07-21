@@ -6,11 +6,11 @@ Version: 1.24 and higher
 
 # PHPUnit Package
 
-PHP Tools come with bundled version of PHPUnit in case there is no user installation of PHPUnit in the project.
+PHP Tools come with a bundled version of PHPUnit in case there isn't a user installation of PHPUnit in the project.
 
 ## Custom PHPUnit
 
-PHP Tools will use users' PHPUnit package in case it is configured in project' `composer.json` (as a composer package). In order to use custom PHPUnit see [Composer section](../project/composer), and ensure there is `phpunit/phpunit` composer package installed.
+PHP Tools will use a particular PHPUnit version when it's configured in the `composer.json`. Check [Composer section](../project/composer), and ensure there is `phpunit/phpunit` composer package installed.
 
 ## Bundled PHPUnit
 

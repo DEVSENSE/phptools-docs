@@ -6,15 +6,15 @@ Version: 1.14 and higher
 
 # Test Configuration
 
-Configuration of test cases is defined in a standard [PHPUnit Configuration file](http://phpunit.de/manual/current/en/appendixes.configuration.html). This allows to specify bootstrap script, timeouts, location of the test files, error handling and other PHPUnit framework options.
+Configuration of test cases is defined in a standard [PHPUnit Configuration file](http://phpunit.de/manual/current/en/appendixes.configuration.html). This allows specifying bootstrap script, timeouts, location of the test files, error handling and other PHPUnit framework options.
 
 See [writing a test case](writing-test) for more details.
 
 ## Configuration Files
 
-**Test Explorer** (in the menu `Test / Test Explorer`) lists all the available tests suites by looking in `phpunit.xml` and `phpunit.xml.dist` configuration files within all the opened projects.
+**Test Explorer** (in the menu `Test / Test Explorer`) lists all the available test suites by looking in `phpunit.xml` and `phpunit.xml.dist` configuration files within all the opened projects.
 
-By default, there should be a single `phpunit.xml` file in the root of PHP project with the following text:
+By default, there should be a single `phpunit.xml` file in the root of the PHP project with the following text:
 
 ```xml
 <phpunit

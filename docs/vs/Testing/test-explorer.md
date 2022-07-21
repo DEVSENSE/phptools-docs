@@ -1,6 +1,6 @@
 /*
 Title: Test Explorer
-Description: Exploring test cases within solution.
+Description: Exploring test cases within a solution.
 Version: 1.13 and higher
 */
 
@@ -10,4 +10,4 @@ The Test Explorer is a Visual Studio tool window containing a list of test cases
 
 ![Visual Studio Test Explorer](imgs/testexplorer.png "Test Explorer with PHPUnit test cases.")
 
-The window lists all the available tests suites by looking in `phpunit.xml` and `phpunit.xml.dist` configuration files within all the opened projects.
+The window lists all the available test suites by looking at `phpunit.xml` and `phpunit.xml.dist` configuration files within all the opened projects.
