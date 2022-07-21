@@ -66,9 +66,9 @@ For this to work you would need [Remote Development extension pack](https://aka.
 - [SSH](https://aka.ms/vscode-remote/download/ssh) - Connect to a remote machine through SSH
 - [Container](https://aka.ms/vscode-remote/download/containers) - Develop inside a docker container
    
-   We've prepared detailed tutorial for this scenario - [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker)
+   We've prepared a detailed tutorial for this scenario - [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker)
 
-   If you have VS Code and [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed, you can start quicky by clicking on this button:
+   If you have VS Code and [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed, you can start quickly by clicking on this button:
     <div>
     <a class="btn btn-primary" href="vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/DEVSENSE/vscode-remote-sample-php">Quick Start NOW!</a>
     </div>
