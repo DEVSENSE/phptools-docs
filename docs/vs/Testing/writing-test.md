@@ -58,3 +58,8 @@ To create the file manually, create an empty file named `phpunit.xml` with the f
 ```
 
 The default configuration file defines a single test suite "My Test Suite", which includes all the `*Test.php` files within `tests` directory.
+
+## Related links
+
+- [Unit Tests Basics](https://blog.devsense.com/2017/06/unit-testing)
+
