@@ -130,7 +130,7 @@ Open **command palette** and run `Start Debugging and Stop on Entry` (aka *Step 
 These are steps that should help to diagnose and solve common problems with debugging PHP:
 
 - Running the following command should display **no warnings**, and an **Xdebug notice**:
-  ```
+  ```bash
   php --version
   ```
   ```

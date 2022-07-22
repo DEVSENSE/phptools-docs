@@ -17,14 +17,14 @@ There are multiple ways how to install Xdebug on macOS:
 
    In the terminal enter the following command:
    
-   ```
+   ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
 2. Install PHP through [Homebrew](https://formulae.brew.sh/formula/php).
 
     Following command will get you the most recent PHP version:
-    ```
+    ```bash
     brew install php
     ```
 
@@ -33,24 +33,24 @@ There are multiple ways how to install Xdebug on macOS:
    Choose which command to run depending on your Mac architecture:
    - **Intel**
 
-      ```
+      ```bash
       pecl install xdebug
       ```
 
    - **Apple M1**
       
-      ```
+      ```bash
       arch -arm64 sudo pecl install xdebug
       ```
 
       or if PHP was compiled for x86_64 architecture, then run this command:
-      ```
+      ```bash
       arch -x86_64 sudo pecl install xdebug
       ```
 
 4. Verify the installation
 
-   ```
+   ```bash
    php -v
    ```
    You should see output like this:
@@ -67,7 +67,7 @@ There are multiple ways how to install Xdebug on macOS:
 5. Locate `php.ini` and append Xdebug configuration:
 
    Run the following command to find the location of `php.ini` file
-   ```
+   ```bash
    php --ini
    ```
 
@@ -83,7 +83,7 @@ There are multiple ways how to install Xdebug on macOS:
 
    Open `/opt/homebrew/etc/php/8.0/php.ini` file and append the following lines(if not already present):
 
-   ```
+   ```ini
    zend_extension="xdebug.so"
    xdebug.mode=debug
    ```

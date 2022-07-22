@@ -25,7 +25,7 @@ You will need to edit [PHP Configuration file](http://php.net/manual/en/configur
 
 You can locate it by running the following command:
 
-```
+```bash
 php --ini
 ```
 
@@ -39,7 +39,7 @@ Additional .ini files parsed:      (none)
 
 Open the `php.ini` file and make sure the following lines are present:
 
-```
+```ini
 [XDEBUG]
 zend_extension="C:\Program Files\PHP\v8.1\ext\php_xdebug.dll"
 xdebug.mode=debug
@@ -56,7 +56,7 @@ Optionally you can switch `xdebug.start_with_request` to `yes` (in Xdebug 2 it w
 
 Verify the installation by running the following command:
 
-```
+```bash
 php -v
 ```
 

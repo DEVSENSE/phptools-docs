@@ -24,7 +24,7 @@ This scenario is a well-known approach to have a development system on a local m
 
    Update the configuration so the `xdebug.client_host` contains your local system IP and make sure it's accessible from the remote server.
 
-   ```
+   ```ini
    xdebug.client_host=LOCAL_SERVER_IP
    xdebug.client_port=9003
    ```

@@ -13,7 +13,7 @@ All the range of *DEVSENSE* products provide the code validation feature. Based 
 
 Example `.editorconfig` file:
 
-```
+```ini
 [*.php]
 php_diagnostic_php6401 = false
 php_diagnostic = true

@@ -15,7 +15,7 @@ For this solution to work, there is an obvious requirement. The server has to ha
 
 Assuming you are on Windows 10, open a command prompt and run this command:
 
-```
+```bash
 ssh -R 9003:localhost:9003 devsense@ubuntu
 ```
 
@@ -31,7 +31,7 @@ SSH Tunnel takes care of forwarding the Xdebug connections from the remote serve
 
 ### Xdebug 2
 
-```
+```ini
 [XDEBUG]
 zend_extension = PATH_TO_XDEBUG_EXTENSION
 xdebug.remote_enable = on
@@ -44,7 +44,7 @@ xdebug.idekey="php-vs"
 
 ### Xdebug 3
 
-```
+```ini
 [XDEBUG]
 zend_extension= PATH_TO_XDEBUG_EXTENSION
 xdebug.mode = debug

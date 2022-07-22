@@ -63,7 +63,7 @@ On the server, open `php.ini` and make sure Xdebug is configured in a way that `
 In the following case, the proxy is on the same machine as the web server; therefore, `xdebug.client_host = 127.0.0.1`. `zend_extension` points to the location of `.dll` file, because it's Windows server. In Linux case it would be `.so` file.
 
 Xdebug 3:
-```
+```ini
 [XDEBUG]
 zend_extension="C:\Program Files\PHP\v8.0\ext\php_xdebug.dll"
 xdebug.mode = debug
@@ -72,7 +72,7 @@ xdebug.client_port = 9003
 ```
 
 Xdebug 2:
-```
+```ini
 [XDEBUG]
 zend_extension="C:\Program Files (x86)\PHP\v7.0\ext\php_xdebug.dll"
 xdebug.remote_enable = on

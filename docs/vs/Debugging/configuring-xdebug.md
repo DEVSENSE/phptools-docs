@@ -27,7 +27,7 @@ Add the following lines at the end of your configuration file depending on Xdebu
 
 ### Xdebug 2
 
-```
+```ini
 [XDEBUG]
 zend_extension = "C:\Program Files (x86)\php-5.4.8\ext\php_xdebug-2.2.1-5.4-vc9-nts.dll"
 xdebug.remote_enable = on
@@ -40,7 +40,7 @@ xdebug.idekey="php-vs"
 
 ### Xdebug 3
 
-```
+```ini
 [XDEBUG]
 zend_extension="C:\Program Files (x86)\PHP\v8.0\ext\php_xdebug.dll"
 xdebug.mode=debug

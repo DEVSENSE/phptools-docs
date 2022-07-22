@@ -30,7 +30,7 @@ This scenario is explained in great detail in the last part of the article serie
 
 You can have your PHP application in a single container defined in simple the [Dockerfile](https://docs.docker.com/engine/reference/builder/) e.g.:
 
-```
+```dockerfile
 FROM php:8.1-cli
 RUN pecl install xdebug
 RUN docker-php-ext-enable xdebug
@@ -54,7 +54,7 @@ The major difference is in `client_host` (`remote_host` in Xdebug 2) option. You
 Since the paths in the docker container differ from your local environment, the debugger needs to know how to map them. This can be specified in the `launch.json` file.
 
 Follows the example of the launch.json with configured path mapping:
-```
+```json
 {
 "name": "Listen for Xdebug",
 "type": "php",

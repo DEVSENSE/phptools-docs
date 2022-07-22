@@ -13,13 +13,13 @@ To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary
 
    - In [Debian-based Linux distributions](https://www.debian.org/) like Ubuntu, run the following command:
    
-        ```
+        ```bash
         sudo apt-get install php-xdebug
         ```
 
    - In [Fedora-based Linux distributions](https://getfedora.org/), run the following command:
 
-        ```
+        ```bash
         sudo dnf -y install php-xdebug
         ```
 
@@ -27,7 +27,7 @@ To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary
 
 2. Verify the installation
 
-   ```
+   ```bash
    php -v
    ```
    You should see output like this:
@@ -43,7 +43,7 @@ To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary
    If the output contains Xdebug, you are done. If not, continue with the guide.
 
 3. Locate `php.ini` by running the following command:
-   ```
+   ```bash
    php --ini
    ```
 
@@ -74,16 +74,16 @@ To debug PHP applications with PHP Tools for Visual Studio Code, it is necessary
     /etc/php/8.1/cli/conf.d/20-xdebug.ini
     ```
 
-   If there is a `ini` file with `xdebug` in the name, open that one. Otherwise create a new file in `conf.d` folder. You can name it `99-xdebug.ini` and copy the following content to the file:
+   If there is an `ini` file with `xdebug` in the name, open that one. Otherwise, create a new file in `conf.d` folder. You can name it `99-xdebug.ini` and copy the following content to the file:
 
-   ```
+   ```ini
    zend_extension="xdebug.so"
    xdebug.mode=debug
    ```
    
    > **Note** Make sure Xdebug configuration is present in the `php --ini` output after the `opcache.ini` configuration.
 
-4. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was xdebug.`remote_autostart = 1`). This option will activate the debugger on each request. By default Xdebug initiates the debug session only when it's instructed to, e.g. when URL has  `XDEBUG_SESSION_START` query parameter. That might complicate scenarios like debugging AJAX requests.
+4. (Optional) You can turn `xdebug.start_with_request=yes` (in Xdebug 2 it was `xdebug.remote_autostart = 1`). This option will activate the debugger on each request. By default, Xdebug initiates the debug session only when it's instructed to, e.g. when the URL has `XDEBUG_SESSION_START` query parameter. That might complicate scenarios like debugging AJAX requests.
 
 5. Restart the webserver to reload the settings, if applicable.
 
@@ -94,7 +94,7 @@ You should have Xdebug configured by now, you can try a simple scenario:
 1. Open Visual Studio Code
 2. Open a simple PHP file, like:
 
-    ```
+    ```php
     <?php
     echo "hello world";
     ```
