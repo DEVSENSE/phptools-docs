@@ -71,4 +71,4 @@ To verify your **Xdebug** installation, follow these steps:
 2. Open the corresponding URL in your browser.
 3. You should see the **Xdebug** section in the output.
 
-If you do not see the section above in your phpinfo output, there may be something wrong with your PHP configuration or you may need to restart your web server to let PHP update its configuration. If PHP Tools debugging session was started before a configuration change, it is recommended to close it by exiting its systray icon or restarting Visual Studio.
+If you do not see the section above in your `phpinfo` output, there may be something wrong with your PHP configuration or you may need to restart your web server to let PHP update its configuration. If PHP Tools debugging session was started before a configuration change, it is recommended to close it by exiting its systray icon or restarting Visual Studio.
