@@ -7,7 +7,7 @@ Description: Break on exceptions or errors when they are thrown
 
 PHP reports errors, warnings and notices when the program ends up in some unexpected state. Since PHP7 this error reporting is mostly reported by throwing an exception. 
 
-PHP Tools for Visual Studio debugger handles both of types of error handling – traditional PHP Errors and PHP Exceptions. 
+PHP Tools for Visual Studio debugger handles both types of error handling – traditional PHP Errors and PHP Exceptions. 
 
 ## Break when an exception is thrown
 
