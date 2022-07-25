@@ -18,7 +18,7 @@ This list shows common issues with the debugger and their solutions, so you can 
  
 - Check whether **Xdebug** extension is loaded as `zend_extension`. If it's loaded as a regular extension, you would see a warning **XDEBUG NOT LOADED AS ZEND EXTENSION** in the `phpinfo()` output. In that case open your `php.ini` and change `extension=PATH_TO_XDEBUG\xdebug.dll` to `zend_extension=PATH_TO_XDEBUG\xdebug.dll`. 
 
- The correct output is depicted bellow:
+ The correct output is depicted below:
 
 ![phpinfo() output sample](imgs/troubleshooting-phpinfo-xdebug.png)
 
@@ -47,21 +47,21 @@ xdebug.client_port = 9003
 xdebug.start_with_request = trigger
 ```
 
-- Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert web to the PHP project from menu](Project/from-existing-code).
+- Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert the web to the PHP project from a menu](Project/from-existing-code).
 
 ## Using WAMP Server
 
-WAMP setup installs its own PHP configuration. To use WAMP installation with PHP Tools, set up Custom Server in your project properties and ensure `php.ini` corresponding to your WAMP server is configured properly. PHP Tools does not check `php.ini` in WAMP installation.
+WAMP setup installs its PHP configuration. To use WAMP installation with PHP Tools, set up Custom Server in your project properties and ensure `php.ini` corresponding to your WAMP server is configured properly. PHP Tools does not check `php.ini` in WAMP installation.
 
 ## Most Common Issues
 
 ### Browser Opens an Empty White Page
 
-Ensure that your first loaded page is syntax-error-free, and that there are not two functions with the same name. The debugger does not handle parse error on the entering script.
+Ensure that your first loaded page is syntax-error-free and that there are not two functions with the same name. The debugger does not handle parse errors on the entering script.
 
 ### I get this message in the output window: "There wasn't established any directory mapping. Debugging most likely won't work correctly."
 
-Make sure the file you are requesting as the first one is included in your project. Automatic mapping mechanism requires that a file is part of the project in order to map it correctly.
+Make sure the file you are requesting as the first one is included in your project. An automatic mapping mechanism requires that a file is part of the project in order to map it correctly.
 
 ### I can't get the debugger to work. I'm running Zend Framework. Is that a known issue?
 
@@ -100,7 +100,7 @@ to `php.ini` file in the **Xdebug** configuration section which will force it to
 
 ### The debug session started, but breakpoints do not break
 
-One of the most common reasons is that Xdebug port is being used by 3rd party application (e.g. HP tools). You can either change Xdebug port or close the application.
+One of the most common reasons is that Xdebug port is being used by a 3rd party application (e.g. HP tools). You can either change Xdebug port or close the application.
 
 Since version `1.32.11685` you will be able to see what process is holding the port directly in Visual Studio.
 
@@ -118,7 +118,7 @@ Open `php.ini` file in the **Xdebug** configuration section and add
  - Xdebug 3:
  `xdebug.log="path_to_log/xdebug.log"`
 
-The log file contains all the comunication of Xdebug with IDE.
+The log file contains all the communication of Xdebug with IDE.
 
 ```
 [1222] Log opened at 2021-08-23 15:55:55.265278
