@@ -48,3 +48,31 @@ The product contains both a 30-day trial and a full product. When the trial is o
 ## Updates
 
 PHP Tools updates are checked automatically. Visual Studio will notify you about updates available. Please see [Update Instructions](https://docs.devsense.com/en/vs/installation/update) for more information.
+
+## Troubleshooting
+
+### PHP Tools cannot be found on VS Marketplace
+
+The most probable cause is that you are running an older Visual Studio version. Please update to the latest VS version.
+
+In Visual Studio, go to `Help`, and click `Check for Updates`.  Then in Visual Studio Installer, click on `Update`.
+
+### VSIXInstaller.NoApplicableSKUsException: This extension is not installable on any currently installed products.
+
+If you see this message in the VSIX Installer log, it usually means you will need to update your Visual Studio.
+
+You can see which VS version is a minimal supported version in the VSIX Installer log. There is a section specifying the supported VS version range:
+```
+26-7-2022 11:33:05 - Supported Products :
+26-7-2022 11:33:05 -   Microsoft.VisualStudio.Community
+26-7-2022 11:33:05 -     Version : [16.10,17.0)
+```
+In this case, the lowest supported version is `16.10`.
+
+To see which Visual Studio version are you running, go to `Help`, and click `About Microsoft Visual Studio`:
+
+![About Microsoft Visual Studio](imgs/about-vs.png)
+
+If you see a version higher than the one from the VSIX Installer log, then please contact us at [info@devsense.com](mailto:info@devsense.com).
+
+Otherwise please update your Visual Studio by opening `Help` menu and clicking `Check for Updates`. Then in Visual Studio Installer, click on `Update`.
