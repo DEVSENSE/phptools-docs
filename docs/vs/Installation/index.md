@@ -13,15 +13,15 @@ If you already have Microsoft Visual Studio installed, you can jump directly to 
 
 Once downloaded, you'll be prompted to close Visual Studio. The package will be installed and Visual Studio configured for the PHP development. After starting Visual Studio next time, you can proceed to the [product activation](/vs/installation/activation) and [get started](/vs/).
 
-If you woud like more detailed steps, please, continue reading.
+If you would like more detailed steps, please, continue reading.
 
 ## Prerequisites
 
-In order to install PHP Tools for Visual Studio, you'll need:
+To install PHP Tools for Visual Studio, you'll need:
 
-- **Administrator access**. Please ensure you can provide administrator access to your hard drive, because the installation package copies files to system's *AppData*. For Visual Studio 2010 up to 2015, you'll be queried to allow access to system's *Program Files*.
+- **Administrator access**. Please ensure you can provide administrator access to your hard drive because the installation package copies files to the system's _AppData_. For Visual Studio 2010 up to 2015, you'll be queried to allow access to the system's _Program Files_*.
 
-- **Microsoft Visual Studio**. Install [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/). You can choose the **Community** edition, that is the **free** option, or any other Visual Studio´s supported editions, such as *Professional*, *Enterprise* or higher. Express editions are not supported.
+- **Microsoft Visual Studio**. Install [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/). You can choose the **Community** edition, which is the **free**** option, or any other Visual Studio´s supported editions, such as *Professional*, *Enterprise* or higher. Express editions are not supported.
 
 ## Download and Installation
 
@@ -43,7 +43,7 @@ The software's installation package can also be used for an [Offline Activation]
 
 ## Activation
 
-The product contains both 30-day trial and the full product. When the trial is over, you can activate the software using a purchased license key. Please see [Product Activation](/vs/installation/activation) for more details.
+The product contains both a 30-day trial and a full product. When the trial is over, you can activate the software using a purchased license key. Please see [Product Activation](/vs/installation/activation) for more details.
 
 ## Updates
 
