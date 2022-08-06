@@ -36,6 +36,9 @@ Modify the default Fonts and Colors in the menu `Tools` | `Options`, section `En
 - PHP - Variable
 - PHP - Label
 - PHP - Encapsulated Variable
+- PHP - Unnecessary Code
+- PHP - Inline Code
+- PHP - TODOs
 - PHP Doc - Delimiter
 - PHP Doc - Variable
 - PHP Doc - Tag
@@ -88,6 +91,12 @@ Reload the project if necessary.
 
 PHPDoc content (within `/** */` comments) is also colorized. Its tags contained type names and variable names are colored according to the settings above.
 
+## TODO Highlighting
+
+User's to-do comments are both listed in Visual Studio's [_Task List_](task-list) window, and highlighted in the source code.
+
+![to-do highlighting](imgs/todo-highlight.png)
+
 ## Type Names and Highlighting
 
 Type names are highlighted with the color respecting the color name `User Types - Classes`.
@@ -106,3 +115,10 @@ In the Visual Studio 2019 and newer, matching parenthesis within PCRE are also h
 
 When switching to a different color theme (e.g. Dark Theme), all built-in colors are switched as well to their default, respecting the new theme. PHP colors respect the Dark and Light themes.
 
+## See also
+
+- [Task List](task-list)
+- [Semantic Token Highlighting](word-highlighting)
+- [Twig Editor](twig)
+- [Smarty Editor](smarty)
+- [Blade Editor](blade)

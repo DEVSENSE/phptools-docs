@@ -13,3 +13,7 @@ Every comment in PHP project is processed. Comments containing predefined tokens
 ![Task List with PHP TODO comments](imgs/phptools-todo-window-comments.png "Task List with PHP TODO comments.")
 
 This helps developers to keep view of tasks and work in progress, helping to build a more reliable code just by noting the comment in the source code.
+
+## See also
+
+- [Syntax Highlighting](syntax-highlighting)
