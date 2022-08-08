@@ -1,6 +1,7 @@
 /*
 Title: Error Codes
 Description: List of Error Codes Description.
+Generated: see Components/Devsense.PHP.DocumentationGeneratorApp
 */
 
 # Error Codes
@@ -61,6 +62,7 @@ The following table lists most of the available code diagnostics.
 | `PHP1404` | NeverReturningReturnsImplicitly |  |
 | `PHP1405` | WritingToGlobals |  |
 | `PHP1406` | ReferencingGlobals |  |
+| `PHP1407` | AbstractMethodInNonabstractClassError | `abstract` methods can be defined in `abstract` classes only. |
 | `PHP2407` | MustNotDeclareReturnType |  |
 | `PHP2408` | MustTakeExactlyArgs |  |
 | `PHP2409` | UnsupportedPropertyType |  |
