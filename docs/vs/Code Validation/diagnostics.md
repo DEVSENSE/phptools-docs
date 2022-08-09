@@ -19,6 +19,8 @@ The following table lists most of the available code diagnostics.
 
 | id | title | description |
 | -- | --   | --          |
+| `PHP0171` | MagicMethodMustBePublicNonStatic |  |
+| `PHP0172` | CallStatMustBePublicStatic |  |
 | `PHP0401` | Array index type mismatch | Index of array must be of type string or integer. |
 | `PHP0402` | Function name type mismatch | Expression must be callable when used as an indirect function call. E.g.<br /><br />$name = "foo";<br />$name(); // $name should be callable or string |
 | `PHP0404` | Method on non-object | Instance functions can be called only using an object instance. E.g<br /><br />$obj->foo(); // $obj must not be a scalar type or null, it must be an object |
@@ -57,6 +59,14 @@ The following table lists most of the available code diagnostics.
 
 | id | title | description |
 | -- | --   | --          |
+| `PHP1008` | InterfaceMethodWithBody |  |
+| `PHP1009` | AbstractMethodWithBody |  |
+| `PHP1010` | NonAbstractMethodWithoutBody |  |
+| `PHP1014` | DestructCannotBeStatic |  |
+| `PHP1015` | AbstractPrivateMethodDeclared |  |
+| `PHP1024` | ConstructCannotBeStatic |  |
+| `PHP1037` | AbstractFinalMethodDeclared |  |
+| `PHP1045` | MethodCannotTakeArguments |  |
 | `PHP1402` | NonExceptionThrown |  |
 | `PHP1403` | NonExceptionCatch |  |
 | `PHP1404` | NeverReturningReturnsImplicitly |  |
@@ -71,6 +81,9 @@ The following table lists most of the available code diagnostics.
 
 | id | title | description |
 | -- | --   | --          |
+| `PHP2000` | TypeRedeclared |  |
+| `PHP2001` | FunctionRedeclared |  |
+| `PHP2002` | ConstantRedeclared |  |
 | `PHP2014` | Syntax error | Source code contains an unexpected token and can't be parsed. |
 | `PHP2401` | New of abstract class | Instantiation of abstract class is not allowed. |
 | `PHP2402` | New of interface | Instantiation of interface is not allowed. |
