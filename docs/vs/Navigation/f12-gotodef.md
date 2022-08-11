@@ -26,3 +26,9 @@ When navigating to a symbol declared in a composer package, the corresponding fi
 In case of a string value within `include`, `include_once`, `require` and `require_once`, the editor treats whole inclusion expression as a pattern, and tries to navigate to a file within the project that matches the pattern.
 
 > **Note**: Navigation to the included file is available since version 1.18.
+
+## See also
+
+- [Navigation Bar](navigation-bar)
+- [CodeLens](codelens)
+- [F1 Help](f1-help)
