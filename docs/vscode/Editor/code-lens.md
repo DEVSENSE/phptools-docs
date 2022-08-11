@@ -31,12 +31,6 @@ Additionally, there is `prototype` code lens quickly navigating you to the base 
 
 ![PHP method overrides and method prototype](../imgs/codelens-prototype.png)
 
-### Tests
-
-PHP Unit test cases are decorated with additional code lenses `Run`, `Debug`, and `Show in Test Explorer`. Using these actions, the specific test case can be quickly run or debugged.
-
-![PHP test methods](../imgs/codelens-tests.png)
-
 ## See also
 
 - [Configuration](../configuration)
