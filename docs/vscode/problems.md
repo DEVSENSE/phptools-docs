@@ -57,6 +57,12 @@ Problems can be disabled in VSCode's `settings.json` file.
 
 By default, PHP Tools scans continuously the entire workspace for possible issues and problems, excluding the `vendor` folder. This behavior can be changed to either analyse everything (option `"all"`), only user files excluding the vendor (option `"user"`), or nothing (option `"none"`).
 
+**Values:**
+
+- `"php.problems.scope": "none"`: No problems analysis is performed. **Note**, this also disables unused `use` check, unreachable code checks, and others.
+- `"php.problems.scope": "user"`: _(default)_ Problems are checked in the workspace files excluding `/vendor/**` and other framework-specific directories (such as `/wp-includes/` in WordPress, etc.).
+- `"php.problems.scope": "all"`: Enables problems analysis across the entire workspace.
+
 **Example:**
 
 ```json
