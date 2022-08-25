@@ -9,17 +9,17 @@ The PHP editor integration extends and adds features to the `php` documents. It 
 
 The editor has the following features:
 
-- [code completion](completion.md)
+- [code completion](completion)
 - code folding
 - code validation
-- [signature help](signature.md)
-- [tooltip help](tooltips.md)
-- [symbol renaming](refactoring.md)
-- [symbol navigation](navigation.md)
+- [signature help](signature)
+- [tooltip help](tooltips)
+- [symbol renaming](refactoring)
+- [symbol navigation](navigation)
 - breadcrumbs
 - code outline
-- [code formatting](formatting.md)
-- [mixed html/js/css/php syntax](html-js-css.md)
+- [code formatting](formatting)
+- [mixed html/js/css/php syntax](html-js-css)
 - dimming unused and unrechable code
 - light bulbs with code actions
 
