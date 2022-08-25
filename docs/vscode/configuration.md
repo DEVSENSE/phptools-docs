@@ -50,6 +50,7 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 - [Xdebug on Linux](debug/xdebug-linux)
 - [Xdebug on Mac](debug/xdebug-mac)
 - [Xdebug on Windows](debug/xdebug-win)
+
 ### Recommended
 
 - PHP 7.0 or newer

@@ -20,7 +20,7 @@ The editor has the following features:
 - code outline
 - [code formatting](formatting)
 - [mixed html/js/css/php syntax](html-js-css)
-- dimming unused and unrechable code
+- dimming unused and unreachable code
 - light bulbs with code actions
 
 For more information, navigate to sub-sections.
