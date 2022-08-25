@@ -29,7 +29,7 @@ This scenario is a well-known approach to have a development system on a local m
    xdebug.client_port=9003
    ```
 
-   In case multiple developers require access to the remote server you'd need [DBGP proxy](dbgp-proxy).
+   In case multiple developers require access to the remote server you'd need [DBGP proxy](debug/dbgp-proxy).
 
 2. Launch profile
 
