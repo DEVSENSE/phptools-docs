@@ -18,7 +18,7 @@ In order to debug a PHP program, you need PHP (either installed locally or on yo
 
 ### Local PHP Installation
 
-In case there are more PHP installations on the system, see [choosing PHP Version](../php-version) and select the right one.
+In case there are more PHP installations on the system, see [choosing PHP Version](/vscode/php-version) and select the right one.
 
 To verify your PHP and Xdebug are installed correctly:
 
@@ -67,7 +67,7 @@ xdebug.remote_mode = req
 
 In case `php` itself is not running on your local system, consult the installation of PHP+Xdebug with the specific server host.
 
-You can then take advantage of [DBGP Proxy](debug/debug-dbgp-proxy) to allow multiple users to debug the same site safely.
+You can then take advantage of [DBGP Proxy](debug/dbgp-proxy) to allow multiple users to debug the same site safely.
 
 ## Launching Debug in VSCode
 
@@ -152,5 +152,5 @@ These are steps that should help to diagnose and solve common problems with debu
 
 - [Xdebug.org](https://xdebug.org/)
 - [Installing Xdebug on Mac](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)
-- [Launch Configurations](launch-json)
+- [Launch Configurations](debug/launch-json)
 - [VS Code Network Settings (Proxy)](https://code.visualstudio.com/docs/setup/network)
