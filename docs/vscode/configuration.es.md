@@ -46,7 +46,10 @@ Las funciones de las pruebas y de la depuración necesitan que el programa [PHP]
 
 **Para ejecutar las pruebas y el servidor de desarrollo incorporado** se necesita `php` con las extensiones  `dom`, `json`, `mbstring` y `xmlwriter`. Para esto, debe instalarse `php` globalmente, para que el comando `php` trabaje por todo el sistema o establezca la configuración de `php.executablePath` en la configuración de VSCode apuntando al ejecutable de PHP.
 
-**La depuración local** necesita que la extensión [Xdebug](https://xdebug.org/) esté instalada y habilitada. Vea [Xdebug configuration](debug/xdebug) para más información.
+**La depuración local** necesita que la extensión [Xdebug](https://xdebug.org/) esté instalada y habilitada. Vea cómo instalar y configurar Xdebug según su sistema operativo:
+- [Xdebug on Linux](debug/xdebug-linux)
+- [Xdebug on Mac](debug/xdebug-mac)
+- [Xdebug on Windows](debug/xdebug-win)
 
 ### Recomendamos
 
@@ -58,6 +61,6 @@ Las funciones de las pruebas y de la depuración necesitan que el programa [PHP]
 
 ## Artículos relacionados
 
-- [Configuración de Xdebug](debug/xdebug)
+- [Configuración de Problemas](problems#configuration)
 - [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
 - [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings) *(visualstudio.com)*
