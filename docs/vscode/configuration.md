@@ -46,8 +46,10 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 
 **Running tests and built-in development server** requires `php` with extensions `dom`, `json`, `mbstring` and `xmlwriter`. Either install `php` globally, so the command `php` will work across the system, or set `php.executablePath` setting within VSCode's Settings pointing to PHP executable.
 
-**Debugging locally** requires the [Xdebug](https://xdebug.org/) extension installed and enabled. See [Xdebug configuration](debug/xdebug) for more information.
-
+**Debugging locally** requires the [Xdebug](https://xdebug.org/) extension. See how to install and configure Xdebug depending on your operating system:
+- [Xdebug on Linux](debug/xdebug-linux)
+- [Xdebug on Mac](debug/xdebug-mac)
+- [Xdebug on Windows](debug/xdebug-win)
 ### Recommended
 
 - PHP 7.0 or newer
@@ -59,6 +61,5 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 ## Related links
 
 - [Problems configuration](problems#configuration)
-- [Xdebug configuration](debug/xdebug)
 - [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
 - [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings) *(visualstudio.com)*
