@@ -5,7 +5,7 @@ Description: PHP Tools for VS Code configuration options.
 
 ## Configuration options
 
-The following settings are introduced by the extension. Navigate to [VSCode's Settings](https://code.visualstudio.com/docs/getstarted/settings) in order to see or modify them.
+The following settings are introduced by the extension. Navigate to [VSCode's Settings](https://code.visualstudio.com/docs/getstarted/settings) to see or modify them.
 
 Setting | Values | Description
 ---     | ---    | ---
@@ -24,12 +24,12 @@ Setting | Values | Description
 
 ## License activation
 
-In case the extension is not activated, a pop-up window is shown during the extension first startup. It gives the following options:
+In case the extension is not activated, a pop-up window is shown during the extension's first startup. It gives the following options:
 
 ![Activate PHP Tools](imgs/activate-phptools-vscode.png)
 
 - `I have the license key` lets you enter the license key section and activate the extension.
-- `Get trial` sends you an e-mail with 30-day license key.
+- `Get trial` sends you an e-mail with a 30-day license key.
 - `More information` opens [this web page](https://www.devsense.com/purchase) with purchase and license information.
 
 Once you obtain the license key and you close the pop-up window above, you can activate your copy of the extension using the VSCode's `Command palette`, command `PHP Tools: Activate extension`. Enter your license key and confirm with `Enter`.
