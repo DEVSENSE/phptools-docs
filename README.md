@@ -1,6 +1,18 @@
-# PHP Tools for Visual Studio
+# PHP Tools
 
-> This is repository with the public content for [PHP Tools for Visual Studio](https://www.devsense.com/).
+**PHP Tools is an all-in-one extension for Visual Studio and Visual Studio Code, making Visual Studio the full PHP IDE.**
 
-PHP Tools for Visual Studio transparently integrate into Microsoft Visual Studio, and extend it with the support for PHP language. The extension is focused on developer productivity respecting conventions. It understands the code, provides smart code completion, quick navigation, error checking, code validation, code formatting, integrated PHP manual, built-in web server, debugging support, test explorer integration, composer package manager, and more.
+The extension transparently integrates into Microsoft Visual Studio and extends it with the support for PHP language. We are focusing on developer productivity and respecting conventions. The tool understands your code, provides smart code completion, quick navigation, code lenses, error checking, code validation, code formatting, integrated PHP manual, built-in web server, debugging support, PHPUnit integration, composer package manager, and much more.
 
+### Download &amp; Install
+
+- [Download](https://www.devsense.com/download) _(devsense.com)_
+
+### Documentation
+
+- [Documentation for PHP Tools for Visual Studio](https://docs.devsense.com/vs) _(devsense.com)_
+- [Documentation for PHP Tools for VS Code](https://docs.devsense.com/vscode) _(devsense.com)_
+
+### Features
+
+- [Features](https://www.devsense.com/features) _(devsense.com)_
