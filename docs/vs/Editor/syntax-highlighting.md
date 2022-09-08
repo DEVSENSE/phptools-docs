@@ -112,17 +112,15 @@ You can also jump between matching braces using the keyboard shortcut (by defaul
 
 In the Visual Studio 2019 and newer, matching parenthesis within PCRE are also highlighted.
 
-## Brackets pair colorization
+## Bracket pair colorization
 
-When dealing with nested brackets it can be hard to figure out which brackets match and which do not. Colorizing bracket pairs with different color makes it easier to read the code.
+When dealing with nested brackets, it can be hard to figure out which brackets match and which do not. Colorizing bracket pairs with different colors makes it easier to read the code.
 
 ![PHP bracket pairs colorized](imgs/with-rainbow-colors.png)
 
-In the Visual Studio 2022, there is an extension which adds colors to bracket pairs - [Rainbow Braces](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces). 
+In Visual Studio 2022, there is an extension that adds colors to bracket pairs - [Rainbow Braces](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces). PHP Code is supported since version `1.0.23`. At this time available from [CI Build](https://www.vsixgallery.com/extension/RainbowBraces.1dff1bc5-a8e4-477b-9054-2b9ec6bb88d1/).
 
-PHP Code is supported since version `1.0.23`. At this time
-
-https://blog.devsense.com/2022/bracket-pair-colorization-for-php-in-visual-studio
+If you are interested in more details about this feature, please read [this article](https://blog.devsense.com/2022/bracket-pair-colorization-for-php-in-visual-studio).
 
 ## Switching Themes
 
