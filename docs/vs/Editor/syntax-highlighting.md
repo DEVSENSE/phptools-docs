@@ -26,6 +26,7 @@ Modify the default Fonts and Colors in the menu `Tools` | `Options`, section `En
 - comment
 - keyword
 - operator
+- punctuation
 - number
 - string
 - string - escape character
