@@ -54,6 +54,7 @@ The following table lists most of the available code diagnostics.
 | `PHP0438` | NonTraversableUnpacked |  |
 | `PHP0439` | PCREPatternError | There is an error in the Perl Compatible Regular Expression (PCRE) pattern. |
 | `PHP0440` | Duplicit array key | The key is already used in the array initializer. |
+| `PHP0441` | Arguments when there is no constructor | NewArgsWithNoConstructor |
 | `PHP1401` | Argument cannot be passed as alias | Only variables can be passed as aliased function argument. |
 ## Error
 
@@ -113,6 +114,8 @@ The following table lists most of the available code diagnostics.
 | `PHP2430` | CannotBeUsedAsIntersectionType |  |
 | `PHP2431` | ReadOnlyPropertyMustHaveType |  |
 | `PHP2432` | NamespaceMustBeTheOnlyStatement |  |
+| `PHP2433` | Field already declared | Field with the same name cannot be declared more than once in the same class |
+| `PHP2434` | BreakWrongContext |  |
 ## Compatibility Group
 
 ## Message
