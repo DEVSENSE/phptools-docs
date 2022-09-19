@@ -55,6 +55,7 @@ The following table lists most of the available code diagnostics.
 | `PHP0439` | PCREPatternError | There is an error in the Perl Compatible Regular Expression (PCRE) pattern. |
 | `PHP0440` | Duplicit array key | The key is already used in the array initializer. |
 | `PHP0441` | Arguments when there is no constructor | NewArgsWithNoConstructor |
+| `PHP0442` | EmptyNamespaceDecl |  |
 | `PHP1401` | Argument cannot be passed as alias | Only variables can be passed as aliased function argument. |
 ## Error
 
@@ -74,6 +75,8 @@ The following table lists most of the available code diagnostics.
 | `PHP1405` | WritingToGlobals |  |
 | `PHP1406` | ReferencingGlobals |  |
 | `PHP1407` | AbstractMethodInNonabstractClassError | `abstract` methods can be defined in `abstract` classes only. |
+| `PHP1408` | VoidAssigned |  |
+| `PHP1408` | VoidReturned |  |
 | `PHP2407` | MustNotDeclareReturnType |  |
 | `PHP2408` | MustTakeExactlyArgs |  |
 | `PHP2409` | UnsupportedPropertyType |  |

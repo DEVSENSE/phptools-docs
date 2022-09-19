@@ -114,3 +114,4 @@ Suppressed error codes can be optionally separated by a comma or a space.
 ## Related links
 
 - [Configuration](configuration)
+- [Diagnostic Codes](https://docs.devsense.com/vs/code%20validation/diagnostics)
