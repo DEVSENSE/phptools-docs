@@ -104,7 +104,7 @@ Type names are highlighted with the color respecting the color name `User Types 
 
 ## Highlighting braces
 
-Matching pair of braces are automatically highlighted as well. Upon moving the keyboard caret at the outer position next to any brace (`(`, `)`, `[`, `]`, `<`, `>`), it gets highlighted together with its matching brace.
+Matching pairs of braces are automatically highlighted as well. Upon moving the keyboard caret at the outer position next to any brace (`(`, `)`, `[`, `]`, `<`, `>`), it gets highlighted together with its matching brace.
 
 ![PHP brace highlighting](imgs/highlight-braces.png)
 
