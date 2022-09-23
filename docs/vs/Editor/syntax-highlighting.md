@@ -9,7 +9,7 @@ The Syntax highlighting feature makes PHP code more readable as any other langua
 
 ![PHP/HTML syntax highlighting](imgs/php-highlighting.png "PHP/HTML syntax highlighting.")
 
-Moreover, when PHP Editor finds a syntax error or a logical error, the corresponding expression is underlined with a red wave and the error detail is listed in Visual Studio Error List tool window.
+Moreover, when PHP Editor finds a syntax error or a logical error, the corresponding expression is underlined with a red wave and the error detail is listed in the Visual Studio Error List tool window.
 
 ## Settings
 
@@ -74,7 +74,7 @@ Modify the default Fonts and Colors in the menu `Tools` | `Options`, section `En
 ?>
 ```
 
-The editor respects the `short_open_tag` directive in the corresponding `php.ini` file. By default, it enables them for PHP &lt; 7.0. Otherwise the short open tags are treated as XML tag and their content is not colorized as PHP code.
+The editor respects the `short_open_tag` directive in the corresponding `php.ini` file. By default, it enables them for PHP &lt; 7.0. Otherwise, the short open tags are treated as XML tag and their content is not colorized as PHP code.
 
 To override the default behavior and enable the short open tags, edit the Visual Studio project file (`.phpproj` file), and add the following XML fragment:
 
