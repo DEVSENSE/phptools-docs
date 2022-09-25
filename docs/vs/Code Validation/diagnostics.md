@@ -31,7 +31,6 @@ The following table lists most of the available code diagnostics.
 | `PHP0409` | Scalar used as array | Expressions accessed with [] operator have to be of type array, string or object. |
 | `PHP0410` | Type mismatch | Value has to be assignable to the expected type. |
 | `PHP0411` | Unused label | Defined labels should be used. |
-| `PHP0412` | Uninitialized variable | Variables has to be assigned before they are used. |
 | `PHP0413` | Unknown class name | Class or interface is unknown. |
 | `PHP0414` | Unknown class constant | Class constant is unknown. |
 | `PHP0415` | Unknown constant | Global constant is unknown. |
@@ -76,7 +75,8 @@ The following table lists most of the available code diagnostics.
 | `PHP1406` | ReferencingGlobals |  |
 | `PHP1407` | AbstractMethodInNonabstractClassError | `abstract` methods can be defined in `abstract` classes only. |
 | `PHP1408` | VoidAssigned |  |
-| `PHP1408` | VoidReturned |  |
+| `PHP1409` | VoidReturned |  |
+| `PHP1412` | Uninitialized variable | Variables has to be assigned before they are used. |
 | `PHP2407` | MustNotDeclareReturnType |  |
 | `PHP2408` | MustTakeExactlyArgs |  |
 | `PHP2409` | UnsupportedPropertyType |  |
