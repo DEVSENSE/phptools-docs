@@ -175,6 +175,26 @@ Useful parameters that can be changed:
 - `externalConsole`: `true` to run the program in a separate command line window. Default is `false` to output the program in the VS Code's `Debug Console`.
 - `port`: is the Xdebug port number. This value has to match setting in     `php.ini`. Defaults to `9003`.
 
+### Profiling Mode
+
+Profiling collects data about your application and saves them into a directory specified with `xdebug.output_dir` PHP ini setting. Add `"profile": true` setting, to profile requests and console application. Note, `"profile"` setting cannot be used when only listening for Xdebug.
+
+**Example:**
+
+```json
+{
+    "name": "Launch Built-in server & Profile",
+    "type": "php",
+    "request": "launch",
+    "runtimeArgs": [
+        "-S", "localhost:8888", "-t", "."
+    ],
+    "noDebug": true, // <-- disable debugging
+    "profile": true, // <-- enable profiling
+    "port": 9000,
+}
+```
+
 ## PHP Version
 
 The launch configuration option `"phpVersion"` allows choosing which PHP will be used to run and debug the project.
