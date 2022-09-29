@@ -46,7 +46,7 @@ Open the file containing your profiling data. By default, it is in form of `cach
 - Choose the file, and confirm.
   ![open profiling file command](imgs/profiler-open-command.png)
 
-**Drag & Drop "cachegrind.out.*.gz" File**
+**Drag & Drop 'cachegrind.out.\*.gz' File**
 
 Alternatively, if your profile file name is in form of `cachegrind.out.*.gz`, you can open the file right in the Visual Studio Code editor - using `File`/`Open File` menu.
 
