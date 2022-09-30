@@ -17,7 +17,7 @@ The `composer.json` editor is extended with smart actions, code lenses, tooltips
 
 Code completion searches packages and lists their names with detailed information including downloads, favorites, abandoned information, and description. There are also quick links to the package _home page_, package _source_ code, and _packagist page_.
 
-![composer completion](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/master/docs/vscode/imgs/composer-complete.gif)
+![composer completion](himgs/composer-complete.gif)
 
 ### Completion of Package Versions
 
@@ -35,7 +35,7 @@ Installed package details are displayed in the tooltips.
 
 Quickly `update` or `remove` package right from the editor, using the code actions:
 
-![composer code actions](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/master/docs/vscode/imgs/composer-codeactions.png)
+![composer code actions](imgs/composer-codeactions.png)
 
 ### Installed Version Inlay
 
@@ -47,13 +47,13 @@ Actual installed version is displayed connveniently next to the package required
 
 The `"scripts"` section of `composer.json` gets a small code-lens allowing to quickly run the corresponding script, right from the editor:
 
-![composer run-script codelens](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/master/docs/vscode/imgs/composer-run-script-codelens.png)
+![composer run-script codelens](himgs/composer-run-script-codelens.png)
 
 ### Diagnostics &amp; Abandoned Packages
 
 The extension watches for installed packages and checks if any of them isn't abandoned. Abandoned packages are listed in VS Code's **problems** view, strikethrough, and the tooltip shows the corresponding abandoned message:
 
-![composer diagnostic for abandoned packages](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/master/docs/vscode/imgs/composer-abandoned-diagnostic.png)
+![composer diagnostic for abandoned packages](himgs/composer-abandoned-diagnostic.png)
 
 ## Commands
 
