@@ -55,4 +55,4 @@ El producto contiene una versión de prueba gratis por 30 días, con todas las c
 
 ## Actualizaciones
 
-Visual Studio busca actualizaciones para PHP Tools automáticamente y le notificará cuando haya alguna disponible. Por favor, ingrese a [actualizaciones](https://docs.devsense.com/es/vs/installation/updatet) para más información.
+Visual Studio busca actualizaciones para PHP Tools automáticamente y le notificará cuando haya alguna disponible. Por favor, ingrese a [actualizaciones](https://docs.devsense.com/es/vs/installation/update) para más información.
