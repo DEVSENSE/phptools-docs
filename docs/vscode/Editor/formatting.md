@@ -5,7 +5,7 @@ Description: Source code formatting
 
 ## Code Formatting
 
-The editor provides the document formatting feature for PHP documents. Right click the editor area and choose `Format Document`.
+The editor provides the document formatting feature for PHP documents. Right-click the editor area and choose `Format Document`.
 
 ![PHP document format](../imgs/format-document.gif)
 
@@ -15,7 +15,7 @@ The code formatting normalizes whitespaces, line endings, opening and closing br
 
 ### Format On Type
 
-Setting the option `editor.formatOnType` to `true` enables the editor to format code blocks and statements upon typing `;` and `}`. This feature performs selection formatting of the code preceeding the type delimiter. It indents the code and pretty-prints spaces.
+Setting the option `editor.formatOnType` to `true` enables the editor to format code blocks and statements upon typing `;` and `}`. This feature performs the selection formatting of the code preceding the type delimiter. It indents the code and pretty-prints spaces.
 
 ## Configuration
 
@@ -117,7 +117,7 @@ echo "hello world";
 
 ### Code Style: PHP Tools
 
-The default code style is compliant with the formatting in PHP Tools for Visual Studio. This style focuses on leaving the code visual structure as untouched as possible, while normalizing the whitespaces where possible.
+The default code style is compliant with the formatting in PHP Tools for Visual Studio. This style focuses on leaving the code visual structure as untouched as possible while normalizing the whitespaces where possible.
 
 Feature | Behavior
 --- | ---
@@ -156,7 +156,7 @@ function foo()
 
 ### Code Style: PSR-2
 
-This formatting style is compliant with [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) standards .
+This formatting style is compliant with [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) standards.
 
 Feature | Behavior
 --- | ---
@@ -194,8 +194,8 @@ function foo()
 
 ### Code Style: Off
 
-To turn off the formatting select the setting `Off`. Remaining feaytures like PHPDoc auto-generation will work but Document Format, Selection Format, Format On Paste and Format On Type will do nothing.
+To turn off the formatting select the setting `Off`. Remaining features like PHPDoc auto-generation will work but Document Format, Selection Format, Format On Paste and Format On Type will do nothing.
 
 ## HTML, JS and CSS Formatting
 
-PHP Tools support HTML, JS and CSS formatting in PHP files. The HTML fomatting process is provided by Visual Studio Code and PHP Tools integrates the functionality with PHP formatting.
+PHP Tools support HTML, JS and CSS formatting in PHP files. The HTML formatting process is provided by Visual Studio Code and PHP Tools integrates the functionality with PHP formatting.
