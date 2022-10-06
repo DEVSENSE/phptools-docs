@@ -1,6 +1,6 @@
 /*
 Title: Profiler
-Description: Profiling Files Support in Visual Studio Code
+Description: Detect, analyze, and optimize slow and resource-consuming methods and classes in your code with the PHP profiler for Visual Studio Code.
 */
 
 # Profiler
