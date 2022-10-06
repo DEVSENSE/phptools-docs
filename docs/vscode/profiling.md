@@ -11,7 +11,7 @@ PHP code profiling allows you to inspect how much time and how many calls were m
 
 ---
 
-### Quickly Setup PHP for Profiling
+## Quickly Setup PHP for Profiling
 
 - Ensure, you have PHP installed.
 - Ensure [Xdebug](https://xdebug.org/docs/install) PHP extension is installed as well.
