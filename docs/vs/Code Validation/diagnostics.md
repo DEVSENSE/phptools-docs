@@ -55,7 +55,10 @@ The following table lists most of the available code diagnostics.
 | `PHP0440` | Duplicit array key | The key is already used in the array initializer. |
 | `PHP0441` | Arguments when there is no constructor | NewArgsWithNoConstructor |
 | `PHP0442` | EmptyNamespaceDecl |  |
+| `PHP0443` | TooManyArgs |  |
 | `PHP1401` | Argument cannot be passed as alias | Only variables can be passed as aliased function argument. |
+| `PHP1408` | VoidAssigned |  |
+| `PHP1409` | VoidReturned |  |
 ## Error
 
 | id | title | description |
@@ -67,6 +70,7 @@ The following table lists most of the available code diagnostics.
 | `PHP1015` | AbstractPrivateMethodDeclared |  |
 | `PHP1024` | ConstructCannotBeStatic |  |
 | `PHP1037` | AbstractFinalMethodDeclared |  |
+| `PHP1043` | MultipleVisibilityModifiers |  |
 | `PHP1045` | MethodCannotTakeArguments |  |
 | `PHP1402` | NonExceptionThrown |  |
 | `PHP1403` | NonExceptionCatch |  |
@@ -74,9 +78,8 @@ The following table lists most of the available code diagnostics.
 | `PHP1405` | WritingToGlobals |  |
 | `PHP1406` | ReferencingGlobals |  |
 | `PHP1407` | AbstractMethodInNonabstractClassError | `abstract` methods can be defined in `abstract` classes only. |
-| `PHP1408` | VoidAssigned |  |
-| `PHP1409` | VoidReturned |  |
 | `PHP1412` | Uninitialized variable | Variables has to be assigned before they are used. |
+| `PHP1413` | NonStaticMethodCalledStatically |  |
 | `PHP2407` | MustNotDeclareReturnType |  |
 | `PHP2408` | MustTakeExactlyArgs |  |
 | `PHP2409` | UnsupportedPropertyType |  |
