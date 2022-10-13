@@ -7,7 +7,9 @@ Description: Detect, analyze, and optimize slow and resource-consuming methods a
 
 PHP code profiling allows you to inspect how much time and how many calls were made to every single function in the code.
 
-[**Get the PHP Profiler Extension**](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
+<center markdown=1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VQB6pdDhGWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ---
 
@@ -72,5 +74,6 @@ The loaded profiling result file is analyzed, and hot paths are highlighted dire
 
 ## See Also
 
-- [Debug](debug)
-- [launch.json](debug/launch-json)
+- [Debug](debug) - Debugging PHP in VS Code documentation.
+- [launch.json](debug/launch-json) - VS Code launch profiles documentation.
+- [Profiling PHP in VS Code](https://www.youtube.com/watch?v=VQB6pdDhGWs) - A quick video tutorial on Profiling PHP using Visual Studio Code.
