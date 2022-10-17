@@ -60,16 +60,17 @@ By default, PHP Tools scans continuously the entire workspace for possible issue
 **Values:**
 
 - `"php.problems.scope": "none"`: No problems analysis is performed. **Note**, this also disables unused `use` check, unreachable code checks, and others.
+- `"php.problems.scope": "opened"`: Only PHP documents opened in the editor are checked for problems. **Note**, parse errors are still reported in all files across the entire workspace.
 - `"php.problems.scope": "user"`: _(default)_ Problems are checked in the workspace files excluding `/vendor/**` and other framework-specific directories (such as `/wp-includes/` in WordPress, etc.).
 - `"php.problems.scope": "all"`: Enables problems analysis across the entire workspace.
 
 **Example:**
 
 ```json
-"php.problems.scope" : "none"
+"php.problems.scope" : "all"
 ```
 
-Although, in case the file is opened in editor for editing, it gets analysed always.
+**Note**, parse errors and some fatal errors will be reported in all files across the entire workspace. Use `.editorconfig` to suppress them.
 
 ### `php.problems.exclude`
 
