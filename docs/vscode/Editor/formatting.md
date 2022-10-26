@@ -186,7 +186,7 @@ while ($x == $y)
 }
 ```
 
-#### **`K&R`**
+### Code Style: **`K&R`**
 
 The `K&R` style (Kernighan & Ritchie Style) keeps open braces on the same line for control structures, types, functions and methods.
 
