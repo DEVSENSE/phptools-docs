@@ -77,3 +77,4 @@ The loaded profiling result file is analyzed, and hot paths are highlighted dire
 - [Debug](debug) - Debugging PHP in VS Code documentation.
 - [launch.json](debug/launch-json) - VS Code launch profiles documentation.
 - [Profiling PHP in VS Code](https://www.youtube.com/watch?v=VQB6pdDhGWs) - A quick video tutorial on Profiling PHP using Visual Studio Code.
+- [Performance Profiling PHP with VS Code](https://blog.devsense.com/2022/profile-php-vscode)

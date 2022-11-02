@@ -39,3 +39,7 @@ function foo($x) {
     //
 }
 ```
+
+## See Also
+
+- [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc)
