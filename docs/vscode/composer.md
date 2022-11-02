@@ -173,3 +173,5 @@ The extension automatically downloads `composer.phar` latest snapshot, and uses 
 
 - [PHP Tools Installation](installation)
 - [Composer Extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode) _(marketplace.visualstudio.com)_
+- [Create PHP Project using Composer in VS Code](https://blog.devsense.com/2022/create-php-project-composer-vs-code)
+- [Introducing Composer for VS Code](https://blog.devsense.com/2022/composer-for-vscode)
