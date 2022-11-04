@@ -74,4 +74,4 @@ This setup is the preferred one since you working completely in the container.
 
 ![Schema](img/schema.png)
 
-The scenario is explained in great detail in the tutorial [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker)
+The scenario is explained in great detail in the tutorial [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker). Or if you are interested in Laravel specific tutorial, please follow this one: [Start with Laravel in VS Code on Docker](https://blog.devsense.com/2022/laravel-on-docker)
