@@ -142,7 +142,7 @@ The following profile starts the PHP built-in web server. The server is started 
         "-t",
         "\\remotepc\Shared\Test"
     ],
-    "port": 9000,
+    "port": 9003,
     "serverReadyAction": {
         "action": "openExternally"
     }
@@ -153,6 +153,28 @@ Additionally, there are the following settings:
 
 - **"port"** allows you to specify the Xdebug port number. This value is used set to configure the built-in server and the VSCode debugger together. The default value is specified with configuration `php.debug.port` which defaults to `[9003, 9000]`. It overwrites the setting `xdebug.remote_port` in your `php.ini`.
 - **serverReadyAction** can be set to automatically open browser once the debug starts. More at [code.visualstudio.com - serverReadyAction](https://code.visualstudio.com/docs/editor/debugging#_automatically-open-a-uri-when-debugging-a-server-program).
+
+### Built-In PHP Server with `router.php`
+
+The following let's you to run built-in PHP server with a **router** script. It's equivalent to the `"Launch Built-in server"` configuration, but the `router.php` path is added to the `"runtimeArgs"` array:
+
+```json
+{
+    "name": "Launch Built-in server with router script",
+    "type": "php",
+    "request": "launch",
+    "runtimeArgs": [
+        "-S",
+        "localhost:8888",
+        "-t",
+        ".",
+        "./router.php"
+    ],
+    "serverReadyAction": {
+        "action": "openExternally"
+    }
+}
+```
 
 ### Console Application
 
