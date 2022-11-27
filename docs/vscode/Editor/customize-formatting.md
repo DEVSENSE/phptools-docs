@@ -6,7 +6,7 @@ Many companies have coding guidelines when creating source code which might diff
 
 Since version `1.24` customizable formatter is available for <span class="label label-premium">PREMIUM</span> users. Community version users can still influence the formatter behavior through `php.format.codestyle` settings.
 
-## `php.format.openBraceOnNewLineForFunctions`
+## `php.format.rules.openBraceOnNewLineForFunctions`
 
 Place open brace `{` on a new line for methods, functions and constructors.
 
@@ -25,7 +25,7 @@ function foo() {
 
 Requires `PREMIUM`
 
-## `php.format.openBraceOnNewLineForLambdas`
+## `php.format.rules.openBraceOnNewLineForLambdas`
 
 Place open brace `{` on a new line for lambda functions.
 
@@ -44,7 +44,7 @@ $lambda = function () {
 
 Requires `PREMIUM`
 
-## `php.format.openBraceOnNewLineForAnonymousClasses`
+## `php.format.rules.openBraceOnNewLineForAnonymousClasses`
 
 Place open brace `{` on a new line for anonymous classes.
 
@@ -65,7 +65,7 @@ $c = new class extends \Foo implements
 
 Requires `PREMIUM`
 
-## `php.format.openBraceOnNewLineForTypes`
+## `php.format.rules.openBraceOnNewLineForTypes`
 
 Place open brace `{` on a new line for types.
 
@@ -87,7 +87,7 @@ class X extends \Foo implements
 
 Requires `PREMIUM`
 
-## `php.format.elseOnNewLine`
+## `php.format.rules.elseOnNewLine`
 
 Place `else` on a new line.
 
@@ -112,7 +112,7 @@ if (true)
 
 Requires `PREMIUM`
 
-## `php.format.catchOnNewLine`
+## `php.format.rules.catchOnNewLine`
 
 Place `catch` on a new line.
 
@@ -143,7 +143,7 @@ finally
 
 Requires `PREMIUM`
 
-## `php.format.finallyOnNewLine`
+## `php.format.rules.finallyOnNewLine`
 
 Place `finally` on a new line.
 
@@ -174,7 +174,7 @@ catch
 
 Requires `PREMIUM`
 
-## `php.format.spaceAfterCast`
+## `php.format.rules.spaceAfterCast`
 
 Insert a space after a cast operator.
 
@@ -190,7 +190,7 @@ $x = (int)$obj;
 
 Requires `PREMIUM`
 
-## `php.format.arrayInitializersWrap`
+## `php.format.rules.arrayInitializersWrap`
 
 Defines wrapping behavior for array initializers.
 
@@ -200,7 +200,7 @@ Defines wrapping behavior for array initializers.
 
 Requires `PREMIUM`
 
-## `php.format.ArrayInitializersNewLineBeforeFirstElement`
+## `php.format.rules.ArrayInitializersNewLineBeforeFirstElement`
 
 Place a new line before the first array element when wrapping.
 
@@ -221,7 +221,7 @@ $x = [1,
 
 Requires `PREMIUM`
 
-## `php.format.ArrayInitializersNewLineAfterLastElement`
+## `php.format.rules.ArrayInitializersNewLineAfterLastElement`
 
 Place a new line after the last element when wrapping.
 
@@ -242,7 +242,7 @@ $x = [
 
 Requires `PREMIUM`
 
-## `php.format.callParametersWrap`
+## `php.format.rules.callParametersWrap`
 
 Defines wrapping behavior for method, function and constructor call parameters.
 
@@ -251,7 +251,7 @@ Defines wrapping behavior for method, function and constructor call parameters.
 
 Requires `PREMIUM`
 
-## `php.format.callParametersNewLineAfterLeftParen`
+## `php.format.rules.callParametersNewLineAfterLeftParen`
 
 Place a new line after the left opening parenthesis `(` when wrapping.
 
@@ -270,7 +270,7 @@ foo(1,
 );
 ```
 
-## `php.format.callParametersNewLineBeforeRightParen`
+## `php.format.rules.callParametersNewLineBeforeRightParen`
 
 Place a new line before the right closing parenthesis `)` when wrapping.
 
@@ -291,7 +291,7 @@ foo(
 
 Requires `PREMIUM`
 
-## `php.format.declParametersWrap`
+## `php.format.rules.declParametersWrap`
 
 Defines wrapping behavior for method or function declaration parameters.
 
@@ -301,7 +301,7 @@ Defines wrapping behavior for method or function declaration parameters.
 
 Requires `PREMIUM`
 
-## `php.format.declParametersNewLineAfterLeftParen`
+## `php.format.rules.declParametersNewLineAfterLeftParen`
 
 Place a new line after the left opening parenthesis `(` of function or method declaration header when wrapping.
 
@@ -324,7 +324,7 @@ function foo($x,
 
 Requires `PREMIUM`
 
-## `php.format.declParametersNewLineBeforeRightParen`
+## `php.format.rules.declParametersNewLineBeforeRightParen`
 
 Place a new line before the right closing parenthesis `)` of a function or method declaration header when wrapping.
 
@@ -347,7 +347,7 @@ function foo(
 
 Requires `PREMIUM`
 
-## `php.format.whileStatementNewLineAfterLeftParen`
+## `php.format.rules.whileStatementNewLineAfterLeftParen`
 
 Place a new line after the left opening parenthesis `(` in a `while` statement header if it's split across multiple lines.
 
@@ -368,7 +368,7 @@ while($x == 2
 
 Requires `PREMIUM`
 
-## `php.format.whileStatementNewLineBeforeRightParen`
+## `php.format.rules.whileStatementNewLineBeforeRightParen`
 
 Place a new line after the right closing parenthesis `)` in a `while` statement header if it's split across multiple lines.
 
@@ -389,7 +389,7 @@ while(
 
 Requires `PREMIUM`
 
-## `php.format.forStatementWrap`
+## `php.format.rules.forStatementWrap`
 
 Defines wrapping behavior for `for` statement.
 
@@ -399,7 +399,7 @@ Defines wrapping behavior for `for` statement.
 
 Requires `PREMIUM`
 
-## `php.format.forStatementNewLineAfterLeftParen`
+## `php.format.rules.forStatementNewLineAfterLeftParen`
 
 Place a new line after the left opening parenthesis `(` in a `for` statement header if it's split across multiple lines.
 
@@ -424,7 +424,7 @@ for($i = 0;
 
 Requires `PREMIUM`
 
-## `php.format.forStatementNewLineBeforeRightParen`
+## `php.format.rules.forStatementNewLineBeforeRightParen`
 
 Place a new line after the right closing parenthesis `)` in a `for` statement header if it's split across multiple lines.
 
@@ -449,7 +449,7 @@ for($i = 0;
 
 Requires `PREMIUM`
 
-## `php.format.ifStatementNewLineAfterLeftParen`
+## `php.format.rules.ifStatementNewLineAfterLeftParen`
 
 Place a new line after the left opening parenthesis `(` in a `if` or `elseif` statement header if it's split across multiple lines.
 
@@ -470,7 +470,7 @@ if(true
 
 Requires `PREMIUM`
 
-## `php.format.ifStatementNewLineBeforeRightParen`
+## `php.format.rules.ifStatementNewLineBeforeRightParen`
 
 Place a new line after the right closing parenthesis `)` in a `if` or `elseif` statement header if it's split across multiple lines.
 
@@ -491,7 +491,7 @@ if(
 
 Requires `PREMIUM`
 
-## `php.format.switchStatementNewLineAfterLeftParen`
+## `php.format.rules.switchStatementNewLineAfterLeftParen`
 
 Place a new line after the left opening parenthesis `(` in a `switch` statement header if it's split across multiple lines.
 
@@ -512,7 +512,7 @@ switch($x
 
 Requires `PREMIUM`
 
-## `php.format.switchStatementNewLineBeforeRightParen`
+## `php.format.rules.switchStatementNewLineBeforeRightParen`
 
 Place a new line after the right closing parenthesis `)` in a `switch` statement header if it's split across multiple lines.
 
@@ -533,7 +533,7 @@ switch(
 
 Requires `PREMIUM`
 
-## `php.format.implementsListWrap`
+## `php.format.rules.implementsListWrap`
 
 Defines wrapping behavior for `implements` list in type declarations.
 
@@ -543,7 +543,7 @@ Defines wrapping behavior for `implements` list in type declarations.
 
 Requires `PREMIUM`
 
-## `php.format.newLineAfterImplements`
+## `php.format.rules.newLineAfterImplements`
 
 Place a new line after `implements` in type declaration if the list of interfaces is split across multiple lines.
 
