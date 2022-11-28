@@ -1,6 +1,10 @@
+/*
+Title: Customize Formatting
+Description: Define and maintain consistent code style in your codebase by defining PHP code-style rules.
+*/
 # Customize formatting
 
-> **NOTE:** This feature is not available yet
+> **NOTE:** This feature is available in the Pre-release version
 
 Many companies have coding guidelines when creating source code which might differ from our predefined code styles.
 
