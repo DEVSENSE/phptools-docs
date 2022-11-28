@@ -200,7 +200,7 @@ Defines wrapping behavior for array initializers.
 
 Requires `PREMIUM`
 
-## `php.format.rules.ArrayInitializersNewLineBeforeFirstElement`
+## `php.format.rules.arrayInitializersNewLineBeforeFirstElement`
 
 Place a new line before the first array element when wrapping.
 
@@ -221,7 +221,7 @@ $x = [1,
 
 Requires `PREMIUM`
 
-## `php.format.rules.ArrayInitializersNewLineAfterLastElement`
+## `php.format.rules.arrayInitializersNewLineAfterLastElement`
 
 Place a new line after the last element when wrapping.
 
@@ -241,6 +241,29 @@ $x = [
 ```
 
 Requires `PREMIUM`
+
+## `php.format.rules.arrayInitializersAlignKeyValuePairs`
+
+Automatically align `=>` operators.
+
+**Enabled**
+```php
+$x = [
+    1    => 'foo',
+    1234 => 'bar'
+];
+```
+
+**Disabled**
+```php
+$x = [
+    1 => 'foo',
+    1234 => 'bar'
+];
+```
+
+Requires `PREMIUM`
+
 
 ## `php.format.rules.callParametersWrap`
 
