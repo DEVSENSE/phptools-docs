@@ -69,6 +69,28 @@ $c = new class extends \Foo implements
 
 Requires `PREMIUM`
 
+## `php.format.rules.indentBraces`
+
+Indent curly braces (`{` and `}`).
+
+**Enabled**
+```php
+function foo()
+    {
+    echo "Hello";
+    }
+```
+
+**Disabled**
+```php
+function foo()
+{
+    echo "Hello";
+}
+```
+
+Requires `PREMIUM`
+
 ## `php.format.rules.openBraceOnNewLineForTypes`
 
 Place open brace `{` on a new line for types.
@@ -566,7 +588,6 @@ Defines wrapping behavior for `implements` list in type declarations.
 
 * `Off` - No wrapping is applied
 * `On every item` - When this option is selected each interface in `implements` list is placed on a new line and properly indented if they are split across multiple lines.
-
 
 Requires `PREMIUM`
 
