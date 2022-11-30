@@ -27,7 +27,6 @@ function foo() {
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.openBraceOnNewLineForLambdas`
 
@@ -45,8 +44,6 @@ $lambda = function ()
 $lambda = function () {
 }
 ```
-
-Requires `PREMIUM`
 
 ## `php.format.rules.openBraceOnNewLineForAnonymousClasses`
 
@@ -67,7 +64,6 @@ $c = new class extends \Foo implements
 };
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.indentBraces`
 
@@ -89,7 +85,6 @@ function foo()
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.openBraceOnNewLineForTypes`
 
@@ -111,7 +106,6 @@ class X extends \Foo implements
 ```
 
 
-Requires `PREMIUM`
 
 ## `php.format.rules.elseOnNewLine`
 
@@ -136,7 +130,6 @@ if (true)
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.catchOnNewLine`
 
@@ -167,7 +160,6 @@ finally
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.finallyOnNewLine`
 
@@ -198,7 +190,6 @@ catch
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.spaceAfterCast`
 
@@ -214,7 +205,6 @@ $x = (int) $obj;
 $x = (int)$obj;
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.arrayInitializersWrap`
 
@@ -224,7 +214,6 @@ Defines wrapping behavior for array initializers.
 * `On every item` - When this option is selected each item is placed on a new line and properly indented if the array initializer is split across multiple lines.
 
 
-Requires `PREMIUM`
 
 ## `php.format.rules.arrayInitializersNewLineBeforeFirstElement`
 
@@ -245,7 +234,6 @@ $x = [1,
 ];
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.arrayInitializersNewLineAfterLastElement`
 
@@ -266,7 +254,6 @@ $x = [
     2];
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.arrayInitializersAlignKeyValuePairs`
 
@@ -288,7 +275,6 @@ $x = [
 ];
 ```
 
-Requires `PREMIUM`
 
 
 ## `php.format.rules.callParametersWrap`
@@ -298,7 +284,6 @@ Defines wrapping behavior for method, function and constructor call parameters.
 * `Off` - No wrapping is applied
 * `On every item` - When this option is selected each item is placed on a new line and properly indented if the call arguments are split across multiple lines.
 
-Requires `PREMIUM`
 
 ## `php.format.rules.callParametersNewLineAfterLeftParen`
 
@@ -338,7 +323,6 @@ foo(
     2);
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.declParametersWrap`
 
@@ -348,7 +332,6 @@ Defines wrapping behavior for method or function declaration parameters.
 * `On every item` - When this option is selected each declaration parameter is placed on a new line and properly indented if the arguments are split across multiple lines.
 
 
-Requires `PREMIUM`
 
 ## `php.format.rules.declParametersNewLineAfterLeftParen`
 
@@ -371,7 +354,6 @@ function foo($x,
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.declParametersNewLineBeforeRightParen`
 
@@ -394,7 +376,6 @@ function foo(
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.whileStatementNewLineAfterLeftParen`
 
@@ -415,7 +396,6 @@ while($x == 2
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.whileStatementNewLineBeforeRightParen`
 
@@ -436,7 +416,6 @@ while(
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.forStatementWrap`
 
@@ -446,7 +425,6 @@ Defines wrapping behavior for `for` statement.
 * `On every item` - When this option is selected each item in `for` statement is placed on a new line and properly indented if they are split across multiple lines.
 
 
-Requires `PREMIUM`
 
 ## `php.format.rules.forStatementNewLineAfterLeftParen`
 
@@ -471,7 +449,6 @@ for($i = 0;
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.forStatementNewLineBeforeRightParen`
 
@@ -496,7 +473,6 @@ for($i = 0;
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.ifStatementNewLineAfterLeftParen`
 
@@ -517,7 +493,6 @@ if(true
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.ifStatementNewLineBeforeRightParen`
 
@@ -538,7 +513,6 @@ if(
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.switchStatementNewLineAfterLeftParen`
 
@@ -559,7 +533,6 @@ switch($x
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.switchStatementNewLineBeforeRightParen`
 
@@ -580,7 +553,6 @@ switch(
 }
 ```
 
-Requires `PREMIUM`
 
 ## `php.format.rules.implementsListWrap`
 
@@ -589,7 +561,6 @@ Defines wrapping behavior for `implements` list in type declarations.
 * `Off` - No wrapping is applied
 * `On every item` - When this option is selected each interface in `implements` list is placed on a new line and properly indented if they are split across multiple lines.
 
-Requires `PREMIUM`
 
 ## `php.format.rules.newLineAfterImplements`
 
@@ -614,5 +585,3 @@ class X implements A,
 {
 }
 ```
-
-Requires `PREMIUM`
