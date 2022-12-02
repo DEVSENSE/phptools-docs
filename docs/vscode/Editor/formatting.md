@@ -36,6 +36,8 @@ Setting | Effect
 `editor.tabSize` | Number of spaces that represent a single tab, this value is used only when `editor.insertSpaces` is `true`
 `editor.formatOnType` | Enables or disables automatic formatting of code block upon typing `;` or `}`.
 `php.format.codeStyle` | The code style that formatter is going to follow.
+`php.format.rules.*` | The formatting rules which override the selected code style
+
 
 ## Code Styles
 
@@ -46,7 +48,7 @@ There are various code styles available:
 - [Allman](##Allman)
 - [K&R](##K&R)
 
- The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their own sections.
+ The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their sections.
 
 Feature | Behavior
 --- | ---
@@ -226,6 +228,10 @@ function foo()
 ### Code Style: `Off`
 
 To turn off the formatting select the setting `Off`. Remaining features like PHPDoc auto-generation will work but Document Format, Selection Format, Format On Paste and Format On Type will do nothing.
+
+### Custom Code Style
+
+Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](#customize-formatting).
 
 ## HTML, JS and CSS Formatting
 
