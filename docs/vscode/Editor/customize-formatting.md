@@ -8,7 +8,7 @@ Many companies have coding guidelines when creating source code. Our PHP formatt
 
 Since version `1.24` customizable formatter is available for <span class="label label-premium">PREMIUM</span> users. Community version users can still influence the formatter behavior through `php.format.codestyle` settings.
 
-`php.format.codestyle` setting serve as a base and each formatting option you specify will override the particular behaviour.
+`php.format.codestyle` setting serves as a base and each formatting option you specify will override the particular behaviour.
 
 > **Note:** The list of options grows each release, please let us know what option are you missing.
 
@@ -329,7 +329,7 @@ function foo(
 
 ### `While` statement
 
-#### FILL
+#### Wrap
 
 **Setting:** `php.format.rules.whileStatementNewLineAfterLeftParen`
 
