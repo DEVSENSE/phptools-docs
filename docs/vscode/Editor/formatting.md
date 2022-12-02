@@ -231,7 +231,7 @@ To turn off the formatting select the setting `Off`. Remaining features like PHP
 
 ### Custom Code Style
 
-Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](#customize-formatting).
+Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](customize-formatting).
 
 ## HTML, JS and CSS Formatting
 
