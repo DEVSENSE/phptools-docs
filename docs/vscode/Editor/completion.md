@@ -11,6 +11,24 @@ The PHP editor analyses the entire workspace, it determines expressions type, fu
 
 Code completion is context-aware, scope-aware, type-aware, with the respect to conventions and additional heuristics.
 
+## Completing Parentheses
+
+By default, completing a function name also completes parentheses and, if the function has any parameters to fill in, the keyboard cursor is placed inside them.
+
+This behavior is controlled by the setting:
+
+```json
+"php.completion.parameters": "parentheses"
+```
+
+Alternativelly, the editor may complete default values for all the parameters. Set the setting to `"parameters"` to do so:
+
+```json
+"php.completion.parameters": "parameters"
+```
+
+![parentheses completion](../imgs/vsc-complete-parentheses.gif)
+
 ## Automatic Triggers
 
 The completion can be triggered manually (`Ctrl+Space` by default) or automatically. The automatic triggers are:
