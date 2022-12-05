@@ -136,6 +136,60 @@ $x = (int) $obj;
 $x = (int)$obj;
 ```
 
+#### Space after unary not `!`
+
+ > Comming soon
+
+**Setting:** `php.format.rules.spaceAfterUnaryNot`
+
+Insert a space after a unary not operator.
+
+**Enabled**
+```php
+$x = ! $obj;
+```
+
+**Disabled**
+```php
+$x = !$obj;
+```
+
+#### Space around concatenation `.`
+
+ > Comming soon
+
+**Setting:** `php.format.rules.spaceAroundConcatenation`
+
+Insert a space around concatenation operator.
+
+**Enabled**
+```php
+$x = $str1 . $str2;
+```
+
+**Disabled**
+```php
+$x = $str1.$str2;
+```
+
+#### Space before parentheses in arrow functions
+
+ > Comming soon
+
+**Setting:** `php.format.rules.spaceBeforeParenthesesInArrowFunctions`
+
+Insert a space before arrow function parentheses.
+
+**Enabled**
+```php
+$x = fn () => 1;
+```
+
+**Disabled**
+```php
+$x = fn() => 1;
+```
+
 ## Wrapping
 
 ### Array Initilizers
