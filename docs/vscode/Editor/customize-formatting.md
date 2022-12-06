@@ -708,3 +708,39 @@ class X implements A,
 {
 }
 ```
+
+### Group `use` list
+
+#### Wrap
+
+> Comming soon...
+
+**Setting:** `php.format.rules.groupUseWrap`
+
+Defines wrapping behavior for group `use` list in type declarations.
+
+* `Off` - No wrapping is applied
+* `On every item` - When this option is selected each declaration in group `use` list is placed on a new line and properly indented if they are split across multiple lines.
+
+#### New line before first group `use` declaration
+
+> Comming soon...
+
+**Setting:** `php.format.rules.groupUseNewLineBeforeFirstDeclaration`
+
+Place a new line before first group `use` declaration if the list of declarations is split across multiple lines.
+
+**Enabled**
+```php
+use Vendor\pkg\ns\{
+    ns1\A,
+    ns2\B,
+};
+```
+
+**Disabled**
+```php
+use Vendor\pkg\ns\{ns1\A,
+    ns2\B,
+};
+```
