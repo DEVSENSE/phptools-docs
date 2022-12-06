@@ -138,7 +138,7 @@ $x = (int)$obj;
 
 #### Space after unary not `!`
 
- > Comming soon
+ > Comming soon..
 
 **Setting:** `php.format.rules.spaceAfterUnaryNot`
 
@@ -156,7 +156,7 @@ $x = !$obj;
 
 #### Space around concatenation `.`
 
- > Comming soon
+ > Comming soon...
 
 **Setting:** `php.format.rules.spaceAroundConcatenation`
 
@@ -174,7 +174,7 @@ $x = $str1.$str2;
 
 #### Space before parentheses in arrow functions
 
- > Comming soon
+ > Comming soon...
 
 **Setting:** `php.format.rules.spaceBeforeParenthesesInArrowFunctions`
 
