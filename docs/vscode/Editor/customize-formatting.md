@@ -138,8 +138,6 @@ $x = (int)$obj;
 
 #### Space after unary not `!`
 
- > Comming soon..
-
 **Setting:** `php.format.rules.spaceAfterUnaryNot`
 
 Insert a space after a unary not operator.
@@ -156,8 +154,6 @@ $x = !$obj;
 
 #### Space around concatenation `.`
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceAroundConcatenation`
 
 Insert a space around concatenation operator.
@@ -173,8 +169,6 @@ $x = $str1.$str2;
 ```
 
 #### Space before parentheses in arrow functions
-
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceBeforeParenthesesInArrowFunctions`
 
@@ -713,8 +707,6 @@ class X implements A,
 
 #### Wrap
 
-> Comming soon...
-
 **Setting:** `php.format.rules.groupUseWrap`
 
 Defines wrapping behavior for group `use` list in type declarations.
@@ -723,8 +715,6 @@ Defines wrapping behavior for group `use` list in type declarations.
 * `On every item` - When this option is selected each declaration in group `use` list is placed on a new line and properly indented if they are split across multiple lines.
 
 #### New line before first group `use` declaration
-
-> Comming soon...
 
 **Setting:** `php.format.rules.groupUseNewLineBeforeFirstDeclaration`
 
