@@ -734,3 +734,25 @@ use Vendor\pkg\ns\{ns1\A,
     ns2\B,
 };
 ```
+
+### Assignment statement
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.alignConsecutiveAssignments`
+
+Automatically align consecutive `=` assignments
+
+**Enabled**
+```php
+$a     = 1;
+$bbb   = 2;
+$ccccc = 3;
+```
+
+**Disabled**
+```php
+$a = 1;
+$bbb = 2;
+$ccccc = 3;
+```
