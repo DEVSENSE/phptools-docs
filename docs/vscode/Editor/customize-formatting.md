@@ -190,7 +190,7 @@ $x = fn() => 1;
 
 **Setting:** `php.format.rules.spaceBeforeColonInControflowStatements`
 
-Insert a space before colon in control flow colon blocks.
+Insert a space before colon in control flow blocks.
 
 **Enabled**
 ```php
@@ -426,7 +426,7 @@ $y = $x[$i + 1];
 
  > Comming soon...
 
-**Setting:** `php.format.rules.SpaceWithinExpressionParens`
+**Setting:** `php.format.rules.spaceWithinExpressionParens`
 
 Insert a space within parentheses around expression.
 
