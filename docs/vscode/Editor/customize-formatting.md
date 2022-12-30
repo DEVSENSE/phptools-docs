@@ -184,6 +184,280 @@ $x = fn () => 1;
 $x = fn() => 1;
 ```
 
+#### Space before colon `:` in control flow statements
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceBeforeColonInControflowStatements`
+
+Insert a space before colon in control flow colon blocks.
+
+**Enabled**
+```php
+if (true) :
+endif;
+```
+
+**Disabled**
+```php
+if (true):
+endif;
+```
+
+#### Space before colon `:` in return type
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceBeforeColonInReturnType`
+
+Insert a space before colon in a return type
+
+**Enabled**
+```php
+function foo() : int {
+}
+```
+
+**Disabled**
+```php
+function foo(): int {
+}
+```
+
+#### Space within parentheses in arrow functions
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceBeforeParenthesesInArrowFunctions`
+
+Insert a space before arrow function parentheses.
+
+**Enabled**
+```php
+$x = fn () => 1;
+```
+
+**Disabled**
+```php
+$x = fn() => 1;
+```
+
+#### Space within call parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinCallParens`
+
+Insert a space within method, function and constructor call parentheses.
+
+**Enabled**
+```php
+foo( 1, 2 );
+```
+
+**Disabled**
+```php
+foo(1, 2);
+```
+
+#### Space within declaration parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinDeclParens`
+
+Insert a space within method, function and constructor declaration parentheses.
+
+**Enabled**
+```php
+function foo( $x, $y ) { }
+```
+
+**Disabled**
+```php
+function foo($x, $y) { }
+```
+
+#### Space within array initializer parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.SpaceWithinArrayInitilizersParens`
+
+Insert a space within array initializer parentheses.
+
+**Enabled**
+```php
+$x = array( 1 => "first", 2 => "second" );
+```
+
+**Disabled**
+```php
+$x = array(1 => "first", 2 => "second");
+```
+
+#### Space within `if` parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinIfParens`
+
+Insert a space within `if` statement header parentheses.
+
+**Enabled**
+```php
+if ( true ) { }
+```
+
+**Disabled**
+```php
+if (true) { }
+```
+
+#### Space within `while` parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinWhileParens`
+
+Insert a space within `while` statement header parentheses.
+
+**Enabled**
+```php
+while ( $a != $b ) { }
+```
+
+**Disabled**
+```php
+while ($a != $b) { }
+```
+
+#### Space within `for` parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinForParens`
+
+Insert a space within `for` statement header parentheses.
+
+**Enabled**
+```php
+for ( $i = 0; $i < 100; $i++ ) { }
+```
+
+**Disabled**
+```php
+for ($i = 0; $i < 100; $i++) { }
+```
+
+#### Space within `foreach` parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinForeachParens`
+
+Insert a space within `foreach` statement header parentheses.
+
+**Enabled**
+```php
+foreach ( $expr as $key => $value ) { }
+```
+
+**Disabled**
+```php
+foreach ($expr as $key => $value) { }
+```
+
+#### Space within `switch` parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinSwitchParens`
+
+Insert a space within `switch` statement header parentheses.
+
+**Enabled**
+```php
+switch ( $x ) { }
+```
+
+**Disabled**
+```php
+switch ($x) { }
+```
+
+#### Space within `catch` parentheses
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinCatchParens`
+
+Insert a space within `catch` statement header parentheses.
+
+**Enabled**
+```php
+try { } catch ( Exception ) { }
+```
+
+**Disabled**
+```php
+try { } catch (Exception) { }
+```
+
+#### Space within brackets `[]`
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinBrackets`
+
+Insert a space within brackets.
+
+**Enabled**
+```php
+$y = $x[ 1 ];
+```
+
+**Disabled**
+```php
+$y = $x[1];
+```
+
+#### Space within brackets `[]` around expression
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.spaceWithinBracketsAroundExpression`
+
+Insert a space within brackets around expression.
+
+**Enabled**
+```php
+$y = $x[ $i + 1 ];
+```
+
+**Disabled**
+```php
+$y = $x[$i + 1];
+```
+
+#### Space within parentheses around expression
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.SpaceWithinExpressionParens`
+
+Insert a space within parentheses around expression.
+
+**Enabled**
+```php
+$x = ( 1 + 2 );
+```
+
+**Disabled**
+```php
+$x = (1 + 2);
+```
+
 ## Wrapping
 
 ### Array Initilizers
