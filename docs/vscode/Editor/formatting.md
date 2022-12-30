@@ -11,7 +11,7 @@ The integrated _formatter_ helps you keep the code looking clean and maintain th
 
 ![PHP document format](../imgs/format-document.gif)
 
-The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation, adds or removes new lines when necessary and pretty print spaces.
+The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation, adds or removes new lines when necessary and pretty print spaces. It can also be [highly customized](customize-formatting).
 
 ### Triggering format
 
@@ -198,6 +198,17 @@ while ($x == $y) {
 }
 ```
 
+### Code Style: `Laravel`
+
+> Comming soon...
+
+Laravel follows the `PSR-2` coding standard with few formatting specifics we've added to this code style.
+
+### Code Style: `Wordpress`
+
+This formatting style is compliant with [Wordpress PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/#php).
+
+
 ### Code Style: PHP Tools
 
 The default code style is compliant with the formatting in PHP Tools for Visual Studio. This style focuses on leaving the code visual structure as untouched as possible while normalizing the whitespaces where possible.
@@ -231,7 +242,7 @@ To turn off the formatting select the setting `Off`. Remaining features like PHP
 
 ### Custom Code Style
 
-Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](customize-formatting).
+Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For a detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](customize-formatting).
 
 ## HTML, JS and CSS Formatting
 
