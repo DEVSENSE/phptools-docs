@@ -264,7 +264,7 @@ function foo($x, $y) { }
 
  > Comming soon...
 
-**Setting:** `php.format.rules.SpaceWithinArrayInitilizersParens`
+**Setting:** `php.format.rules.spaceWithinArrayInitilizersParens`
 
 Insert a space within array initializer parentheses.
 
