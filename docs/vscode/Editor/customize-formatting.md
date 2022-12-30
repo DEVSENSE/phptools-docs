@@ -224,24 +224,6 @@ function foo(): int {
 }
 ```
 
-#### Space within parentheses in arrow functions
-
- > Comming soon...
-
-**Setting:** `php.format.rules.spaceBeforeParenthesesInArrowFunctions`
-
-Insert a space before arrow function parentheses.
-
-**Enabled**
-```php
-$x = fn () => 1;
-```
-
-**Disabled**
-```php
-$x = fn() => 1;
-```
-
 #### Space within call parentheses
 
  > Comming soon...
