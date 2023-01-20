@@ -3,11 +3,15 @@ Title: Problems
 Description: Problems and code validation
 */
 
-# Problems and Code validation
+# Problems and Code Validation
 
-The entire workspace is continuously analyzed for potential issues and problems. They are all listed in the VSCode's Problems window where the user can filter and navigate to certain issues.
+The core of the PHP extension relies on its static code analysis; built-in type inferring and validation resolve wide range of code diagnostics - making sure your code is correct, providing instantaneous problem reports. The analysis understands PHPStan, Psalm, phpstorm meta files, and other frequently used annotations.
+
+The code analysis can be configured to analyze the whole workspace and subsequent changes, with a little CPU overhead. See [diagnostics](https://docs.devsense.com/en/vs/code%20validation/diagnostics) for the most common issues detected by the extension.
 
 ![Problems Window](imgs/problems-window.png)
+
+Analysis can be configured for specific files, and specific diagnostic codes.
 
 ## `.editorconfig`
 
@@ -55,7 +59,7 @@ Problems can be disabled in VSCode's `settings.json` file.
 
 ### `php.problems.scope`
 
-By default, static analysis reports all problems found in any document that is opened (`"opened"` setting value). It can be configured to analyse nothing (`"none"`), user files (`"user"`), opened files (`"opened"`), or even the entire workspace almost instantaneously (`"all"`). Details for the possible settings are:
+By default, static analysis reports all problems found in any document that is opened (`"opened"` setting value). It can be configured to analyze nothing (`"none"`), user files (`"user"`), opened files (`"opened"`), or even the entire workspace almost instantaneously (`"all"`). Details for the possible settings are:
 
 **Values:**
 
