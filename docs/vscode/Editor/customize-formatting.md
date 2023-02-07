@@ -186,8 +186,6 @@ $x = fn() => 1;
 
 #### Space before colon `:` in control flow statements
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceBeforeColonInControflowStatements`
 
 Insert a space before colon in control flow blocks.
@@ -206,7 +204,6 @@ endif;
 
 #### Space before colon `:` in return type
 
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceBeforeColonInReturnType`
 
@@ -226,8 +223,6 @@ function foo(): int {
 
 #### Space within call parentheses
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceWithinCallParens`
 
 Insert a space within method, function and constructor call parentheses.
@@ -243,8 +238,6 @@ foo(1, 2);
 ```
 
 #### Space within declaration parentheses
-
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceWithinDeclParens`
 
@@ -262,7 +255,6 @@ function foo($x, $y) { }
 
 #### Space within array initializer parentheses
 
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceWithinArrayInitilizersParens`
 
@@ -316,8 +308,6 @@ while ($a != $b) { }
 
 #### Space within `for` parentheses
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceWithinForParens`
 
 Insert a space within `for` statement header parentheses.
@@ -334,7 +324,6 @@ for ($i = 0; $i < 100; $i++) { }
 
 #### Space within `foreach` parentheses
 
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceWithinForeachParens`
 
@@ -352,8 +341,6 @@ foreach ($expr as $key => $value) { }
 
 #### Space within `switch` parentheses
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceWithinSwitchParens`
 
 Insert a space within `switch` statement header parentheses.
@@ -369,8 +356,6 @@ switch ($x) { }
 ```
 
 #### Space within `catch` parentheses
-
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceWithinCatchParens`
 
@@ -388,8 +373,6 @@ try { } catch (Exception) { }
 
 #### Space within brackets `[]`
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceWithinBrackets`
 
 Insert a space within brackets.
@@ -406,8 +389,6 @@ $y = $x[1];
 
 #### Space within brackets `[]` around expression
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceWithinBracketsAroundExpression`
 
 Insert a space within brackets around expression.
@@ -423,8 +404,6 @@ $y = $x[$i + 1];
 ```
 
 #### Space within parentheses around expression
-
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceWithinExpressionParens`
 
@@ -992,8 +971,6 @@ use Vendor\pkg\ns\{ns1\A,
 ```
 
 ### Assignment statement
-
- > Comming soon...
 
 **Setting:** `php.format.rules.alignConsecutiveAssignments`
 
