@@ -208,7 +208,7 @@ $x = fn() => 1;
 
 #### Space before colon `:` in control flow statements
 
-**Setting:** `php.format.rules.spaceBeforeColonInControflowStatements`
+**Setting:** `php.format.rules.spaceBeforeColonInControlStatements`
 
 Insert a space before colon in control flow blocks.
 
