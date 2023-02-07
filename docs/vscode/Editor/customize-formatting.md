@@ -12,6 +12,28 @@ Since version `1.24` customizable formatter is available for <span class="label 
 
 > **Note:** The list of options grows each release, please let us know what option are you missing.
 
+
+## General
+
+#### Keep control statements on one line
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.keepControlStatementsOnOneLine`
+
+Control statements are kept on one line.
+
+**Enabled**
+```php
+if ($x) return;
+```
+
+**Disabled**
+```php
+if ($x)
+	return;
+```
+
 ## Braces
 
 #### Open brace on a new line for functions
