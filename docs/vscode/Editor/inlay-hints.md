@@ -3,9 +3,9 @@ Title: Inlay Hints
 Description: 
 */
 
-> available since `1.31` (or `1.30` pre-release)
-
 # Inlay Hints
+
+> available since `1.31` (or `1.30` pre-release)
 
 Inlay Hints are additional intra-text-information appearing in code. They add contextual and type data, which makes the code easier to read and navigate.
 
