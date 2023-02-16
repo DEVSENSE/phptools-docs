@@ -44,6 +44,12 @@ Double-click on the inlay hint to insert the return type into the code.
 
 **Setting:** `"php.inlayHints.types.return": true`
 
+## Variable Assignment Type
+
+Variable assignments are annotated with the resulting type.
+
+**Setting:** `"php.inlayHints.types.variable": true`
+
 ## Customization
 
 In addition to the **settings** above, there are global settings:
