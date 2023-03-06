@@ -17,8 +17,6 @@ Since version `1.24` customizable formatter is available for <span class="label 
 
 #### Keep control statements on one line
 
- > Comming soon...
-
 **Setting:** `php.format.rules.keepControlStatementsOnOneLine`
 
 Control statements are kept on one line.
@@ -294,8 +292,6 @@ $x = array(1 => "first", 2 => "second");
 
 #### Space within `if` parentheses
 
- > Comming soon...
-
 **Setting:** `php.format.rules.spaceWithinIfParens`
 
 Insert a space within `if` statement header parentheses.
@@ -311,8 +307,6 @@ if (true) { }
 ```
 
 #### Space within `while` parentheses
-
- > Comming soon...
 
 **Setting:** `php.format.rules.spaceWithinWhileParens`
 
