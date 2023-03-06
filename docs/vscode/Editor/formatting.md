@@ -47,6 +47,9 @@ There are various code styles available:
 - [PSR-2](##PSR-2)
 - [Allman](##Allman)
 - [K&R](##K&R)
+- [Laravel](##laravel)
+- [Wordpress](##wordpress)
+- [Drupal](##drupal)
 
  The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their sections.
 
