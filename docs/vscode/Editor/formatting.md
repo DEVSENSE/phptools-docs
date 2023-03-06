@@ -42,14 +42,14 @@ Setting | Effect
 ## Code Styles
 
 There are various code styles available:
-- [PSR-12](##PSR-12)
-- [PHP Tools](##PHP-Tools)
-- [PSR-2](##PSR-2)
-- [Allman](##Allman)
-- [K&R](##K&R)
-- [Laravel](##laravel)
-- [Wordpress](##wordpress)
-- [Drupal](##drupal)
+- [PSR-12](#code-style-psr-12)
+- [PHP Tools](#code-style-php-tools)
+- [PSR-2](#code-style-psr-2)
+- [Allman](#code-style-allman)
+- [K&R](#code-style-kr)
+- [Laravel](#code-style-laravel)
+- [Wordpress](#code-style-wordpress)
+- [Drupal](#code-style-drupal)
 
  The styles are selected in [settings](#Configuration). The styles share most features, summed up in the following table, while they differ in a couple of details, explained in their sections.
 
@@ -202,8 +202,6 @@ while ($x == $y) {
 ```
 
 ### Code Style: `Laravel`
-
-> Comming soon...
 
 Laravel follows the `PSR-2` coding standard with few formatting specifics we've added to this code style.
 
