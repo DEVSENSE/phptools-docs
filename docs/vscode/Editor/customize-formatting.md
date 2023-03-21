@@ -628,7 +628,7 @@ function foo(
 
 ### `While` statement
 
-#### Wrap
+#### New line after `(`
 
 **Setting:** `php.format.rules.whileStatementNewLineAfterLeftParen`
 
