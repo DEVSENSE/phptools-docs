@@ -88,7 +88,7 @@ You will have to choose among 3 options:
 
  - "More information" will open [this web page](https://www.devsense.com/en/purchase) with purchase options and license information.
 
- Once you have the license key and close the pop-up window above, you can activate your copy of the extension using the `VSCode's View - Command Palette` (<kbd>Cmd+Shift+P</kbd>), command `PHP Tools: Activate extension`. Enter your license key and confirm pressing `Enter`. 
+ Once you have the license key and close the pop-up window above, you can activate your copy of the extension using the `VSCode's View - Command Palette` (<kbd>Cmd+Shift+P</kbd>), command `PHP Tools: Activate License`. Enter your license key and confirm pressing `Enter`. 
 
  ![Enter License Key](img/enter-license-key.png)
 

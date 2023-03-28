@@ -32,7 +32,7 @@ En caso de que la extensión no haya sido activada, una ventana emergente se mue
 - `Get trial` le envía un email con una clave de licencia válida por 14 días.
 - `More information` abre la [página web](https://www.devsense.com/purchase) de información sobre la licencia y compra
 
-Una vez que obtenga su clave de licencia y cierre la ventana emergente comentada más arriba, puede activar su copia de la extensión utilizando `Command palette`, comando `PHP Tools: Activate extension`. Ingrese su clave de licencia y confirme presionando `Enter`.
+Una vez que obtenga su clave de licencia y cierre la ventana emergente comentada más arriba, puede activar su copia de la extensión utilizando `Command palette`, comando `PHP Tools: Activate License`. Ingrese su clave de licencia y confirme presionando `Enter`.
 
 ![Enter License Key](imgs/enter-license-key.png)
 

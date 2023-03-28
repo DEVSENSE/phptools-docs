@@ -33,7 +33,7 @@ In case the extension is not activated, a pop-up window is shown during the exte
 - `Get trial` sends you an e-mail with a 30-day license key.
 - `More information` opens [this web page](https://www.devsense.com/purchase) with purchase and license information.
 
-Once you obtain the license key and you close the pop-up window above, you can activate your copy of the extension using the VSCode's `Command palette`, command `PHP Tools: Activate extension`. Enter your license key and confirm with `Enter`.
+Once you obtain the license key and you close the pop-up window above, you can activate your copy of the extension using the VSCode's `Command palette`, command `PHP Tools: Activate License`. Enter your license key and confirm with `Enter`.
 
 ![Enter License Key](imgs/enter-license-key.png)
 
