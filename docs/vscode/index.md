@@ -5,15 +5,16 @@ Description: PHP Tools for VS Code - Getting Started.
 
 # Getting Started
 
-Welcome to PHP Tools for Visual Studio Code. This extension turns your Visual Studio Code into a powerful PHP development environment, including code editor, debugger, built-in server, and PHPUnit tester.
+Welcome to PHP Tools for Visual Studio Code. This extension turns your Visual Studio Code into a powerful PHP development environment, including a code editor, debugger, built-in server, and PHPUnit tester.
 
-## Product Activation
+## Premium Features
 
-The product is licensed to our active subscribers. See [the purchase page](https://www.devsense.com/purchase) for more information.
+Premium features are enabled for our active subscribers. See [the purchase page](https://www.devsense.com/purchase) for more information.
 
-Open the `Command Palette` from the `View` menu and search for the command `PHP Tools: Activate License`. Enter the license key into the pop-up window below and press `Enter`. Note: the activation process requires an Internet connection.
+**Activation**: Open the `Command Palette` from the `View` menu and search for the command **`PHP Tools: Activate License`**. Enter the license key into the pop-up window below and press `Enter`. Note: the activation process requires an Internet connection.
+  ![Enter License Key](imgs/enter-license-key.png)
 
-![Enter License Key](imgs/enter-license-key.png)
+**Trial**: Try the premium features for free. Open the `Command Palette` and search for the command **`PHP Tools: Begin Free Trial ...`**.
 
 ## Opening a Folder
 
