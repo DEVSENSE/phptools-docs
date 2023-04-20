@@ -626,6 +626,34 @@ function foo(
 }
 ```
 
+#### Keep `)` and `{` on one line
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.declKeepRightParenAndOpenBraceOnOneLine`
+
+Keep the right closing parenthesis `)` of a function or method declaration header on the one line as opening brace of the body `{`.
+
+**Enabled**
+```php
+function foo(
+    $x,
+    $y
+) {
+}
+```
+
+**Disabled**
+```php
+function foo(
+    $x,
+    $y
+)
+{
+}
+```
+
+
 ### `While` statement
 
 #### New line after `(`
