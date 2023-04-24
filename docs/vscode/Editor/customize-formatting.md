@@ -114,6 +114,48 @@ class X extends \Foo implements
 }
 ```
 
+#### Open brace on a new line for namespaces
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.openBraceOnNewLineForNamespaces`
+
+Place open brace `{` on a new line for namespace declarations.
+
+**Enabled**
+```php
+namespace A
+{
+}
+```
+
+**Disabled**
+```php
+namespace A {
+}
+```
+
+#### Open brace on a new line for blocks
+
+ > Comming soon...
+
+**Setting:** `php.format.rules.openBraceOnNewLineForBlocks`
+
+Place open brace `{` on a new line for all types of code blocks, except for those controlled by other formatting rules.
+
+**Enabled**
+```php
+if (true)
+{
+}
+```
+
+**Disabled**
+```php
+if (true) {
+}
+```
+
 ## Indentation
 
 #### Indent braces
