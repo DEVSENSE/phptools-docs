@@ -246,6 +246,68 @@ $x = fn () => 1;
 $x = fn() => 1;
 ```
 
+#### Space before parentheses in control statements
+
+**Setting:** `php.format.rules.spaceBeforeParenthesesInControlStatements`
+
+ > Comming soon...
+
+Insert a space before parentheses in control statements.
+
+**Enabled**
+```php
+if (true)
+{
+}
+```
+
+**Disabled**
+```php
+if(true)
+{
+}
+```
+
+#### Space before parentheses in function calls
+
+**Setting:** `php.format.rules.spaceBeforeParenthesesInCalls`
+
+ > Comming soon...
+
+Insert a space before parentheses in method, function and constructor call parentheses.
+
+**Enabled**
+```php
+foo ();
+```
+
+**Disabled**
+```php
+foo();
+```
+
+#### Space before parentheses in declarations
+
+**Setting:** `php.format.rules.spaceBeforeParenthesesInDeclarations`
+
+ > Comming soon...
+
+Insert a space before parentheses in method, function and constructor declaration parentheses.
+
+**Enabled**
+```php
+function foo ()
+{
+}
+```
+
+**Disabled**
+```php
+function foo()
+{
+}
+```
+
 #### Space before colon `:` in control flow statements
 
 **Setting:** `php.format.rules.spaceBeforeColonInControlStatements`
