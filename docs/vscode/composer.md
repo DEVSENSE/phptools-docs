@@ -163,7 +163,17 @@ The extension provides schema validation for `composer.json` files, maintained b
 
 ## Configuration
 
-The extension automatically downloads `composer.phar` latest snapshot, and uses it. The location respects the Composer default installation path which can be changed by setting the `COMPOSER_HOME` environment variable.
+If there's an existing installation of `composer.phar` under the following paths, it's used as it is:
+
+- `/usr/bin/composer` (Linux/OsX)
+- `/usr/local/bin/composer` (Linux/OsX)
+- `${COMPOSER_HOME}/composer.phar`
+- `.composer/composer.phar` under user's home (Linux, OsX)
+- `${APP_DATA}/Composer/composer.phar` (Windows)
+
+Otherwise, the extension automatically downloads `composer.phar` latest snapshot, uses it, and keeps it updated. The location respects the Composer default installation path which can be changed by setting the `COMPOSER_HOME` environment variable.
+
+### Additional Settings
 
 | Setting | Description |
 | --- | --- |
