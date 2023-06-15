@@ -178,6 +178,7 @@ Otherwise, the extension automatically downloads `composer.phar` latest snapshot
 | Setting | Description |
 | --- | --- |
 | `php.executablePath` | The value is used to determine `php` executable path for running composer commands. If not set, `"php"` is used by default.<br/><br/>In case, there is [PHP Tools](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) extension installed, composer commands are executed using `php` set with [PHP Version Picker](https://docs.devsense.com/vscode/php-version). |
+| `composer.workingPath` | The relative path for the composer.json |
 
 ## Related links
 
