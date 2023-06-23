@@ -18,8 +18,8 @@ Setting | Values | Description
 `php.executablePath` | Full path to the `php` executable, or not set. | Legacy option. Specifies the full path to the `php` executable that will be used within [test explorer](test-explorer), [debugging](debug), and to determine the PHP version for code validation.
 `php.completion.autoimport` | "auto-import", "fqn", "none", "hide" | Configures how to treat completion of names outside the current namespace. See [auto-import](editor/auto-import).
 `php.format.codeStyle` | "PHP Tools", "PSR-2" | Code formatting profile.
+`php.problems.scope` | "none", "opened", "user", "all" | What workspace folders get analyzed for problems. Default is `"user"` which excludes "/vendor" folder. _Note, **fatal errors** and **parse errors** are always reported across the entire workspace._
 [`php.problems.exclude`](problems#configuration) | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems#configuration).
-`php.problems.workspaceAnalysis` | "true", "false" | Allows to disable the full workspace analysis. Recommended for larger projects.
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processed by the code analysis engine (code completion, navigation, problems).
 `debug.inlineValues` | `true`, `false` | Enables or disables showing values relevant to the currently debugged statement.
 
