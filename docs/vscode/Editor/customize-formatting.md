@@ -116,8 +116,6 @@ class X extends \Foo implements
 
 #### Open brace on a new line for namespaces
 
- > Comming soon...
-
 **Setting:** `php.format.rules.openBraceOnNewLineForNamespaces`
 
 Place open brace `{` on a new line for namespace declarations.
@@ -136,8 +134,6 @@ namespace A {
 ```
 
 #### Open brace on a new line for blocks
-
- > Comming soon...
 
 **Setting:** `php.format.rules.openBraceOnNewLineForBlocks`
 
@@ -250,8 +246,6 @@ $x = fn() => 1;
 
 **Setting:** `php.format.rules.spaceBeforeParenthesesInControlStatements`
 
- > Comming soon...
-
 Insert a space before parentheses in control statements.
 
 **Enabled**
@@ -272,8 +266,6 @@ if(true)
 
 **Setting:** `php.format.rules.spaceBeforeParenthesesInCalls`
 
- > Comming soon...
-
 Insert a space before parentheses in method, function and constructor call parentheses.
 
 **Enabled**
@@ -289,8 +281,6 @@ foo();
 #### Space before parentheses in declarations
 
 **Setting:** `php.format.rules.spaceBeforeParenthesesInDeclarations`
-
- > Comming soon...
 
 Insert a space before parentheses in method, function and constructor declaration parentheses.
 
@@ -731,8 +721,6 @@ function foo(
 ```
 
 #### Keep `)` and `{` on one line
-
- > Comming soon...
 
 **Setting:** `php.format.rules.declKeepRightParenAndOpenBraceOnOneLine`
 
