@@ -33,6 +33,7 @@ PHP code profiling allows you to inspect how much time and how many calls were m
         ],
         "noDebug": true, // <-- disable debugging
         "profile": true, // <-- enable profiling
+        "openProfile": false, // <-- whether to open profiling results after session ends
     }
     ```
 
