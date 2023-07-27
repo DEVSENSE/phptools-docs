@@ -52,7 +52,7 @@ PHP Tools for Visual Studio enables debugging of PHP command-line applications.
 
 To launch your script with certain command-line arguments, insert them as a Debug property.
 
-Right-click on your project in the **Solution Explorer** and choose **Properties**, then select the **Debug** tab. Here, you can add the following options:
+Right-click on your project in the **Solution Explorer** and choose **Properties**, then select the **Server** tab. Here, you can add the following options:
 
 - Command line arguments
 - PHP Options

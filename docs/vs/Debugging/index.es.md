@@ -51,7 +51,7 @@ PHP Tools for Visual Studio permite la depuración de aplicaciones de línea de 
 
 Para ejecutar su script con argumentos de línea de comando determinados, insértelos como propiedad de depuración.
 
-Haga clic con el botón derecho en el **Explorador de soluciones** de su proyecto y elija **Propiedades**, después seleccione la pestaña **Depurar**. Allí puede añadir las siguientes opciones:
+Haga clic con el botón derecho en el **Explorador de soluciones** de su proyecto y elija **Propiedades**, después seleccione la pestaña **Servidor**. Allí puede añadir las siguientes opciones:
 
 - Argumentos de línea de comando
 - Opciones PHP
