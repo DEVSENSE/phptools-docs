@@ -82,8 +82,8 @@ The setting allows to exclude problems found in specified files or entire direct
 
 ```json
 "php.problems.exclude" : {
-    'path' : true,
-    'path' : [1111, 2222],
+    "path" : true,
+    "path" : [1111, 2222],
 }
 ```
 
