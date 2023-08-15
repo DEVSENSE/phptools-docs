@@ -746,7 +746,7 @@ function foo(
 ```
 
 
-### `While` statement
+### `while` statement
 
 #### New line after `(`
 
