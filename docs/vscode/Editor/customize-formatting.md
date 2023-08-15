@@ -1130,7 +1130,7 @@ $ccccc = 3;
 
 **Setting:** `php.format.rules.alignConstants`
 
- > Comming soon...
+ > Coming soon...
 
 Automatically align constant declarations
 
@@ -1156,7 +1156,7 @@ class X {
 
 **Setting:** `php.format.rules.alignEnumCases`
 
- > Comming soon...
+ > Coming soon...
 
 Automatically align assigned values in backed enumerations
 
