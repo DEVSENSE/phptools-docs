@@ -1125,3 +1125,55 @@ $a = 1;
 $bbb = 2;
 $ccccc = 3;
 ```
+
+### Constant groups
+
+**Setting:** `php.format.rules.alignConstants`
+
+ > Comming soon...
+
+Automatically align constant declarations
+
+**Enabled**
+```php
+class X {
+    const a   = 1;
+    const bb  = 2;
+    const ccc = 3;
+}
+```
+
+**Disabled**
+```php
+class X {
+    const a = 1;
+    const bb = 2;
+    const ccc = 3;
+}
+```
+
+### Enum cases
+
+**Setting:** `php.format.rules.alignEnumCases`
+
+ > Comming soon...
+
+Automatically align assigned values in backed enumerations
+
+**Enabled**
+```php
+enum X {
+    case a   = 1;
+    case bb  = 2;
+    case ccc = 3;
+}
+```
+
+**Disabled**
+```php
+enum X {
+    case a = 1;
+    case bb = 2;
+    case ccc = 3;
+}
+```
