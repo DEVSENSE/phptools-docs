@@ -59,14 +59,13 @@ Problems can be disabled in VSCode's `settings.json` file.
 
 ### `php.problems.scope`
 
-By default, static analysis reports all problems found in any document that is opened (`"opened"` setting value). It can be configured to analyze nothing (`"none"`), user files (`"user"`), opened files (`"opened"`), or even the entire workspace almost instantaneously (`"all"`). Details for the possible settings are:
+By default, static analysis reports all problems found in any document that is opened (`"opened"` setting value). It can be configured to analyze nothing (`"none"`), opened files (`"opened"`), or even the entire workspace almost instantaneously (`"all"`). Details for the possible settings are:
 
 **Values:**
 
-- `"php.problems.scope": "none"`: No problems analysis is performed. **Note**, this also disables unused `use` check, unreachable code checks, and others.
+- `"php.problems.scope": "none"`: No analysis is performed. **Note**, this also disables unused `use` check, unreachable code checks, some code actions, and others.
 - `"php.problems.scope": "opened"`: Only PHP documents opened in the editor are checked for problems. **Note**, parse errors are still reported in all files across the entire workspace.
-- `"php.problems.scope": "user"`: _(default)_ Problems are checked in the workspace files excluding `/vendor/**` and other framework-specific directories (such as `/wp-includes/` in WordPress, etc.).
-- `"php.problems.scope": "all"`: Enables problems analysis across the entire workspace.
+- `"php.problems.scope": "all"`: Enables problems analysis across the entire workspace. **Note**, `/vendor/` is not analysed.
 
 **Example:**
 
