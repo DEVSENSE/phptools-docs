@@ -1134,8 +1134,6 @@ $ccccc = 3;
 
 **Setting:** `php.format.rules.alignConstants`
 
-> Coming soon...
-
 Automatically align constant declarations
 
 **Enabled**
@@ -1163,8 +1161,6 @@ class X {
 
 **Setting:** `php.format.rules.alignEnumCases`
 
-> Coming soon...
-
 Automatically align assigned values in backed enumerations
 
 **Enabled**
@@ -1183,4 +1179,82 @@ enum X {
     case bb = 2;
     case ccc = 3;
 }
+```
+
+## Conversions
+
+### Array Initializers
+
+#### Add a comma after the last array element
+
+**Setting:** `php.format.rules.addCommaAfterLastArrayElement`
+
+> Coming soon...
+
+Automatically adds a comma after the last array element if it's not on a single line.
+
+**Enabled**
+```php
+$x = [
+    1,
+    2,
+];
+```
+
+**Disabled**
+```php
+$x = [
+    1,
+    2
+];
+```
+
+### Parameters
+
+#### Add a comma after the last function call parameters
+
+**Setting:** `php.format.rules.addCommaAfterLastCallParameter`
+
+> Coming soon...
+
+Automatically adds a comma after the last function call parameter if it's not on a single line.
+
+**Enabled**
+```php
+foo(
+    1,
+    2,
+);
+```
+
+**Disabled**
+```php
+foo(
+    1,
+    2
+);
+```
+
+#### Add a comma after the last function declaration parameters
+
+**Setting:** `php.format.rules.addCommaAfterLastDeclParameter`
+
+> Coming soon...
+
+Automatically adds a comma after the last function or method declaration parameter if it's not on a single line.
+
+**Enabled**
+```php
+function foo(
+    $x,
+    $y,
+);
+```
+
+**Disabled**
+```php
+foo(
+    $x,
+    $y
+);
 ```
