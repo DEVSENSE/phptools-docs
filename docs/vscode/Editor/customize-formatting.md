@@ -1108,6 +1108,8 @@ use Vendor\pkg\ns\{ns1\A,
 
 ### Assignment statement
 
+#### Align consecutive `=` assignments.
+
 **Setting:** `php.format.rules.alignConsecutiveAssignments`
 
 Automatically align consecutive `=` assignments
@@ -1126,7 +1128,9 @@ $bbb = 2;
 $ccccc = 3;
 ```
 
-### Constant groups
+### Constants
+
+#### Align constants
 
 **Setting:** `php.format.rules.alignConstants`
 
@@ -1152,7 +1156,10 @@ class X {
 }
 ```
 
-### Enum cases
+
+### Enums
+
+#### Align enum cases
 
 **Setting:** `php.format.rules.alignEnumCases`
 
