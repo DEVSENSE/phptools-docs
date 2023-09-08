@@ -1258,3 +1258,29 @@ foo(
     $y
 );
 ```
+
+#### Constants
+
+#### Boolean constant casing
+
+**Setting:** `php.format.rules.booleanConstantCasing`
+
+> Coming soon...
+
+Defines casing for `true` and `false` constants.
+
+* `uppercase` - Changes the casing to upper case
+* `lowercase` - Changes the casing to lower case
+* `keep` - Keeps the original casing
+
+#### Null constant casing
+
+**Setting:** `php.format.rules.nullConstantCasing`
+
+> Coming soon...
+
+Defines casing for `null` constant.
+
+* `uppercase` - Changes the casing to upper case
+* `lowercase` - Changes the casing to lower case
+* `keep` - Keeps the original casing
