@@ -39,7 +39,7 @@ When IntelliPHP offers a suggestion, you can effortlessly incorporate it into yo
 
 **Continuous Typing:** If a suggestion isn't what you need, continue typing, and the suggestion will disappear. A new one might appear if it's a better fit for your code.
 
-![Alt text](../imgs/intelliphp-vscode.gif)
+![IntelliPHP helping with Laravel snippet](../imgs/intelliphp-vscode.gif)
 
 
 ## Pre-selecting the item in the completion list
