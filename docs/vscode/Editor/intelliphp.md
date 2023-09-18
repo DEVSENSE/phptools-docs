@@ -41,6 +41,15 @@ When IntelliPHP offers a suggestion, you can effortlessly incorporate it into yo
 
 ![Alt text](../imgs/intelliphp-vscode.gif)
 
+
+## Pre-selecting the item in the completion list
+
+When you are using IntelliPHP with [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) you will get intelligent pre-selection of the most probable item in the completion list.
+
+
+![Intelligent pre-selection in the vscode completion list](../imgs/completionlist-star.png)
+
+
 ## Troubleshooting
 
 Encountering issues? Please let us know at [community.devsense.com](https://community.devsense.com)
