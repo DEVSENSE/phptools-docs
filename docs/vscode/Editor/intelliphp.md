@@ -5,7 +5,9 @@ Description: AI Autocomplete for PHP
 
 # IntelliPHP - AI Autocomplete for PHP
 
-IntelliPHP is an advanced AI-assisted development tool specifically tailored for PHP programmers. Just like its counterpart **IntelliCode**, IntelliPHP harnesses the power of machine learning to understand PHP code and provide context-aware suggestions. Unlike GitHub Copilot, IntelliPHP operates entirely locally, ensuring that code remains secure and private within their own development environments.
+IntelliPHP is an advanced AI-assisted development tool specifically tailored for PHP programmers. Just like its counterpart _IntelliCode_, IntelliPHP harnesses the power of machine learning to understand PHP code and provide context-aware suggestions. Unlike GitHub _Copilot_, IntelliPHP operates entirely locally, ensuring that code remains secure and private within their own development environments.
+
+![intelliphp logo](../imgs/intelliphp-logo.png)
 
 The primary aim of IntelliPHP is to save developers time spent in typing code. It's designed to offer suggestions ranging from short and highly likely suggestions up to whole lines of code. The model has been trained in-house on vast repositories of PHP code, making it adept at providing accurate and relevant suggestions tailored to PHP development.
 
@@ -43,14 +45,11 @@ You can also accept just a current word in the offered suggestion by pressing <k
 
 ![IntelliPHP helping with Laravel snippet](../imgs/intelliphp-vscode.gif)
 
-
 ## Pre-selecting the item in the completion list
 
 When you are using IntelliPHP with [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) you will get intelligent pre-selection of the most probable item in the completion list.
 
-
 ![Intelligent pre-selection in the vscode completion list](../imgs/completionlist-star.png)
-
 
 ## Troubleshooting
 
