@@ -1181,6 +1181,34 @@ enum X {
 }
 ```
 
+### Match expression
+
+#### Align `match` arm bodies
+
+> Coming soon...
+
+**Setting:** `php.format.rules.alignMatchArmBodies`
+
+Automatically align the bodies (results) within `match` expression arms
+
+**Enabled**
+```php
+match ($day) {
+    'Monday'    => 'Work',
+    'Tuesday'   => 'Tacos',
+    'Wednesday' => 'Waffles'
+};
+```
+
+**Disabled**
+```php
+match ($day) {
+    'Monday' => 'Work',
+    'Tuesday' => 'Tacos',
+    'Wednesday' => 'Waffles'
+};
+```
+
 ## Conversions
 
 ### Array Initializers
