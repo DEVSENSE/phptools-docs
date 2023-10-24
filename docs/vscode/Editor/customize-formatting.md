@@ -1215,8 +1215,6 @@ $x = [
 
 **Setting:** `php.format.rules.addCommaAfterLastCallParameter`
 
-> Coming soon...
-
 Automatically adds a comma after the last function call parameter if it's not on a single line.
 
 **Enabled**
@@ -1239,8 +1237,6 @@ foo(
 
 **Setting:** `php.format.rules.addCommaAfterLastDeclParameter`
 
-> Coming soon...
-
 Automatically adds a comma after the last function or method declaration parameter if it's not on a single line.
 
 **Enabled**
@@ -1248,15 +1244,15 @@ Automatically adds a comma after the last function or method declaration paramet
 function foo(
     $x,
     $y,
-);
+) {}
 ```
 
 **Disabled**
 ```php
-foo(
+function foo(
     $x,
     $y
-);
+) {}
 ```
 
 #### Constants
@@ -1264,8 +1260,6 @@ foo(
 #### Boolean constant casing
 
 **Setting:** `php.format.rules.booleanConstantCasing`
-
-> Coming soon...
 
 Defines casing for `true` and `false` constants.
 
@@ -1276,8 +1270,6 @@ Defines casing for `true` and `false` constants.
 #### Null constant casing
 
 **Setting:** `php.format.rules.nullConstantCasing`
-
-> Coming soon...
 
 Defines casing for `null` constant.
 
