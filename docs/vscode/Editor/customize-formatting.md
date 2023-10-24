@@ -1189,8 +1189,6 @@ enum X {
 
 **Setting:** `php.format.rules.addCommaAfterLastArrayElement`
 
-> Coming soon...
-
 Automatically adds a comma after the last array element if it's not on a single line.
 
 **Enabled**
