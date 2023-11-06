@@ -21,6 +21,14 @@ IntelliPHP seamlessly integrates with Visual Studio Code, enhancing your PHP dev
 
 3. **Configuration:** After the installation, no further configuration is required.
 
+## Settings
+
+You can enable or disable the AI suggestions by configuring the following option in your `settings.json` file:
+
+```json
+"intelliphp.inlineSuggestionsEnabled" : true
+```
+
 ## Features
 
 IntelliPHP is designed to save you time and boost your productivity. Here are some of its key features:
