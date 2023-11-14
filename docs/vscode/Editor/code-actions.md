@@ -55,6 +55,16 @@ Any `use`, group of `use`, or a single alias that is not needed in the code is i
 
 Code action `Remove unnecessary 'use'` quickly cleanups the block of uses.
 
+### Remove and Sort Uses on Save
+
+To automatically organize `use`s (remove unused ones and sort the rest), open your [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings), and add the following:
+
+```json
+"editor.codeActionsOnSave": {
+    "source.organizeImports": true
+}
+```
+
 ### Fix typo in PHPDoc keyword
 
 Error `PHP6503` suggests that there is a typo in the PHPDoc keyword and offers a quick fix.
