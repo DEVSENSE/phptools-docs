@@ -1224,8 +1224,6 @@ enum X {
 
 #### Align `match` arm bodies
 
-> Coming soon...
-
 **Setting:** `php.format.rules.alignMatchArmBodies`
 
 Automatically align the bodies (results) within `match` expression arms
