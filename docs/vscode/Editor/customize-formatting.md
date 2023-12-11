@@ -32,6 +32,45 @@ if ($x)
 	return;
 ```
 
+#### Keep functions on one line
+
+> Coming soon...
+
+**Setting:** `php.format.rules.KeepFunctionsOnOneLine`
+
+Functions and methods are kept on one line.
+
+**Enabled**
+```php
+function foo() { return 1; }
+```
+
+**Disabled**
+```php
+function foo() {
+    return 1;
+}
+```
+
+#### Keep classes on one line
+
+> Coming soon...
+
+**Setting:** `php.format.rules.KeepClassesOnOneLine`
+
+Clasess are kept on one line.
+
+**Enabled**
+```php
+class x { }
+```
+
+**Disabled**
+```php
+class x {
+}
+```
+
 ## Braces
 
 #### Open brace on a new line for functions
