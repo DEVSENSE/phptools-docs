@@ -36,7 +36,7 @@ if ($x)
 
 > Coming soon...
 
-**Setting:** `php.format.rules.KeepFunctionsOnOneLine`
+**Setting:** `php.format.rules.keepFunctionsOnOneLine`
 
 Functions and methods are kept on one line.
 
@@ -56,7 +56,7 @@ function foo() {
 
 > Coming soon...
 
-**Setting:** `php.format.rules.KeepClassesOnOneLine`
+**Setting:** `php.format.rules.keepClassesOnOneLine`
 
 Clasess are kept on one line.
 
