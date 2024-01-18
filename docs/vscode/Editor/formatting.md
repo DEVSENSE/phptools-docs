@@ -142,3 +142,8 @@ PHP Tools support HTML, JavaScript and CSS formatting in PHP files. The formatti
  - [HTML Formatting](https://code.visualstudio.com/docs/languages/html#_formatting)
  - [CSS Formatting](https://code.visualstudio.com/docs/languages/css#_formatting)
  - [Javascript Formatting](https://code.visualstudio.com/Docs/languages/javascript#_formatting)
+
+## See Also
+
+- [Customize Formatting](customize-formatting)
+- [Code Styles](code-styles)
