@@ -96,6 +96,10 @@ This formatting style is compliant with [Wordpress PHP Coding Standards](https:/
 
 This formatting style is compliant with [Drupal PHP Coding Standards](https://www.drupal.org/docs/develop/standards/php/php-coding-standards).
 
+### Code Style: `Joomla`
+
+This formatting style is compliant with [Joomla! Coding Standards](https://developer.joomla.org/coding-standards/php-code.html).
+
 
 ### Code Style: PHP Tools
 
