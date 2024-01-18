@@ -63,28 +63,6 @@ This formatting style is compliant with [PSR-12](https://www.php-fig.org/psr/psr
 
 This formatting style is compliant with [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) standards.
 
-Feature | Behavior
---- | ---
-Multi-line expressions | Subsequent lines are indented one level deeper than the initial line
-Code blocks | Body of a declarations starts on a new line, while control flow block starts on the same line as the construct
-
-```php
-// Multi-line expressions
-$x = $a +
-    $b +
-    $c;
-```
-
-```php
-// Code blocks
-function foo()
-{
-    if ($x) {
-        echo $x;
-    }
-}
-```
-
 ### Code Style: `Allman`
 
 The `Allman` style is named after Eric Allman. This style puts the braces on the next line. This applies to all control statements and declarations.
