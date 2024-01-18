@@ -41,15 +41,16 @@ Setting | Effect
 
 ## Code Styles
 
-There are various code styles available:
-- [PSR-12](#code-style-psr-12)
-- [PHP Tools](#code-style-php-tools)
-- [PSR-2](#code-style-psr-2)
-- [Allman](#code-style-allman)
-- [K&R](#code-style-kr)
-- [Laravel](#code-style-laravel)
-- [Wordpress](#code-style-wordpress)
-- [Drupal](#code-style-drupal)
+Explore various code styles in detail at [Code Styles](code-styles), including:
+- [PSR-12](code-styles#psr-12)
+- [PHP Tools](code-styles#php-tools)
+- [PSR-2](code-styles#psr-2)
+- [Allman](code-styles#allman)
+- [K&R](code-styles#kr)
+- [Laravel](code-styles#laravel)
+- [Wordpress](code-styles#wordpress)
+- [Drupal](code-styles#drupal)
+- [Joomla](code-styles#joomla)
 
  The styles are selected in [settings](#Configuration).
 
