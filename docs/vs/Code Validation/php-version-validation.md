@@ -13,6 +13,25 @@ All these errors can be fixed by switching to a newer version of PHP. If that is
 
 The following sections list some PHP features that are checked against the PHP version selected in the project properties.
 
+## PHP 8.3
+
+- typed class constants
+- anonymous readonly classes
+- dynamic class constant fetch
+- `#[Override]` attribute
+- Readonly amendments
+
+## PHP 8.2
+
+- readonly classes
+- Disjunctive Normal Form Types
+- Constants in traits
+- `#[\SensitiveParameter]` attribute
+- Fetch properties of enums in const expressions
+- Deprecate `${}` string interpolation
+- Deprecate partially supported callables
+- standalone true,false,null types (https://www.php.net/releases/8.2/en.php#null_false_true_types)
+
 ## PHP 8.1
 - new octal number syntax
 - read-only properties
