@@ -5,8 +5,6 @@ Description:
 
 # Inlay Hints
 
-> available since `1.31` (or `1.30` pre-release)
-
 Inlay Hints are additional intra-text-information appearing in code. They add contextual and type data, which makes the code easier to read and navigate.
 
 ![inlay hints in PHP](../imgs/vsc-inlay-hints.png)
@@ -49,6 +47,12 @@ Double-click on the inlay hint to insert the return type into the code.
 Variable assignments are annotated with the resulting type.
 
 **Setting:** `"php.inlayHints.types.variable": true`
+
+## `@psalm-trace` Type
+
+_(Available since 1.44)_ For "debugging" the editor's type inferrence, take advantage of `@trace` or `@psalm-trace` documentary comments tags. Inlay hint with the inferred type will be added to the expression.
+
+![inlay hints in PHP](../imgs/vsc-phpstan-trace.gif)
 
 ## Customization
 
