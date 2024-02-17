@@ -29,6 +29,25 @@ The code action supports adding getter only, setter only, or both. In case more 
 
 ![Add getters/setters for more properties](../imgs/getter-setter-more-properties.gif)
 
+#### Doc Block Settings
+
+Generated Doc Block above `__get`/`__set` is configurable using `"php.docblock.getterSetterSnippet"` setting.
+
+**Disable** doc block above getters and setters:
+
+```json
+"php.docblock.getterSetterSnippet": false
+```
+
+**Custom** tags in doc block with placeholders:
+
+```json
+"php.docblock.getterSetterSnippet": {
+    "summary": false,
+    "@author": "${name:John}"
+}
+```
+
 ### Missing abstract functions
 
 Error `PHP2414` indicates that the non-abstract class has some functions missing. The quick fix or code action automatically implements the missing abstract functions, including all the available documentation and type information. The generated code is inserted at the end of the class.
