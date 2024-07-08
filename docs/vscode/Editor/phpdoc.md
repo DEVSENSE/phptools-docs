@@ -5,13 +5,15 @@ Description: Writing and generating PHPDoc comments
 
 ## PHPDoc Completion
 
-PHPDoc block is completed by typing '`/**`'. This features requires you to enable `Format On Type` setting (`"editor.formatOnType": true`).
+PHPDoc block is completed by typing '`/**`' or using a code action.
 
 ![PHPDoc generation](../imgs/phpdoc-generate.gif)
 
 PHPDoc tags are completed by typing '`@`' inside the PHPDoc block.
 
 ![PHPDoc code completion](../imgs/phpdoc-codeactions.gif)
+
+Type names inside PHPDoc are completed as well. It is triggered automatically in most cases, or use the corresponding shortcut for `editor.action.triggerSuggest` command (`Ctrl+Space` on Windows).
 
 ## PHPDoc Generation
 
@@ -23,7 +25,7 @@ The PHPDoc block is generated automatically by typing '`/**`' above the followin
 - properties
 - constants
 
-The generated PHPDoc block contains inferred types, exceptions, and lists function parameters.
+The generated PHPDoc block contains inferred types, exceptions, and lists function parameters. In case of a function override, the PHPDoc block may contain `{@inheritDoc}` annotation instead, so it inherits all the information from the base class properly.
 
 ## PHPDoc Type Hints
 
@@ -40,6 +42,11 @@ function foo($x) {
 }
 ```
 
+Type hints are supported within the vast array of tags, including standard Doc Comment tags (i.e. `@return`, `@param`), PhpStan tags (i.e. `@phpstan-assert`, `@phpstan-template`, ..), or Psalm. They do support the generic type annotations, WordPress type annotations, MediaWiki annotations, and more. 
+
+Additionally, type hints are highlighted with colors defined your Visual Studio Code Theme. This handles generic type annotations, structured objects, structured array syntax, specific colors for interfaces, enum, traits.
+
 ## See Also
 
 - [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc)
+- [Code Action to Geneate PHPDoc](code-actions)
