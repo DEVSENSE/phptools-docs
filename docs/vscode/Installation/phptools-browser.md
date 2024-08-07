@@ -29,9 +29,7 @@ The PHP language level configures the code problems analysis, code completion, a
 
 ### PHPDoc Generator
 
-PHPDoc is generated seamlessly. Type `/**` above a declaration to create the PHPDoc comment block.
-
-Note, it is necessary to enable the Format-On-Type feature in `File` / `Preferences` / `Settings` - where `editor.formatOnType` must be set to `true`.
+PHPDoc is generated seamlessly. Type `/**` above a declaration to create the PHPDoc comment block. Optionally use a Code Action.
 
 ## Limitations
 
