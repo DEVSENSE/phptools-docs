@@ -64,5 +64,6 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 ## Related links
 
 - [Problems configuration](problems#configuration)
+- [PHPUnit Test Explorer](test-explorer.md)
 - [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
 - [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings) *(visualstudio.com)*

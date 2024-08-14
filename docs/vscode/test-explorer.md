@@ -13,7 +13,7 @@ Each test is listed in the Test Explorer view. In the code, tests are annotated 
 
 ## Configuration
 
-It is necessary to [configure](configuration) the editor before the tests can be executed. The process requires PHP, the PHPUnit package and a PHPUnit configuration file.
+It is necessary to [configure](configuration) the editor before the tests can be executed. The process requires PHP (`php`), the PHPUnit package (`phpunit/phpunit`) and a PHPUnit configuration file (`phpunit.xml` (`.dist`)).
 
 Tests are resolved quickly by parsing the `phpunit.xml` or `phpunit.xml.dist` files, and corresponding `.php` files in the workspace. Any changes to those files will automatically update the Test Explorer as well.
 
@@ -21,11 +21,9 @@ Tests are resolved quickly by parsing the `phpunit.xml` or `phpunit.xml.dist` fi
 
 Running the tests relies on the configured PHP executable. See [editor/php-version-select](Selecting PHP Executable) for more details.
 
-By default, the workspace is configured to use the global `php` command.
-
 ### PHPUnit
 
-The PHPUnit phar file or PHPUnit composer package are necessary to execute the tests. PHP Test Explorer uses the following PHPUnit:
+The PHPUnit phar file or PHPUnit composer package are necessary to execute the tests. PHPUnit Test Explorer uses the following PHPUnit:
 
 1. From the vendor directory, usually created by composer.
 2. Otherwise the PHPUnit PHAR (version 6.5.12.) bundled with PHP Tools.
@@ -40,7 +38,24 @@ To manually specify path to the `phpunit` binary, use setting `phpunit.phpunit`.
 }
 ```
 
-If none of the above is found, PHPUnit PHAR (version 6.5.12.) bundled with PHP Tools is used.
+If none of the above is found, bundled PHPUnit PHAR (version 6.5.12.) is used.
+
+### Custom Command
+
+Running PHPUnit can be customized using the setting `"phpunit.command"`.
+
+_Default value:_ `"\"${php}\" ${phpargs} \"${phpunit}\" ${phpunitargs}"`
+
+The string command can have the following variables:
+
+`${phpunit}` - will be replaced with phpunit binary path.
+`${phpunitxml}` - will be path to corresponding `phpunit.xml`.
+`${phpunitargs}` - the arguments we provide, including generated filters for executing specific tests or groups.
+`${php}` - resolved path to php executable.
+`${phpargs}` - the default arguments for php we provide.
+`${cwd}` - current working directory.
+
+See the VSCode's `Output` > `PHP (PHPUnit)` tab for details.
 
 ### Configuration File
 
