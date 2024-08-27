@@ -1,17 +1,4 @@
-/*
-Title: Problems
-Description: Problems and code validation
-*/
-
-# Problems and Code Validation
-
-The core of the PHP extension relies on its static code analysis; built-in type inferring and validation resolve wide range of code diagnostics - making sure your code is correct, providing instantaneous problem reports. The analysis understands PHPStan, Psalm, phpstorm meta files, and other frequently used annotations.
-
-The code analysis can be configured to analyze the whole workspace and subsequent changes, with a little CPU overhead. See [diagnostics](https://docs.devsense.com/en/vs/code%20validation/diagnostics) for the most common issues detected by the extension.
-
-![Problems Window](imgs/problems-window.png)
-
-Analysis can be configured for specific files, and specific diagnostic codes.
+Reported problems can be adjusted, their severity changed or the problem ignored completely. There are several ways of changing problems severity or suppressing them.
 
 ## `.editorconfig`
 
@@ -57,24 +44,6 @@ php_diagnostic = error
 
 Problems can be disabled in VSCode's `settings.json` file.
 
-### `php.problems.scope`
-
-By default, static analysis reports all problems found in any document that is opened (`"opened"` setting value). It can be configured to analyze nothing (`"none"`), opened files (`"opened"`), or even the entire workspace almost instantaneously (`"all"`). Details for the possible settings are:
-
-**Values:**
-
-- `"php.problems.scope": "none"`: No analysis is performed. **Note**, this also disables unused `use` check, unreachable code checks, some code actions, and others.
-- `"php.problems.scope": "opened"`: Only PHP documents opened in the editor are checked for problems. **Note**, parse errors are still reported in all files across the entire workspace.
-- `"php.problems.scope": "all"`: Enables problems analysis across the entire workspace. **Note**, `/vendor/` is not analysed.
-
-**Example:**
-
-```json
-"php.problems.scope" : "all"
-```
-
-**Note**, parse errors and some fatal errors will be reported in all files across the entire workspace. Use `.editorconfig` to suppress them.
-
 ### `php.problems.exclude`
 
 The setting allows to exclude problems found in specified files or entire directories from being shown in *Problems* panel. There are two possible values:
@@ -115,7 +84,9 @@ function foo() {
 
 Suppressed error codes can be optionally separated by a comma or a space.
 
-## Related links
+## `phpcs:ignorefile` comment
 
-- [Configuration](configuration)
-- [Diagnostic Codes](https://docs.devsense.com/vs/code%20validation/diagnostics)
+Using one of the comments below (including optional comment) disables error reporting:
+
+- `// phpcs:ignorefile - this file is generated`
+- `// phpcs:disable`, `// phpcs:enable`

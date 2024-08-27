@@ -11,6 +11,23 @@ The PHP editor analyses the entire workspace, it determines expressions type, fu
 
 Code completion is context-aware, scope-aware, type-aware, with the respect to conventions and additional heuristics.
 
+## Supported Notations
+
+The majority of the following notations are supported:
+
+- PHPDoc type annotations.
+- PHPDoc generic type annotations.
+- Majority of PhpStan annotations in PHPDoc, templates, type aliases, generics, conditional return, type substitutions, and more.
+- `phpstan.neon`, `phpstan.neon.dist`, `phpstan.dist.neon` files with `typeAliases` section.
+- Majority of Psalm type annotations in PHPDoc.
+- `phpcs` comments for disabling and enabling errors, i.e. `// phpcs:disable` and `// phpcs:ignorefile`
+- `@mixin` PHPDoc annotation.
+- Jetbrains's PhpStorm `.phpstorm.meta.php` file with additional annotations.
+- Symfony and Laravel features (IntelliSense):
+    - deducing defined class aliases
+    - deducing provided services and facades
+    - Eloquent local scopes and extension methods
+
 ## Completing Parentheses
 
 By default, completing a function name also completes parentheses and, if the function has any parameters to fill in, the keyboard cursor is placed inside them.
