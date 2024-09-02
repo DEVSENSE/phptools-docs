@@ -1,3 +1,10 @@
+/*
+Title: Workspace Diagnostics
+Description: Configure PHP workspace diagnostics to analyze opened files, the entire workspace, or disable checks entirely. Learn about the php.problems.scope setting and its impact on code analysis.
+*/
+
+# Workspace Diagnostics
+
 By default, the editor performs diagnostic only on opened documents. In order to check the entire workspace quickly, change the `php.problems.scope` setting.
 
 > Note, analysis of entire workspace is a <span class="label label-premium">PREMIUM</span> feature.

@@ -1,3 +1,10 @@
+/*
+Title: Supress Diagnostics
+Description: Learn how to suppress or adjust PHP diagnostic problems using .editorconfig, settings.json, PHPDoc tags, and phpcs comments. Customize severity or ignore issues entirely.
+*/
+
+# Supress Diagnostics
+
 Reported problems can be adjusted, their severity changed or the problem ignored completely. There are several ways of changing problems severity or suppressing them.
 
 ## `.editorconfig`

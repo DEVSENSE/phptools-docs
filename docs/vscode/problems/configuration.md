@@ -1,3 +1,10 @@
+/*
+Title: Configuration
+Description: Configure PHP code diagnostics with settings for document analysis, file exclusion, stubs, and workspace paths. Customize IntelliSense and code analysis.
+*/
+
+# Configuration
+
 Available settings for adjusting code diagnostics:
 
 - `php.problems.scope` - whether to analyze only opened documents, entire workspace, or nothing.
