@@ -7,7 +7,7 @@ site_description: >-
 
 # Repository
 repo_name: devsense/phptools-docs
-repo_url: https://github.com/evsense/phptools-docs
+repo_url: https://github.com/devsense/phptools-docs/
 
 # Copyright
 copyright: Copyright &copy DEVSENSE s.r.o. All rights reserved.
