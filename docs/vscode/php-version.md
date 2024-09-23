@@ -23,6 +23,14 @@ Clicking the PHP version number opens the **PHP Version Picker**:
 
 ![PHP Version Picker](imgs/php-version-picker.png)
 
+### Composer.Json
+
+The editor picks PHP version automatically from the `composer.json` file, if it specifies the `php` or `php-64bit` requirement, i.e.:
+
+```json
+{ "require": { "php": ">=8.0.2" } }
+```
+
 ### PHP Version Setting
 
 This setting can be modified either using the PHP Version Picker (above) or manually by editing the Visual Studio Code Settings (`settings.json`), the `"php.version"` directive:
