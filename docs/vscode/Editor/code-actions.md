@@ -76,13 +76,17 @@ Code action `Remove unnecessary 'use'` quickly cleanups the block of uses.
 
 ### Remove and Sort Uses on Save
 
-To automatically organize `use`s (remove unused ones and sort the rest), open your [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings), and add the following:
+To automatically organize `use`s (remove unused ones and sort the rest), open your [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings), and add one of the following:
 
 ```json
 "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit",      // sort uses
+    "source.sortImports": "explicit",          // sort uses (same as "source.organizeImports"
+    "source.sortAndRemoveImports": "explicit", // removes unused uses and sorts them 
 }
 ```
+
+Specify either `"explicit"` (the action will be called when file is explicitly saved) or `"always"` (the action will be called whenever the window gets focus).
 
 ### Fix typo in PHPDoc keyword
 
