@@ -1,5 +1,5 @@
 /*
-Title: Handling Exceptions and Errors when debugging PHP
+Title: Exceptions and Errors
 Description: Break on exceptions, warnings, and errors when they are thrown in PHP during debugging in Visual Studio Code
 */
 
