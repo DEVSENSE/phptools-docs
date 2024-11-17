@@ -104,3 +104,4 @@ If applicable, a code action suggesting to add `$this->` is provided. This fixes
 
 - [Refactoring](refactoring)
 - [PHPDoc Completion](phpdoc)
+- [Code Actions Details](../Code%20Actions/overview)
