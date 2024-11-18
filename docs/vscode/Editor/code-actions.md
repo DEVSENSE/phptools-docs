@@ -15,93 +15,12 @@ Certain errors have also `Quick Fix` available. This provides the same list of c
 
 ![Quick Fix in VS Code](../imgs/quick-fixes.png)
 
-### Getters and Setters
+## Details:
 
-Generating getters and/or setters for private and protected properties can be done using the following code action. This will add the function `get` and `set` for the selected property at the end of the current class.
-
-![Add getters and/or setters](../imgs/getter-setter-action.png)
-
-The inserted code contains all the available type annotations. In case the current version of PHP is `7` or higher, also the return type is added. For PHP `7.4` and higher, the property's type hint is taken into account as well.
-
-![Add getters and/or setters](../imgs/getter-setter-action.gif)
-
-The code action supports adding getter only, setter only, or both. In case more properties are selected, the code action allows to generate getters/setters for all of them at once.
-
-![Add getters/setters for more properties](../imgs/getter-setter-more-properties.gif)
-
-#### Doc Block Settings
-
-Generated Doc Block above `__get`/`__set` is configurable using `"php.docblock.getterSetterSnippet"` setting.
-
-**Disable** doc block above getters and setters:
-
-```json
-"php.docblock.getterSetterSnippet": false
-```
-
-**Custom** tags in doc block with placeholders:
-
-```json
-"php.docblock.getterSetterSnippet": {
-    "summary": false,
-    "@author": "${name:John}"
-}
-```
-
-### Missing abstract functions
-
-Error `PHP2414` indicates that the non-abstract class has some functions missing. The quick fix or code action automatically implements the missing abstract functions, including all the available documentation and type information. The generated code is inserted at the end of the class.
-
-![Class is missing implementation of abstract functions](../imgs/missing-abstracts-error.png)
-
-The code action resolves the complete class hierarchy, taking into account interfaces and classes. Generated code contains PHPDoc annotations and base implementation of methods if applicable.
-
-![Implement missing functions](../imgs/impl-missing-abstracts.gif)
-
-### Import Name
-
-Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code action with all available fixes is provided.
-
-![Resolve missing namespace](../imgs/missing-namespace-fix.png)
-
-The code action allows you to add `use` declaration or fully qualify the name in place. Code actions include all the possible names that are found within the current workspace.
-
-### Unused `use` fix
-
-Any `use`, group of `use`, or a single alias that is not needed in the code is immediately dimmed.
-
-![remove unused `use`](../imgs/vscode-unnecessary-use.gif)
-
-Code action `Remove unnecessary 'use'` quickly cleanups the block of uses.
-
-### Remove and Sort Uses on Save
-
-To automatically organize `use`s (remove unused ones and sort the rest), open your [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings), and add one of the following:
-
-```json
-"editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",      // sort uses
-    "source.sortImports": "explicit",          // sort uses (same as "source.organizeImports"
-    "source.sortAndRemoveImports": "explicit", // removes unused uses and sorts them 
-}
-```
-
-Specify either `"explicit"` (the action will be called when file is explicitly saved) or `"always"` (the action will be called whenever the window gets focus).
-
-### Fix typo in PHPDoc keyword
-
-Error `PHP6503` suggests that there is a typo in the PHPDoc keyword and offers a quick fix.
-
-![Fix common typos in PHPDoc](../imgs/phpdoc-typo-fix.png)
-
-### Add missing `$this->`
-
-If applicable, a code action suggesting to add `$this->` is provided. This fixes a common issue when an instance function is called without specifying the `$this` object.
-
-![Fix missing $this->](../imgs/missing-this-fix.gif)
+See [Code Actions Overview](../code%20actions/overview) for more details.
 
 ## See also
 
 - [Refactoring](refactoring)
 - [PHPDoc Completion](phpdoc)
-- [Code Actions Details](../Code%20Actions/overview)
+- [Code Actions Details](../code%20actions/overview)
