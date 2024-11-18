@@ -34,3 +34,7 @@ php_remove_redundant_closing_tag=false
 
 - Setting `""php.problems.exclude"": { "/": [7103] }` disables all code hints (unless the code action is explicitly enabled using `.editorconfig` file).
 - Setting `""phpTools.suppressPremiumFeatures"": true` hides all premium features including code actions and code hints.
+
+## See Also
+
+- [Code Actions Severity](severity)
