@@ -37,6 +37,6 @@ In future update, code style may also change the [severity](severity) of code co
 
 ## See Also
 
-- [severity](Code Actions Severity)
-- [hide-code-action](Hide Code Actions)
-- [list](List of available code actions conventions)
+- [Code Actions Severity](severity)
+- [Hide Code Actions](hide-code-action)
+- [List of available code actions conventions](list)
