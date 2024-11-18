@@ -1,3 +1,6 @@
+/*
+Title: Enable Auto Fix
+*/
 # Enable Auto-Fix
 
 Code actions can be applied automatically as auto-fix or on file save.

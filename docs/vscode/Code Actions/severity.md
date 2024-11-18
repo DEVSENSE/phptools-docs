@@ -1,3 +1,6 @@
+/*
+Title: Code Action Severity
+*/
 # Code Action Severity
 
 By default, code actions are treated as editor **hints** - they are not listed in _Problems_ window and they are not underlined in the editor.

@@ -1,3 +1,6 @@
+/*
+Title: Problems Quick Fix
+*/
 # Problems Quick Fix
 
 Some errors, warnings, and messages (listed in _Problems_ window and underlined in the editor) have a quick fix available. 
