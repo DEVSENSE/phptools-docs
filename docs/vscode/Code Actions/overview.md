@@ -26,6 +26,28 @@ There are several kinds of actions:
 - **Generate Getter/Setter**: creates `__get` or `__set` or both stubs. Applies to class non-public properties.
 - **Export Function** _(not provided yet)_
 
+## Sample Code Actions
+
+### Import Name
+
+Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code action with all available fixes is provided.
+
+![Resolve missing namespace](../imgs/missing-namespace-fix.png)
+
+The code action allows you to add `use` declaration or fully qualify the name in place. Code actions include all the possible names that are found within the current workspace.
+
+### Fix typo in PHPDoc Keyword
+
+Error `PHP6503` suggests that there is a typo in the PHPDoc keyword and offers a quick fix.
+
+![Fix common typos in PHPDoc](../imgs/phpdoc-typo-fix.png)
+
+### Add Missing `$this->`
+
+If applicable, a code action suggesting to add `$this->` is provided. This fixes a common issue when an instance function is called without specifying the `$this` object.
+
+![Fix missing $this->](../imgs/missing-this-fix.gif)
+
 ## See Also
 
 - [Visual Studio Code Documentation - Refactoring](https://code.visualstudio.com/docs/editor/refactoring)
