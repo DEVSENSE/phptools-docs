@@ -24,3 +24,7 @@ To automatically organize `use`s (remove unused ones and sort the rest), open yo
 ```
 
 Specify either `"explicit"` (the action will be called when file is explicitly saved) or `"always"` (the action will be called whenever the window gets focus).
+
+## Settings
+
+- `"php.sortUses.caseSensitive"`: Case sensitive sorting puts upper case letters on top before lower case letters. `False` by default, so sorting is **not** case sensitive.
