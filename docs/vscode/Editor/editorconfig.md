@@ -3,6 +3,8 @@ Title: EditorConfig
 Description: Learn how to use EditorConfig in VS Code for PHP development to maintain consistent code style across your project. Ensure your PHP code adheres to standards like PSR-12, PSR-2, and custom formatting preferences.
 */
 
+# EditorConfig
+
 The PHP extension for VS Code supports the `.editorconfig` file, ensuring consistent coding styles across your project and your team. This document outlines how `.editorconfig` integrates with the PHP extension, the properties it recognizes, and how it takes precedence over `settings.json` for PHP-specific formatting. It also explains how to suppress diagnostics when needed.
 
 ## What is .editorconfig?

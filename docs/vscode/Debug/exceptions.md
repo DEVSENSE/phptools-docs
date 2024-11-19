@@ -3,6 +3,8 @@ Title: Exceptions and Errors
 Description: Break on exceptions, warnings, and errors when they are thrown in PHP during debugging in Visual Studio Code
 */
 
+# Exceptions and Errors
+
 The **PHP Debugger** provides developers with tools to handle exceptions during the debugging process. This functionality enables you to break when all or specific exception happens during script execution. This allows you to inspect the state of your application precisely at the point where the error occurred.
 
 # Handling Exceptions and Errors in VS Code
