@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/(en|es|pt|ja)/(.*)",
+            "route": "/{en,es,pt,ja}/*",
             "redirect": "/:2",
             "statusCode": 301
         }
