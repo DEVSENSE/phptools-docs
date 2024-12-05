@@ -1,8 +1,23 @@
 {
     "routes": [
         {
-            "route": "/{en,es,pt,ja}/*",
-            "redirect": "/:2",
+            "route": "/en/*",
+            "redirect": "/:0",
+            "statusCode": 301
+        },
+        {
+            "route": "/es/*",
+            "redirect": "/:0",
+            "statusCode": 301
+        },
+        {
+            "route": "/pt/*",
+            "redirect": "/:0",
+            "statusCode": 301
+        },
+        {
+            "route": "/ja/*",
+            "redirect": "/:0",
             "statusCode": 301
         }
     ]
