@@ -30,23 +30,11 @@ There are multiple ways how to install Xdebug on macOS:
 
 3. Install Xdebug with PECL
 
-   Choose which command to run depending on your Mac architecture:
-   - **Intel**
+   This command will install latest Xdebug:
 
-      ```bash
-      pecl install xdebug
-      ```
-
-   - **Apple M1**
-      
-      ```bash
-      arch -arm64 sudo pecl install xdebug
-      ```
-
-      or if PHP was compiled for x86_64 architecture, then run this command:
-      ```bash
-      arch -x86_64 sudo pecl install xdebug
-      ```
+   ```bash
+   pecl install xdebug
+   ```
 
 4. Verify the installation
 
