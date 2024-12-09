@@ -6,5 +6,10 @@
             "redirect": "/vs/",
             "statusCode": 301
         }
-    ]
+    ],
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/404/"
+        }
+    }
 }
