@@ -48,7 +48,7 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
-    favicon: assets/favicon.ico
+    favicon: assets/images/favicon.ico
     logo_dark_mode: assets/images/logo-dark.png
     logo_light_mode: assets/images/logo.png
 
