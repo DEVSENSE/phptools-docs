@@ -13,7 +13,32 @@ The extension is installed through the Visual Studio Code' `Extensions` window.
 
 ![phptools install vscode](../imgs/phptools-install.png)
 
-After the successful installation, please [activate](#license-activation) your copy of PHP Tools.
+After the successful installation, please [activate](#license-activation) your copy of PHP Tools to unlock premium features.
+
+## License Activation
+
+### Premium
+
+Premium features are enabled for active subscribers. For more information about purchasing a license, see our [purchase page](https://purchase-url-here.com).
+
+### Activation
+
+To activate your premium license:  
+1. Open the **Command Palette** from the **View** menu.  
+2. Search for the command **PHP Tools: Activate License**.  
+3. Enter your license key into the pop-up window and press Enter.  
+
+  ![Enter License Key](../imgs/enter-license-key.png)
+
+> **Note:** The activation process requires an Internet connection.
+
+### Free Trial
+
+Not ready to commit yet? Try our premium features for free!  
+1. Open the **Command Palette**.  
+2. Search for the command **PHP Tools: Begin Free Trial**.  
+
+The trial lets you explore all premium features at no cost for 30 days.
 
 ## Offline installation
 
