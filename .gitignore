@@ -5,3 +5,4 @@
 **/bl-content/databases/security.php
 /site
 .DS_Store
+.venv
