@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+{% block content %}
+<h1>404 - Not found</h1>
+<script>
+
+    // We have this redict because at the old documentation we had languages and now we don't and it's not possible to configure it at staticwebapp.config.json
+
+    // Get the current URL
+    var currentUrl = window.location.pathname;
+
+    // Replace language prefix (e.g., /en/, /es/, etc.)
+    var newUrl = currentUrl.replace(/^\/(en|es|pt|ja)\//, '/');
+
+    // Redirect if necessary
+    if (currentUrl !== newUrl) {
+        window.location.replace(newUrl);
+    }
+</script>
+{% endblock %}
