@@ -52,7 +52,7 @@ Explore various code styles in detail at [Code Styles](code-styles), including:
 - [Drupal](code-styles#drupal)
 - [Joomla](code-styles#joomla)
 
- The styles are selected in [settings](#Configuration).
+ The styles are selected in [settings](#configuration).
 
 ### Code Style: `PSR-12`
 
