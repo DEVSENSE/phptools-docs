@@ -1,3 +1,10 @@
 {
-    "trailingSlash": "always"
+    "trailingSlash": "always",
+    "routes": [
+        {
+            "route": "/",
+            "redirect": "/vs/",
+            "statusCode": 301
+        }
+    ]
 }
