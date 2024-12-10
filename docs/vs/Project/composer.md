@@ -22,7 +22,7 @@ PHP Tools for Visual Studio enables browsing in the package repository [packagis
 
 ![Install New composer packages...](imgs/composer-install-package.png)
 
-Before opening the dialog packages, information has to be loaded from [packagist.org](http://packagist.org) , which is usually very fast. If your connection is very slow you can close the dialog and continue your work, the process will continue on the background. You can see the progress in the [composer log in Output pane](#composer-log-in-output-window).
+Before opening the dialog packages, information has to be loaded from [packagist.org](http://packagist.org) , which is usually very fast. If your connection is very slow you can close the dialog and continue your work, the process will continue on the background. You can see the progress in the [composer log in Output pane](#composer-log-in-output-pane).
 
 ![Composer install gui loading](imgs/composer-install-gui-loading.png)
 
@@ -41,9 +41,9 @@ Composer will continue running in the background when you close the dialog (comp
 > **Known Issue**: Composer is using a ZipArchive extension which has a known issue when the path to the package is longer than 256 characters, hence, the package won't install and outputs the following message:
 > 
 > ```
-[ErrorException]
-ZipArchive::extractTo(LONG_PATH_TO_FILE): failed to open stream: No such file or directory
-```
+> [ErrorException]
+> ZipArchive::extractTo(LONG_PATH_TO_FILE): failed to open stream: No such file or directory
+> ```
 >
 > A workaround is to install the package in the project with a shorter path. Then you will be able to install it also in this project as the package will be installed from the Composer cache.
 
