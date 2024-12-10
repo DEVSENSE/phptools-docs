@@ -9,7 +9,7 @@ Description: Overview of PHP breakpoints in Visual Studio
 
 ## Set a breakpoint on a line in source code
 
-You can set a breakpoint on any line of [executable code](#executable-code) by clicking in the margin of the code editor, or by right-clicking on a line of code and selecting **Breakpoint**, **Insert Breakpoint**, or simply by pressing <kbd>F9</kbd> (This is a typical shortcut; check the **Debug**, **Toggle breakpoint** in the settings menu).
+You can set a breakpoint on any line of [executable code](#executable-code-and-breakpoint-resolution) by clicking in the margin of the code editor, or by right-clicking on a line of code and selecting **Breakpoint**, **Insert Breakpoint**, or simply by pressing <kbd>F9</kbd> (This is a typical shortcut; check the **Debug**, **Toggle breakpoint** in the settings menu).
 
 ![Breakpoint](imgs\breakpoint.png)
 
