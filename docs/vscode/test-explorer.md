@@ -78,6 +78,58 @@ Tests can be debugged with Xdebug by clicking the bug-like icon ![Debugging Icon
 
 ![Test Explorer](imgs/test-debug.gif)
 
+### Custom Debug Launch Profile
+
+Specify a new `"php"` or `"phpunit"` launch profile in `.vscode/launch.json` file, and use it for debugging tests in Test Explorer.
+
+**Example `launch.json` file:**
+
+```json
+{
+    "configurations": [
+        {
+            "name": "Debug With Mapping",
+            "type": "php",
+            "request": "launch",
+            "pathMappings": {
+                "/var/www/html": "${workspaceFolder}"
+            },
+            "ignoreExceptions": ["NotSupported*"]
+        }
+    ]
+}
+```
+
+**Notes:**
+
+- the profile must have `"name"`
+- `"type"` must be either `"php"` or `"phpunit"`
+- there must not be `"program"` property
+
+The custom (launch.json) profile will be listed in Test Explorer, under **Debug** menu:
+
+![launch test using launch profile](imgs/test-with-launch-profile.png)
+
+## Profiling Tests
+
+Use the **Debug** menu in Test Explorer to Profile tests, or profile a single test with right click on the test -> `Debug with Profile` -> `Profile`.
+
+![start tests profiling](imgs/test-profile-menu.png)
+
+Browse through the profiling results which open after the session ends:
+
+![see profiling results](imgs/test-profile-functions.png)
+
+While the profiling results are still opened, see the hot paths in your code:
+
+![see hot paths](imgs/test-profile-hot.png)
+
+**Notes:**
+
+- [Xdebug PHP extension](debug/index.md) needs to be properly installed
+- [Profiler VSCode extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode) needs to be installed.
+- See [profiling](profiling.md) for more details.
+
 ## Test Results
 
 Test results are displayed:
