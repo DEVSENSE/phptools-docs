@@ -1,5 +1,5 @@
 {
-    "trailingSlash": "auto",
+    "trailingSlash": "always",
     "routes": [
         {
             "route": "/",
