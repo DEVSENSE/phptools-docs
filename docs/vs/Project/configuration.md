@@ -17,7 +17,7 @@ In Project properties, tag `Server`, choose your PHP executable to be used inter
 
 If not set, PHP Tools will set most appropriate PHP by itself. If PHP is not installed, PHP Tools will install PHP automatically.
 
-![project PHP executable](..\Installation\imgs\phpproject-properties-server.png)
+![project PHP executable](../installation/imgs/phpproject-properties-server.png)
 
 PHP executable affects what `php.ini` configuration file will be treated, and what `Language Level` is taken into account in editor and when analysing the code.
 

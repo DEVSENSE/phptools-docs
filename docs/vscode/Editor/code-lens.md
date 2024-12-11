@@ -33,7 +33,7 @@ Additionally, there is `prototype` code lens quickly navigating you to the base 
 
 ## See also
 
-- [Configuration](../configuration)
-- [Code Actions](code-actions)
-- [Refactoring](refactoring)
-- [Testing](../test-explorer)
+- [Configuration](../configuration.md)
+- [Code Actions](code-actions.md)
+- [Refactoring](refactoring.md)
+- [Testing](../test-explorer.md)

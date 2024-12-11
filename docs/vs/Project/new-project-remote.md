@@ -23,11 +23,11 @@ In the opened wizard, setup the remote connection, and additional options.
 
 ## Synchronization
 
-Upon creating the project, remote files are copied over to the local project. Any local modifications can be uploaded to the remote, or reverted, or new remote files downloaded into the local project any time using [Remote Explorer](remote-explorer).
+Upon creating the project, remote files are copied over to the local project. Any local modifications can be uploaded to the remote, or reverted, or new remote files downloaded into the local project any time using [Remote Explorer](remote-explorer.md).
 
 ## Related links
 
-- [Remote Explorer](remote-explorer) - browsing files on remote hosts, downloading remote files, uploading and comparing local changes.
-- [New Project](new-project) - creating a new PHP project, either empty or from a template.
-- [New Project from Composer Package](new-project-composer) - creating a new PHP project from a composer package.
-- [New Project from Existing Code](from-existing-code) - creating a Visual Studio project in an existing location.
+- [Remote Explorer](remote-explorer.md) - browsing files on remote hosts, downloading remote files, uploading and comparing local changes.
+- [New Project](new-project.md) - creating a new PHP project, either empty or from a template.
+- [New Project from Composer Package](new-project-composer.md) - creating a new PHP project from a composer package.
+- [New Project from Existing Code](from-existing-code.md) - creating a Visual Studio project in an existing location.

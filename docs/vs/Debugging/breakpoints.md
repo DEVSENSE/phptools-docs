@@ -5,7 +5,7 @@ Description: Overview of PHP breakpoints in Visual Studio
 
 # Breakpoints
 
-**Breakpoints** are an essential tool for debugging your applications. You set the breakpoints whenever you want to pause the execution. When paused you can [investigate the program's state](inspecting-data) - check the values of variables or look at the call stack.
+**Breakpoints** are an essential tool for debugging your applications. You set the breakpoints whenever you want to pause the execution. When paused you can [investigate the program's state](inspecting-data.md) - check the values of variables or look at the call stack.
 
 ## Set a breakpoint on a line in source code
 
@@ -109,7 +109,7 @@ Names that are not fully qualified will be searched for within available namespa
 
 ## Break on Exception
 
-You can define types of an exception that should break your program when they are thrown. See [Exceptions](exceptions) to find out more about this.
+You can define types of an exception that should break your program when they are thrown. See [Exceptions](exceptions.md) to find out more about this.
 
 ## Managing breakpoints
 

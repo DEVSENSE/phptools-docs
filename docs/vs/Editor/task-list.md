@@ -16,4 +16,4 @@ This helps developers to keep view of tasks and work in progress, helping to bui
 
 ## See also
 
-- [Syntax Highlighting](syntax-highlighting)
+- [Syntax Highlighting](syntax-highlighting.md)

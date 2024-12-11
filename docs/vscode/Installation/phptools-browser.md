@@ -21,7 +21,7 @@ All the editor features can be used in the browser-based development environment
 
 ### PHP Language Level
 
-The PHP code editor and code analysis can be configured as described on [configuration](../configuration) page. Additionally, choosing the PHP version in the browser-based editor popups the following PHP language level selector:
+The PHP code editor and code analysis can be configured as described on [configuration](../configuration.md) page. Additionally, choosing the PHP version in the browser-based editor popups the following PHP language level selector:
 
 ![PHP Language Level](../imgs/phptools-web-language-level.png)
 

@@ -36,10 +36,10 @@ Setting a code style (setting `"php.format.codeStyle"`) may enable auto-fix on c
 
 ![Code style PER enables autofix](../imgs/codestyle-autofix-codeaction.png)
 
-In future update, code style may also change the [severity](severity) of code code actiun, so it will appear as error.
+In future update, code style may also change the [severity](severity.md) of code code actiun, so it will appear as error.
 
 ## See Also
 
-- [Code Actions Severity](severity)
-- [Hide Code Actions](hide-code-action)
-- [List of available code actions conventions](list)
+- [Code Actions Severity](severity.md)
+- [Hide Code Actions](hide-code-action.md)
+- [List of available code actions conventions](list.md)

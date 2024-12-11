@@ -43,7 +43,7 @@ La ventana **Inspección** (`Depuración | Ventanas | Inspección | Inspección 
 
 Estas expresiones son reevaluadas para cada paso, a menos que PHP Tools decida que pueden causar algún **efecto secundario**. Un **efecto secundario** ocurre cuando al evaluar una expresión se cambia el valor de los datos en su aplicación. En este caso, la reevaluación de esta expresión es pospuesta y únicamente ocurre cuando es provocada por el usuario.
 
-> **Nota**: Las expresiones siempre son evaluadas en contraste con el marco de pila principal. Por otra parte, si simplemente se está inspeccionando el valor de una variable, el valor se devuelve del actual marco de pila. El marco actual puede ser cambiado en la ventana [Pila de llamadas](callstack).
+> **Nota**: Las expresiones siempre son evaluadas en contraste con el marco de pila principal. Por otra parte, si simplemente se está inspeccionando el valor de una variable, el valor se devuelve del actual marco de pila. El marco actual puede ser cambiado en la ventana [Pila de llamadas](callstack.md).
 
 ### Ventana Inspección Rápida
 
@@ -67,6 +67,6 @@ En modo HTML, una instancia de explorador incrustado se utilizará para represen
 
 La ventana **Inmediato** (`Depuración | Ventanas | Immediato`) valora expresiones escritas que son evaluadas en contraste con el marco de pila principal y los resultados se imprimen.
 
-> **Nota**: Cambiar el marco actual en la ventana [Pila del llamadas](callstack) solamente afectará las inspecciones de las variables simples; la evaluación de expresiones no funcionará.
+> **Nota**: Cambiar el marco actual en la ventana [Pila del llamadas](callstack.md) solamente afectará las inspecciones de las variables simples; la evaluación de expresiones no funcionará.
 
 ![Immediate window](imgs\immediate-window.png)

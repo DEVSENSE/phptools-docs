@@ -42,7 +42,7 @@ These errors usually indicate a typo or a missing `use` or an invalid missing na
 
 ### Unknown Types
 
-PHP Tools recognizes unknown types and provides suggestions that add use declarations or proper fully qualified names for types that are found in the project but are not properly referenced. For more information about suggestions see [the documentation page](../editor/suggestions).
+PHP Tools recognizes unknown types and provides suggestions that add use declarations or proper fully qualified names for types that are found in the project but are not properly referenced. For more information about suggestions see [the documentation page](../editor/suggestions.md).
 An unknown type is always reported as a warning in the code. An example of this is in the following image:
 
 ![Unknown types](imgs/unknown-types.png)

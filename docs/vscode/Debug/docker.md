@@ -43,9 +43,9 @@ In most cases, a more complex setup is required and the application will need mu
 ### Xdebug
 
 The Xdebug configuration is almost identical to the usual setup. Please choose the installation guide depending on the platform in your docker image:
- - [Xdebug on Linux](xdebug-linux)
- - [Xdebug on Windows](xdebug-win)
- - [Xdebug on Mac](xdebug-win)
+ - [Xdebug on Linux](xdebug-linux.md)
+ - [Xdebug on Windows](xdebug-win.md)
+ - [Xdebug on Mac](xdebug-win.md)
 
 The major difference is in `client_host` (`remote_host` in Xdebug 2) option. You need to use a special value `host.docker.internal` which will be automatically replaced with the IP address of the docker host. 
 

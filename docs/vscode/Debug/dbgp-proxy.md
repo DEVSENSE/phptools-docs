@@ -15,9 +15,9 @@ To download and configure DBGp proxy server please follow [STEP 1 - Download and
 
 ## Configure VS Code to use DBGp proxy
 
-Please see [launch.json](launch-json#dbgp-proxy-settings) on how to configure DBGp Proxy in the VS Code debug launch configuration.
+Please see [launch.json](launch-json.md#dbgp-proxy-settings) on how to configure DBGp Proxy in the VS Code debug launch configuration.
 
 ## See Also
 
-- [Getting Started](../)
-- [launch.json](launch-json) - VSCode+PHP debug launch configurations.
+- [Getting Started](../index.md)
+- [launch.json](launch-json.md) - VSCode+PHP debug launch configurations.

@@ -47,7 +47,7 @@ xdebug.client_port = 9003
 xdebug.start_with_request = trigger
 ```
 
-- Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert the web to the PHP project from a menu](Project/from-existing-code).
+- Ensure you are using a **PHP Web Project**, not an **ASP.NET Web Site**. You can [convert the web to the PHP project from a menu](../project/from-existing-code.md).
 
 ## Using WAMP Server
 

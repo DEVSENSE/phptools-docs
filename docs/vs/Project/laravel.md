@@ -10,7 +10,7 @@ Version: 1.66 and higher
 
 ## New Project
 
-To start a project from scratch, use the [New Project Wizard](new-project).
+To start a project from scratch, use the [New Project Wizard](new-project.md).
 
 ![](imgs/new-laravel-wizard.png)
 
@@ -18,7 +18,7 @@ In the New Project dialog, choose `PHP Web Project`, and choose the **`Laravel`*
 
 ## Opening Existing Laravel Project
 
-In case you already have a Laravel project, follow the [Project from Existing Code](from-existing-code) instructions.
+In case you already have a Laravel project, follow the [Project from Existing Code](from-existing-code.md) instructions.
 
 You can calso directly open the folder with your project (`File` / `Open` / `Folder`), but this won't create a regular Visual Studio project so you won't have all the project features.
 
@@ -64,9 +64,9 @@ In order to attach to a remote server, or a local web server, go to `Project` / 
 
 There is a commonly used composer package `barryvdh/laravel-ide-helper` providing additional features for IDEs. Although it is not necessary since *PHP Tools* already deal with facades and services, the package contains some additional artisan commands and features. See the project repository for more information on how to use it at https://github.com/barryvdh/laravel-ide-helper.
 
-When creating a new Laravel project using [New Project Wizard](new-project), the `barryvdh/laravel-ide-helper` is already preinstalled. Also, when opening a laravel project, the ide-helper gets regenerated automatically.
+When creating a new Laravel project using [New Project Wizard](new-project.md), the `barryvdh/laravel-ide-helper` is already preinstalled. Also, when opening a laravel project, the ide-helper gets regenerated automatically.
 
 ## See Also
 
-- [Composer Package Management](composer)
-- [Project from Existing Code](from-existing-code)
+- [Composer Package Management](composer.md)
+- [Project from Existing Code](from-existing-code.md)

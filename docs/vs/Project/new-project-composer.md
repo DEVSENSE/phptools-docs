@@ -19,7 +19,7 @@ The Wizard lets user to choose the composer package, shows the packages inforati
 
 ## Creating the project files
 
-The next step allows to specify PHP version and project format. See the [New Project](new-project) for details.
+The next step allows to specify PHP version and project format. See the [New Project](new-project.md) for details.
 
 Project is initialized from the specified composer package using the `composer create-project` command.
 
@@ -27,6 +27,6 @@ Note, that specified `PHP` and `composer.phar` are both installed automatically 
 
 ## Related links
 
-- [New Project](new-project) - creating a new PHP project, either empty or from a template.
-- [New Project from Existing Code](from-existing-code) - creating a Visual Studio project in an existing location.
-- [New Project from Remote location](new-project-remote) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.
+- [New Project](new-project.md) - creating a new PHP project, either empty or from a template.
+- [New Project from Existing Code](from-existing-code.md) - creating a Visual Studio project in an existing location.
+- [New Project from Remote location](new-project-remote.md) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.

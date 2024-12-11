@@ -29,7 +29,7 @@ The generated PHPDoc block contains inferred types, exceptions, and lists functi
 
 ## PHPDoc Type Hints
 
-Type hints within PHPDoc comments are analyzed and used for purposes of code completion and type analysis. See the sample below for type hinting the parameter `$x` of function `foo`. For more details on code completion see [completion documentation](completion).
+Type hints within PHPDoc comments are analyzed and used for purposes of code completion and type analysis. See the sample below for type hinting the parameter `$x` of function `foo`. For more details on code completion see [completion documentation](completion.md).
 
 ```php
 <?php
@@ -57,4 +57,4 @@ Use the setting `"php.docblock.colorMode"` to change how the text inside `/** ..
 ## See Also
 
 - [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc)
-- [Code Action to Geneate PHPDoc](code-actions)
+- [Code Action to Geneate PHPDoc](code-actions.md)

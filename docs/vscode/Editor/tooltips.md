@@ -21,7 +21,7 @@ Tooltip shows the corresponding declaration and description, including a direct 
 
 ![Tooltip PHP Help in Japanese](../imgs/tooltip-help-ja.png)
 
-The description is shown in the user's current language. This can be changed in [settings](../configuration).
+The description is shown in the user's current language. This can be changed in [settings](../configuration.md).
 
 ## Keywords, PHPDoc keywords
 

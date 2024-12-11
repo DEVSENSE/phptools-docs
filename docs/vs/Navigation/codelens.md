@@ -15,7 +15,7 @@ Clicking on the code lens quickly jump to the corresponding symbol. In case ther
 
 ## See also
 
-- [Navigation Bar](navigation-bar)
-- [Go To Definition](f12-gotodef)
-- [Find All References](shift-f12-findallref)
-- [F1 Help](f1-help)
+- [Navigation Bar](navigation-bar.md)
+- [Go To Definition](f12-gotodef.md)
+- [Find All References](shift-f12-findallref.md)
+- [F1 Help](f1-help.md)

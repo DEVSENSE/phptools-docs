@@ -17,10 +17,10 @@ Certain errors have also `Quick Fix` available. This provides the same list of c
 
 ## Details:
 
-See [Code Actions Overview](../code%20actions/overview) for more details.
+See [Code Actions Overview](../code%20actions/overview.md) for more details.
 
 ## See also
 
-- [Refactoring](refactoring)
-- [PHPDoc Completion](phpdoc)
-- [Code Actions Details](../code%20actions/overview)
+- [Refactoring](refactoring.md)
+- [PHPDoc Completion](phpdoc.md)
+- [Code Actions Details](../code%20actions/overview.md)

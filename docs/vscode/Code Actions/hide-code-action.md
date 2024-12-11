@@ -37,4 +37,4 @@ php_remove_redundant_closing_tag=false
 
 ## See Also
 
-- [Code Actions Severity](severity)
+- [Code Actions Severity](severity.md)

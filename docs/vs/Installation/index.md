@@ -11,7 +11,7 @@ If you already have Microsoft Visual Studio installed, you can jump directly to 
 
 ![Visual Studio Extensions](imgs/install-from-vs.png)
 
-Once downloaded, you'll be prompted to close Visual Studio. The package will be installed and Visual Studio configured for the PHP development. After starting Visual Studio next time, you can proceed to the [product activation](/vs/installation/activation) and [get started](/vs/).
+Once downloaded, you'll be prompted to close Visual Studio. The package will be installed and Visual Studio configured for the PHP development. After starting Visual Studio next time, you can proceed to the [product activation](activation.md) and [get started](../index.md).
 
 If you would like more detailed steps, please, continue reading.
 
@@ -39,15 +39,15 @@ To install PHP Tools for Visual Studio, you'll need:
 3. Follow the instructions on the screen.
 4. Restart *Visual Studio*.
 
-The software's installation package can also be used for an [Offline Activation](https://docs.devsense.com/en/vs/installation/offline-activation).
+The software's installation package can also be used for an [Offline Activation](offline-activation.md).
 
 ## Activation
 
-The product contains both a 30-day trial and a full product. When the trial is over, you can activate the software using a purchased license key. Please see [Product Activation](/vs/installation/activation) for more details.
+The product contains both a 30-day trial and a full product. When the trial is over, you can activate the software using a purchased license key. Please see [Product Activation](activation.md) for more details.
 
 ## Updates
 
-PHP Tools updates are checked automatically. Visual Studio will notify you about updates available. Please see [Update Instructions](https://docs.devsense.com/en/vs/installation/update) for more information.
+PHP Tools updates are checked automatically. Visual Studio will notify you about updates available. Please see [Update Instructions](update.md) for more information.
 
 ## Troubleshooting
 

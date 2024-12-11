@@ -35,6 +35,6 @@ Upon clicking `Finish`, the project is created and initialized. This may include
 
 ## Related links
 
-- [New Project from Existing Code](from-existing-code) - creating a Visual Studio project in an existing location.
-- [New Project from Composer Package](new-project-composer) - creating a new PHP project from a composer package.
-- [New Project from Remote location](new-project-remote) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.
+- [New Project from Existing Code](from-existing-code.md) - creating a Visual Studio project in an existing location.
+- [New Project from Composer Package](new-project-composer.md) - creating a new PHP project from a composer package.
+- [New Project from Remote location](new-project-remote.md) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.

@@ -11,7 +11,7 @@ Para conocer más acerca de la depuración con Visual Studio, vea [Depurar en Vi
 
 ## Requisitos
 
- - Xdebug debe estar configurado dentro de su instalación de PHP para que el depurador funcione correctamente. Más información en [Configuring Xdebug](configuring-xdebug).
+ - Xdebug debe estar configurado dentro de su instalación de PHP para que el depurador funcione correctamente. Más información en [Configuring Xdebug](configuring-xdebug.md).
 
  - La extensión Xdebug debe operar en el puerto TCP especificado en la página de opciones de PHP Tools. Su cortafuegos (firewall) debe estar correctamente instalado para permitir la comunicación a través de este puerto.
 
@@ -21,7 +21,7 @@ Para conocer más acerca de la depuración con Visual Studio, vea [Depurar en Vi
 
 El Depurador Visual  le permite examinar el código mientras se ejecuta e incluye características que ayudan a depurar aplicaciones, incluidas las siguientes:
 
-- **Puntos de Interrupción** - Los  puntos de interrupción son lugares en el código donde el depurador detiene la aplicación, permitiéndole ver el estado actual de los datos de la aplicación, y también detenerse en cada línea del código. Para más información, vea [Puntos de Interrupción](breakpoints).
+- **Puntos de Interrupción** - Los  puntos de interrupción son lugares en el código donde el depurador detiene la aplicación, permitiéndole ver el estado actual de los datos de la aplicación, y también detenerse en cada línea del código. Para más información, vea [Puntos de Interrupción](breakpoints.md).
 
 - **Examinar el código** - Una vez que la ejecución se ha detenido en un punto de interrupción, puede ejecutar el código línea por línea (paso a paso por instrucciones). El depurador visual incluye una cantidad de funciones para ayudar a examinar el código, como los iteradores que permiten especificar cuantas veces debe entrar paso a paso en un bucle antes de detenerse nuevamente. Para más información, vea [Comandos de depuración](https://docs.devsense.com/en/debugging/stepping).
 

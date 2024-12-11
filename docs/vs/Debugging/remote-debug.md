@@ -18,13 +18,13 @@ Go to `Project / Properties`, and switch to `Server` tab, as depicted on the scr
 Under the `Server` drop-down list, choose the `Custom` option. And fill in the following fields:
 
 - **Server URL:** is the full public URL where the remote server hosts the PHP application.
-- **Xdebug port:** matches the configured Xdebug port number (aka "remote port" or "client port"). Xdebug (the debugging extension installed on the remote server) will contact Visual Studio on this port number. See [configuring Xdebug](configuring-xdebug) for more details.
+- **Xdebug port:** matches the configured Xdebug port number (aka "remote port" or "client port"). Xdebug (the debugging extension installed on the remote server) will contact Visual Studio on this port number. See [configuring Xdebug](configuring-xdebug.md) for more details.
 - **IDE Key** is a key that will identify IDE or a particular project. You can leave the value which is generated automatically or change it to anything else which will be unique.
 - **Path Mapping** is _optional_ set of directory mapping paths on the remote computer (absolute directory path - right column) to the corresponding path on the local computer (relatively to the project root - left column). This allows convenient debugging of the remote code even in case the project structure is more complex and the local directory structure does not match exactly the remote directory structure.
 
     If the mapping is not set, the debugger will infer the simple mapping automatically based on the first script that is hit by the debugger.
 
-- **DBGp Proxy** is a standard proxy configuration allowing more developers to debug the same remote project. Configure the values according to your proxy. See [multi-user debugging](multi-user) for more details. Note, that `IDE Key` is used as a DBGp Proxy key to identify your IDE and project.
+- **DBGp Proxy** is a standard proxy configuration allowing more developers to debug the same remote project. Configure the values according to your proxy. See [multi-user debugging](multi-user.md) for more details. Note, that `IDE Key` is used as a DBGp Proxy key to identify your IDE and project.
 
     The proxy configuration can be validated right on the Project Properties tab using the `Verify` button, as depicted below:
     

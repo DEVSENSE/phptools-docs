@@ -44,12 +44,12 @@ The launch profiles and corresponding settings can be added, removes or edited i
 
 The vast majority of the extension's features work out of the box. The debugger and test explorer functionalities require, however, a working installation of [PHP](https://secure.php.net/) together with [Xdebug](https://xdebug.org/) extension.
 
-See [selecting PHP version](/vscode/php-version) for more information.
+See [selecting PHP version](php-version.md) for more information.
 
 ## See Also
 
-- [Configuration](/vscode/configuration)
-- [Selecting PHP version](/vscode/php-version)
-- [Test explorer](/vscode/test-explorer)
-- [Debug](/vscode/debug)
-- [Editor](/vscode/editor)
+- [Configuration](configuration.md)
+- [Selecting PHP version](php-version.md)
+- [Test explorer](test-explorer.md)
+- [Debug](debug/index.md)
+- [Editor](editor/index.md)

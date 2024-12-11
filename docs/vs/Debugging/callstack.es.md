@@ -5,7 +5,7 @@ Description: View the function calls that are currently on the stack
 
 # Pila de llamadas
 
-La **Pila de llamadas** es muy útil cuando se inspecciona el [estado del programa](inspecting-data). Se pueden ver las llamadas a función que están actualmente en la pila, cambiar el contexto en el cual está depurando a otro marco de pila en la llamada de pila e inspeccionar el estado del programa en diferentes marcos.
+La **Pila de llamadas** es muy útil cuando se inspecciona el [estado del programa](inspecting-data.md). Se pueden ver las llamadas a función que están actualmente en la pila, cambiar el contexto en el cual está depurando a otro marco de pila en la llamada de pila e inspeccionar el estado del programa en diferentes marcos.
 
 La ventana **Pila de Llamadas** muestra el nombre de cada función y el lenguaje de programación en el cual está escrito (por ejemplo, PHP). El nombre de la función puede estar opcionalmente acompañado de información, como el nombre del archivo o el número de línea. Esta información adicional puede ser activada o desactivada.
 

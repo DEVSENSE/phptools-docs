@@ -27,4 +27,4 @@ By default, static analysis reports all problems found in any document that is o
 
 ## See Also
 
-- [Suppressing Diagnostics](suppressing-diagnostics) - How to adjust severity or suppress problems completely.
+- [Suppressing Diagnostics](suppressing-diagnostics.md) - How to adjust severity or suppress problems completely.

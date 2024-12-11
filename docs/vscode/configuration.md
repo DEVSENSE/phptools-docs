@@ -15,11 +15,11 @@ Setting | Values | Description
 `php.codeLens.enabled` | `true`/`false` | Enables/disables code lenses in PHP files above functions, types, properties, and constants.
 `php.debug.port` | number or array of numbers | Default Xdebug port. This value is used when `port` is not specified in `launch.json` settings or when debugging without an opened folder. Defaults to `[9003,9000]`.
 `php.executables` | Set of profile names and corresponding PHP executable path. | Defined profile names that can be chosen in `php.version` setting, or from the PHP version picker.
-`php.executablePath` | Full path to the `php` executable, or not set. | Legacy option. Specifies the full path to the `php` executable that will be used within [test explorer](test-explorer), [debugging](debug), and to determine the PHP version for code validation.
-`php.completion.autoimport` | "auto-import", "fqn", "none", "hide" | Configures how to treat completion of names outside the current namespace. See [auto-import](editor/auto-import).
+`php.executablePath` | Full path to the `php` executable, or not set. | Legacy option. Specifies the full path to the `php` executable that will be used within [test explorer](test-explorer.md), [debugging](debug/index.md), and to determine the PHP version for code validation.
+`php.completion.autoimport` | "auto-import", "fqn", "none", "hide" | Configures how to treat completion of names outside the current namespace. See [auto-import](editor/auto-import.md).
 `php.format.codeStyle` | "PHP Tools", "PSR-2" | Code formatting profile.
 `php.problems.scope` | "none", "opened", "all" | What workspace folders get analyzed for problems. Default is `"opened"`. _Note, **fatal errors** and **parse errors** are always reported across the entire workspace._
-[`php.problems.exclude`](problems#configuration) | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems#configuration).
+[`php.problems.exclude`](problems/configuration.md) | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems/configuration.md).
 `php.workspace.includePath` | {relative path} | Additional include path(s) for the code completion and code analysis. Separated with semi-colon.
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processed by the code analysis engine (code completion, navigation, problems).
 `debug.inlineValues` | `true`, `false` | Enables or disables showing values relevant to the currently debugged statement.
@@ -49,9 +49,9 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 **Running tests and built-in development server** requires `php` with extensions `dom`, `json`, `mbstring` and `xmlwriter`. Either install `php` globally, so the command `php` will work across the system, or set `php.executablePath` setting within VSCode's Settings pointing to PHP executable.
 
 **Debugging locally** requires the [Xdebug](https://xdebug.org/) extension. See how to install and configure Xdebug depending on your operating system:
-- [Xdebug on Linux](debug/xdebug-linux)
-- [Xdebug on Mac](debug/xdebug-mac)
-- [Xdebug on Windows](debug/xdebug-win)
+- [Xdebug on Linux](debug/xdebug-linux.md)
+- [Xdebug on Mac](debug/xdebug-mac.md)
+- [Xdebug on Windows](debug/xdebug-win.md)
 
 ### Recommended
 
@@ -63,7 +63,7 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 
 ## Related links
 
-- [Problems configuration](problems#configuration)
+- [Problems configuration](problems/configuration.md)
 - [PHPUnit Test Explorer](test-explorer.md)
 - [Managing extensions in VS Code](https://code.visualstudio.com/docs/editor/extension-gallery) *(visualstudio.com)*
 - [VSCode Settings](https://code.visualstudio.com/docs/getstarted/settings) *(visualstudio.com)*

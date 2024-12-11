@@ -5,7 +5,7 @@ Description: Automatic alias import upon code completion.
 
 # Auto-Import
 
-The [code completion](code-completion) UI lists all the symbols available within the project. It contains both the symbols accessible in the current context, and symbols from outside the current namespace.
+The [code completion](code-completion.md) UI lists all the symbols available within the project. It contains both the symbols accessible in the current context, and symbols from outside the current namespace.
 
 ![completion set with inaccessible types](imgs/completion-inaccessible-types.png)
 
@@ -26,5 +26,5 @@ The beahvior is configured in the Visual Studio Options dialog, as depicted belo
 
 ## Related links
 
-- [Code Completion](code-completion)
-- [Code Suggestions](suggestions)
+- [Code Completion](code-completion.md)
+- [Code Suggestions](suggestions.md)

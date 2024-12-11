@@ -9,7 +9,7 @@ Si un error fatal ocurre mientras su programa está siendo depurado, PHP Tools d
 
 ![Parse error](imgs/parse-error.png)
 
-En este caso, el depurador puede ser utilizado para [inspeccionar el estado actual del programa](inspecting-data). Si se continúa la ejecución, se seguirá produciendo la excepción hasta que sea controlada o se salga del programa.
+En este caso, el depurador puede ser utilizado para [inspeccionar el estado actual del programa](inspecting-data.md). Si se continúa la ejecución, se seguirá produciendo la excepción hasta que sea controlada o se salga del programa.
 
 Algunos errores fatales (p. ej., una excepción no controlada por el usuario) se producen en la parte del afuera del contexto de ejecución después del que el script ha finalizado. La inspección del estado del programa, en este caso, no funciona porque el script ya no se está ejecutando.
 

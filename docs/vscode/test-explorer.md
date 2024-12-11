@@ -13,13 +13,13 @@ Each test is listed in the Test Explorer view. In the code, tests are annotated 
 
 ## Configuration
 
-It is necessary to [configure](configuration) the editor before the tests can be executed. The process requires PHP (`php`), the PHPUnit package (`phpunit/phpunit`) and a PHPUnit configuration file (`phpunit.xml` (`.dist`)).
+It is necessary to [configure](configuration.md) the editor before the tests can be executed. The process requires PHP (`php`), the PHPUnit package (`phpunit/phpunit`) and a PHPUnit configuration file (`phpunit.xml` (`.dist`)).
 
 Tests are resolved quickly by parsing the `phpunit.xml` or `phpunit.xml.dist` files, and corresponding `.php` files in the workspace. Any changes to those files will automatically update the Test Explorer as well.
 
 ### PHP
 
-Running the tests relies on the configured PHP executable. See [editor/php-version-select](Selecting PHP Executable) for more details.
+Running the tests relies on the configured PHP executable. See [Selecting PHP Executable](editor/php-version-select.md) for more details.
 
 ### PHPUnit
 
@@ -74,7 +74,7 @@ Test Explorer View provides tools for manual and automatic test execution with v
 
 ## Debugging Tests
 
-Tests can be debugged with Xdebug by clicking the bug-like icon ![Debugging Icon](imgs/test-debuging.png) in the Test Explorer view, or *Debug Test* command in the test margin. The debugging process is the same as [standard debugging](Debug). The Test Explorer can debug one or more tests at once.
+Tests can be debugged with Xdebug by clicking the bug-like icon ![Debugging Icon](imgs/test-debuging.png) in the Test Explorer view, or *Debug Test* command in the test margin. The debugging process is the same as [standard debugging](debug/index.md). The Test Explorer can debug one or more tests at once.
 
 ![Test Explorer](imgs/test-debug.gif)
 

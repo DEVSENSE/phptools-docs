@@ -3,5 +3,5 @@ Title: Documentation
 Description: Documentation landing page
 */
 
-- [Visual Studio](vs)
-- [Visual Studio Code](vscode)
+- [Visual Studio](vs/index.md)
+- [Visual Studio Code](vscode/index.md)

@@ -5,7 +5,7 @@ Description: View the function calls that are currently on the stack
 
 # Call stack
 
-Call stack is very useful when [Inspecting the program state](inspecting-data). You can see the function calls that are currently on the stack, change the context in which you are debugging to another stack frame on the call stack and inspect the program state in the different frames.
+Call stack is very useful when [Inspecting the program state](inspecting-data.md). You can see the function calls that are currently on the stack, change the context in which you are debugging to another stack frame on the call stack and inspect the program state in the different frames.
 
 The Call Stack window displays the name of each function and the programming language that it is written in (e.g. PHP). The function name may be accompanied by optional information, such as file name or line number. The display of this optional information can be turned on or off.
 

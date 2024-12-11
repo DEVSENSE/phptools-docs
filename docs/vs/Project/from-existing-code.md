@@ -33,6 +33,6 @@ In case your folder contains `composer.json` file and you are missing the requir
 
 ## Related links
 
-- [New Project](new-project) - creating a new PHP project, either empty or from a template.
-- [New Project from Composer Package](new-project-composer) - creating a new PHP project from a composer package.
-- [New Project from Remote location](new-project-remote) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.
+- [New Project](new-project.md) - creating a new PHP project, either empty or from a template.
+- [New Project from Composer Package](new-project-composer.md) - creating a new PHP project from a composer package.
+- [New Project from Remote location](new-project-remote.md) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.

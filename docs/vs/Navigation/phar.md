@@ -29,5 +29,5 @@ PHP Editor IntelliSense takes Phar packages into account and provides code compl
 
 ## Related links
 
-- [Class View](fclass-viewcode) - Class View window.
-- [Solution Explorer](solution-explorer) - Navigating through the Solution Explorer.
+- [Class View](class-view.md) - Class View window.
+- [Solution Explorer](solution-explorer.md) - Navigating through the Solution Explorer.

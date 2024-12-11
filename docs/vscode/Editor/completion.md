@@ -58,7 +58,7 @@ The completion can be triggered manually (`Ctrl+Space` by default) or automatica
 - a letter or `Ctrl+Space` after `new` keyword completes possible class names
 - a letter or `Ctrl+Space` after `throw new` completes only throwable classes
 - a letter or `Ctrl+Space` after `use` keyword.
-- `/**` above a declaration completes a PHPDoc comment block. See [PHPDoc Generator](phpdoc) for more details.
+- `/**` above a declaration completes a PHPDoc comment block. See [PHPDoc Generator](phpdoc.md) for more details.
 
 ## Additional Information
 

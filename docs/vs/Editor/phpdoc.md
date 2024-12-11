@@ -155,4 +155,4 @@ The PHPDoc comment block is formatted according to the statement below which it 
 
 ## See Also
 
-- [Code Completion](code-completion)
+- [Code Completion](code-completion.md)

@@ -8,7 +8,7 @@ Version: 1.14 and higher
 
 Configuration of test cases is defined in a standard [PHPUnit Configuration file](http://phpunit.de/manual/current/en/appendixes.configuration.html). This allows specifying bootstrap script, timeouts, location of the test files, error handling and other PHPUnit framework options.
 
-See [writing a test case](writing-test) for more details.
+See [writing a test case](writing-test.md) for more details.
 
 ## Configuration Files
 

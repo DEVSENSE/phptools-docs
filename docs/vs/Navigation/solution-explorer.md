@@ -41,7 +41,7 @@ The Solution Explorer allows for inspecting of PHAR archives (`.phar` files). Ex
 
 ![PHAR inspector](imgs/phar-inspector.gif)
 
-> See [PHAR Archives](phar) for more details.
+> See [PHAR Archives](phar.md) for more details.
 
 ## Composer Packages
 

@@ -41,5 +41,5 @@ The editor resolves all the available options, and provides the following:
 
 ## See also
 
-- [Code Actions](code-actions)
-- [Refactoring](refactoring)
+- [Code Actions](code-actions.md)
+- [Refactoring](refactoring.md)

@@ -99,5 +99,5 @@ Options are the following:
 
 ## Related links
 
-- [New Project](new-project) - creating a new PHP project, either empty or from a template.
-- [New Project from Remote location](new-project-remote) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.
+- [New Project](new-project.md) - creating a new PHP project, either empty or from a template.
+- [New Project from Remote location](new-project-remote.md) - creating a new PHP project that is initialized with files from a remote location, and setups both-way synchronization.

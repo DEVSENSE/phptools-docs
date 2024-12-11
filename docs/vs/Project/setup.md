@@ -7,7 +7,7 @@ Description: Validation and Fixing Project Configuration and Setup Issues
 
 Automatic project validation ensures, that the project has a valid PHP executable, debugging properly configured, the web server is working, and more. All the requirements, including installed PHP itself, are handled, and upon user's configuration resolved by PHP Tools.
 
-![project validation](../Installation/imgs/resolving-issues.png)
+![project validation](../installation/imgs/resolving-issues.png)
 
 ## Opening Project Validation
 
@@ -23,7 +23,7 @@ Starting the project either with or withouth Debugging validates the project fir
 
 Project Properties, tab **Server**, provides selection of available PHPs and servers to run the project on. In case a local PHP installation is selected, and an issue is found, the Properties window shows a corresponding message that provides more information and the validation dialog.
 
-![](../Installation/imgs/phpproject-properties-server.png)
+![](../installation/imgs/phpproject-properties-server.png)
 
 **In Options**
 

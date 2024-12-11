@@ -94,7 +94,7 @@ PHPDoc content (within `/** */` comments) is also colorized. Its tags contained 
 
 ## TODO Highlighting
 
-User's to-do comments are both listed in Visual Studio's [_Task List_](task-list) window, and highlighted in the source code.
+User's to-do comments are both listed in Visual Studio's [_Task List_](task-list.md) window, and highlighted in the source code.
 
 ![to-do highlighting](imgs/todo-highlight.png)
 
@@ -128,8 +128,8 @@ When switching to a different color theme (e.g. Dark Theme), all built-in colors
 
 ## See also
 
-- [Task List](task-list)
-- [Semantic Token Highlighting](word-highlighting)
-- [Twig Editor](twig)
-- [Smarty Editor](smarty)
-- [Blade Editor](blade)
+- [Task List](task-list.md)
+- [Semantic Token Highlighting](word-highlighting.md)
+- [Twig Editor](twig.md)
+- [Smarty Editor](smarty.md)
+- [Blade Editor](blade.md)

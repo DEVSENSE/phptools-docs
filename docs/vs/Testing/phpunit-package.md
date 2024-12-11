@@ -10,7 +10,7 @@ PHP Tools come with a bundled version of PHPUnit in case there isn't a user inst
 
 ## Custom PHPUnit
 
-PHP Tools will use a particular PHPUnit version when it's configured in the `composer.json`. Check [Composer section](../project/composer), and ensure there is `phpunit/phpunit` composer package installed.
+PHP Tools will use a particular PHPUnit version when it's configured in the `composer.json`. Check [Composer section](../project/composer.md), and ensure there is `phpunit/phpunit` composer package installed.
 
 ## Bundled PHPUnit
 

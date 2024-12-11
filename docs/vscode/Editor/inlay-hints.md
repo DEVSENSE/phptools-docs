@@ -85,6 +85,6 @@ To customize the inlay hints colors, alter the theme colors using `"workbench.co
 
 ## See also
 
-- [Code Lens](code-lens)
+- [Code Lens](code-lens.md)
 - Visual Studio Code Theme Colors: https://code.visualstudio.com/api/references/theme-color
 - Customizing Theme Colors: https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme

@@ -67,5 +67,5 @@ The specified identifier can be used by PHP Tools in PHP Version Picker (above),
 
 ## Related Links
 
-- [Configuration](configuration) - Configuring the environment.
-- [Debug Configuration](debug/launch-json) - Configuring the launch profile.
+- [Configuration](configuration.md) - Configuring the environment.
+- [Debug Configuration](debug/launch-json.md) - Configuring the launch profile.

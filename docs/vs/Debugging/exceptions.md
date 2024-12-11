@@ -11,7 +11,7 @@ PHP Tools for Visual Studio debugger handles both types of error handling – tr
 
 ## Break when an exception is thrown
 
-You can instruct the debugger to break when the exception is thrown, which will allow you to [inspect the current state of the program](inspecting-data).  
+You can instruct the debugger to break when the exception is thrown, which will allow you to [inspect the current state of the program](inspecting-data.md).  
 
 With a PHP project opened, use `Debug | Windows | Exception Settings` to open the **Exception Settings** window. Find **PHP Exceptions** category and make sure the exception that you want to break on is checked. If the exception is not listed in Exception settings, check **<All PHP Exceptions not in this list>** item , or you can check the whole **PHP Exceptions**** category.
 
@@ -23,7 +23,7 @@ Then when you are debugging PHP program, Visual Studio will break when the excep
 
 ![Exception handler](imgs/exception-thrown.png)
 
-The exception handler dialog will present you the information about the exception, such as type of the exception and message. You can [inspect the program](inspecting-data), evaluate expressions, check the call stack, etc.
+The exception handler dialog will present you the information about the exception, such as type of the exception and message. You can [inspect the program](inspecting-data.md), evaluate expressions, check the call stack, etc.
 
 > **Note:** you can uncheck **Break when this exception type is thrown** directly in the exception handler and continue debugging (press <kbd>F5</kbd>). Visual Studio will add this exception type to the **Exception settings** and will remember that it shouldn’t break on this exception again.
 

@@ -49,7 +49,7 @@ En el caso en que un usuario escriba un nombre de tipo que no se encuentre visib
 
 ![IntelliSense Invisible Types](imgs/completion-missing.png)
 
-Si un tipo inaccesible así es utilizado en un código, el editor proporciona sugerencias adicionales que insertan automáticamente `use`, o expanden el nombre a un nombre completamente calificado, o cambian el nombre a su forma más corta utilizando los alias existentes. Para más información acerca de las sugerencias, vea [la página de documentación](suggestions).
+Si un tipo inaccesible así es utilizado en un código, el editor proporciona sugerencias adicionales que insertan automáticamente `use`, o expanden el nombre a un nombre completamente calificado, o cambian el nombre a su forma más corta utilizando los alias existentes. Para más información acerca de las sugerencias, vea [la página de documentación](suggestions.md).
 
 ![Suggestions for type](imgs/suggesting-use.png)
 

@@ -6,7 +6,7 @@ Version: 1.73 and higher
 
 # Details View
 
-Results with the profiling data are opened either from [Profiling Tool Window](overview) or [Test Explorer](profiling-phpunit-tests).
+Results with the profiling data are opened either from [Profiling Tool Window](overview.md) or [Test Explorer](profiling-phpunit-tests.md).
 
 The _Profiler Details View_ provides details about called functions, call graphs, memory allocations, and functions called in time. It allows for filtering by a function name, path, or whether it's a PHP internal or user function.
 
@@ -42,7 +42,7 @@ The boxes show details of a function, and all the function that called it, and a
 
 ## See also
 
-- [Profiler View](profiler-view)
-- [Profiling PHPUnit Tests](profiling-phpunit-tests)
-- [Installing PHP with Xdebug](../Installation/install-php)
-- [Custom Xdebug configuration](../Debugging/configuring-xdebug)
+- [Profiler View](profiler-view.md)
+- [Profiling PHPUnit Tests](profiling-phpunit-tests.md)
+- [Installing PHP with Xdebug](../installation/install-php.md)
+- [Custom Xdebug configuration](../debugging/configuring-xdebug.md)

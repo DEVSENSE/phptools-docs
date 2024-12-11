@@ -16,8 +16,8 @@ By navigating the keyboard cursor over a symbol, waiting for about 500ms, the sy
 
 This feature is used to quickly check occurrences of a symbol under the keyboard cursor within the editor window. Usually it is used to visually check where is e.g. a local variable used.
 
-> **Note**: The feature supports the same matches as [Find All References](/navigation/shift-f12-findallref).
+> **Note**: The feature supports the same matches as [Find All References](../navigation/shift-f12-findallref.md).
 
 ## See also
 
-- [Syntax Highlighting](syntax-highlighting)
+- [Syntax Highlighting](syntax-highlighting.md)

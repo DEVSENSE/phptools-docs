@@ -19,4 +19,4 @@ Useful related settings:
 
 ## See Also
 
-- [Suppressing Diagnostics](suppressing-diagnostics)
+- [Suppressing Diagnostics](suppressing-diagnostics.md)

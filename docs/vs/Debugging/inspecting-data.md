@@ -43,7 +43,7 @@ The **Watch** window (`Debug | Windows | Watch | Watch 1-4`) allows you to enter
 
 These expressions are reevaluated for each step, unless PHP Tools decides they might cause **side effects**. A **side effect** occurs when evaluating an expression changes the value of data in your application. In this case, the reevaluation of this expression is postponed and only happens when explicitly triggered by user.
 
-> **Note**: Expressions are always evaluated against top stack frame. On the other hand, if you are simply inspecting a variable value, the value is returned from the current frame on the stack. You can always change the current frame in the [Call Stack window](callstack).
+> **Note**: Expressions are always evaluated against top stack frame. On the other hand, if you are simply inspecting a variable value, the value is returned from the current frame on the stack. You can always change the current frame in the [Call Stack window](callstack.md).
 
 ### QuickWatch dialog
 
@@ -67,7 +67,7 @@ In HTML mode, an embedded browser instance will be used to render the HTML code 
 
 The Immediate window (`Debug | Windows | Immediate`) evaluates entered expressions which are evaluated against the top stack frame and the results are printed.
 
-> **Note**: Changing the current frame in the [Call Stack window](callstack) will only affect simple variable inspections; expressions evaluation will not work.
+> **Note**: Changing the current frame in the [Call Stack window](callstack.md) will only affect simple variable inspections; expressions evaluation will not work.
 
 ![Immediate window](imgs\immediate-window.png)
 

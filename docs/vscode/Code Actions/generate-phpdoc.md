@@ -36,4 +36,4 @@ _Sample:_
 
 ## See Also
 
-- [PHPDoc Support](../editor/phpdoc)
+- [PHPDoc Support](../editor/phpdoc.md)

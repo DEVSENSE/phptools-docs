@@ -11,7 +11,7 @@ The integrated _formatter_ helps you keep the code looking clean and maintain th
 
 ![PHP document format](../imgs/format-document.gif)
 
-The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation, adds or removes new lines when necessary and pretty print spaces. It can also be [highly customized](customize-formatting).
+The code formatting normalizes whitespaces, line endings, opening and closing braces, indentation, adds or removes new lines when necessary and pretty print spaces. It can also be [highly customized](customize-formatting.md).
 
 ### Triggering format
 
@@ -41,16 +41,16 @@ Setting | Effect
 
 ## Code Styles
 
-Explore various code styles in detail at [Code Styles](code-styles), including:
-- [PSR-12](code-styles#psr-12)
-- [PHP Tools](code-styles#php-tools)
-- [PSR-2](code-styles#psr-2)
-- [Allman](code-styles#allman)
-- [K&R](code-styles#kr)
-- [Laravel](code-styles#laravel)
-- [Wordpress](code-styles#wordpress)
-- [Drupal](code-styles#drupal)
-- [Joomla](code-styles#joomla)
+Explore various code styles in detail at [Code Styles](code-styles.md), including:
+- [PSR-2](code-styles.md#psr-2)
+- [PSR-12](code-styles.md#psr-12)
+- [PER](code-styles.md#per)
+- [Allman](code-styles.md#allman)
+- [K&R](code-styles.md#kr)
+- [Laravel](code-styles.md#laravel)
+- [Wordpress](code-styles.md#wordpress)
+- [Drupal](code-styles.md#drupal)
+- [Joomla](code-styles.md#joomla)
 
  The styles are selected in [settings](#configuration).
 
@@ -134,7 +134,7 @@ To turn off the formatting select the setting `Off`. Remaining features like PHP
 
 ### Custom Code Style
 
-Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For a detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](customize-formatting).
+Use `php.format.rules.*` settings to configure the formatter to behave as you wish. For a detailed list of formatting options, either open the Settings Editor (`Ctrl+,`) and type `php format` in the Search bar or see our documentation page [HERE](customize-formatting.md).
 
 ## HTML, JS and CSS Formatting
 
@@ -145,5 +145,5 @@ PHP Tools support HTML, JavaScript and CSS formatting in PHP files. The formatti
 
 ## See Also
 
-- [Customize Formatting](customize-formatting)
-- [Code Styles](code-styles)
+- [Customize Formatting](customize-formatting.md)
+- [Code Styles](code-styles.md)

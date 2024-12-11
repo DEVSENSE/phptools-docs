@@ -8,7 +8,7 @@ Version: 1.73 and higher
 
 # Profile PHPUnit Test Case
 
-> Make sure, [requirements](overview) are met.
+> Make sure, [requirements](overview.md) are met.
 
 Open `Test Explorer` in `Test` / `Test Explorer`. Then:
 
@@ -18,13 +18,13 @@ Open `Test Explorer` in `Test` / `Test Explorer`. Then:
 - Right click.
 - Choose `Profile`.
 
-A new `php.exe` process will start and collects profiling data. After it's finished, [Profiler View](profiler-view) will be opened with the results.
+A new `php.exe` process will start and collects profiling data. After it's finished, [Profiler View](profiler-view.md) will be opened with the results.
 
 > For details about the test run or possible errors, see Visual Studio _Output_ window.
 
 ## See also
 
-- [Profiler View](profiler-view)
-- [Profiling PHPUnit Tests](profiling-phpunit-tests)
-- [Installing PHP with Xdebug](../Installation/install-php)
-- [Custom Xdebug configuration](../Debugging/configuring-xdebug)
+- [Profiler View](profiler-view.md)
+- [Profiling PHPUnit Tests](profiling-phpunit-tests.md)
+- [Installing PHP with Xdebug](../installation/install-php.md)
+- [Custom Xdebug configuration](../debugging/configuring-xdebug.md)

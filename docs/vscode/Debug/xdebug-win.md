@@ -71,5 +71,5 @@ Zend Engine v4.1.0, Copyright (c) Zend Technologies
 
 ## See Also
 
-- [Debug Overview](.)
-- [Launch Configurations](launch-json)
+- [Debug Overview](index.md)
+- [Launch Configurations](launch-json.md)

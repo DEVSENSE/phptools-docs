@@ -10,7 +10,7 @@ PHP code profiling allows you to inspect how much time and how many calls were m
 
 ## Requirements
 
-Similarly to [debugging requirements](../Debugging/configuring-xdebug), profiling requires a local installation of [`PHP` with `Xdebug`](../Installation/install-php) extension.
+Similarly to [debugging requirements](../debugging/configuring-xdebug.md), profiling requires a local installation of [`PHP` with `Xdebug`](../installation/install-php.md) extension.
 
 - Local installation of PHP (7 - 8.0, or newer)
 - [Xdebug PHP extension](http://xdebug.org/)
@@ -21,11 +21,11 @@ Open **PHP Profiling** Tool Window in `Debug` / `Open PHP Profiler` menu.
 
 ![open the PHP profiling tool window](imgs/vs-open-profiler.png)
 
-The PHP Profiling tool window lets you start a PHP profiling session, inspect requests, and open profiling results in a separate [Profiler View](profiler-view).
+The PHP Profiling tool window lets you start a PHP profiling session, inspect requests, and open profiling results in a separate [Profiler View](profiler-view.md).
 
 ![php profiler tool window](imgs/vs-profiler-toolwindow.png)
 
-- Choose `Launch Setting`, if you have a [PHP project](../Project/new-project) opened.
+- Choose `Launch Setting`, if you have a [PHP project](../project/new-project.md) opened.
 - Specify `PHP executable` to run.
 - Customize `Arguments` for the `php.exe`. By default, it's `"-S localhost:8000 -t ."` which starts a development server on `http://localhost:8000`.
 - Click `Start Profiling` to launch `php.exe` with the specified arguments.
@@ -35,7 +35,7 @@ The PHP Profiling tool window lets you start a PHP profiling session, inspect re
 
 ### Inspecting Profiling Data
 
-Open details by clicking on `View`. This will open [Profiler View](profiler-view) with collected data.
+Open details by clicking on `View`. This will open [Profiler View](profiler-view.md) with collected data.
 
 ![view PHP profiling data](imgs/vs-profiler-toolwindow-view.png)
 
@@ -45,11 +45,11 @@ In case the user has an existing profiling file (CacheGrind format, either uncom
 
 ### Profiling PHPUnit Test
 
-See [Profiling PHPUnit Tests](profiling-phpunit-tests) for details.
+See [Profiling PHPUnit Tests](profiling-phpunit-tests.md) for details.
 
 ## See also
 
-- [Profiler View](profiler-view)
-- [Profiling PHPUnit Tests](profiling-phpunit-tests)
-- [Installing PHP with Xdebug](../Installation/install-php)
-- [Custom Xdebug configuration](../Debugging/configuring-xdebug)
+- [Profiler View](profiler-view.md)
+- [Profiling PHPUnit Tests](profiling-phpunit-tests.md)
+- [Installing PHP with Xdebug](../installation/install-php.md)
+- [Custom Xdebug configuration](../debugging/configuring-xdebug.md)

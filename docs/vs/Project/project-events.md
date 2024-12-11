@@ -49,4 +49,4 @@ Optionally, the script can use variables in the format `${name}` which will be r
 
 ## Related Links
 
-- [Automatic Publish](remote-explorer#automatic-upload)
+- [Automatic Publish](remote-explorer.md#automatic-upload)

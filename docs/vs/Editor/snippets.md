@@ -24,7 +24,7 @@ Follow the documentation on customizing code snippets at [docs.microsoft.com](ht
 
 ## See Also
 
-- [Auto-Import](auto-import)
-- [Code Completion](code-completion)
-- [Code Actions](suggestions)
-- [PHPDoc Comments](phpdoc)
+- [Auto-Import](auto-import.md)
+- [Code Completion](code-completion.md)
+- [Code Actions](suggestions.md)
+- [PHPDoc Comments](phpdoc.md)

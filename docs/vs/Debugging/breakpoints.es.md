@@ -41,7 +41,7 @@ Como se espera, habilitar una condición evita que un punto de interrupción det
 
 ## Administrar excepciones
 
- Puede definir los tipos de excepciones en los que se debería interrumpir el programa cuando se producen. Vea el artículo sobre [Excepciones](exceptions) para más información. 
+ Puede definir los tipos de excepciones en los que se debería interrumpir el programa cuando se producen. Vea el artículo sobre [Excepciones](exceptions.md) para más información. 
 
 ## Problemas conocidos
 

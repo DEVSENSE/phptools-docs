@@ -5,7 +5,7 @@ Description: Activate PHP Tools for Visual Studio
 
 # Product Activation
 
-After [downloading PHP Tools for Visual Studio](https://www.devsense.com/download), and [installing it](../installation), the product license needs to be **activated**.
+After [downloading PHP Tools for Visual Studio](https://www.devsense.com/download), and [installing it](../installation/index.md), the product license needs to be **activated**.
 
 ## Trial License
 
@@ -33,7 +33,7 @@ Once you have a obtained the license key, activate your copy of *PHP Tools for V
 
   ![Enter license key](imgs/activation-enter-key.png)
 
-> Note, when you're offline, the [offline activation](offline-activation) window will appear, guiding you through the process of offline activation.
+> Note, when you're offline, the [offline activation](offline-activation.md) window will appear, guiding you through the process of offline activation.
 
 To check the status of your maintenance and support subscription, go to `Help`/`About PHP Tools`. [What's the maintenance and support subscription?](https://www.devsense.com/en/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
 
@@ -51,5 +51,5 @@ Licenses are assigned to individual users and computers upon first activation. I
 
 ## Related Links
 
-- [Offline Activation](offline-activation): How to activate the product license with a blocked Internet connection.
+- [Offline Activation](offline-activation.md): How to activate the product license with a blocked Internet connection.
 - [Licenses FAQ](https://www.devsense.com/en/purchase#faq): More information about licenses and purchases.

@@ -105,5 +105,5 @@ You should have Xdebug configured by now, you can try a simple scenario:
 
 ## See Also
 
-- [Debug Overview](.)
-- [Launch Configurations](launch-json)
+- [Debug Overview](index.md)
+- [Launch Configurations](launch-json.md)

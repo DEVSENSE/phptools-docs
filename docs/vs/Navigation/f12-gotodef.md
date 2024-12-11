@@ -29,6 +29,6 @@ In case of a string value within `include`, `include_once`, `require` and `requi
 
 ## See also
 
-- [Navigation Bar](navigation-bar)
-- [CodeLens](codelens)
-- [F1 Help](f1-help)
+- [Navigation Bar](navigation-bar.md)
+- [CodeLens](codelens.md)
+- [F1 Help](f1-help.md)

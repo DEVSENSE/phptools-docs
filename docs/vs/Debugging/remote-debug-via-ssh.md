@@ -55,9 +55,9 @@ xdebug.start_with_request=trigger
 
 ## Configure PHP Project
 
-Back on your machine, configure the PHP project. This part is identical to a regular [remote debugging](remote-debug) configuration.
+Back on your machine, configure the PHP project. This part is identical to a regular [remote debugging](remote-debug.md) configuration.
 
-- Open or [create a new PHP project](../project/new-project)
+- Open or [create a new PHP project](../project/new-project.md)
 - Go to `Project / Properties`, and switch to `Server` tab
 - Fill `Server URL` and `Xdebug port`.
 - If you need to, provide a path mapping. But in simple cases, the debugger should figure it out on its own.

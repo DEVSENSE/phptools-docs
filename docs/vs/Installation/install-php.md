@@ -67,5 +67,5 @@ Setup your remote machine with your PHP and Xdebug configurations, go to the PHP
 
 ## Related Links
 
-- [Configuring Xdebug](/debugging/configuring-xdebug)
-- [New Project from Existing Code](/project/from-existing-code)
+- [Configuring Xdebug](../debugging/configuring-xdebug.md)
+- [New Project from Existing Code](../project/from-existing-code.md)

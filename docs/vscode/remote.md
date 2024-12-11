@@ -29,7 +29,7 @@ This scenario is a well-known approach to have a development system on a local m
    xdebug.client_port=9003
    ```
 
-   In case multiple developers require access to the remote server you'd need [DBGP proxy](debug/dbgp-proxy).
+   In case multiple developers require access to the remote server you'd need [DBGP proxy](debug/dbgp-proxy.md).
 
 2. Launch profile
 
@@ -48,7 +48,7 @@ This scenario is a well-known approach to have a development system on a local m
     }
     ```
 
-    Follow [**`launch.json`**](debug/launch-json) for more information about the launch profiles and related configurations.
+    Follow [**`launch.json`**](debug/launch-json.md) for more information about the launch profiles and related configurations.
 
 3. Restart the remote server. 
 
@@ -76,4 +76,4 @@ For this to work you would need [Remote Development extension pack](https://aka.
 ## Related links
 
 - [How to develop PHP inside a Docker Container using VS Code](https://blog.devsense.com/2022/develop-php-in-docker)
-- [Launch Profiles](debug/launch-json)
+- [Launch Profiles](debug/launch-json.md)

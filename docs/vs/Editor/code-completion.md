@@ -49,17 +49,17 @@ In case the user writes a name of a type that is not visible in the current name
 
 ![IntelliSense Invisible Types](imgs/completion-missing.png)
 
-If such inaccessible type is used in a code, the editor provides additional suggestions that automatically inserts `use`, or expands the name to a fully qualified name, or expands the name to its shortest form using existing aliases. For more information about suggestions see [the documentation page](suggestions).
+If such inaccessible type is used in a code, the editor provides additional suggestions that automatically inserts `use`, or expands the name to a fully qualified name, or expands the name to its shortest form using existing aliases. For more information about suggestions see [the documentation page](suggestions.md).
 
 ![Suggestions for type](imgs/suggesting-use.png)
 
 ### Improving Completion
 
-Code completion is heavily based on type analysis and cleannes of the code. To improve code completion after `->`, make sure the editor can resolve type of the expression before. You can check the type of variables at a specific place by hovering the mouse over it and checking its tooltip. If the type is not resolved by the editor correctly, or displays only `mixed` or `object`, additional [PHPDoc comments](phpdoc) may be provided to improve the completion.
+Code completion is heavily based on type analysis and cleannes of the code. To improve code completion after `->`, make sure the editor can resolve type of the expression before. You can check the type of variables at a specific place by hovering the mouse over it and checking its tooltip. If the type is not resolved by the editor correctly, or displays only `mixed` or `object`, additional [PHPDoc comments](phpdoc.md) may be provided to improve the completion.
 
-[PHPDoc](phpdoc) can be placed above functions to provide type hints for function parameters (using `@param` tag) and function return type (using `@return` tag). Additionally, you can write PHPDoc blocks right in the code specifying variable types (e.g. `/** @var MyClass $x */`).
+[PHPDoc](phpdoc.md) can be placed above functions to provide type hints for function parameters (using `@param` tag) and function return type (using `@return` tag). Additionally, you can write PHPDoc blocks right in the code specifying variable types (e.g. `/** @var MyClass $x */`).
 
-There are numerous of PHPDoc tags and specialized type notations. See [PHPDoc](phpdoc) for more details.
+There are numerous of PHPDoc tags and specialized type notations. See [PHPDoc](phpdoc.md) for more details.
 
 ### Completing Array Keys
 
@@ -83,5 +83,5 @@ The feature can be disabled in menu `Tools | Options | Text Editor | PHP | Intel
 
 ## See Also
 
-- [Auto-Import](auto-import)
-- [PHPDoc Comments](phpdoc)
+- [Auto-Import](auto-import.md)
+- [PHPDoc Comments](phpdoc.md)

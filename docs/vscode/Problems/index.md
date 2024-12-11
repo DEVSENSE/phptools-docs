@@ -11,6 +11,6 @@ The editor analyzes user's code, builds index of everything in the workspace, in
 
 ## Related links
 
-- [Configuration](configuration)
+- [Configuration](configuration.md)
 - [Diagnostic Codes](https://docs.devsense.com/vs/code%20validation/diagnostics)
-- [Suppressing Diagnostics](suppressing-diagnostics)
+- [Suppressing Diagnostics](suppressing-diagnostics.md)
