@@ -5,6 +5,10 @@ Description: PHP Tools documentation home page.
 
 # Getting Started with PHP Tools
 
+!!! info
+
+    Looking for PHP extension for [**Visual Studio Code**](../vscode/index.md)? Continue [here](../vscode/index.md)
+
 Welcome to PHP Tools for Visual Studio. The following guide will help you with the basics, so you can quickly start working with PHP in Microsoft Visual Studio.
 
 > **Note:** PHP Tools for Visual Studio is a Visual Studio extension. Please note, licensing of **Visual Studio Express** does not allow the extensibility. Thus PHP Tools does not support VS Express editions.

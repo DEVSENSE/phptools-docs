@@ -74,19 +74,19 @@ markdown_extensions:
     #   #     guess_lang: false        # Disables guessing the language if not specified
     #   #     code_attr_on_pre: true
     #   #     pygments_style: monokai
-    #   - pymdownx.inlinehilite
-    #   - pymdownx.snippets
-    #   - admonition
-    #   - pymdownx.arithmatex:
-    #       generic: true
-    #   - footnotes
-    #   - pymdownx.details
-    #   # - pymdownx.superfences
-    #   - pymdownx.mark
-    #   - attr_list
-    #   - pymdownx.emoji:
-    #       emoji_index: !!python/name:materialx.emoji.twemoji
-    #       emoji_generator: !!python/name:materialx.emoji.to_svg
+- admonition
+#   - pymdownx.inlinehilite
+#   - pymdownx.snippets
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - footnotes
+#   - pymdownx.details
+#   # - pymdownx.superfences
+#   - pymdownx.mark
+#   - attr_list
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:materialx.emoji.twemoji
+#       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_css:
   - stylesheets/extra.css
