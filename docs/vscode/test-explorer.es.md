@@ -19,7 +19,7 @@ Las pruebas se resuelven rápidamente analizando los archivos `phpunit.xml` o` p
 
 ### PHP
 
-Las pruebas necesitan PHP runtime configurado. Consulte [editor/php-version-select](Selección de PHP ejecutable) para obtener más detalles.
+Las pruebas necesitan PHP runtime configurado. Consulte [editor/php-version-select](Selección de PHP ejecutable.md) para obtener más detalles.
 
 De forma predeterminada, el espacio de trabajo está configurado para usar el comando global `php`.
 
@@ -48,7 +48,7 @@ La ventana será solamente visible si hay algunas pruebas o un archivo de config
 
 ## Depurar las pruebas
 
-Las pruebas se pueden depurar con Xdebug haciendo click en el icono similar a un error [Icono de depuración](imgs/test-debuging.png) en la vista Explorador de pruebas, o en la acción *Debug* encima de la función de prueba. El proceso de depuración es el mismo que [depuración estándar](Depurar). El Explorador de pruebas puede depurar una o más pruebas a la vez. 
+Las pruebas se pueden depurar con Xdebug haciendo click en el icono similar a un error [Icono de depuración](imgs/test-debuging.png) en la vista Explorador de pruebas, o en la acción *Debug* encima de la función de prueba. El proceso de depuración es el mismo que [depuración estándar](Depurar.md). El Explorador de pruebas puede depurar una o más pruebas a la vez. 
 
 ## Resultados de las pruebas
 
