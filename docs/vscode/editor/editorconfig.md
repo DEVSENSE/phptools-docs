@@ -56,10 +56,10 @@ These directives apply to all file types, including PHP, and control basic forma
 
 In addition to the general directives above, the PHP extension for VS Code supports several specific settings that control PHP formatting. These PHP-specific directives allow you to customize the appearance of your PHP code in greater detail.
 
-For a complete list of PHP-specific `.editorconfig` properties, refer to our [customize formatting documentation](https://docs.devsense.com/en/vscode/editor/customize-formatting).
+For a complete list of PHP-specific `.editorconfig` properties, refer to our [customize formatting documentation](https://docs.devsense.com/vscode/editor/customize-formatting).
 
 ## Suppressing Diagnostics
 
-You can configure and suppress diagnostics using the `.editorconfig` file for fine-grained control over PHP code warnings and errors. For full details on how to set up and adjust diagnostic severity, refer to the [Suppressing Diagnostics Documentation](https://docs.devsense.com/en/vscode/problems/suppressing-diagnostics).
+You can configure and suppress diagnostics using the `.editorconfig` file for fine-grained control over PHP code warnings and errors. For full details on how to set up and adjust diagnostic severity, refer to the [Suppressing Diagnostics Documentation](https://docs.devsense.com/vscode/problems/suppressing-diagnostics).
 
 Additional configuration options are available via `settings.json` or PHPDoc tags. See the full guide for more information.

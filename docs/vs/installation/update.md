@@ -5,7 +5,7 @@ Description: How to update PHP Tools for Visual Studio
 
 # Update Instructions
 
-To update the software, you don't need to uninstall and reinstall the new version. Just download the desired version and install it. Please follow the [installation instructions](https://docs.devsense.com/en/vs/installation) for more information.
+To update the software, you don't need to uninstall and reinstall the new version. Just download the desired version and install it. Please follow the [installation instructions](https://docs.devsense.com/vs/installation) for more information.
 
 > **Note:** Make sure your subscription is active in order to be able to download the latest versions of the product.
 

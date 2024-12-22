@@ -19,7 +19,7 @@ You can check the state of the license in `Help` / `About PHP Tools` menu.
 
 ## Obtain License Key
 
-The license key can be purchased online from our [purchase page](https://www.devsense.com/purchase). For detailed information about licence types, licensing model, purchase, upgrades and renewal, see our [FAQ section](https://www.devsense.com/en/purchase#faq).
+The license key can be purchased online from our [purchase page](https://www.devsense.com/purchase). For detailed information about licence types, licensing model, purchase, upgrades and renewal, see our [FAQ section](https://www.devsense.com/purchase#faq).
 
 The license key is sent by email **immediately** after the payment.
 
@@ -35,7 +35,7 @@ Once you have a obtained the license key, activate your copy of *PHP Tools for V
 
 > Note, when you're offline, the [offline activation](offline-activation.md) window will appear, guiding you through the process of offline activation.
 
-To check the status of your maintenance and support subscription, go to `Help`/`About PHP Tools`. [What's the maintenance and support subscription?](https://www.devsense.com/en/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
+To check the status of your maintenance and support subscription, go to `Help`/`About PHP Tools`. [What's the maintenance and support subscription?](https://www.devsense.com/purchase/faq/upgrades-and-renewal#what-is-the-maintenance-and-support-subscription)
 
 ![License status](imgs/license-about-window.png)
 
@@ -52,4 +52,4 @@ Licenses are assigned to individual users and computers upon first activation. I
 ## Related Links
 
 - [Offline Activation](offline-activation.md): How to activate the product license with a blocked Internet connection.
-- [Licenses FAQ](https://www.devsense.com/en/purchase#faq): More information about licenses and purchases.
+- [Licenses FAQ](https://www.devsense.com/purchase#faq): More information about licenses and purchases.

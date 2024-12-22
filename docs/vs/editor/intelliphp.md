@@ -15,7 +15,7 @@ IntelliPHP seamlessly integrates with Visual Studio 2022, enhancing your PHP dev
 
 1. **Prerequisites:** Ensure you have Visual Studio 2022 installed on your system.
 
-2. **Download and Install IntelliPHP:** IntelliPHP is part of PHP Tools for Visual Studio extension which you can download [HERE](https://www.devsense.com/en/download) or directly from Visual Studio in `Tools | Extensions` menu.
+2. **Download and Install IntelliPHP:** IntelliPHP is part of PHP Tools for Visual Studio extension which you can download [HERE](https://www.devsense.com/download) or directly from Visual Studio in `Tools | Extensions` menu.
 
 3. **Configuration:** IntelliPHP is enabled by default starting from version `1.74`. If needed, you turn it on or off when you go to `Tools | Options | Text Editor | PHP | IntelliPHP`.
 
