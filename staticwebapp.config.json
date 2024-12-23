@@ -1,12 +1,5 @@
 {
     "trailingSlash": "always",
-    "routes": [
-        {
-            "route": "/",
-            "redirect": "/vs/",
-            "statusCode": 301
-        }
-    ],
     "responseOverrides": {
         "404": {
             "rewrite": "/404/"
