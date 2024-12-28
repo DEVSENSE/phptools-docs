@@ -90,6 +90,8 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - js/extra.js
 
 exclude_docs: |
   *.es.md
