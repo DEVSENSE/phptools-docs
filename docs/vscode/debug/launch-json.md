@@ -106,7 +106,7 @@ Example with the `"exclude"` configuration:
     "port": 9003,
 
     "exclude": [
-        "**/vendor/**"
+        "vendor/**"
     ]
 }
 ```
@@ -117,8 +117,8 @@ To ignore everything except a specified path, use the negation prefix `!`, e.g.:
 
 ```json
     "exclude": [
-      "!**/app/**",
-      "!**/vendor/mypackage/**",
+      "!app/**",
+      "!vendor/mypackage/**",
     ]
 ```
 
