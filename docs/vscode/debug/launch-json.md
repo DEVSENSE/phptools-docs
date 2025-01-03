@@ -94,7 +94,7 @@ Note, if not specified, the DBGp proxy **IDE key** is set automatically to the c
 
 ### Ignored Paths
 
-To ignore custom paths (like `**/vendor/**`) from being **stepped into** and breaking on **exceptions**, specify `"exclude" : ["**/vendor/**"]` launch setting.
+To ignore custom paths (like `"**/vendor/**"`) from being **stepped into** and breaking on **exceptions**, specify `"exclude" : ["**/vendor/**"]` launch setting.
 
 Debugger won't step into and won't break on handled exceptions within files matching specified glob patterns.
 
