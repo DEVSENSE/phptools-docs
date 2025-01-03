@@ -118,12 +118,13 @@ Example with the `"exclude"` configuration:
 **Excluding everything except**
 
 To ignore everything except a specified path, use the negation prefix `!`, e.g.:
+
 ```json
     "exclude": [
       "!**/app/**",
       "!**/vendor/mypackage/**",
     ]
-````
+```
 
 ### Built-In PHP Server
 
