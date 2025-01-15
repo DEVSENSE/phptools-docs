@@ -50,6 +50,5 @@ See [selecting PHP version](php-version.md) for more information.
 
 - [Configuration](configuration.md)
 - [Selecting PHP version](php-version.md)
-- [Test explorer](test-explorer.md)
+- [Test Explorer](test-explorer.md)
 - [Debug](debug/index.md)
-- [Editor](editor/index.md)
