@@ -110,7 +110,7 @@ Without `.vscode/launch.json` launch file, simply press `F5` (Run / Start Debugg
 
 For more customization, create a [launch profile](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations), and select PHP. The profile will be pre-configured for use with Laravel.
 
-> Please watch DEBUG CONSOLE winow for the development server log, or issues.
+> Please watch DEBUG CONSOLE window for the development server log, or issues.
 
 ## See Also
 
