@@ -86,6 +86,8 @@ Special Laravel functions such as `__`, `lang`, `@lang()` blade directive, `stor
 
 ![named route completion](img/laravel-route-completion.png)
 
+Named routes are identified within `/routes/` directory. Name is suggested in `route()` function together with detailed tool-tip.
+
 ## Laravel Code Formatting Style
 
 Please see [Code Styles](../editor/code-styles.md) and make sure to switch to `Laravel` code style to enable all Laravel formatting rules.
