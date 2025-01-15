@@ -20,20 +20,20 @@ This scenario is a well-known approach to have a development system on a local m
 
 1. Xdebug configuration
 
-   Locate the appropriate configuration file with Xdebug configuration. It can be `php.ini` or `xdebug.ini`. Run `php --ini` will help.
+    Locate the appropriate configuration file with Xdebug configuration. It can be `php.ini` or `xdebug.ini`. Run `php --ini` will help.
 
-   Update the configuration so the `xdebug.client_host` contains your local system IP and make sure it's accessible from the remote server.
+    Update the configuration so the `xdebug.client_host` contains your local system IP and make sure it's accessible from the remote server.
 
-   ```ini
-   xdebug.client_host=LOCAL_SERVER_IP
-   xdebug.client_port=9003
-   ```
+    ```ini
+    xdebug.client_host=LOCAL_SERVER_IP
+    xdebug.client_port=9003
+    ```
 
-   In case multiple developers require access to the remote server you'd need [DBGP proxy](debug/dbgp-proxy.md).
+    In case multiple developers require access to the remote server you'd need [DBGP proxy](debug/dbgp-proxy.md).
 
 2. Launch profile
 
-   Alter your `launch.json` file and provide it with `pathMappings` for a debugger to know how to map remote paths to local paths. 
+    Alter your `launch.json` file and provide it with `pathMappings` for a debugger to know how to map remote paths to local paths. 
 
     ```json
     {
@@ -48,7 +48,7 @@ This scenario is a well-known approach to have a development system on a local m
     }
     ```
 
-    Follow [**`launch.json`**](debug/launch-json.md) for more information about the launch profiles and related configurations.
+    Follow [`launch.json`](debug/launch-json.md) for more information about the launch profiles and related configurations.
 
 3. Restart the remote server. 
 
