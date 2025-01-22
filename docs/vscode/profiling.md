@@ -18,10 +18,6 @@ PHP code profiling allows you to inspect how much time and how many calls were m
 - Ensure, you have PHP installed.
 - Ensure [Xdebug](https://xdebug.org/docs/install) PHP extension is installed as well.
 - Make sure PHP `zlib` extension is enabled (recommended).
-- Check your `php.ini` setting:
-    ```ini
-    xdebug.output_dir="<an output directory>"
-    ```
 - Use the following [`launch.json`](debug/launch-json.md) setting:
     ```json
     {
@@ -33,7 +29,7 @@ PHP code profiling allows you to inspect how much time and how many calls were m
         ],
         "noDebug": true, // <-- disable debugging
         "profile": true, // <-- enable profiling
-        "openProfile": false, // <-- whether to open profiling results after session ends
+        "openProfile": true, // <-- whether to open profiling results after session ends
     }
     ```
 
