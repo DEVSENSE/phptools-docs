@@ -121,3 +121,4 @@ For more customization, create a [launch profile](https://code.visualstudio.com/
 - Installing packages using Composer: [Composer](../composer.md)
 - Running PHPUnit Tests: [Test Explorer](../test-explorer.md)
 - Code Formatting Style: [Code Styles](../editor/code-styles.md)
+- Profiling Laravel App Tutorial: [Profiling Laravel App in VS Code](https://blog.devsense.com/2025/profile-laravel-in-visual-studio-code)

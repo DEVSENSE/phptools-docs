@@ -76,3 +76,4 @@ The loaded profiling result file is analyzed, and hot paths are highlighted dire
 - [Profiling PHP in VS Code](https://www.youtube.com/watch?v=VQB6pdDhGWs) - A quick video tutorial on Profiling PHP using Visual Studio Code.
 - [Performance Profiling PHP with VS Code](https://blog.devsense.com/2022/profile-php-vscode)
 - [Profiling PHPUnit Tests](test-explorer.md#profiling-tests)
+- [Profiling Laravel App](https://blog.devsense.com/2025/profile-laravel-in-visual-studio-code)
