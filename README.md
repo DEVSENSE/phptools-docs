@@ -1,6 +1,8 @@
-# PHP Tools
+# PHP extension for Visual Studio
 
 **PHP Tools is an all-in-one extension for Visual Studio and Visual Studio Code, making Visual Studio the full PHP IDE.**
+
+![PHP extension for VS Code Logo](docs/vscode/imgs/phptools-icon.png)
 
 The extension transparently integrates into Microsoft Visual Studio and extends it with the support for PHP language. We are focusing on developer productivity and respecting conventions. The tool understands your code, provides smart code completion, quick navigation, code lenses, error checking, code validation, code formatting, integrated PHP manual, built-in web server, debugging support, PHPUnit integration, composer package manager, and much more.
 
