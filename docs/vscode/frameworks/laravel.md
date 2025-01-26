@@ -51,6 +51,12 @@ Component attributes defined as view class properties, view `@props`, or Livewir
 ![component competion](img/blade-attribute-completion.png)
 
 
+## Laravel Code Formatting Style
+
+Please see [Code Styles](../editor/code-styles.md) and make sure to switch to `Laravel` code style to enable all Laravel formatting rules.
+
+![laravel code style setting](img/settings-codestyle-laravel.png)
+
 ## Facades, Services, and Class Aliases
 
 The editor recognizes class aliases such as `Route` defined across Laravel framework and in `app` configuration. Class aliases are listed in PHP code completion togeher with other symbols.
@@ -72,7 +78,7 @@ class Cache extends Facade { ... }
 
 ![eloquent model member completion](img/eloquent-model-completion.png)
 
-Eloquent models have full code completion including extensive generic types inferrence. Note, this works best in newer Laravel framework versions since they are better annotated.
+Eloquent query builder has full code completion including extensive generic types inferrence, and completion of model columns defined by its model factory. Note, this works best in newer Laravel framework versions since they are better annotated.
 
 ![eloquent local scopes](img/eloquent-local-scope-function.png)
 
@@ -82,17 +88,19 @@ Code completion provides local-scoped functions out of the box, without any addi
 
 ![view completion](img/view-completion.png)
 
-Special Laravel functions such as `__`, `lang`, `@lang()` blade directive, `storage_path`, `asset`, `view`, `route`, and others have additional code completions and navigations.
+Special Laravel functions such as `__()`, `lang()`, `@lang()` blade directive, `config()`, `env()`, `storage_path()`, `asset()`, `view()`, `@include()`-like blade directives, `route()`, `View::make()`, and others have additional code completions and navigations.
 
 ![named route completion](img/laravel-route-completion.png)
 
 Named routes are identified within `/routes/` directory. Name is suggested in `route()` function together with detailed tool-tip.
 
-## Laravel Code Formatting Style
+## Laravel Idea `ide.json` Support
 
-Please see [Code Styles](../editor/code-styles.md) and make sure to switch to `Laravel` code style to enable all Laravel formatting rules.
+> Since `1.56`
 
-![laravel code style setting](img/settings-codestyle-laravel.png)
+![laravel idea ide.json](img/laravel-ide-json-example.png)
+
+Additional code completions, blade directives, and blade components defined within special `ide.json` file(s) are supported. The `ide.json` can be placed anywhere in the VS Code workspace.
 
 ## Debugging using Built-in Server
 
