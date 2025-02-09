@@ -37,19 +37,33 @@ Common Blade directives are completed upon typing `@` character. Completions rep
 
 ![component competion](img/blade-component-completion.png)
 
-Blade views and components are scanned in default Laravel directories. View classes and `.blade.php` files are suggested using the Laravel view notation:
+Blade views, components, and LIvewire components are scanned in default Laravel directories. View classes and `.blade.php` files are suggested using the Laravel view notation:
 
 - As HTML tags after `<x-`, or inside `@include`, `@each` and other directives.
 - Liveware components after `<livewire:`, and inside `@livewire()` directive.
-
-- In `view()` function.
+- In `view()` function and others.
 
 ![view completion](img/view-completion.png)
+
+Additionally, component attributes are suggested in related functions.
+
+![view completion](img/view-completion.gif)
 
 Component attributes defined as view class properties, view `@props`, or Livewire `mount()` parameters are suggested/navigated to.
 
 ![component competion](img/blade-attribute-completion.png)
 
+### Sections Completion
+
+![Blade Sections Completion](img/blade-sections-completion.gif)
+
+Section names are collected across the Blade files extended by or extending the current view. Sections are then suggested in appropriate directives.
+
+### Component Attributes and Livewire Actions
+
+Component classes exposing properties and Livewire actions are used to provide additional completions of variables and possible values for `wire:` attributes.
+
+![Livewire Actions and Component Porperties in Blade Files](img/laravel-component-property-completion-wire.gif)
 
 ## Laravel Code Formatting Style
 
@@ -78,21 +92,34 @@ class Cache extends Facade { ... }
 
 ![eloquent model member completion](img/eloquent-model-completion.png)
 
-Eloquent query builder has full code completion including extensive generic types inferrence, and completion of model columns defined by its model factory. Note, this works best in newer Laravel framework versions since they are better annotated.
+Eloquent query builder has full code completion including extensive generic types inferrence, and completion of model columns defined by its model factory. Note, this works best in newer Laravel framework versions (9 and newer, 11+ preferably) since they are better annotated.
 
 ![eloquent local scopes](img/eloquent-local-scope-function.png)
 
-Code completion provides local-scoped functions out of the box, without any additional annotation or configuration needed.
+Code completion provides local-scoped functions out of the box, and `where` functions for model columns, without additional annotation or configuration needed.
+
+![eloquent where clausule](img/eloquent-where-function.png)
+
+Eloquent model table columns are resolved from (what's defined first):
+  - model class PHPDoc `@property`(s).
+  - models Factory class `definition()` function.
+  - using models table name (if can be resolved), and by looking up migrations in `database/migrations/` and `Schema` definitions.
+
+> columns are not obtaind directly from database.
 
 ## Completion and Navigation in Laravel-Specific Functions
 
 ![view completion](img/view-completion.png)
 
-Special Laravel functions such as `__()`, `lang()`, `@lang()` blade directive, `config()`, `env()`, `storage_path()`, `asset()`, `view()`, `@include()`-like blade directives, `route()`, `View::make()`, and others have additional code completions and navigations.
+Special Laravel functions such as `__()`, `lang()`, `@lang()` blade directive, `config()`, `env()`, `storage_path()`, `asset()`, `view()`, `@include()`-like blade directives, `mix()`, `route()`, `View::make()`, and others have additional code completions and navigations.
+
+### Route Completion
 
 ![named route completion](img/laravel-route-completion.png)
 
-Named routes are identified within `/routes/` directory. Name is suggested in `route()` function together with detailed tool-tip.
+Named routes are identified within `/routes/` directory. Route name and the route's parameters are suggested in `route()` function (and related functions) together with detailed tool-tip.
+
+![route parameter completion](img/route-completion.gif)
 
 ## Laravel Idea `ide.json` Support
 
