@@ -55,15 +55,30 @@ Component attributes defined as view class properties, view `@props`, or Livewir
 
 ### Sections Completion
 
+> Since `1.56`
+
 ![Blade Sections Completion](img/blade-sections-completion.gif)
 
 Section names are collected across the Blade files extended by or extending the current view. Sections are then suggested in appropriate directives.
 
 ### Component Attributes and Livewire Actions
 
+> Since `1.56`
+
 Component classes exposing properties and Livewire actions are used to provide additional completions of variables and possible values for `wire:` attributes.
 
 ![Livewire Actions and Component Porperties in Blade Files](img/laravel-component-property-completion-wire.gif)
+
+### Switch between Blade View and Class
+
+> Since `1.56`
+
+To switch quickly from a view file to its corresponding class, and vice versa, create a keyboard shortcut and associate it with `"phptools.blade.switchViewClass"` command.
+
+1. Open Visual Studio Code, navigate to **Preferences** and **Keyboard Shortcuts** (or use command palette `> Open Keyboard Shortcuts`):
+    ![VSCode Keyboard Shortcuts Menu](img/preferences-keyboardshortcuts.png)
+2. Search for `phptools.blade.switchViewClass`, and associate it with your keyboard shortcut:
+    ![Blade Switch View Shortcut](img/preferences-keyboardshortcuts-blade-switchview.png)
 
 ## Laravel Code Formatting Style
 
@@ -89,6 +104,8 @@ class Cache extends Facade { ... }
 ```
 
 ## Eloquent Models
+
+> Since `1.56`
 
 ![eloquent model member completion](img/eloquent-model-completion.png)
 
