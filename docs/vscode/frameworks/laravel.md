@@ -31,17 +31,19 @@ Nested PHP code inside `.blade.php` files is treated as regular PHP code - all t
 
 ![blade directive completion](img/blade-directive-completion.png)
 
-Common Blade directives are completed upon typing `@` character. Completions representing a snippet are annotated with a _snippet_ icon.
+Blade directives are completed upon typing `@` character. Completions representing a snippet are annotated with a _snippet_ icon.
+
+The list contains common Blade directives, directives defined within user code using `Blade::directive()` and `Blade::if()` methods, and directives defined in `ide.json` customization file.
 
 ### Components Completion and Navigation
 
 ![component competion](img/blade-component-completion.png)
 
-Blade views, components, and LIvewire components are scanned in default Laravel directories. View classes and `.blade.php` files are suggested using the Laravel view notation:
+Blade views, components, and Livewire components are scanned in default Laravel directories. View classes and `.blade.php` files are suggested using the Laravel view notation:
 
 - As HTML tags after `<x-`, or inside `@include`, `@each` and other directives.
-- Liveware components after `<livewire:`, and inside `@livewire()` directive.
-- In `view()` function and others.
+- Livewire components after `<livewire:`, and inside `@livewire()` directive.
+- In `view()` function and similar.
 
 ![view completion](img/view-completion.png)
 
@@ -53,14 +55,6 @@ Component attributes defined as view class properties, view `@props`, or Livewir
 
 ![component competion](img/blade-attribute-completion.png)
 
-### Sections Completion
-
-> Since `1.56`
-
-![Blade Sections Completion](img/blade-sections-completion.gif)
-
-Section names are collected across the Blade files extended by or extending the current view. Sections are then suggested in appropriate directives.
-
 ### Component Attributes and Livewire Actions
 
 > Since `1.56`
@@ -68,6 +62,14 @@ Section names are collected across the Blade files extended by or extending the 
 Component classes exposing properties and Livewire actions are used to provide additional completions of variables and possible values for `wire:` attributes.
 
 ![Livewire Actions and Component Porperties in Blade Files](img/laravel-component-property-completion-wire.gif)
+
+### Sections Completion
+
+> Since `1.56`
+
+![Blade Sections Completion](img/blade-sections-completion.gif)
+
+Section names are collected across the Blade files extended by or extending the current view. Sections are then suggested in appropriate directives.
 
 ### Switch between Blade View and Class
 
@@ -117,7 +119,7 @@ Code completion provides local-scoped functions out of the box, and `where` func
 
 ![eloquent where clausule](img/eloquent-where-function.png)
 
-Eloquent model table columns are resolved from (what's defined first):
+**Eloquent model table columns** are resolved from (what's defined first):
   - model class PHPDoc `@property`(s).
   - models Factory class `definition()` function.
   - using models table name (if can be resolved), and by looking up migrations in `database/migrations/` and `Schema` definitions.
