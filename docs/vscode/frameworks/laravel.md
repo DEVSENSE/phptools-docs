@@ -140,6 +140,10 @@ Code completion provides local-scoped functions out of the box, and `where` func
 
 Special Laravel functions such as `__()`, `lang()`, `@lang()` blade directive, `config()`, `env()`, `storage_path()`, `asset()`, `view()`, `@include()`-like blade directives, `mix()`, `route()`, `View::make()`, and others have additional code completions and navigations.
 
+- Completion inside **env()** function uses `.env` file in workspace root directory.
+- Completion inside **__()**, or **lang()** looks for `.json` translation files in `/lang` or `/resources/lang`.
+- Completion for **config()** is collected from arrays in `/config` directory.
+
 ### Route Completion
 
 ![named route completion](img/laravel-route-completion.png)
