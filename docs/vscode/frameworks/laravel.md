@@ -43,6 +43,8 @@ Blade directives are completed upon typing `@` character. Completions representi
 
 The list contains common Blade directives, directives defined within user code using `Blade::directive()` and `Blade::if()` methods, and directives defined in `ide.json` customization file.
 
+![blade include](img/blade-tag-signature-help.png)
+
 ### Components Completion and Navigation
 
 ![component competion](img/blade-component-completion.png)
