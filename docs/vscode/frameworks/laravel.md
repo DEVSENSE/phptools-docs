@@ -21,6 +21,14 @@ The formatter is built-in and provides code formatting for HTML, CSS, JS, and PH
 
 The configuration respects configurations of PHP, HTML, JS, CSS settings in VSCode respectively, and no additional setting is needed.
 
+### Smart Braces Completion
+
+> Since `1.56`
+
+![smart blade braces completion](img/blade-brace-completion.gif)
+
+Brace pairs are automatically completed and space added for special tags `{{  }}`, `{{{  }}}`, `{!!  !!}` and `{{--  --}}`.
+
 ### PHP Editor inside Blade Directives
 
 ![php in blade IntelliSense](img/blade-php-code.png)
