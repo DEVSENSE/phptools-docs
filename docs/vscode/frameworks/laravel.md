@@ -130,9 +130,10 @@ Code completion provides local-scoped functions out of the box, and `where` func
 ![eloquent where clausule](img/eloquent-where-function.png)
 
 **Eloquent model table columns** are resolved from (what's defined first):
-  - model class PHPDoc `@property`(s).
-  - models Factory class `definition()` function.
-  - using models table name (if can be resolved), and by looking up migrations in `database/migrations/` and `Schema` definitions.
+
+- model class PHPDoc `@property`(s).
+- models Factory class `definition()` function.
+- using models table name (if can be resolved), and by looking up migrations in `database/migrations/` and `Schema` definitions.
 
 > columns are not obtaind directly from database.
 
