@@ -22,7 +22,8 @@ The majority of the following notations are supported:
 - Majority of Psalm type annotations in PHPDoc.
 - `phpcs` comments for disabling and enabling errors, i.e. `// phpcs:disable` and `// phpcs:ignorefile`
 - `@mixin` PHPDoc annotation.
-- Jetbrains's PhpStorm `.phpstorm.meta.php` file with additional annotations.
+- JetBrains's PhpStorm `.phpstorm.meta.php` file with additional annotations.
+    - _limitations:_ [#2265](https://community.devsense.com/d/2265) - file is analyzed statically so variables and dynamic values are ignored.
 - Symfony and Laravel features (IntelliSense):
     - deducing defined class aliases
     - deducing provided services and facades
