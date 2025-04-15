@@ -69,7 +69,7 @@ Any rules matching the same folder are merged, as depicted on the sample below. 
 
 ```json
 "php.problems.exclude" : {
-    "/" : [406],
+    "**/*" : [406],
     "vendor/" : true,
 }
 ```
