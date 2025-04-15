@@ -6,9 +6,6 @@ site_description: This site provides DEVSENSE PHP Extension documentation.
 repo_name: DEVSENSE/phptools-docs
 repo_url: https://github.com/DEVSENSE/phptools-docs
 
-# Copyright
-copyright: Copyright &copy; 2009 - 2024 DEVSENSE s.r.o.
-
 theme:
     name: material
     custom_dir: overrides
@@ -106,6 +103,7 @@ plugins:
   - mkdocs-simple-hooks:
       hooks:
         on_page_markdown: "overrides.hooks:parse_custom_meta"
+        on_config: "overrides.hooks:on_config"
 #       collapse_single_pages: true
 #       strict: false
 #       order: asc

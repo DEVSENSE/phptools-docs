@@ -1,4 +1,5 @@
 import re
+from datetime import datetime
 
 def parse_custom_meta(markdown, page, config, files):
     """
@@ -25,3 +26,6 @@ def parse_custom_meta(markdown, page, config, files):
         markdown = meta_pattern.sub('', markdown).strip()
 
     return markdown
+
+def on_config(config, **kwargs):
+    config.now_year = datetime.now().year
