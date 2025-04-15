@@ -94,7 +94,7 @@ To switch quickly from a view file to its corresponding class, and vice versa, c
 
 ## Laravel Code Formatting Style
 
-Please see [Code Styles](../editor/code-styles.md) and make sure to switch to `Laravel` code style to enable all Laravel formatting rules.
+Please see [Code Styles](../formatting/code-styles.md) and make sure to switch to `Laravel` code style to enable all Laravel formatting rules.
 
 ![laravel code style setting](img/settings-codestyle-laravel.png)
 
@@ -189,5 +189,5 @@ For more customization, create a [launch profile](https://code.visualstudio.com/
 - Configuring code diagnostics: [Problems](../problems/configuration.md)
 - Installing packages using Composer: [Composer](../composer.md)
 - Running PHPUnit Tests: [Test Explorer](../test-explorer.md)
-- Code Formatting Style: [Code Styles](../editor/code-styles.md)
+- Code Formatting Style: [Code Styles](../formatting/code-styles.md)
 - Profiling Laravel App Tutorial: [Profiling Laravel App in VS Code](https://blog.devsense.com/2025/profile-laravel-in-visual-studio-code)
