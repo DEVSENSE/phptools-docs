@@ -104,6 +104,9 @@ plugins:
       hooks:
         on_page_markdown: "overrides.hooks:parse_custom_meta"
         on_config: "overrides.hooks:on_config"
+  - redirects:
+      redirect_maps:
+        vscode/editor/customize-formatting.md: vscode/formatting/customize-formatting.md
 #       collapse_single_pages: true
 #       strict: false
 #       order: asc
