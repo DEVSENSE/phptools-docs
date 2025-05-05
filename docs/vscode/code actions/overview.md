@@ -24,7 +24,8 @@ There are several kinds of actions:
 - **Code Action**: a quick refactoring for the code, not fixing any issue, just makes the code simpler. Can be configured to be marked as problem as well, or to be applied automatically on file save. 
 - **Generate PHPDoc comment**: creates a documentary comment`/** ... */` above declaration. Also generated when typing `/**` above declaration.
 - **Generate Getter/Setter**: creates `__get` or `__set` or both stubs. Applies to class non-public properties.
-- **Export Function** _(not provided yet)_
+- **Implement Methods Override**
+- **Extract Function** or **Constant**
 
 ## Sample Code Actions
 
