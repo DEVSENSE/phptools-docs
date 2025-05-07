@@ -14,6 +14,19 @@
     // Redirect if necessary
     if (currentUrl !== newUrl) {
         window.location.replace(newUrl);
+    } else {
+        // Define a regular expression to match /YYYY/MM/slug pattern
+        var regex = /^\/(\d{4})\/(\d{2})\/([^\/]+)\/?$/;
+        var match = currentUrl.match(regex);
+
+        if (match) {
+            var year = match[1];
+            var month = match[2];
+            var slug = match[3];
+            // Construct the new URL based on your site's structure
+            var redirectUrl = '/' + year + '/' + slug + '/';
+            window.location.replace(redirectUrl);
+        }
     }
 </script>
 {% endblock %}
