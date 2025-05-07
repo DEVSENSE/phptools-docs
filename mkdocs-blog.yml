@@ -1,0 +1,129 @@
+site_name: PHP Tools for Visual Studio - Blog
+site_author: DEVSENSE s.r.o.
+site_description: This site provides DEVSENSE PHP Extension documentation.
+docs_dir: blog
+# Repository
+repo_name: DEVSENSE/phptools-docs
+repo_url: https://github.com/DEVSENSE/phptools-docs
+
+theme:
+    name: material
+    custom_dir: overrides
+    features:
+    # - navigation.tabs
+    # - navigation.expand       # Expands the active navigation item
+    # - navigation.auto-collapse # Automatically collapses inactive items
+    # - navigation.tracking
+    # - navigation.indexes
+    #  - navigation.top
+     - navigation.sections
+     - toc.follow
+    #  - toc.integrate
+     - search.highlight
+     - search.share
+     - search.suggest
+     - content.code.annotation
+     - content.code.copy
+     - content.action.edit
+     - content.action.view
+    language: en
+    palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+    favicon: assets/images/favicon.ico
+    logo_dark_mode: assets/images/logo-dark.png
+    logo_light_mode: assets/images/logo.png
+
+markdown_extensions:
+- pymdownx.highlight:
+    anchor_linenums: true
+    guess_lang: false
+    # line_spans: __span
+    pygments_lang_class: true
+    extend_pygments_lang:
+      - name: php
+        lang: php
+        options:
+          startinline: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- toc:
+    permalink: "#"
+    # markdown_extensions:
+    #   # - pymdownx.highlight:
+    #   #     anchor_linenums: true
+    #   #     guess_lang: false        # Disables guessing the language if not specified
+    #   #     code_attr_on_pre: true
+    #   #     pygments_style: monokai
+- admonition
+#   - pymdownx.inlinehilite
+#   - pymdownx.snippets
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - footnotes
+#   - pymdownx.details
+#   # - pymdownx.superfences
+#   - pymdownx.mark
+#   - attr_list
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:materialx.emoji.twemoji
+#       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - js/extra.js
+
+plugins:
+  - awesome-pages
+  - blog:
+     blog_dir: .
+     post_url_format: "{date}/{file}"
+     post_url_date_format: yyyy
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - mkdocs-simple-hooks:
+      hooks:
+        on_page_markdown: "overrides.hooks:parse_custom_meta"
+        on_config: "overrides.hooks:on_config"
+#       collapse_single_pages: true
+#       strict: false
+#       order: asc
+#       sort_type: natural
+#       order_by: title
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/devsense
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/devsense
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/DevsenseCorp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ph4vs
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/DevsenseCorp
+  analytics:
+    provider: google
+    property: G-GD0WYQ4RWX
