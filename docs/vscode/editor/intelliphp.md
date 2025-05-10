@@ -5,29 +5,23 @@ Description: AI Autocomplete for PHP
 
 # IntelliPHP - AI Autocomplete for PHP
 
-IntelliPHP is an advanced AI-assisted development tool specifically tailored for PHP programmers. Just like its counterpart _IntelliCode_, IntelliPHP harnesses the power of machine learning to understand PHP code and provide context-aware suggestions. Unlike GitHub _Copilot_, IntelliPHP operates entirely locally, ensuring that code remains secure and private within their own development environments.
+IntelliPHP is an advanced AI-assisted development tool specifically tailored for PHP programmers. Unlike GitHub _Copilot_, IntelliPHP operates entirely locally, ensuring that code remains secure and private within their own development environments. IntelliPHP harnesses the power of machine learning to understand PHP code and provide context-aware suggestions. 
 
 ![intelliphp logo](../imgs/intelliphp-logo.png)
 
 The primary aim of IntelliPHP is to save developers time spent in typing code. It's designed to offer suggestions ranging from short and highly likely suggestions up to whole lines of code. The model has been trained in-house on vast repositories of PHP code, making it adept at providing accurate and relevant suggestions tailored to PHP development.
 
-## Installation and Setup
-
-IntelliPHP seamlessly integrates with Visual Studio Code, enhancing your PHP development experience. To get started, follow these simple steps:
-
-1. **Prerequisites:** Ensure you have Visual Studio Code installed on your system. While the [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) for VS Code is not mandatory for IntelliPHP to function in VS Code, it is highly recommended. The PHP extension and IntelliPHP communicate to enhance your user experience and productivity, ensuring you get the most out of this powerful tool.
-
-2. **Download and Install IntelliPHP:** To add IntelliPHP to your Visual Studio Code environment, search for `IntelliPHP` in the VS Code extension pane and click the **Install** button. You can also click here to [Install IntelliPHP](vscode:extension/DEVSENSE.intelli-php-vscode).
-
-3. **Configuration:** After the installation, no further configuration is required.
-
 ## Settings
 
-You can enable or disable the AI suggestions by configuring the following option in your `settings.json` file:
+| Setting | Decription |
+| ---     | ---        |
+| `intelliphp.inlineSuggestionsEnabled` | Enable or disable inline suggestions in PHP files. |
 
-```json
-"intelliphp.inlineSuggestionsEnabled" : true
-```
+## Disable/Uninstall
+
+In case you don't want the inline suggestion assistant, and/or you need to save system resources, you can disable or uninstall the entire IntelliPHP extension.
+
+Use VSCode *Extensions* panel, navigate to extension `DEVSENSE.intelli-php-vscode`, and manage it there.
 
 ## Features
 
@@ -35,7 +29,7 @@ IntelliPHP is designed to save you time and boost your productivity. Here are so
 
 - **AI Auto-completion:** Enjoy context-aware auto-completion suggestions as you type your PHP code.
 - **Code Snippets:** IntelliPHP provides code snippets and whole lines of code to streamline your development process.
-- **Framework Support:** Whether you're using Laravel, Symfony, or any other PHP frameworks, IntelliPHP has you covered.
+- **Framework Support:** Whether you're using Laravel, Drupal, WordPress, or any other PHP frameworks, IntelliPHP has you covered.
 - **Local:** IntelliPHP operates locally, no code leaves your machine EVER.
 - **Speed:** IntelliPHP was designed to run efficiently on CPU, no GPU is required! The suggestions are returned without any latency penalty caused by the network.
 
@@ -61,4 +55,6 @@ When you are using IntelliPHP with [PHP extension](https://marketplace.visualstu
 
 ## Troubleshooting
 
-Encountering issues? Please let us know at [community.devsense.com](https://community.devsense.com)
+- Check the log output in VSCode's OUTPUT window, tab "IntelliPHP".
+- Ensure, the setting `editor.inlineSuggest.enabled` is `true`.
+- Check the license state in IntelliPHP About. Use command `IntelliPHP: About ...` to open the about page.
