@@ -5,6 +5,7 @@ docs_dir: blog
 # Repository
 repo_name: DEVSENSE/phptools-docs
 repo_url: https://github.com/DEVSENSE/phptools-docs
+edit_uri: edit/master/blog/
 
 theme:
     name: material
