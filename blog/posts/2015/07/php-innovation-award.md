@@ -7,12 +7,13 @@ authors:
 tags:
   - annoucement
   - php-tools
-cover_image: imgs/trophy2.jpg
 categories:
   - general
 ---
 
 # DEVSENSE is sponsoring PHP Innovation Award
+
+![Cover Image](imgs/trophy2.jpg)
 
 Since today we sponsoring **PHP Programming Innovation Award**.
 

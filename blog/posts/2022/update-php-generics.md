@@ -11,12 +11,13 @@ tags:
   - laravel
   - vs-code
   - visual-studio
-cover_image: imgs/phptools-generics.png
 categories:
   - annoucement
 ---
 
 # Update: Support for Generics
+
+![Cover Image](imgs/phptools-generics.png)
 
 ## Generic Types
 

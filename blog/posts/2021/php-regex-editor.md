@@ -8,12 +8,13 @@ tags:
   - php
   - pcre
   - regex
-cover_image: imgs/regex-splash.png
 categories:
   - general
 ---
 
 # PHP RegEx Editor
+
+![Cover Image](imgs/regex-splash.png)
 
 Perl Compatible Regular Expressions (PCRE) are integral part of most PHP applications. Therefore it's important to make developing with them easy and transparent.  **PHP Tools for Visual Studio 2019** introduces several neat features making the editing and testing such expressions a fluent experience. The features are the following:
 

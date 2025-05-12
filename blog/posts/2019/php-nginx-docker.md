@@ -10,12 +10,13 @@ tags:
   - nginx
   - docker-compose
   - vscode
-cover_image: imgs/docker2.png
 categories:
   - tutorial
 ---
 
 # PHP and Nginx on Docker
+
+![Cover Image](imgs/docker2.png)
 
 In the [previous article](https://blog.devsense.com/2019/introduction-to-php-on-docker-with-visual-studio-code), we talked about Docker and created a simple Docker Image with PHP inside Visual Studio Code. If you did not read it yet, I strongly recommend reading it before, since you'll have more context for this one. In this article, we will create a multi-container application using PHP and Nginx with the help of **Docker Compose**. You can see all the files we will be creating on [github](https://github.com/marosbeno/php-on-docker/tree/master/2%20-%20PHP%20with%20Nginx).
 

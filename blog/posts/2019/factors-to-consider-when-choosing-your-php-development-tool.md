@@ -6,12 +6,13 @@ authors:
   - fernanda
 tags:
   - php
-cover_image: imgs/factors2.jpg
 categories:
   - general
 ---
 
 # 6 core factors to consider when choosing a PHP developing tool
+
+![Cover Image](imgs/factors2.jpg)
 
 Choosing the right developing tool for PHP could be key to your software development. Just think about it- you will be investing a huge amount of time inside it. A useful IDE (integrated development environment) can help you speed up your PHP programming and be more productive. It means less typing and potentially learning something, if you’re new to programming.
 

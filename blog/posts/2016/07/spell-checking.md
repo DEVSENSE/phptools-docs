@@ -7,12 +7,13 @@ authors:
 tags:
   - php
   - spellchecking
-cover_image: imgs/spell2.jpg
 categories:
   - general
 ---
 
 # Spell Checking in PHP Code
+
+![Cover Image](imgs/spell2.jpg)
 
 # Spell Checking in PHP Code
 

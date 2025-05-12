@@ -8,12 +8,13 @@ tags:
   - annoucement
   - phalanger
   - phalanger-tools
-cover_image: imgs/phalanger.png
 categories:
   - general
 ---
 
 # Phalanger Tools Support Annoucement
+
+![Cover Image](imgs/phalanger.png)
 
 
 We would like to announce changes in Phalanger Tools provided by DEVSENSE.

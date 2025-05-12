@@ -12,12 +12,13 @@ tags:
   - smarty
   - twig
   - localization
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools for Visual Studio 1.27
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 We are happy to announce the public availability of our April 2018 release of PHP Tools for Visual Studio. Based on our user's feedback and our extensive road-map, we have improved a lot of stuff, and implemented several useful features and enhancements for you. See the sections below for more information.
 

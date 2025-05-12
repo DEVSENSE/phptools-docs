@@ -6,12 +6,13 @@ authors:
   - miloslav
 tags:
   - debug
-cover_image: imgs/advanced_debugging.jpg
 categories:
   - general
 ---
 
 # Advanced Debugging Tips
+
+![Cover Image](imgs/advanced_debugging.jpg)
 
 The Visual Studio debugger is incredibly rich and knowing more than <kbd>F5</kbd>, <kbd>F9</kbd>, <kbd>F10</kbd>, <kbd>F11</kbd> and **Watch windows** can save you lot of time. Finding an issue and simulating a particular state of the application can be achieved easily if we utilize the rich debugging features available out-of-the-box in Visual Studio. All these features are available for PHP developers using PHP Tools.
 

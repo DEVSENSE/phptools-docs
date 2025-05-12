@@ -4,10 +4,11 @@ description: The most popular methods of setting up a web server powered by PHP
 date: 2019-06-06 09:39:48
 authors:
   - JohnHummel
-cover_image: imgs/phpwebservermethods.jpg
 ---
 
 # How to set up a PHP based web server - Overview
+
+![Cover Image](imgs/phpwebservermethods.jpg)
 
 # Overview
 

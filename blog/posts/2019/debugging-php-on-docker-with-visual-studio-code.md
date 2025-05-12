@@ -10,12 +10,13 @@ tags:
   - vscode
   - xdebug
   - debugging
-cover_image: imgs/docker3.png
 categories:
   - tutorial
 ---
 
 # Debugging PHP on Docker with VS Code
+
+![Cover Image](imgs/docker3.png)
 
 Welcome to the third article of PHP on Docker. In the [previous article](https://blog.devsense.com/2019/php-nginx-docker), we learned how to create two connected containers with **php** and **nginx** with the help of Docker compose, and we also talked about different environments where your software needs to work. 
 

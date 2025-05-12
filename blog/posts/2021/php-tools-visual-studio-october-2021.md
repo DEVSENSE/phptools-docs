@@ -9,12 +9,13 @@ tags:
   - editor
   - visual-studio
   - visual-studio-2022
-cover_image: imgs/phptools-v1-56-oct.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (October 2021)
+
+![Cover Image](imgs/phptools-v1-56-oct.png)
 
 Let's take a look on the new updates in PHP Tools and Visual Studio. The PHP editor provides more navigation features, debugger works smarter with breakpoints, and the overall stability and performance has been improved.
 

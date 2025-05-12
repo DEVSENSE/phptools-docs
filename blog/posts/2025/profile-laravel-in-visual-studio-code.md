@@ -10,12 +10,13 @@ tags:
   - profiler
   - performance
   - vscode
-cover_image: imgs/laravel-performance_0.png
 categories:
   - tutorial
 ---
 
 # Profile Laravel in Visual Studio Code
+
+![Cover Image](imgs/laravel-performance_0.png)
 
 Performance always matters. Your Laravel application might be beautifully designed and written, but there's always the possibility of hidden bottlenecks. Is it unnecessarily slow? Can it be optimized further? Sometimes, a single function can consume most of your CPU time. In this tutorial, you'll learn how to profile your **Laravel** application in **Visual Studio Code** to uncover and address these issues.
 

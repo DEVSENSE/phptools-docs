@@ -8,12 +8,13 @@ tags:
   - newsletter
   - news
   - refactoring
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools 1.16 News
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 We are happy to announce that the new version of PHP Tools for Visual Studio - 1.16 - is available. The update brings new features and improvements, based on your feedback.
 

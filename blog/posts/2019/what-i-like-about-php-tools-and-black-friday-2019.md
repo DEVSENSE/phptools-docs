@@ -4,10 +4,11 @@ description: "I'm more C# developer so I feel like at home in Visual Studio. Whe
 date: 2019-11-28 10:01:15
 authors:
   - miloslav
-cover_image: imgs/black.png
 ---
 
 # What I like about PHP Tools and Black Friday 2019
+
+![Cover Image](imgs/black.png)
 
 I'm more C# developer so I feel like at home in Visual Studio. When I do things in PHP and I do them often I'm very happy to stay in VS. In this post I wanted to write few things which I like about PHP Tools.
 

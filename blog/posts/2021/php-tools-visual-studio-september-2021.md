@@ -10,12 +10,13 @@ tags:
   - visual-studio
   - php
   - php-8.1
-cover_image: imgs/phptools-v1-56.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (September 2021)
+
+![Cover Image](imgs/phptools-v1-56.png)
 
 The latest update to PHP Tools for Visual Studio improves and fixes overall functionality, and updates the PHP 8.1 support. Read more for the details!
 

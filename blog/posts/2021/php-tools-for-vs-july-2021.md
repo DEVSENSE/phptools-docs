@@ -11,12 +11,13 @@ tags:
   - performance
   - php-8.1
   - visual-studio-2019
-cover_image: imgs/phptools-v1-55.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (July 2021)
+
+![Cover Image](imgs/phptools-v1-55.png)
 
 We are happy to announce **PHP Tools for Visual Studio v1.55**. This release contains significant improvements, new UI and new features.
 

@@ -4,10 +4,11 @@ description: PHP Tools installed versus vanilla IDE
 date: 2019-05-29 05:19:30
 authors:
   - JohnHummel
-cover_image: imgs/PHPToolsaddtoyouidecover.jpg
 ---
 
 # What does PHP Tools add to your IDE?
+
+![Cover Image](imgs/PHPToolsaddtoyouidecover.jpg)
 
 # Overview
 

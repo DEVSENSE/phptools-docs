@@ -6,12 +6,13 @@ authors:
   - admin
 tags:
   - php
-cover_image: imgs/installphptools.jpg
 categories:
   - tutorial
 ---
 
 # How to install PHP Tools for Visual Studio Code on Windows
+
+![Cover Image](imgs/installphptools.jpg)
 
 In this article, you will find out how to install PHP Tools for VS Code on Windows. Getting it running is fast and simple and it shouldn’t take you more than a few minutes. 
 

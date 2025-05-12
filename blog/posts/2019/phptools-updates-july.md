@@ -4,12 +4,13 @@ description: "New features are available to PHP Tools - for both Visual Studi
 date: 2019-07-18 06:47:43
 authors:
   - admin
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - annoucement
 ---
 
 # PHP Tools Updates (July 2019)
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 New features are available to PHP Tools - for both Visual Studio and Visual Studio Code!
 

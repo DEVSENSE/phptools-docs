@@ -12,12 +12,13 @@ tags:
   - news
   - release
   - vs2017
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools for Visual Studio 1.21
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 PHP Tools for Visual Studio are being continuously updated and improved with new features, always supporting latest Visual Studio and PHP. Today we are introducing version 1.21 and what is new in there.
 

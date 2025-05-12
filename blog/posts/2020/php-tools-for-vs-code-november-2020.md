@@ -10,12 +10,13 @@ tags:
   - visual-studio
   - vscode
   - code
-cover_image: imgs/phptools-vscode-512x.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for VS Code (November 2020)
+
+![Cover Image](imgs/phptools-vscode-512x.png)
 
 We are keeping updating PHP Tools for VS Code. Scroll down and check out new features and improvements, we have added for the VS Code development platform.
 

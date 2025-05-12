@@ -4,12 +4,13 @@ description: "New features in PHP Tools for Visual Studio 2019 and 2022!"
 date: 2022-05-25 09:53:59
 authors:
   - jakub
-cover_image: imgs/phptools-v1-65.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (May 2022)
+
+![Cover Image](imgs/phptools-v1-65.png)
 
 Welcome to the May 2022 update of PHP Tools for **Visual Studio**. The release **v1.65** introduces IntelliSense improvements, enhanced **generics support**, and mostly the new **Debug Inlines** and other editor neat improvements.
 

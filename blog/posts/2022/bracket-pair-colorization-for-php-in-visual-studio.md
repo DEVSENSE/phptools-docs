@@ -4,12 +4,13 @@ description: "When you work with deeply nested brackets in Visual Studio, it mig
 date: 2022-09-06 06:59:39
 authors:
   - miloslav
-cover_image: imgs/rainbow.png
 categories:
   - annoucement
 ---
 
 # Bracket pair colorization for PHP in Visual Studio
+
+![Cover Image](imgs/rainbow.png)
 
 When you work with code that is deeply nested, it might get hard to know in what context the code is. You should follow good practices and not to create such a code, but sometimes the code is not yours or you are refactoring an old one. In such cases bracket, pair colorization comes in handy. Each bracket pair gets a different color, so you will have an easier job to orient yourself.
 

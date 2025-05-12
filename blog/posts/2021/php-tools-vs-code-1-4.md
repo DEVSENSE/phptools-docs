@@ -12,12 +12,13 @@ tags:
   - php8
   - php8.1
   - release
-cover_image: imgs/phptools-vscode-1-4.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Code, Version 1.4
+
+![Cover Image](imgs/phptools-vscode-1-4.png)
 
 Announcing release version 1.4 of PHP Tools for Visual Studio Code. Read more about the new features made for developers, addressing most frequent questions, requests, and ideas.
 

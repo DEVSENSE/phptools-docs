@@ -11,12 +11,13 @@ tags:
   - vs2017
   - smarty
   - twig
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools for Visual Studio 1.26
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 Check out the latest update of PHP Tools for Visual Studio which brings several interesting features and enhancements.
 

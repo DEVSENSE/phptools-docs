@@ -9,12 +9,13 @@ tags:
   - news
   - release
   - php
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools 1.19 Release
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 We are happy to announce that the new version of PHP Tools for Visual Studio - 1.19 - is available.
 

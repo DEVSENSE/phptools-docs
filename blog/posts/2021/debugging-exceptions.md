@@ -4,10 +4,11 @@ description:
 date: 2021-08-24 17:06:25
 authors:
   - miloslav
-cover_image: imgs/exception.png
 ---
 
 # Debugging PHP Errors and Exceptions
+
+![Cover Image](imgs/exception.png)
 
 In PHP there are two ways how unexpected state of the program are handled. First one is the traditional procedural approach - **errors**, which also includes notices and warnings. 
 

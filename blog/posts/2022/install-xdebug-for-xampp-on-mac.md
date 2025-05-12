@@ -9,12 +9,13 @@ tags:
   - xdebug
   - mac
   - m1
-cover_image: imgs/xampp-logo.png
 categories:
   - tutorial
 ---
 
 # How to install and configure Xdebug for XAMPP on Mac
+
+![Cover Image](imgs/xampp-logo.png)
 
 [XAMPP](https://www.apachefriends.org/) is a very popular cross-platform Apache distribution containing MariaDB (fork of MySQL), PHP, and Perl. But unfortunately, XAMPP doesn't come bundled with the Xdebug, which is an extension that enables PHP debugging. This tutorial shows one way how to get it on Mac - we will be compiling Xdebug from sources.
 

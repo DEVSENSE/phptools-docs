@@ -10,12 +10,13 @@ tags:
   - generics
   - templates
   - phptools
-cover_image: imgs/vs-generics-completion-sample_0.png
 categories:
   - tutorial
 ---
 
 # Generics in PHP using PHP DocComments
+
+![Cover Image](imgs/vs-generics-completion-sample_0.png)
 
 Most of the type-safe languages, like *TypeScript*, *C++*, *C#*, *Java*, ... or *Hack*, .. allow you to specify not just types but also so-called **generic type arguments** - a way of substituting a type name with an actual type when you use it. PHP lets you to specify types for extra type-safety (and improved code completion), but generic types need to be specified inside Doc Comments. That's because the PHP language syntax itself does not know them yet.
 

@@ -11,12 +11,13 @@ tags:
   - vs2017
   - debug
   - dbgp
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools for Visual Studio 1.24
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 Check out the latest update of PHP Tools for Visual Studio which brings powerful debugging features and enhancements.
 

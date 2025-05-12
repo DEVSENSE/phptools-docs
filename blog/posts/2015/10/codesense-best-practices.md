@@ -9,12 +9,13 @@ tags:
   - vs2015
   - intellisense
   - codesense
-cover_image: imgs/code_sense2.jpg
 categories:
   - general
 ---
 
 # PHP Editor Code Sense - Best Practices
+
+![Cover Image](imgs/code_sense2.jpg)
 
 Visual Studio IDE provides useful information that helps with coding and might warn the programmer about typos and possible run-time issues already during the development. In the case of a PHP Editor, understanding the programmer's source code is important. Since PHP is a dynamic language, most of the information needed for a *smooth editor experience* is available only at runtime. However, there are several patterns recognized by the PHP Editor - so we can provide you a guideline that helps you to keep the code clean, to reveal possible bugs and to allow you to get the maximum out of the PHP Editor code sense. 
 

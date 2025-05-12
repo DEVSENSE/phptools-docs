@@ -8,12 +8,13 @@ tags:
   - docker
   - php
   - vscode
-cover_image: imgs/Docker1.png
 categories:
   - tutorial
 ---
 
 # Introduction to PHP on Docker with Visual Studio Code
+
+![Cover Image](imgs/Docker1.png)
 
 I'm sure you have already heard something about it. Docker -the technology that completely took over the software world in the past few years. This article explains what Docker is and how to use it with PHP inside [Visual Studio Code](https://code.visualstudio.com). 
 

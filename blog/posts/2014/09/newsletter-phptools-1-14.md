@@ -8,12 +8,13 @@ tags:
   - newsletter
   - news
   - nuget
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools 1.14 News
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 ** We're happy to announce public availability of PHP Tools for Visual Studio 1.14. **
 

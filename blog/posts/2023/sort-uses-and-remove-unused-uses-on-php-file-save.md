@@ -4,12 +4,13 @@ description: Automatically sort and remove uses when saving PHP files in Visual 
 date: 2023-11-15 08:07:55
 authors:
   - jakub
-cover_image: imgs/organize-php-uses-small.png
 categories:
   - tutorial
 ---
 
 # Sort Uses and Remove Unused Uses on PHP File Save (Organize Uses on Save)
+
+![Cover Image](imgs/organize-php-uses-small.png)
 
 [PHP extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) comes with tons of code actions and code diagnostics! One of them sorts and removes unused uses:
 

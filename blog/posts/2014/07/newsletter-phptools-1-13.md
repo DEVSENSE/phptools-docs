@@ -7,12 +7,13 @@ authors:
 tags:
   - newsletter
   - news
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - general
 ---
 
 # PHP Tools 1.13 News
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 ** We're happy to announce public availability of PHP Tools for Visual Studio 1.13. **
 

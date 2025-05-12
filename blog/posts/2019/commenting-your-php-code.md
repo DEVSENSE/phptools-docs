@@ -4,10 +4,11 @@ description: "Should you write comments in your PHP code or not?"
 date: 2022-07-10 07:08:21
 authors:
   - fernanda
-cover_image: imgs/commenting2.jpg
 ---
 
 # Commenting your PHP code
+
+![Cover Image](imgs/commenting2.jpg)
 
 When I started to learn PHP years ago, I came across comments. What a controversial subject! Some programmers tend to comment their code, some don’t. Looking for answers, I went to the Internet to find a never-ending discussion on the topic: 
 

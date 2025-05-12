@@ -4,12 +4,13 @@ description: Keep your code clean and have specific code actions applied automat
 date: 2024-12-15 08:55:20
 authors:
   - jakub
-cover_image: imgs/autofix-lightbulb.png
 categories:
   - tutorial
 ---
 
 # Automate Code Fixes through Visual Studio Code Auto-Fix Feature 
+
+![Cover Image](imgs/autofix-lightbulb.png)
 
 The PHP editor with [PHP Tools extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) provides vast array of useful code actions - either code fixes or inline code refactorings. What if you always prefer the fix or the specific refactor (like simplifying `?:` operator or removing unnecessary `?>` tag whenever possible).
 

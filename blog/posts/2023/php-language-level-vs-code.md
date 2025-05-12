@@ -10,12 +10,13 @@ tags:
   - compatibility
   - problems
   - diagnostics
-cover_image: imgs/php-version-preview.png
 categories:
   - tutorial
 ---
 
 # PHP Language Level in VS Code
+
+![Cover Image](imgs/php-version-preview.png)
 
 PHP is an old language, powering majority of the Internet. It's evolving, it's getting new features, better performance, and old features are being depreciated and sometimes even removed.
 

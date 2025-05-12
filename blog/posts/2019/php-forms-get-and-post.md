@@ -4,12 +4,13 @@ description: How to request information from users and how to retrieve what they
 date: 2019-07-15 09:41:48
 authors:
   - JohnHummel
-cover_image: imgs/forms,get,post.jpg
 categories:
   - tutorial
 ---
 
 # PHP Basics:  Forms, GET, and POST
+
+![Cover Image](imgs/forms,get,post.jpg)
 
 ## Requirements
 

@@ -10,12 +10,13 @@ tags:
   - visual-studio-2022
   - publish
   - debug
-cover_image: imgs/phptools-v1-57-oct.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (Late October 2021)
+
+![Cover Image](imgs/phptools-v1-57-oct.png)
 
 Introducing PHP Tools for Visual Studio, version 1.57! This update brings the new **Object ID** support in debugger, **Project Events**, improvements to **Remote Explorer** and corresponding remote profiles, and improves overall stability and existing features.
 

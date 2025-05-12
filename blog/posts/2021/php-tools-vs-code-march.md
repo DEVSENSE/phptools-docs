@@ -10,12 +10,13 @@ tags:
   - code
   - phpstorm
   - refactoring
-cover_image: imgs/phptools-vscode.png
 categories:
   - annoucement
 ---
 
 # PHP Tools in VS Code (March 2021)
+
+![Cover Image](imgs/phptools-vscode.png)
 
 Read the latest updates for PHP Tools in Visual Studio Code. We have been working on improving the performance, fixing debugging support, and providing more editor features as well.
 

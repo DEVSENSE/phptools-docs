@@ -4,12 +4,13 @@ description: This recent release brings new enhancements and features for develo
 date: 2019-10-08 08:41:35
 authors:
   - fernanda
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - annoucement
 ---
 
 # PHP Tools Updates (October 2019)
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 We are happy to announce the public availability of our updated PHP Tools for Visual Studio and Visual Studio Code. This recent release brings new enhancements and features for developing in PHP using Microsoft Visual Studio.
 

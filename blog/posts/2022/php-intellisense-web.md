@@ -11,12 +11,13 @@ tags:
   - php-tools
   - browser
   - intellisense
-cover_image: imgs/4f0ac3e0-visual_studio_code.png
 categories:
   - annoucement
 ---
 
 # PHP IntelliSense on the Web
+
+![Cover Image](imgs/4f0ac3e0-visual_studio_code.png)
 
 Have you heard about the [Visual Studio Code for the Web](https://code.visualstudio.com/docs/editor/vscode-web)? It's the code editor running in your browser, allowing to work with your local files, files on your GitHub repositories, or files on Azure. Anywhere.
 

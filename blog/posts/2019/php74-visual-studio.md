@@ -4,12 +4,13 @@ description: Support for PHP 7.4 and more
 date: 2019-09-12 04:37:47
 authors:
   - JohnHummel
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - annoucement
 ---
 
 #  PHP 7.4 Support for Visual Studio
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 # PHP Tools for Visual Studio
 

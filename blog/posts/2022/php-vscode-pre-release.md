@@ -4,12 +4,13 @@ description: "Pre-Release version of PHP Tools for VS Code is now available!"
 date: 2022-03-17 06:19:43
 authors:
   - jakub
-cover_image: imgs/phptools-prerelease-cover.png
 categories:
   - annoucement
 ---
 
 # PHP in VS Code - Pre-Release Extension
+
+![Cover Image](imgs/phptools-prerelease-cover.png)
 
 Newly, the Visual Studio Code allows to install a pre-release version of extensions (see [code.visualstudio.com - updates](https://code.visualstudio.com/updates/v1_63#_pre-release-extensions)). It's a great feature for both the extension authors and the users. In result, users can try out new things faster, and extension developers can provide their new features to users who are interested.
 

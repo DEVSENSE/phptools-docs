@@ -11,12 +11,13 @@ tags:
   - laravel
   - phpunit
   - newsletter
-cover_image: imgs/phptools-vscode-jul22.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio Code News (July 2022)
+
+![Cover Image](imgs/phptools-vscode-jul22.png)
 
 [PHP Tools for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) extension keeps growing, and we're happy we can show off a lot of useful new improvements. Recently, we have added support for the new Laravel framework and annotations that Laravel uses, support for generics through DocComment `@template` tag, redesigned the PHPUnit integration, and more.
 

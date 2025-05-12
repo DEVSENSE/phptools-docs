@@ -11,12 +11,13 @@ tags:
   - objectid
   - mark-object
   - track-object
-cover_image: imgs/objectid-menu.png
 categories:
   - tutorial
 ---
 
 # Know what PHP objects are doing behind your back
+
+![Cover Image](imgs/objectid-menu.png)
 
 The objects sometimes misbehave. You watch them closely when your are debugging and they behave as they should - they know you are watching. You are stepping through the code, sinking deeper into the methods. When you surface back and see your old objects again, they are different, their properties have changed. Something happened to them behind your back.
 

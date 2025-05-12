@@ -6,12 +6,13 @@ authors:
   - admin
 tags:
   - php
-cover_image: imgs/vs_code_and_laravel.jpg
 categories:
   - general
 ---
 
 # How to install Laravel for Visual Studio Code
+
+![Cover Image](imgs/vs_code_and_laravel.jpg)
 
 <a href="https://laravel.com/" target="_blank">Laravel</a> is a well-respected and [popular PHP framework](https://blog.devsense.com/en/2019/02/symfony-vs-laravel). As you might have read before, it aims to facilitate many of the common tasks of the majority of projects, while also strengthening security and database migration. That’s why many developers are convinced that Laravel provides one of the most reliable and efficient approaches to building a website. In this tutorial, you will learn how to install Laravel for Visual Studio Code from scratch. 
 

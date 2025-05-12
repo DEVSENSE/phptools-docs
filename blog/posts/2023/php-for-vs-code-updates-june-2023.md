@@ -17,12 +17,13 @@ tags:
   - phpstan
   - psalm
   - generics
-cover_image: imgs/phptools-vscode.png
 categories:
   - annoucement
 ---
 
 # PHP for VS Code Updates (June 2023)
+
+![Cover Image](imgs/phptools-vscode.png)
 
 PHP extension for Visual Studio Code is getting more features and updates! 
 

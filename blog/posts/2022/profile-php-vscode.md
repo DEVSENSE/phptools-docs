@@ -14,12 +14,13 @@ tags:
   - performance
   - cachegrind
   - xdebug
-cover_image: imgs/profile-cover.png
 categories:
   - tutorial
 ---
 
 # Performance Profiling PHP with VS Code
+
+![Cover Image](imgs/profile-cover.png)
 
 Your PHP application or a website might be running fluently, or you might see it takes some time to load. In both cases, it is a good practice to do performance profiling. This technique lets you know how much time all the functions in the code take, and how many times they've been called. You might see interesting results and improve the live of your users, and the live of your Web Server.
 

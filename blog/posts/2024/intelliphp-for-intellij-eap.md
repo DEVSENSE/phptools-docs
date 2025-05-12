@@ -11,12 +11,13 @@ tags:
   - phpstorm
   - ai
   - ml
-cover_image: imgs/intelliphp-intellij-alpha.png
 categories:
   - annoucement
 ---
 
 # IntelliPHP for IntelliJ - EAP
+
+![Cover Image](imgs/intelliphp-intellij-alpha.png)
 
 **UPDATE (March 2024)**: **IntelliPhp for IntelliJ** is publicly available at [plugins.jetbrains.com](https://plugins.jetbrains.com/plugin/23859-intelliphp--ai-autocomplete-for-php).
 

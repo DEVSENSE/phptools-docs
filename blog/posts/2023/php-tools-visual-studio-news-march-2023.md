@@ -11,12 +11,13 @@ tags:
   - intellisense
   - code-actions
   - code-fixes
-cover_image: imgs/phptools-v1-72.png
 categories:
   - annoucement
 ---
 
 # What's New - PHP Tools for Visual Studio (March 2023)
+
+![Cover Image](imgs/phptools-v1-72.png)
 
 We're happy to introduce updates to our [PHP extension for Visual Studio](https://www.devsense.com/download)! Version **1.72** introduces Inlay Hints, new Code Actions, improved code analysis, improved support for Doc Comments with extended syntax for Psalm and PHPStan type names and keywords, and more!
 

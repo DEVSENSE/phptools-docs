@@ -7,12 +7,13 @@ authors:
 tags:
   - debug
   - xdebug
-cover_image: imgs/debuggingmultiple.jpg
 categories:
   - general
 ---
 
 # Debugging Multiple PHP Sites/Projects
+
+![Cover Image](imgs/debuggingmultiple.jpg)
 
 When you develop applications that need to communicate with each other you might need to debug two or more projects at once. You can achieve this very easily with PHP Tools for VS.
 

@@ -8,12 +8,13 @@ tags:
   - php
   - code-validation
   - visualstudio
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - general
 ---
 
 # PHP code validation
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 We are working very hard to improve PHP Tools so we can provide new and better tools for creating safe and efficient code.
 Today, we will spotlight numerous new features, introduced in the latest PHP Tools, that focus on code validation and PHP version compatibility.

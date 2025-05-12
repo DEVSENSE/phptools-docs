@@ -6,12 +6,13 @@ authors:
   - admin
 tags:
   - php
-cover_image: imgs/12reasons2.jpg
 categories:
   - general
 ---
 
 # 12 Reasons You Should Learn PHP in 2019
+
+![Cover Image](imgs/12reasons2.jpg)
 
 Did you know that PHP is used by more than 80% of all the websites? Over the last quarter of century, a lot of programming languages were claimed to be the best, but only PHP became a worldwide language and steadily stayed among the top most used programming languages. 
 

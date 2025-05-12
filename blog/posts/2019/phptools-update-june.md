@@ -4,10 +4,11 @@ description: Check the most important articles for June on our blog
 date: 2019-10-29 06:51:00
 authors:
   - fernanda
-cover_image: imgs/1561381723_tmp_blog_summary.jpg
 ---
 
 # June Summary
+
+![Cover Image](imgs/1561381723_tmp_blog_summary.jpg)
 
 Here is what you missed out on our blog this month:
 

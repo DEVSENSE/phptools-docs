@@ -11,12 +11,13 @@ tags:
   - php8
   - composer
   - xdebug
-cover_image: imgs/box_0.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (March 2021)
+
+![Cover Image](imgs/box_0.png)
 
 ## IDE Enhancements
 

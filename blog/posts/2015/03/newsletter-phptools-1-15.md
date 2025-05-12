@@ -9,12 +9,13 @@ tags:
   - news
   - vs2015
   - composer
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools 1.15 News
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 We are happy to announce general availability of new version of PHP Tools for Visual Studio - 1.15. The update brings new features and improvements, based on your feedback.
 

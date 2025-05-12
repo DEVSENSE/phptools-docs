@@ -11,12 +11,13 @@ tags:
   - vs
   - visual-studio
   - intellisense
-cover_image: imgs/icon-2.png
 categories:
   - annoucement
 ---
 
 # PHP for Visual Studio, AI, IntelliSense - July 2023
+
+![Cover Image](imgs/icon-2.png)
 
 Announcing availability of PHP Tools v1.74 - for Visual Studio 2019 and Visual Studio 2022. The update introduces exciting new features!
 

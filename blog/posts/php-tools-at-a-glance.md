@@ -4,10 +4,11 @@ description: Learn the key points of the software
 date: 2019-05-17 08:44:34
 authors:
   - fernanda
-cover_image: imgs/infographic2.jpg
 ---
 
 # PHP Tools at a glance
+
+![Cover Image](imgs/infographic2.jpg)
 
 # What is PHP Tools?
 

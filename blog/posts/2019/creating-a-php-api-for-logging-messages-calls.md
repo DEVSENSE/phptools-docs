@@ -4,12 +4,13 @@ description: A simple response system in PHP
 date: 2019-07-12 02:26:15
 authors:
   - JohnHummel
-cover_image: imgs/1562588762_tmp_PHP_Api_3.jpg
 categories:
   - tutorial
 ---
 
 # Creating a PHP API for Logging Messages Calls
+
+![Cover Image](imgs/1562588762_tmp_PHP_Api_3.jpg)
 
 ## Requirements
 

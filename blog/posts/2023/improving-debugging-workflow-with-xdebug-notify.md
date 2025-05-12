@@ -4,10 +4,11 @@ description:
 date: 2023-12-28 10:05:22
 authors:
   - miloslav
-cover_image: imgs/xdebug.png
 ---
 
 # Improving debugging workflow with xdebug_notify
+
+![Cover Image](imgs/xdebug.png)
 
 There are two camps when it comes to debugging PHP applications. One one side, we have the "echo tribe" relying on `echo` and `var_dump` for debugging output, while on the other side, the "IDE-wizards" leverage IDE's with Xdebug.
 

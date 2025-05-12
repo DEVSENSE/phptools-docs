@@ -8,12 +8,13 @@ tags:
   - visual-studio
   - php-8
   - intellisense
-cover_image: imgs/vs-namedparam-tooltip.png
 categories:
   - general
 ---
 
 # PHP 8 Editor in Visual Studio
+
+![Cover Image](imgs/vs-namedparam-tooltip.png)
 
 PHP 8 introduces a new syntax, more functions, and new standards. Let's have a look at how the editor in Visual Studio helps with those features. It will provide a detailed completion for named arguments, validates their use, checks the new syntax, warns about deprecations, and more.
 

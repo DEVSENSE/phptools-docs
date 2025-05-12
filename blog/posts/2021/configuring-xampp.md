@@ -10,12 +10,13 @@ tags:
   - xdebug
   - visual-studio
   - vscode
-cover_image: imgs/xampp-logo-ac950edf.png
 categories:
   - tutorial
 ---
 
 # Installing and configuring XAMPP for PHP development
+
+![Cover Image](imgs/xampp-logo-ac950edf.png)
 
 XAMPP is a cross-platform Apache HTTP server distribution containing MariaDB (fork of MySQL) database, PHP, and Perl. The word "XAMPP" is an acronym and it seems there is no official explaning of if, but we can safely assume that "X" stands for "cross", meaning "cross-platform", A would be Apache, M is MariaDB. While first P would be short for PHP and second P for Pearl or reversed?
 

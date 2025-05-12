@@ -11,12 +11,13 @@ tags:
   - visualstudio
   - news
   - release
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # What's new in PHP Tools for Visual Studio 1.20
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 In the previous post we mentioned some new features primarily related to our completely new parser, which gives us the ability to [support for PHP 7.0](php7) while maintaining support for PHP 5.4, 5.5, 5.6. Also with PHP 7.1 already being in the release candidate state, we're preparing PHP 7.1 support which will be available in the 1.21 release. You can check what's new in PHP 7.1 in this [migrating guide](http://php.net/manual/en/migration71.php). Of course, we are going to offer compatibility warnings when migrating from one version of PHP to another, as we have been doing since 1.20 - [see the previous post](php7#code-validation-features)
 

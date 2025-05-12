@@ -10,12 +10,13 @@ tags:
   - code
   - visual-studio
   - auto-import
-cover_image: imgs/phptools-vscode_0.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for VS Code (July 2021)
+
+![Cover Image](imgs/phptools-vscode_0.png)
 
 ## Code Completion
 

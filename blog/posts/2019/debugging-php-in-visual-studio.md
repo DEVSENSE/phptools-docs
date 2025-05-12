@@ -4,12 +4,13 @@ description: Get started with some basic debugging
 date: 2019-08-27 03:41:37
 authors:
   - JohnHummel
-cover_image: imgs/DebuggingPHPinVS.jpg
 categories:
   - tutorial
 ---
 
 # Debugging PHP in Visual Studio
+
+![Cover Image](imgs/DebuggingPHPinVS.jpg)
 
 ## Overview
 

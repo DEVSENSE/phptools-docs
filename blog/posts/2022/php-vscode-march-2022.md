@@ -4,12 +4,13 @@ description: "PHP Tools for Visual Studio Code releases and updates - code in a 
 date: 2022-03-10 10:30:30
 authors:
   - jakub
-cover_image: imgs/phptools-vscode-mar22.png
 categories:
   - annoucement
 ---
 
 # PHP for VS Code (March 2022)
+
+![Cover Image](imgs/phptools-vscode-mar22.png)
 
 Welcome to the updates of **PHP Tools** for Visual Studio Code!
 

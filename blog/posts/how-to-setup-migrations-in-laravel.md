@@ -4,10 +4,11 @@ description: Keep a record of your database changes over time
 date: 2019-04-05 08:24:05
 authors:
   - admin
-cover_image: imgs/migrationsinlaravel2.jpg
 ---
 
 # How to setup Migrations in Laravel
+
+![Cover Image](imgs/migrationsinlaravel2.jpg)
 
 Migrations work as a version control for databases. If you want to keep a record of your database creation and alterations over time, you can use migrations and simplify application re-deployment or distribution. Migrations will help you interact with your database by only using the CLI interface of [Laravel](//https://blog.devsense.com/2019/02/symfony-vs-laravel). This means that after you install your application and configure the database connection, you just have to run “php artisan migrate” and it will instantly set up the database again.
 

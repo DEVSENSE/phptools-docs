@@ -4,12 +4,13 @@ description: Support for PHP 7.4 and more
 date: 2019-09-16 02:52:02
 authors:
   - JohnHummel
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - annoucement
 ---
 
 # PHP 7.4 Support in VS Code
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 # PHP Tools for VS Code
 

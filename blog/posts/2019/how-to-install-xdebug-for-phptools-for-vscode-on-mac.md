@@ -6,12 +6,13 @@ authors:
   - admin
 tags:
   - php
-cover_image: imgs/xdebug2.jpg
 categories:
   - tutorial
 ---
 
 # How to install Xdebug for PHP Tools for Visual Studio Code on Mac OS
+
+![Cover Image](imgs/xdebug2.jpg)
 
 Xdebug is an extension used for debugging PHP. One of the most popular IDEs, Visual Studio Code, can also benefit from Xdebug with `PHP Tools`. There are several ways to install Xdebug, but the most secure one is to compile the source code which is compatible with the specifications of your computer.  
 

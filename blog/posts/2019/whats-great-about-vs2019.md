@@ -6,12 +6,13 @@ authors:
   - jakub
 tags:
   - php
-cover_image: imgs/VSPreview.png
 categories:
   - general
 ---
 
 # What's great about Visual Studio 2019
+
+![Cover Image](imgs/VSPreview.png)
 
 The new Visual Studio 2019 is here, still as a preview but it already deserves our attention. It brings great innovations for first-time and older users, such as a simplified UI, improvements to installation, search and debugger, and also the new emphasis on collaboration, that promises to be more productive for teams. If you want to know more about what it has to offer, take a look at their article [here](https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-visual-studio-2019?view=vs-2017). In this post, I would like to share my thoughts on the matter as a .NET/C# developer. 
 

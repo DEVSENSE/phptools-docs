@@ -4,10 +4,11 @@ description:
 date: 2024-11-18 11:06:56
 authors:
   - miloslav
-cover_image: imgs/logo2.png
 ---
 
 # Leveraging .editorconfig for Consistent Code Style Across Different IDEs
+
+![Cover Image](imgs/logo2.png)
 
 Maintaining a consistent code style is essential for any development team—not just for aesthetics but for readability and maintainability. Developers often use various IDEs, making it challenging to ensure that code adheres to the same standards. Thankfully, `.editorconfig` provides a unified way to enforce coding conventions across different development environments, including Visual Studio, Visual Studio Code and PhpStorm. In this post, we’ll explore how teams can utilize `.editorconfig` to keep their PHP code consistent and how to bridge the gap between different IDEs with ease.
 

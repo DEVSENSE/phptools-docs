@@ -15,12 +15,13 @@ tags:
   - phpunit
   - mysql
   - redis
-cover_image: imgs/logo.png
 categories:
   - tutorial
 ---
 
 # Start with Laravel in VS Code on Docker
+
+![Cover Image](imgs/logo.png)
 
 Imagine you are part of the team and you want each member to develop in one standardized environment. They can have different operating systems and use different development tools or IDEs, but you want to have one unified environment with all the required dependencies. 
 

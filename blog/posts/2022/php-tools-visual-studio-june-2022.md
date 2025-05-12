@@ -13,12 +13,13 @@ tags:
   - eloquent
   - facades
   - laravel
-cover_image: imgs/phptools-v1-66.png
 categories:
   - annoucement
 ---
 
 # PHP Tools, Visual Studio (June 2022)
+
+![Cover Image](imgs/phptools-v1-66.png)
 
 The June 2022 relese of PHP Tools, the version `1.66`, has been released. It brings the great Code Lens adornments into the PHP editor, the support for Eloquent local scopes to the PHP IntelliSense, improved inferring of generic types using `class-string<T>` annotation, and more!
 

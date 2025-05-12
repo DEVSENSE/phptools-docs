@@ -4,12 +4,13 @@ description: "Master advanced text editing: transform dates, convert HTML titles
 date: 2022-12-05 12:03:22
 authors:
   - miloslav
-cover_image: imgs/enable-regexp-vscode.png
 categories:
   - tutorial
 ---
 
 # Find and Replace with regular expressions in VS or VS Code is a superpower
+
+![Cover Image](imgs/enable-regexp-vscode.png)
 
 When you want to edit a bulk of the text in markdown, text files, JSON or other file types, **Find and Replace** feature of VS or VS Code can help a lot.
 

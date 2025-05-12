@@ -8,12 +8,13 @@ tags:
   - news
   - php
   - student
-cover_image: imgs/dreamspark.png
 categories:
   - general
 ---
 
 # PHP Tools available at Microsoft DreamSpark
+
+![Cover Image](imgs/dreamspark.png)
 
 Today, I'm excited to announce that we are making PHP Tools for Visual Studio available at Microsoft DreamSpark catalog.
 

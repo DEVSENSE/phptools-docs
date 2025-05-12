@@ -4,12 +4,13 @@ description: "Our latest update 1.55 introduced several enhancements for Blade f
 date: 2025-01-19 12:18:19
 authors:
   - jakub
-cover_image: imgs/images.png
 categories:
   - annoucement
 ---
 
 # Blade Language Support in VS Code (part 2)
+
+![Cover Image](imgs/images.png)
 
 In a [previous blog post](https://blog.devsense.com/2024/blade-language-support-vs-code-1), we introduced the initial Blade editor support for Visual Studio Code. This support brought a seamless integration of PHP editor language features into Blade files. Users could enjoy enhanced productivity with features such as mouse tooltips, PHP code completion, inlay hints, refactorings, code actions, and intuitive navigation within their Blade templates. These features significantly improved the development experience for Laravel applications.
 

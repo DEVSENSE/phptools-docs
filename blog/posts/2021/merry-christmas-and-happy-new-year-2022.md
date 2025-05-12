@@ -4,10 +4,11 @@ description:
 date: 2021-12-22 07:51:27
 authors:
   - miloslav
-cover_image: imgs/program.png
 ---
 
 # Merry Christmas and Happy New Year 2022
+
+![Cover Image](imgs/program.png)
 
 I received an mail from one developer using our tools - Mr. Bert Degenhart Drenth from Netherland, which I wanted to share with the rest. It's a Christmas wish in the form of PHP console program :-)
 

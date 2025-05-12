@@ -4,12 +4,13 @@ description: Set up a server with PHP that can connect to a Microsoft SQL databa
 date: 2019-06-17 07:45:56
 authors:
   - JohnHummel
-cover_image: imgs/phpserver(2)_0.jpg
 categories:
   - tutorial
 ---
 
 # How to set up a PHP web server environment - Step by step
+
+![Cover Image](imgs/phpserver(2)_0.jpg)
 
 ## Overview
 

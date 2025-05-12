@@ -12,12 +12,13 @@ tags:
   - adornments
   - vs-code
   - code
-cover_image: imgs/phptools-vscode-jan22.png
 categories:
   - annoucement
 ---
 
 # PHP for VS Code with Debugging Adornments
+
+![Cover Image](imgs/phptools-vscode-jan22.png)
 
 The January 2022 update of [PHP Tools for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) introduces [**code lenses** and full support for **PHP 8.1**](https://blog.devsense.com/2022/php-vs-code-january-2022). Additionally we're adding other neat debugging improvements - **debugging adornments** with contextually appropriate inline values, **quick debug configurations**, and more.
 

@@ -9,12 +9,13 @@ tags:
   - php8
   - installation
   - visual-studio
-cover_image: imgs/126-b_0.jpg
 categories:
   - tutorial
 ---
 
 # Installing PHP 8, One Click
+
+![Cover Image](imgs/126-b_0.jpg)
 
 Even tho **PHP 8** was officially released on November 26, 2020, you could already use its new syntax with *PHP Tools* before that date, and install PHP from sources. Now the release is available for the **Windows platform** and it can be installed on your development machine in an easy way.
 

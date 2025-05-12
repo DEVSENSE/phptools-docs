@@ -10,12 +10,13 @@ tags:
   - release
   - vs2017
   - smarty
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools for Visual Studio 1.22
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 Today, we are happy to announce public availability of PHP Tools 1.22. The release brings several internal improvements but also build for latest Visual Studio 2017 RC and complete support for Smarty templating.
 

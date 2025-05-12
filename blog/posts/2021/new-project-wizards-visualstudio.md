@@ -4,12 +4,13 @@ description: "Creating project from Composer package, Remote host, new WordPress
 date: 2021-08-07 10:00:15
 authors:
   - jakub
-cover_image: imgs/vs-new-project-empty.png
 categories:
   - tutorial
 ---
 
 # New Project Wizards
+
+![Cover Image](imgs/vs-new-project-empty.png)
 
 Working on a PHP project in Visual Studio may start in two ways; either opening a folder (`File` | `Open` | `Folder`), or creating a regular Visual Studio project (`File` | `New` | `Project`). Although both approaches work, we're recommending the seconds option, since it provides much more features and the full blown Visual Studio experience. Let's take a look on the New Project Wizards.
 

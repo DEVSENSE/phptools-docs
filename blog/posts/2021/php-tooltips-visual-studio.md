@@ -11,12 +11,13 @@ tags:
   - summary
   - manual
   - ide
-cover_image: imgs/tooltips.png
 categories:
   - general
 ---
 
 # PHP tooltips in Visual Studio explained
+
+![Cover Image](imgs/tooltips.png)
 
 Tool-tips are a common feature of modern code editors and IDEs. They display available information about a symbol under the mouse cursor, and during the code completion. Check out, what you can do with tool-tips in a PHP language in Visual Studio.
 

@@ -9,12 +9,13 @@ tags:
   - tests
   - debugger
   - phpdoc
-cover_image: imgs/unit2.jpg
 categories:
   - general
 ---
 
 # Unit Tests Basics
+
+![Cover Image](imgs/unit2.jpg)
 
 ## Introduction
 

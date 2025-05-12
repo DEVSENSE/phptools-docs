@@ -4,12 +4,13 @@ description: How to debug your PHP code in VS Code
 date: 2019-09-09 06:04:57
 authors:
   - JohnHummel
-cover_image: imgs/DebugginginVSCodecoverimage.jpg
 categories:
   - tutorial
 ---
 
 # Debugging PHP in Visual Studio Code
+
+![Cover Image](imgs/DebugginginVSCodecoverimage.jpg)
 
 If you read our Award Winning article (well, my Mom liked it) about [how to use PHP Tools with Visual Studio](https://blog.devsense.com/debugging-php-in-visual-studio), you'll understand that we didn't want to make the good people who enjoy using Visual Studio Code with PHP Tools left out, so we want to demonstrate how to debug your code on that platform.
 

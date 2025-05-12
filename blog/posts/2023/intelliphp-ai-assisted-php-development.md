@@ -15,12 +15,13 @@ tags:
   - ai-powered-solutions
   - boost-productivity
   - intelligent-code-completions
-cover_image: imgs/startsWith.png
 categories:
   - annoucement
 ---
 
 # IntelliPHP - AI-Assisted PHP Development
+
+![Cover Image](imgs/startsWith.png)
 
 In the fast-evolving landscape of software development, artificial intelligence has become an indispensable tool for boosting productivity and efficiency. **Microsoft's IntelliCode**, **GitHub Copilot**, and other AI-powered solutions have already made a significant impact in the industry, offering code suggestions and completions to developers. Today, we introduce you to **IntelliPHP**, an innovative AI engine developed specifically for PHP developers, designed to revolutionize the way PHP code is written.
 

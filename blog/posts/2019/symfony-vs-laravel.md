@@ -6,12 +6,13 @@ authors:
   - fernanda
 tags:
   - php
-cover_image: imgs/symfony.jpg
 categories:
   - general
 ---
 
 # Symfony vs. Laravel
+
+![Cover Image](imgs/symfony.jpg)
 
 One of the challenges when you're starting to learn PHP- or you're deciding about the technology stacks for a new project- is choosing the right PHP framework. A framework is simply a skeleton that will help you build your application without having to do everything from scratch. It will provide standard functionality that can be changed and adapted to a specific project. 
 

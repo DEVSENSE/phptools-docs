@@ -13,12 +13,13 @@ tags:
   - test
   - testing
   - tests
-cover_image: imgs/vsc-logo-may2021.png
 categories:
   - general
 ---
 
 # PHP Tools for VS Code (May 2021)
+
+![Cover Image](imgs/vsc-logo-may2021.png)
 
 The recent updates to PHP Tools for VS Code introduces new features and improvements. Read more about the new test explorer, debugging improvements, code actions, and more.
 

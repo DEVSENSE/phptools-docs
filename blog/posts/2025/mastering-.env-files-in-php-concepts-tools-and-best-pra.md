@@ -4,10 +4,11 @@ description:
 date: 2025-01-20 09:43:58
 authors:
   - miloslav
-cover_image: imgs/env.png
 ---
 
 # Mastering `.env` Files in PHP: Concepts, Tools, and Best Practices
+
+![Cover Image](imgs/env.png)
 
 Environment variables are a crucial part of managing configuration in modern web applications. `.env` files are an elegant way to handle these variables, ensuring configuration remains separate from your codebase. In this article, we will explore the key concepts, tools, and best practices for working with `.env` files in PHP, including the use of libraries like `phpdotenv` and debugging techniques in Visual Studio Code.
 

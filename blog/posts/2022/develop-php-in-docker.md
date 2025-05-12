@@ -10,12 +10,13 @@ tags:
   - vscode
   - xdebug
   - phpunit
-cover_image: imgs/phpondocker.png
 categories:
   - tutorial
 ---
 
 # How to develop PHP inside a Docker Container using VS Code
+
+![Cover Image](imgs/phpondocker.png)
 
 VS Code allows you to work remotely with the full-featured development environment. Even though you work remotely, you don't need to sacrifice all the great features available when you work locally - full Intellisense, navigation, refactoring, debugging and testing. 
 

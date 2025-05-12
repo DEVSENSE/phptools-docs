@@ -12,12 +12,13 @@ tags:
   - profiling
   - formatting
   - formatter
-cover_image: imgs/phptools-v1-73.png
 categories:
   - annoucement
 ---
 
 # New Features in Visual Studio (April 2023)
+
+![Cover Image](imgs/phptools-v1-73.png)
 
 There are exciting new updates, new features, and fixes in PHP Tools extension for Visual Studio! See what's new:
 

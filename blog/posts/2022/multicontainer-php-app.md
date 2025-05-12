@@ -4,12 +4,13 @@ description: How to create more than one docker container with PHP app in Visual
 date: 2022-03-10 11:02:11
 authors:
   - miloslav
-cover_image: imgs/phpondocker.png
 categories:
   - tutorial
 ---
 
 # Create a multi-container PHP app with Docker Compose
+
+![Cover Image](imgs/phpondocker.png)
 
 In this tutorial you'll learn how to create more than one container and communicate between them. This requires Docker compose which is a great way for local developing and testing your projects.
 

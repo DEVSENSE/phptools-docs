@@ -10,12 +10,13 @@ tags:
   - phptools
   - x64
   - debug
-cover_image: imgs/php-x64-selection.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (April 2021)
+
+![Cover Image](imgs/php-x64-selection.png)
 
 Let's take a look on the April's news and updates for PHP Tools in Microsoft Visual Studio.
 

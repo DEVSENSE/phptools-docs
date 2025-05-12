@@ -4,12 +4,13 @@ description: This new feature of PHP tools allows you to look at the source code
 date: 2019-09-11 04:04:08
 authors:
   - fernanda
-cover_image: imgs/phararchivesinvscode.jpg
 categories:
   - annoucement
 ---
 
 # Phar archives in VS Code
+
+![Cover Image](imgs/phararchivesinvscode.jpg)
 
 ---
 

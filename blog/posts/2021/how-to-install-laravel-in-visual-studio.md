@@ -8,10 +8,11 @@ tags:
   - laravel
   - php
   - visual-studio
-cover_image: imgs/231px-Laravel.svg.png
 ---
 
 # How to install Laravel in Visual Studio
+
+![Cover Image](imgs/231px-Laravel.svg.png)
 
 In this blog post I would like to demonstrate how to install **Laravel** in Visual Studio. I will use new project wizard which we have in PHP Tools for Visual Studio. 
 

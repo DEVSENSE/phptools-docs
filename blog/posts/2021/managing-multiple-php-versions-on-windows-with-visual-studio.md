@@ -8,10 +8,11 @@ tags:
   - php
   - visual-studio
   - project
-cover_image: imgs/install-php.png
 ---
 
 # Managing multiple PHP versions on Windows with Visual Studio
+
+![Cover Image](imgs/install-php.png)
 
 There are several reasons why to have multiple PHP installations locally. You might have one old project that requires PHP 5.6 (already end of line since January 1st 2019), the other project in PHP 7.1 and one more project in PHP 7.4 which you are upgrading to PHP 8.0.
 

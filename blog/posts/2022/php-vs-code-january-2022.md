@@ -10,12 +10,13 @@ tags:
   - vs-code
   - code
   - code-lens
-cover_image: imgs/phptools-vscode-jan22.png
 categories:
   - annoucement
 ---
 
 # PHP for VS Code (January 2022)
+
+![Cover Image](imgs/phptools-vscode-jan22.png)
 
 The [**PHP Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) extension received a lot of neat updates and new features! Let's take a look on the new code-lens, debug improvements, improved code analysis, new tool tips, and more!
 

@@ -11,12 +11,13 @@ tags:
   - vs-code
   - project
   - create-project
-cover_image: imgs/composer-icon.png
 categories:
   - tutorial
 ---
 
 # Create PHP Project using Composer in VS Code
+
+![Cover Image](imgs/composer-icon.png)
 
 You know **composer** is a framework for maintaining PHP packages - installing them as a dependency to your project, ensuring their requirements, auto-loading classes, and much more. But you can also create a new PHP project directly from a composer package, easily. **In Visual Studio Code it's even simpler.**
 

@@ -11,12 +11,13 @@ tags:
   - vscode
   - highlighting
   - intellisense
-cover_image: imgs/blade-blog-img.png
 categories:
   - general
 ---
 
 # Blade Language Support in VS Code (Part 1)
+
+![Cover Image](imgs/blade-blog-img.png)
 
 Blade template language is an important part of Laravel development. It combines  XML/HTML, Blade Statements, and PHP language! This blog post is not about Blade development itself, but rather what we (as the authors of [PHP extension for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)) can provide you to make the development easier.
 

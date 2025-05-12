@@ -16,12 +16,13 @@ tags:
   - json-schema
   - commands
   - quick-actions
-cover_image: imgs/composer-icon.png
 categories:
   - annoucement
 ---
 
 # Introducing Composer for VS Code
+
+![Cover Image](imgs/composer-icon.png)
 
 We are adding a new extension to the Visual Studio Code Marketplace - [Composer All-in-One](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode). Composer _"All-in-One"_ provides complete integration of **composer** and **packagist** into Visual Studio Code. The extension provides quick `composer` commands, IntelliSense for `composer.json`, code lenses, code actions, schema validation, browsing and searching packages, checking abandoned packages, running user scripts, and it extends VS Code with `composer` tasks.
 

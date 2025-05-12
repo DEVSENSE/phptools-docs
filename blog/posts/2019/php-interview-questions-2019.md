@@ -6,12 +6,13 @@ authors:
   - admin
 tags:
   - php
-cover_image: imgs/interview2.jpg
 categories:
   - general
 ---
 
 # Top PHP Interview Questions in 2019
+
+![Cover Image](imgs/interview2.jpg)
 
 Do you have an interview with a hiring manager for a "PHP Developer" position? Are you worried about what will you be asked in the interview? Even if you're just studing for a test or you're an autodidact trying to master PHP, you should review the top 25 PHP interview questions and their answers.
 

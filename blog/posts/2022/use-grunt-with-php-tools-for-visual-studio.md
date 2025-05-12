@@ -4,12 +4,13 @@ description: Use Grunt in PHP Tools for Visual Studio
 date: 2022-03-28 10:34:49
 authors:
   - miloslav
-cover_image: imgs/grunt.png
 categories:
   - tutorial
 ---
 
 # Use Grunt with PHP Tools for Visual Studio
+
+![Cover Image](imgs/grunt.png)
 
 # Use Grunt with PHP Tools for Visual Studio
 

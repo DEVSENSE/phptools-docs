@@ -4,10 +4,11 @@ description:
 date: 2021-11-09 09:38:40
 authors:
   - miloslav
-cover_image: imgs/removeEmployee.png
 ---
 
 # Debug PHP visually with Code Maps
+
+![Cover Image](imgs/removeEmployee.png)
 
 > **Important!** You to have Visual Studio Enterprise for Code Maps to work.
 

@@ -8,12 +8,13 @@ tags:
   - php
   - unused-code
   - visualstudio
-cover_image: imgs/PHP_Tools_for_VS.jpg
 categories:
   - general
 ---
 
 # Unnecessary uses
+
+![Cover Image](imgs/PHP_Tools_for_VS.jpg)
 
 We are working very hard to bring new features to PHP Tools so we can improve the user experience and usability. Today we introduce newly added highlighting of unnecessary use declarations.
 

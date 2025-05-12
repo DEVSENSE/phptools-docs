@@ -12,12 +12,13 @@ tags:
   - php-8.3
   - scalar-objects
   - completion
-cover_image: imgs/phptools-v1-75.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (September 2023)
+
+![Cover Image](imgs/phptools-v1-75.png)
 
 We're releasing version **1.75** of PHP Tools for Visual Studio! This September release improves the editor experience, introduces compatibility with PHP 8.3, adds fast caching of `vendor` folder, adds more inline code suggestions, and improves stability and overall performance.
 

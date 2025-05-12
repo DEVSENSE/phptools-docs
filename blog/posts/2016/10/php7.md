@@ -8,12 +8,13 @@ tags:
   - php
   - php7
   - visualstudio
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools with PHP 7 support
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 PHP 7 proves it is faster and more secure than PHP has ever been. We are happy to announce the public availability of PHP 7 support into Visual Studio, including code colorization, IntelliSense, debugging, refactoring, unit testing and all the Visual Studio features you like.
 

@@ -11,12 +11,13 @@ tags:
   - php-8.1
   - regex
   - pcre
-cover_image: imgs/phptools-vs.png
 categories:
   - annoucement
 ---
 
 # PHP Tools for Visual Studio (May 2021)
+
+![Cover Image](imgs/phptools-vs.png)
 
 Read the news about new features in PHP 8.1 and PHP Tools for Visual Studio - RegEx, PHP 8.1 enumerations, PHP 8.1 installation, etc.
 

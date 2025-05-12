@@ -4,12 +4,13 @@ description: "Creating documentation that explains what each class, function, or
 date: 2019-07-22 08:19:53
 authors:
   - JohnHummel
-cover_image: imgs/phpdocimage.jpg
 categories:
   - tutorial
 ---
 
 # Using PHPDoc With PHP 7 - And Actually Making it Work
+
+![Cover Image](imgs/phpdocimage.jpg)
 
 ## Requirements
 

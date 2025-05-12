@@ -10,12 +10,13 @@ tags:
   - debug
   - server
   - compound-launch
-cover_image: imgs/launch-title.png
 categories:
   - tutorial
 ---
 
 # Compound Launch and Debug in VS Code
+
+![Cover Image](imgs/launch-title.png)
 
 Very often a PHP project consists of several separately hosted applications, such as a public website and some API. In case developer wants to run and debug his set of applications locally, there is a very useful feature in VS Code called **compound launch**.
 

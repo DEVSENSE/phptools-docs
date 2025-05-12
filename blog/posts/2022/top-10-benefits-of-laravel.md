@@ -4,12 +4,13 @@ description: "The Laravel PHP Framework can be a great place to start for busine
 date: 2022-03-14 11:32:49
 authors:
   - harikrishna
-cover_image: imgs/laravel.jpg
 categories:
   - general
 ---
 
 # Check out the 10 Key Bonuses of Choosing the Laravel PHP Framework!
+
+![Cover Image](imgs/laravel.jpg)
 
 For custom software development, the Laravel framework is quite popular. It is the most popular PHP framework on Github, with over 56,000 developers worldwide appreciating its powerful features. Why is Laravel so well-liked? It provides the necessary tools to develop websites and web apps faster, more stable, and simple to maintain.
 

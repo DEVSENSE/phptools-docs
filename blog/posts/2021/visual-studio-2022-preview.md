@@ -7,12 +7,13 @@ authors:
 tags:
   - visual-studio-2022
   - 64-bit
-cover_image: imgs/VisualStudio-pre-150.png
 categories:
   - annoucement
 ---
 
 # Visual Studio 2022 (preview)
+
+![Cover Image](imgs/VisualStudio-pre-150.png)
 
 We're happy to announce that PHP Tools for Visual Studio already supports the new Visual Studio 2022 (since the Preview 2). This brings amazing new features, User-Interface enhancements, and of course the native support for 64-Bit.
 

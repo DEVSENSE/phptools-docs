@@ -4,12 +4,13 @@ description: Download and install all the dependencies you need
 date: 2019-08-05 09:25:32
 authors:
   - JohnHummel
-cover_image: imgs/phpandcomposer.jpg
 categories:
   - tutorial
 ---
 
 # Installing and using Composer for PHP
+
+![Cover Image](imgs/phpandcomposer.jpg)
 
 ## Requirements
 

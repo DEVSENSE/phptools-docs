@@ -4,10 +4,11 @@ description: "In this tutorial, I'm going to demonstrate how to setup remote deb
 date: 2020-02-06 12:02:36
 authors:
   - miloslav
-cover_image: imgs/cover.png
 ---
 
 # How to setup PHP remote debugging
+
+![Cover Image](imgs/cover.png)
 
 In this tutorial I'm going to demonstrate how to setup remote debugging in PHP Tools for Visual Studio. The remote system in this example is running on **Ubuntu**, but it can be any Linux or Windows system.
 

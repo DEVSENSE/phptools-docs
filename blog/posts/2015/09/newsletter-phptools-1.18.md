@@ -10,12 +10,13 @@ tags:
   - html
   - phpdoc
   - vs2015
-cover_image: imgs/phptoolsnewversionblog.jpg
 categories:
   - general
 ---
 
 # PHP Tools 1.18 News
+
+![Cover Image](imgs/phptoolsnewversionblog.jpg)
 
 We are happy to announce that the new version of PHP Tools for Visual Studio - 1.18 - is available. The update brings a lot of new features, improvements and fixes
 

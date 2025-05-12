@@ -10,12 +10,13 @@ tags:
   - intellisense
   - plugins
   - themes
-cover_image: imgs/creating-a-wp-plugin.jpg
 categories:
   - tutorial
 ---
 
 # WordPress IntelliSense and Linting
+
+![Cover Image](imgs/creating-a-wp-plugin.jpg)
 
 Version `1.42` of the [PHP extension for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) includes **WordPress Stub**. What does it mean? The editor will recognize all the standard WordPress functions, constants, and classes. It provides code analysis, IntelliSense, AI inline code suggestions, and type analysis.
 

@@ -8,12 +8,13 @@ tags:
   - news
   - announcement
   - visual-studio
-cover_image: imgs/fa06b736-db2a-43d5-86ac-dcbb4513a562.png
 categories:
   - annoucement
 ---
 
 # Updates for Visual Studio (November 2020)
+
+![Cover Image](imgs/fa06b736-db2a-43d5-86ac-dcbb4513a562.png)
 
 The latest update of PHP Tools brings a lot of improvements and fixes for PHP in Visual Studio since 2010 up to the latest Visual Studio 2019. We're keen to show you a few of them.
 

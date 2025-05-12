@@ -4,12 +4,13 @@ description: Building up the most basic program in PHP
 date: 2019-06-21 03:54:43
 authors:
   - JohnHummel
-cover_image: imgs/1561106431_tmp_php_beginners.jpg
 categories:
   - tutorial
 ---
 
 # PHP For Beginners - Part 1: Variables, Functions, Classes
+
+![Cover Image](imgs/1561106431_tmp_php_beginners.jpg)
 
 ## Overview
 

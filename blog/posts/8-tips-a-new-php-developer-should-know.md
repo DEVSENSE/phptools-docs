@@ -4,12 +4,13 @@ description: Tips for beginners in the PHP world
 date: 2019-04-30 08:20:18
 authors:
   - fernanda
-cover_image: imgs/tips2.png
 categories:
   - general
 ---
 
 # 8 Tips a new PHP developer should know
+
+![Cover Image](imgs/tips2.png)
 
 PHP is highly popular- it has become almost impossible for all web developers not to have at least a working knowledge of PHP. This article is aimed to help those who are beginning with PHP, but are willing to make extra efforts to excel in the field.
 

@@ -4,12 +4,13 @@ description: How to configure your project to run on IIS server
 date: 2020-12-14 06:55:33
 authors:
   - miloslav
-cover_image: imgs/iis-logo.jpg
 categories:
   - tutorial
 ---
 
 # How to setup IIS for PHP Development with PHP Tools for Visual Studio
+
+![Cover Image](imgs/iis-logo.jpg)
 
 When **IIS Express** isn’t sufficient for your development needs and you need to get an full-fledged **IIS** web server for your **PHP** project, you can now configure it in matter of few clicks.
 

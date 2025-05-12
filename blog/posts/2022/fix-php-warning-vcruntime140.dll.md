@@ -9,12 +9,13 @@ tags:
   - visual-studio
   - vcruntime140.dll
   - visual-c-redistributable
-cover_image: imgs/cmd.png
 categories:
   - tutorial
 ---
 
 # Fix PHP Warning: vcruntime140.dll 14.0 is not compatible with this PHP build
+
+![Cover Image](imgs/cmd.png)
 
 I got an email from a user asking for help. He couldn't debug PHP application he was working on. After a little digging, we found out that he couldn't even run PHP. When executed it stopped immediately with a warning:
 

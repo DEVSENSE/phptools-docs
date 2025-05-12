@@ -12,12 +12,13 @@ tags:
   - vscode
   - code
   - composer
-cover_image: imgs/laravel-wsl-vscode.png
 categories:
   - tutorial
 ---
 
 # Laravel on WSL and VS Code
+
+![Cover Image](imgs/laravel-wsl-vscode.png)
 
 **Visual Studio Code** and **Windows Subsystem for Linux** (WSL): those represent a great couple for developing a PHP application such as **Laravel** inside a virtual Linux environment. This tutorial describes installation of WSL (version 2) on Windows 10, setting up PHP with debugging capabilities in there, creating a Laravel project, and getting your VS Code ready to debug the PHP project in WSL.
 
