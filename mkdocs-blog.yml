@@ -14,9 +14,9 @@ theme:
     # - navigation.tabs
     # - navigation.expand       # Expands the active navigation item
     # - navigation.auto-collapse # Automatically collapses inactive items
-    # - navigation.tracking
-    # - navigation.indexes
-    #  - navigation.top
+     - navigation.tracking
+     - navigation.indexes
+     - navigation.top
      - navigation.sections
      - toc.follow
     #  - toc.integrate
