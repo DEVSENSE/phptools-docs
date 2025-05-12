@@ -91,13 +91,13 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - js/extra.js
-
+  - js/theme-sync.js
 plugins:
   - awesome-pages
   - blog:
      blog_dir: .
      post_url_format: "{date}/{file}"
-     post_url_date_format: yyyy
+     post_url_date_format: yyyy/MM
      post_readtime_words_per_minute: 75
   - tags
   - search:
