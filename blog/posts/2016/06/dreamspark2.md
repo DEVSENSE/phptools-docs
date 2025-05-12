@@ -9,12 +9,13 @@ tags:
   - student
   - dreamspark
   - visualstudio
-cover_image: imgs/dreamspark.png
 categories:
   - general
 ---
 
 # PHP Tools and Microsoft DreamSpark after three months
+
+![DreamSpark](imgs\DreamSpark.png)
 
 Leading the Way with DreamSpark - [Free PHP Tools for Students](http://www.devsense.com/student)
 
@@ -23,8 +24,6 @@ Leading the Way with DreamSpark - [Free PHP Tools for Students](http://www.devse
 This march, we became the first and only non-Microsoft software to become part of the DreamSpark initiative. Since then, students from all over the world could download PHP Tools for Visual Studio absolutely free of charge.
 
 And download they did. Over 3000 students have gained free access to PHP Tools for Visual Studio since the inclusion into DreamSpark. We have registered in excess of 30 daily student downloads on average.
-
-![DreamSpark](imgs\DreamSpark.png)
 
 We are incredibly honored to be the first outside company to become a member of this program, as its message resonates very strongly within our values.  We are extremely excited to see the fantastic projects that will be created as a result of the DreamSpark initiative.
 
