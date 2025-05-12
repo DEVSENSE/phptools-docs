@@ -98,6 +98,7 @@ plugins:
      blog_dir: .
      post_url_format: "{date}/{file}"
      post_url_date_format: yyyy
+     post_readtime_words_per_minute: 75
   - tags
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
