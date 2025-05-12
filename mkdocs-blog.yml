@@ -1,6 +1,6 @@
 site_name: PHP Tools for Visual Studio - Blog
 site_author: DEVSENSE s.r.o.
-site_description: This site provides DEVSENSE PHP Extension documentation.
+site_description: News, announcements, and tutorials for the PHP Tools community.
 docs_dir: blog
 # Repository
 repo_name: DEVSENSE/phptools-docs
@@ -98,6 +98,7 @@ plugins:
      blog_dir: .
      post_url_format: "{date}/{file}"
      post_url_date_format: yyyy
+  - tags
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -111,6 +112,8 @@ plugins:
 #       order: asc
 #       sort_type: natural
 #       order_by: title
+
+
 
 
 extra:
