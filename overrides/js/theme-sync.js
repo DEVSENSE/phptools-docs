@@ -3,79 +3,63 @@
     const STORAGE_KEY = "__md_storage__";
 
     function setCookie(name, value, days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + (value || "") + expires + "; path=/; domain=.devsense.com; SameSite=Lax";
+        const expires = days
+            ? "; expires=" + new Date(Date.now() + days * 864e5).toUTCString()
+            : "";
+        document.cookie = `${name}=${value || ""}${expires}; path=/; domain=.devsense.com; SameSite=Lax`;
     }
 
     function getCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(";");
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == " ") c = c.substring(1, c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
+        const nameEQ = name + "=";
+        return document.cookie
+            .split(";")
+            .map(c => c.trim())
+            .find(c => c.startsWith(nameEQ))
+            ?.substring(nameEQ.length) || null;
     }
 
     function setStorageTheme(theme) {
         try {
             const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-            data["color-scheme"] = theme;
+            if (theme) {
+                data["color-scheme"] = theme;
+            } else {
+                delete data["color-scheme"];
+            }
             localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
         } catch { }
     }
 
-    function getStorageTheme() {
-        try {
-            const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-            return data["color-scheme"];
-        } catch {
-            return null;
-        }
-    }
+    document.addEventListener("DOMContentLoaded", () => {
+        const body = document.body;
 
-    function applyTheme(theme) {
-        if (theme === "dark") {
-            document.documentElement.setAttribute("data-md-color-scheme", "slate");
-            setStorageTheme("slate");
-        } else if (theme === "light") {
-            document.documentElement.setAttribute("data-md-color-scheme", "default");
-            setStorageTheme("default");
-        } else {
-            document.documentElement.removeAttribute("data-md-color-scheme");
-        }
-    }
+        // Observe changes to the theme attribute
+        const observer = new MutationObserver(() => {
+            const value = body.getAttribute("data-md-color-media");
+            let theme = "system";
 
-    // Early run
-    const cookieTheme = getCookie(COOKIE_NAME);
-    if (cookieTheme === "dark" || cookieTheme === "light") {
-        applyTheme(cookieTheme);
-    }
+            if (value === "(prefers-color-scheme: dark)") theme = "dark";
+            else if (value === "(prefers-color-scheme: light)") theme = "light";
 
-    // After DOM ready
-    document.addEventListener("DOMContentLoaded", function () {
-        const storedTheme = getStorageTheme();
-
-        // Sync theme change via MutationObserver
-        const observer = new MutationObserver(function () {
-            const attr = document.documentElement.getAttribute("data-md-color-scheme");
-            if (attr === "slate") {
-                setCookie(COOKIE_NAME, "dark", 365);
-                setStorageTheme("slate");
-            } else if (attr === "default") {
-                setCookie(COOKIE_NAME, "light", 365);
-                setStorageTheme("default");
-            } else {
-                setCookie(COOKIE_NAME, "system", 365);
-            }
+            setCookie(COOKIE_NAME, theme, 365);
+            setStorageTheme(theme === "dark" ? "slate" : theme === "light" ? "default" : undefined);
         });
 
-        observer.observe(document.documentElement, { attributes: true });
+        observer.observe(body, { attributes: true });
+
+        // Apply stored theme preference
+        const cookieTheme = getCookie(COOKIE_NAME);
+        const selector =
+            cookieTheme === "dark"
+                ? `input[name="__palette"][data-md-color-scheme="slate"]`
+                : cookieTheme === "light"
+                    ? `input[name="__palette"][data-md-color-scheme="default"]`
+                    : `input[name="__palette"][data-md-color-media="(prefers-color-scheme)"]`;
+
+        const input = document.querySelector(selector);
+        if (input) {
+            input.checked = true;
+            input.dispatchEvent(new Event("change", { bubbles: true }));
+        }
     });
 })();
