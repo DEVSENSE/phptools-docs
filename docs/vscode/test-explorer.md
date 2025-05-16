@@ -23,22 +23,17 @@ Running the tests relies on the configured PHP executable. See [Selecting PHP Ex
 
 ### PHPUnit
 
-The PHPUnit phar file or PHPUnit composer package are necessary to execute the tests. PHPUnit Test Explorer uses the following PHPUnit:
+The PHPUnit phar file or PHPUnit composer package are necessary to execute the tests. PHPUnit Test Explorer lookups the following locations, in order:
 
-1. From the vendor directory, usually created by composer.
-2. Otherwise the PHPUnit PHAR (version 6.5.12.) bundled with PHP Tools.
-
-In case there is the `phpunit/phpunit` composer package, it is used implicitly for the tests execution.
-
-To manually specify path to the `phpunit` binary, use setting `phpunit.phpunit`. *Example setting:*
-
-```json
-{
+1. `"phpunit.phpunit"` setting (can be relative to the workspace folder).
+  ```json
+  {
     "phpunit.phpunit" : "${workspaceFolder}/phpunit"
-}
-```
+  }
+  ```
+2. `{**/bin/phpunit,**/phpunit/phpunit,**/phpunit.phar}` paths. If more files matching the pattern are found, the shortest one is prefered.
 
-If none of the above is found, bundled PHPUnit PHAR (version 6.5.12.) is used.
+Watch the `OUTPUT` window, `PHP (PHPUnit)` for details.
 
 ### Custom Command
 
