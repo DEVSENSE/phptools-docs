@@ -91,7 +91,7 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - js/extra.js
-  - js/theme-sync.js
+  # - js/theme-sync.js
 plugins:
   - awesome-pages
   - blog:
