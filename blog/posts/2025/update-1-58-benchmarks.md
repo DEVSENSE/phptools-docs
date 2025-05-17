@@ -16,7 +16,7 @@ categories:
 
 We’re excited to announce the release of [**Update 1.58**](https://www.devsense.com/en/download/vscode#15817223) for our Visual Studio Code extension. This update comes on the heels of a major internal change in our technology stack and brings a suite of new features, improvements, and foundational enhancements for future development.
 
----
+<!-- more -->
 
 ## 🚀 Background: New Stack, New Possibilities
 
