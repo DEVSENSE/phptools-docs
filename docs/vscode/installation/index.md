@@ -1,6 +1,6 @@
 /*
 Title: Installation
-Description: Installing PHP Tools for Visual Studio Code.
+Description: Installing PHP Extension for Visual Studio Code.
 */
 
 ## Installation
@@ -8,12 +8,12 @@ Description: Installing PHP Tools for Visual Studio Code.
 The extension is installed through the Visual Studio Code' `Extensions` window.
 
 - Navigate to `Extensions` view (`View` / `Extensions`)
-- Search for `"PHP Tools"`
+- Search for `"devsense.phptools-vscode"`
 - Install the extension, and eventually reload your VS Code window.
 
 ![phptools install vscode](../imgs/phptools-install.png)
 
-After the successful installation, please [activate](#license-activation) your copy of PHP Tools to unlock PREMIUM features.
+After the successful installation, please [activate](#license-activation) your copy of PHP Tools for VS Code to unlock PREMIUM features.
 
 ## License Activation
 
