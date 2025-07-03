@@ -16,6 +16,7 @@ categories:
 ![Cover Image](imgs/press_release2.jpg)
 
 ## DEVSENSE to support PHP in Microsoft Visual Studio 2013
+
 ** Company brings PHP language support into Microsoft Visual Studio 2013 **
 
 <!-- more -->
