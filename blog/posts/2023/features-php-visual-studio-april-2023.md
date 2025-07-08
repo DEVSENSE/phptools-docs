@@ -38,7 +38,7 @@ The new **Profiler Tool Window** allows you to quickly start profiling, inspect 
 
 Profiling data are inspected in the new **Profiling View**! List and filter called functions, call details, and flame graph.
 
-See [Profiler Overview](https://docs.devsense.com/en/vs/profiling/overview) for more information.
+See [Profiler Overview](https://docs.devsense.com/vs/profiling/overview/) for more information.
 
 ## Code Formatter &amp; Code Styles
 
