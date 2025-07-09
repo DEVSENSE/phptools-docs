@@ -24,6 +24,8 @@ Let’s take a look at what’s new:
 
 Laravel developers are in for a treat! The IDE now provides deeper insight into common Laravel patterns:
 
+![component completion across packages](imgs/update-1.59-vscode/image.png)
+
 - **Livewire computed properties** are now recognized.
 - **Eloquent relationships** support generic return types (e.g., `HasOne<T>`), so the IDE can infer types of dynamic properties.
 - **Blade templates** get better `$this` type completion when tied to a component class.
@@ -31,11 +33,19 @@ Laravel developers are in for a treat! The IDE now provides deeper insight into 
 - `.php` language translation files are processed – functions like `trans()` or Blade’s `@lang` can now navigate and complete translation keys.
 - Fixes for Blade directives such as `@error` and duplicated `@` symbols in completions.
 
+![livewire $this](imgs/update-1.59-vscode/image-7.png)
+
+- Translation IDs completion is improved and provides texts across the packages. 
+
+![lang completion](imgs/update-1.59-vscode/image-8.png)
+
 ---
 
 ## 🧠 IntelliSense Enhancements
 
 Your coding flow just got even better with several key upgrades:
+
+![extract code action](imgs/update-1.59-vscode/image-1.png)
 
 - **Extract Method / Extract Constant** code actions are now available to refactor code with a click.
 - Support for **Composer IntelliSense** out-of-the-box, even when `composer.phar` is not part of the workspace.
@@ -52,6 +62,8 @@ Keep your code tidy with the new **Organize Use Statements** feature. You can no
 - **Alphabetically**, or
 - **By length**
 
+![sort use prder](imgs/update-1.59-vscode/image-2.png)
+
 This can be configured via your `settings.json` or `.editorconfig` file (`ij_php_import_sorting`). Sorting can be triggered manually, on save, or automatically via code actions. [Read more here →](https://docs.devsense.com/vscode/code%20actions/organize-uses/)
 
 ---
@@ -59,6 +71,8 @@ This can be configured via your `settings.json` or `.editorconfig` file (`ij_php
 ## 🔧 Formatting Tweaks
 
 Formatting has been fine-tuned for readability and consistency:
+
+![space before/after unary not](imgs/update-1.59-vscode/image-3.png)
 
 - Prevented `foreach` from collapsing into a single line.
 - Fixed new line placement for single-line property hooks.
@@ -71,6 +85,9 @@ Formatting has been fine-tuned for readability and consistency:
 ## 🧪 Diagnostics Improvements
 
 We've made diagnostics smarter and quieter — reducing false warnings and improving analysis:
+
+![override error](imgs/update-1.59-vscode/image-4.png)
+![override fix](imgs/update-1.59-vscode/image-5.png)
 
 - More accurate reporting for unimplemented abstract methods and properties ([#870](https://github.com/DEVSENSE/phptools-docs/issues/870)).
 - Better type inference for numeric operations and class references.
@@ -85,6 +102,8 @@ Take control with new customization options:
 - `php.files.exclude`: exclude files from language indexing, while keeping them in Explorer.
 - `php.navigation.referencesScope`: configure strictness of "Find References".
 - `phpTools.parallelismLimit`: limit background threads for indexing and parsing.
+
+![search references target](imgs/update-1.59-vscode/image-6.png)
 
 ---
 
