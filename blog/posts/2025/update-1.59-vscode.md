@@ -18,7 +18,7 @@ We’re excited to announce the release of **PHP Tools for Visual Studio Code** 
 
 Let’s take a look at what’s new:
 
----
+<!-- more -->
 
 ## 🧠 Smarter Laravel IntelliSense
 
