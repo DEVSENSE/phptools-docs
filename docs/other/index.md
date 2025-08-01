@@ -9,7 +9,7 @@ PHP Tools are available for a wide range of development environments. In additio
 
 ## VS Code Compatible Editors
 
-For **Cursor**, **VSCodium**, and similar editors.
+For **Cursor**, **VSCodium**, and similar editors. (see [docs](../vscode/))
 
 Most forks of Visual Studio Code are compatible with the [PHP Tools for VS Code extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode).
 
@@ -18,8 +18,6 @@ The extension is also available on [open-vsx.org](https://open-vsx.org/extension
 ## Zed IDE
 
 The [Zed editor](https://zed.dev/) is designed for high performance and AI-powered collaboration. The PHP Tools extension brings advanced features such as IntelliSense, diagnostics, code actions, quick fixes, and Laravel IDE support.
-
-> **Note:** Zed support is currently under development. You can follow progress on [Pull Request #34](https://github.com/zed-extensions/php/pull/34).
 
 ### Enabling PHP Tools in Zed
 
