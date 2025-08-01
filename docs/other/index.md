@@ -21,6 +21,8 @@ The [Zed editor](https://zed.dev/) is designed for high performance and AI-power
 
 ### Enabling PHP Tools in Zed
 
+Go to Zed / Extensions, and install the extension `php`.
+
 Add the following to your Zed _settings_ to enable PHP Tools:
 
 ```json
