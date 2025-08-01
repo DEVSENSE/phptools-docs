@@ -45,6 +45,23 @@ To activate your license, add [`initialization_options`](https://zed.dev/docs/co
 }
 ```
 
+### Settings
+
+Add any setting into the `"initialization_options"` section. For example:
+
+```json
+"lsp": {
+    "phptools": {
+      "initialization_options": {
+        "php.stubs": ["*", "zip", "zlib", "pcntl", "com", "composer", "wordpress"],
+        "php.workspace.includePath": "file:///Users/me/projects/php_stubs"
+      }
+    }
+}
+```
+
+The list of settings has not a documentation page (yet). In general they are the same as `php.` settings in VSCode's `settings.json`.
+
 ## Language Server Protocol (LSP)
 
 Many editors support direct integration with language servers, often with minimal configuration.
