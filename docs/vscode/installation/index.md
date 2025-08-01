@@ -24,13 +24,29 @@ Valid license gives access to _PREMIUM_ features. For more information about pur
 ### Activation
 
 To activate your premium license:  
+
 1. Open the **Command Palette** from the **View** menu.  
 2. Search for the command **PHP Tools: Activate License**.  
 3. Enter your license key into the pop-up window and press Enter.  
 
   ![Enter License Key](../imgs/enter-license-key.png)
 
-> **Note:** The activation process requires an Internet connection.
+> If there is no Internet connection, a popup message with URL will open. Open this URL on a machine with Internet connection. There will be futrher instructions with offline activation code.
+
+### Activation (Programically)
+
+> Version 1.60 and never
+
+To activate the premium license programically, put the license key into the environmetal variable `DEVSENSE_PHP_LS_LICENSE`.
+
+```bash
+# Linux
+export DEVSENSE_PHP_LS_LICENSE=Your_License_Key
+```
+
+When the extension starts, and premium is not activated already, it checks the variable and tries to perform online activation silently. The result of activation can be checked in OUTPUT / PHP log.
+
+> **Offline activation (programically)**: To activate the license without Internet connection, go to https://www.devsense.com/purchase/validation, fill in the form and obtain an activation code. Set the whole code `{...}` into the environmental variable `DEVSENSE_PHP_LS_LICENSE` instead of the license key.
 
 ### Free Trial
 
