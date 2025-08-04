@@ -5,7 +5,7 @@ Description: Writing and generating PHPDoc comments
 
 ## PHPDoc Completion
 
-PHPDoc block is completed by typing '`/**`' or using a code action.
+PHPDoc block is completed by typing `/` `*` `*` or using a [code action](../code%20actions/generate-phpdoc.md).
 
 ![PHPDoc generation](../imgs/phpdoc-generate.gif)
 
