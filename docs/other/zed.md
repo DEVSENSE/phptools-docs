@@ -3,8 +3,6 @@ Title: Zed IDE
 Description: PHP Tools integration into Zed IDE.
 */
 
-## Zed IDE
-
 The [Zed editor](https://zed.dev/) is designed for high performance and AI-powered collaboration. The PHP Tools extension brings advanced features such as IntelliSense, diagnostics, code actions, quick fixes, and Laravel IDE support.
 
 ### Enabling PHP Tools in Zed

@@ -1,9 +1,7 @@
 /*
-Title: Other IDEs Support
+Title: Other IDEs
 Description: PHP Tools support for alternative development environments and editors.
 */
-
-# Other IDEs
 
 PHP Tools are available for a wide range of development environments. In addition to dedicated integrations, we also provide a standalone Language Server package for building custom editor support.
 
