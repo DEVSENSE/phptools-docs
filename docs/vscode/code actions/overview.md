@@ -25,7 +25,7 @@ There are several kinds of actions:
 - **Generate PHPDoc comment**: creates a documentary comment`/** ... */` above declaration. Also generated when typing `/**` above declaration.
 - **Generate Getter/Setter**: creates `__get` or `__set` or both stubs. Applies to class non-public properties.
 - **Implement Methods Override**
-- **Extract Function** or **Constant**
+- **[Extract](extract.md) Function** or **Constant**
 
 ## Sample Code Actions
 
