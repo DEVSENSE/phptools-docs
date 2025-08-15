@@ -25,7 +25,7 @@ To activate your license, add [`initialization_options`](https://zed.dev/docs/co
 "lsp": {
     "phptools": {
       "initialization_options": {
-        "0": "{json from https://www.devsense.com/en/purchase/validation}"
+        "0": "Your_License_Key"
       },
     }
 }
