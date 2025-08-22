@@ -38,4 +38,6 @@ You can even scope it just for `[.php]` files, configure it globally in the glob
 
 ## See Also
 
-For more code actions please see [PHP extension Documentation](https://docs.devsense.com/en/vscode/editor/code-actions#remove-and-sort-uses-on-save).
+- [Documentation for Organize Uses on Save](https://docs.devsense.com/vscode/code%20actions/organize-uses/#settings)
+- [AutoFix on Save](https://docs.devsense.com/vscode/code%20actions/autofix/)
+
