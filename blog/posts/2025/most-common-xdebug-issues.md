@@ -89,7 +89,7 @@ xdebug.client_host=host.docker.internal  ; Windows/Mac
 
 This one can be tricky. Even if debugging seems to work, it might behave very strangely. We’ve even added a check for it—if this happens, a warning appears in the Output pane:
 
-![Warning that Xdebug](imgs/most-common-php-debugging-issues/xdebug-loading-order-warning.png)
+![Warning that Xdebug](imgs/most-common-xdebug-issues/xdebug-loading-order-warning.png)
 
 What happens is that if Xdebug is loaded **after** Opcache, you might encounter unpredictable behavior because the bytecode is already cached.
 
@@ -106,7 +106,7 @@ zend_extension=xdebug.so
 php --ini
 ```
 
-![php --ini command](imgs/most-common-php-debugging-issues/phpini_cmd.png)
+![php --ini command](imgs/most-common-xdebug-issues/phpini_cmd.png)
 
 You can change the order by renaming `.ini` file, for example `20-xdebug.ini`
 
@@ -160,7 +160,7 @@ Or if you are using VS Code with Remote Containers, you can also use the port ma
 
 **Tip:** In some setups (e.g., VS Code Remote Containers or Docker Compose), the container port may be automatically forwarded to the host, so manual port mapping may not be necessary.
 
-![Port forwarding UI in VS Code](imgs/most-common-php-debugging-issues/port-forwarding.png)
+![Port forwarding UI in VS Code](imgs/most-common-xdebug-issues/port-forwarding.png)
 
 ## 12. Breakpoints Never Hit
 
