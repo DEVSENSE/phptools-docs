@@ -1,5 +1,5 @@
 ---
-title: 12 Most Common PHP Debugging Issues (and How to Fix Them)
+title: 12 Most Common Xdebug Issues (and How to Fix Them)
 description: A practical guide to the most frequent PHP debugging problems with Xdebug and IDE-integrated debuggers, and how to fix them.
 date: 2025-08-26
 authors:
@@ -15,7 +15,7 @@ categories:
 ---
 
 
-# 12 Most Common PHP Debugging Issues (and How to Fix Them)
+# 12 Most Common Xdebug Issues (and How to Fix Them)
 
 Debugging PHP can sometimes feel like chasing ghosts. Even experienced developers often encounter the same recurring issues, especially when using Xdebug or IDE-integrated debuggers. Here’s a practical guide to the most common pitfalls—and how to solve them.  
 
