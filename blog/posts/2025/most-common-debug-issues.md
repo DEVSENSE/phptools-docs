@@ -19,6 +19,8 @@ categories:
 
 Debugging PHP can sometimes feel like chasing ghosts. Even experienced developers often encounter the same recurring issues, especially when using Xdebug or IDE-integrated debuggers. Here’s a practical guide to the most common pitfalls—and how to solve them.  
 
+<!-- more -->
+
 ## 1. Xdebug Isn’t Installed or Enabled
 
 A lot of developers assume Xdebug is ready, but sometimes it’s not even installed.
