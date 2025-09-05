@@ -17,11 +17,13 @@ Setting | Values | Description
 `php.executables` | Set of profile names and corresponding PHP executable path. | Defined profile names that can be chosen in `php.version` setting, or from the PHP version picker.
 `php.executablePath` | Full path to the `php` executable, or not set. | Legacy option. Specifies the full path to the `php` executable that will be used within [test explorer](test-explorer.md), [debugging](debug/index.md), and to determine the PHP version for code validation.
 `php.completion.autoimport` | "auto-import", "fqn", "none", "hide" | Configures how to treat completion of names outside the current namespace. See [auto-import](editor/auto-import.md).
-`php.format.codeStyle` | "PHP Tools", "PSR-2" | Code formatting profile.
+`php.format.codeStyle` | "PHP Tools", "PSR-2", "PSR-12", "Laravel", "PER", "WordPress", ... | Code formatting profile.
 `php.problems.scope` | "none", "opened", "all" | What workspace folders get analyzed for problems. Default is `"opened"`. _Note, **fatal errors** and **parse errors** are always reported across the entire workspace._
 [`php.problems.exclude`](problems/configuration.md) | Associative map of paths and whether to exclude them from problems checking. | Specifies what problems will be hidden in specified directories. It is possible to set `true` to ignore all problems, or an array of error codes. Sample: `{'/vendor/**':true, '/tests/**':[6501,6555]}`. See [problems configuration](problems/configuration.md).
 `php.workspace.includePath` | {relative path} | Additional include path(s) for the code completion and code analysis. Separated with semi-colon.
 `files.exclude` | Associative map of paths to be excluded from the project. | Specifies files that won't be processed by the code analysis engine (code completion, navigation, problems).
+`php.files.exclude` | | File patterns that won't be indexed and/or searched in by the extension.
+`search.exclude` | | File patterns not included in search results, i.e. 'find references', 'symbols in workspace', 'code lenses', find implementations'.
 `debug.inlineValues` | `true`, `false` | Enables or disables showing values relevant to the currently debugged statement.
 
 ## License activation
@@ -42,7 +44,7 @@ The activation requires an Internet connection. The successful installation is c
 
 ![Enter License Key](imgs/activation-succeeded-vscode.png)
 
-## PHP requirements
+## PHP Requirements
 
 Testing and debugging features require the [PHP](https://secure.php.net/) program to be installed and configured. It is recommended to use PHP 7.0 or newer; however, PHP 5.4 and newer are supported as well.
 
@@ -53,13 +55,11 @@ Testing and debugging features require the [PHP](https://secure.php.net/) progra
 - [Xdebug on Mac](debug/xdebug-mac.md)
 - [Xdebug on Windows](debug/xdebug-win.md)
 
-### Recommended
+### Recommended for Testing and Debugging Functionality
 
 - PHP 7.0 or newer
 - PHP extensions `dom`, `xsl`, `mbstring`
-- PHP extension `xdebug` with the following options in your `php.ini`:
-  - `xdebug.remote_enable = 1`
-  - `xdebug.remote_autostart = 1`
+- PHP extension `xdebug`
 
 ## Related links
 
