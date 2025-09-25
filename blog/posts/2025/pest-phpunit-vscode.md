@@ -23,7 +23,7 @@ Test Explorer in Visual Studio Code opens the door to all your PHPUnit and Pest 
 
 <!-- more -->
 
-# Basic Setup
+## Basic Setup
 
 If you already have a project with tests, or a project based on Laravel or similar framework, you can skip this step. To add tests to your project, you need the **following file structure**:
 
@@ -51,7 +51,7 @@ The content of the `phpunit.xml` will look like this (minimal setup):
 
 ![basic directory structure](imgs/phpunit-basic-structure.png)
 
-## PHP Installation
+### PHP Installation
 
 Make sure you have `php` installed. The following php extensions are recommended: `json`, `mbstring`, `process`, `xml`, `libxml`, `xdebug`.
 
@@ -63,7 +63,7 @@ Check that VSCode detects your PHP in the _OUTPUT_ / _PHP_ window:
 
 > Select your PHP installation as described in [docs.devsense.com/vscode/php-version/](https://docs.devsense.com/vscode/php-version/#choosing-php-version).
 
-## PHPUnit
+### PHPUnit
 
 Add **PHPUnit** Composer package itself. Open Command Palette (`F1`), and type `require dev package`:
 ![require dev package](imgs/require-dev-package.png)
@@ -87,7 +87,7 @@ class ExampleTest extends TestCase {
 
 > Note, that the class name must follow PSR notation, i.e. the class name must match the file name. Additionally, the test method must be prefixed with `test` or it needs to have a `#[Test]` attribute.
 
-## Pest
+### Pest
 
 **Removing `phpunit/phpunit`**
 
@@ -116,19 +116,19 @@ test('that true is true', function () {
 
 As you can see, Pest tests have a smaller boilerplate, and can basically force you to be more descriptive.
 
-# Explore Tests
+## Explore Tests
 
 Switch to the Test Explorer view, and you can browse the discovered test cases. From here, you can run, debug, and navigate to your test cases.
 
 ![exploring the tests](imgs/test-explorer-simple-test.png)
 
-# Run Tests
+## Run Tests
 
 There are several ways of running your tests. Right from the editor, or from the Test Explorer view.
 
 ![running tests](imgs/test-explorer-run-tests.gif)
 
-## Inspect Output
+### Inspect Output
 
 Under the hood, **PHP extension** runs your `phpunit` (or `paratest` or `pest`) with several command line arguments. Let's see what it is doing;
 
@@ -138,13 +138,13 @@ Open _OUTPUT_ panel, and switch to _PHP (Test Explorer)_:
 
 > The parameters used in the command above can be configured using settings `phpunit.phpunit` and `phpunit.command`.
 
-## Inspect Failures and History
+### Inspect Failures and History
 
 Tests also fail. But luckily all the failures are recorded and can be inspected later:
 
 ![failed test](imgs/failed-test-case-array-diff.png)
 
-## Using Data Providers
+### Using Data Providers
 
 **Support for Data Providers is a new feature in PHP extension version `1.61` (or newer)!** 
 
@@ -156,7 +156,7 @@ Test Explorer will show and update your data sets once you run the test. Let's s
 
 > There are several ways of specifying a data providers depending on your version of PHPUnit, or whether you run Pest.
 
-### PHPUnit 10+ `#[DataProvider]`
+#### PHPUnit 10+ `#[DataProvider]`
 
 ```php
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -175,7 +175,7 @@ class ExampleTest extends TestCase {
 
 ```
 
-### PHPUnit &lt; 10 `@dataProvider`
+#### PHPUnit &lt; 10 `@dataProvider`
 
 ```php
 use PHPUnit\Framework\TestCase;
@@ -192,7 +192,7 @@ class ExampleTest extends TestCase {
 }
 ```
 
-### Pest `->with()` Data
+#### Pest `->with()` Data
 
 ```php
 test('that it is greater than 0', function ($number) {
@@ -204,13 +204,13 @@ test('that it is greater than 0', function ($number) {
 ]);
 ```
 
-## Enable Live Testing
+### Enable Live Testing
 
 A neat feature is _live (aka continuous) testing_. When enabled, test files are watched for changes. When a change is detected, the affected tests are re-run.
 
 ![enable continuous testing](imgs/test-explorer-enable-continuous.png)
 
-# Debug Test
+## Debug Test
 
 Whenever a test fails, you can simply debug it. Debugging tests is a fundamental part of application development. It's also simpler and quicker, since you are running your separate unit test and fixing only the corresponding components.
 
@@ -226,7 +226,7 @@ Initiate debugging either from Test Explorer, or directly from the editor. Right
 
 ![debug test](imgs/test-case-debug-command.png)
 
-# References
+## Related Links
 
 - [PHP extension for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
 - [Choosing PHP Version](https://docs.devsense.com/vscode/php-version/).
