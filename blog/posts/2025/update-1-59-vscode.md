@@ -9,7 +9,7 @@ tags:
   - laravel
   - intellisense
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio Code – Version 1.59
