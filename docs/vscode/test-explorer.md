@@ -5,17 +5,17 @@ Description: Visual PHPUnit test explorer
 
 # Test Explorer
 
-The Test Explorer view enables the visual execution and debugging of PHPUnit tests. The tests are executed by the PHPUnit and the results are displayed in the **Test Explorer**, as shown in the next figure. The PHPUnit output is shown in the **PHP (PHPUnit)** output tab.
+The _Test Explorer_ view enables execution, debugging, profiling, and code coverage of PHPUnit/ParaTest/Pest tests. Results are displayed conveniently in the **Test Explorer**, as shown in the picture below. Additional logs can be viewed in the **PHP (Test Explorer)** OUTPUT panel.
 
 ![Test Explorer](imgs/test-view.png)
 
-Each test is listed in the Test Explorer view. In the code, tests are annotated with the test icon. The icon shows the current test status, and allows to quickly *Run*, and *Debug* the test.
+Each test is listed in the Test Explorer. Test methods are also annotated with the test icon right in the code showing current test status and quick actions.
 
 ## Configuration
 
-It is necessary to [configure](configuration.md) the editor before the tests can be executed. The process requires PHP (`php`), the PHPUnit package (`phpunit/phpunit`) and a PHPUnit configuration file (`phpunit.xml` (`.dist`)).
+Running tests requires an installed [PHP](php-version.md) (`php`) with [Xdebug](https://xdebug.org/), corresponding PHPUnit/Para/Pest package (e.g. `phpunit/phpunit`) and a [PHPUnit configuration file](https://docs.phpunit.de/en/10.5/configuration.html) (`phpunit.xml` (`.dist`)).
 
-Tests are resolved quickly by parsing the `phpunit.xml` or `phpunit.xml.dist` files, and corresponding `.php` files in the workspace. Any changes to those files will automatically update the Test Explorer as well.
+Tests are resolved without running `php` from corresponding `.php` files in the workspace. Any changes to those files will automatically update the _Test Explorer_ accordingly.
 
 ### PHP
 
@@ -23,7 +23,7 @@ Running the tests relies on the configured PHP executable. See [Selecting PHP Ex
 
 ### PHPUnit
 
-The PHPUnit phar file or PHPUnit composer package are necessary to execute the tests. PHPUnit Test Explorer lookups the following locations, in order:
+The PHPUnit phar file or PHPUnit or Para or Pest composer packages are necessary to execute the tests. Test Explorer lookups the following locations, in order:
 
 1. `"phpunit.phpunit"` setting (can be relative to the workspace folder).
   ```json
@@ -31,9 +31,9 @@ The PHPUnit phar file or PHPUnit composer package are necessary to execute the t
     "phpunit.phpunit" : "${workspaceFolder}/phpunit"
   }
   ```
-2. `{**/bin/phpunit,**/phpunit/phpunit,**/phpunit.phar}` paths. If more files matching the pattern are found, the shortest one is prefered.
+2. `{**/bin/pest,**/bin/para,**/bin/phpunit,**/phpunit/phpunit,**/phpunit.phar}` paths. If more files matching the pattern are found, the shortest one is preferred.
 
-Watch the `OUTPUT` window, `PHP (PHPUnit)` for details.
+Watch the `OUTPUT` window, `PHP (Test Explorer)` for details.
 
 ### Custom Command
 
@@ -107,6 +107,8 @@ The custom (launch.json) profile will be listed in Test Explorer, under **Debug*
 
 ## Profiling Tests
 
+> Note: Requires _PHP Profiler_ extension which is installed by default, but can be disabled or uninstalled.
+
 Use the **Debug** menu in Test Explorer to Profile tests, or profile a single test with right click on the test -> `Debug with Profile` -> `Profile`.
 
 ![start tests profiling](imgs/test-profile-menu.png)
@@ -124,6 +126,37 @@ While the profiling results are still opened, see the hot paths in your code:
 - [Xdebug PHP extension](debug/index.md) needs to be properly installed
 - [Profiler VSCode extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode) needs to be installed.
 - See [profiling](profiling.md) for more details.
+
+## Code Coverage
+
+> Note: Available since version _1.62_.
+> Note: [Xdebug PHP extension](debug/index.md) needs to be properly installed
+
+Code Coverage tracks parts of the source code being actually used during tests. Run tests in "coverage" mode using the "Run Tests with Coverage" button, or a context menu.
+
+![start code coverage](imgs/code-coverage-start-button.png)
+
+After tests are finished, a "Test Coverage" panel appears below the _Test Explorer_ with all the files being tracked during tests execution. **Note,** what files are listed relies on your `phpunit.xml` configuration.
+
+![code coverage results](imgs/code-coverage-results.png)
+
+The coverage information is also displayed right in the _Explorer_, and source code editor as well:
+
+![code coverage results in explorer](imgs/code-coverage-results-explorer.png)
+
+![code coverage in file](imgs/code-coverage-visual.png)
+
+To disable the Code Coverage view, navigate to "TESTS RESULTS" panel and click "Close Test Coverage":
+
+![close code coverage](imgs/close-code-coverage.png)
+
+### Code Coverage on Remote Machine
+
+Code Coverage works for workspaces on remote machines or docker containers.
+
+Be aware, that running code coverage creates a temporary file `.vscode/.cobertura.tmp.xml` in your workspace. Since the process may run on a remote machine or a docker container, running code coverage will check an existing launch configurations for a `pathMappings` section.
+
+In case you're running code coverage on a remote machine or a docker container, make sure you have a [debug launch configuration](debug/launch-json.md) with `"pathMappings"` so the remote path can be resolved.
 
 ## Test Results
 
