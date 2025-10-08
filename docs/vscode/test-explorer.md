@@ -127,9 +127,33 @@ While the profiling results are still opened, see the hot paths in your code:
 - [Profiler VSCode extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode) needs to be installed.
 - See [profiling](profiling.md) for more details.
 
+### Profiling on Remote Machine
+
+Code profiling creates a temporary file on the machine which runs the actual `php`.
+
+In case you're profiling tests run on a remote machine, you need to create a launch profile with `"pathMappings"` property. **Note**, this is not needed if you are connected directly to the remote machine via VSCode's _Remote Window_.
+
+_Example `.vscode/launch.json` profile:
+
+```json
+      {
+          "name": "My Remote Debug",
+          "type": "php",
+          "request": "launch",
+          "pathMappings": {
+              "/var/www/html": "${workspaceRoot}"
+          },
+      }
+```
+
+Then select the corresponding _Profiling_ profile in the Test Explorer debug drop down menu:
+
+![custom profiling profile](imgs/custom-profiling-profile.png)
+
 ## Code Coverage
 
 > Note: Available since version _1.62_.
+
 > Note: [Xdebug PHP extension](debug/index.md) needs to be properly installed
 
 Code Coverage tracks parts of the source code being actually used during tests. Run tests in "coverage" mode using the "Run Tests with Coverage" button, or a context menu.
@@ -154,9 +178,28 @@ To disable the Code Coverage view, navigate to "TESTS RESULTS" panel and click "
 
 Code Coverage works for workspaces on remote machines or docker containers.
 
-Be aware, that running code coverage creates a temporary file `.vscode/.cobertura.tmp.xml` in your workspace. Since the process may run on a remote machine or a docker container, running code coverage will check an existing launch configurations for a `pathMappings` section.
+Be noted, that running code coverage creates a temporary file `.vscode/.cobertura.tmp.xml` in your workspace. Since the process may run on a remote machine, you need to create a launch profile with `"pathMappings"` property. **Note**, this is not needed if you are connected directly to the remote machine via VSCode's _Remote Window_.
 
-In case you're running code coverage on a remote machine or a docker container, make sure you have a [debug launch configuration](debug/launch-json.md) with `"pathMappings"` so the remote path can be resolved.
+_Example `.vscode/launch.json` profile:
+
+```json
+      {
+          "name": "My Remote Debug",
+          "type": "php",
+          "request": "launch",
+          "pathMappings": {
+              "/var/www/html": "${workspaceRoot}"
+          },
+      }
+```
+
+Right click on tests, and choose "Execute Using Profile ...":
+
+![execute using profile](imgs/execute-tests-using-profile-menu.png)
+
+Then pick "Coverage (using My Remote Debug)":
+
+![execute using covergae profile](imgs/pick-test-profile-to-use.png)
 
 ## Test Results
 
