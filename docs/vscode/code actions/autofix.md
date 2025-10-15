@@ -1,4 +1,4 @@
-/*
+*/*
 Title: Enable Auto Fix
 */
 # Enable Auto-Fix
