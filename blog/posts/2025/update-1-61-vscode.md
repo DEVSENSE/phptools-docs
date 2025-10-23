@@ -17,13 +17,13 @@ categories:
 
 ## Pest Tests &amp; Data Providers
 
-September update (_1.61_) introduces support for Pest tests. This means, your tests defined using `it()` and `test()` methods are seamlessly listed in the VSCode's Test Explorer, tests can be inspected, run, debugged, or profiled. Additionally, the editor inside your test anonymous function provides full IntelliSense for `$this` variable and its members. Let's see how it works.
+September update (_1.61_) introduces support for Pest tests. This means, your tests defined using `it()` and `test()` methods are seamlessly listed in the VSCode's Testing panel, tests can be inspected, run, debugged, or profiled. Additionally, the editor inside your test anonymous function provides full IntelliSense for `$this` variable and its members. Let's see how it works.
 
 <!-- more -->
 
-**Test Explorer** &amp; **Data Providers**
+**Testing** &amp; **Data Providers**
 
-Test Explorer inspects your tests allowing you to browse them, run them, and discover data sets. Data sets can be then run separately.
+Testing panel manages your tests allowing you to browse them, run them, and discover data sets. Data sets can be then run separately.
 
 ![running pest tests](imgs/test-explorer-run-datasets.gif)
 
