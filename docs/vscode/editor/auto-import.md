@@ -24,9 +24,14 @@ To disable the auto-import feature, set the `php.format.autoimport` setting to `
 All the available options are:
 
   - **auto-import** (default): automatically imports alias when completing types/function/constants out of the namespace scope. This adds corresponding `use` stamement into the current namespace or global scope.
+  - **auto-import-grouped**: imports the alias as **auto-import**, unless there is already `use` with the same namespace. Such `use` is upgraded to a group use.
   - **fqn**: inserts fully qualified name upon completion.
   - **none**: inserts simple name as it is.
   - **hide**: does not show inaccessible symbols in code completion at all.
+
+**auto-import-grouped** setting (available in version `>=1.63`):
+
+![auto import and create use group](imgs/vsc-autoimport-group.gif)
 
 ## Import from Code Action
 
