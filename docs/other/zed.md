@@ -19,7 +19,7 @@ Add the following to your Zed _settings_ to enable PHP Tools:
 }
 ```
 
-To activate your license, add [`initialization_options`](https://zed.dev/docs/configuring-zed#lsp):
+To activate your license, either add [`initialization_options`](https://zed.dev/docs/configuring-zed#lsp):
 
 ```json
 "lsp": {
@@ -30,6 +30,10 @@ To activate your license, add [`initialization_options`](https://zed.dev/docs/co
     }
 }
 ```
+
+Or set environment variable `DEVSENSE_PHP_LS_LICENSE`.
+
+> For offline activation, and more options, please see _Activation_ section in https://www.npmjs.com/package/devsense-php-ls .
 
 ### Settings
 
