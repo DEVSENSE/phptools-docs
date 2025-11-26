@@ -7,7 +7,7 @@ PHP Tools are available for a wide range of development environments. In additio
 
 ## VS Code Compatible Editors
 
-For **Cursor**, **VSCodium**, and similar editors. (see [docs](../vscode/))
+For **Cursor**, **VSCodium**, **Google Antigravity**, and similar editors. (see [docs](../vscode/))
 
 Most forks of Visual Studio Code are compatible with the [PHP Tools for VS Code extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode).
 
