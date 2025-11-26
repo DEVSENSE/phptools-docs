@@ -16,6 +16,7 @@ The primary aim of IntelliPHP is to save developers time spent in typing code. I
 | Setting | Decription |
 | ---     | ---        |
 | `intelliphp.inlineSuggestionsEnabled` | Enable or disable inline suggestions in PHP files. |
+| `php.completion.intelliPHP.preSelect` | Enable AI code completion pre-select (marked with a star symbol). |
 
 ## Disable/Uninstall
 
@@ -52,6 +53,8 @@ You can also accept just a current word in the offered suggestion by pressing <k
 When you are using IntelliPHP with [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) you will get intelligent pre-selection of the most probable item in the completion list.
 
 ![Intelligent pre-selection in the vscode completion list](../imgs/completionlist-star.png)
+
+_Setting_: `php.completion.intelliPHP.preSelect`: `true`|`false`, `false` by default.
 
 ## Troubleshooting
 
