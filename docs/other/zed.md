@@ -35,6 +35,8 @@ Or set environment variable `DEVSENSE_PHP_LS_LICENSE`.
 
 > For offline activation, and more options, please see _Activation_ section in https://www.npmjs.com/package/devsense-php-ls .
 
+> To troubleshoot the activation, please open Zed's [_Command Palette_](https://zed.dev/docs/command-palette), and search for "language server logs". Then switch to "phptools" tab.
+
 ### Settings
 
 Add any setting into the `"initialization_options"` section. For example:
