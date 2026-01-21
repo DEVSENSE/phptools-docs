@@ -67,3 +67,8 @@ Wait a second, or re-open the workspace. It adds `wordpress` stub into your sett
 ![WordPress code completion](imgs/vsc-wp-completion.png)
 
 Unless you have opened the entire source code of WordPress in VS Code, add the "wordpress" stub. You'll have full IntelliSense for WordPress symbols, including AI code suggestions, problems analysis, and more.
+
+## See Also
+
+- [VSCode Workspace Stubs](https://docs.devsense.com/vscode/stubs-packages/)
+- [WordPress Editor Support in VSCode](https://docs.devsense.com/vscode/frameworks/wordpress/)
