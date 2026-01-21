@@ -17,7 +17,7 @@ Code actions may be disruptive or not needed. The following article describes va
 
     _Example:_
     ```json
-    "php.problems.exclude": { "**/*": ["php_remove_redundant_closing_tag"] }
+    "php.problems.exclude": { "**": ["php_remove_redundant_closing_tag"] }
     ```
 
 ### Using `.editorconfig`
@@ -32,9 +32,12 @@ php_remove_redundant_closing_tag=false
 
 ### Using Settings 
 
-- Setting `""php.problems.exclude"": { "**/*": [7103] }` disables all code hints (unless the code action is explicitly enabled using `.editorconfig` file).
+- Setting `""php.problems.exclude"": { "**": [7103] }` disables all code hints (unless the code action is explicitly enabled using `.editorconfig` file).
 - Setting `""phpTools.suppressPremiumFeatures"": true` hides all premium features including code actions and code hints.
 
 ## See Also
 
 - [Code Actions Severity](severity.md)
+- [Suppress Code Action or Diagnostic](../problems/suppressing-diagnostics.md)
+- [List of Quick Refactorings](./list.md)
+- [Apply Code Actions Automatically](./autofix.md)
