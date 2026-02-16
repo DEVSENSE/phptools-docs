@@ -5,7 +5,7 @@ date: 2025-01-19 12:18:19
 authors:
   - jakub
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Blade Language Support in VS Code (part 2)

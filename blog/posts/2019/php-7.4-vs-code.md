@@ -5,7 +5,7 @@ date: 2019-09-16 02:52:02
 authors:
   - JohnHummel
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP 7.4 Support in VS Code

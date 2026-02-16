@@ -13,7 +13,7 @@ tags:
   - php8.1
   - release
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Code, Version 1.4

@@ -18,7 +18,7 @@ tags:
   - psalm
   - generics
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP for VS Code Updates (June 2023)

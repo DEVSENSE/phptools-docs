@@ -3,7 +3,7 @@ Title: DEVSENSE is sponsoring PHP Innovation Award
 Template: blog
 Author: Miloslav Beno
 Date: 2015/06/26
-Tags: annoucement, php tools
+Tags: announcement, php tools
 */
 
 Since today we are going to sponsor **PHP Programming Innovation Award**.

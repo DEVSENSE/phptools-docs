@@ -10,7 +10,7 @@ tags:
   - visual-studio
   - visual-studio-2022
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (October 2021)

@@ -11,7 +11,7 @@ tags:
   - publish
   - debug
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (Late October 2021)

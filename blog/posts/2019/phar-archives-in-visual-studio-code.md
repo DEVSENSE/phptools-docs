@@ -5,7 +5,7 @@ date: 2019-09-11 04:04:08
 authors:
   - fernanda
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Phar archives in VS Code

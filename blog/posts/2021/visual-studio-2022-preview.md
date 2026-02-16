@@ -8,7 +8,7 @@ tags:
   - visual-studio-2022
   - 64-bit
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Visual Studio 2022 (preview)

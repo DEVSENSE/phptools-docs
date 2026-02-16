@@ -12,7 +12,7 @@ tags:
   - browser
   - intellisense
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP IntelliSense on the Web

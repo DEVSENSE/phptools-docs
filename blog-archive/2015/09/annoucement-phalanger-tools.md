@@ -1,9 +1,9 @@
 /*
-Title: Phalanger Tools Support Annoucement
+Title: Phalanger Tools Support announcement
 Template: blog
 Author: Jakub Misek
 Date: 2015/09/01
-Tags: annoucement, phalanger, phalanger tools
+Tags: announcement, phalanger, phalanger tools
 */
 
 We would like to announce changes in Phalanger Tools provided by DEVSENSE.

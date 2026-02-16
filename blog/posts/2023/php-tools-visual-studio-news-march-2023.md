@@ -12,7 +12,7 @@ tags:
   - code-actions
   - code-fixes
 categories:
-  - annoucement
+  - announcement
 ---
 
 # What's New - PHP Tools for Visual Studio (March 2023)

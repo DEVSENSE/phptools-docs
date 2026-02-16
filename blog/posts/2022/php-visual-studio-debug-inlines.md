@@ -5,7 +5,7 @@ date: 2022-05-25 09:53:59
 authors:
   - jakub
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (May 2022)

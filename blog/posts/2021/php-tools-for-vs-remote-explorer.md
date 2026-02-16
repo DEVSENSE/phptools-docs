@@ -10,7 +10,7 @@ tags:
   - remote-explorer
   - news
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (August 2021)

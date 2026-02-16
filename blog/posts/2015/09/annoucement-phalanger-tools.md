@@ -1,18 +1,18 @@
 ---
-title: Phalanger Tools Support Annoucement
+title: Phalanger Tools Support announcement
 description: PHP Tools 1.16 News
 date: 2015-09-01 00:00:00
 authors:
   - jakub
 tags:
-  - annoucement
+  - announcement
   - phalanger
   - phalanger-tools
 categories:
   - general
 ---
 
-# Phalanger Tools Support Annoucement
+# Phalanger Tools Support announcement
 
 ![Cover Image](imgs/phalanger.png)
 

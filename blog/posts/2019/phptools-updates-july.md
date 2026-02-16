@@ -5,7 +5,7 @@ date: 2019-07-18 06:47:43
 authors:
   - admin
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools Updates (July 2019)

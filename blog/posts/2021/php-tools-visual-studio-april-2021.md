@@ -11,7 +11,7 @@ tags:
   - x64
   - debug
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (April 2021)

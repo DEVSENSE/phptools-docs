@@ -17,7 +17,7 @@ tags:
   - commands
   - quick-actions
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Introducing Composer for VS Code

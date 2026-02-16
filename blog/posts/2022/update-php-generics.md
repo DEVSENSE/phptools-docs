@@ -12,7 +12,7 @@ tags:
   - vs-code
   - visual-studio
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Update: Support for Generics

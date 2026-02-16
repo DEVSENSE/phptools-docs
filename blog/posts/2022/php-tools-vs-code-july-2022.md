@@ -12,7 +12,7 @@ tags:
   - phpunit
   - newsletter
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio Code News (July 2022)

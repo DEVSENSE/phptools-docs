@@ -7,10 +7,10 @@ authors:
 tags:
   - php
   - update
-  - annoucement
+  - announcement
   - visual-studio
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools Updates (September 2020)

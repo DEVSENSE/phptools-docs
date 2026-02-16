@@ -11,7 +11,7 @@ tags:
   - phpstorm
   - refactoring
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools in VS Code (March 2021)

@@ -12,7 +12,7 @@ tags:
   - ai
   - ml
 categories:
-  - annoucement
+  - announcement
 ---
 
 # IntelliPHP for IntelliJ - EAP

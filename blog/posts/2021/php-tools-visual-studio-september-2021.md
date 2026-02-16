@@ -11,7 +11,7 @@ tags:
   - php
   - php-8.1
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (September 2021)

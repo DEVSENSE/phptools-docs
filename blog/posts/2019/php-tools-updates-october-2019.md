@@ -5,7 +5,7 @@ date: 2019-10-08 08:41:35
 authors:
   - fernanda
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools Updates (October 2019)

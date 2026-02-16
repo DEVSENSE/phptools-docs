@@ -5,7 +5,7 @@ date: 2022-09-06 06:59:39
 authors:
   - miloslav
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Bracket pair colorization for PHP in Visual Studio

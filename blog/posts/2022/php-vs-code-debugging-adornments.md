@@ -13,7 +13,7 @@ tags:
   - vs-code
   - code
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP for VS Code with Debugging Adornments

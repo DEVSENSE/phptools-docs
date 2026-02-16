@@ -12,7 +12,7 @@ tags:
   - regex
   - pcre
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (May 2021)

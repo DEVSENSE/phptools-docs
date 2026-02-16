@@ -5,7 +5,7 @@ date: 2022-03-10 10:30:30
 authors:
   - jakub
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP for VS Code (March 2022)

@@ -12,7 +12,7 @@ tags:
   - visual-studio
   - intellisense
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP for Visual Studio, AI, IntelliSense - July 2023

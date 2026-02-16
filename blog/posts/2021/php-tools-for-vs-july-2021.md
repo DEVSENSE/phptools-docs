@@ -12,7 +12,7 @@ tags:
   - php-8.1
   - visual-studio-2019
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (July 2021)

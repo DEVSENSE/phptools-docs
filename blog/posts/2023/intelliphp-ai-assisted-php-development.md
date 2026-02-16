@@ -16,7 +16,7 @@ tags:
   - boost-productivity
   - intelligent-code-completions
 categories:
-  - annoucement
+  - announcement
 ---
 
 # IntelliPHP - AI-Assisted PHP Development

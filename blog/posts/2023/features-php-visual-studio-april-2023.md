@@ -13,7 +13,7 @@ tags:
   - formatting
   - formatter
 categories:
-  - annoucement
+  - announcement
 ---
 
 # New Features in Visual Studio (April 2023)

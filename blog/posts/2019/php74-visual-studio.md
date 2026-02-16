@@ -5,7 +5,7 @@ date: 2019-09-12 04:37:47
 authors:
   - JohnHummel
 categories:
-  - annoucement
+  - announcement
 ---
 
 #  PHP 7.4 Support for Visual Studio

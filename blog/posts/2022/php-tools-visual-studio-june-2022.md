@@ -14,7 +14,7 @@ tags:
   - facades
   - laravel
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools, Visual Studio (June 2022)

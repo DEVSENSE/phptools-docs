@@ -5,7 +5,7 @@ date: 2022-03-17 06:19:43
 authors:
   - jakub
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP in VS Code - Pre-Release Extension

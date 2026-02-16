@@ -9,7 +9,7 @@ tags:
   - language server
   - performance
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Update 1.58 – Major Improvements, New Features, and a Fresh Foundation

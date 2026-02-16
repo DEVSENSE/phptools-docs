@@ -5,7 +5,7 @@ date: 2015-06-26 00:00:00
 authors:
   - miloslav
 tags:
-  - annoucement
+  - announcement
   - php-tools
 categories:
   - general

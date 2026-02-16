@@ -12,7 +12,7 @@ tags:
   - composer
   - xdebug
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (March 2021)

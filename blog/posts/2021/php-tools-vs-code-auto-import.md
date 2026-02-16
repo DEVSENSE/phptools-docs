@@ -11,7 +11,7 @@ tags:
   - visual-studio
   - auto-import
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for VS Code (July 2021)

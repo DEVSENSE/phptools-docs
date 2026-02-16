@@ -11,7 +11,7 @@ tags:
   - code
   - code-lens
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP for VS Code (January 2022)

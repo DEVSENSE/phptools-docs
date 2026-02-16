@@ -9,7 +9,7 @@ tags:
   - announcement
   - visual-studio
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Updates for Visual Studio (November 2020)

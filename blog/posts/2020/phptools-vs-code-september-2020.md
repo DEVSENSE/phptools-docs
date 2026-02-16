@@ -9,7 +9,7 @@ tags:
   - php
   - updates
 categories:
-  - annoucement
+  - announcement
 ---
 
 # Updates for VS Code (September 2020)

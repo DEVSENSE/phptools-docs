@@ -11,7 +11,7 @@ tags:
   - vscode
   - code
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for VS Code (November 2020)

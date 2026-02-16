@@ -13,7 +13,7 @@ tags:
   - scalar-objects
   - completion
 categories:
-  - annoucement
+  - announcement
 ---
 
 # PHP Tools for Visual Studio (September 2023)
