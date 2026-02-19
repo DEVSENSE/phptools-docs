@@ -111,7 +111,7 @@ Laravel is heavily based on service containers and dependency injection. Registe
 The editor traverses through Laravel Facades, their accessor service, and recognizes completion methods. In case the facade accessor service can't be recognized using static code analysis, annotate the Facace class with `@mixin` PHPDoc keyword, for example:
 
 ```php
-/ ** @mixin \Illuminate\Cache\Repository * /
+/** @mixin \Illuminate\Cache\Repository */
 class Cache extends Facade { ... }
 ```
 

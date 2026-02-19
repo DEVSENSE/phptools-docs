@@ -81,9 +81,9 @@ Problems can be suppressed for a specified function or a class only. Following P
 ```php
 <?php
 
-/ **
+/**
  * @suppress PHP6401
- * /
+ */
 function foo() {
     // something with error 6401, won't be reported
 }

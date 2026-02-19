@@ -185,7 +185,7 @@ class ExampleTest extends TestCase {
         return [[1], [0], [-1]];
     }
 
-    / * * @dataProvider my_provider * /
+    /** @dataProvider my_provider */
     public function test_that_it_is_greater_than_0($n): void {
         $this->assertTrue($n > 0);
     }
