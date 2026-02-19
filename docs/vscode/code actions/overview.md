@@ -16,20 +16,9 @@ Certain code problems have also `Quick Fix` available. This provides code action
 
 For more details about editor actions, please see [Visual Studio Code Documentation](https://code.visualstudio.com/docs/editor/refactoring).
 
-## Code Actions Kinds
-
-There are several kinds of actions:
-
-- **Problem Fix**: a code problem can have associated quick fix.
-- **Code Action**: a quick refactoring for the code, not fixing any issue, just makes the code simpler. Can be configured to be marked as problem as well, or to be applied automatically on file save. 
-- **Generate PHPDoc comment**: creates a documentary comment`/** ... */` above declaration. Also generated when typing `/**` above declaration.
-- **Generate Getter/Setter**: creates `__get` or `__set` or both stubs. Applies to class non-public properties.
-- **Implement Methods Override**
-- **[Extract](extract.md) Function** or **Constant**
-
 ## Sample Code Actions
 
-### Import Name
+### Namespace Import
 
 Error `PHP0413` indicates that the type does not exist in the current namespace context. If possible, a code action with all available fixes is provided.
 
@@ -49,6 +38,17 @@ If applicable, a code action suggesting to add `$this->` is provided. This fixes
 
 ![Fix missing $this->](../imgs/missing-this-fix.gif)
 
+### Others
+
+- **Problem Fix**: a code problem can have a quick fix.
+- [**Code Action**](./list.md): a quick refactoring for the code, not fixing any issue, just makes the code simpler. Can be configured to be marked as problem as well, or to be applied automatically on file save. 
+- **Generate PHPDoc comment**: creates a documentary comment`/** ... */` above declaration. Also generated when typing `/**` above declaration.
+- **Generate Getter/Setter**: creates `__get` or `__set` or both stubs. Applies to class non-public properties.
+- **Implement Methods Override**
+- **[Extract](extract.md) Function** or **Constant**
+
 ## See Also
 
 - [Visual Studio Code Documentation - Refactoring](https://code.visualstudio.com/docs/editor/refactoring)
+- [List of Code Actions](./list.md)
+- [List of Diagnostics](../problems/)

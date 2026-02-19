@@ -13,10 +13,10 @@ Code completion is context-aware, scope-aware, type-aware, with the respect to c
 
 ## Supported Notations
 
-The majority of the following notations are supported:
+The following notations are supported:
 
 - PHPDoc type annotations.
-- PHPDoc generic type annotations.
+- PHPDoc generic type annotations, including nested and conditional declarations.
 - Majority of PhpStan annotations in PHPDoc, templates, type aliases, generics, conditional return, type substitutions, and more.
 - `phpstan.neon`, `phpstan.neon.dist`, `phpstan.dist.neon` files with `typeAliases` section.
 - Majority of Psalm type annotations in PHPDoc.
@@ -28,6 +28,8 @@ The majority of the following notations are supported:
     - deducing defined class aliases
     - deducing provided services and facades
     - Eloquent local scopes and extension methods
+    - See [Laravel Framework](../frameworks/laravel.md) for more.
+- [CodeIgniter3](../frameworks/codeigniter3.md) and other frameworks.
 
 ## Completing Parentheses
 
@@ -97,11 +99,3 @@ class SomeClass
     }
 }
 ```
-
-## Limitations
-
-The code editor may not resolve `class_alias()` without constant expressions; therefore some aliased class names may not be included in the code completion.
-
-The code editor won't recognize files containing a syntax error.
-
-The code editor may not provide precise completions after `eval()` expression or after classes being instantiated indirectly (using an expression `new $classname` instead of a constant qualified name).
