@@ -23,8 +23,9 @@ Developing WordPress plugins shouldn't mean cluttering your OS with PHP installa
 
 ## Step 1: Create Your Workspace
 Instead of opening the entire WordPress directory, we focus only on our code.
-1. Create a new folder for your plugin (e.g., `my-plugin`).
-2. Open this folder in **VS Code**.
+
+- Create a new folder for your plugin (e.g., `my-plugin`).
+- Open this folder in **VS Code**.
 
 ## Step 2: Define Infrastructure with Docker
 We use Docker to keep our environment isolated and portable. Create a `docker-compose.yml` file in your root:
