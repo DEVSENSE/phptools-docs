@@ -19,6 +19,8 @@ categories:
 
 Developing WordPress plugins shouldn't mean cluttering your OS with PHP installations or getting lost in the `wp-admin` core folders. In this tutorial, we will build a professional, containerized environment using **Docker** and **PHP Tools for VS Code** from DEVSENSE.
 
+<!-- more -->
+
 ## Step 1: Create Your Workspace
 Instead of opening the entire WordPress directory, we focus only on our code.
 1. Create a new folder for your plugin (e.g., `my-plugin`).
