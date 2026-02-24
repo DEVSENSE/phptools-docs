@@ -72,7 +72,7 @@ FROM wordpress:latest
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 ```
 
-Right Click in the VS Code Explorer on `docker-compose.yml` and click `Compose up` (or if you prefer console, run `docker compose up -d`)
+Right-click `docker-compose.yml` in the VS Code Explorer and click `Compose up` (or, if you prefer the console, run `docker compose up -d`).
 
 ![Docker compose up](imgs/modern-wordpress-plugin-development-guide/compose.png)
 
@@ -80,7 +80,7 @@ Right Click in the VS Code Explorer on `docker-compose.yml` and click `Compose u
 
 Navigate to `http://localhost:8080` in your browser.
 
-Follow the WordPress setup wizard. You will not need to enter database details only admin credentials.
+Follow the WordPress setup wizard. You will not need to enter database details, only admin credentials.
 
 ![Wordpress Installation](imgs/modern-wordpress-plugin-development-guide/wp-install.png)
 
@@ -102,7 +102,7 @@ Create your main plugin file (e.g., `my-plugin.php`):
 <?php
 /**
  * Plugin Name: My Plugin
- * Description: Developing plugin in VSCode with Docker and DEVSENSE
+ * Description: Developing plugins in VS Code with Docker and DEVSENSE
  * Version: 1.0
  * Author: Milko
  */
@@ -132,27 +132,27 @@ Once you've added the file, go to **WordPress Admin -> Plugins**. Because of our
 
 ![Activating the plugin](imgs/modern-wordpress-plugin-development-guide/activate-plugin.png)
 
-Verify if the plugin is working by opening `http://localhost:8080`
+Verify that the plugin is working by opening `http://localhost:8080`.
 
 ![WordPress Home Page with plugin activated](imgs/modern-wordpress-plugin-development-guide/wp-screen.png)
 
 ## Step 6: Leveraging IDE Intelligence
 
 ### Enable WordPress Stubs
-You don't need the WP core files locally. Just activate Wordpress stubs:
+You don't need the WP core files locally. Just activate WordPress stubs:
 
 - Open VS Code Settings <kbd>Ctrl + ,</kbd>
 - Search for `PHP: Workspace Stubs` and set it to `WordPress`.
 
 ![WordPress Stubs](imgs/modern-wordpress-plugin-development-guide/stubs.png)
 
-This provides full IntelliSense and documentation for Wordpress functions without the file system bloat.
+This provides full IntelliSense and documentation for WordPress functions without the file system bloat.
 
-e.g. you can go to the Plugin file and hover over `add_filter` and you will see all the parameters.
+For example, go to the plugin file and hover over `add_filter`, and you will see all the parameters.
 
 ![Tooltips](imgs/modern-wordpress-plugin-development-guide/tooltip.png)
 
-### Enforce Wordpress Code style
+### Enforce WordPress Code Style
 
 WordPress has specific formatting rules, such as Yoda conditions and specific spacing.
 
@@ -163,7 +163,7 @@ This utilizes the DEVSENSE formatter to instantly "comb" your code into complian
 
 ![codestyle.png](imgs/modern-wordpress-plugin-development-guide/codestyle.png)
 
-Both stubs and codestyle can be configured by adding these two options into your `.vscode/settings.json` file:
+Both stubs and code style can be configured by adding these two options to your `.vscode/settings.json` file:
 ```json
 {
     "php.stubs": [
@@ -179,7 +179,7 @@ Both stubs and codestyle can be configured by adding these two options into your
 Forget browser extensions or manual session cookies.
 
 - In VS Code, go to the **Run and Debug** tab and create a `launch.json`.
-- Set the port to `9003` and ensure pathMappings points your local folder to `/var/www/html/wp-content/plugins/my-plugin`.
+- Set the port to `9003` and ensure `pathMappings` points your local folder to `/var/www/html/wp-content/plugins/my-plugin`.
 
 ```json
 {
@@ -193,7 +193,7 @@ Forget browser extensions or manual session cookies.
             "pathMappings": {
                 "/var/www/html/wp-content/plugins/my-plugin": "${workspaceFolder}"
             }
-        },
+          }
     ]
 }
 ```
@@ -201,9 +201,9 @@ Forget browser extensions or manual session cookies.
 - Press <kbd>F5</kbd> to start listening.
 - Refresh your browser on `http://localhost:8080`.
 - VS Code will pause execution where you need it.
-
   ![Breakpoint Hit](imgs/modern-wordpress-plugin-development-guide/breakpoint-hit.png)
-- You can step the execution, explore the variables etc.
+
+- You can step through execution and explore variables, etc.
 
 ## Bonus: Local AI with IntelliPHP
 PHP Tools comes with a small, local model trained specifically on PHP code. Think of it as **PHP Snippets on steroids** rather than a full-blown Copilot replacement for generating massive blocks of code.
