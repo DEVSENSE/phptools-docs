@@ -176,15 +176,28 @@ Both stubs and code style can be configured by adding these two options to your 
 
 ### WordPress Hook Completion
 
-> **Note:** Make sure you have at least version `1.67.18560` of the PHP Tools extension to use this feature.
+> **Note:** Make sure you have at least version `1.68` of the PHP Tools extension to use this feature.
 
-One of the most powerful features is the **native support for WordPress hooks**. When you start typing `add_filter(` or `add_action(`, the IDE provides a list of all available hooks (like `the_content`, `init`, or `wp_head`).
+One of the most powerful features is the **native support for WordPress hooks**. When you start typing `add_filter(` or `add_action(`, the IDE provides a list of all available hooks (like `the_content`, `init`, or `wp_head`). It even handles dynamic hooks with placeholders, inserting them as editable snippets.
 
 ![WordPress hook completions](imgs/modern-wordpress-plugin-development-guide/wp_hook_completion.png)
 
 Even better—when you select a hook, you see a **complete tooltip with documentation**, explaining when the hook is fired and what parameters it passes to your callback. No more constant switching to the WordPress Codex!
 
 ![WordPress hook tooltip](imgs/modern-wordpress-plugin-development-guide/wp_hook_tooltip.png)
+
+### Smart Callbacks & Inlay Hints
+To speed up your workflow even further, you can use:
+
+ - **Callback Completion:** When adding a filter or action, the editor suggests an anonymous function snippet with the correct number of parameters automatically.
+
+ ![WordPress hook callback completion](https://docs.devsense.com/vscode/frameworks/img/wp-hook-callback-completion.png)
+
+ - **Inlay Hints:** By enabling Inlay Hints (`editor.inlayHints.enabled`: `on`), the editor displays parameter type information directly in your callbacks based on the corresponding hook signature. It’s like having live documentation bridge right inside your code.
+
+ ![WordPress Inlay Hints](https://docs.devsense.com/vscode/frameworks/img/wp-hook-inlays.png)
+
+For more details on how to customize these features, check out the official [WordPress integration documentation](https://docs.devsense.com/vscode/frameworks/wordpress/). 
 
 ## Step 7: Debugging
 
