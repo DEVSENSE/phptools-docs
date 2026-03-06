@@ -174,6 +174,18 @@ Both stubs and code style can be configured by adding these two options to your 
 }
 ```
 
+### WordPress Hook Completion
+
+> **Note:** Make sure you have at least version `1.67.18560` of the PHP Tools extension to use this feature.
+
+One of the most powerful features is the **native support for WordPress hooks**. When you start typing `add_filter(` or `add_action(`, the IDE provides a list of all available hooks (like `the_content`, `init`, or `wp_head`).
+
+![WordPress hook completions](imgs/modern-wordpress-plugin-development-guide/wp_hook_completion.png)
+
+Even better—when you select a hook, you see a **complete tooltip with documentation**, explaining when the hook is fired and what parameters it passes to your callback. No more constant switching to the WordPress Codex!
+
+![WordPress hook tooltip](imgs/modern-wordpress-plugin-development-guide/wp_hook_tooltip.png)
+
 ## Step 7: Debugging
 
 Forget browser extensions or manual session cookies.
