@@ -59,7 +59,9 @@ This capability is particularly valuable when navigating large frameworks or leg
 
 ### Symbol Resolution Inside Strings
 
-![resolve symbols](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/refs/heads/master/docs/vscode/editor/imgs/resolve-string-symbols.png)
+![laravel reference1](imgs/vscode-updates-2026-03/resolve-string-symbols-1.png)
+
+![laravel reference2](imgs/vscode-updates-2026-03/resolve-string-symbols-2.png)
 
 Navigation and reference resolution have been enhanced to recognize symbols embedded within string arguments used in specific patterns. For example, constructs such as:
 
@@ -71,7 +73,7 @@ can now be resolved directly by the editor. Developers can navigate to the refer
 
 ### Richer Hover and Navigation Results
 
-![hover all methods](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/refs/heads/master/docs/vscode/editor/imgs/hover-all-method-stubs.png)
+![hover](imgs/vscode-updates-2026-03/rich-hover.png)
 
 Mouse hover and navigation features have been enhanced to present a clearer view of all methods visible to the editor, including generated stubs, helpers, and overloaded implementations.
 
