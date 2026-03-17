@@ -14,7 +14,7 @@ categories:
   - newsletter
 ---
 
-# Newsletter: March 2026 Update
+# Newsletter: PHP Tools for VS Code - March 2026
 
 The latest updates to **PHP Tools for Visual Studio Code** introduce a broad set of improvements focused on developer productivity, language support, and deeper code intelligence. Across the past development cycle, the extension has gained new language features aligned with the latest PHP releases, expanded framework awareness, improved navigation and debugging workflows, and numerous refinements to code analysis.
 
