@@ -18,6 +18,8 @@ categories:
 
 The latest updates to **PHP Tools for Visual Studio Code** introduce a broad set of improvements focused on developer productivity, language support, and deeper code intelligence. Across the past development cycle, the extension has gained new language features aligned with the latest PHP releases, expanded framework awareness, improved navigation and debugging workflows, and numerous refinements to code analysis.
 
+<!-- more -->
+
 Together, these enhancements strengthen the extension’s role as a powerful development environment for modern PHP projects. From advanced code navigation and debugging capabilities to improved framework integration and smarter IntelliSense, the editor now understands PHP codebases with even greater depth and precision.
 
 Below is an overview of the most significant additions.
