@@ -43,18 +43,26 @@ _Default value:_ `"\"${php}\" ${phpargs} \"${phpunit}\" ${phpunitargs}"`
 
 The string command can have the following variables:
 
-`${phpunit}` - will be replaced with phpunit binary path.
-`${phpunitxml}` - will be path to corresponding `phpunit.xml`.
-`${phpunitargs}` - the arguments we provide, including generated filters for executing specific tests or groups.
-`${php}` - resolved path to php executable.
-`${phpargs}` - the default arguments for php we provide.
-`${cwd}` - current working directory.
+- `${phpunit}` - will be replaced with phpunit binary path.
+- `${phpunitxml}` - will be path to corresponding `phpunit.xml`.
+- `${phpunitargs}` - the arguments we provide, including generated filters for executing specific tests or groups.
+- `${php}` - resolved path to php executable.
+- `${phpargs}` - the default arguments for php we provide.
+- `${cwd}` - current working directory.
 
 See the VSCode's `Output` > `PHP (PHPUnit)` tab for details.
 
 ### Configuration File
 
 The tests rely on the `phpunit.xml` or `phpunit.xml.dist` configuration files ([PHPUnit configuration](https://phpunit.de/manual/6.5/en/appendixes.configuration.html)), which should be placed in the root of the workspace.
+
+The auto-detected configuration file can be overriden with the setting `"phpunit.config"`:
+
+#### Setting `"phpunit.config"`
+
+> Supported in _1.69+_
+
+Path or glob pattern to the `phpunit.xml` configuration file(s). It can be either full path, path relative to the workspace root, or a glob pattern. All matching configuration files will be processed and tests will be grouped by the configuration file they belong to. If not set, extension will look for `phpunit.xml` or `phpunit.xml.dist` automatically, excluding `vendor` folder.
 
 ### Tests
 
