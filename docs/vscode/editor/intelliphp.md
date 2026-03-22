@@ -15,8 +15,8 @@ The primary aim of IntelliPHP is to save developers time spent in typing code. I
 
 | Setting | Decription |
 | ---     | ---        |
-| `intelliphp.inlineSuggestionsEnabled` | Enable or disable inline suggestions in PHP files. |
-| `php.completion.intelliPHP.preSelect` | Enable AI code completion pre-select (marked with a star symbol). |
+| `intelliphp.inlineSuggestionsEnabled` | Enables or disables inline suggestions in PHP files. |
+| `php.completion.starredSuggestions` | Enables or disables starred pre-select. |
 
 ## Disable/Uninstall
 
@@ -33,6 +33,7 @@ IntelliPHP is designed to save you time and boost your productivity. Here are so
 - **Framework Support:** Whether you're using Laravel, Drupal, WordPress, or any other PHP frameworks, IntelliPHP has you covered.
 - **Local:** IntelliPHP operates locally, no code leaves your machine EVER.
 - **Speed:** IntelliPHP was designed to run efficiently on CPU, no GPU is required! The suggestions are returned without any latency penalty caused by the network.
+- **Starred Pre-Select:** Most probable member completions are marked with a star ★ and shown at the top of the list.
 
 ## Accepting suggestions
 
@@ -48,13 +49,13 @@ You can also accept just a current word in the offered suggestion by pressing <k
 
 ![IntelliPHP helping with Laravel snippet](../imgs/intelliphp-vscode.gif)
 
-## Pre-selecting the item in the completion list
+## Pre-Selecting the item in the completion list
 
 When you are using IntelliPHP with [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) you will get intelligent pre-selection of the most probable item in the completion list.
 
-![Intelligent pre-selection in the vscode completion list](../imgs/completionlist-star.png)
+![Starred Pre-Select](imgs/starred-completion.png)
 
-_Setting_: `php.completion.intelliPHP.preSelect`: `true`|`false`, `false` by default.
+_Setting_: `php.completion.starredSuggestions`: `true`,`false`, `true` by default.
 
 ## Troubleshooting
 
