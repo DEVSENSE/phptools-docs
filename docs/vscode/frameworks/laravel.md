@@ -1,4 +1,4 @@
-/*
+/*jtcombs
 Title: Laravel
 Description: Using Laravel in PHP extension for Visual Studio Code
 */
