@@ -1,4 +1,4 @@
 nav:
-    - Visual Studio: vs
     - Visual Studio Code: vscode
-    - Other IDEs: other
+    - Visual Studio: vs
+    - Others & LSP: other

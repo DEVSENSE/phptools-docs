@@ -51,4 +51,4 @@ If applicable, a code action suggesting to add `$this->` is provided. This fixes
 
 - [Visual Studio Code Documentation - Refactoring](https://code.visualstudio.com/docs/editor/refactoring)
 - [List of Code Actions](./list.md)
-- [List of Diagnostics](../problems/)
+- [List of Diagnostics](../../vs/code%20validation/diagnostics.md)

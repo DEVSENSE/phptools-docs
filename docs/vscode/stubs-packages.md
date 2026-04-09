@@ -29,7 +29,7 @@ The setting `"php.stubs"` is equaivalent to the `Workspace Stubs` command.
 
 Whenever there is a function from a stub, which is not included yet, you can use a quick code action to include the corresponding _stub_.
 
-![include stub from code action](img/vsc-add-stub-action.png)
+![include stub from code action](imgs/vsc-add-stub-action.png)
 
 ### Composer.Json' `ext-`
 
