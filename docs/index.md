@@ -3,40 +3,72 @@ Title: PHP Tools for Visual Studio & Visual Studio Code - Documentation
 Description: Explore comprehensive PHP Tools documentation for Visual Studio, Visual Studio Code, and other IDEs. Get started with setup guides, features, troubleshooting, and best practices for seamless PHP development.
 */
 
-# Welcome to PHP Tools Documentation
+# PHP Tools Documentation
 
-Explore the documentation tailored to your preferred IDE:
+<style>
+	.product-nav {
+		margin-top: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		align-items: flex-start;
+	}
 
-<div style="display: flex; gap: 20px; margin-top: 20px; flex-wrap: wrap; justify-content: center;">
+	.product-nav-row {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		padding: 0.5rem;
+		text-decoration: none;
+		color: inherit;
+		border-radius: 0.5rem;
+	}
 
-<div style="text-align: center; flex: 1; min-width: 200px;">
-    <a href="vs/" style="text-decoration: none;">
-        <img src="vs/imgs/vs_icon_2022.svg" alt="Visual Studio" style="width: 150px; height: auto;">
-        <br>
-        <button style="margin-top: 10px; padding: 10px 20px; font-size: 16px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            PHP Tools for Visual Studio
-        </button>
-    </a>
+	.product-nav-row:hover {
+		background: rgba(127, 127, 127, 0.1);
+	}
+
+	.product-nav-icon {
+		width: 64px;
+		height: 64px;
+		object-fit: contain;
+		flex: 0 0 64px;
+	}
+
+	.product-nav-icon-placeholder {
+		width: 64px;
+		height: 64px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px dashed currentColor;
+		border-radius: 0.5rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		opacity: 0.8;
+		flex: 0 0 64px;
+	}
+
+	.product-nav-title {
+		font-size: 1.15rem;
+		line-height: 1.25;
+	}
+</style>
+
+<div class="product-nav">
+	<a class="product-nav-row" href="/vscode/">
+		<img class="product-nav-icon" src="/vscode/imgs/vsc_icon.svg" alt="Visual Studio Code icon" />
+		<span class="product-nav-title">PHP Tools for Visual Studio Code</span>
+	</a>
+
+	<a class="product-nav-row" href="/vs/">
+		<img class="product-nav-icon" src="/vs/imgs/vs_icon_2022.svg" alt="Visual Studio icon" />
+		<span class="product-nav-title">PHP Tools for Microsoft Visual Studio</span>
+	</a>
+
+	<a class="product-nav-row" href="/other/">
+		<span class="product-nav-icon-placeholder" aria-hidden="true">LSP</span>
+		<span class="product-nav-title">Others &amp; Language Server Protocol</span>
+	</a>
 </div>
 
-<div style="text-align: center; flex: 1; min-width: 200px;">
-    <a href="vscode/" style="text-decoration: none;">
-        <img src="vscode/imgs/vsc_icon.svg" alt="Visual Studio Code" style="width: 150px; height: auto;">
-        <br>
-        <button style="margin-top: 10px; padding: 10px 20px; font-size: 16px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            PHP Tools for Visual Studio Code
-        </button>
-    </a>
-</div>
-
-<div style="text-align: center; flex: 1; min-width: 200px;">
-    <a href="other/" style="text-decoration: none;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="150" height="150" fill="currentColor"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288 64C323.3 64 352 85.5 352 112C352 122.4 347.6 132 340 139.9C333.4 146.8 328 155.2 328 164.8C328 179.8 340.2 192 355.2 192L400 192C426.5 192 448 213.5 448 240L448 284.8C448 299.8 460.2 312 475.2 312C484.7 312 493.2 306.6 500.1 300C508 292.5 517.6 288 528 288C554.5 288 576 316.7 576 352C576 387.3 554.5 416 528 416C517.6 416 507.9 411.6 500.1 404C493.2 397.4 484.8 392 475.2 392C460.2 392 448 404.2 448 419.2L448 528C448 554.5 426.5 576 400 576L343.2 576C330.4 576 320 565.6 320 552.8C320 543.6 325.8 535.5 333.2 530C344.8 521.3 352 509.3 352 496C352 469.5 323.3 448 288 448C252.7 448 224 469.5 224 496C224 509.3 231.2 521.3 242.8 530C250.2 535.5 256 543.5 256 552.8C256 565.6 245.6 576 232.8 576L112 576C85.5 576 64 554.5 64 528L64 407.2C64 394.4 74.4 384 87.2 384C96.4 384 104.5 389.8 110 397.2C118.7 408.8 130.7 416 144 416C170.5 416 192 387.3 192 352C192 316.7 170.5 288 144 288C130.7 288 118.7 295.2 110 306.8C104.5 314.2 96.5 320 87.2 320C74.4 320 64 309.6 64 296.8L64 240C64 213.5 85.5 192 112 192L220.8 192C235.8 192 248 179.8 248 164.8C248 155.3 242.6 146.8 236 139.9C228.5 132 224 122.4 224 112C224 85.5 252.7 64 288 64z"/></svg>
-        <br>
-        <button style="margin-top: 10px; padding: 10px 20px; font-size: 16px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            Other IDEs (LSP)
-        </button>
-    </a>
-</div>
-
-</div>
