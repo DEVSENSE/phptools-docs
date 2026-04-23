@@ -71,6 +71,10 @@ Built-in PHP symbols have rich documentation, translated into several major lang
 
 By default, the language is set to the VSCode's UI language.
 
+_Example of a Spanish IntelliSense:_
+
+![spanish tooltip information](imgs/manual-language-spanish-example.png)
+
 ## Additional Information
 
 The editor provides an option to show additional information about the symbol in the code completion list. The information contains the symbol's description as it is written in the corresponding PHPDoc or PHP manual. Additional information may include:
