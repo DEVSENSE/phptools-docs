@@ -63,6 +63,14 @@ The completion can be triggered manually (`Ctrl+Space` by default) or automatica
 - a letter or `Ctrl+Space` after `use` keyword.
 - `/**` above a declaration completes a PHPDoc comment block. See [PHPDoc Generator](phpdoc.md) for more details.
 
+## IntelliSense Language
+
+Built-in PHP symbols have rich documentation, translated into several major languages. Use the setting `"phpTools.language"`, or command from command palette `PHP Manual Language` to configure the language:
+
+![php manual language options](imgs/manual-language-options.png)
+
+By default, the language is set to the VSCode's UI language.
+
 ## Additional Information
 
 The editor provides an option to show additional information about the symbol in the code completion list. The information contains the symbol's description as it is written in the corresponding PHPDoc or PHP manual. Additional information may include:
