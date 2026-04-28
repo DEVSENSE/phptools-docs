@@ -18,13 +18,13 @@ categories:
 
 Setting up PHP manually on Windows may sound intimidating at first, especially when there are many ready-made bundles and installers available. Those solutions can certainly be convenient, but they often hide important details about how PHP actually works.
 
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/woiWsx0De2I" title="Manual PHP installation with debugging support in VSCode on Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-</center>
-
 In this guide, we will go through a clean manual installation of PHP on Windows, configure debugging support with Xdebug, and connect everything to Visual Studio Code using **PHP Tools for Visual Studio Code**.
 
 <!-- more -->
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/woiWsx0De2I" title="Manual PHP installation with debugging support in VSCode on Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+</center>
 
 The advantage of this approach is reliability and understanding. Once completed, you will know exactly how your PHP environment is configured, how debugging works, and how the individual pieces communicate together.
 
