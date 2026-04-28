@@ -73,3 +73,4 @@ Zend Engine v4.1.0, Copyright (c) Zend Technologies
 
 - [Debug Overview](index.md)
 - [Launch Configurations](launch-json.md)
+- [Manual PHP &amp; Debug Installation](https://blog.devsense.com/2026/installing-php-debug-windows-vscode/) - Installing PHP with Debugging support on Windows from scretch.
