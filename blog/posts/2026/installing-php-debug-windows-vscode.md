@@ -56,7 +56,7 @@ Because the PHP package is compiled with the Visual Studio 2022, Windows also ne
 
 Most people are not sure whether they already have it installed, so the easiest approach is simply searching for `vc redist 140 x64` and installing it.
 
-Navigate to the Microsoft's download page (https://www.microsoft.com/en-us/download/details.aspx?id=48145) and download and install the official Microsoft Visual C++ Redistributable package. This runtime is required for PHP to start correctly, and you can safely install it even if you already have it.
+Navigate to the Microsoft's download page - [Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=48145) - and download and install the official Microsoft Visual C++ Redistributable package. This runtime is required for PHP to start correctly, and you can safely install it even if you already have it.
 
 ---
 
@@ -261,7 +261,7 @@ To start debugging you have two options:
 
 Depending on your project type, there are multiple launch profiles available. For advanced scenarios, refer to the official documentation.
 
-Please see https://docs.devsense.com/vscode/debug/launch-json/ for launch profiles where you can customize how to run and debug your project, or do the performance profiling.
+Please see [launch.json](https://docs.devsense.com/vscode/debug/launch-json/) for launch profiles where you can customize how to run and debug your project, or do the performance profiling.
 
 ---
 
