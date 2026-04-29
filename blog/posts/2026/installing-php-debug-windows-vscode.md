@@ -288,13 +288,3 @@ Instead of relying on `echo` or `var_dump`, you gain a fully interactive debuggi
 You now have a complete PHP development setup on Windows with debugging support configured manually from scratch.
 
 This setup is ideal for local development because it gives you full visibility and control over your PHP environment while avoiding hidden configuration performed by third-party bundles.
-
-You also now understand the role of:
-
-* PHP itself
-* `php.ini`
-* extensions
-* Xdebug
-* and the IDE integration provided by PHP Tools
-
-In the next guide, we’ll continue building on this foundation and explore how to use Composer directly inside Visual Studio Code to manage dependencies and streamline your PHP workflow even further.
