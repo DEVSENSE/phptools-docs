@@ -27,6 +27,12 @@ In case of the PHP language, the VS Code for the Web is perfect for quick edits 
 
 ---
 
+## Notice - Discontinued
+
+As of May 2026, support for the web extension has been discontinued. If you still need it, please contact us. We offer an updated version of the extension as a premium service ([personal or commercial license](https://www.devsense.com/en/purchase)).
+
+**Original Blog Post Below:**
+
 **PHP Tools for Visual Studio Code** is now available on the **VS Code for the Web**. All the editor features can be used in this browser-based development environment. 
 
 ## Installation
