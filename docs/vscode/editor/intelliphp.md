@@ -11,12 +11,14 @@ IntelliPHP is an advanced AI-assisted development tool specifically tailored for
 
 The primary aim of IntelliPHP is to save developers time spent in typing code. It's designed to offer suggestions ranging from short and highly likely suggestions up to whole lines of code. The model has been trained in-house on vast repositories of PHP code, making it adept at providing accurate and relevant suggestions tailored to PHP development.
 
+> ℹ️ **Looking for Starred Suggestions (AI Ranking)?**  
+> Smart re-ranking of the IntelliSense completion list with star icons (★) is not part of the IntelliPHP extension. It is integrated directly into the main [PHP Tools for VS Code](code-completion.md#starred-suggestions-local-ai-ranking) extension as a Premium feature.
+
 ## Settings
 
 | Setting | Decription |
 | ---     | ---        |
 | `intelliphp.inlineSuggestionsEnabled` | Enables or disables inline suggestions in PHP files. |
-| `php.completion.starredSuggestions` | Enables or disables starred pre-select. |
 
 ## Disable/Uninstall
 
@@ -33,7 +35,6 @@ IntelliPHP is designed to save you time and boost your productivity. Here are so
 - **Framework Support:** Whether you're using Laravel, Drupal, WordPress, or any other PHP frameworks, IntelliPHP has you covered.
 - **Local:** IntelliPHP operates locally, no code leaves your machine EVER.
 - **Speed:** IntelliPHP was designed to run efficiently on CPU, no GPU is required! The suggestions are returned without any latency penalty caused by the network.
-- **Starred Pre-Select:** Most probable member completions are marked with a star ★ and shown at the top of the list.
 
 ## Accepting suggestions
 
@@ -48,14 +49,6 @@ You can also accept just a current word in the offered suggestion by pressing <k
 **Continuous Typing:** If a suggestion isn't what you need, continue typing, and the suggestion will disappear. A new one might appear if it's a better fit for your code.
 
 ![IntelliPHP helping with Laravel snippet](../imgs/intelliphp-vscode.gif)
-
-## Pre-Selecting the item in the completion list
-
-When you are using IntelliPHP with [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) you will get intelligent pre-selection of the most probable item in the completion list.
-
-![Starred Pre-Select](imgs/starred-completion.png)
-
-_Setting_: `php.completion.starredSuggestions`: `true`,`false`, `true` by default.
 
 ## Troubleshooting
 
