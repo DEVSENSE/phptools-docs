@@ -7,7 +7,7 @@ Description: Composer support in Visual Studio Code
 
 ## Installation
 
-Composer _All-in-One_ is a part of **PHP Tools** extension. Although it can be installed separatelly from the [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode) extension page.
+Composer _All-in-One_ is part of the **PHP Tools** extension. It can also be installed separately from the [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode) extension page.
 
 ## Composer.json Editor &amp; IntelliSense
 
@@ -15,51 +15,51 @@ The `composer.json` editor is extended with smart actions, code lenses, tooltips
 
 ### Completion of Package Names
 
-Code completion searches packages and lists their names with detailed information including downloads, favorites, abandoned information, and description. There are also quick links to the package _home page_, package _source_ code, and _packagist page_.
+Code completion searches packages and lists their names with detailed information, including downloads, favorites, abandonment status, and descriptions. There are also quick links to the package _home page_, package _source_ code, and _packagist.org_ page.
 
 ![composer completion](imgs/composer-complete.gif)
 
 ### Completion of Package Versions
 
-Available minor versions are fetched from packagist listed in code completion after the required package name:
+Available minor versions are fetched from _packagist.org_ and listed in code completion after the required package name:
 
 ![complete package version](imgs/composer-complete-version.gif)
 
-### Tool-Tips
+### Tooltips
 
 Installed package details are displayed in the tooltips.
 
-![composer package tootip](imgs/composer-tooltip.png)
+![composer package tooltip](imgs/composer-tooltip.png)
 
 ### Code Actions
 
-Quickly `update` or `remove` package right from the editor, using the code actions:
+Quickly `update` or `remove` a package right from the editor by using code actions:
 
 ![composer code actions](imgs/composer-codeactions.png)
 
 ### Installed Version Inlay
 
-Actual installed version is displayed connveniently next to the package required version:
+The actual installed version is displayed conveniently next to the required package version:
 
 ![installed package versions](imgs/composer-versions.png)
 
 ### Run-Script CodeLens
 
-The `"scripts"` section of `composer.json` gets a small code-lens allowing to quickly run the corresponding script, right from the editor:
+The `"scripts"` section of `composer.json` gets a small CodeLens that allows you to quickly run the corresponding script right from the editor:
 
 ![composer run-script codelens](imgs/composer-run-script-codelens.png)
 
 ### Diagnostics &amp; Abandoned Packages
 
-The extension watches for installed packages and checks if any of them isn't abandoned. Abandoned packages are listed in VS Code's **problems** view, strikethrough, and the tooltip shows the corresponding abandoned message:
+The extension watches installed packages and checks whether any of them are abandoned. Abandoned packages are listed in VS Code's **Problems** view with strikethrough text, and the tooltip shows the corresponding abandonment message:
 
 ![composer diagnostic for abandoned packages](imgs/composer-abandoned-diagnostic.png)
 
 ## Commands
 
-Integrated commands work with the `composer.json` in the workspace root directory. If necessary, commands ask which workspace folder you're referring to. It allows quickly `require`, `remove`, or *search* for packages from packagist.org, and more.
+Integrated commands work with the `composer.json` file in the workspace root directory. If necessary, commands ask which workspace folder you are referring to. This lets you quickly `require`, `remove`, or *search* for packages from packagist.org, and more.
 
-The following commands are usually executed as a VSCode task, using `php` executable as configured in the `Settings`, and `composer.phar` downloaded automatically when necessary (so it is not necessary to install it by yourself).
+The following commands are usually executed as a VS Code task, using the `php` executable configured in `Settings`, and `composer.phar` downloaded automatically when necessary (so you do not need to install it yourself).
     
 ### `composer: install`
 
@@ -71,51 +71,53 @@ Runs the `update` command.
 
 ### `composer: require`
 
-The `composer: require` command shows quick-pick with online search, and installs the selected package. The search displayed all the important information including packages description, downloads, and favorites.
+The `composer: require` command shows a quick pick with online search and installs the selected package. The search displays important information, including package descriptions, downloads, and favorites.
 
 ![composer require](imgs/composer-require.gif)
 
 ### `composer: require-dev`
 
-Requires a **dev** package; this works the same as `composer: require` but the packageis installed as a development dependency.
+Requires a **dev** package. This works the same as `composer: require`, but the package is installed as a development dependency.
 
 ### `composer: remove`
 
-Removes installed package or more packages from the project. The command shows quick pick with multi-selection allowing to choose the packages to be removed:
+Removes one or more installed packages from the project. The command shows a quick pick with multi-selection, allowing you to choose the packages to remove:
 
 ![composer remove](imgs/composer-remove.gif)
 
 ### `composer: create-project ...`
 
-Open an empty folder in VS Code, and create a new project from a composer package. The command shows quick-pick that searches online for available packages and invokes the `create-project` command for you:
+Open an empty folder in VS Code and create a new project from a Composer package. The command shows a quick pick that searches online for available packages and invokes the `create-project` command for you:
 
 ![composer create-project](imgs/composer-create-project.gif)
 
 ### `composer: search ...`
 
-Search packages on _packagist.org_. Quickly browse through packages, read descriptions, open details on packagist.org or `require` the package right from the quick pick menu.
+Search for packages on _packagist.org_. Quickly browse packages, read descriptions, open details on packagist.org, or `require` a package right from the quick pick menu.
 
 ![composer search](imgs/composer-search.gif)
 
 ### `composer: run-script ...`
 
-Quickly run your composer script from command palette:
+Quickly run your Composer script from the Command Palette:
 
 ![composer run-script](imgs/composer-run-script.gif)
 
 ### `composer: check-platform-reqs`
+
+Checks whether your local PHP environment and installed extensions satisfy platform requirements declared by dependencies.
     
 ### `composer: update the internal composer.phar`
 
-The extension automatically downloads the latest composer installation, and uses it for all the tasks and commands. Run `composer: update the internal composer` to manually re-download the latest snapshot.
+The extension automatically downloads the latest Composer installation and uses it for all tasks and commands. Run `composer: update the internal composer` to manually re-download the latest snapshot.
 
 ### `composer: about`
 
-Shows the about information.
+Shows information about Composer support.
 
 ### `composer: archive ...`
 
-Runs the `archive` command, and asks for arguments.
+Runs the `archive` command and asks for arguments.
 
 ### `composer: clear-cache`
 
@@ -127,11 +129,11 @@ Shows your required packages funding options.
 
 ### `composer: licenses`
 
-Shows summary of your required packages licenses.
+Shows a summary of your required package licenses.
 
 ### `composer: outdated`
 
-Shows list of outdated packages.
+Shows a list of outdated packages.
 
 ### `composer: reinstall`
 
@@ -139,7 +141,7 @@ Runs the `reinstall` command.
 
 ## Tasks
 
-VS Code task that executes a `composer` command is a useful way of configuring and running composer. The `composer.phar` itself is automatically installed, and `php` executable is determined from `Settings`.
+A VS Code task that executes a `composer` command is a useful way to configure and run Composer. The `composer.phar` file is installed automatically, and the `php` executable is determined from `Settings`.
 
 _Example:_
 
@@ -158,27 +160,27 @@ _Example:_
 
 The extension provides schema validation for `composer.json` files, maintained by [@composer](https://github.com/composer/composer).
 
-- correctness validation.
-- tooltips and code completion for `composer.json` JSON elements.
+- Correctness validation.
+- Tooltips and code completion for `composer.json` JSON elements.
 
 ## Configuration
 
-If there's an existing installation of `composer.phar` under the following paths, it's used as it is:
+If there is an existing installation of `composer.phar` in one of the following paths, it is used as-is:
 
 - `/usr/bin/composer` (Linux/OsX)
 - `/usr/local/bin/composer` (Linux/OsX)
 - `${COMPOSER_HOME}/composer.phar`
-- `.composer/composer.phar` under user's home (Linux, OsX)
+- `.composer/composer.phar` under the user's home directory (Linux, OsX)
 - `${APP_DATA}/Composer/composer.phar` (Windows)
 
-Otherwise, the extension automatically downloads `composer.phar` latest snapshot, uses it, and keeps it updated. The location respects the Composer default installation path which can be changed by setting the `COMPOSER_HOME` environment variable.
+Otherwise, the extension automatically downloads the latest `composer.phar` snapshot, uses it, and keeps it updated. The location follows Composer's default installation path, which can be changed by setting the `COMPOSER_HOME` environment variable.
 
 ### Additional Settings
 
 | Setting | Description |
 | --- | --- |
-| `php.executablePath` | The value is used to determine `php` executable path for running composer commands. If not set, `"php"` is used by default.<br/><br/>In case, there is [PHP Tools](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) extension installed, composer commands are executed using `php` set with [PHP Version Picker](https://docs.devsense.com/vscode/php-version). |
-| `composer.workingPath` | The relative path for the composer.json |
+| `php.executablePath` | This value is used to determine the `php` executable path for running Composer commands. If it is not set, `"php"` is used by default.<br/><br/>If the [PHP Tools](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) extension is installed, Composer commands are executed using the `php` version selected with [PHP Version Picker](https://docs.devsense.com/vscode/php-version). |
+| `composer.workingPath` | The relative path to the `composer.json` file. |
 
 ## Related links
 
