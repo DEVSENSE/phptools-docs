@@ -23,32 +23,32 @@ For PHP-specific formatting, `.editorconfig` takes precedence over `settings.jso
 These directives apply to all file types, including PHP, and control basic formatting settings:
 
 - **`indent_style`**: Specifies whether tabs or spaces are used for indentation.
-  - Values: `space`, `tab`
-  - Default: `space`
+      - Values: `space`, `tab`
+      - By default, it's derived from `editor.insertSpaces` setting.
 
 - **`indent_size`**: Specifies the number of spaces per indentation level when `indent_style` is set to `space`.
-  - Values: `2`, `4`, `8`, etc.
-  - Default: `4`
+    - Values: `2`, `4`, `8`, etc.
+    - By default, it's derived from `editor.indentSize` setting.
 
 - **`tab_width`**: Defines the width of a tab character when `indent_style` is set to `tab`. Defaults to `indent_size` if not set.
-  - Values: `2`, `4`, `8`, etc.
-  - Default: `4`
+    - Values: `2`, `4`, `8`, etc.
+    - By default, it's derived from `editor.tabSize` setting.
 
 - **`end_of_line`**: Specifies the line-ending style.
-  - Values: `lf`, `crlf`, `cr`
-  - Default: `lf`
+    - Values: `lf`, `crlf`, `cr`
+    - Default: `lf`
 
 - **`charset`**: Defines the character set encoding for the file.
-  - Values: `utf-8`, `utf-16le`, `latin1`, etc.
-  - Default: `utf-8`
+    - Values: `utf-8`, `utf-16le`, `latin1`, etc.
+    - Default: `utf-8`
 
 - **`trim_trailing_whitespace`**: Automatically removes any trailing whitespace from the end of lines.
-  - Values: `true`, `false`
-  - Default: `true`
+    - Values: `true`, `false`
+    - Default: `true`
 
 - **`insert_final_newline`**: Ensures that a newline is inserted at the end of the file.
-  - Values: `true`, `false`
-  - Default: `true`
+    - Values: `true`, `false`
+    - Default: `true`
 
 - **`max_line_length`**: Defines the maximum allowed line length. (Not supported yet)
 
@@ -56,10 +56,10 @@ These directives apply to all file types, including PHP, and control basic forma
 
 In addition to the general directives above, the PHP extension for VS Code supports several specific settings that control PHP formatting. These PHP-specific directives allow you to customize the appearance of your PHP code in greater detail.
 
-For a complete list of PHP-specific `.editorconfig` properties, refer to our [customize formatting documentation](https://docs.devsense.com/vscode/editor/customize-formatting).
+For a complete list of PHP-specific `.editorconfig` properties, refer to our [customize formatting documentation](../formatting/customize-formatting.md).
 
 ## Suppressing Diagnostics
 
-You can configure and suppress diagnostics using the `.editorconfig` file for fine-grained control over PHP code warnings and errors. For full details on how to set up and adjust diagnostic severity, refer to the [Suppressing Diagnostics Documentation](https://docs.devsense.com/vscode/problems/suppressing-diagnostics).
+You can configure and suppress diagnostics using the `.editorconfig` file for fine-grained control over PHP code warnings and errors. For full details on how to set up and adjust diagnostic severity, refer to the [Suppressing Diagnostics Documentation](../problems/suppressing-diagnostics.md).
 
 Additional configuration options are available via `settings.json` or PHPDoc tags. See the full guide for more information.
