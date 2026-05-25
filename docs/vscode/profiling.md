@@ -8,7 +8,7 @@ Description: Detect, analyze, and optimize slow and resource-consuming methods a
 PHP code profiling allows you to inspect how much time and how many calls were made to every single function in the code.
 
 <center markdown=1>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VQB6pdDhGWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VQB6pdDhGWs" title="YouTube: Profiling Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ---

@@ -9,6 +9,10 @@ Description: Composer support in Visual Studio Code
 
 Composer _All-in-One_ is part of the **PHP Tools** extension. It can also be installed separately from the [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode) extension page.
 
+<center markdown=1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FDHilxpjvyM" title="YouTube: Composer Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 ## Composer.json Editor &amp; IntelliSense
 
 The `composer.json` editor is extended with smart actions, code lenses, tooltips, and IntelliSense to autocomplete packages and versions from _packagist.org_.
