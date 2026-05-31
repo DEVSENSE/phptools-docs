@@ -12,7 +12,7 @@ IntelliPHP is an advanced AI-assisted development tool specifically tailored for
 The primary aim of IntelliPHP is to save developers time spent in typing code. It's designed to offer suggestions ranging from short and highly likely suggestions up to whole lines of code. The model has been trained in-house on vast repositories of PHP code, making it adept at providing accurate and relevant suggestions tailored to PHP development.
 
 > ℹ️ **Looking for Starred Suggestions (AI Ranking)?**  
-> Smart re-ranking of the IntelliSense completion list with star icons (★) is not part of the IntelliPHP extension. It is integrated directly into the main [PHP Tools for VS Code](code-completion.md#starred-suggestions-local-ai-ranking) extension as a Premium feature.
+> Smart re-ranking of the IntelliSense completion list with star icons (★) is not part of the IntelliPHP extension. It is integrated directly into the main [PHP Tools for VS Code](completion.md#starred-suggestions-local-ai-ranking) extension as a Premium feature.
 
 ## Settings
 
