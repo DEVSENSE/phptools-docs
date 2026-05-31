@@ -53,6 +53,15 @@ Description: Explore comprehensive PHP Tools documentation for Visual Studio, Vi
 		font-size: 1.15rem;
 		line-height: 1.25;
 	}
+
+	.product-nav-purchase {
+		position: static;
+		align-self: stretch;
+		justify-content: flex-end;
+		margin-top: 0.75rem;
+		padding-top: 0.75rem;
+		border-top: 1px solid rgba(127, 127, 127, 0.35);
+	}
 </style>
 
 <div class="product-nav">
@@ -69,6 +78,11 @@ Description: Explore comprehensive PHP Tools documentation for Visual Studio, Vi
 	<a class="product-nav-row" href="/other/">
 		<span class="product-nav-icon-placeholder" aria-hidden="true">LSP</span>
 		<span class="product-nav-title">Others &amp; Language Server Protocol</span>
+	</a>
+
+	<a class="product-nav-row product-nav-purchase" href="/purchase/">
+		<span class="product-nav-title">Purchases &amp; Licensing</span>
+		<img class="product-nav-icon" src="/purchase/imgs/purchase-icon.png" alt="Visual Studio icon" />
 	</a>
 </div>
 

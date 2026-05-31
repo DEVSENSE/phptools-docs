@@ -30,7 +30,7 @@ The software is directly downloaded by the customer from [www.devsense.com/downl
 
 ## Do you ship any physical products? 
 
-No. All PHP Tools versions are available for downloads from our website and you only need a purchased license to [activate the software](https://docs.devsense.com/vs/installation/activation). 
+No. All PHP Tools versions are available for downloads from our website and you only need a purchased license to [activate the software](../../vs/installation/activation.md). 
 
 ## I completed my online order and received confirmation. When will I get my license? 
 
@@ -40,7 +40,7 @@ Online orders made from our purchase page are generally processed immediately. Y
 
 You can sign in with your social account at [our website](https://www.devsense.com) and see all your licenses and their status. 
 
-![devsense website](imgs/website.png)
+![devsense website](../imgs/website.png)
 
 ## Where can I download the latest or previous versions of PHP Tools? 
 

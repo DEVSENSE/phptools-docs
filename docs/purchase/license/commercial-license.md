@@ -39,7 +39,7 @@ For information about prices and purchasing options, click [here](https://www.de
 
 Yes, it can be used on different machines within the same company or organization. However, the number of active users cannot exceed the number of licenses. Two or more users cannot use the same license at the same time. In other words, if you have 5 licenses, the active users cannot be more than 5. Each active user must have their own license.  
 
-![Commercial Licenses](imgs/commercial.jpeg)
+![Commercial Licenses](../imgs/commercial.jpeg)
 
 ## Can multiple employees use the same commercial license? 
 
