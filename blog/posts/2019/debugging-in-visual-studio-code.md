@@ -48,7 +48,7 @@ People out there who are really clever can already spot problems with this code.
 
 The easiest way to run a PHP Project in Visual Studio Code is to import it as a separate folder in your workspace.  This way your debug configuration settings can be contained at the folder level.  Visual Studio Code keeps those in a hidden directory within the folder called `.vscode`.  Like so:
 
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/EgE179y20eY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+![type:video](https://www.youtube.com/embed/EgE179y20eY)
 
 To start debugging in Visual Studio Code:
 
@@ -56,7 +56,7 @@ To start debugging in Visual Studio Code:
 2. Select the Debug icon on the left panel.  From the Configuration drop down, select the directory that serves as the project root and select the Configure icon.
 3. Now to run the configured debugging session, to run it, just select that configuration from the drop down list, and select the Run icon.
 
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/bMWtffwCOoc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+![type:video](https://www.youtube.com/embed/bMWtffwCOoc)
 
 For this example, we'll be using the Built-In Server, which already reports useful debugging information back to Visual Studio Code.  Let's run our code, and watch it blow up before our eyes.
 
@@ -103,8 +103,7 @@ Well, we could go through our code line by line to try and figure that out.  Or,
 
 To set a Breakpoint, select the line of code we care about, and press `F9` or just to the left of the number line:
 
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/eCCOO5FStT8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+![type:video](https://www.youtube.com/embed/eCCOO5FStT8)
 
 Now when we run our sample code, it will stop right there where we tell it.  We can trace through our code with the action bar at the top:
 
@@ -116,7 +115,7 @@ Now when we run our sample code, it will stop right there where we tell it.  We 
 
 Using our program as an example, let's try to figure out where our beautiful code goes wrong:
 
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/azfvpaD3b5c?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+![type:video](https://www.youtube.com/embed/azfvpaD3b5c)
 
 Set as many breakpoints as you like, or turn them back off in the Breakpoints view to skip past them.  
 
