@@ -12,7 +12,7 @@ If you want to become a PHP Tools reseller, please contact us at [info@devsense.
 
 ## How can I get a quote for PHP Tools? 
 
-For quotes, please contact us at [info@devsense.com](mailto:info@devsense.com) 
+On our [purchase page](https://www.devsense.com/en/purchase?billing=yearly&license=organization), switch to the **Organization** tab and click **Get a Quote** under the product you choose.
 
 ## More questions? 
 
