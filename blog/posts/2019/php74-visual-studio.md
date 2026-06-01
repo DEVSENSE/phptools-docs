@@ -37,9 +37,7 @@ PHP Tools supports installing PHP 7.4 right from within Visual Studio.  From wit
 3. Save the settings.
 4. Select `Debug -> Run` or select `F5` and PHP Tools detects if PHP 7.4 and Xdebug for PHP 7.4 is installed.  If not, it prompts the user to install it.
 
-
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/h9MXcHUjgPc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+![type:video](https://www.youtube.com/embed/h9MXcHUjgPc)
 
 ## Intellisense Updates
 
@@ -64,9 +62,7 @@ echo "<p>Number to be squared: $squarethis.</p>";
 echo "<p>Squared number: ." $squared($squarethis).".</p>";
 ```
 
-
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/ng7yE0Zbpcw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+![type:video](https://www.youtube.com/embed/ng7yE0Zbpcw)
 
 ### Typed Properties
 
@@ -88,8 +84,7 @@ echo "<p>Using SquareValue function: " . SquareValue($squarebad) . ".</p>";
 ```
 
 
-
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/YNXvwecPN_U?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+![type:video](https://www.youtube.com/embed/YNXvwecPN_U)
 
 
 ### Arrays

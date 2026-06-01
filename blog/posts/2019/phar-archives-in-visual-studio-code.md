@@ -29,5 +29,4 @@ The good news is that  since September 2019, PHP Tools for VS Code comes with th
 In this video we'll give a short explanation of the phar archives and how PHP Tools can help working with them in Visual Studio Code.
 
 
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/nA6szowdC2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+![type:video](https://www.youtube.com/embed/nA6szowdC2c)

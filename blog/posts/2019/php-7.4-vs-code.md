@@ -52,8 +52,7 @@ echo "<p>Squared number: ." $squared($squarethis).".</p>";
 ```
 
 
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/z5DbLZz_RqM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+![type:video](https://www.youtube.com/embed/z5DbLZz_RqM)
 
 ### Typed Properties
 
@@ -75,8 +74,7 @@ echo "<p>Using SquareValue function: " . SquareValue($squarebad) . ".</p>";
 ```
 
 
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/I_DTYKoIiik?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+![type:video](https://www.youtube.com/embed/I_DTYKoIiik)
 
 
 ### Arrays
@@ -119,9 +117,7 @@ PrintArrayofValues(ReturnArrayofValues(10));
 ```
 
 
-
-<center><iframe width="640" height="360" src="https://www.youtube.com/embed/ZbkfsnVoQig?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+![type:video](https://www.youtube.com/embed/ZbkfsnVoQig)
 
 
 #### Spread Arrays

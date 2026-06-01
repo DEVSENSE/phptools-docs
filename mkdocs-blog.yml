@@ -108,6 +108,7 @@ plugins:
       hooks:
         on_page_markdown: "overrides.hooks:parse_custom_meta"
         on_config: "overrides.hooks:on_config"
+  - mkdocs-video
 #       collapse_single_pages: true
 #       strict: false
 #       order: asc

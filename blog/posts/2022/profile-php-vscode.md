@@ -30,9 +30,7 @@ Your PHP application or a website might be running fluently, or you might see it
 
 ---
 
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VQB6pdDhGWs" title="Profiling PHP in VS Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-</center>
+![type:video](https://www.youtube.com/embed/VQB6pdDhGWs)
 
 ---
 

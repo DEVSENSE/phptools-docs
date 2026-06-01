@@ -29,9 +29,7 @@ If you're looking for general PHP profiling guidance, check out these resources:
 
 ---
 
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eos-bgyl-6k" title="Profiling Laravel in Visual Studio Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-</center>
+![type:video](https://www.youtube.com/embed/eos-bgyl-6k)
 
 ## What is Profiling?
 

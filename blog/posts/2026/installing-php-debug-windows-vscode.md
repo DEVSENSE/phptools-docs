@@ -22,9 +22,7 @@ In this guide, we will go through a clean manual installation of PHP on Windows,
 
 <!-- more -->
 
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/woiWsx0De2I" title="Manual PHP installation with debugging support in VSCode on Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-</center>
+![type:video](https://www.youtube.com/embed/woiWsx0De2I)
 
 The advantage of this approach is reliability and understanding. Once completed, you will know exactly how your PHP environment is configured, how debugging works, and how the individual pieces communicate together.
 
