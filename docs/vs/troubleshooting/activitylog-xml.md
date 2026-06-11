@@ -10,6 +10,10 @@ To determine issues in the Visual Studio, please collect additional information.
 1. Close Visual Studio first.
 2. Start Visual Studio (`devenv.exe`) with `/Log` parameter. You can press <kbd>Start+R</kbd> and then enter the command below for Visual Studio 2019 Enterprise. *Change the path to `devenv.exe` depending on the actual Visual Studio version.*
     
+    *Visual Studio 2026 Professional:*
+    ```bash
+    "C:\Program Files\Microsoft Visual Studio\18\Professional\Common7\IDE\devenv.exe" /Log
+    ```
     *Visual Studio 2022 Enterprise:*
     ```bash
     "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe" /Log
@@ -24,6 +28,7 @@ To determine issues in the Visual Studio, please collect additional information.
 
 > **Note (\*)**: The subdirectories with the version of your Visual Studio
 
+* `18.0_xxxxxxxx` for Visual Studio 2026
 * `17.0_xxxxxxxx` for Visual Studio 2022
 * `16.0_xxxxxxxx` for Visual Studio 2019
 * `15.0` for Visual Studio 2017
