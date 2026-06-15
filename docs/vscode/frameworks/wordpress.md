@@ -58,6 +58,12 @@ The functions below provide hook-name suggestions from both built-in WordPress h
 
 Hook names that contain placeholders (for example, `add_{$meta_type}_metadata`) are inserted as snippets with editable placeholder fields.
 
+### WordPress Hook References
+
+Hooks are documented via tool-tips, can be navigated to their definition, and all its references can be listed using _Find all Refreences_.
+
+![hook references](img/wp-hook-references.png)
+
 ### WordPress Hook Callback Completion
 
 When you add a filter or action, completion can suggest an anonymous function snippet:
