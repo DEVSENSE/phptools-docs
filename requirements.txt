@@ -5,4 +5,4 @@ mkdocs-material-extensions~=1.3
 mkdocs-minify-plugin~=0.8
 mkdocs-simple-hooks~=0.1
 mkdocs-redirects~=1.2
-git+https://github.com/Miloslav/mkdocs-video.git@main
+git+https://github.com/Miloslav/mkdocs-video.git@master
