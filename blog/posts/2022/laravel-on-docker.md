@@ -25,6 +25,8 @@ categories:
 
 Imagine you are part of the team and you want each member to develop in one standardized environment. They can have different operating systems and use different development tools or IDEs, but you want to have one unified environment with all the required dependencies. 
 
+![type:video](https://youtu.be/RCAOGNEMEfE)
+
 <!-- more -->
 
 Or if being part of the team isn't your thing, you might want a standardized environment for yourself as well. You want to keep the project separate from your local environment. Or when you are done with the project and you leave it for a while, then return to it, you want to be able to start where you finished. Even if it was some time ago and you have a new computer. You want to be able to set everything up, as you had it before, and start to work quickly.
