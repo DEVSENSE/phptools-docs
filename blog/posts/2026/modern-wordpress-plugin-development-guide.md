@@ -176,13 +176,21 @@ Both stubs and code style can be configured by adding these two options to your 
 
 ### WordPress Hook Completion
 
-> **Note:** Make sure you have at least version `1.68` of the PHP Tools extension to use this feature.
+> **Note:** Make sure you have at least version `1.71` of the PHP Tools extension to take full advantage of advanced hook navigation and reference tracking.
 
 One of the most powerful features is the **native support for WordPress hooks**. When you start typing `add_filter(` or `add_action(`, the IDE provides a list of all available hooks (like `the_content`, `init`, or `wp_head`). It even handles dynamic hooks with placeholders, inserting them as editable snippets.
 
 ![WordPress hook completions](imgs/modern-wordpress-plugin-development-guide/wp_hook_completion.png)
 
-Even better—when you select a hook, you see a **complete tooltip with documentation**, explaining when the hook is fired and what parameters it passes to your callback. No more constant switching to the WordPress Codex!
+When you select a hook, the IDE provides a complete tooltip with documentation, explaining when the hook is fired, what parameters it passes to your callback, and clearly denotes the string value type (e.g., `(WordPress Hook) 'wp_head'`).
+
+Furthermore, the IDE now supports:
+
+ - **Navigation:** You can navigate directly to a WordPress hook invocation within the codebase.
+
+ - **Find All References:** Easily discover every location where a specific hook is used or invoked across your entire project.
+
+No more constant switching to the WordPress Codex—everything you need to understand and trace your hooks is available right in your editor.
 
 ![WordPress hook tooltip](imgs/modern-wordpress-plugin-development-guide/wp_hook_tooltip.png)
 
@@ -198,6 +206,22 @@ To speed up your workflow even further, you can use:
  ![WordPress Inlay Hints](https://docs.devsense.com/vscode/frameworks/img/wp-hook-inlays.png)
 
 For more details on how to customize these features, check out the official [WordPress integration documentation](https://docs.devsense.com/vscode/frameworks/wordpress/). 
+
+### Smart Callback Validation
+
+WordPress relies heavily on callbacks defined as strings or arrays (e.g., `add_action('init', ['MyPlugin', 'init_method'])` or `add_filter('the_content', 'my_custom_function')`).
+
+PHP Tools now provide native validation for these callback styles, ensuring your code remains robust and error-free:
+
+ - **Contextual Completion:** When defining a callback as an array, the IDE automatically suggests available class methods.
+
+ - **Seamless Navigation:** Use <kbd>Ctrl+Click</kbd> (or <kbd>Cmd+Click</kbd> on macOS) on any callback to jump directly to its definition, even if it is defined as a string or within an array syntax.
+
+ - **Rename Refactoring:** If you rename a method or function, the IDE automatically updates all corresponding references within your WordPress action and filter registrations.
+
+ - **Rich Tooltips:** Hover over any function or method used as a callback to see its full signature, parameter details, and documentation.
+
+This integration ensures that your hook registrations are always perfectly synced with your code logic.
 
 ## Step 7: Debugging
 
