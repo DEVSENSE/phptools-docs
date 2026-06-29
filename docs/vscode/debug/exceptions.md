@@ -61,6 +61,25 @@ Whether or not the debugger is set to break on an exception, you can still see o
 
 ![Fatal error in Debug Console](img/debug-console.png)
 
+## Inspecting Exception Details#
+When the debugger pauses on an exception, it provides a comprehensive view of the error, making it easier to diagnose issues without manually parsing raw logs.
+
+### Automated Exception View
+The debugger automatically captures exception details and presents them in a structured, easy-to-read format within the debug session. Key benefits include:
+
+* **Formatted Stack Trace:** The stack trace is parsed and displayed with clickable links, allowing you to jump directly to the relevant file and line in your editor.
+
+* **Instant Insight:** Exception type, message, and error codes are extracted and highlighted for immediate visibility.
+
+![Exception information](img/exception-info.png)
+
+### Manual Inspection via $__EXCEPTION
+> **Note:** This feature requires **Xdebug 3.5** or later.
+
+For deep analysis, the original exception object is accessible in the **Variables** view under the variable name `$__EXCEPTION`. This allows you to manually inspect properties, trace data, or custom attributes if your exception class provides them.
+
+![$__EXCEPTION variable in Locals](img/virtual-exception.png)
+
 ## Unhandled Exceptions and Fatal Errors
 
 Unhandled exceptions in PHP are treated as fatal errors, terminating the program if they are not caught with a `try/catch` block. The debugger will automatically break when such exceptions occur, giving you a chance to inspect the program state at the time of failure.
