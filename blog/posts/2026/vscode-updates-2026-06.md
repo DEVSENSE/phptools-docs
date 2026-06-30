@@ -114,7 +114,7 @@ The complete multi-language PHP manual now includes:
 * Previously undocumented functions and classes
 * Better code intelligence integration
 
-![Chinese PHP Manual](https://raw.githubusercontent.com/DEVSENSE/phptools-docs/refs/heads/master/docs/vscode/imgs/php-manual-chinese.png)
+![Japanese PHP Manual](imgs/vscode-updates-2026-06/php-manual-ja.png)
 
 These improvements enhance:
 
