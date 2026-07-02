@@ -7,6 +7,8 @@ Description: Using WordPress in Visual Studio Code
 
 ## Plugin Development (without WordPress core)
 
+![type:video](https://youtu.be/5Ynuu1Be6Pc)
+
 When you open a standalone WordPress plugin in VS Code, the editor may report missing declarations from WordPress core.
 
 **Enable WordPress stubs**: Open Command Palette (`F1`), run `PHP: Workspace Stubs`, search for `"wordpress"`, and confirm with `OK`:
@@ -78,5 +80,6 @@ With inlay hints enabled (`"editor.inlayHints.enabled"`), the editor adds parame
 
 ## Related Links
 
+- **Guide: [Modern WordPress Plugin Development (2026)](https://blog.devsense.com/2026/modern-wordpress-plugin-development-guide/)**
 - Blog post: [WordPress IntelliSense and Linting](https://blog.devsense.com/2023/wordpress-intellisense-linting-vscode/)
 - Code Styles: [Formatting/Code Styles](../formatting/code-styles.md)
