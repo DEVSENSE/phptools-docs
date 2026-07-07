@@ -19,7 +19,7 @@ categories:
 
 Developing WordPress plugins shouldn't mean cluttering your OS with PHP installations or getting lost in the `wp-admin` core folders. In this tutorial, we will build a professional, containerized environment using **Docker** and **PHP Tools for VS Code** from DEVSENSE.
 
-![type:video](https://youtu.be/5Ynuu1Be6Pc)
+![type:video](https://www.youtube.com/embed/5Ynuu1Be6Pc?si=cjECEIw2WDMcfBQ9)
 
 <!-- more -->
 
