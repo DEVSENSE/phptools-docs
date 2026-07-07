@@ -52,3 +52,4 @@ See [selecting PHP version](php-version.md) for more information.
 - [Selecting PHP version](php-version.md)
 - [Test Explorer](test-explorer.md)
 - [Debug](debug/index.md)
+- [All-in-One PHP extension for Visual Studio Code](https://medium.com/p/2b99a9157fa0)

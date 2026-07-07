@@ -209,3 +209,7 @@ Upgrade PHP Tools for VS Code and enjoy smarter IntelliSense, improved debugging
 ---
 
 See the [complete changelog](https://www.devsense.com/download/vscode) for more details.
+
+# Related Links
+
+- All-in-One PHP extension for Visual Studio Code: https://medium.com/p/2b99a9157fa0
