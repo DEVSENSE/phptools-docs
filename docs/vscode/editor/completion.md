@@ -11,6 +11,16 @@ The PHP editor analyses the entire workspace, it determines expressions type, fu
 
 Code completion is context-aware, scope-aware, type-aware, with the respect to conventions and additional heuristics.
 
+## Suggestions List
+
+Code suggestions list is a context-aware list of possible identifiers that may follow at current position. By default, it is triggered automatically when you start typing (this behavior is managed by Visual Studio Code and its settings), or with a shortcut associated with `editor.action.triggerSuggest` action (see Keyboard Shortcuts in Visual Studio Code, by default `Ctrl+I`).
+
+![code completion list](imgs/completion-list.png)
+
+The list shows additional annotations such as namespace, function parameters, or whether the symbol is deprecated.
+
+Triggering the suggestions while already opened (press the shortcut again) popups the symbols details containing full description of selected item.
+
 ## Supported Notations
 
 The following notations are supported:
@@ -129,3 +139,4 @@ class SomeClass
     }
 }
 ```
+
