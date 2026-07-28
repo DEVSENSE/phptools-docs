@@ -14,7 +14,7 @@ Add the following to your Zed _settings_ to enable PHP Tools:
 ```json
 "languages": {
   "PHP": {
-    "language_servers": ["phptools", "!phpactor", "!intelephense"]
+    "language_servers": ["phptools", "!intelephense", "!phpactor", "!phpantom", "..."]
   }
 }
 ```
