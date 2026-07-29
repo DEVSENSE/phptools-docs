@@ -23,7 +23,7 @@ This behavior is caused by an issue where Visual Studio 2022 fails to discover i
 To resolve this issue, you need to clear Visual Studio's cached extension registry and force it to re-index installed extensions.
 
 ### Step 1: Close Visual Studio
-Close all running instances of Visual Studio 2022. Check the Task Manager to ensure no `devenv.exe` processes remain active in the background.
+Close all running instances of Visual Studio 2022.
 
 ### Step 2: Delete the Cache File
 Navigate to your Visual Studio 2022 installation directory. For a standard Community installation, the default path is:
