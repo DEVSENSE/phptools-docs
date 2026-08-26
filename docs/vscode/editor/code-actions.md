@@ -15,12 +15,9 @@ Certain errors have also `Quick Fix` available. This provides the same list of c
 
 ![Quick Fix in VS Code](../imgs/quick-fixes.png)
 
-## Details:
-
-See [Code Actions Overview](../code%20actions/overview.md) for more details.
-
 ## See also
 
+- [Code Actions Overview](../code%20actions/overview.md)
+- [List of Code Actions](../code%20actions/list.md)
 - [Refactoring](refactoring.md)
 - [PHPDoc Completion](phpdoc.md)
-- [Code Actions Details](../code%20actions/overview.md)
