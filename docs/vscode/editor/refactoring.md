@@ -13,11 +13,15 @@ Refactoring works best for well-documented code, with annotated types and type h
 
 ## Rename Symbol
 
-Name of local variables, constants and functions can be renamed.
+Name of local variables, constants, functions and type names can be renamed.
 
 ![PHP variable rename](../imgs/rename-variable.gif)
 
 Right-click the name and choose `Rename Symbol`, or select a name and press the `F2` key. Alter the name and confirm. If more than the current document is affected by the change, all documents are opened in the Visual Studio Code window so the changes can be reviewed or reverted. Changes are not saved to disk.
+
+---
+
+The rename works across the workspace, and takes indirect names and special annotations in consideration - this includes PHP callables using array syntax, special string literals in the context of `ReflectionClass`, `#[DataSource()]` etc., name of identifiers in various frameworks like Laravel or WordPress.
 
 ## See also
 
