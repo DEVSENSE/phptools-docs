@@ -15,7 +15,7 @@ If appropriate, code action to change a field declaration to a promoted construc
 The code action is provided if:
 
 - [Selected PHP version](../php-version.md) is 8.0 or higher.
-- The containinig class has a field with the same name as the `__construct`s parameter.
+- The containing class has a field with the same name as the `__construct`'s parameter.
 - The same field is being directly assigned to in the `__construct`.
 
 Example:
@@ -29,7 +29,7 @@ class MyClass {
 }
 ```
 
-Code action will provided anywhere on `var $field`, or `$field` parameter, or `$this->field = $field` expression.
+Code action will be provided anywhere on `var $field`, or `$field` parameter, or `$this->field = $field` expression.
 
 ## See also
 

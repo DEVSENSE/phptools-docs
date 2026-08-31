@@ -9,8 +9,8 @@ Description: Navigating through Call Hierarchy
 
 The language server provides call hierarchy functionality across your code base.
 
-![call hiewrarchy - outgoing calls](../imgs/call-hierarchy-outgoing-calls.png)
+![call hierarchy - outgoing calls](../imgs/call-hierarchy-outgoing-calls.png)
 
-Navigate to a function call or a function declarations, and from the context menu select _Show Call Hierarchy_.
+Navigate to a function call or a function declaration, and from the context menu select _Show Call Hierarchy_.
 
-> Limitation 1: the feature may be limited within the `vendor` folder.
+> Limitation: the feature may be limited within the `vendor` folder.
