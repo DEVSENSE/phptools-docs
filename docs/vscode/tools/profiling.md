@@ -16,7 +16,7 @@ PHP code profiling allows you to inspect how much time and how many calls were m
 - Ensure, you have PHP installed.
 - Ensure [Xdebug](https://xdebug.org/docs/install) PHP extension is installed as well.
 - Make sure PHP `zlib` extension is enabled (recommended).
-- Use the following [`launch.json`](debug/launch-json.md) setting:
+- Use the following [`launch.json`](../debug/launch-json.md) setting:
     ```json
     {
         "name": "Launch Built-in server & Profile",
@@ -69,9 +69,9 @@ The loaded profiling result file is analyzed, and hot paths are highlighted dire
 
 ## See Also
 
-- [Debug](debug/index.md) - Debugging PHP in VS Code documentation.
-- [launch.json](debug/launch-json.md) - VS Code launch profiles documentation.
+- [Debug](../debug/index.md) - Debugging PHP in VS Code documentation.
+- [launch.json](../debug/launch-json.md) - VS Code launch profiles documentation.
 - [Profiling PHP in VS Code](https://www.youtube.com/watch?v=VQB6pdDhGWs) - A quick video tutorial on Profiling PHP using Visual Studio Code.
 - [Performance Profiling PHP with VS Code](https://blog.devsense.com/2022/profile-php-vscode)
-- [Profiling PHPUnit Tests](test-explorer.md#profiling-tests)
+- [Profiling PHPUnit Tests](../test-explorer.md#profiling-tests)
 - [Profiling Laravel App](https://blog.devsense.com/2025/profile-laravel-in-visual-studio-code)

@@ -108,6 +108,8 @@ plugins:
   - redirects:
       redirect_maps:
         vscode/editor/customize-formatting.md: vscode/formatting/customize-formatting.md
+        vscode/profiling.md: vscode/tools/profiling.md
+        vscode/composer.md: vscode/tools/composer.md
   - mkdocs-video
 #       collapse_single_pages: true
 #       strict: false

@@ -19,43 +19,43 @@ The `composer.json` editor is extended with smart actions, code lenses, tooltips
 
 Code completion searches packages and lists their names with detailed information, including downloads, favorites, abandonment status, and descriptions. There are also quick links to the package _home page_, package _source_ code, and _packagist.org_ page.
 
-![composer completion](imgs/composer-complete.gif)
+![composer completion](../imgs/composer-complete.gif)
 
 ### Completion of Package Versions
 
 Available minor versions are fetched from _packagist.org_ and listed in code completion after the required package name:
 
-![complete package version](imgs/composer-complete-version.gif)
+![complete package version](../imgs/composer-complete-version.gif)
 
 ### Tooltips
 
 Installed package details are displayed in the tooltips.
 
-![composer package tooltip](imgs/composer-tooltip.png)
+![composer package tooltip](../imgs/composer-tooltip.png)
 
 ### Code Actions
 
 Quickly `update` or `remove` a package right from the editor by using code actions:
 
-![composer code actions](imgs/composer-codeactions.png)
+![composer code actions](../imgs/composer-codeactions.png)
 
 ### Installed Version Inlay
 
 The actual installed version is displayed conveniently next to the required package version:
 
-![installed package versions](imgs/composer-versions.png)
+![installed package versions](../imgs/composer-versions.png)
 
 ### Run-Script CodeLens
 
 The `"scripts"` section of `composer.json` gets a small CodeLens that allows you to quickly run the corresponding script right from the editor:
 
-![composer run-script codelens](imgs/composer-run-script-codelens.png)
+![composer run-script codelens](../imgs/composer-run-script-codelens.png)
 
 ### Diagnostics &amp; Abandoned Packages
 
 The extension watches installed packages and checks whether any of them are abandoned. Abandoned packages are listed in VS Code's **Problems** view with strikethrough text, and the tooltip shows the corresponding abandonment message:
 
-![composer diagnostic for abandoned packages](imgs/composer-abandoned-diagnostic.png)
+![composer diagnostic for abandoned packages](../imgs/composer-abandoned-diagnostic.png)
 
 ## Commands
 
@@ -75,7 +75,7 @@ Runs the `update` command.
 
 The `composer: require` command shows a quick pick with online search and installs the selected package. The search displays important information, including package descriptions, downloads, and favorites.
 
-![composer require](imgs/composer-require.gif)
+![composer require](../imgs/composer-require.gif)
 
 ### `composer: require-dev`
 
@@ -85,25 +85,25 @@ Requires a **dev** package. This works the same as `composer: require`, but the 
 
 Removes one or more installed packages from the project. The command shows a quick pick with multi-selection, allowing you to choose the packages to remove:
 
-![composer remove](imgs/composer-remove.gif)
+![composer remove](../imgs/composer-remove.gif)
 
 ### `composer: create-project ...`
 
 Open an empty folder in VS Code and create a new project from a Composer package. The command shows a quick pick that searches online for available packages and invokes the `create-project` command for you:
 
-![composer create-project](imgs/composer-create-project.gif)
+![composer create-project](../imgs/composer-create-project.gif)
 
 ### `composer: search ...`
 
 Search for packages on _packagist.org_. Quickly browse packages, read descriptions, open details on packagist.org, or `require` a package right from the quick pick menu.
 
-![composer search](imgs/composer-search.gif)
+![composer search](../imgs/composer-search.gif)
 
 ### `composer: run-script ...`
 
 Quickly run your Composer script from the Command Palette:
 
-![composer run-script](imgs/composer-run-script.gif)
+![composer run-script](../imgs/composer-run-script.gif)
 
 ### `composer: check-platform-reqs`
 
@@ -186,7 +186,7 @@ Otherwise, the extension automatically downloads the latest `composer.phar` snap
 
 ## Related links
 
-- [PHP Tools Installation](installation/index.md)
+- [PHP Tools Installation](../installation/index.md)
 - [Composer Extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode) _(marketplace.visualstudio.com)_
 - [Create PHP Project using Composer in VS Code](https://blog.devsense.com/2022/create-php-project-composer-vs-code)
 - [Introducing Composer for VS Code](https://blog.devsense.com/2022/composer-for-vscode)
