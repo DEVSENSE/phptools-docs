@@ -1,13 +1,13 @@
 /*
 Title: IntelliPHP
-Description: AI Autocomplete for PHP
+Description: Local AI Autocomplete for PHP
 */
 
 # IntelliPHP - AI Autocomplete for PHP
 
 IntelliPHP is an advanced AI-assisted development tool specifically tailored for PHP programmers. Unlike GitHub _Copilot_, IntelliPHP operates entirely locally, ensuring that code remains secure and private within their own development environments. IntelliPHP harnesses the power of machine learning to understand PHP code and provide context-aware suggestions. 
 
-![intelliphp logo](../imgs/intelliphp-logo.png)
+![intelliphp logo](imgs/intelliphp-logo.png)
 
 The primary aim of IntelliPHP is to save developers time spent in typing code. It's designed to offer suggestions ranging from short and highly likely suggestions up to whole lines of code. The model has been trained in-house on vast repositories of PHP code, making it adept at providing accurate and relevant suggestions tailored to PHP development.
 
@@ -48,7 +48,7 @@ You can also accept just a current word in the offered suggestion by pressing <k
 
 **Continuous Typing:** If a suggestion isn't what you need, continue typing, and the suggestion will disappear. A new one might appear if it's a better fit for your code.
 
-![IntelliPHP helping with Laravel snippet](../imgs/intelliphp-vscode.gif)
+![IntelliPHP helping with Laravel snippet](imgs/intelliphp-vscode.gif)
 
 ## Troubleshooting
 

@@ -108,6 +108,7 @@ plugins:
   - redirects:
       redirect_maps:
         vscode/editor/customize-formatting.md: vscode/formatting/customize-formatting.md
+        vscode/editor/intelliphp.md: vscode/ai/intelliphp.md
         vscode/profiling.md: vscode/tools/profiling.md
         vscode/composer.md: vscode/tools/composer.md
   - mkdocs-video
