@@ -21,3 +21,13 @@ The tools selection list:
 
 ![MCP Tools Drop Down List](imgs/mcp-tools-list.png)
 
+## Call Tools without confirmation
+
+Open _Command Palette_ (`F1`), and search for `Chat: Manage Tool Approval`:
+
+![MCP Tool Approval Command](imgs/mcp-tool-approval-command.png)
+
+- **Untick** the "Folder" button, so it applies for all your workpaces.
+- **Tick** _Run any tool without approval_; so agents can run the tool to get extended information and tools for your projects without you confirming every action.
+
+![MCP Tool Approval](imgs/mcp-tool-approval.png)
