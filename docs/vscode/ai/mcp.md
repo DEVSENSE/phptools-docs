@@ -6,6 +6,7 @@ Description: Model Context Protocol Support
 # MCP Server
 
 > Version 1.74 and newer.
+> Supported on Visual Studio Code IDEs supporting `contributes.mcpServerDefinitionProviders` extension point. (VSCode, Cursor, Windsurf, Trae, ...)
 
 The PHP extension provides an integrated MCP server that helps AI agents provide faster, better, and more cost-effective responses.
 
