@@ -19,6 +19,8 @@ categories:
 
 September brings another set of improvements to PHP Tools for Visual Studio Code, with a particular focus on **AI-assisted development, code navigation, refactoring, and type inference**.
 
+<!-- more -->
+
 This update continues to build on the language server's understanding of your PHP codebase. From exploring relationships between classes to performing semantic refactorings and providing context to AI agents, PHP Tools increasingly works with your code at the level of its structure and meaning rather than treating PHP files as plain text.
 
 Let's take a look at the highlights.

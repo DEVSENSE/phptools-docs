@@ -18,6 +18,8 @@ categories:
 
 The September update of **PHP Tools for Visual Studio** brings a wide range of improvements to IntelliSense, code analysis, formatting, Composer integration, and the overall editing experience.
 
+<!-- more -->
+
 This release is particularly focused on **performance and large PHP codebases**. Code completion has been reworked to take better advantage of multi-core CPUs, while improvements to type inference, diagnostics, and project indexing make PHP Tools more accurate when working with complex applications and large dependency trees.
 
 ## Fast Code Completion for Large Projects
