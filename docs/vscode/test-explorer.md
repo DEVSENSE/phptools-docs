@@ -133,7 +133,7 @@ While the profiling results are still opened, see the hot paths in your code:
 
 - [Xdebug PHP extension](debug/index.md) needs to be properly installed
 - [Profiler VSCode extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode) needs to be installed.
-- See [profiling](profiling.md) for more details.
+- See [profiling](./tools/profiling.md) for more details.
 
 ### Profiling on Remote Machine
 

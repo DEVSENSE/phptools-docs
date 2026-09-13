@@ -187,7 +187,7 @@ For more customization, create a [launch profile](https://code.visualstudio.com/
 
 - Selecting PHP Version: [PHP Version](../editor/php-version-select.md)
 - Configuring code diagnostics: [Problems](../problems/configuration.md)
-- Installing packages using Composer: [Composer](../composer.md)
+- Installing packages using Composer: [Composer](../tools/composer.md)
 - Running PHPUnit Tests: [Test Explorer](../test-explorer.md)
 - Code Formatting Style: [Code Styles](../formatting/code-styles.md)
 - Profiling Laravel App Tutorial: [Profiling Laravel App in VS Code](https://blog.devsense.com/2025/profile-laravel-in-visual-studio-code)

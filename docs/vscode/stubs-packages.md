@@ -39,7 +39,7 @@ The editor respects the `"require"` and `"require-dev"` sections and includes st
 
 ### Composer Packages
 
-Various other stubs are available as composer packages. Add them as development requirement (`"require-dev"`) to your project using [`composer: require-dev`](./composer.md#composer-require-dev) command.
+Various other stubs are available as composer packages. Add them as development requirement (`"require-dev"`) to your project using [`composer: require-dev`](./tools/composer.md#composer-require-dev) command.
 
 ### Custom Stubs
 

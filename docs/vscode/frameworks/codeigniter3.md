@@ -75,7 +75,7 @@ To customize how your application starts, refer to the [Launch Profiles](../debu
 ## Profile a CodeIgniter 3 Application
 
 > Requires the [`Xdebug`](../debug/index.md) PHP extension.  
-> Requires the [PHP Profiler](../profiling.md) VSCode extension (installed by default).
+> Requires the [PHP Profiler](../tools/profiling.md) VSCode extension (installed by default).
 
 You can profile a CI3 application using the same start menu (**F5**) or using a [Profiling Launch Profile](../debug/launch-json.md#profiling-mode).
 
