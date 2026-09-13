@@ -1,5 +1,5 @@
 /*
-Title: Tools & IDEs
+Title: Tools & Editors
 Description: PHP Tools support for alternative development environments and editors and CLI.
 */
 

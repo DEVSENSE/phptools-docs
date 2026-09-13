@@ -77,7 +77,7 @@ Description: Explore comprehensive PHP Tools documentation for Visual Studio, Vi
 
 	<a class="product-nav-row" href="/other/">
 		<span class="product-nav-icon-placeholder" aria-hidden="true">LSP</span>
-		<span class="product-nav-title">Others &amp; Language Server Protocol</span>
+		<span class="product-nav-title">Other Tools &amp; Editors</span>
 	</a>
 
 	<a class="product-nav-row product-nav-purchase" href="/purchase/">

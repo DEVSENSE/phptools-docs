@@ -14,35 +14,33 @@ Please refer to the [PHP Tools for VS Code Documentation](../../vscode/index.md)
 
 ## MCP Server
 
-> Supported since `1.74.19291`
+> Since `1.74.19294`
 
 The MCP server provides MCP tools, skills, and contexts that AI agents such as Claude can use to access the same information that the PHP IDE knows internally.
 
-_Antigravity IDE_ needs the following configuration to enable the use of our PHP MCP Server:
+> Note: As we tested, Antigravity agent seems to have issues with MCP Tools - it provides wrong arguments to the tools, and uses wrong results.
 
-- In your settings, specify a local MCP Server port (this should be unique for every workspace that is opened at the same time):
+Antigravity IDE needs the following configuration to enable the use of our PHP MCP Server:
+
+- In your _workspace_ settings, specify a local MCP Server port (this should be unique for every workspace that is opened at the same time):
 
   _.vscode/settings.json:_
 
   ```json
   {
-    "php.mcp.serverPort": 55100
+    "php.mcp.serverPort": 58372
   }
   ```
-- Add MCP server configuration to your workspace:
 
-  According to [the documentation](https://antigravity.google/docs/mcp/#antigravity-ide), the configuration file is located globally at `~/.gemini/config/mcp_config.json` (or locally in your workspace under `.agents/mcp_config.json`).
+- According to the [documentation](https://antigravity.google/docs/mcp/#antigravity-ide), the configuration file is located globally at `~/.gemini/config/mcp_config.json` (or locally in your workspace under `.agents/mcp_config.json`). Add the following setting:
 
   ```json
   {
     "mcpServers": {
         "phptools": {
-            "serverUrl": "http://127.0.0.1:55100/"
+            "serverUrl": "http://127.0.0.1:58372/"
         }
     }
   }
   ```
 
-- Verify using _Manage MCPs_ Tool Window. Open the tool window with `Manage MCP Servers` command:
-
-  ![Manage MCPs](imgs/manage-mcps-command.png)
