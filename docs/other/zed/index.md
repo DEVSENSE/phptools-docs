@@ -1,13 +1,15 @@
 /*
-Title: Zed IDE
-Description: PHP Tools integration into Zed IDE.
+Title: Zed Editor
+Description: PHP Tools integration into Zed Editor.
 */
 
 The [Zed editor](https://zed.dev/) is designed for high performance and AI-powered collaboration. The PHP Tools extension brings advanced features such as IntelliSense, diagnostics, code actions, quick fixes, and Laravel IDE support.
 
-### Enabling PHP Tools in Zed
+## Installing PHP Extension into Zed Editor
 
-Go to Zed / Extensions, and install the extension `php`.
+Go to `Zed` / `Extensions`, and install the extension `php`.
+
+![zed extensions php](imgs/extensions-php-install.png)
 
 Add the following to your Zed _settings_ to enable PHP Tools:
 
@@ -19,7 +21,11 @@ Add the following to your Zed _settings_ to enable PHP Tools:
 }
 ```
 
-To activate your license, either add [`initialization_options`](https://zed.dev/docs/configuring-zed#lsp):
+## Optional: Enable Premium Features
+
+Obtain a "Visual Studio Code" license or "All Bundle" license key at [Purchase Page](https://www.devsense.com/purchase).
+
+To activate the license, either add `"Your_License_Key"` into [`initialization_options`](https://zed.dev/docs/configuring-zed#lsp) setting:
 
 ```json
 "lsp": {
@@ -37,7 +43,7 @@ Or set environment variable `DEVSENSE_PHP_LS_LICENSE`.
 
 > To troubleshoot the activation, please open Zed's [_Command Palette_](https://zed.dev/docs/command-palette), and search for "language server logs". Then switch to "phptools" tab.
 
-### Settings
+## Settings
 
 Add any setting into the `"initialization_options"` section. For example:
 

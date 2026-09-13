@@ -1,30 +1,30 @@
 /*
-Title: Other IDEs
-Description: PHP Tools support for alternative development environments and editors.
+Title: Tools & IDEs
+Description: PHP Tools support for alternative development environments and editors and CLI.
 */
 
-PHP Tools are available for a wide range of development environments. In addition to dedicated integrations, we also provide a standalone Language Server package for building custom editor support.
+PHP Tools are available for a wide range of development environments. In addition to dedicated integrations, we provide a standalone Language Server, MCP Server, and CLI tools.
 
 ## VS Code Compatible Editors
 
 For **Cursor**, **VSCodium**, **Google Antigravity**, and similar editors. (see [PHP Tools for Visual Studio Code](../vscode/index.md))
 
-Most forks of Visual Studio Code are compatible with the [PHP Tools for VS Code extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode).
+Forks of Visual Studio Code are compatible with the [PHP Tools for VS Code extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode).
 
-The extension release is available on [open-vsx.org](https://open-vsx.org/extension/devsense/phptools-vscode), the open-source registry for VS Code-compatible editors.
+The extension is available on [open-vsx.org](https://open-vsx.org/extension/devsense/phptools-vscode), the open-source registry for VS Code-compatible editors.
 
-## Zed IDE
+## Microsoft Visual Studio
 
-See [Zed IDE Support](./zed.md) for details.
+See [PHP Tools for Visual Studio Downloads](https://www.devsense.com/en/download) for the installers for both the Microsoft Visual Studio and Visual Studio Code.
 
-## Language Server Protocol (LSP)
+## Tools
 
-Many editors support direct integration with language servers, often with minimal configuration.
-
-The PHP Tools Language Server is available as a standalone [NodeJS package `devsense-php-ls`](https://www.npmjs.com/package/devsense-php-ls). Visit the [devsense-php-ls](https://www.npmjs.com/package/devsense-php-ls) for installation instructions and usage details.
+- [Zed Editor Support](./zed/index.md)
+- [Standalone Language Server](./lsp/index.md)
+- [Standalone MCP Server](./mcp/index.md)
+- [Standalone PHP Analysis Tool](./mcp/index.md) (_experimental_)
 
 ## Resources
 
 - [PHP Tools for VS Code on open-vsx.org](https://open-vsx.org/extension/devsense/phptools-vscode) - Installation files for VS Code-compatible editors.
-- [PHP Tools Language Server on npm](https://www.npmjs.com/package/devsense-php-ls) - Standalone language server for custom setups.
 - [PHP Tools for Visual Studio Downloads](https://www.devsense.com/en/download) - Installers for Microsoft Visual Studio and Visual Studio Code.
