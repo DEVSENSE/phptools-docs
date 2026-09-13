@@ -47,5 +47,5 @@ Additional 3rd-party stubs provided as a `.php` file with definitions can be pla
 
 ## See Also
 
-- [Composer Integration](./composer.md)
+- [Composer Integration](./tools/composer.md)
 - [WordPress Stubs and Linting](https://blog.devsense.com/2023/wordpress-intellisense-linting-vscode/)
