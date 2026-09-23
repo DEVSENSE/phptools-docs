@@ -9,8 +9,8 @@ PHP Tools for Sublime Text is provided as a language server (LSP).
 
 ## Requirements
 
-- Node.js: https://nodejs.org/en/download
-- Sublime Text: https://www.sublimetext.com/
+- Node.js: [nodejs.org/download](https://nodejs.org/en/download)
+- Sublime Text: [sublimetext.com](https://www.sublimetext.com/)
 
 ## Installation
 
@@ -38,7 +38,7 @@ npm i devsense-php-ls -g
 
   ![LSP installed](imgs/lsp-installed-status.png)
 
-**Enable PHP Tools Language Server**:
+### Enable PHP Tools Language Server
 
 Go to `Preferences` / `Package Settings` / `LSP` / `Server Configurations`
 
