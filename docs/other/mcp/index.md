@@ -1,16 +1,13 @@
 # PHP MCP Server
 
-The MCP server provides MCP tools, skills, and contexts that AI agents such as Claude can use to access semantic information about your code-base.
+The standalone MCP server provides tools, skills, and contexts that AI applications such as Claude can use to access semantic information about your codebase.
 
-> Note, the MCP Server is already built-in the Visual Studio Code extension. Use this tool to run a standalone MCP Server for PHP.
+> **Note:** The MCP server is already built into the [Visual Studio Code extension](../../vscode/ai/mcp.md) and the [standalone language server](../lsp/index.md). If you’re already using either of these, you don’t need to start a separate MCP server process.
 
 ## Installation
 
-The PHP MCP Server is available as a standalone [NodeJS command-line tool `devsense-php-mcp`](https://www.npmjs.com/package/devsense-php-mcp).
+You can install the PHP MCP server as a standalone [Node.js command-line tool, `devsense-php-mcp`](https://www.npmjs.com/package/devsense-php-mcp):
 
-_Install:_
-
+```sh
+npm install --global devsense-php-mcp
 ```
-npm i -g devsense-php-mcp
-```
-

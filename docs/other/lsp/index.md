@@ -9,5 +9,13 @@ The PHP Tools Language Server is available as a standalone [NodeJS command-line 
 _Install:_
 
 ```
-npm i -g devsense-php-ls
+npm install --global devsense-php-ls
+```
+
+## MCP Server Built-in
+
+Once you are running the `devsense-php-ls` process, note that it already provides MCP functionality within the same process. Enable it using the command line arguments below:
+
+```
+devsense-php-ls -mcp -mcp-server-port 9101
 ```
