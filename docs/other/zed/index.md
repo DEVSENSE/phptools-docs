@@ -58,4 +58,4 @@ Add any setting into the `"initialization_options"` section. For example:
 }
 ```
 
-The list of settings has not a documentation page (yet). In general they are the same as `php.` settings in VSCode's `settings.json`.
+The list of settings can be found at [the configuration](../../vscode/configuration.md#configuration-options).
