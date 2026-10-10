@@ -70,9 +70,9 @@ In the newly opened file `LanguageServers.sublime-settings`, add the following c
 
 ## Registration
 
-Add `<YOUR_LICENSE_KEY>` in the `"initialization_options"` above to enable additional premium features including [code actions](../../vscode/code%20actions/overview.md) and [starred suggestions](../../vscode/ai/starred-suggestions.md).
+Get any license key (both _Visual Studio_ and _Visual Studio Code_ are accepted) on our [purchase page](https://www.devsense.com/en/purchase).
 
-License key can be purchased on the [purchase page](https://www.devsense.com/en/purchase).
+Insert `<YOUR_LICENSE_KEY>` in the `"initialization_options"` above to enable additional premium features including [code actions](../../vscode/code%20actions/overview.md) and [starred suggestions](../../vscode/ai/starred-suggestions.md).
 
 ## Updating
 

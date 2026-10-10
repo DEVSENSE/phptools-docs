@@ -25,3 +25,15 @@ PHP Tools for Neovim is provided as a language server (LSP).
     ```
     vim.lsp.enable('phptools')
     ```
+
+## Configuration
+
+Open `./lsp/phptools.lua` and update `init_options` section. Valid configuration keys are:
+- `['0']` = `'<YOUR_LICENSE_KEY>'` or license key offline signature
+- any setting listed at [the configuration](../../vscode/configuration.md#configuration-options)
+
+## Registration
+
+Get any license key (both _Visual Studio_ and _Visual Studio Code_ are accepted) on our [purchase page](https://www.devsense.com/en/purchase).
+
+Insert `<YOUR_LICENSE_KEY>` in the `"init_options"` above to enable additional premium features including [code actions](../../vscode/code%20actions/overview.md) and [starred suggestions](../../vscode/ai/starred-suggestions.md).
