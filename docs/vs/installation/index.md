@@ -49,6 +49,19 @@ The product contains both a 30-day trial and a full product. When the trial is o
 
 PHP Tools updates are checked automatically. Visual Studio will notify you about updates available. Please see [Update Instructions](update.md) for more information.
 
+## Nightly Builds
+
+The latest version is always available on [our website](https://www.devsense.com/download), or at [vsixgallery.com](https://www.vsixgallery.com/extension/97D92289-92CB-6666-AA3E-B9506D2C1740).
+
+Add the [vsixgaller.com feed](https://www.vsixgallery.com/feedguide) into your Visual Studio to get automatic nightly-build updates:
+
+In Visual Studio (2026+), navigate to `Options` / `Environment` / `Extensions`:
+![Extensions Options](imgs/extensions-options.png)
+
+And add additional extension gallery:
+- _Name:_ `DEVSENSE`
+- _URL:_ `https://www.vsixgallery.com/feed/author/DEVSENSE`
+
 ## Troubleshooting
 
 ### PHP Tools cannot be found on VS Marketplace
