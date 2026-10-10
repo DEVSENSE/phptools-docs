@@ -15,6 +15,7 @@ PHP Tools for Neovim is provided as a language server (LSP).
 ## Installation
 
 1. Use Neovim Language Server [Quickstart Config](https://github.com/neovim/nvim-lspconfig):
+    
     > [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 2. Make sure the [Language Server](../lsp/index.md) is installed.
     ```
