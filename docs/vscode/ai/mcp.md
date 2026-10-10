@@ -5,23 +5,21 @@ Description: Model Context Protocol Support
 
 # MCP Server
 
-> Version 1.74 and newer.
+> Requires PHP Tools version 1.74 or later.
 
-> Supported on Visual Studio Code IDEs supporting `contributes.mcpServerDefinitionProviders` extension point. (VSCode, Cursor, Windsurf, Trae, ...)
+> Available in VS Code-based editors that support the
+> `contributes.mcpServerDefinitionProviders` extension point, including VS Code,
+> Cursor, Windsurf, and Trae.
 
-The PHP extension provides an integrated MCP server that helps AI agents provide faster, better, and more cost-effective responses.
-
-The MCP server provides MCP tools, skills, and contexts that AI agents such as Claude can use to access the same information that the PHP IDE knows internally.
+The PHP extension includes a Model Context Protocol (MCP) server. It exposes
+tools, skills, and context that compatible AI agents can use to access
+workspace-aware information from PHP Tools.
 
 ## MCP Tools
 
-By default, all provided tools are used by your agent. Click _Configure Tools_ in your Chat window to enable or disable tools:
-
-![MCP Configure Tools](imgs/mcp-configure-tools-button.png)
-
-The tools selection list:
-
-![MCP Tools Drop Down List](imgs/mcp-tools-list.png)
+MCP tools give compatible AI agents access to semantic information about your
+open workspace. This can help them answer PHP-related questions with more
+relevant context and reduce the need to search through files manually.
 
 ## Call Tools without confirmation
 
