@@ -29,7 +29,7 @@ Generated Doc Block above `__get`/`__set` is configurable using `"php.docblock.g
 
 ```json
 "php.docblock.getterSetterSnippet": {
-    "summary": false,
-    "@author": "${name:John}"
+    "summary": True,
+    "@author": "${name:Maxwell}"
 }
 ```
