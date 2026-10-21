@@ -17,6 +17,8 @@ categories:
 
 PHP 8.6 introduces **Partial Function Application (PFA)**, a new language feature that makes working with callbacks simpler and more expressive. Instead of writing small arrow functions just to fix a few arguments, you can now create reusable closures directly from function calls.
 
+<!-- more -->
+
 PHP Tools brings intelligent development support for this new syntax across **Visual Studio Code, Visual Studio, and other editors powered by the [`devsense-php-ls` language server](https://docs.devsense.com/other/lsp/)**. With type inference, inlay hints, and signature help, you can take advantage of PFA while keeping your code readable and easy to maintain.
 
 ## What is Partial Function Application?
