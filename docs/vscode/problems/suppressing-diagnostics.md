@@ -49,7 +49,7 @@ php_diagnostic = error
 
 ## settings.json
 
-Problems can be disabled in VSCode's `settings.json` file.
+Problems can be disabled in VS Code's `settings.json` file.
 
 ### `php.problems.exclude`
 

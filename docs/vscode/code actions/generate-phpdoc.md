@@ -16,7 +16,7 @@ The code action applies to all the selected text, so it can be used to generate 
 
 ## Settings
 
-`php.docblock.***Snippet`: set of settings for specific PHP symbols. Key is a tag name, value is a template according to VSCode snippet syntax, or `false` to skip the tag.
+`php.docblock.***Snippet`: set of settings for specific PHP symbols. Key is a tag name, value is a template according to VS Code snippet syntax, or `false` to skip the tag.
 
 _Sample:_
 

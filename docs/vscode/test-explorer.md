@@ -13,9 +13,9 @@ Each test is listed in the Test Explorer. Test methods are also annotated with t
 
 ## Configuration
 
-Running tests requires an installed [PHP](php-version.md) (`php`) with [Xdebug](https://xdebug.org/), corresponding PHPUnit/Para/Pest package (e.g. `phpunit/phpunit`) and a [PHPUnit configuration file](https://docs.phpunit.de/en/10.5/configuration.html) (`phpunit.xml` (`.dist`)).
+Running tests requires an installed [PHP](php-version.md) (`php`) with [Xdebug](https://xdebug.org/), the corresponding PHPUnit/ParaTest/Pest package (for example `phpunit/phpunit`), and a [PHPUnit configuration file](https://docs.phpunit.de/en/10.5/configuration.html) (`phpunit.xml` or `.dist`).
 
-Tests are resolved without running `php` from corresponding `.php` files in the workspace. Any changes to those files will automatically update the _Test Explorer_ accordingly.
+Tests are resolved without running `php` from the corresponding `.php` files in the workspace. Changes to those files automatically update the Test Explorer.
 
 ### PHP
 
@@ -23,7 +23,7 @@ Running the tests relies on the configured PHP executable. See [Selecting PHP Ex
 
 ### PHPUnit
 
-The PHPUnit phar file or PHPUnit or Para or Pest composer packages are necessary to execute the tests. Test Explorer lookups the following locations, in order:
+The PHPUnit phar file, or PHPUnit, ParaTest, or Pest composer packages, are necessary to execute the tests. Test Explorer looks up the following locations, in order:
 
 1. `"phpunit.phpunit"` setting (can be relative to the workspace folder).
   ```json
@@ -33,7 +33,7 @@ The PHPUnit phar file or PHPUnit or Para or Pest composer packages are necessary
   ```
 2. `{**/bin/pest,**/bin/para,**/bin/phpunit,**/phpunit/phpunit,**/phpunit.phar}` paths. If more files matching the pattern are found, the shortest one is preferred.
 
-Watch the `OUTPUT` window, `PHP (Test Explorer)` for details.
+Watch the **OUTPUT** window, **PHP (Test Explorer)** tab, for details.
 
 ### Custom Command
 
@@ -56,7 +56,7 @@ See the VSCode's `Output` > `PHP (PHPUnit)` tab for details.
 
 The tests rely on the `phpunit.xml` or `phpunit.xml.dist` configuration files ([PHPUnit configuration](https://phpunit.de/manual/6.5/en/appendixes.configuration.html)), which should be placed in the root of the workspace.
 
-The auto-detected configuration file can be overriden with the setting `"phpunit.config"`:
+The auto-detected configuration file can be overridden with the setting `"phpunit.config"`:
 
 #### Setting `"phpunit.config"`
 
@@ -77,13 +77,13 @@ Test Explorer View provides tools for manual and automatic test execution with v
 
 ## Debugging Tests
 
-Tests can be debugged with Xdebug by clicking the bug-like icon ![Debugging Icon](imgs/test-debuging.png) in the Test Explorer view, or *Debug Test* command in the test margin. The debugging process is the same as [standard debugging](debug/index.md). The Test Explorer can debug one or more tests at once.
+Tests can be debugged with Xdebug by clicking the debug icon in the Test Explorer view, or the **Debug Test** command in the test margin. The debugging process is the same as [standard debugging](debug/index.md). The Test Explorer can debug one or more tests at once.
 
 ![Test Explorer](imgs/test-debug.gif)
 
 ### Custom Debug Launch Profile
 
-Specify a new `"php"` or `"phpunit"` launch profile in `.vscode/launch.json` file, and use it for debugging tests in Test Explorer.
+Specify a new `"php"` or `"phpunit"` launch profile in `.vscode/launch.json` and use it for debugging tests in Test Explorer.
 
 **Example `launch.json` file:**
 
@@ -109,7 +109,7 @@ Specify a new `"php"` or `"phpunit"` launch profile in `.vscode/launch.json` fil
 - `"type"` must be either `"php"` or `"phpunit"`
 - there must not be `"program"` property
 
-The custom (launch.json) profile will be listed in Test Explorer, under **Debug** menu:
+The custom (`launch.json`) profile is listed in Test Explorer under the **Debug** menu:
 
 ![launch test using launch profile](imgs/test-with-launch-profile.png)
 

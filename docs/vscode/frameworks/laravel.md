@@ -19,7 +19,7 @@ The editor for `blade.php` files is extended with PHP syntax support, code foldi
 
 The formatter is built-in and provides code formatting for HTML, CSS, JS, and PHP, and the structure of Blade file. Use `Format Document` editor command.
 
-The configuration respects configurations of PHP, HTML, JS, CSS settings in VSCode respectively, and no additional setting is needed.
+The configuration respects the PHP, HTML, JS, and CSS settings in VS Code respectively, and no additional setting is needed.
 
 ### Smart Braces Completion
 
@@ -165,11 +165,11 @@ Additional code completions, blade directives, and blade components defined with
 
 ## Debugging using Built-in Server
 
-> Please see [debugging overview](../debug/index.md) for configuring PHP and [Xdebug](https://xdebug.org/) binaries first. Note, you don't need additional VSCode extensions.
+> Please see [debugging overview](../debug/index.md) for configuring PHP and [Xdebug](https://xdebug.org/) binaries first. Note that you don't need additional VS Code extensions.
 
 ### Without Launch Profile
 
-Without `.vscode/launch.json` launch file, simply press `F5` (Run / Start Debugging) with any opened `.php` file. VSCode will popup the following pre-configured profiles which initiate built-in Web Server with debugging enabled for the Laravel application.
+Without `.vscode/launch.json` launch file, simply press `F5` (Run / Start Debugging) with any opened `.php` file. VS Code will show the following pre-configured profiles which initiate the built-in web server with debugging enabled for the Laravel application.
 
 ![laravel debug](img/default-start-configurations.png)
 

@@ -5,49 +5,45 @@ Description: Including PHP extension stubs, custom stubs, and composer packages.
 
 # Workspace Stubs
 
-Add stubs for PHP extensions and frameworks so the editor can provide complete code completion, diagnostics, and IntelliSense for symbols outside your project.
+Stubs are definitions from outside your project, usually without complete PHP code. To get complete code completion, code diagnostics, refactorings, inlay hints, and other editor features, stubs for all the used extensions and external symbols should be included in your workspace.
 
-## Workspace Stubs
-
-Stubs are definitions from outside your project, usually not containing complete PHP code. In order to get complete code completion, code diagnostics, refactorings, inlay hints, and all the other editor features, _stubs_ for all the used extensions and other external symbols should be included in your workspace.
-
-Stubs can be obtained in various ways. There are stubs for standard PHP extensions, stubs for well-known PHP native extensions, or stubs for whole frameworks like `WordPress`.
+Stubs can be obtained in various ways. There are stubs for standard PHP extensions, stubs for well-known PHP native extensions, and stubs for whole frameworks such as WordPress.
 
 ### Command `> Workspace Stubs`
 
-Use the command from VSCodes' _Command Palette_ (`F1`) `Workspace Stubs`:
+Use the **Workspace Stubs** command from the **Command Palette** (`F1`):
 
 ![php stubs](imgs/workspace-stubs.png)
 
-There you can enable or disable stubs for standard PHP extensions, and a few additional stubs including `wordpress`, `composer`, or `php-amqp`.
+There you can enable or disable stubs for standard PHP extensions and a few additional stubs including WordPress, Composer, and php-amqp.
 
 ### Workspace Stubs Language
 
-Most of the stubs selected here are provided translated in all major languages including _English, German, Spanish, French, Italian, Japanese, Russian, or Chinese_. The language is set automatically based on your IDE UI language. The language can be overriden using the setting `"phpTools.language"`.
+Most stubs are translated into all major languages including English, German, Spanish, French, Italian, Japanese, Russian, and Chinese. The language is set automatically based on your IDE UI language and can be overridden using the setting `"phpTools.language"`.
 
 ### Setting `"php.stubs"`
 
-The setting `"php.stubs"` is equaivalent to the `Workspace Stubs` command.
+The setting `"php.stubs"` is equivalent to the **Workspace Stubs** command.
 
 ### Add Stub Code Action
 
-Whenever there is a function from a stub, which is not included yet, you can use a quick code action to include the corresponding _stub_.
+Whenever a function from a stub is not yet included, you can use a code action to include the corresponding stub.
 
 ![include stub from code action](imgs/vsc-add-stub-action.png)
 
-### Composer.Json' `ext-`
+### Composer.json `ext-`
 
-If using the Composer package manager, `composer.json` can optionally specify required PHP extensions (see [composer.json schema#require](https://getcomposer.org/doc/04-schema.md#require:~:text=PHP%20extensions%20your%20project%20needs)).
+If you use Composer, `composer.json` can optionally specify required PHP extensions (see the [composer.json schema#require](https://getcomposer.org/doc/04-schema.md#require:~:text=PHP%20extensions%20your%20project%20needs)).
 
-The editor respects the `"require"` and `"require-dev"` sections and includes stubs for extensions listed there automatically.
+The editor respects the `require` and `require-dev` sections and automatically includes stubs for the extensions listed there.
 
 ### Composer Packages
 
-Various other stubs are available as composer packages. Add them as development requirement (`"require-dev"`) to your project using [`composer: require-dev`](./tools/composer.md#composer-require-dev) command.
+Various other stubs are available as Composer packages. Add them as development requirements (`"require-dev"`) to your project using the [`composer: require-dev`](./tools/composer.md#composer-require-dev) command.
 
 ### Custom Stubs
 
-Additional 3rd-party stubs provided as a `.php` file with definitions can be placed wherever inside the workspace. The editor will process the files and utilize the containing definitions.
+Additional third-party stubs provided as a `.php` file with definitions can be placed anywhere inside the workspace. The editor processes the files and uses the containing definitions.
 
 ## See Also
 

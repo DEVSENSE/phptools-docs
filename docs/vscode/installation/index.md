@@ -9,15 +9,15 @@ Install PHP Tools for Visual Studio Code from the Visual Studio Code marketplace
 
 ## Installation
 
-The extension is installed through the Visual Studio Code' `Extensions` window.
+The extension is installed through Visual Studio Code's **Extensions** window.
 
-- Navigate to `Extensions` view (`View` / `Extensions`)
-- Search for `"devsense.phptools-vscode"`
-- Install the extension, and eventually reload your VS Code window.
+- Navigate to the **Extensions** view (`View` > **Extensions**).
+- Search for `"devsense.phptools-vscode"`.
+- Install the extension, then reload your VS Code window.
 
 ![phptools install vscode](../imgs/phptools-install.png)
 
-After the successful installation, please [activate](#license-activation) your copy of PHP Tools for VS Code to unlock PREMIUM features.
+After the successful installation, [activate](#license-activation) your copy of PHP Tools for VS Code to unlock premium features.
 
 ## License Activation
 
@@ -37,11 +37,11 @@ To activate your premium license:
 
 > If there is no Internet connection, a popup message with URL will open. Open this URL on a machine with Internet connection. There will be futrher instructions with offline activation code.
 
-### Activation (Programically)
+### Activation (Programmatically)
 
-> Version 1.60 and never
+> Version 1.60 and newer
 
-To activate the premium license programically, put the license key into the environmetal variable `DEVSENSE_PHP_LS_LICENSE`.
+To activate the premium license programmatically, put the license key into the environment variable `DEVSENSE_PHP_LS_LICENSE`.
 
 ```bash
 # Linux
@@ -50,7 +50,7 @@ export DEVSENSE_PHP_LS_LICENSE=Your_License_Key
 
 When the extension starts, and premium is not activated already, it checks the variable and tries to perform online activation silently. The result of activation can be checked in OUTPUT / PHP log.
 
-> **Offline activation (programically)**: To activate the license without Internet connection, go to https://www.devsense.com/purchase/validation, fill in the form and obtain an activation code. Set the whole code `{...}` into the environmental variable `DEVSENSE_PHP_LS_LICENSE` instead of the license key.
+> **Offline activation (programmatically)**: To activate the license without an Internet connection, go to https://www.devsense.com/purchase/validation, fill in the form and obtain an activation code. Set the whole code `{...}` into the environment variable `DEVSENSE_PHP_LS_LICENSE` instead of the license key.
 
 ### Free Trial
 
@@ -62,7 +62,7 @@ The trial lets you explore all PREMIUM features at no cost for 30 days.
 
 ## Offline installation
 
-Download the `.vsix` installation file from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode). The installation file has to be installed using the Visual Studio Code' `Command palette`, using the command `Extensions: Install from VSIX`.
+Download the `.vsix` installation file from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode). Install it using the **Command Palette** with the command **`Extensions: Install from VSIX`**.
 
 ## Pre-Release Installation
 

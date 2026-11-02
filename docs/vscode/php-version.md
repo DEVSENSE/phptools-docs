@@ -29,7 +29,7 @@ Clicking the PHP version number opens the **PHP Version Picker**:
 
 ### Composer.Json
 
-The editor picks PHP version automatically from the `composer.json` file, if it specifies the `php` or `php-64bit` requirement, i.e.:
+The editor picks the PHP version automatically from the `composer.json` file if it specifies the `php` or `php-64bit` requirement, for example:
 
 ```json
 { "require": { "php": ">=8.0.2" } }
@@ -45,7 +45,7 @@ This setting can be modified either using the PHP Version Picker (above) or manu
 }
 ```
 
-The value can be either in format "major.minor", or more specific "major.minor.build". Alternatively, when defininig custom PHP paths (below) with identifier, the setting can refer to a custom identifier, for example:
+The value can be either in format "major.minor", or more specific "major.minor.build". Alternatively, when defining custom PHP paths (below) with an identifier, the setting can refer to a custom identifier, for example:
 
 ```json
 {
@@ -55,17 +55,17 @@ The value can be either in format "major.minor", or more specific "major.minor.b
 
 ## Custom PHP paths
 
-In case, PHP is installed in a non-standard custom location, custom path can be specified in order to let PHP Tools to find it and use it.
+In case PHP is installed in a non-standard custom location, you can specify a custom path so PHP Tools can find and use it.
 
-Open the Visual Studio Code Settings (File / Preferences / Settings). Switch to "User" scope, and look for "php.executables" setting:
+Open VS Code Settings (**File** > **Preferences** > **Settings**). Switch to the **User** scope, and look for the `php.executables` setting:
 
 ![vscode settings php executables](imgs/vsc-preferences-executables.png)
 
-Edit the "php.executables" setting:
+Edit the `php.executables` setting:
 
 ![php executables setting](imgs/vsc-settings-php-executables.png)
 
-The "php.executables" setting contains pairs of { *`"identifier"`* : *`"php binary path"`* }.
+The `php.executables` setting contains pairs of `"identifier": "php binary path"`.
 
 The specified identifier can be used by PHP Tools in PHP Version Picker (above), the debug launch configuration, or "php.version" setting in general. The version of PHP is automatically detected, and the editor will adjust to that.
 

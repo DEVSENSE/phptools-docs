@@ -84,7 +84,7 @@ Built-in PHP symbols have rich documentation, translated into several major lang
 
 ![php manual language options](imgs/manual-language-options.png)
 
-By default, the language is set to the VSCode's UI language.
+By default, the language is set to VS Code's UI language.
 
 _Example of a Spanish IntelliSense:_
 

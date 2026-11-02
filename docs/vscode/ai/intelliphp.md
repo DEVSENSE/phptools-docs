@@ -16,15 +16,15 @@ IntelliPHP uses machine learning trained on PHP code repositories to provide con
 
 ## Settings
 
-| Setting | Decription |
-| ---     | ---        |
+| Setting | Description |
+| ---     | ---         |
 | `intelliphp.inlineSuggestionsEnabled` | Enables or disables inline suggestions in PHP files. |
 
-## Disable/Uninstall
+## Disable or Uninstall
 
-In case you don't want the inline suggestion assistant, and/or you need to save system resources, you can disable or uninstall the entire IntelliPHP extension.
+If you do not want the inline suggestion assistant, or you need to save system resources, you can disable or uninstall the IntelliPHP extension.
 
-Use VSCode *Extensions* panel, navigate to extension `DEVSENSE.intelli-php-vscode`, and manage it there.
+Use the VS Code **Extensions** panel, navigate to the `DEVSENSE.intelli-php-vscode` extension, and manage it there.
 
 ## Features
 
@@ -34,7 +34,7 @@ IntelliPHP is designed to save you time and boost your productivity. Here are so
 - **Code Snippets:** IntelliPHP provides code snippets and whole lines of code to streamline your development process.
 - **Framework Support:** Whether you're using Laravel, Drupal, WordPress, or any other PHP frameworks, IntelliPHP has you covered.
 - **Local:** IntelliPHP operates locally, no code leaves your machine EVER.
-- **Speed:** IntelliPHP was designed to run efficiently on CPU, no GPU is required! The suggestions are returned without any latency penalty caused by the network.
+- **Speed:** IntelliPHP runs efficiently on CPU — no GPU required — so suggestions return without the latency of a network round-trip.
 
 ## Accepting suggestions
 
@@ -52,6 +52,6 @@ You can also accept just a current word in the offered suggestion by pressing <k
 
 ## Troubleshooting
 
-- Check the log output in VSCode's OUTPUT window, tab "IntelliPHP".
-- Ensure, the setting `editor.inlineSuggest.enabled` is `true`.
-- Check the license state in IntelliPHP About. Use command `IntelliPHP: About ...` to open the about page.
+- Check the log output in the VS Code **OUTPUT** window, tab **IntelliPHP**.
+- Make sure the setting `editor.inlineSuggest.enabled` is `true`.
+- Check the license state in **IntelliPHP: About**. Run the **`IntelliPHP: About ...`** command to open the about page.

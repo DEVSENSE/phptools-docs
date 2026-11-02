@@ -20,4 +20,4 @@ Please see [launch.json](launch-json.md#dbgp-proxy-settings) on how to configure
 ## See Also
 
 - [Getting Started](../index.md)
-- [launch.json](launch-json.md) - VSCode+PHP debug launch configurations.
+- [launch.json](launch-json.md) - VS Code + PHP debug launch configurations.
