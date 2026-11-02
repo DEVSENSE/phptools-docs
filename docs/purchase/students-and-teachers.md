@@ -6,9 +6,9 @@ Description: FAQ - Students and teachers page
 
 # Students and Teachers
 
-## PHP Tools licenses are free for students and teachers 
+Free academic and classroom licenses are available for students and teachers.
 
-With PHP Tools and [Visual Studio Community 2022](https://visualstudio.microsoft.com/downloads/) students get a powerful PHP development environment at no cost!
+With PHP Tools and [Visual Studio Community 2022](https://visualstudio.microsoft.com/downloads/), students get a PHP development environment at no cost.
 
 Our Academic Licenses allow you to use both PHP Tools for Visual Studio and PHP Tools for VS Code.
 

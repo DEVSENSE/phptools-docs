@@ -5,9 +5,17 @@ Description: AI Autocomplete for PHP
 
 # IntelliPHP - AI Autocomplete for PHP
 
-IntelliPHP is an advanced AI-assisted development tool specifically tailored for PHP programmers. Just like its counterpart **IntelliCode**, IntelliPHP harnesses the power of machine learning to understand PHP code and provide context-aware suggestions. Unlike GitHub Copilot, IntelliPHP operates entirely locally, ensuring that code remains secure and private within their own development environments.
+IntelliPHP is an AI-assisted autocomplete feature for PHP developers, included in PHP Tools for Visual Studio. It provides context-aware code suggestions as you type, ranging from short completions to whole lines of code. Unlike cloud-based assistants, IntelliPHP runs entirely on your local machine, so no code is sent to an external server.
 
-The primary aim of IntelliPHP is to save developers time spent in typing code. It's designed to offer suggestions ranging from short and highly likely suggestions up to whole lines of code. The model has been trained in-house on vast repositories of PHP code, making it adept at providing accurate and relevant suggestions tailored to PHP development.
+The model has been trained in-house on PHP code repositories, making it well suited to PHP development. It helps you write code faster by suggesting likely completions while you type.
+
+## Installation and Setup
+
+IntelliPHP is included with PHP Tools for Visual Studio. To get started, make sure you have Visual Studio 2022 installed and the PHP Tools extension installed from [Visual Studio](https://www.devsense.com/download) or from `Tools | Extensions` in Visual Studio.
+
+IntelliPHP is enabled by default starting from version `1.74`. You can turn it on or off in `Tools | Options | Text Editor | PHP | IntelliPHP`.
+
+![Enable IntelliPHP in Visual Studio Options](imgs/intelliphp-options.png)
 
 ## Installation and Setup
 

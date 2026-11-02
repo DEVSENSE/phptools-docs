@@ -107,3 +107,4 @@ You should have Xdebug configured by now, you can try a simple scenario:
 
 - [Debug Overview](index.md)
 - [Launch Configurations](launch-json.md)
+- [How to install Xdebug for PHP Tools for VS Code on Mac](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac)

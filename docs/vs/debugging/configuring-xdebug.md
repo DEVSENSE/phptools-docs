@@ -49,6 +49,8 @@ xdebug.client_port = 9003
 xdebug.start_with_request=trigger
 ```
 
+For more on Xdebug setup, see [Manual PHP &amp; Debug Installation on Windows](https://blog.devsense.com/2026/installing-php-debug-windows-vscode/) and [How to install Xdebug for PHP Tools for VS Code on Mac](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac).
+
 > **Notice**:
 >
 > -  From PHP 5.3 onwards, you need to use `zend_extension` and not `zend_extension_ts`.
@@ -56,6 +58,8 @@ xdebug.start_with_request=trigger
 > - PHP Tools for Visual Studio has a configuration check feature that can recommend and apply configuration changes depending on your system.
 
 `xdebug.remote_port` setting has to be the same as in PHP Tools options (in Visual Studio, `Tools | Options | PHP Tools | Advanced`). The default value is `9000` (For Xdebug 3 it's `9003`) and it is usually enough just to leave it as it is.
+
+For step-by-step Xdebug setup on other platforms, see [How to install Xdebug for PHP Tools for VS Code on Mac](https://blog.devsense.com/2019/how-to-install-xdebug-for-phptools-for-vscode-on-mac) and [Manual PHP &amp; Debug Installation on Windows](https://blog.devsense.com/2026/installing-php-debug-windows-vscode/).
 
 > **Note**: **nginx** server using **FastCGI** may block port `9000` by default. Change **Xdebug** port to `9001` both in `php.ini` and in Visual Studio settings. Note that restarting **nginx** will not reload `php.ini`! You will need to restart **PHP**, or your server.
 

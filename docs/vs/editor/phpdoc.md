@@ -156,3 +156,4 @@ The PHPDoc comment block is formatted according to the statement below which it 
 ## See Also
 
 - [Code Completion](code-completion.md)
+- [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc)

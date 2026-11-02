@@ -5,11 +5,13 @@ Description: Using of IntelliSense Code Completion.
 
 # Code Completion
 
-The code completion (or word completion) is a feature that predicts what can be typed in a specific place in a specific context. It usually displays a list of suggestions, pre-selects the best one and automatically completes the word when possible.
+Code completion (IntelliSense) predicts what can be typed at a specific position in your PHP code. It displays a list of suggestions, pre-selects the most likely one, and can automatically complete the word.
 
-The feature learns from user's code, integrates PHP manual, performs type analysis and provides suggestions based on all this information.
+The feature analyzes your code, integrates the PHP manual, and performs type analysis to provide relevant suggestions.
 
 ![Code Completion](imgs/code-completion.png)
+
+See also: [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc) for how PHPDoc type annotations improve completion.
 
 ## Triggering Completion
 

@@ -46,7 +46,6 @@ The following notations are supported:
 ![starred completion](../ai/imgs/starred-completion.png)
 
 See [Starred Suggestions](../ai/starred-suggestions.md) for details.
-
 ## Completing Parentheses
 
 By default, completing a function name also completes parentheses and, if the function has any parameters to fill in, the keyboard cursor is placed inside them.
