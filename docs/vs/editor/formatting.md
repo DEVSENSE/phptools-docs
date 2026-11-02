@@ -5,11 +5,9 @@ Description: Formatter will help you keep your PHP code in Visual Studio clean a
 
 # Formatting
 
-PHP Tools for Visual Studio provides powerful formatting options that help developers improve code readability and consistency. In this documentation, we will discuss the various formatting options available in PHP Tools for Visual Studio and how to configure them to meet your specific coding style requirements.
+PHP Tools for Visual Studio includes a code formatter that helps keep your PHP code readable and consistent. You can configure when formatting is applied automatically and choose from predefined code styles (such as PSR-12, PSR-2, Laravel, WordPress, and others) or customize individual formatting rules.
 
-To configure formatting, use the **Formatting** Options page and its subpages (Indentation, New Lines, Spacing, and Wrapping) to set options for formatting code in the code editor.
-
-To access this options page, choose `Tools | Options` from the menu bar. In the Options dialog box, choose `Text Editor | PHP | Formatting`.
+To configure formatting, open the **Formatting** options page: choose `Tools | Options` from the menu bar, then navigate to `Text Editor | PHP | Formatting`.
 
 ## Formatting (General) page
 

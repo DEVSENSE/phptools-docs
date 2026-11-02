@@ -5,10 +5,9 @@ Description: Smarty template engine support.
 
 # Smarty Support
 
-PHP Tools natively supports the Smarty template engine since version 1.22 in Visual studio 2015 and newer.
-PHP Tools provides many tools for Smarty, such as intellisense and navigation. The following sections provide detailed information on all the available features.
-The Smarty support is built-in and its features do not require Smarty to be installed in the project (detailed information is provided for each feature).
-Smarty can be installed either via a composer package or its source code can be directly integrated into the project.
+PHP Tools supports the Smarty template engine since version 1.22. Smarty integration is built into PHP Tools for Visual Studio and provides IntelliSense, navigation, and syntax validation for Smarty templates.
+
+Smarty support does not require Smarty to be installed in your project. Smarty can be installed via Composer or by including its source files directly in the project.
 
 ## Syntax Highlighting
 

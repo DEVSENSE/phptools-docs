@@ -47,6 +47,8 @@ An unknown type is always reported as a warning in the code. An example of this 
 
 ![Unknown types](imgs/unknown-types.png)
 
+For more on using PHPDoc type annotations, see [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc).
+
 Unknown types are recognized in the following situations:
 
 - An unknown base class.

@@ -1,6 +1,6 @@
 /*
 Title: PHP Tools for Visual Studio & Visual Studio Code - Documentation
-Description: Explore comprehensive PHP Tools documentation for Visual Studio, Visual Studio Code, and other IDEs. Get started with setup guides, features, troubleshooting, and best practices for seamless PHP development.
+Description: Welcome to the PHP Tools documentation. This site covers PHP Tools for Visual Studio, Visual Studio Code, and other editors and tools. Get started with setup guides, feature references, troubleshooting, and best practices for PHP development.
 */
 
 # PHP Tools Documentation

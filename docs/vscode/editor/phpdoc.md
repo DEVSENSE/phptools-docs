@@ -48,6 +48,8 @@ function foo($x) {
 
 Type hints are supported within the vast array of tags, including standard Doc Comment tags (i.e. `@return`, `@param`), PhpStan tags (i.e. `@phpstan-assert`, `@phpstan-template`, ..), or Psalm. They do support the generic type annotations, WordPress type annotations, MediaWiki annotations, and more. 
 
+For more on generics, see [Generics in PHP using PHP DocComments](https://blog.devsense.com/2022/generics-in-php-using-phpdoc).
+
 Additionally, type hints are highlighted with colors defined your Visual Studio Code Theme. This handles generic type annotations, structured objects, structured array syntax, specific colors for interfaces, enum, traits.
 
 ## PHPDoc Highlighting in the Editor

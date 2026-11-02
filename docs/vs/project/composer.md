@@ -47,7 +47,6 @@ Composer will continue running in the background when you close the dialog (comp
 >
 > A workaround is to install the package in the project with a shorter path. Then you will be able to install it also in this project as the package will be installed from the Composer cache.
 
-
 ## Managing Installed Packages in Solution Explorer
 
 You can view and manage composer packages under the **References** node in the **Solution Explorer**. This reflects the content of project's `composer.json` file and the actual install status of the packages.

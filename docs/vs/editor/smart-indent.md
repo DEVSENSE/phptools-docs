@@ -5,7 +5,7 @@ Description: Automatic indentation of new lines.
 
 # Smart Indentation
 
-The PHP editor supports the smart indentation feature. The editor's cursor is automatically indented on new lines to the desirable position. This is most noticeable after `{`, within `if`, after `;` or `:`.
+Smart indentation automatically positions the caret on new lines as you type PHP code. This is most noticeable after `{`, within `if` blocks, after `;` or `:`.
 
 ## Settings
 

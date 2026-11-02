@@ -5,10 +5,9 @@ Description: Twig template engine support.
 
 # Twig Support
 
-PHP Tools natively support the Twig template engine since version `1.25` in Visual studio 2015 and newer.
-PHP Tools seamlessly integrate Twig support into the Visual Studio using the same shortcuts, commands and menus as the other languages.
-The Twig support is built into the system and its features do not require the Twig engine to be installed in the project, but some features provide additional information when it is present (detailed information is provided for each feature).
-Twig can be installed either via a composer package (directly available in the PHP Tools) or its source code can be directly included into the project.
+PHP Tools supports the Twig template engine since version `1.25`. Twig integration is built into PHP Tools for Visual Studio and works with the same shortcuts, commands, and menus as the other language features.
+
+Twig support does not require the Twig engine to be installed in your project, though some features provide richer information when it is present. Twig can be installed via Composer or by including its source files directly in the project.
 
 <div class="embed-responsive embed-responsive-16by9">  
 <a href="http://www.youtube.com/watch?v=P10QBhoFgEs" class="popup-youtube" id="TwigVS" title="Twig Editor in Visual Studio">

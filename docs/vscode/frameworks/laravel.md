@@ -5,9 +5,9 @@ Description: Using Laravel in PHP extension for Visual Studio Code
 
 # Laravel
 
-> [PHP extension](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) version >= `1.55`.
+> Requires PHP Tools for Visual Studio Code version `>= 1.55`.
 
-Support for Laravel framework is built-in. The editor provides additional code completion, navigation, syntax highlighting, `.blade.php` editor, code formatting style for Laravel, and debugging using built-in server.
+Laravel support is built into PHP Tools for Visual Studio Code. The editor provides additional code completion, navigation, syntax highlighting, a `.blade.php` editor, a Laravel code formatting style, and debugging using the built-in server.
 
 ## Blade Templating
 

@@ -6,9 +6,9 @@ Description: FAQ - Open-source
 
 # Open-source
 
-## PHP Tools licenses are free for open-source projects 
+Free licenses are available for qualifying open-source projects.
 
-With PHP Tools and [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) developers get a powerful PHP development environment for their open-source projects at no cost! 
+With PHP Tools and [Visual Studio Community](https://visualstudio.microsoft.com/downloads/), developers get a PHP development environment for open-source projects at no cost. 
 
 Our Open-source Licenses allow you to use both PHP Tools for Visual Studio and PHP Tools for VS Code. 
 

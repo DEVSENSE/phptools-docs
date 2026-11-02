@@ -6,7 +6,7 @@ Generated: see Components/Devsense.PHP.DocumentationGeneratorApp
 
 # Error Codes
 
-The following table lists most of the available code diagnostics.
+The following table lists most of the available code diagnostics reported by PHP Tools for Visual Studio.
 
 ## Diagnostics
 

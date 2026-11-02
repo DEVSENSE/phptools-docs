@@ -5,9 +5,9 @@ Description:
 
 # Refactoring
 
-The refactoring is a set of features that allow for semantic-based code modifications across multiple files. The changes are only applied when PHP Tools has all the necessary information to assure that the changes won’t corrupt the code.
+Refactoring features let you make semantic-based code modifications across multiple files. Changes are applied only when PHP Tools has enough information to ensure the code won't be corrupted.
 
-Refactoring works best for well-documented code, with annotated types and type hints for function parameters and return type.
+Refactoring works best on well-documented code with annotated types and type hints for function parameters and return types.
 
 > The refactoring is disabled (aborted) when there is a syntax error in the project. This is done in order to avoid corrupting the code.
 
