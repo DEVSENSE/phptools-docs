@@ -3,6 +3,8 @@ Title: Organize Uses
 */
 # Organize Uses
 
+Keep your `use` declarations clean by removing unused imports and sorting the remaining ones, either manually with a code action or automatically on file save.
+
 ## Unused `use` Fix
 
 Any `use`, group of `use`, or a single alias that is not needed in the code is immediately dimmed.

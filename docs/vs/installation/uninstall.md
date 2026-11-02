@@ -5,6 +5,10 @@ Description: Uninstall PHP Tools for Visual Studio
 
 # Uninstall
 
+Remove PHP Tools for Visual Studio when you no longer need the extension, for example before upgrading to a newer major version or switching to a different PHP development setup.
+
+Uninstalling does not remove your PHP projects or source code; it only removes the PHP Tools extension itself.
+
 ## Visual Studio 2017 or higher
 
 Go to Visual Studio's **Extension Manager** in `Tools | Extensions and Updates` (Visual Studio 2017) or `Extensions | Manage Extensions` (Visual Studio 2019 or newer).

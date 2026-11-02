@@ -4,6 +4,8 @@ Title: Extract Function &amp; Interface
 
 # Extract Refactoring
 
+Extract parts of your PHP code into new functions, methods, constants, or interfaces to improve readability and reuse. These refactorings are available as code actions directly in the editor.
+
 ## Extract Function
 
 The _extract function_ refactoring takes a selection of code, moves it into a separate function or method (or constant), and asks for a new function (or constant) name.

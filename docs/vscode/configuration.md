@@ -3,6 +3,10 @@ Title: Configuration
 Description: PHP Tools for VS Code configuration options.
 */
 
+# Configuration
+
+Configure PHP Tools for Visual Studio Code through VS Code settings. This page lists the major settings for language, debugging, code analysis, formatting, and more.
+
 ## Configuration options
 
 The following major settings are introduced by the extension. Navigate to [VSCode's Settings](https://code.visualstudio.com/docs/getstarted/settings) to see or modify them.

@@ -3,6 +3,10 @@ Title: Writing PHPDoc
 Description: Writing and generating PHPDoc comments
 */
 
+# Writing PHPDoc
+
+Document your PHP code with PHPDoc comments and let the editor infer types, generate documentation blocks, and improve code completion. This page explains how to write, generate, and highlight PHPDoc in VS Code.
+
 ## PHPDoc Completion
 
 PHPDoc block is completed by typing `/` `*` `*` or using a [code action](../code%20actions/generate-phpdoc.md).

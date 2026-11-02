@@ -5,6 +5,8 @@ Description: Using WordPress in Visual Studio Code
 
 # WordPress
 
+Develop WordPress plugins in Visual Studio Code with PHP Tools. Get IntelliSense for WordPress functions and hooks, code formatting that follows WordPress coding standards, and diagnostics without needing the full WordPress core in your workspace.
+
 ## Plugin Development (without WordPress core)
 
 When you open a standalone WordPress plugin in VS Code, the editor may report missing declarations from WordPress core.

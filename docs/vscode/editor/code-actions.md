@@ -3,7 +3,9 @@ Title: Code Actions
 Description: Using PHP code actions
 */
 
-## Code Actions
+# Code Actions
+
+The editor provides **Code Actions** - quick fixes and refactorings for the text currently under the caret. Use them to resolve code problems and simplify your PHP code directly in the editor.
 
 The editor is provided with so-called **Code Actions** - Quick Fixes and refactorings for the text currently under the caret. The available code action is annotated with a light bulb next to the text.
 

@@ -3,6 +3,10 @@ Title: Product Offline Activation
 Description: Activate PHP Tools for Visual Studio Offline
 */
 
+# Offline Activation
+
+Activate your PHP Tools for Visual Studio license without a direct Internet connection. This is useful when your machine is offline or blocked by company policies; the activation is completed in a web browser on another machine with Internet access.
+
 ## Offline Activation
 
 In case there is no Internet connection available or the Internet has been blocked by company policies, PHP Tools activation can be processed in a web browser on another machine with a working Internet connection.

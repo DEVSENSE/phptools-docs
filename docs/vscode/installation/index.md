@@ -3,6 +3,10 @@ Title: Installation
 Description: Installing PHP Extension for Visual Studio Code.
 */
 
+# Installation
+
+Install PHP Tools for Visual Studio Code from the Visual Studio Code marketplace and activate it to unlock PHP IntelliSense, debugging, profiling, Composer support, and more.
+
 ## Installation
 
 The extension is installed through the Visual Studio Code' `Extensions` window.

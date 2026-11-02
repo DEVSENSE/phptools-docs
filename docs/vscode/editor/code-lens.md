@@ -3,6 +3,10 @@ Title: Code Lens
 Description: Using PHP code lenses
 */
 
+# Code Lens
+
+CodeLens shows contextual information such as references, implementations, overrides, and prototypes directly above your PHP declarations. Use it to navigate and understand your codebase faster.
+
 ## Code Lens
 
 CodeLens appears above functions, classes, interfaces, traits, properties, and constants. This margin provides quick contextual information about your code - references, implementations, overrides, or the method prototype. Upon clicking on the text, the detailed window is opened.

@@ -3,6 +3,10 @@ Title: Selecting PHP
 Description: Selecting and defining PHP version to be used by the editor
 */
 
+# Selecting PHP Version
+
+Choose which PHP executable the editor uses for code analysis, completion, debugging, the built-in server, and test execution. You can also define custom PHP paths for different versions.
+
 ## PHP Version
 
 Workspace uses the selected version of PHP to analyze the code, to provide specific code completions, to initiate built-in web server with debugging and profiling, and to run tests.

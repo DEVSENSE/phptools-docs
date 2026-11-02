@@ -3,6 +3,8 @@ Title: Implement Abstracts &amp; Overrides
 */
 # Implement Abstracts
 
+Implement missing abstract methods and properties, or override members from a parent class or interface, directly from the editor using quick fixes and code actions.
+
 ## Implement Abstract Methods &mp; Properties
 
 Error `PHP2414` indicates that the non-abstract class has some functions or properties missing. The quick fix or code action automatically implements the missing abstract functions and properties, including all the available documentation and type information. The generated code is inserted at the end of the class.

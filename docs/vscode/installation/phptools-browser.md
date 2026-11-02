@@ -3,6 +3,10 @@ Title: Web Extension
 Description: PHP Tools in the Browser.
 */
 
+# PHP IntelliSense in the Browser
+
+Use PHP Tools in your browser on vscode.dev or github.dev. Get PHP language features such as IntelliSense and code analysis without installing anything locally.
+
 ## PHP IntelliSense in the Browser
 
 The PHP Tools extension offers [support](https://blog.devsense.com/2022/php-intellisense-web) when running on [vscode.dev](https://vscode.dev) (including [github.dev](https://github.dev)). All the editor features can be used in this browser-based development environment.

@@ -5,6 +5,8 @@ Description: Composer support in Visual Studio Code
 
 # Composer
 
+Manage PHP dependencies with Composer directly inside Visual Studio Code. Browse, install, update, and remove packages from Packagist, run Composer commands, and get IntelliSense in your composer.json file.
+
 ## Installation
 
 Composer _All-in-One_ is part of the **PHP Tools** extension. It can also be installed separately from the [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode) extension page.

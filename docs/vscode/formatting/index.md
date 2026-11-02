@@ -3,6 +3,10 @@ Title: Code Formatting
 Description: Formatter will help you keep your PHP code in VS Code clean and maintain the preferred code style like PSR-12, PSR-2, Allman and K&R.
 */
 
+# Code Formatting
+
+Keep your PHP code clean and consistent with the built-in formatter. Choose from predefined code styles such as PSR-12, PSR-2, Laravel, WordPress, and more, or customize the formatting rules to match your team's guidelines.
+
 ## Code Formatting
 
 The integrated _formatter_ helps you keep the code looking clean and maintain the selected code style (e.g. `"PSR-12"`).

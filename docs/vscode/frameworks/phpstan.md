@@ -5,6 +5,8 @@ Description: Compatibility with PHPStan annotations.
 
 # PHPStan
 
+PHP Tools understands PHPStan annotations in your PHPDoc comments, helping you get accurate type information, code completion, and diagnostics that align with your static analysis setup.
+
 ## Annotations
 
 The editor recognizes and respects wide range of PHPDoc annotations introduced by PHPStan, including generics and various structured types.

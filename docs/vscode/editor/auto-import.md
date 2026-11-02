@@ -3,6 +3,10 @@ Title: Auto Import
 Description: Importing classes, functions, and constants from outside the namespace
 */
 
+# Auto Import
+
+Import classes, functions, and constants from outside the current namespace automatically while you write PHP code. This page explains the available auto-import modes and how to configure them.
+
 ## Auto-Import on Code Completion
 
 Code completion lists all the available types, functions, and constants that might be used in the current context. By default, symbols outside the current namespace scope are listed as well.

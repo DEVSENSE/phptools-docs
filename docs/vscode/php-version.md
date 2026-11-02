@@ -3,6 +3,10 @@ Title: PHP Version
 Description: PHP Tools for VS Code choosing the PHP version.
 */
 
+# PHP Version
+
+Choose which PHP executable the editor uses for code analysis, debugging, the built-in server, and test execution. You can also define custom PHP paths for different versions.
+
 ## PHP Requirements
 
 *PHP Tools Editor does not require `php` to be installed on the system. Although, for debugging, testing, and launching the PHP application, `php` is required. This page shows how to choose what `php` will be used by the debugger, the built-in server, the test explorer, and the other features that require a PHP binary or a PHP version to work with.*

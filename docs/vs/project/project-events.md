@@ -3,6 +3,10 @@ Title: Events
 Description: Project Events Configuration
 */
 
+# Project Events
+
+Customize actions that run automatically when certain project events occur, such as opening a project, saving a file, or publishing changes. Events help you automate repetitive tasks in your PHP development workflow.
+
 ## Project Events
 
 An important part of the project work flow is automatization. **`Events`** project property page allows to customize actions triggered upon certain events. The page can be opened in `Project`/`Properties`:
