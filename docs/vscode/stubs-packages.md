@@ -5,7 +5,7 @@ Description: Including PHP extension stubs, custom stubs, and composer packages.
 
 # Workspace Stubs
 
-Add stubs for PHP extensions and frameworks so the editor can provide complete code completion, diagnostics, and IntelliSense for symbols outside your project.
+Add stubs for PHP extensions and frameworks so the editor can provide complete code completion, diagnostics, and IntelliSense for symbols that your project depends on.
 
 ## Workspace Stubs
 
