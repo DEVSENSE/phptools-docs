@@ -5,7 +5,7 @@ Description: PHP Tools for VS Code - Getting Started.
 
 # Getting Started
 
-Welcome to PHP Tools for Visual Studio Code. This extension adds PHP language support to Visual Studio Code, including a code editor, debugger, built-in server, and PHPUnit tester.
+Welcome to PHP Tools for Visual Studio Code. This extension adds PHP language support to Visual Studio Code, including a full code editor, debugger, built-in server, tester, and MCP for AI agents.
 
 ## Premium Features
 
