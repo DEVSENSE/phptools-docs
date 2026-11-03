@@ -16,7 +16,7 @@ categories:
 
 # Vibe Coding getting smarter with PHP diagnostics
 
-[PHP Tools for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) works seamlessly with [Cursor](https://www.cursor.com/)—the popular AI-powered code editor. With the PHP Tools extension, you get a full suite of features, including code completion, intelligent code actions, an integrated debugger, advanced syntax highlighting, and effortless navigation. But that’s not all! It also offers workspace-wide code analysis and detailed diagnostics. Plus, these features are fully compatible with the AI chat agent, creating a powerful coding experience.
+[PHP Tools for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode) works seamlessly with VS Code Editors like Visual Studio Code itself, [Cursor](https://www.cursor.com/) - the popular AI-powered code editor, and others. With the PHP Tools extension, you get a full suite of features, including code completion, intelligent code actions, an integrated debugger, advanced syntax highlighting, and effortless navigation. But that’s not all! It also offers workspace-wide code analysis and detailed diagnostics. Plus, these features are fully compatible with the AI chat agent, creating a powerful coding experience.
 
 <!-- more -->
 
