@@ -71,6 +71,17 @@ The `php.executables` setting contains pairs of `"identifier": "php binary path"
 
 The specified identifier can be used by PHP Tools in PHP Version Picker (above), the debug launch configuration, or "php.version" setting in general. The version of PHP is automatically detected, and the editor will adjust to that.
 
+## PHP 8.6 Partial Function Application
+
+PHP Tools supports PHP 8.6 partial function application: a closure can be created from a function or method using the `...` placeholder, for example:
+
+```php
+$strlen = strlen(...);
+$upper = array_map(strtoupper(...), $names);
+```
+
+The editor provides code completion and type analysis for partial function applications.
+
 ## Related Links
 
 - [Configuration](configuration.md) - Configuring the environment.
