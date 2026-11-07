@@ -21,6 +21,21 @@ MCP tools give compatible AI agents access to semantic information about your
 open workspace. This can help them answer PHP-related questions with more
 relevant context and reduce the need to search through files manually.
 
+Exposed tools include:
+
+- `php_search_symbol_at` — returns information about the PHP symbol at a
+given position in a file (file path plus line and column).
+- `php_get_file_problems` — returns code validation problems (diagnostics)
+for a given file.
+
+## MCP Settings
+
+The integrated PHP MCP server is configured with the following settings:
+
+- `php.mcp.enable` — enables or disables the MCP server.
+- `php.mcp.serverPort` — TCP port the MCP server listens on; must be unique
+for every workspace opened at the same time (for example `58372`).
+
 ## Call Tools without confirmation
 
 Open _Command Palette_ (`F1`), and search for `Chat: Manage Tool Approval`:
