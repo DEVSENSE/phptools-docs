@@ -23,6 +23,8 @@ Right-click the name and choose `Rename Symbol`, or select a name and press the 
 
 The rename works across the workspace, and takes indirect names and special annotations in consideration - this includes PHP callables using array syntax, special string literals in the context of `ReflectionClass`, `#[DataSource()]` etc., name of identifiers in various frameworks like Laravel or WordPress.
 
+Renames can span the whole project, including files on the include path and temporary project files.
+
 ## See also
 
 - [Code Actions](code-actions.md)
