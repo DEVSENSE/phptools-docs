@@ -153,6 +153,10 @@ Named routes are identified within `/routes/` directory. Route name and the rout
 
 ![route parameter completion](img/route-completion.gif)
 
+### Laravel Folio
+
+Laravel Folio is Laravel's page-based router: routes and their parameters are defined by Blade templates and their path. Route names and route parameters for Folio pages are suggested in `route()` and related functions together with detailed tool-tips, just like routes defined in `/routes/`.
+
 ## Laravel Idea `ide.json` Support
 
 > Since `1.56`
