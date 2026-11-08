@@ -28,13 +28,15 @@ given position in a file (file path plus line and column).
 - `php_get_file_problems` — returns code validation problems (diagnostics)
 for a given file.
 
+See [MCP Tools List](mcptools-list.md) for the complete list.
+
 ## MCP Settings
 
 The integrated PHP MCP server is configured with the following settings:
 
-- `php.mcp.enable` — enables or disables the MCP server.
-- `php.mcp.serverPort` — TCP port the MCP server listens on; must be unique
-for every workspace opened at the same time (for example `58372`).
+- `php.mcp.enable` — enables or disables the MCP server. `True` by default.
+- `php.mcp.serverPort` — **optional:** Overriding this setting only makes sense, if you want to connect the built-in MCP server to another AI agent outside the VSCode's Copilot.  
+  The value is TCP port that the MCP server listens on. If set explicitly, it should be unique for every workspace opened at the same time (for example `58372`). By default it is `0` which means the server choses the port automatically.
 
 ## Call Tools without confirmation
 
