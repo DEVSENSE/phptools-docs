@@ -125,7 +125,7 @@ Eloquent query builder has full code completion including extensive generic type
 
 Code completion provides local-scoped functions out of the box, and `where` functions for model columns, without additional annotation or configuration needed.
 
-![eloquent where clausule](img/eloquent-where-function.png)
+![eloquent where clause](img/eloquent-where-function.png)
 
 **Eloquent model table columns** are resolved from (what's defined first):
 
